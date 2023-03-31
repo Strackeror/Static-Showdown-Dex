@@ -393,60 +393,6 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 			if (atLeastOne) buf += '</ul>';
 		}
 
-		// past gens
-		var pastGenChanges = false;
-		for (var genNum = Dex.gen - 1; genNum >= move.gen; genNum--) {
-			var nextGenMove = Dex.forGen(genNum + 1).moves.get(id);
-			var curGenMove = Dex.forGen(genNum).moves.get(id);
-			var changes = '';
-
-			var nextGenType = nextGenMove.type;
-			var curGenType = curGenMove.type;
-			if (curGenType !== nextGenType) {
-				changes += 'Type: ' + curGenType + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenType + '<br />';
-			}
-
-			var nextGenBP = nextGenMove.basePower;
-			var curGenBP = curGenMove.basePower;
-			if (curGenBP !== nextGenBP) {
-				changes += 'Base power: ' + curGenBP + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenBP + '<br />';
-			}
-
-			var nextGenPP = nextGenMove.pp;
-			var curGenPP = curGenMove.pp;
-			if (curGenPP !== nextGenPP) {
-				changes += 'PP: ' + curGenPP + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenPP + '<br />';
-			}
-
-			var nextGenAcc = nextGenMove.accuracy;
-			var curGenAcc = curGenMove.accuracy;
-			if (curGenAcc !== nextGenAcc) {
-				var curGenAccText = (curGenAcc === true ? 'nevermiss' : curGenAcc + '%');
-				var nextGenAccText = (nextGenAcc === true ? 'nevermiss' : nextGenAcc + '%');
-				changes += 'Accuracy: ' + curGenAccText + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAccText + '<br />';
-			}
-
-			var nextGenCat = nextGenMove.category;
-			var curGenCat = curGenMove.category;
-			if (curGenCat !== nextGenCat) {
-				changes += 'Category: ' + curGenCat + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenCat + '<br />';
-			}
-
-			var nextGenDesc = nextGenMove.shortDesc;
-			var curGenDesc = curGenMove.shortDesc;
-			if (curGenDesc !== nextGenDesc) {
-				changes += curGenDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenDesc + '<br />';
-			}
-
-			if (changes) {
-				if (!pastGenChanges) buf += '<h3>Past gens</h3><dl>';
-				buf += '<dt>Gen ' + genNum + ' <i class="fa fa-arrow-right"></i> ' + (genNum + 1) + ':</dt>';
-				buf += '<dd>' + changes + '</dd>';
-				pastGenChanges = true;
-			}
-		}
-		if (pastGenChanges) buf += '</dl>';
-
 		// distribution
 		buf += '<ul class="utilichart metricchart nokbd">';
 		buf += '</ul>';
@@ -504,13 +450,13 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		var last = '';
 		for (var i=0; i<results.length; i++) {
 			if (results[i].charAt(0) !== last) {
-				results.splice(i, 0, results[i].charAt(0).toUpperCase());
-				i++;
-			}
-			last = results[i].charAt(0);
-		}
+        results.splice(i, 0, results[i].charAt(0).toUpperCase());
+        i++;
+      }
+      last = results[i].charAt(0);
+    }
 		return this.results = results;
-	},
+  },
 	renderDistribution: function() {
 		var results = this.getDistribution();
 		this.$chart = this.$('.utilichart');

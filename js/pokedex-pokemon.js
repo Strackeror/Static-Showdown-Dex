@@ -205,50 +205,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			buf += '<div style="clear:left"></div>';
 		}
 
-		// past gens
-		var pastGenChanges = false;
-		for (var genNum = Dex.gen - 1; genNum >= pokemon.gen; genNum--) {
-			var nextGenSpecies = Dex.forGen(genNum + 1).species.get(id);
-			var curGenSpecies = Dex.forGen(genNum).species.get(id);
-			var changes = '';
-
-			var nextGenTypes = nextGenSpecies.types.join('/');
-			var curGenTypes = curGenSpecies.types.join('/');
-			if (curGenTypes !== nextGenTypes) {
-				changes += 'Type: ' + curGenTypes + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenTypes + '<br />';
-			}
-
-			var nextGenAbility = nextGenSpecies.abilities['0'];
-			var curGenAbility = curGenSpecies.abilities['0'];
-			if (curGenAbility !== nextGenAbility && curGenAbility !== 'No Ability') {
-				changes += 'Ability: ' + curGenAbility + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAbility + '<br />';
-			}
-
-			for (var i in BattleStatNames) {
-				if (genNum === 1 && (i === 'spa' || i === 'spd')) continue;
-				var nextGenStat = nextGenSpecies.baseStats[i];
-				var curGenStat = curGenSpecies.baseStats[i];
-				if (curGenStat !== nextGenStat) {
-					changes += BattleStatNames[i] + ': ' + curGenStat + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenStat + '<br />';
-				}
-			}
-
-			if (genNum === 1 && pokemon.num > 0 && pokemon.num <= 151 && !pokemon.forme) {
-				var nextGenSpA = nextGenSpecies.baseStats['spa'];
-				var nextGenSpD = nextGenSpecies.baseStats['spd'];
-				var curGenSpc = curGenSpecies.baseStats['spa'];
-				changes += '' + curGenSpc + ' Spc <i class="fa fa-long-arrow-right"></i> ' + nextGenSpA + ' SpA, ' + nextGenSpD + ' SpD<br />';
-			}
-
-			if (changes) {
-				if (!pastGenChanges) buf += '<h3>Past gens</h3><dl>';
-				buf += '<dt>Gen ' + genNum + ' <i class="fa fa-arrow-right"></i> ' + (genNum + 1) + ':</dt>';
-				buf += '<dd>' + changes + '</dd>';
-				pastGenChanges = true;
-			}
-		}
-		if (pastGenChanges) buf += '</dl>';
-
 		// learnset
 		if (window.BattleLearnsets && BattleLearnsets[id] && BattleLearnsets[id].eventData) {
 			buf += '<ul class="tabbar"><li><button class="button nav-first cur" value="move">Moves</button></li><li><button class="button" value="details">Flavor</button></li><li><button class="button nav-last" value="events">Events</button></li></ul>';
@@ -263,32 +219,6 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			learnset = BattleLearnsets[toID(pokemon.baseSpecies)].learnset;
 		}
 
-		/** The most recent generation this pokemon has appeared in */
-		var mostRecentGen = Dex.gen;
-		var pastGenPoke = pokemon;
-		for (; mostRecentGen>7; mostRecentGen--) {
-			if (pastGenPoke.isNonstandard !== 'Past') break;
-			pastGenPoke = Dex.forGen(mostRecentGen - 1).species.get(pastGenPoke.id);
-		}
-		var moves = [];
-		for (var moveid in learnset) {
-			var sources = learnset[moveid];
-			if (typeof sources === 'string') sources = [sources];
-			for (var i=0, len=sources.length, genL = ''+mostRecentGen+'L'; i<len; i++) {
-				var source = sources[i];
-				if (source.substr(0,2) === genL) {
-					moves.push('a'+source.substr(2).padStart(3,'0')+' '+moveid);
-				}
-			}
-		}
-		moves.sort();
-		for (var i=0, len=moves.length; i<len; i++) {
-			var move = BattleMovedex[moves[i].substr(5)];
-			if (move) {
-				var desc = moves[i].substr(1,3) === '001' || moves[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(parseInt(moves[i].substr(1,3),10)||'?');
-				buf += BattleSearch.renderTaggedMoveRow(move, desc);
-			}
-		}
 		buf += '</ul>';
 
 		buf += '</div>';

@@ -29,26 +29,6 @@ var PokedexItemPanel = PokedexResultPanel.extend({
 		buf += '<h1><span class="itemicon" style="'+Dex.getItemIcon(item)+'"></span> <a href="/items/'+id+'" data-target="push" class="subtle">'+item.name+'</a></h1>';
 		buf += '<p>'+Dex.escapeHTML(item.desc||item.shortDesc)+'</p>';
 
-		// past gens
-		var pastGenChanges = false;
-		for (var genNum = Dex.gen - 1; genNum >= item.gen; genNum--) {
-			var nextGenItem = Dex.forGen(genNum + 1).items.get(id);
-			var curGenItem = Dex.forGen(genNum).items.get(id);
-			var changes = '';
-
-			if (curGenItem.shortDesc !== nextGenItem.shortDesc) {
-				changes += curGenItem.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenItem.shortDesc + '<br />';
-			}
-
-			if (changes) {
-				if (!pastGenChanges) buf += '<h3>Past gens</h3><dl>';
-				buf += '<dt>Gen ' + genNum + ' <i class="fa fa-arrow-right"></i> ' + (genNum + 1) + ':</dt>';
-				buf += '<dd>' + changes + '</dd>';
-				pastGenChanges = true;
-			}
-		}
-		if (pastGenChanges) buf += '</dl>';
-
 		buf += '</div>';
 
 		this.html(buf);
@@ -68,26 +48,6 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 		if (ability.isNonstandard && ability.id !== 'noability') buf += '<div class="warning"><strong>Note:</strong> This is a made-up ability by <a href="http://www.smogon.com/cap/" target="_blank">Smogon CAP</a>.</div>';
 
 		buf += '<p>'+Dex.escapeHTML(ability.desc)+'</p>';
-
-		// past gens
-		var pastGenChanges = false;
-		for (var genNum = Dex.gen - 1; genNum >= ability.gen; genNum--) {
-			var nextGenAbility = Dex.forGen(genNum + 1).abilities.get(id);
-			var curGenAbility = Dex.forGen(genNum).abilities.get(id);
-			var changes = '';
-
-			if (curGenAbility.shortDesc !== nextGenAbility.shortDesc) {
-				changes += curGenAbility.shortDesc + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAbility.shortDesc + '<br />';
-			}
-
-			if (changes) {
-				if (!pastGenChanges) buf += '<h3>Past gens</h3><dl>';
-				buf += '<dt>Gen ' + genNum + ' <i class="fa fa-arrow-right"></i> ' + (genNum + 1) + ':</dt>';
-				buf += '<dd>' + changes + '</dd>';
-				pastGenChanges = true;
-			}
-		}
-		if (pastGenChanges) buf += '</dl>';
 
 		// pokemon
 		buf += '<h3>Pok&eacute;mon with this ability</h3>';
