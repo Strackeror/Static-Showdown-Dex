@@ -1,7 +1,9 @@
 import { execSync } from "child_process";
+import { argv } from "process";
 
-execSync("rm -rf dist/*");
-execSync("mkdir -p dist");
+let dest = argv[2];
+
+execSync(`mkdir -p ${dest}`);
 for (let folder of [
   "data",
   "js",
@@ -11,5 +13,5 @@ for (let folder of [
   "index.html",
   "favicon.ico",
 ]) {
-  execSync(`cp -rf ${folder} dist/`);
+  execSync(`cp -rf ${folder} ${dest}/`);
 }
