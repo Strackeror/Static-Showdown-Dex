@@ -1,5 +1,6 @@
 /dist
-/index.php
+/data/search-index.js
+/data/teambuilder-tables.js
 /.articles-cached
 /config/config.js
 node_modules
