@@ -4,7 +4,8 @@
   "description": "Pokémon Showdown Dex ========================================================================",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "ts-node build/build-indexes.ts && ts-node build/dist.ts dist"
   },
   "author": "",
   "license": "MIT",
