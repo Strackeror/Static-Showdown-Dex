@@ -837,3 +837,5 @@ var PokedexArticlePanel = PokedexResultPanel.extend({
 		});
 	}
 });
+
+patch(BattleAbilities, BattleLearnsets, BattleMovedex, BattlePokedex)

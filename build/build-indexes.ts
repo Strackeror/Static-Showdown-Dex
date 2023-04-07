@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 import * as fs from "fs";
 import * as path from "path";
+
 import { BattleAbilities } from "../data/abilities";
 import { BattleItems } from "../data/items";
 import { BattleMovedex } from "../data/moves";
 import { BattlePokedex } from "../data/pokedex";
 import { BattleTypeChart } from "../data/typechart";
 import { BattleLearnsets } from "../data/learnsets";
+import { patch } from "../data/data-patches"
 
 const Dex = {
 	data: {
@@ -18,6 +20,8 @@ const Dex = {
 		Learnsets: BattleLearnsets,
 	}
 }
+
+patch(BattleAbilities, BattleLearnsets, BattleMovedex, BattlePokedex)
 
 
 const rootDir = path.resolve(__dirname, '..');
