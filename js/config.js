@@ -1,7 +1,7 @@
 var Config = Config || {};
 
 /* version */ 
-Config.root = "/Static-Showdown-Dex"
+Config.baseurl = "/Static-Showdown-Dex/"
 
 /*** Begin automatically generated configuration ***/
 Config.version = "0.11.2 (fc00e682)";

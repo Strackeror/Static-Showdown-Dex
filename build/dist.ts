@@ -1,5 +1,5 @@
 import { execSync } from "child_process";
-import { argv } from "process";
+import { argv, exitCode } from "process";
 
 let dest = argv[2];
 
@@ -16,3 +16,4 @@ for (let folder of [
 ]) {
   execSync(`cp -rf ${folder} ./${dest}/`);
 }
+execSync(`cp index.html ./${dest}/404.html`)
