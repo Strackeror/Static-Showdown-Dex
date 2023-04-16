@@ -1,6 +1,10 @@
 {
+  "include": [
+    "build/**/*"
+  ],
   "compilerOptions": {
+    "sourceMap": true,
     "target": "ES2022",
-    "allowJs": true,
+    "moduleResolution": "nodenext",
   }
 }
