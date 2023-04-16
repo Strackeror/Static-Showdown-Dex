@@ -2,12 +2,16 @@
 import * as fs from "fs";
 import * as path from "path";
 
-import { Dex, Learnset } from "@pkmn/dex";
-import { Generations } from "@pkmn/data";
+import { ModdedDex, Dex, Learnset } from "@pkmn/dex";
+import { Generation, Generations } from "@pkmn/data";
+import { Data } from "./mod-data";
 
 
-const BASE_GEN = 7
-let generation = new Generations(Dex).get(BASE_GEN)
+const BASE_GEN = 9;
+
+let dex = new ModdedDex(`gen${BASE_GEN}`);
+dex.loadData(Data)
+let generation = new Generation(dex, Generations.DEFAULT_EXISTS)
 
 const rootDir = path.resolve(__dirname, '..');
 process.chdir(rootDir);
@@ -96,8 +100,10 @@ const allItems = Object.fromEntries([...generation.items].map(m => [m.id, m]));
 	index[index.indexOf('psychic type')] = 'psychic move';
 	index[index.indexOf('psychic move')] = 'psychic type';
 
-	index[index.indexOf('ditto pokemon')] = 'ditto egggroup';
-	index[index.indexOf('ditto egggroup')] = 'ditto pokemon';
+  if (generation.species.get("ditto")) {
+  	index[index.indexOf('ditto pokemon')] = 'ditto egggroup';
+  	index[index.indexOf('ditto egggroup')] = 'ditto pokemon';
+  }
 
 
 	let BattleSearchIndex = index.map(x => {
