@@ -5,12 +5,14 @@ import * as path from "path";
 import { ModdedDex, Dex, Learnset } from "@pkmn/dex";
 import { Generation, Generations } from "@pkmn/data";
 import { Data } from "./mod-data";
+import { patch } from "./mod-patches";
 
 
-const BASE_GEN = 9;
+const BASE_GEN = 7;
 
-let dex = new ModdedDex(`gen${BASE_GEN}`);
-dex.loadData(Data)
+patch(Data)
+let dex = new ModdedDex(`gen${BASE_GEN}`, Data);
+dex.data.Aliases = {}
 let generation = new Generation(dex, Generations.DEFAULT_EXISTS)
 
 const rootDir = path.resolve(__dirname, '..');
