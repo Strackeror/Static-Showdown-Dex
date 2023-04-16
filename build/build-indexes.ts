@@ -3,11 +3,10 @@ import * as fs from "fs";
 import * as path from "path";
 
 import { Dex, Learnset } from "@pkmn/dex";
-import { Generation, Generations } from "@pkmn/data";
+import { Generations } from "@pkmn/data";
 
 
-const BASE_GEN = 6
-
+const BASE_GEN = 7
 let generation = new Generations(Dex).get(BASE_GEN)
 
 const rootDir = path.resolve(__dirname, '..');
@@ -33,7 +32,7 @@ const allSpecies = Object.fromEntries(
     .map((s) => [s.id, s] as const)
 );
 const allMoves = Object.fromEntries([...generation.moves].map(m => [m.id, m]));
-const allAbilities = Object.fromEntries([...generation.abilities].map(a => [a.id,]))
+const allAbilities = Object.fromEntries([...generation.abilities].map(a => [a.id,a]))
 const allTypes = Object.fromEntries([...generation.types].map(m => [m.id, m]));
 const allItems = Object.fromEntries([...generation.items].map(m => [m.id, m]));
 
@@ -75,217 +74,6 @@ const allItems = Object.fromEntries([...generation.items].map(m => [m.id, m]));
 	}
 	index.push('pokemon article');
 	index.push('moves article');
-
-	// generate aliases
-	function generateAlias(id: string, name: string, type: string) {
-    let i = name.lastIndexOf(" ");
-    if (i < 0) i = name.lastIndexOf("-");
-    if (name.endsWith("-Mega-X") || name.endsWith("-Mega-Y")) {
-      index.push(
-        "mega" +
-          toID(name.slice(0, -7) + name.slice(-1)) +
-          " " +
-          type +
-          " " +
-          id +
-          " 0"
-      );
-      index.push(
-        "m" +
-          toID(name.slice(0, -7) + name.slice(-1)) +
-          " " +
-          type +
-          " " +
-          id +
-          " 0"
-      );
-      index.push(
-        "mega" +
-          toID(name.slice(-1)) +
-          " " +
-          type +
-          " " +
-          id +
-          " " +
-          toID(name.slice(0, -7)).length
-      );
-      return;
-    }
-    if (name.endsWith("-Mega")) {
-      index.push(
-        "mega" + toID(name.slice(0, -5)) + " " + type + " " + id + " 0"
-      );
-      index.push("m" + toID(name.slice(0, -5)) + " " + type + " " + id + " 0");
-      return;
-    }
-    if (name.endsWith("-Alola")) {
-      index.push(
-        "alolan" + toID(name.slice(0, -6)) + " " + type + " " + id + " 0"
-      );
-      return;
-    }
-    let oldI = i;
-    if (name === "Alakazam") i = 5;
-    if (name === "Arctovish") i = 5;
-    if (name === "Arctozolt") i = 5;
-    if (name === "Articuno") i = 5;
-    if (name === "Breloom") i = 3;
-    if (name === "Bronzong") i = 4;
-    if (name === "Celebi") i = 4;
-    if (name === "Charizard") i = 5;
-    if (name === "Donphan") i = 3;
-    if (name === "Dracovish") i = 5;
-    if (name === "Dracozolt") i = 5;
-    if (name === "Dragapult") i = 5;
-    if (name === "Dusclops") i = 3;
-    if (name === "Electabuzz") i = 6;
-    if (name === "Exeggutor") i = 2;
-    if (name === "Garchomp") i = 3;
-    if (name === "Hariyama") i = 4;
-    if (name === "Magearna") i = 2;
-    if (name === "Magnezone") i = 5;
-    if (name === "Mamoswine") i = 4;
-    if (name === "Moltres") i = 3;
-    if (name === "Nidoking") i = 4;
-    if (name === "Nidoqueen") i = 4;
-    if (name === "Nidorina") i = 4;
-    if (name === "Nidorino") i = 4;
-    if (name === "Regice") i = 3;
-    if (name === "Regidrago") i = 4;
-    if (name === "Regieleki") i = 4;
-    if (name === "Regigigas") i = 4;
-    if (name === "Regirock") i = 4;
-    if (name === "Registeel") i = 4;
-    if (name === "Slowbro") i = 4;
-    if (name === "Slowking") i = 4;
-    if (name === "Starmie") i = 4;
-    if (name === "Tyranitar") i = 6;
-    if (name === "Zapdos") i = 3;
-
-    if (name === "Acupressure") i = 3;
-    if (name === "Aromatherapy") i = 5;
-    if (name === "Boomburst") i = 4;
-    if (name === "Crabhammer") i = 4;
-    if (name === "Discharge") i = 3;
-    if (name === "Earthquake") i = 5;
-    if (name === "Extrasensory") i = 5;
-    if (name === "Flamethrower") i = 5;
-    if (name === "Headbutt") i = 4;
-    if (name === "Moonblast") i = 4;
-    if (name === "Moonlight") i = 4;
-    if (name === "Overheat") i = 4;
-    if (name === "Outrage") i = 3;
-    if (name === "Octazooka") i = 4;
-    if (name === "Payback") i = 3;
-    if (name === "Psyshock") i = 3;
-    if (name === "Psywave") i = 3;
-    if (name === "Rototiller") i = 4;
-    if (name === "Rollout") i = 4;
-    if (name === "Safeguard") i = 4;
-    if (name === "Sandstorm") i = 4;
-    if (name === "Smokescreen") i = 5;
-    if (name === "Stockpile") i = 5;
-    if (name === "Steamroller") i = 5;
-    if (name === "Superpower") i = 5;
-    if (name === "Supersonic") i = 5;
-    if (name === "Synchronoise") i = 7;
-    if (name === "Tailwind") i = 4;
-    if (name === "Telekinesis") i = 4;
-    if (name === "Teleport") i = 4;
-    if (name === "Thunderbolt") i = 7;
-    if (name === "Twineedle") i = 3;
-    if (name === "Uproar") i = 2;
-    if (name === "Venoshock") i = 4;
-    if (name === "Whirlpool") i = 5;
-    if (name === "Whirlwind") i = 5;
-    let acronym;
-    if (oldI < 0 && i > 0) {
-      acronym = toID(name.charAt(0) + name.slice(i));
-    }
-    if (i < 0) return;
-    index.push(
-      "" +
-        toID(name.slice(i)) +
-        " " +
-        type +
-        " " +
-        id +
-        " " +
-        toID(name.slice(0, i)).length
-    );
-    if (name.startsWith("Hidden Power ")) {
-      acronym = "hp" + toID(name.substr(13));
-      index.push("" + acronym + " " + type + " " + id + " 0");
-    } else if (name === "Hidden Power") {
-      index.push("hp " + type + " " + id + " 0");
-    } else if (name.includes(" ")) {
-      acronym = toID(
-        name
-          .split(" ")
-          .map((x, i) => (i !== 0 ? x : x.charAt(0)))
-          .join("")
-      );
-    } else if (name.includes("-") && name.charAt(1) !== "-") {
-      acronym = toID(
-        name
-          .split("-")
-          .map((x, i) => (i !== 0 ? x : x.charAt(0)))
-          .join("")
-      );
-    }
-    if (acronym) {
-      index.push("" + acronym + " " + type + " " + id + " 0");
-    }
-    if (name === "High Jump Kick") {
-      index.push("hjkick " + type + " " + id + " 0");
-    } else if (name === "Wake-Up Slap") {
-      index.push("wuslap " + type + " " + id + " 0");
-      index.push("wupslap " + type + " " + id + " 0");
-    } else if (name === "Zen Headbutt") {
-      index.push("zhbutt " + type + " " + id + " 0");
-    } else if (name === "Articuno") {
-      index.push("cuno " + type + " " + id + " 4");
-    }
-
-    let i2 = name.lastIndexOf(" ", i - 1);
-    if (i2 < 0) i2 = name.lastIndexOf("-", i - 1);
-    if (name === "Zen Headbutt") i2 = 8;
-    if (i2 >= 0) {
-      index.push(
-        "" +
-          toID(name.slice(i2)) +
-          " " +
-          type +
-          " " +
-          id +
-          " " +
-          toID(name.slice(0, i2)).length
-      );
-    }
-  }
-	for (const specie of generation.species) {
-		let name = specie.name;
-		let id = toID(specie.name);
-		generateAlias(id, name, 'pokemon');
-	}
-
-	for (const move of generation.moves) {
-		let name = move.name;
-		let id = toID(move.name);
-		generateAlias(id, name, 'move');
-	}
-
-	for (const ability of generation.abilities) {
-		let name = ability.name;
-		let id = toID(ability.name);
-		generateAlias(id, name, 'ability');
-	}
-	
-	for (const item of generation.items) {
-		let name = item.name;
-		let id = toID(item.name);
-		generateAlias(id, name, 'item');
-	}
 
 	index.sort();
 
@@ -399,49 +187,11 @@ async function teambuilderTables() {
     learnsets: {},
   };
 
-  for (let i = 8; i > 0; --i) {
-    BattleTeambuilderTable[`gen${i}`] = {
-      overrideTier: {},
-      tiers: [],
-      items: [],
-      formatSlices: {},
-      zuBans: {},
-      monotypeBans: {},
-      overrideSpeciesData: {},
-      overrideMoveData: {},
-      overrideAbilityData: {},
-      overrideItemDesc: {},
-      overrideTypeChart: {},
-      removeType: {},
-    };
-  }
-
   let buf =
     "// DO NOT EDIT - automatically built with build-tools/build-indexes\n\n";
   //
   // Learnset table
   //
-
-  const gen3HMs = new Set([
-    "cut",
-    "fly",
-    "surf",
-    "strength",
-    "flash",
-    "rocksmash",
-    "waterfall",
-    "dive",
-  ]);
-  const gen4HMs = new Set([
-    "cut",
-    "fly",
-    "surf",
-    "strength",
-    "rocksmash",
-    "waterfall",
-    "rockclimb",
-  ]);
-
   const learnsets = {};
   BattleTeambuilderTable.learnsets = learnsets;
   for (const id in allSpecies) {
@@ -449,53 +199,7 @@ async function teambuilderTables() {
     if (!learnset) continue;
     learnsets[id] = {};
     for (const moveid in learnset.learnset) {
-      const gens = learnset.learnset[moveid].map((x) => Number(x[0]));
-      const minGen = Math.min(...gens);
-
-      if (minGen <= 4 && (gen3HMs.has(moveid) || gen4HMs.has(moveid))) {
-        let legalGens = "";
-        let available = false;
-
-        if (minGen === 3) {
-          legalGens += "3";
-          available = true;
-        }
-        if (available) available = !gen3HMs.has(moveid);
-
-        if (available || gens.includes(4)) {
-          legalGens += "4";
-          available = true;
-        }
-        if (available) available = !gen4HMs.has(moveid);
-
-        let minUpperGen = available
-          ? 5
-          : Math.min(...gens.filter((gen) => gen > 4));
-        legalGens += "0123456789".slice(minUpperGen);
-        learnsets[id][moveid] = legalGens;
-      } else {
-        learnsets[id][moveid] = "0123456789".slice(minGen);
-      }
-
-      if (gens.indexOf(6) >= 0) learnsets[id][moveid] += "p";
-      if (
-        gens.indexOf(7) >= 0 &&
-        learnset.learnset[moveid].some((x) => x[0] === "7" && x !== "7V")
-      ) {
-        learnsets[id][moveid] += "q";
-      }
-      if (
-        gens.indexOf(8) >= 0 &&
-        learnset.learnset[moveid].some((x) => x[0] === "8" && x !== "8V")
-      ) {
-        learnsets[id][moveid] += "g";
-      }
-      if (
-        gens.indexOf(9) >= 0 &&
-        learnset.learnset[moveid].some((x) => x[0] === "9" && x !== "9V")
-      ) {
-        learnsets[id][moveid] += "a";
-      }
+      learnsets[id][moveid] = "9a";
     }
   }
 
@@ -572,8 +276,7 @@ process.stdout.write("Building `data/moves,items,abilities,typechart,learnsets.j
  *********************************************************/
 
 {
-	const Aliases = Dex.data.Aliases;
-	const buf = 'exports.BattleAliases = ' + es3stringify(Aliases) + ';';
+	const buf = 'exports.BattleAliases = {};';
 	fs.writeFileSync('data/aliases.js', buf);
 }
 
@@ -588,10 +291,14 @@ async function buildLearnsets() {
 		if (learnset.learnset) {
       let learnsetMoves = { ...learnset.learnset };
       for (let moveId in learnsetMoves) {
-        learnsetMoves[moveId] = learnsetMoves[moveId].filter(
-          (l) => Number(l[0]) <= BASE_GEN
+        let curGen = learnsetMoves[moveId].find(
+          (m) => Number(m[0]) == BASE_GEN
         );
-				if (learnsetMoves[moveId].length == 0) delete learnsetMoves[moveId];
+        if (curGen) {
+          learnsetMoves[moveId] = ["9" + curGen.slice(1)];
+        } else {
+          delete learnsetMoves[moveId];
+        }
       }
       learnset.learnset = learnsetMoves;
     }
