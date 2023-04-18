@@ -2,7 +2,7 @@
 import * as fs from "fs";
 import * as path from "path";
 
-import { ModdedDex, Dex, Learnset } from "@pkmn/dex";
+import { ModdedDex, Dex, Learnset, Data as DexData } from "@pkmn/dex";
 import { Generation, Generations } from "@pkmn/data";
 import { Data } from "./mod-data";
 
@@ -11,7 +11,30 @@ const BASE_GEN = 9;
 
 let dex = new ModdedDex(`gen${BASE_GEN}`);
 dex.loadData(Data)
-let generation = new Generation(dex, Generations.DEFAULT_EXISTS)
+
+function nationalDexExists(d: DexData) {
+	if (Generations.DEFAULT_EXISTS(d)) return true;
+	if ('isNonstandard' in d) {
+		return d.isNonstandard == "Past";
+	}
+	return false;
+}
+
+function getLatestLearnset(learnsetData: Learnset) {
+	for (let i = BASE_GEN; i > 0; --i) {
+		let genLearnset = {...learnsetData.learnset};
+		for (let moveId in genLearnset) {
+			genLearnset[moveId] = genLearnset[moveId].filter(m => Number(m[0]) == i);
+			if (genLearnset[moveId].length == 0) delete genLearnset[moveId];
+		}
+		if (Object.keys(genLearnset).length > 0) {
+			return genLearnset;
+		}
+	}
+	return {};
+}
+
+let generation = new Generation(dex, nationalDexExists)
 
 const rootDir = path.resolve(__dirname, '..');
 process.chdir(rootDir);
@@ -201,12 +224,12 @@ async function teambuilderTables() {
   const learnsets = {};
   BattleTeambuilderTable.learnsets = learnsets;
   for (const id in allSpecies) {
-    const learnset = await generation.learnsets.get(id);
-    if (!learnset) continue;
-    learnsets[id] = {};
-    for (const moveid in learnset.learnset) {
-      learnsets[id][moveid] = "9a";
-    }
+    const learnsetData = await generation.learnsets.get(id);
+    if (!learnsetData) continue;
+		learnsets[id] = {}
+		for (const moveId in getLatestLearnset(learnsetData)) {
+			learnsets[id][moveId] = "9a";
+		}
   }
 
   buf += `exports.BattleTeambuilderTable = ${es3stringify(
@@ -227,6 +250,9 @@ process.stdout.write("Building `data/pokedex.js`... ");
 	let dex = {};
 	for (const id in allSpecies) {
 		let entry = {...allSpecies[id]}
+		if (entry.isNonstandard == "Past") {
+			delete entry.isNonstandard;
+		}
 		delete entry.exists;
 		delete entry.dex;
 		dex[id] = entry;
@@ -293,22 +319,17 @@ process.stdout.write("Building `data/moves,items,abilities,typechart,learnsets.j
 async function buildLearnsets() {
 	const Learnsets: {[id: string]: Learnset} = {};
 	for (let species in allSpecies) {
-		let learnset = {...await generation.learnsets.get(species)}
-		if (learnset.learnset) {
-      let learnsetMoves = { ...learnset.learnset };
-      for (let moveId in learnsetMoves) {
-        let curGen = learnsetMoves[moveId].find(
-          (m) => Number(m[0]) == BASE_GEN
-        );
-        if (curGen) {
-          learnsetMoves[moveId] = ["9" + curGen.slice(1)];
-        } else {
-          delete learnsetMoves[moveId];
-        }
-      }
-      learnset.learnset = learnsetMoves;
-    }
-		Learnsets[species] = learnset
+		let learnsetData = {...await generation.learnsets.get(species)}
+		if (!learnsetData) continue;
+
+		let latestLearnset = getLatestLearnset(learnsetData);
+		learnsetData.learnset = {}
+		for (let moveId in latestLearnset) {
+			learnsetData.learnset[moveId] = [
+        ...latestLearnset[moveId].map((m) => "9" + m.slice(1)),
+      ];
+		}
+		Learnsets[species] = learnsetData
 	}
 	const buf = 'exports.BattleLearnsets = ' + es3stringify(Learnsets) + ';';
 	fs.writeFileSync('data/learnsets.js', buf);
