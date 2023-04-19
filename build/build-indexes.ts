@@ -2,16 +2,14 @@
 import * as fs from "fs";
 import * as path from "path";
 
-import { ModdedDex, Dex, Learnset } from "@pkmn/dex";
+import { ModdedDex, Dex, Learnset, ModData } from "@pkmn/dex";
 import { Generation, Generations } from "@pkmn/data";
-import { Data } from "./mod-data";
-import { patch } from "./mod-patches";
 
 
 const BASE_GEN = 7;
 
-patch(Data)
-let dex = new ModdedDex(`gen${BASE_GEN}`, Data);
+let data: ModData = JSON.parse(fs.readFileSync("build/mod-data.json").toString());
+let dex = new ModdedDex(`gen${BASE_GEN}`, data);
 dex.data.Aliases = {}
 let generation = new Generation(dex, Generations.DEFAULT_EXISTS)
 
