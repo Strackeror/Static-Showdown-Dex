@@ -2,15 +2,15 @@
 import * as fs from "fs";
 import * as path from "path";
 
-import { ModdedDex, Dex, Learnset, Data as DexData } from "@pkmn/dex";
+import { ModdedDex, Dex, Learnset, Data as DexData, ModData } from "@pkmn/dex";
 import { Generation, Generations } from "@pkmn/data";
-import { Data } from "./mod-data";
 
 
 const BASE_GEN = 9;
 
-let dex = new ModdedDex(`gen${BASE_GEN}`);
-dex.loadData(Data)
+let data: ModData | undefined = JSON.parse(fs.readFileSync("./build/mod-data.json").toString());
+if (Object.keys(data).length == 0) data = undefined;
+let dex = new ModdedDex(`gen${BASE_GEN}`, data);
 
 function nationalDexExists(d: DexData) {
 	if (Generations.DEFAULT_EXISTS(d)) return true;
