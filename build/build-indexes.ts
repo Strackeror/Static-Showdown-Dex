@@ -35,7 +35,7 @@ function getLatestLearnset(learnsetData: Learnset) {
 	return {};
 }
 
-let generation = new Generation(dex, nationalDexExists)
+let generation = new Generation(dex, Generations.DEFAULT_EXISTS)
 
 const rootDir = path.resolve(__dirname, '..');
 process.chdir(rootDir);
