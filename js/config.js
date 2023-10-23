@@ -13,4 +13,5 @@ Config.routes = {
 	replays: 'replay.pokemonshowdown.com',
 	users: 'pokemonshowdown.com/users',
 };
+
 /*** End automatically generated configuration ***/

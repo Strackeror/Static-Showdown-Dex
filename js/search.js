@@ -108,9 +108,9 @@
 		var buf = '<p>Filters: ';
 		for (var i = 0; i < this.filters.length; i++) {
 			var text = this.filters[i][1];
-			if (this.filters[i][0] === 'move') text = Dex.moves.get(text).name;
-			if (this.filters[i][0] === 'pokemon') text = Dex.species.get(text).name;
-			buf += '<button class="filter" value="' + BattleLog.escapeHTML(this.filters[i].join(':')) + '">' + text + ' <i class="fa fa-times-circle"></i></button> ';
+			if (this.filters[i][0] === 'move') text = getID(BattleMovedex, text).name;
+			if (this.filters[i][0] === 'pokemon') text = getID(BattlePokedex, text).name;
+			buf += '<button class="filter" value="' + escapeHTML(this.filters[i].join(':')) + '">' + text + ' <i class="fa fa-times-circle"></i></button> ';
 		}
 		if (!q) buf += '<small style="color: #888">(backspace = delete filter)</small>';
 		return buf + '</p>';
@@ -197,16 +197,16 @@
 		case 'sortmove':
 			return this.renderMoveSortRow();
 		case 'pokemon':
-			var pokemon = this.engine.dex.species.get(id);
+			var pokemon = getID(BattlePokedex, id);
 			return this.renderPokemonRow(pokemon, matchStart, matchLength, errorMessage, attrs);
 		case 'move':
-			var move = this.engine.dex.moves.get(id);
+			var move = getID(BattleMovedex, id);
 			return this.renderMoveRow(move, matchStart, matchLength, errorMessage, attrs);
 		case 'item':
-			var item = this.engine.dex.items.get(id);
+			var item = getID(BattleItems, id);
 			return this.renderItemRow(item, matchStart, matchLength, errorMessage, attrs);
 		case 'ability':
-			var ability = this.engine.dex.abilities.get(id);
+			var ability = getID(BattleAbilities, id);
 			return this.renderAbilityRow(ability, matchStart, matchLength, errorMessage, attrs);
 		case 'type':
 			var type = {name: id[0].toUpperCase() + id.substr(1)};
@@ -266,12 +266,8 @@
 		buf += '<button class="sortcol statsortcol' + (this.sortCol === 'hp' ? ' cur' : '') + '" data-sort="hp">HP</button>';
 		buf += '<button class="sortcol statsortcol' + (this.sortCol === 'atk' ? ' cur' : '') + '" data-sort="atk">Atk</button>';
 		buf += '<button class="sortcol statsortcol' + (this.sortCol === 'def' ? ' cur' : '') + '" data-sort="def">Def</button>';
-		if (this.engine.dex.gen >= 2) {
-			buf += '<button class="sortcol statsortcol' + (this.sortCol === 'spa' ? ' cur' : '') + '" data-sort="spa">SpA</button>';
-			buf += '<button class="sortcol statsortcol' + (this.sortCol === 'spd' ? ' cur' : '') + '" data-sort="spd">SpD</button>';
-		} else {
-			buf += '<button class="sortcol statsortcol' + (this.sortCol === 'spa' ? ' cur' : '') + '" data-sort="spa">Spc</button>';
-		}
+		buf += '<button class="sortcol statsortcol' + (this.sortCol === 'spa' ? ' cur' : '') + '" data-sort="spa">SpA</button>';
+		buf += '<button class="sortcol statsortcol' + (this.sortCol === 'spd' ? ' cur' : '') + '" data-sort="spd">SpD</button>';
 		buf += '<button class="sortcol statsortcol' + (this.sortCol === 'spe' ? ' cur' : '') + '" data-sort="spe">Spe</button>';
 		buf += '<button class="sortcol statsortcol' + (this.sortCol === 'bst' ? ' cur' : '') + '" data-sort="bst">BST</button>';
 		buf += '</div></li>';
@@ -293,16 +289,11 @@
 		if (!pokemon) return '<li class="result">Unrecognized pokemon</li>';
 		var id = toID(pokemon.name);
 		if (Search.urlRoot) attrs += ' href="' + Search.urlRoot + 'pokemon/' + id + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="pokemon|' + BattleLog.escapeHTML(pokemon.name) + '">';
-
-		// number
-		var tier = this.engine ? this.engine.getTier(pokemon) : pokemon.num;
-		// buf += '<span class="col numcol">' + (pokemon.num >= 0 ? pokemon.num : 'CAP') + '</span> ';
-		buf += '<span class="col numcol">' + tier + '</span> ';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="pokemon|' + escapeHTML(pokemon.name) + '">';
 
 		// icon
 		buf += '<span class="col iconcol">';
-		buf += '<span style="' + Dex.getPokemonIcon(pokemon.name) + '"></span>';
+		buf += '<span style="' + getPokemonIcon(pokemon.name) + '"></span>';
 		buf += '</span> ';
 
 		// name
@@ -331,45 +322,31 @@
 			return buf;
 		}
 
-		var gen = this.engine ? this.engine.dex.gen : 9;
 
 		// type
 		buf += '<span class="col typecol">';
 		var types = pokemon.types;
 		for (var i = 0; i < types.length; i++) {
-			buf += Dex.getTypeIcon(types[i]);
+			buf += getTypeIcon(types[i]);
 		}
 		buf += '</span> ';
-
-		// abilities
-		if (gen >= 3) {
-			var abilities = Dex.forGen(gen).species.get(id).abilities;
-			if (gen >= 5) {
-				if (abilities['1']) {
-					buf += '<span class="col twoabilitycol">' + abilities['0'] + '<br />' +
-						abilities['1'] + '</span>';
-				} else {
-					buf += '<span class="col abilitycol">' + abilities['0'] + '</span>';
-				}
-				var unreleasedHidden = pokemon.unreleasedHidden;
-				if (unreleasedHidden === 'Past' && (this.mod === 'natdex' || gen < 8)) unreleasedHidden = false;
-				if (abilities['S']) {
-					if (abilities['H']) {
-						buf += '<span class="col twoabilitycol' + (unreleasedHidden ? ' unreleasedhacol' : '') + '">' + (abilities['H'] || '') + '<br />(' + abilities['S'] + ')</span>';
-					} else {
-						buf += '<span class="col abilitycol">(' + abilities['S'] + ')</span>';
-					}
-				} else if (abilities['H']) {
-					buf += '<span class="col abilitycol' + (unreleasedHidden ? ' unreleasedhacol' : '') + '">' + abilities['H'] + '</span>';
-				} else {
-					buf += '<span class="col abilitycol"></span>';
-				}
-			} else {
-				buf += '<span class="col abilitycol">' + abilities['0'] + '</span>';
-				buf += '<span class="col abilitycol">' + (abilities['1'] ? abilities['1'] : '') + '</span>';
-			}
+		
+		var abilities = pokemon.abilities;
+		if (abilities['1']) {
+			buf += '<span class="col twoabilitycol">' + abilities['0'] + '<br />' +
+				abilities['1'] + '</span>';
 		} else {
-			buf += '<span class="col abilitycol"></span>';
+			buf += '<span class="col abilitycol">' + abilities['0'] + '</span>';
+		}
+		if (abilities['S']) {
+			if (abilities['H']) {
+				buf += '<span class="col twoabilitycol">' + (abilities['H'] || '') + '<br />(' + abilities['S'] + ')</span>';
+			} else {
+				buf += '<span class="col abilitycol">(' + abilities['S'] + ')</span>';
+			}
+		} else if (abilities['H']) {
+			buf += '<span class="col twoabilitycol">' + (abilities['H'] || '') + '<br />(' + abilities['S'] + ')</span>';
+		} else {
 			buf += '<span class="col abilitycol"></span>';
 		}
 
@@ -378,12 +355,8 @@
 		buf += '<span class="col statcol"><em>HP</em><br />' + stats.hp + '</span> ';
 		buf += '<span class="col statcol"><em>Atk</em><br />' + stats.atk + '</span> ';
 		buf += '<span class="col statcol"><em>Def</em><br />' + stats.def + '</span> ';
-		if (gen >= 2) {
-			buf += '<span class="col statcol"><em>SpA</em><br />' + stats.spa + '</span> ';
-			buf += '<span class="col statcol"><em>SpD</em><br />' + stats.spd + '</span> ';
-		} else {
-			buf += '<span class="col statcol"><em>Spc</em><br />' + stats.spa + '</span> ';
-		}
+		buf += '<span class="col statcol"><em>SpA</em><br />' + stats.spa + '</span> ';
+		buf += '<span class="col statcol"><em>SpD</em><br />' + stats.spd + '</span> ';
 		buf += '<span class="col statcol"><em>Spe</em><br />' + stats.spe + '</span> ';
 		var bst = 0;
 		for (i in stats) bst += stats[i];
@@ -396,14 +369,14 @@
 	Search.prototype.renderTaggedPokemonRowInner = function (pokemon, tag, errorMessage) {
 		var attrs = '';
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'pokemon/' + toID(pokemon.name) + '" data-target="push"';
-		var buf = '<a' + attrs + ' data-entry="pokemon|' + BattleLog.escapeHTML(pokemon.name) + '">';
+		var buf = '<a' + attrs + ' data-entry="pokemon|' + escapeHTML(pokemon.name) + '">';
 
 		// tag
 		buf += '<span class="col tagcol shorttagcol">' + tag + '</span> ';
 
 		// icon
 		buf += '<span class="col iconcol">';
-		buf += '<span style="' + Dex.getPokemonIcon(pokemon.name) + '"></span>';
+		buf += '<span style="' + getPokemonIcon(pokemon.name) + '"></span>';
 		buf += '</span> ';
 
 		// name
@@ -421,7 +394,7 @@
 		// type
 		buf += '<span class="col typecol">';
 		for (var i = 0; i < pokemon.types.length; i++) {
-			buf += Dex.getTypeIcon(pokemon.types[i]);
+			buf += getTypeIcon(pokemon.types[i]);
 		}
 		buf += '</span> ';
 
@@ -467,11 +440,11 @@
 		if (!item) return '<li class="result">Unrecognized item</li>';
 		var id = toID(item.name);
 		if (Search.urlRoot) attrs += ' href="' + Search.urlRoot + 'items/' + id + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="item|' + BattleLog.escapeHTML(item.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="item|' + escapeHTML(item.name) + '">';
 
 		// icon
 		buf += '<span class="col itemiconcol">';
-		buf += '<span style="' + Dex.getItemIcon(item) + '"></span>';
+		buf += '<span style="' + getItemIcon(item) + '"></span>';
 		buf += '</span> ';
 
 		// name
@@ -488,7 +461,7 @@
 		}
 
 		// desc
-		buf += '<span class="col itemdesccol">' + BattleLog.escapeHTML(item.shortDesc) + '</span> ';
+		buf += '<span class="col itemdesccol">' + escapeHTML(item.shortDesc) + '</span> ';
 
 		buf += '</a></li>';
 
@@ -499,7 +472,7 @@
 		if (!ability) return '<li class="result">Unrecognized ability</li>';
 		var id = toID(ability.name);
 		if (Search.urlRoot) attrs += ' href="' + Search.urlRoot + 'abilities/' + id + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="ability|' + BattleLog.escapeHTML(ability.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="ability|' + escapeHTML(ability.name) + '">';
 
 		// name
 		var name = ability.name;
@@ -514,7 +487,7 @@
 			return buf;
 		}
 
-		buf += '<span class="col abilitydesccol">' + BattleLog.escapeHTML(ability.shortDesc) + '</span> ';
+		buf += '<span class="col abilitydesccol">' + escapeHTML(ability.shortDesc) + '</span> ';
 
 		buf += '</a></li>';
 
@@ -525,7 +498,7 @@
 		if (!move) return '<li class="result">Unrecognized move</li>';
 		var id = toID(move.name);
 		if (Search.urlRoot) attrs += ' href="' + Search.urlRoot + 'moves/' + id + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="move|' + BattleLog.escapeHTML(move.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="move|' + escapeHTML(move.name) + '">';
 
 		// name
 		var name = move.name;
@@ -555,19 +528,18 @@
 
 		// type
 		buf += '<span class="col typecol">';
-		buf += Dex.getTypeIcon(move.type);
-		buf += Dex.getCategoryIcon(move.category);
+		buf += getTypeIcon(move.type);
+		buf += getCategoryIcon(move.category);
 		buf += '</span> ';
 
 		// power, accuracy, pp
 		var pp = (move.pp === 1 || move.noPPBoosts ? move.pp : move.pp * 8 / 5);
-		if (this.engine && this.engine.dex.gen < 3) pp = Math.min(61, pp);
 		buf += '<span class="col labelcol">' + (move.category !== 'Status' ? ('<em>Power</em><br />' + (move.basePower || '&mdash;')) : '') + '</span> ';
 		buf += '<span class="col widelabelcol"><em>Accuracy</em><br />' + (move.accuracy && move.accuracy !== true ? move.accuracy + '%' : '&mdash;') + '</span> ';
 		buf += '<span class="col pplabelcol"><em>PP</em><br />' + pp + '</span> ';
 
 		// desc
-		buf += '<span class="col movedesccol">' + BattleLog.escapeHTML(move.shortDesc) + '</span> ';
+		buf += '<span class="col movedesccol">' + escapeHTML(move.shortDesc) + '</span> ';
 
 		buf += '</a></li>';
 
@@ -576,7 +548,7 @@
 	Search.prototype.renderMoveRowInner = function (move, errorMessage) {
 		var attrs = '';
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'moves/' + toID(move.name) + '" data-target="push"';
-		var buf = '<a' + attrs + ' data-entry="move|' + BattleLog.escapeHTML(move.name) + '">';
+		var buf = '<a' + attrs + ' data-entry="move|' + escapeHTML(move.name) + '">';
 
 		// name
 		var name = move.name;
@@ -592,19 +564,18 @@
 
 		// type
 		buf += '<span class="col typecol">';
-		buf += Dex.getTypeIcon(move.type);
-		buf += Dex.getCategoryIcon(move.category);
+		buf += getTypeIcon(move.type);
+		buf += getCategoryIcon(move.category);
 		buf += '</span> ';
 
 		// power, accuracy, pp
 		var pp = (move.pp === 1 || move.noPPBoosts ? move.pp : move.pp * 8 / 5);
-		if (this.engine && this.engine.dex.gen < 3) pp = Math.min(61, pp);
 		buf += '<span class="col labelcol">' + (move.category !== 'Status' ? ('<em>Power</em><br />' + (move.basePower || '&mdash;')) : '') + '</span> ';
 		buf += '<span class="col widelabelcol"><em>Accuracy</em><br />' + (move.accuracy && move.accuracy !== true ? move.accuracy + '%' : '&mdash;') + '</span> ';
 		buf += '<span class="col pplabelcol"><em>PP</em><br />' + pp + '</span> ';
 
 		// desc
-		buf += '<span class="col movedesccol">' + BattleLog.escapeHTML(move.shortDesc || move.desc) + '</span> ';
+		buf += '<span class="col movedesccol">' + escapeHTML(move.shortDesc || move.desc) + '</span> ';
 
 		buf += '</a>';
 
@@ -613,7 +584,7 @@
 	Search.prototype.renderTaggedMoveRow = function (move, tag, errorMessage) {
 		var attrs = '';
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'moves/' + toID(move.name) + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="move|' + BattleLog.escapeHTML(move.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="move|' + escapeHTML(move.name) + '">';
 
 		// tag
 		buf += '<span class="col tagcol">' + tag + '</span> ';
@@ -631,8 +602,8 @@
 
 		// type
 		buf += '<span class="col typecol">';
-		buf += Dex.getTypeIcon(move.type);
-		buf += Dex.getCategoryIcon(move.category);
+		buf += getTypeIcon(move.type);
+		buf += getCategoryIcon(move.category);
 		buf += '</span> ';
 
 		// power, accuracy, pp
@@ -641,7 +612,7 @@
 		buf += '<span class="col pplabelcol"><em>PP</em><br />' + (move.noPPBoosts ? move.pp : move.pp * 8 / 5) + '</span> ';
 
 		// desc
-		buf += '<span class="col movedesccol">' + BattleLog.escapeHTML(move.shortDesc || move.desc) + '</span> ';
+		buf += '<span class="col movedesccol">' + escapeHTML(move.shortDesc || move.desc) + '</span> ';
 
 		buf += '</a></li>';
 
@@ -651,7 +622,7 @@
 	Search.prototype.renderTypeRow = function (type, matchStart, matchLength, errorMessage) {
 		var attrs = '';
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'types/' + toID(type.name) + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="type|' + BattleLog.escapeHTML(type.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="type|' + escapeHTML(type.name) + '">';
 
 		// name
 		var name = type.name;
@@ -662,7 +633,7 @@
 
 		// type
 		buf += '<span class="col typecol">';
-		buf += Dex.getTypeIcon(type.name);
+		buf += getTypeIcon(type.name);
 		buf += '</span> ';
 
 		// error
@@ -678,7 +649,7 @@
 	Search.prototype.renderCategoryRow = function (category, matchStart, matchLength, errorMessage) {
 		var attrs = '';
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'categories/' + category.id + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="category|' + BattleLog.escapeHTML(category.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="category|' + escapeHTML(category.name) + '">';
 
 		// name
 		var name = category.name;
@@ -688,7 +659,7 @@
 		buf += '<span class="col namecol">' + name + '</span> ';
 
 		// category
-		buf += '<span class="col typecol">' + Dex.getCategoryIcon(category.name) + '</span> ';
+		buf += '<span class="col typecol">' + getCategoryIcon(category.name) + '</span> ';
 
 		// error
 		if (errorMessage) {
@@ -705,7 +676,7 @@
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'articles/' + article.id + '" data-target="push"';
 		var isSearchType = (article.id === 'pokemon' || article.id === 'moves');
 		if (isSearchType) attrs = ' href="' + article.id + '/" data-target="replace"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="article|' + BattleLog.escapeHTML(article.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="article|' + escapeHTML(article.name) + '">';
 
 		// name
 		var name = article.name;
@@ -734,7 +705,7 @@
 	Search.prototype.renderEggGroupRow = function (egggroup, matchStart, matchLength, errorMessage) {
 		var attrs = '';
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'egggroups/' + toID(egggroup.name) + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="egggroup|' + BattleLog.escapeHTML(egggroup.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="egggroup|' + escapeHTML(egggroup.name) + '">';
 
 		// name
 		var name = egggroup.name;
@@ -756,7 +727,7 @@
 	Search.prototype.renderTierRow = function (tier, matchStart, matchLength, errorMessage) {
 		var attrs = '';
 		if (Search.urlRoot) attrs = ' href="' + Search.urlRoot + 'tiers/' + toID(tier.name) + '" data-target="push"';
-		var buf = '<li class="result"><a' + attrs + ' data-entry="tier|' + BattleLog.escapeHTML(tier.name) + '">';
+		var buf = '<li class="result"><a' + attrs + ' data-entry="tier|' + escapeHTML(tier.name) + '">';
 
 		// name
 		var name = tier.name;
