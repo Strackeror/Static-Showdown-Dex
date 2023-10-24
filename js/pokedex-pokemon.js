@@ -115,7 +115,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					}
 					evos = nextEvos.map((id) => getID(BattlePokedex, id));
 					if (evos.length > 0)
-	          buf += '</td><td class="arrow"><span>&rarr;</span></td><td>';
+						buf += '</td><td class="arrow"><span>&rarr;</span></td><td>';
 				}
 				buf += '</td></tr></table>';
 				if (pokemon.prevo) {
@@ -129,31 +129,31 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		if (pokemon.formes) {
 			buf += '</dd><dt>Formes:</dt> <dd>';
 			var otherFormes = pokemon.formes;
-      for (var i = 0; i < otherFormes.length; i++) {
-        template = getID(BattlePokedex, otherFormes[i]);
-        var name = template.forme || 'Base';
-        name = `<span class="picon" style="${getPokemonIcon(template)}"></span>` + name;
+			for (var i = 0; i < otherFormes.length; i++) {
+				template = getID(BattlePokedex, otherFormes[i]);
+				if (!template) continue;
+				var name = template.forme || 'Base';
+				name = `<span class="picon" style="${getPokemonIcon(template)}"></span>` + name;
 				if (i > 0) buf += ', '
-        if (template === pokemon) {
-          buf += `<strong>${name}</strong>`;
-        } else {
-          buf += `<a href="${Config.baseurl}pokemon/${template.id}" data-target="replace">${name}</a>`;
-        }
-      }
+				if (template === pokemon) {
+					buf += `<strong>${name}</strong>`;
+				} else {
+					buf += `<a href="${Config.baseurl}pokemon/${template.id}" data-target="replace">${name}</a>`;
+				}
+			}
 			if (pokemon.requiredItem) {
 				buf += `<div><small>Must hold <a href="${Config.baseurl}items/${toID(template.requiredItem)}" data-target="push">${template.requiredItem}</a></small></div>`;
 			}
 		}
 		if (pokemon.cosmeticFormes) {
 			buf += '</dd><dt>Cosmetic formes:</dt> <dd>';
-			var name = pokemon.baseForme || 'Base';
-			name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>`+name;
+			name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>`;
 			buf += ''+name;
 
 			for (var i = 0; i < pokemon.cosmeticFormes.length; i++) {
-        name = `<span class="picon" style="${getPokemonIcon(pokemon.cosmeticFormes[i])}"></span>` + pokemon.cosmeticFormes[i];
-        buf += ", " + name;
-      }
+				name = `<span class="picon" style="${getPokemonIcon(pokemon.cosmeticFormes[i])}"></span>`;
+				buf += "," + name;
+			}
 		}
 		buf += '</dd></dl>';
 
@@ -276,7 +276,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					break;
 				case 'tm': // tm/hm
 					if (newCategory) buf += '<li class="resultheader"><h3>TM/HM</h3></li>';
-					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(508)}"></span>`;
+					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(721)}"></span>`;
 					break;
 				case 'tutor': // tutor
 					if (newCategory) buf += '<li class="resultheader"><h3>Tutor</h3></li>';

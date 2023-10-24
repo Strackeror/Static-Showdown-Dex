@@ -1,6 +1,5 @@
 BattleSearch.urlRoot = Config.baseurl;
 
-
 var Topbar = Panels.Topbar.extend({
 	height: 51
 });
@@ -69,11 +68,26 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 	}
 });
 var PokedexTypePanel = PokedexResultPanel.extend({
+	
+	BattleSearchCountIndex: {},
+	buildCountIndex: function() {
+			for (const type in BattleTypeChart) {
+        this.BattleSearchCountIndex[type + " move"] = Object.values(
+          BattleMovedex
+        ).filter((move) => move.type === type.name).length;
+				this.BattleSearchCountIndex[type + "pokemon"] = Object.values(
+          BattlePokedex
+        ).filter((p) => p.types.indexOf(type.name) >= 0).length
+      }
+	},
+
 	initialize: function(id) {
 		id = toID(id);
 		this.type = id[0].toUpperCase()+id.substr(1);
 		var type = getID(BattleTypeChart, this.type);
 		this.shortTitle = this.type;
+
+		this.buildCountIndex();
 
 		var buf = '<div class="pfx-body dexentry">';
 		buf += '<a href="'+Config.baseurl+'" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pok&eacute;dex</a>';
@@ -82,8 +96,9 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 		var atLeastOne = false;
 
 		buf += '<dt>Weaknesses:</dt> <dd>';
-		for (var attackType in type.damageTaken) {
-			if (type.damageTaken[attackType] == 1) {
+		for (let id in BattleTypeChart) {
+			let attackType = BattleTypeChart[id]
+			if (attackType.effectiveness[type.name] == 2) {
 				buf += '<a href="'+Config.baseurl+'types/'+toID(attackType)+'" data-target="push">'+getTypeIcon(attackType)+'</a> ';
 				atLeastOne = true;
 			}
@@ -95,8 +110,9 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 
 		buf += '<dt>Resistances:</dt> <dd>';
 		atLeastOne = false;
-		for (var attackType in type.damageTaken) {
-			if (type.damageTaken[attackType] == 2) {
+		for (let id in BattleTypeChart) {
+			let attackType = BattleTypeChart[id]
+			if (attackType.effectiveness[type.name] == 0.5) {
 				buf += '<a href="'+Config.baseurl+'types/'+toID(attackType)+'" data-target="push">'+getTypeIcon(attackType)+'</a> ';
 				atLeastOne = true;
 			}
@@ -108,45 +124,15 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 
 		buf += '<dt>Immunities:</dt> <dd>';
 		atLeastOne = false;
-		for (var attackType in type.damageTaken) {
-			if (type.damageTaken[attackType] == 3) {
-				if (attackType === attackType.toLowerCase()) {
-					switch (attackType) {
-					case 'hail':
-						buf += '<div><small><a href="'+Config.baseurl+'moves/hail" data-target="push">Hail</a> damage</small></div>';
-						break;
-					case 'sandstorm':
-						buf += '<div><small><a href="'+Config.baseurl+'moves/sandstorm" data-target="push">Sandstorm</a> damage</small></div>';
-						break;
-					case 'powder':
-						buf += '<div><small><a href="'+Config.baseurl+'tags/powder" data-target="push">Powder moves</a></small></div>';
-						break;
-					case 'frz':
-						buf += '<div><small>FRZ status</small></div>';
-						break;
-					case 'brn':
-						buf += '<div><small>BRN status</small></div>';
-						break;
-					case 'psn':
-						buf += '<div><small>PSN status</small></div>';
-						break;
-					case 'par':
-						buf += '<div><small>PAR status</small></div>';
-						break;
-					}
-					if (!atLeastOne) atLeastOne = null;
-					continue;
-				}
+		for (let id in BattleTypeChart) {
+			let attackType = BattleTypeChart[id]
+			if (attackType.effectiveness[type.name] == 0) {
 				buf += '<a href="'+Config.baseurl+'types/'+toID(attackType)+'" data-target="push">'+getTypeIcon(attackType)+'</a> ';
 				atLeastOne = true;
 			}
 		}
 		if (!atLeastOne) {
-			if (atLeastOne === null) {
-				buf += '<div><em>No type immunities</em></div>';
-			} else {
-				buf += '<em>No immunities</em>';
-			}
+			buf += '<em>No immunities</em>';
 		}
 		buf += '</dd>';
 
@@ -188,7 +174,8 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 			}
 		}
 		this.$('.utilichart').html(buf)
-			.css('min-height', 27*3 + 33*BattleSearchCountIndex[type+' move']);
+			.css('min-height', 27*3 + 33*this.BattleSearchCountIndex[type+' move']);
+
 
 		setTimeout(this.renderMoveList2.bind(this));
 	},
@@ -203,7 +190,7 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 			}
 		}
 		this.$('.utilichart').html(bufs.join(''))
-			.css('min-height', 27*3 + 33*BattleSearchCountIndex[type+' move']);
+			.css('min-height', 27*3 + 33*this.BattleSearchCountIndex[type+' move']);
 	},
 	renderPokemonList: function() {
 		var type = this.type;
@@ -215,7 +202,7 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 			}
 		}
 		this.$('.utilichart').html(pureBuf)
-			.css('min-height', 27*3 + 33*BattleSearchCountIndex[type+' pokemon']);
+			.css('min-height', 27*3 + 33*this.BattleSearchCountIndex[type+' pokemon']);
 
 		setTimeout(this.renderPokemonList2.bind(this));
 	},
