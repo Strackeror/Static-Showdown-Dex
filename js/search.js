@@ -345,7 +345,7 @@
 				buf += '<span class="col abilitycol">(' + abilities['S'] + ')</span>';
 			}
 		} else if (abilities['H']) {
-			buf += '<span class="col twoabilitycol">' + (abilities['H'] || '') + '<br />(' + abilities['S'] + ')</span>';
+			buf += '<span class="col abilitycol">'+abilities['H']+'</span>';
 		} else {
 			buf += '<span class="col abilitycol"></span>';
 		}

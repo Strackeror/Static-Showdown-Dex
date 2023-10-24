@@ -322,8 +322,33 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		setTimeout(this.renderDistribution.bind(this));
 	},
 	getDistribution: function() {
-		return []
-  },
+		var results = []
+		for (let pokeId in BattlePokedex) {
+			let poke = BattlePokedex[pokeId];
+			results = results.concat(
+				poke.learnset
+					.filter((m) => m.move == this.id)
+					.map((m) => {
+						m.poke = pokeId;
+						return m;
+					})
+			);
+		}
+		const methods = ["lvl", "tm", "tutor"];
+		results.sort((a, b) => {
+			if (a.how != b.how) return methods.indexOf(a.how) - methods.indexOf(b.how);
+      if (a.how == "lvl" && a.level != b.level) return a.level - b.level;
+			return a.poke.localeCompare(b.poke);
+		});
+
+		for (let method of methods) {
+			let index = results.findIndex(r => r.how == method)
+			if (index < 0) continue;
+			results.splice(index, 0, {start: true, method})
+		}
+		
+		return this.results = results
+	},
 	renderDistribution: function() {
 		var results = this.getDistribution();
 		this.$chart = this.$('.utilichart');
@@ -359,45 +384,39 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 	},
 	renderRow: function(i, offscreen) {
 		var results = this.results;
-		var id = results[i].substr(5);
-		var template = id ? BattlePokedex[id] : undefined;
-		if (!template) {
-			switch (results[i].charAt(0)) {
-			case 'A': // level-up move
-				return '<h3>Level-up</h3>';
-			case 'B': // tm/hm
-				return '<h3>TM/HM</h3>';
-			case 'C': // tutor
-				return '<h3>Tutor</h3>';
-			case 'D': // egg move
-				return '<h3>Egg</h3>';
-			case 'E': // event
-				return '<h3>Event</h3>';
-			case 'F': // past gen
-				return '<h3>Past generation only</h3>';
+		var template = BattlePokedex[results[i].poke];
+		if (results[i].start) {
+			switch(results[i].method) {
+				case 'lvl': // level-up move
+					return '<h3>Level-up</h3>';
+				case 'tm': // tm/hm
+					return '<h3>TM/HM</h3>';
+				case 'tutor': // tutor
+					return '<h3>Tutor</h3>';
+				case 'egg': // egg move
+					return '<h3>Egg</h3>';
 			}
-			return '<pre>error: "'+results[i]+'"</pre>';
 		} else if (offscreen) {
 			return ''+template.name+' '+template.abilities['0']+' '+(template.abilities['1']||'')+' '+(template.abilities['H']||'')+'';
 		} else {
 			var desc = '';
-			switch (results[i].charAt(0)) {
-			case 'a': // level-up move
-				desc = results[i].substr(1,3) === '001' || results[i].substr(1,3) === '000' ? '&ndash;' : '<small>L</small>'+(parseInt(results[i].substr(1,3), 10) || '?');
+			switch (results[i].how) {
+			case 'lvl': // level-up move
+				desc = results[i].level <= 1 ?'&ndash;' : '<small>L</small>'+(results[i].level || '?');
 				break;
-			case 'b': // tm/hm
-				desc = '<img src="//' + Config.routes.client + '/sprites/itemicons/tm-normal.png" style="margin-top:-3px;opacity:.7" width="24" height="24" alt="M" />';
+			case 'tm': // tm/hm
+				desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(508)}"></span>`;
 				break;
-			case 'c': // tutor
-				desc = '<img src="//' + Config.routes.client + '/sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
+			case 'tutor': // tutor
+				desc = '<img src="//' + ResourcePrefix + 'sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
 				break;
-			case 'd': // egg move
+			case 'egg': // egg move
 				desc = '<span class="picon" style="margin-top:-12px;'+getPokemonIcon('egg')+'"></span>';
 				break;
-			case 'e': // event
+			case 'event': // event
 				desc = '!';
 				break;
-			case 'f': // past generation
+			case 'past': // past generation
 				desc = '...';
 				break;
 			}

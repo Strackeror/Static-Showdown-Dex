@@ -1,7 +1,7 @@
 var PokedexPokemonPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
-		var pokemon = Species.get(id);
+		var pokemon = BattlePokedex[id]
 		this.id = id;
 		this.shortTitle = pokemon.baseSpecies;
 
@@ -21,7 +21,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			buf += '<div class="warning"><strong>Note:</strong> This Pok&eacute;mon is unreleased.</div>';
 		}
 
-		buf += `<img src="${ResourcePrefix}sprites/gen5/${id}.png" alt="" width="96" height="96" class="sprite" />`
+		let imageName = id;
+		if (pokemon.forme) {
+			imageName = toID(pokemon.baseSpecies) +'-' + toID(pokemon.forme)
+		}
+		buf += `<img src="${ResourcePrefix}sprites/gen5/${imageName}.png" alt="" width="96" height="96" class="sprite" />`
 
 		buf += '<dl class="typeentry">';
 		buf += '<dt>Types:</dt> <dd>';
@@ -92,7 +96,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		{
 			buf += '<dt>Evolution:</dt> <dd>';
 			var template = pokemon;
-			while (template.prevo) template = Species.get(template.prevo);
+			while (template.prevo) template = getID(BattlePokedex, template.prevo);
 			if (template.evos) {
 				buf += '<table class="evos"><tr><td>';
 				var evos = [template];
@@ -109,42 +113,35 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 						}
 						nextEvos = nextEvos.concat(template.evos ?? [])
 					}
-					evos = nextEvos.map((id) => Species.get(id));
+					evos = nextEvos.map((id) => getID(BattlePokedex, id));
 					if (evos.length > 0)
 	          buf += '</td><td class="arrow"><span>&rarr;</span></td><td>';
 				}
 				buf += '</td></tr></table>';
 				if (pokemon.prevo) {
-					buf += `<div><small>Evolves from ${  Species.get(pokemon.prevo).name  } (${  this.getEvoMethod(pokemon)  })</small></div>`;
+					buf += `<div><small>Evolves from ${  getID(BattlePokedex, pokemon.prevo).name  } (${  this.getEvoMethod(pokemon)  })</small></div>`;
 				}
 			} else {
 				buf += '<em>Does not evolve</em>';
 			}
 		}
 
-		if (pokemon.otherFormes || pokemon.forme) {
+		if (pokemon.formes) {
 			buf += '</dd><dt>Formes:</dt> <dd>';
-			var template = (pokemon.forme ? Species.get(pokemon.baseSpecies) : pokemon);
-			var name = template.baseForme || 'Base';
-			name = `<span class="picon" style="${getPokemonIcon(template)}"></span>`+name;
-			if (template === pokemon) {
-				buf += `<strong>${name}</strong>`;
-			} else {
-				buf += `<a href="${Config.baseurl}pokemon/${template.id}" data-target="replace">${name}</a>`;
-			}
-			var otherFormes = template.otherFormes;
-			if (otherFormes) for (var i=0; i<otherFormes.length; i++) {
-				template = Species.get(otherFormes[i]);
-				var name = template.forme;
-				name = `<span class="picon" style="${getPokemonIcon(template)}"></span>`+name;
-				if (template === pokemon) {
-					buf += `, <strong>${name}</strong>`;
-				} else {
-					buf += `, <a href="${Config.baseurl}pokemon/${template.id}" data-target="replace">${name}</a>`;
-				}
-			}
-			if (template.requiredItem) {
-				buf = `<div><small>Must hold <a href="${Config.baseurl}items/${toID(template.requiredItem)}" data-target="push">${template.requiredItem}</a></small></div>`;
+			var otherFormes = pokemon.formes;
+      for (var i = 0; i < otherFormes.length; i++) {
+        template = getID(BattlePokedex, otherFormes[i]);
+        var name = template.forme || 'Base';
+        name = `<span class="picon" style="${getPokemonIcon(template)}"></span>` + name;
+				if (i > 0) buf += ', '
+        if (template === pokemon) {
+          buf += `<strong>${name}</strong>`;
+        } else {
+          buf += `<a href="${Config.baseurl}pokemon/${template.id}" data-target="replace">${name}</a>`;
+        }
+      }
+			if (pokemon.requiredItem) {
+				buf += `<div><small>Must hold <a href="${Config.baseurl}items/${toID(template.requiredItem)}" data-target="push">${template.requiredItem}</a></small></div>`;
 			}
 		}
 		if (pokemon.cosmeticFormes) {
@@ -153,12 +150,10 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>`+name;
 			buf += ''+name;
 
-			for (var i=0; i<pokemon.cosmeticFormes.length; i++) {
-				template = Species.get(pokemon.cosmeticFormes[i]);
-				var name = template.forme;
-				name = `<span class="picon" style="${getPokemonIcon(template)}"></span>`+name;
-				buf += ', '+name;
-			}
+			for (var i = 0; i < pokemon.cosmeticFormes.length; i++) {
+        name = `<span class="picon" style="${getPokemonIcon(pokemon.cosmeticFormes[i])}"></span>` + pokemon.cosmeticFormes[i];
+        buf += ", " + name;
+      }
 		}
 		buf += '</dd></dl>';
 
@@ -210,7 +205,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 		var i = 0;
 		var $entries = this.$('table.stats td.ministat small');
-		var pokemon = Species.get(this.id);
+		var pokemon = getID(BattlePokedex, this.id);
 		for (var stat in BattleStatNames) {
 			var baseStat = pokemon.baseStats[stat];
 
@@ -258,7 +253,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 	},
 	renderFullLearnset: function() {
-		var pokemon = Species.get(this.id);
+		var pokemon = getID(BattlePokedex, this.id);
 		var learnset = pokemon.learnset || [];
 		var last;
 		var buf = "", desc = "";
@@ -281,7 +276,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					break;
 				case 'tm': // tm/hm
 					if (newCategory) buf += '<li class="resultheader"><h3>TM/HM</h3></li>';
-					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon({spritenum:508})}"></span>`;
+					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(508)}"></span>`;
 					break;
 				case 'tutor': // tutor
 					if (newCategory) buf += '<li class="resultheader"><h3>Tutor</h3></li>';
