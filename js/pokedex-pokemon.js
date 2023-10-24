@@ -45,7 +45,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 			if (weightkg >= 10) return 40;
 			return 20;
 		})(pokemon.weightkg);
-		buf += `${pokemon.heightm} m, ${pokemon.weightkg} kg<br /><small><a class="subtle" href="${Config.baseurl}moves/grassknot" data-target="push">Grass Knot</a>: ${gkPower}</small>`;
+		buf += `${pokemon.weightkg} kg<br /><small><a class="subtle" href="${Config.baseurl}moves/grassknot" data-target="push">Grass Knot</a>: ${gkPower}</small>`;
 		buf += '</dd>';
 		buf += '</dl>';
 
@@ -243,7 +243,8 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
         break;
     }
     if (evo.evoLevel) {
-      evoType += " level " + evo.evoLevel;
+			if (evoType != "") evoType += ' '
+      evoType += "level " + evo.evoLevel;
     }
     return evoType;
   },
