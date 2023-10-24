@@ -1,947 +1,327 @@
 exports.BattleMovedex = {
-  "10000000voltthunderbolt": {
-    id: "10000000voltthunderbolt",
-    name: "10,000,000 Volt Thunderbolt",
-    num: 719,
-    type: "Electric",
-    flags: {},
-    basePower: 195,
-    accuracy: true,
-    category: "Special",
-    desc: "Has a very high chance for a critical hit.",
-    shortDesc: "Very high critical hit ratio.",
-    pp: 1
-  },
-  absorb: {
-    id: "absorb",
-    name: "Absorb",
-    num: 71,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 20,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 25
-  },
-  accelerock: {
-    id: "accelerock",
-    name: "Accelerock",
-    num: 709,
-    type: "Rock",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 20
-  },
-  acid: {
-    id: "acid",
-    name: "Acid",
-    num: 51,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "10% chance to lower the foe(s) Sp. Def by 1.",
-    pp: 30
-  },
-  acidarmor: {
-    id: "acidarmor",
-    name: "Acid Armor",
-    num: 151,
-    type: "Poison",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense by 2 stages.",
-    shortDesc: "Raises the user's Defense by 2.",
-    pp: 20
-  },
-  aciddownpour: {
-    id: "aciddownpour",
-    name: "Acid Downpour",
-    num: 628,
-    type: "Poison",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  acidspray: {
-    id: "acidspray",
-    name: "Acid Spray",
-    num: 491,
-    type: "Poison",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Special Defense by 2 stages.",
-    shortDesc: "100% chance to lower the target's Sp. Def by 2.",
-    pp: 20
-  },
-  acrobatics: {
-    id: "acrobatics",
-    name: "Acrobatics",
-    num: 512,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 55,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the user has no held item.",
-    shortDesc: "Power doubles if the user has no held item.",
-    pp: 15
-  },
-  acupressure: {
-    id: "acupressure",
-    name: "Acupressure",
-    num: 367,
-    type: "Normal",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises a random stat by 2 stages as long as the stat is not already at stage 6. The user can choose to use this move on itself or an adjacent ally. Fails if no stat stage can be raised or if used on an ally with a substitute.",
-    shortDesc: "Raises a random stat of the user or an ally by 2.",
-    pp: 30
-  },
-  aerialace: {
-    id: "aerialace",
-    name: "Aerial Ace",
-    num: 332,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      distance: 1,
-      slicing: 1
-    },
-    basePower: 60,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 20
-  },
-  aeroblast: {
-    id: "aeroblast",
-    name: "Aeroblast",
-    num: 177,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 100,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 5
-  },
-  afteryou: {
-    id: "afteryou",
-    name: "After You",
-    num: 495,
-    type: "Normal",
-    flags: {
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The target makes its move immediately after the user this turn, no matter the priority of its selected move. Fails if the target would have moved next anyway, or if the target already moved this turn.",
-    shortDesc: "The target makes its move right after the user.",
-    pp: 15
-  },
-  agility: {
-    id: "agility",
-    name: "Agility",
-    num: 97,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Speed by 2 stages.",
-    shortDesc: "Raises the user's Speed by 2.",
-    pp: 30
-  },
-  aircutter: {
-    id: "aircutter",
-    name: "Air Cutter",
-    num: 314,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      slicing: 1,
-      wind: 1
-    },
-    basePower: 60,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio. Hits adjacent foes.",
-    pp: 25
-  },
-  airslash: {
-    id: "airslash",
-    name: "Air Slash",
-    num: 403,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      distance: 1,
-      slicing: 1
-    },
-    basePower: 75,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 15
-  },
-  alloutpummeling: {
-    id: "alloutpummeling",
-    name: "All-Out Pummeling",
-    num: 624,
-    type: "Fighting",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  allyswitch: {
-    id: "allyswitch",
-    name: "Ally Switch",
-    num: 502,
-    type: "Psychic",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user swaps positions with its ally. Fails if the user is the only Pokemon on its side. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails or if the user's last move used is not Ally Switch.",
-    shortDesc: "User and ally swap positions; using again can fail.",
-    pp: 15
-  },
-  amnesia: {
-    id: "amnesia",
-    name: "Amnesia",
-    num: 133,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Special Defense by 2 stages.",
-    shortDesc: "Raises the user's Sp. Def by 2.",
-    pp: 20
-  },
-  anchorshot: {
-    id: "anchorshot",
-    name: "Anchor Shot",
-    num: 677,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-    shortDesc: "Prevents the target from switching out.",
-    pp: 20
-  },
-  ancientpower: {
-    id: "ancientpower",
-    name: "Ancient Power",
-    num: 246,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
-    shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
-    pp: 5
-  },
-  appleacid: {
-    id: "appleacid",
-    name: "Apple Acid",
-    num: 787,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "100% chance to lower the target's Sp. Def by 1.",
-    pp: 10
-  },
-  aquacutter: {
-    id: "aquacutter",
-    name: "Aqua Cutter",
-    num: 895,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 20
-  },
-  aquajet: {
-    id: "aquajet",
-    name: "Aqua Jet",
-    num: 453,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 20
-  },
-  aquaring: {
-    id: "aquaring",
-    name: "Aqua Ring",
-    num: 392,
-    type: "Water",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
-    shortDesc: "User recovers 1/16 max HP per turn.",
-    pp: 20
-  },
-  aquastep: {
-    id: "aquastep",
-    name: "Aqua Step",
-    num: 872,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      dance: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
-    shortDesc: "100% chance to raise the user's Speed by 1.",
-    pp: 10
-  },
-  aquatail: {
-    id: "aquatail",
-    name: "Aqua Tail",
-    num: 401,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 90,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 10
-  },
-  armorcannon: {
-    id: "armorcannon",
-    name: "Armor Cannon",
-    num: 890,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Special",
-    desc: "Lowers the user's Defense and Special Defense by 1 stage.",
-    shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
-    pp: 5
-  },
-  armthrust: {
-    id: "armthrust",
-    name: "Arm Thrust",
-    num: 292,
+  pummel: {
+    id: "pummel",
+    name: "Pummel",
+    num: 1,
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      heal: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 15,
+    basePower: 25,
     accuracy: 100,
     category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 20
+    desc: "The user pummels the foe repeatedly.\nThis hits 2-5 times in a row. Contact.",
+    shortDesc: "The user pummels the foe repeatedly.\nThis hits 2-5 times in a row. Contact.",
+    pp: 15
   },
-  aromatherapy: {
-    id: "aromatherapy",
-    name: "Aromatherapy",
-    num: 312,
-    type: "Grass",
-    flags: {
-      snatch: 1,
-      distance: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Sap Sipper Ability are not cured, unless they are the user.",
-    shortDesc: "Cures the user's party of all status conditions.",
-    pp: 5
-  },
-  aromaticmist: {
-    id: "aromaticmist",
-    name: "Aromatic Mist",
-    num: 597,
-    type: "Fairy",
-    flags: {
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the target's Special Defense by 1 stage. Fails if there is no ally adjacent to the user.",
-    shortDesc: "Raises an ally's Sp. Def by 1.",
-    pp: 20
-  },
-  assist: {
-    id: "assist",
-    name: "Assist",
-    num: 274,
-    type: "Normal",
-    flags: {
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "A random move among those known by the user's party members is selected for use. Does not select Assist, Baneful Bunker, Beak Blast, Belch, Bestow, Blazing Torque, Bounce, Celebrate, Chatter, Circle Throw, Combat Torque, Copycat, Counter, Covet, Destiny Bond, Detect, Dig, Dive, Dragon Tail, Endure, Feint, Fly, Focus Punch, Follow Me, Helping Hand, Hold Hands, King's Shield, Magical Torque, Mat Block, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Nature Power, Noxious Torque, Phantom Force, Protect, Rage Powder, Roar, Shadow Force, Shell Trap, Sketch, Sky Drop, Sleep Talk, Snatch, Spiky Shield, Spotlight, Struggle, Switcheroo, Thief, Transform, Trick, Whirlwind, or Wicked Torque.",
-    shortDesc: "Uses a random move known by a team member.",
-    pp: 20
-  },
-  assurance: {
-    id: "assurance",
-    name: "Assurance",
-    num: 372,
-    type: "Dark",
+  karatechop: {
+    id: "karatechop",
+    name: "Karate Chop",
+    num: 2,
+    type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
     basePower: 60,
     accuracy: 100,
     category: "Physical",
-    desc: "Power doubles if the target has already taken damage this turn, other than direct damage from Belly Drum, confusion, Curse, or Pain Split.",
-    shortDesc: "Power doubles if target was damaged this turn.",
-    pp: 10
+    desc: "The target is attacked with a swift chop.\nThis has +1 (12%) critical hit rate. Contact.",
+    shortDesc: "The target is attacked with a swift chop.\nThis has +1 (12%) critical hit rate. Contact.",
+    pp: 20
   },
-  astonish: {
-    id: "astonish",
-    name: "Astonish",
-    num: 310,
-    type: "Ghost",
+  doubleslap: {
+    id: "doubleslap",
+    name: "Double Slap",
+    num: 3,
+    type: "Normal",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
     basePower: 30,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
+    desc: "The target is slapped twice back and forth. This hits\ntwice. Each hit has a 15% flinch chance. Contact.",
+    shortDesc: "The target is slapped twice back and forth. This hits\ntwice. Each hit has a 15% flinch chance. Contact.",
     pp: 15
   },
-  astralbarrage: {
-    id: "astralbarrage",
-    name: "Astral Barrage",
-    num: 825,
-    type: "Ghost",
+  cometpunch: {
+    id: "cometpunch",
+    name: "Comet Punch",
+    num: 4,
+    type: "Fairy",
     flags: {
+      contact: 1,
+      heal: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      sound: 1
     },
-    basePower: 120,
+    basePower: 25,
     accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent foes.",
-    pp: 5
+    category: "Physical",
+    desc: "The target is hit with a flurry of punches imbued\nwith celestial fairy energy.\nThey hit 2-5 times in a row. Contact.",
+    shortDesc: "The target is hit with a flurry of punches imbued\nwith celestial fairy energy.\nThey hit 2-5 times in a row. Contact.",
+    pp: 15
   },
-  attackorder: {
-    id: "attackorder",
-    name: "Attack Order",
-    num: 454,
-    type: "Bug",
+  seismicfist: {
+    id: "seismicfist",
+    name: "Seismic Fist",
+    num: 5,
+    type: "Ground",
     flags: {
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 90,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 15
+    desc: "A ground-breaking punch is thrown at the target.\nHas a 30% chance to drop the foe's Defense. Contact.",
+    shortDesc: "A ground-breaking punch is thrown at the target.\nHas a 30% chance to drop the foe's Defense. Contact.",
+    pp: 10
   },
-  attract: {
-    id: "attract",
-    name: "Attract",
-    num: 213,
+  payday: {
+    id: "payday",
+    name: "Pay Day",
+    num: 6,
     type: "Normal",
     flags: {
-      protect: 1,
-      reflectable: 1,
       mirror: 1,
-      bypasssub: 1
+      protect: 1
     },
-    basePower: 0,
+    basePower: 40,
     accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to become infatuated, making it unable to attack 50% of the time. Fails if both the user and the target are the same gender, if either is genderless, or if the target is already infatuated. The effect ends when either the user or the target is no longer active. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
-    shortDesc: "A target of the opposite gender gets infatuated.",
-    pp: 15
+    category: "Physical",
+    desc: "Persian flings coins at the foe. This hits 3 times,\nwith EACH hit having a 50% crit rate.\nThe Z-Effect of this gives Persian +1 to all stats.",
+    shortDesc: "Persian flings coins at the foe. This hits 3 times,\nwith EACH hit having a 50% crit rate.\nThe Z-Effect of this gives Persian +1 to all stats.",
+    pp: 5
   },
-  aurasphere: {
-    id: "aurasphere",
-    name: "Aura Sphere",
-    num: 396,
-    type: "Fighting",
+  firepunch: {
+    id: "firepunch",
+    name: "Fire Punch",
+    num: 7,
+    type: "Fire",
     flags: {
-      bullet: 1,
-      protect: 1,
-      pulse: 1,
+      contact: 1,
+      defrost: 1,
       mirror: 1,
-      distance: 1
+      protect: 1
     },
     basePower: 80,
-    accuracy: true,
-    category: "Special",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 20
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is punched with a fiery fist. This has a\n10% chance to burn the foe. Contact.",
+    shortDesc: "The target is punched with a fiery fist. This has a\n10% chance to burn the foe. Contact.",
+    pp: 15
   },
-  aurawheel: {
-    id: "aurawheel",
-    name: "Aura Wheel",
-    num: 783,
+  icepunch: {
+    id: "icepunch",
+    name: "Ice Punch",
+    num: 8,
+    type: "Ice",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is punched with an icy fist. This has a\n10% chance to freeze the foe. Contact.",
+    shortDesc: "The target is punched with an icy fist. This has a\n10% chance to freeze the foe. Contact.",
+    pp: 15
+  },
+  thunderpunch: {
+    id: "thunderpunch",
+    name: "Thunder Punch",
+    num: 9,
     type: "Electric",
     flags: {
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 110,
+    basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 100% chance to raise the user's Speed by 1 stage. If the user is a Morpeko in Full Belly Mode, this move is Electric type. If the user is a Morpeko in Hangry Mode, this move is Dark type. This move cannot be used successfully unless the user's current form, while considering Transform, is Full Belly or Hangry Mode Morpeko.",
-    shortDesc: "Morpeko: Electric; Hangry: Dark; 100% +1 Spe.",
-    pp: 10
-  },
-  aurorabeam: {
-    id: "aurorabeam",
-    name: "Aurora Beam",
-    num: 62,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "10% chance to lower the target's Attack by 1.",
-    pp: 20
-  },
-  auroraveil: {
-    id: "auroraveil",
-    name: "Aurora Veil",
-    num: 694,
-    type: "Ice",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the user and its party members take 0.5x damage from physical and special attacks, or 0.66x damage if in a Double Battle; does not reduce damage further with Reflect or Light Screen. Critical hits ignore this protection. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Brick Break and Psychic Fangs remove the effect before damage is calculated. Lasts for 8 turns if the user is holding Light Clay. Fails unless the weather is Hail.",
-    shortDesc: "For 5 turns, damage to allies halved. Snow only.",
-    pp: 20
-  },
-  autotomize: {
-    id: "autotomize",
-    name: "Autotomize",
-    num: 475,
-    type: "Steel",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Speed by 2 stages. If the user's Speed was changed, the user's weight is reduced by 100 kg as long as it remains active. This effect is stackable but cannot reduce the user's weight to less than 0.1 kg.",
-    shortDesc: "Raises the user's Speed by 2; user loses 100 kg.",
+    desc: "The target is punched with an electrified fist.This\nhas a 10% chance to paralyze the foe. Contact.",
+    shortDesc: "The target is punched with an electrified fist.This\nhas a 10% chance to paralyze the foe. Contact.",
     pp: 15
   },
-  avalanche: {
-    id: "avalanche",
-    name: "Avalanche",
-    num: 419,
-    type: "Ice",
+  metalclaw: {
+    id: "metalclaw",
+    name: "Metal Claw",
+    num: 10,
+    type: "Steel",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the user was hit by the target this turn.",
-    shortDesc: "Power doubles if user is damaged by the target.",
-    pp: 10
-  },
-  axekick: {
-    id: "axekick",
-    name: "Axe Kick",
-    num: 853,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 30% chance to confuse the target. If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-    shortDesc: "30% confusion. User loses 50% max HP if miss.",
-    pp: 10
-  },
-  babydolleyes: {
-    id: "babydolleyes",
-    name: "Baby-Doll Eyes",
-    num: 608,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      reflectable: 1,
       mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack by 1 stage.",
-    shortDesc: "Lowers the target's Attack by 1.",
-    pp: 30
-  },
-  banefulbunker: {
-    id: "banefulbunker",
-    name: "Baneful Bunker",
-    num: 661,
-    type: "Poison",
-    flags: {
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user become poisoned. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Protects from moves. Contact: poison.",
-    pp: 10
-  },
-  barbbarrage: {
-    id: "barbbarrage",
-    name: "Barb Barrage",
-    num: 839,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
+      protect: 1
     },
     basePower: 60,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 50% chance to poison the target. Power doubles if the target is already poisoned.",
-    shortDesc: "50% psn. 2x power if target already poisoned.",
-    pp: 10
+    desc: "The target is raked with a steel-hard claw,\nblade, scythe, talon, or the like.\nThis has a 12%, or +1 critical hit rate. Contact.",
+    shortDesc: "The target is raked with a steel-hard claw,\nblade, scythe, talon, or the like.\nThis has a 12%, or +1 critical hit rate. Contact.",
+    pp: 20
   },
-  barrage: {
-    id: "barrage",
-    name: "Barrage",
-    num: 140,
-    type: "Normal",
+  vicegrip: {
+    id: "vicegrip",
+    name: "Vice Grip",
+    num: 11,
+    type: "Steel",
     flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 15,
-    accuracy: 85,
+    basePower: 60,
+    accuracy: 100,
     category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
+    desc: "The target is gripped firmly from both sides, trapping\nthem on the field for 6 turns & dealing 12% of their\nmax HP at the end of each turn. Contact.",
+    shortDesc: "The target is gripped firmly from both sides, trapping\nthem on the field for 6 turns & dealing 12% of their\nmax HP at the end of each turn. Contact.",
     pp: 20
   },
-  barrier: {
-    id: "barrier",
-    name: "Barrier",
-    num: 112,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense by 2 stages.",
-    shortDesc: "Raises the user's Defense by 2.",
-    pp: 20
-  },
-  batonpass: {
-    id: "batonpass",
-    name: "Baton Pass",
-    num: 226,
+  guillotine: {
+    id: "guillotine",
+    name: "Guillotine",
+    num: 12,
     type: "Normal",
-    flags: {},
-    basePower: 0,
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
     accuracy: true,
-    category: "Status",
-    desc: "The user is replaced with another Pokemon in its party. The selected Pokemon has the user's stat stage changes, confusion, and certain move effects transferred to it.",
-    shortDesc: "User switches, passing stat changes and more.",
-    pp: 40
+    category: "Physical",
+    desc: "The user slices the target in two, always fainting it.\nThis attack NEVER misses, but can only be used once.\nContact.",
+    shortDesc: "The user slices the target in two, always fainting it.\nThis attack NEVER misses, but can only be used once.\nContact.",
+    pp: 1
   },
-  beakblast: {
-    id: "beakblast",
-    name: "Beak Blast",
-    num: 690,
+  razorwind: {
+    id: "razorwind",
+    name: "Razor Wind",
+    num: 13,
     type: "Flying",
     flags: {
-      bullet: 1,
-      protect: 1,
-      noassist: 1,
-      failmefirst: 1,
-      nosleeptalk: 1,
-      failcopycat: 1,
-      failinstruct: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If the user is hit by a contact move this turn before it can execute this move, the attacker is burned.",
-    shortDesc: "Burns on contact with the user before it moves.",
-    pp: 15
-  },
-  beatup: {
-    id: "beatup",
-    name: "Beat Up",
-    num: 251,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits one time for the user and one time for each unfainted Pokemon without a non-volatile status condition in the user's party. The power of each hit is equal to 5+(X/10), where X is each participating Pokemon's base Attack; each hit is considered to come from the user.",
-    shortDesc: "All healthy allies aid in damaging the target.",
-    pp: 10
-  },
-  behemothbash: {
-    id: "behemothbash",
-    name: "Behemoth Bash",
-    num: 782,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      failcopycat: 1,
-      failmimic: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 5
-  },
-  behemothblade: {
-    id: "behemothblade",
-    name: "Behemoth Blade",
-    num: 781,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1,
-      failcopycat: 1,
-      failmimic: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 5
-  },
-  belch: {
-    id: "belch",
-    name: "Belch",
-    num: 562,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      failmefirst: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
+      charge: 1,
+      mirror: 1
     },
     basePower: 120,
-    accuracy: 90,
+    accuracy: 100,
     category: "Special",
-    desc: "This move cannot be selected until the user eats a Berry, either by eating one that was held, stealing and eating one off another Pokemon with Bug Bite or Pluck, or eating one that was thrown at it with Fling. Once the condition is met, this move can be selected and used for the rest of the battle even if the user gains or uses another item or switches out. Consuming a Berry with Natural Gift does not count for the purposes of eating one.",
-    shortDesc: "Cannot be selected until the user eats a Berry.",
-    pp: 10
+    desc: "A 2 turn attack where the user fires vicious blades\nof wind. This attack always results in a critical\nhit, and flinches 30% of the time. Ignores protect.",
+    shortDesc: "A 2 turn attack where the user fires vicious blades\nof wind. This attack always results in a critical\nhit, and flinches 30% of the time. Ignores protect.",
+    pp: 5
   },
-  bellydrum: {
-    id: "bellydrum",
-    name: "Belly Drum",
-    num: 187,
+  swordsdance: {
+    id: "swordsdance",
+    name: "Swords Dance",
+    num: 14,
     type: "Normal",
     flags: {
+      dance: 1,
       snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Attack by 12 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Attack stat stage is 6.",
-    shortDesc: "User loses 50% max HP. Maximizes Attack.",
-    pp: 10
+    desc: "A frenetic dance to uplift the fighting spirit.\nRaises user's Attack by 2. Z-Effect +2 crit rate.",
+    shortDesc: "A frenetic dance to uplift the fighting spirit.\nRaises user's Attack by 2. Z-Effect +2 crit rate.",
+    pp: 1
   },
-  bestow: {
-    id: "bestow",
-    name: "Bestow",
-    num: 516,
-    type: "Normal",
+  creepingstrike: {
+    id: "creepingstrike",
+    name: "Creeping Strike",
+    num: 15,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user quickly strikes the foe.\nThis has +1 Priority, and can't miss.",
+    shortDesc: "The user quickly strikes the foe.\nThis has +1 Priority, and can't miss.",
+    pp: 15
+  },
+  gust: {
+    id: "gust",
+    name: "Gust",
+    num: 16,
+    type: "Flying",
     flags: {
       mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Special",
+    desc: "A weak gust of wind is whipped up and launched\nquickly at the foe. +1 Priority. Can't miss.",
+    shortDesc: "A weak gust of wind is whipped up and launched\nquickly at the foe. +1 Priority. Can't miss.",
+    pp: 20
+  },
+  dualwingbeat: {
+    id: "dualwingbeat",
+    name: "Dual Wingbeat",
+    num: 17,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user strikes the foe twice with it's wings. Each\nstrike has a 15% flinch chance. Contact.",
+    shortDesc: "The user strikes the foe twice with it's wings. Each\nstrike has a 15% flinch chance. Contact.",
+    pp: 10
+  },
+  whirlwind: {
+    id: "whirlwind",
+    name: "Whirlwind",
+    num: 18,
+    type: "Flying",
+    flags: {
       bypasssub: 1,
-      allyanim: 1,
-      noassist: 1,
-      failcopycat: 1
+      mirror: 1,
+      reflectable: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The target receives the user's held item. Fails if the user has no item or is holding a Mail or Z-Crystal, if the target is already holding an item, if the user is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, a Pokemon that can Mega Evolve holding the Mega Stone for its species, or if the target is one of those Pokemon and the user is holding the respective item.",
-    shortDesc: "User passes its held item to the target.",
-    pp: 15
+    desc: "The target is blown away, and a random Pokemon is\ndragged out onto the field in their place.\nThis has +4 priority. Z-Effect +3 Speed.",
+    shortDesc: "The target is blown away, and a random Pokemon is\ndragged out onto the field in their place.\nThis has +4 priority. Z-Effect +3 Speed.",
+    pp: 3
   },
-  bide: {
-    id: "bide",
-    name: "Bide",
-    num: 117,
-    type: "Normal",
+  fly: {
+    id: "fly",
+    name: "Fly",
+    num: 19,
+    type: "Flying",
     flags: {
+      charge: 1,
       contact: 1,
-      protect: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
+      gravity: 1,
+      mirror: 1
     },
-    basePower: 0,
-    accuracy: true,
+    basePower: 80,
+    accuracy: 100,
     category: "Physical",
-    desc: "The user spends two turns locked into this move and then, on the second turn after using this move, the user attacks the last Pokemon that hit it, inflicting double the damage in HP it lost to attacks during the two turns. If the last Pokemon that hit it is no longer active, the user attacks a random opposing Pokemon instead. If the user is prevented from moving during this move's use, the effect ends. This move does not check accuracy and does not ignore type immunity.",
-    shortDesc: "Waits 2 turns; deals double the damage taken.",
-    pp: 10
+    desc: "The user soars, then strikes the foe on the next turn.\nAfter attacking, the user gains +1 Accuracy. Contact.\nBypasses Protect.",
+    shortDesc: "The user soars, then strikes the foe on the next turn.\nAfter attacking, the user gains +1 Accuracy. Contact.\nBypasses Protect.",
+    pp: 15
   },
   bind: {
     id: "bind",
@@ -950,227 +330,237 @@ exports.BattleMovedex = {
     type: "Normal",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 15,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 20
-  },
-  bite: {
-    id: "bite",
-    name: "Bite",
-    num: 44,
-    type: "Dark",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
     basePower: 60,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 25
+    desc: "Things such as long bodies or tentacles are used to\nsqueeze the foe for 6 turns, preventing switching and\ndealing 12% of the foe's max HP per turn. Contact.",
+    shortDesc: "Things such as long bodies or tentacles are used to\nsqueeze the foe for 6 turns, preventing switching and\ndealing 12% of the foe's max HP per turn. Contact.",
+    pp: 20
   },
-  bitterblade: {
-    id: "bitterblade",
-    name: "Bitter Blade",
-    num: 891,
-    type: "Fire",
+  whiplash: {
+    id: "whiplash",
+    name: "Whiplash",
+    num: 21,
+    type: "Normal",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      slicing: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 10
-  },
-  bittermalice: {
-    id: "bittermalice",
-    name: "Bitter Malice",
-    num: 841,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "100% chance to lower the target's Attack by 1.",
-    pp: 10
-  },
-  blackholeeclipse: {
-    id: "blackholeeclipse",
-    name: "Black Hole Eclipse",
-    num: 654,
-    type: "Dark",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  blastburn: {
-    id: "blastburn",
-    name: "Blast Burn",
-    num: 307,
-    type: "Fire",
-    flags: {
-      recharge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 90,
-    category: "Special",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  blazekick: {
-    id: "blazekick",
-    name: "Blaze Kick",
-    num: 299,
-    type: "Fire",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      protect: 1
     },
     basePower: 85,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 10% chance to burn the target and a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio. 10% chance to burn.",
-    pp: 10
-  },
-  bleakwindstorm: {
-    id: "bleakwindstorm",
-    name: "Bleakwind Storm",
-    num: 846,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 100,
-    accuracy: 80,
-    category: "Special",
-    desc: "Has a 30% chance to lower the target's Speed by 1 stage. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
-    shortDesc: "30% to lower foe(s) Speed by 1. Rain: can't miss.",
-    pp: 10
-  },
-  blizzard: {
-    id: "blizzard",
-    name: "Blizzard",
-    num: 59,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 110,
-    accuracy: 70,
-    category: "Special",
-    desc: "Has a 10% chance to freeze the target. If the weather is Snow, this move does not check accuracy.",
-    shortDesc: "10% chance to freeze foe(s). Can't miss in Snow.",
-    pp: 5
-  },
-  block: {
-    id: "block",
-    name: "Block",
-    num: 335,
-    type: "Normal",
-    flags: {
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-    shortDesc: "Prevents the target from switching out.",
-    pp: 5
-  },
-  bloodmoon: {
-    id: "bloodmoon",
-    name: "Blood Moon",
-    num: 901,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      cantusetwice: 1
-    },
-    basePower: 140,
     accuracy: 100,
-    category: "Special",
-    desc: "Cannot be used twice in a row.",
-    shortDesc: "Cannot be used twice in a row.",
-    pp: 5
-  },
-  bloomdoom: {
-    id: "bloomdoom",
-    name: "Bloom Doom",
-    num: 644,
-    type: "Grass",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
     category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
+    desc: "The foe is slammed with a long tail or appendage.\nThis drops Defense by 1 after each hit. Contact.",
+    shortDesc: "The foe is slammed with a long tail or appendage.\nThis drops Defense by 1 after each hit. Contact.",
+    pp: 10
   },
-  blueflare: {
-    id: "blueflare",
-    name: "Blue Flare",
-    num: 551,
-    type: "Fire",
+  vinelashes: {
+    id: "vinelashes",
+    name: "Vine Lashes",
+    num: 22,
+    type: "Grass",
     flags: {
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 130,
-    accuracy: 85,
-    category: "Special",
-    desc: "Has a 20% chance to burn the target.",
-    shortDesc: "20% chance to burn the target.",
-    pp: 5
+    basePower: 35,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The foe is lashed twice with whiplike vines.\nThis ALWAYS drops Defense by 1 after each hit.  Contact.",
+    shortDesc: "The foe is lashed twice with whiplike vines.\nThis ALWAYS drops Defense by 1 after each hit.  Contact.",
+    pp: 10
   },
-  bodypress: {
-    id: "bodypress",
-    name: "Body Press",
-    num: 776,
+  stomp: {
+    id: "stomp",
+    name: "Stomp",
+    num: 23,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is stomped on. Has a 30% chance to flinch\n the foe. Contact.",
+    shortDesc: "The target is stomped on. Has a 30% chance to flinch\n the foe. Contact.",
+    pp: 20
+  },
+  doublekick: {
+    id: "doublekick",
+    name: "Double Kick",
+    num: 24,
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 80,
+    basePower: 35,
     accuracy: 100,
     category: "Physical",
-    desc: "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
-    shortDesc: "Uses user's Def stat as Atk in damage calculation.",
+    desc: "The target is kicked twice in succession using both\nfeet. Hits twice, each hit has a 15% flinch chance.\nContact.",
+    shortDesc: "The target is kicked twice in succession using both\nfeet. Hits twice, each hit has a 15% flinch chance.\nContact.",
+    pp: 15
+  },
+  megatonkick: {
+    id: "megatonkick",
+    name: "Megaton Kick",
+    num: 25,
+    type: "Ground",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user launches a kick towards the ground with\nmassive force. This drops Defense 30% of the time.\nContact.",
+    shortDesc: "The user launches a kick towards the ground with\nmassive force. This drops Defense 30% of the time.\nContact.",
+    pp: 5
+  },
+  highjumpkick: {
+    id: "highjumpkick",
+    name: "High Jump Kick",
+    num: 26,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      gravity: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user jumps up high, then strikes with a kick.\nIf this misses, the user loses 50% of it's max HP.\nContact.",
+    shortDesc: "The user jumps up high, then strikes with a kick.\nIf this misses, the user loses 50% of it's max HP.\nContact.",
     pp: 10
+  },
+  rollingkick: {
+    id: "rollingkick",
+    name: "Rolling Kick",
+    num: 27,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user kicks the foe while quickly spinning.\nThis ALWAYS boosts the user's Speed by 1. Contact.",
+    shortDesc: "The user kicks the foe while quickly spinning.\nThis ALWAYS boosts the user's Speed by 1. Contact.",
+    pp: 15
+  },
+  sandattack: {
+    id: "sandattack",
+    name: "Sand Attack",
+    num: 28,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 10,
+    accuracy: 100,
+    category: "Special",
+    desc: "Doesn't exist,",
+    shortDesc: "Doesn't exist,",
+    pp: 15
+  },
+  headbutt: {
+    id: "headbutt",
+    name: "Headbutt",
+    num: 29,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user headbutts the target. Has a 30% chance to\nflinch. Contact.",
+    shortDesc: "The user headbutts the target. Has a 30% chance to\nflinch. Contact.",
+    pp: 15
+  },
+  peck: {
+    id: "peck",
+    name: "Peck",
+    num: 30,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is jabbed with a beak, horn, or the like.\n20% chance to drop the foe's Defense. Contact.",
+    shortDesc: "The target is jabbed with a beak, horn, or the like.\n20% chance to drop the foe's Defense. Contact.",
+    pp: 25
+  },
+  spikecannon: {
+    id: "spikecannon",
+    name: "Spike Cannon",
+    num: 31,
+    type: "Steel",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user rapidly shoots steel-hard spikes at the foe.\nThis attack hits 2-5 times in succession.",
+    shortDesc: "The user rapidly shoots steel-hard spikes at the foe.\nThis attack hits 2-5 times in succession.",
+    pp: 15
+  },
+  horndrill: {
+    id: "horndrill",
+    name: "Horn Drill",
+    num: 32,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user stabs the foe through their vitals, fainting it.\nThis attack NEVER misses, but can only be used once.\nContact.",
+    shortDesc: "The user stabs the foe through their vitals, fainting it.\nThis attack NEVER misses, but can only be used once.\nContact.",
+    pp: 1
+  },
+  tackle: {
+    id: "tackle",
+    name: "Tackle",
+    num: 33,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: 100,
+    category: "Physical",
+    desc: "A physical attack in which the user charges and\nslams into the target with its whole body. Contact.",
+    shortDesc: "A physical attack in which the user charges and\nslams into the target with its whole body. Contact.",
+    pp: 35
   },
   bodyslam: {
     id: "bodyslam",
@@ -1179,1641 +569,65 @@ exports.BattleMovedex = {
     type: "Normal",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      nonsky: 1
-    },
-    basePower: 85,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to paralyze the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "30% chance to paralyze the target.",
-    pp: 15
-  },
-  boltbeak: {
-    id: "boltbeak",
-    name: "Bolt Beak",
-    num: 754,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the user moves before the target.",
-    shortDesc: "Power doubles if user moves before the target.",
-    pp: 10
-  },
-  boltstrike: {
-    id: "boltstrike",
-    name: "Bolt Strike",
-    num: 550,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 130,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Has a 20% chance to paralyze the target.",
-    shortDesc: "20% chance to paralyze the target.",
-    pp: 5
-  },
-  boneclub: {
-    id: "boneclub",
-    name: "Bone Club",
-    num: 125,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Has a 10% chance to make the target flinch.",
-    shortDesc: "10% chance to make the target flinch.",
-    pp: 20
-  },
-  bonemerang: {
-    id: "bonemerang",
-    name: "Bonemerang",
-    num: 155,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times in one turn.",
-    pp: 10
-  },
-  bonerush: {
-    id: "bonerush",
-    name: "Bone Rush",
-    num: 198,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 10
-  },
-  boomburst: {
-    id: "boomburst",
-    name: "Boomburst",
-    num: 586,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 140,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent Pokemon.",
-    pp: 10
-  },
-  bounce: {
-    id: "bounce",
-    name: "Bounce",
-    num: 340,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      gravity: 1,
-      distance: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failinstruct: 1
-    },
-    basePower: 85,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Bounces turn 1. Hits turn 2. 30% paralyze.",
-    pp: 5
-  },
-  branchpoke: {
-    id: "branchpoke",
-    name: "Branch Poke",
-    num: 785,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 40
-  },
-  bravebird: {
-    id: "bravebird",
-    name: "Brave Bird",
-    num: 413,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 33% recoil.",
-    pp: 15
-  },
-  breakingswipe: {
-    id: "breakingswipe",
-    name: "Breaking Swipe",
-    num: 784,
-    type: "Dragon",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "100% chance to lower the foe(s) Attack by 1.",
-    pp: 15
-  },
-  breakneckblitz: {
-    id: "breakneckblitz",
-    name: "Breakneck Blitz",
-    num: 622,
-    type: "Normal",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  brickbreak: {
-    id: "brickbreak",
-    name: "Brick Break",
-    num: 280,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
-    shortDesc: "Destroys screens, unless the target is immune.",
-    pp: 15
-  },
-  brine: {
-    id: "brine",
-    name: "Brine",
-    num: 362,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "Power doubles if the target has less than or equal to half of its maximum HP remaining.",
-    shortDesc: "Power doubles if the target's HP is 50% or less.",
-    pp: 10
-  },
-  brutalswing: {
-    id: "brutalswing",
-    name: "Brutal Swing",
-    num: 693,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent Pokemon.",
-    pp: 20
-  },
-  bubble: {
-    id: "bubble",
-    name: "Bubble",
-    num: 145,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "10% chance to lower the foe(s) Speed by 1.",
-    pp: 30
-  },
-  bubblebeam: {
-    id: "bubblebeam",
-    name: "Bubble Beam",
-    num: 61,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "10% chance to lower the target's Speed by 1.",
-    pp: 20
-  },
-  bugbite: {
-    id: "bugbite",
-    name: "Bug Bite",
-    num: 450,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-    shortDesc: "User steals and eats the target's Berry.",
-    pp: 20
-  },
-  bugbuzz: {
-    id: "bugbuzz",
-    name: "Bug Buzz",
-    num: 405,
-    type: "Bug",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
+      protect: 1
     },
     basePower: 90,
     accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "10% chance to lower the target's Sp. Def by 1.",
-    pp: 10
+    category: "Physical",
+    desc: "The user drops onto the target with its full body\nweight. Paralyzes the target 30% of the time. Contact.",
+    shortDesc: "The user drops onto the target with its full body\nweight. Paralyzes the target 30% of the time. Contact.",
+    pp: 15
   },
-  bulkup: {
-    id: "bulkup",
-    name: "Bulk Up",
-    num: 339,
-    type: "Fighting",
+  wrap: {
+    id: "wrap",
+    name: "Wrap",
+    num: 35,
+    type: "Poison",
     flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack and Defense by 1 stage.",
-    shortDesc: "Raises the user's Attack and Defense by 1.",
-    pp: 20
-  },
-  bulldoze: {
-    id: "bulldoze",
-    name: "Bulldoze",
-    num: 523,
-    type: "Ground",
-    flags: {
-      protect: 1,
+      contact: 1,
       mirror: 1,
-      nonsky: 1
+      protect: 1
     },
     basePower: 60,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance lower adjacent Pkmn Speed by 1.",
+    desc: "A long body, vines, or the like are used to wrap and \nsqueeze the foe for 6 turns, preventing switching and\ndealing 12% of the foe's max HP per turn. Contact.",
+    shortDesc: "A long body, vines, or the like are used to wrap and \nsqueeze the foe for 6 turns, preventing switching and\ndealing 12% of the foe's max HP per turn. Contact.",
     pp: 20
   },
-  bulletpunch: {
-    id: "bulletpunch",
-    name: "Bullet Punch",
-    num: 418,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 30
-  },
-  bulletseed: {
-    id: "bulletseed",
-    name: "Bullet Seed",
-    num: 331,
-    type: "Grass",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 30
-  },
-  burningjealousy: {
-    id: "burningjealousy",
-    name: "Burning Jealousy",
-    num: 807,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to burn the target if it had a stat stage raised this turn.",
-    shortDesc: "100% burns a target that had a stat rise this turn.",
-    pp: 5
-  },
-  burnup: {
-    id: "burnup",
-    name: "Burn Up",
-    num: 682,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 130,
-    accuracy: 100,
-    category: "Special",
-    desc: "Fails unless the user is a Fire type. If this move is successful and the user is not Terastallized, the user's Fire type becomes typeless as long as it remains active.",
-    shortDesc: "User's Fire type becomes typeless; must be Fire.",
-    pp: 5
-  },
-  calmmind: {
-    id: "calmmind",
-    name: "Calm Mind",
-    num: 347,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Special Attack and Special Defense by 1 stage.",
-    shortDesc: "Raises the user's Sp. Atk and Sp. Def by 1.",
-    pp: 20
-  },
-  camouflage: {
-    id: "camouflage",
-    name: "Camouflage",
-    num: 293,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user's type changes based on the battle terrain. Normal type on the regular Wi-Fi terrain, Electric type during Electric Terrain, Fairy type during Misty Terrain, Grass type during Grassy Terrain, and Psychic type during Psychic Terrain. Fails if the user's type cannot be changed or if the user is already purely that type.",
-    shortDesc: "Changes user's type by terrain (default Normal).",
-    pp: 20
-  },
-  captivate: {
-    id: "captivate",
-    name: "Captivate",
-    num: 445,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Special Attack by 2 stages. The target is unaffected if both the user and the target are the same gender, or if either is genderless. Pokemon with the Oblivious Ability are immune.",
-    shortDesc: "Lowers the foe(s) Sp. Atk by 2 if opposite gender.",
-    pp: 20
-  },
-  catastropika: {
-    id: "catastropika",
-    name: "Catastropika",
-    num: 658,
-    type: "Electric",
-    flags: {
-      contact: 1
-    },
-    basePower: 210,
-    accuracy: true,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 1
-  },
-  ceaselessedge: {
-    id: "ceaselessedge",
-    name: "Ceaseless Edge",
-    num: 845,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 65,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. A maximum of three layers may be set, and opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
-    shortDesc: "Sets a layer of Spikes on the opposing side.",
-    pp: 15
-  },
-  celebrate: {
-    id: "celebrate",
-    name: "Celebrate",
-    num: 606,
-    type: "Normal",
-    flags: {
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "No competitive use.",
-    shortDesc: "No competitive use.",
-    pp: 40
-  },
-  charge: {
-    id: "charge",
-    name: "Charge",
-    num: 268,
-    type: "Electric",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Special Defense by 1 stage. The user's next Electric-type attack will have its power doubled; the effect ends when the user is no longer active, or after the user attempts to use any Electric-type move besides Charge, even if it is not successful.",
-    shortDesc: "+1 SpD, user's next Electric move 2x power.",
-    pp: 20
-  },
-  chargebeam: {
-    id: "chargebeam",
-    name: "Charge Beam",
-    num: 451,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 90,
-    category: "Special",
-    desc: "Has a 70% chance to raise the user's Special Attack by 1 stage.",
-    shortDesc: "70% chance to raise the user's Sp. Atk by 1.",
-    pp: 10
-  },
-  charm: {
-    id: "charm",
-    name: "Charm",
-    num: 204,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack by 2 stages.",
-    shortDesc: "Lowers the target's Attack by 2.",
-    pp: 20
-  },
-  chatter: {
-    id: "chatter",
-    name: "Chatter",
-    num: 448,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      distance: 1,
-      bypasssub: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to confuse the target.",
-    shortDesc: "100% chance to confuse the target.",
-    pp: 20
-  },
-  chillingwater: {
-    id: "chillingwater",
-    name: "Chilling Water",
-    num: 886,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "100% chance to lower the target's Attack by 1.",
-    pp: 20
-  },
-  chillyreception: {
-    id: "chillyreception",
-    name: "Chilly Reception",
-    num: 881,
-    type: "Ice",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the weather becomes Snow. The user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
-    shortDesc: "Starts Snow. User switches out.",
-    pp: 10
-  },
-  chipaway: {
-    id: "chipaway",
-    name: "Chip Away",
-    num: 498,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Ignores the target's stat stage changes, including evasiveness.",
-    shortDesc: "Ignores the target's stat stage changes.",
-    pp: 20
-  },
-  chloroblast: {
-    id: "chloroblast",
-    name: "Chloroblast",
-    num: 835,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 95,
-    category: "Special",
-    desc: "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
-    shortDesc: "User loses 50% max HP.",
-    pp: 5
-  },
-  circlethrow: {
-    id: "circlethrow",
-    name: "Circle Throw",
-    num: 509,
+  takedown: {
+    id: "takedown",
+    name: "Take Down",
+    num: 36,
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 60,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target is under the effect of Ingrain, has the Suction Cups Ability, or this move hit a substitute.",
-    shortDesc: "Forces the target to switch to a random ally.",
-    pp: 10
-  },
-  clamp: {
-    id: "clamp",
-    name: "Clamp",
-    num: 128,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 35,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 15
-  },
-  clangingscales: {
-    id: "clangingscales",
-    name: "Clanging Scales",
-    num: 691,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
+      protect: 1
     },
     basePower: 110,
     accuracy: 100,
-    category: "Special",
-    desc: "Lowers the user's Defense by 1 stage.",
-    shortDesc: "Lowers the user's Defense by 1.",
-    pp: 5
+    category: "Physical",
+    desc: "A reckless, full-body charge attack for slamming into\nthe target. User takes 20% recoil damage.\nThis has a 30% chance to drop Defense. Contact.",
+    shortDesc: "A reckless, full-body charge attack for slamming into\nthe target. User takes 20% recoil damage.\nThis has a 30% chance to drop Defense. Contact.",
+    pp: 10
   },
-  clangoroussoul: {
-    id: "clangoroussoul",
-    name: "Clangorous Soul",
-    num: 775,
-    type: "Dragon",
-    flags: {
-      snatch: 1,
-      sound: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
-    shortDesc: "User loses 33% of its max HP. +1 to all stats.",
-    pp: 5
-  },
-  clangoroussoulblaze: {
-    id: "clangoroussoulblaze",
-    name: "Clangorous Soulblaze",
-    num: 728,
-    type: "Dragon",
-    flags: {
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 185,
-    accuracy: true,
-    category: "Special",
-    desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
-    shortDesc: "Raises the user's Atk/Def/SpAtk/SpDef/Spe by 1.",
-    pp: 1
-  },
-  clearsmog: {
-    id: "clearsmog",
-    name: "Clear Smog",
-    num: 499,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: true,
-    category: "Special",
-    desc: "Resets all of the target's stat stages to 0.",
-    shortDesc: "Resets all of the target's stat stages to 0.",
-    pp: 15
-  },
-  closecombat: {
-    id: "closecombat",
-    name: "Close Combat",
-    num: 370,
-    type: "Fighting",
+  kerfuffle: {
+    id: "kerfuffle",
+    name: "Kerfuffle",
+    num: 37,
+    type: "Fairy",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
     basePower: 120,
     accuracy: 100,
     category: "Physical",
-    desc: "Lowers the user's Defense and Special Defense by 1 stage.",
-    shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
-    pp: 5
-  },
-  coaching: {
-    id: "coaching",
-    name: "Coaching",
-    num: 811,
-    type: "Fighting",
-    flags: {
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the target's Attack and Defense by 1 stage. Fails if there is no ally adjacent to the user.",
-    shortDesc: "Raises an ally's Attack and Defense by 1.",
-    pp: 10
-  },
-  coil: {
-    id: "coil",
-    name: "Coil",
-    num: 489,
-    type: "Poison",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack, Defense, and accuracy by 1 stage.",
-    shortDesc: "Raises user's Attack, Defense, accuracy by 1.",
-    pp: 20
-  },
-  collisioncourse: {
-    id: "collisioncourse",
-    name: "Collision Course",
-    num: 878,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Damage is multiplied by 1.3333 if this move is super effective against the target.",
-    shortDesc: "Deals 1.3333x damage with supereffective hits.",
-    pp: 5
-  },
-  cometpunch: {
-    id: "cometpunch",
-    name: "Comet Punch",
-    num: 4,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 18,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 15
-  },
-  comeuppance: {
-    id: "comeuppance",
-    name: "Comeuppance",
-    num: 894,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      failmefirst: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
-    shortDesc: "If hit by an attack, returns 1.5x damage.",
-    pp: 10
-  },
-  confide: {
-    id: "confide",
-    name: "Confide",
-    num: 590,
-    type: "Normal",
-    flags: {
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Lowers the target's Special Attack by 1 stage.",
-    shortDesc: "Lowers the target's Sp. Atk by 1.",
-    pp: 20
-  },
-  confuseray: {
-    id: "confuseray",
-    name: "Confuse Ray",
-    num: 109,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to become confused.",
-    shortDesc: "Confuses the target.",
-    pp: 10
-  },
-  confusion: {
-    id: "confusion",
-    name: "Confusion",
-    num: 93,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to confuse the target.",
-    shortDesc: "10% chance to confuse the target.",
-    pp: 25
-  },
-  constrict: {
-    id: "constrict",
-    name: "Constrict",
-    num: 132,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 10,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "10% chance to lower the target's Speed by 1.",
-    pp: 35
-  },
-  continentalcrush: {
-    id: "continentalcrush",
-    name: "Continental Crush",
-    num: 632,
-    type: "Rock",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  conversion: {
-    id: "conversion",
-    name: "Conversion",
-    num: 160,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user's type changes to match the original type of the move in its first move slot. Fails if the user cannot change its type, or if the type is one of the user's current types.",
-    shortDesc: "Changes user's type to match its first move.",
-    pp: 30
-  },
-  conversion2: {
-    id: "conversion2",
-    name: "Conversion 2",
-    num: 176,
-    type: "Normal",
-    flags: {
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user's type changes to match a type that resists or is immune to the type of the last move used by the target, but not either of its current types. The determined type of the move is used rather than the original type. Fails if the target has not made a move, if the user cannot change its type, or if this move would only be able to select one of the user's current types.",
-    shortDesc: "Changes user's type to resist target's last move.",
-    pp: 30
-  },
-  copycat: {
-    id: "copycat",
-    name: "Copycat",
-    num: 383,
-    type: "Normal",
-    flags: {
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user uses the last move used by any Pokemon, including itself. Fails if no move has been used, or if the last move used was Assist, Baneful Bunker, Beak Blast, Behemoth Bash, Behemoth Blade, Belch, Bestow, Blazing Torque, Celebrate, Chatter, Circle Throw, Combat Torque, Copycat, Counter, Covet, Destiny Bond, Detect, Dragon Tail, Dynamax Cannon, Endure, Feint, Focus Punch, Follow Me, Helping Hand, Hold Hands, King's Shield, Magical Torque, Mat Block, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Protect, Rage Powder, Roar, Shell Trap, Sketch, Sleep Talk, Snatch, Spiky Shield, Spotlight, Struggle, Switcheroo, Thief, Transform, Trick, Whirlwind, or Wicked Torque.",
-    shortDesc: "Uses the last move used in the battle.",
-    pp: 20
-  },
-  coreenforcer: {
-    id: "coreenforcer",
-    name: "Core Enforcer",
-    num: 687,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the user moves after the target, the target's Ability is rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Zen Mode, or Zero to Hero, this effect does not happen, and receiving the effect through Baton Pass ends the effect immediately.",
-    shortDesc: "Nullifies the foe(s) Ability if the foe(s) move first.",
-    pp: 10
-  },
-  corkscrewcrash: {
-    id: "corkscrewcrash",
-    name: "Corkscrew Crash",
-    num: 638,
-    type: "Steel",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  corrosivegas: {
-    id: "corrosivegas",
-    name: "Corrosive Gas",
-    num: 810,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "The target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-    shortDesc: "Removes adjacent Pokemon's held items.",
-    pp: 40
-  },
-  cosmicpower: {
-    id: "cosmicpower",
-    name: "Cosmic Power",
-    num: 322,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense and Special Defense by 1 stage.",
-    shortDesc: "Raises the user's Defense and Sp. Def by 1.",
-    pp: 20
-  },
-  cottonguard: {
-    id: "cottonguard",
-    name: "Cotton Guard",
-    num: 538,
-    type: "Grass",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense by 3 stages.",
-    shortDesc: "Raises the user's Defense by 3.",
-    pp: 10
-  },
-  cottonspore: {
-    id: "cottonspore",
-    name: "Cotton Spore",
-    num: 178,
-    type: "Grass",
-    flags: {
-      powder: 1,
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Speed by 2 stages.",
-    shortDesc: "Lowers the target's Speed by 2.",
-    pp: 40
-  },
-  counter: {
-    id: "counter",
-    name: "Counter",
-    num: 68,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      failmefirst: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Deals damage to the last opposing Pokemon to hit the user with a physical attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical attack this turn.",
-    shortDesc: "If hit by physical attack, returns double damage.",
-    pp: 20
-  },
-  courtchange: {
-    id: "courtchange",
-    name: "Court Change",
-    num: 756,
-    type: "Normal",
-    flags: {
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
-    shortDesc: "Swaps user's field effects with the opposing side.",
-    pp: 10
-  },
-  covet: {
-    id: "covet",
-    name: "Covet",
-    num: 343,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      failmefirst: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-    shortDesc: "If the user has no item, it steals the target's.",
-    pp: 25
-  },
-  crabhammer: {
-    id: "crabhammer",
-    name: "Crabhammer",
-    num: 152,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 10
-  },
-  craftyshield: {
-    id: "craftyshield",
-    name: "Crafty Shield",
-    num: 578,
-    type: "Fairy",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user and its party members are protected from non-damaging attacks made by other Pokemon, including allies, during this turn. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
-    shortDesc: "Protects allies from Status moves this turn.",
-    pp: 10
-  },
-  crosschop: {
-    id: "crosschop",
-    name: "Cross Chop",
-    num: 238,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 80,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 5
-  },
-  crosspoison: {
-    id: "crosspoison",
-    name: "Cross Poison",
-    num: 440,
-    type: "Poison",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to poison the target and a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio. 10% chance to poison.",
-    pp: 20
-  },
-  crunch: {
-    id: "crunch",
-    name: "Crunch",
-    num: 242,
-    type: "Dark",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "20% chance to lower the target's Defense by 1.",
-    pp: 15
-  },
-  crushclaw: {
-    id: "crushclaw",
-    name: "Crush Claw",
-    num: 306,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 75,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 50% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "50% chance to lower the target's Defense by 1.",
-    pp: 10
-  },
-  crushgrip: {
-    id: "crushgrip",
-    name: "Crush Grip",
-    num: 462,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
-    shortDesc: "More power the more HP the target has left.",
-    pp: 5
-  },
-  curse: {
-    id: "curse",
-    name: "Curse",
-    num: 174,
-    type: "Ghost",
-    flags: {
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "If the user is not a Ghost type, lowers the user's Speed by 1 stage and raises the user's Attack and Defense by 1 stage. If the user is a Ghost type, the user loses 1/2 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active. If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is no target or if the target is already affected.",
-    shortDesc: "Curses if Ghost, else -1 Spe, +1 Atk, +1 Def.",
-    pp: 10
-  },
-  cut: {
-    id: "cut",
-    name: "Cut",
-    num: 15,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 50,
-    accuracy: 95,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 30
-  },
-  darkestlariat: {
-    id: "darkestlariat",
-    name: "Darkest Lariat",
-    num: 663,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Ignores the target's stat stage changes, including evasiveness.",
-    shortDesc: "Ignores the target's stat stage changes.",
-    pp: 10
-  },
-  darkpulse: {
-    id: "darkpulse",
-    name: "Dark Pulse",
-    num: 399,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      pulse: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 20% chance to make the target flinch.",
-    shortDesc: "20% chance to make the target flinch.",
-    pp: 15
-  },
-  darkvoid: {
-    id: "darkvoid",
-    name: "Dark Void",
-    num: 464,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 50,
-    category: "Status",
-    desc: "Causes the target to fall asleep. This move cannot be used successfully unless the user's current form, while considering Transform, is Darkrai.",
-    shortDesc: "Darkrai: Causes the foe(s) to fall asleep.",
-    pp: 10
-  },
-  dazzlinggleam: {
-    id: "dazzlinggleam",
-    name: "Dazzling Gleam",
-    num: 605,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent foes.",
-    pp: 10
-  },
-  decorate: {
-    id: "decorate",
-    name: "Decorate",
-    num: 777,
-    type: "Fairy",
-    flags: {
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the target's Attack and Special Attack by 2 stages.",
-    shortDesc: "Raises the target's Attack and Sp. Atk by 2.",
-    pp: 15
-  },
-  defendorder: {
-    id: "defendorder",
-    name: "Defend Order",
-    num: 455,
-    type: "Bug",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense and Special Defense by 1 stage.",
-    shortDesc: "Raises the user's Defense and Sp. Def by 1.",
-    pp: 10
-  },
-  defensecurl: {
-    id: "defensecurl",
-    name: "Defense Curl",
-    num: 111,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense by 1 stage. As long as the user remains active, the power of the user's Ice Ball and Rollout will be doubled (this effect is not stackable).",
-    shortDesc: "Raises the user's Defense by 1.",
-    pp: 40
-  },
-  defog: {
-    id: "defog",
-    name: "Defog",
-    num: 432,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Lowers the target's evasiveness by 1 stage. If this move is successful and whether or not the target's evasiveness was affected, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side. Ignores a target's substitute, although a substitute will still block the lowering of evasiveness. If there is a terrain active and this move is successful, the terrain will be cleared.",
-    shortDesc: "-1 evasion; clears terrain and hazards on both sides.",
-    pp: 15
-  },
-  destinybond: {
-    id: "destinybond",
-    name: "Destiny Bond",
-    num: 194,
-    type: "Ghost",
-    flags: {
-      bypasssub: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the user's next move, if an opposing Pokemon's attack knocks the user out, that Pokemon faints as well, unless the attack was Doom Desire or Future Sight. Fails if the user used this move successfully as its last move, disregarding moves used through the Dancer Ability.",
-    shortDesc: "If an opponent knocks out the user, it also faints.",
-    pp: 5
-  },
-  detect: {
-    id: "detect",
-    name: "Detect",
-    num: 197,
-    type: "Fighting",
-    flags: {
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Prevents moves from affecting the user this turn.",
-    pp: 5
-  },
-  devastatingdrake: {
-    id: "devastatingdrake",
-    name: "Devastating Drake",
-    num: 652,
-    type: "Dragon",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  diamondstorm: {
-    id: "diamondstorm",
-    name: "Diamond Storm",
-    num: 591,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 50% chance to raise the user's Defense by 2 stages.",
-    shortDesc: "50% chance to raise user's Defense by 2.",
-    pp: 5
-  },
-  dig: {
-    id: "dig",
-    name: "Dig",
-    num: 91,
-    type: "Ground",
-    flags: {
-      contact: 1,
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      nonsky: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failinstruct: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Earthquake and Magnitude but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Digs underground turn 1, strikes turn 2.",
-    pp: 10
-  },
-  disable: {
-    id: "disable",
-    name: "Disable",
-    num: 50,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "For 4 turns, the target's last move used becomes disabled. Fails if one of the target's moves is already disabled, if the target has not made a move, if the target no longer knows the move, or if the move was a Max or G-Max Move.",
-    shortDesc: "For 4 turns, disables the target's last move used.",
-    pp: 20
-  },
-  disarmingvoice: {
-    id: "disarmingvoice",
-    name: "Disarming Voice",
-    num: 574,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 40,
-    accuracy: true,
-    category: "Special",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy. Hits foes.",
-    pp: 15
-  },
-  discharge: {
-    id: "discharge",
-    name: "Discharge",
-    num: 435,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to paralyze the target.",
-    shortDesc: "30% chance to paralyze adjacent Pokemon.",
-    pp: 15
-  },
-  direclaw: {
-    id: "direclaw",
-    name: "Dire Claw",
-    num: 827,
-    type: "Poison",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
-    shortDesc: "50% chance to sleep, poison, or paralyze target.",
-    pp: 15
-  },
-  dive: {
-    id: "dive",
-    name: "Dive",
-    num: 291,
-    type: "Water",
-    flags: {
-      contact: 1,
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      nonsky: 1,
-      allyanim: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failinstruct: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Surf and Whirlpool but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Dives underwater turn 1, strikes turn 2.",
-    pp: 10
-  },
-  dizzypunch: {
-    id: "dizzypunch",
-    name: "Dizzy Punch",
-    num: 146,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 20% chance to confuse the target.",
-    shortDesc: "20% chance to confuse the target.",
-    pp: 10
-  },
-  doodle: {
-    id: "doodle",
-    name: "Doodle",
-    num: 867,
-    type: "Normal",
-    flags: {},
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "The user and its ally's Abilities change to match the target's Ability. Does not change Ability if the user's or its ally's is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Zen Mode, Zero to Hero, or already matches the target. Fails if both the user and its ally's Ability already matches the target, or if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Flower Gift, Forecast, Gulp Missile, Hadron Engine, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Orichalcum Pulse, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
-    shortDesc: "User and ally's Abilities become target's Ability.",
-    pp: 10
-  },
-  doomdesire: {
-    id: "doomdesire",
-    name: "Doom Desire",
-    num: 353,
-    type: "Steel",
-    flags: {
-      futuremove: 1
-    },
-    basePower: 140,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Future Sight is already in effect for the target's position.",
-    shortDesc: "Hits two turns after being used.",
+    desc: "The user rampages and attacks for two to three\nturns. The user then becomes confused. Contact.",
+    shortDesc: "The user rampages and attacks for two to three\nturns. The user then becomes confused. Contact.",
     pp: 5
   },
   doubleedge: {
@@ -2823,372 +637,449 @@ exports.BattleMovedex = {
     type: "Normal",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 120,
+    basePower: 125,
     accuracy: 100,
     category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 33% recoil.",
-    pp: 15
-  },
-  doublehit: {
-    id: "doublehit",
-    name: "Double Hit",
-    num: 458,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 35,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times in one turn.",
+    desc: "A reckless, life-risking tackle. User takes 25% of\ndamage dealt. Has a 50% chance to drop the foe's\nDefense stat by 1 after use. Contact.",
+    shortDesc: "A reckless, life-risking tackle. User takes 25% of\ndamage dealt. Has a 50% chance to drop the foe's\nDefense stat by 1 after use. Contact.",
     pp: 10
   },
-  doubleironbash: {
-    id: "doubleironbash",
-    name: "Double Iron Bash",
-    num: 742,
-    type: "Steel",
+  tailwag: {
+    id: "tailwag",
+    name: "Tail Wag",
+    num: 39,
+    type: "Normal",
     flags: {
-      contact: 1,
-      protect: 1,
       mirror: 1,
-      punch: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. Has a 30% chance to make the target flinch.",
-    shortDesc: "Hits twice. 30% chance to make the target flinch.",
-    pp: 5
-  },
-  doublekick: {
-    id: "doublekick",
-    name: "Double Kick",
-    num: 24,
-    type: "Fighting",
-    flags: {
-      contact: 1,
       protect: 1,
-      mirror: 1
+      reflectable: 1
     },
-    basePower: 30,
+    basePower: 0,
     accuracy: 100,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times in one turn.",
+    category: "Status",
+    desc: "The user wags its tail cutely, making opposing\nPokemon less wary, dropping their Defense stat by 1.\nThis has +4 priority. Z-Effect is +1 Attack.",
+    shortDesc: "The user wags its tail cutely, making opposing\nPokemon less wary, dropping their Defense stat by 1.\nThis has +4 priority. Z-Effect is +1 Attack.",
     pp: 30
   },
-  doubleshock: {
-    id: "doubleshock",
-    name: "Double Shock",
-    num: 892,
-    type: "Electric",
+  barbbarrage: {
+    id: "barbbarrage",
+    name: "Barb Barrage",
+    num: 40,
+    type: "Poison",
     flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      heal: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 120,
+    basePower: 20,
     accuracy: 100,
     category: "Physical",
-    desc: "Fails unless the user is an Electric type. If this move is successful and the user is not Terastallized, the user's Electric type becomes typeless as long as it remains active.",
-    shortDesc: "User's Electric type: typeless; must be Electric.",
-    pp: 5
-  },
-  doubleslap: {
-    id: "doubleslap",
-    name: "Double Slap",
-    num: 3,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 15,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
+    desc: "The user shoots 3 venomous barbs at the target.\nThis ALWAYS poisons the foe and hits 3 times.",
+    shortDesc: "The user shoots 3 venomous barbs at the target.\nThis ALWAYS poisons the foe and hits 3 times.",
     pp: 10
   },
-  doubleteam: {
-    id: "doubleteam",
-    name: "Double Team",
-    num: 104,
+  poisondart: {
+    id: "poisondart",
+    name: "Poison Dart",
+    num: 41,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user rapidly shoots out a poisonous barb.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user rapidly shoots out a poisonous barb.\nThis has +1 priority, and can't miss.",
+    pp: 15
+  },
+  pinmissile: {
+    id: "pinmissile",
+    name: "Pin Missile",
+    num: 42,
+    type: "Bug",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
+    shortDesc: "Sharp spikes are shot at the target in rapid\nsuccession. They hit two to five times in a row.",
+    pp: 15
+  },
+  leer: {
+    id: "leer",
+    name: "Leer",
+    num: 43,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user gives opposing Pokemon an intimidating\nleer, lowering BOTH Defense & Sp. Def by 1.\nZ-Effect +2 Crit Rate.",
+    shortDesc: "The user gives opposing Pokemon an intimidating\nleer, lowering BOTH Defense & Sp. Def by 1.\nZ-Effect +2 Crit Rate.",
+    pp: 10
+  },
+  jaggedfangs: {
+    id: "jaggedfangs",
+    name: "Jagged Fangs",
+    num: 44,
+    type: "Rock",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      bite: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user bites the foe with jagged, hard fangs.\nThis has a 30% chance to drop the foe's Defense by 1.\nContact.",
+    shortDesc: "The user bites the foe with jagged, hard fangs.\nThis has a 30% chance to drop the foe's Defense by 1.\nContact.",
+    pp: 15
+  },
+  growl: {
+    id: "growl",
+    name: "Growl",
+    num: 45,
     type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user growls in an endearing way, making\nopposing Pokemon less wary. This lowers their\nAttack & Speed stats by 1. Z-Effect +2 Attack.",
+    shortDesc: "The user growls in an endearing way, making\nopposing Pokemon less wary. This lowers their\nAttack & Speed stats by 1. Z-Effect +2 Attack.",
+    pp: 10
+  },
+  roar: {
+    id: "roar",
+    name: "Roar",
+    num: 46,
+    type: "Dark",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The target is scared off, and a random Pokemon is\ndragged out. This has +4 priority. Z-Effect +2 Attack.",
+    shortDesc: "The target is scared off, and a random Pokemon is\ndragged out. This has +4 priority. Z-Effect +2 Attack.",
+    pp: 3
+  },
+  sing: {
+    id: "sing",
+    name: "Sing",
+    num: 47,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 80,
+    category: "Status",
+    desc: "A soothing lullaby is sung in a calming voice, putting\nthe target in a deep sleep that lasts 2 turns.\nZ-Effect +1 Speed.",
+    shortDesc: "A soothing lullaby is sung in a calming voice, putting\nthe target in a deep sleep that lasts 2 turns.\nZ-Effect +1 Speed.",
+    pp: 2
+  },
+  supersonic: {
+    id: "supersonic",
+    name: "Supersonic",
+    num: 48,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user emits odd sound waves from it's body, which\nconfuse the target for 4 turns. Z-Effect +2 Sp. Atk.",
+    shortDesc: "The user emits odd sound waves from it's body, which\nconfuse the target for 4 turns. Z-Effect +2 Sp. Atk.",
+    pp: 20
+  },
+  sonicboom: {
+    id: "sonicboom",
+    name: "Sonic Boom",
+    num: 49,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is hit with a destructive shock wave that\nalways inflicts 20 HP damage.",
+    shortDesc: "The target is hit with a destructive shock wave that\nalways inflicts 20 HP damage.",
+    pp: 20
+  },
+  disable: {
+    id: "disable",
+    name: "Disable",
+    num: 50,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "For five turns, this move prevents the target from\nusing the move it last used. Z-Effect +2 Sp. Atk.",
+    shortDesc: "For five turns, this move prevents the target from\nusing the move it last used. Z-Effect +2 Sp. Atk.",
+    pp: 5
+  },
+  acidspray: {
+    id: "acidspray",
+    name: "Acid Spray",
+    num: 51,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user sprays highly corrosive acid at the target.\nThis ALWAYS drops the foe's Sp. Def by 4, or 2/3.",
+    shortDesc: "The user sprays highly corrosive acid at the target.\nThis ALWAYS drops the foe's Sp. Def by 4, or 2/3.",
+    pp: 10
+  },
+  ignite: {
+    id: "ignite",
+    name: "Ignite",
+    num: 52,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Special",
+    desc: "The user quickly ignites and shoots weak flames.\nThis move has +1 priority, and can't miss.",
+    shortDesc: "The user quickly ignites and shoots weak flames.\nThis move has +1 priority, and can't miss.",
+    pp: 25
+  },
+  flamethrower: {
+    id: "flamethrower",
+    name: "Flamethrower",
+    num: 53,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is scorched with an intense blast of fire.\nThis burns the target 10% of the time.",
+    shortDesc: "The target is scorched with an intense blast of fire.\nThis burns the target 10% of the time.",
+    pp: 15
+  },
+  mist: {
+    id: "mist",
+    name: "Mist",
+    num: 54,
+    type: "Ice",
     flags: {
       snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's evasiveness by 1 stage.",
-    shortDesc: "Raises the user's evasiveness by 1.",
-    pp: 15
+    desc: "The user cloaks itself and its allies in a white mist\nthat prevents any of their stats from being lowered\nfor five turns. Z-Mist heals the user fully.",
+    shortDesc: "The user cloaks itself and its allies in a white mist\nthat prevents any of their stats from being lowered\nfor five turns. Z-Mist heals the user fully.",
+    pp: 30
   },
-  dracometeor: {
-    id: "dracometeor",
-    name: "Draco Meteor",
-    num: 434,
-    type: "Dragon",
+  snipeshot: {
+    id: "snipeshot",
+    name: "Snipe Shot",
+    num: 55,
+    type: "Water",
     flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 130,
-    accuracy: 90,
-    category: "Special",
-    desc: "Lowers the user's Special Attack by 2 stages.",
-    shortDesc: "Lowers the user's Sp. Atk by 2.",
-    pp: 5
-  },
-  dragonascent: {
-    id: "dragonascent",
-    name: "Dragon Ascent",
-    num: 620,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
       mirror: 1,
-      distance: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Lowers the user's Defense and Special Defense by 1 stage.",
-    shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
-    pp: 5
-  },
-  dragonbreath: {
-    id: "dragonbreath",
-    name: "Dragon Breath",
-    num: 225,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to paralyze the target.",
-    shortDesc: "30% chance to paralyze the target.",
-    pp: 20
-  },
-  dragonclaw: {
-    id: "dragonclaw",
-    name: "Dragon Claw",
-    num: 337,
-    type: "Dragon",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 15
-  },
-  dragondance: {
-    id: "dragondance",
-    name: "Dragon Dance",
-    num: 349,
-    type: "Dragon",
-    flags: {
-      snatch: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack and Speed by 1 stage.",
-    shortDesc: "Raises the user's Attack and Speed by 1.",
-    pp: 20
-  },
-  dragondarts: {
-    id: "dragondarts",
-    name: "Dragon Darts",
-    num: 751,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      noparentalbond: 1
+      protect: 1
     },
     basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. In Double Battles, this move attempts to hit the targeted Pokemon and its ally once each. If hitting one of these Pokemon would be prevented by immunity, protection, semi-invulnerability, an Ability, or accuracy, it attempts to hit the other Pokemon twice instead. If this move is redirected, it hits that target twice.",
-    shortDesc: "Hits twice. Doubles: Tries to hit each foe once.",
-    pp: 10
-  },
-  dragonenergy: {
-    id: "dragonenergy",
-    name: "Dragon Energy",
-    num: 820,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 100,
+    accuracy: true,
     category: "Special",
-    desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
-    shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+    desc: "The user fires a highly concentrated jet of water.\nThis has +3 priority, & ALWAYS lands a critical hit.",
+    shortDesc: "The user fires a highly concentrated jet of water.\nThis has +3 priority, & ALWAYS lands a critical hit.",
     pp: 5
   },
-  dragonhammer: {
-    id: "dragonhammer",
-    name: "Dragon Hammer",
-    num: 692,
-    type: "Dragon",
+  hydropump: {
+    id: "hydropump",
+    name: "Hydro Pump",
+    num: 56,
+    type: "Water",
     flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 90,
+    category: "Special",
+    desc: "The target is blasted by a huge volume of water\nlaunched under great pressure.",
+    shortDesc: "The target is blasted by a huge volume of water\nlaunched under great pressure.",
+    pp: 5
+  },
+  surf: {
+    id: "surf",
+    name: "Surf",
+    num: 57,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks everything around it by swamping\nits surroundings with a giant wave.",
+    shortDesc: "The user attacks everything around it by swamping\nits surroundings with a giant wave.",
+    pp: 10
+  },
+  icebeam: {
+    id: "icebeam",
+    name: "Ice Beam",
+    num: 58,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
     },
     basePower: 90,
     accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 15
-  },
-  dragonpulse: {
-    id: "dragonpulse",
-    name: "Dragon Pulse",
-    num: 406,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      pulse: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 85,
-    accuracy: 100,
     category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
+    desc: "The target is struck with an icy-cold beam of energy.\nThis freezes the target 10% of the time.",
+    shortDesc: "The target is struck with an icy-cold beam of energy.\nThis freezes the target 10% of the time.",
     pp: 10
   },
-  dragonrage: {
-    id: "dragonrage",
-    name: "Dragon Rage",
-    num: 82,
-    type: "Dragon",
+  blizzard: {
+    id: "blizzard",
+    name: "Blizzard",
+    num: 59,
+    type: "Ice",
     flags: {
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 0,
-    accuracy: 100,
+    basePower: 120,
+    accuracy: 85,
     category: "Special",
-    desc: "Deals 40 HP of damage to the target.",
-    shortDesc: "Deals 40 HP of damage to the target.",
-    pp: 10
+    desc: "A howling blizzard is summoned to strike opponents.\nThis freezes the opponents 10% of the time.",
+    shortDesc: "A howling blizzard is summoned to strike opponents.\nThis freezes the opponents 10% of the time.",
+    pp: 5
   },
-  dragonrush: {
-    id: "dragonrush",
-    name: "Dragon Rush",
-    num: 407,
-    type: "Dragon",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 75,
-    category: "Physical",
-    desc: "Has a 20% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "20% chance to make the target flinch.",
-    pp: 10
-  },
-  dragontail: {
-    id: "dragontail",
-    name: "Dragon Tail",
-    num: 525,
-    type: "Dragon",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 60,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If both the user and the target have not fainted, the target is forced to switch out and be replaced with a random unfainted ally. This effect fails if the target used Ingrain previously, has the Suction Cups Ability, or this move hit a substitute.",
-    shortDesc: "Forces the target to switch to a random ally.",
-    pp: 10
-  },
-  drainingkiss: {
-    id: "drainingkiss",
-    name: "Draining Kiss",
-    num: 577,
-    type: "Fairy",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 75% of the damage dealt.",
-    pp: 10
-  },
-  drainpunch: {
-    id: "drainpunch",
-    name: "Drain Punch",
-    num: 409,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1,
-      heal: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 10
-  },
-  dreameater: {
-    id: "dreameater",
-    name: "Dream Eater",
-    num: 138,
+  influx: {
+    id: "influx",
+    name: "Influx",
+    num: 60,
     type: "Psychic",
     flags: {
-      protect: 1,
       mirror: 1,
-      heal: 1
+      protect: 1
     },
-    basePower: 100,
+    basePower: 45,
+    accuracy: true,
+    category: "Special",
+    desc: "A quick psychic beam is rapidly shot at the target.\nThis has +1 priority, and can't miss.",
+    shortDesc: "A quick psychic beam is rapidly shot at the target.\nThis has +1 priority, and can't miss.",
+    pp: 20
+  },
+  bubbleshot: {
+    id: "bubbleshot",
+    name: "Bubble Shot",
+    num: 61,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Special",
+    desc: "The user quickly fires a jet of bubbles at the foe.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user quickly fires a jet of bubbles at the foe.\nThis has +1 priority, and can't miss.",
+    pp: 20
+  },
+  aurorabeam: {
+    id: "aurorabeam",
+    name: "Aurora Beam",
+    num: 62,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
     accuracy: 100,
     category: "Special",
-    desc: "The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User gains 1/2 HP inflicted. Sleeping target only.",
+    desc: "The foe is hit with an icy, rainbow-colored beam.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    shortDesc: "The foe is hit with an icy, rainbow-colored beam.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    pp: 10
+  },
+  hyperbeam: {
+    id: "hyperbeam",
+    name: "Hyper Beam",
+    num: 63,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 160,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is attacked with a powerful beam.\nDrops user's Sp. Atk by 2.",
+    shortDesc: "The target is attacked with a powerful beam.\nDrops user's Sp. Atk by 2.",
+    pp: 5
+  },
+  furypecks: {
+    id: "furypecks",
+    name: "Fury Pecks",
+    num: 64,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is jabbed rapidly with a pointed beak,\nhorn, or the like. This hits 2-5 times in succession.\nContact.",
+    shortDesc: "The target is jabbed rapidly with a pointed beak,\nhorn, or the like. This hits 2-5 times in succession.\nContact.",
     pp: 15
   },
   drillpeck: {
@@ -3198,897 +1089,297 @@ exports.BattleMovedex = {
     type: "Flying",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      distance: 1
+      protect: 1
     },
     basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 20
-  },
-  drillrun: {
-    id: "drillrun",
-    name: "Drill Run",
-    num: 529,
-    type: "Ground",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
+    desc: "A corkscrewing attack with a sharp appendage acting as\na drill. This attack has a 50% (+2) crit rate.",
+    shortDesc: "A corkscrewing attack with a sharp appendage acting as\na drill. This attack has a 50% (+2) crit rate.",
     pp: 10
   },
-  drumbeating: {
-    id: "drumbeating",
-    name: "Drum Beating",
-    num: 778,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the target's Speed by 1.",
-    pp: 10
-  },
-  dualchop: {
-    id: "dualchop",
-    name: "Dual Chop",
-    num: 530,
-    type: "Dragon",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times in one turn.",
-    pp: 15
-  },
-  dualwingbeat: {
-    id: "dualwingbeat",
-    name: "Dual Wingbeat",
-    num: 814,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times in one turn.",
-    pp: 10
-  },
-  dynamaxcannon: {
-    id: "dynamaxcannon",
-    name: "Dynamax Cannon",
-    num: 744,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      failencore: 1,
-      nosleeptalk: 1,
-      noparentalbond: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 5
-  },
-  dynamicpunch: {
-    id: "dynamicpunch",
-    name: "Dynamic Punch",
-    num: 223,
+  submission: {
+    id: "submission",
+    name: "Submission",
+    num: 66,
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      punch: 1
-    },
-    basePower: 100,
-    accuracy: 50,
-    category: "Physical",
-    desc: "Has a 100% chance to confuse the target.",
-    shortDesc: "100% chance to confuse the target.",
-    pp: 5
-  },
-  earthpower: {
-    id: "earthpower",
-    name: "Earth Power",
-    num: 414,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "10% chance to lower the target's Sp. Def by 1.",
-    pp: 10
-  },
-  earthquake: {
-    id: "earthquake",
-    name: "Earthquake",
-    num: 89,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Damage doubles if the target is using Dig.",
-    shortDesc: "Hits adjacent Pokemon. Double damage on Dig.",
-    pp: 10
-  },
-  echoedvoice: {
-    id: "echoedvoice",
-    name: "Echoed Voice",
-    num: 497,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "For every consecutive turn that this move is used by at least one Pokemon, this move's power is multiplied by the number of turns to pass, but not more than 5.",
-    shortDesc: "Power increases when used on consecutive turns.",
-    pp: 15
-  },
-  eerieimpulse: {
-    id: "eerieimpulse",
-    name: "Eerie Impulse",
-    num: 598,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Special Attack by 2 stages.",
-    shortDesc: "Lowers the target's Sp. Atk by 2.",
-    pp: 15
-  },
-  eeriespell: {
-    id: "eeriespell",
-    name: "Eerie Spell",
-    num: 826,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "If this move is successful and the user has not fainted, the target loses 3 PP from its last move.",
-    shortDesc: "Removes 3 PP from the target's last move.",
-    pp: 5
-  },
-  eggbomb: {
-    id: "eggbomb",
-    name: "Egg Bomb",
-    num: 121,
-    type: "Normal",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 75,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 10
-  },
-  electricterrain: {
-    id: "electricterrain",
-    name: "Electric Terrain",
-    num: 604,
-    type: "Electric",
-    flags: {
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the terrain becomes Electric Terrain. During the effect, the power of Electric-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot fall asleep; Pokemon already asleep do not wake up. Grounded Pokemon cannot become affected by Yawn or fall asleep from its effect. Camouflage transforms the user into an Electric type, Nature Power becomes Thunderbolt, and Secret Power has a 30% chance to cause paralysis. Fails if the current terrain is Electric Terrain.",
-    shortDesc: "5 turns. Grounded: +Electric power, can't sleep.",
-    pp: 10
-  },
-  electrify: {
-    id: "electrify",
-    name: "Electrify",
-    num: 582,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Causes the target's move to become Electric type this turn. Among effects that can change a move's type, this effect happens last. Fails if the target already moved this turn.",
-    shortDesc: "Changes the target's move to Electric this turn.",
-    pp: 20
-  },
-  electroball: {
-    id: "electroball",
-    name: "Electro Ball",
-    num: 486,
-    type: "Electric",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Special",
-    desc: "The power of this move depends on (user's current Speed / target's current Speed), rounded down. Power is equal to 150 if the result is 4 or more, 120 if 3, 80 if 2, 60 if 1, 40 if less than 1. If the target's current Speed is 0, this move's power is 40.",
-    shortDesc: "More power the faster the user is than the target.",
-    pp: 10
-  },
-  electrodrift: {
-    id: "electrodrift",
-    name: "Electro Drift",
-    num: 879,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "Damage is multiplied by 1.3333 if this move is super effective against the target.",
-    shortDesc: "Deals 1.3333x damage with supereffective hits.",
-    pp: 5
-  },
-  electroweb: {
-    id: "electroweb",
-    name: "Electroweb",
-    num: 527,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 55,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the foe(s) Speed by 1.",
-    pp: 15
-  },
-  embargo: {
-    id: "embargo",
-    name: "Embargo",
-    num: 373,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "For 5 turns, the target's held item has no effect. An item's effect of causing forme changes is unaffected, but any other effects from such items are negated. During the effect, Fling and Natural Gift are prevented from being used by the target. Items thrown at the target with Fling will still activate for it. If the target uses Baton Pass, the replacement will remain unable to use items.",
-    shortDesc: "For 5 turns, the target's item has no effect.",
-    pp: 15
-  },
-  ember: {
-    id: "ember",
-    name: "Ember",
-    num: 52,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to burn the target.",
-    shortDesc: "10% chance to burn the target.",
-    pp: 25
-  },
-  encore: {
-    id: "encore",
-    name: "Encore",
-    num: 227,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1,
-      failencore: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "For its next 3 turns, the target is forced to repeat its last move used. If the affected move runs out of PP, the effect ends. Fails if the target is already under this effect, if it has not made a move, if the move has 0 PP, or if the move is Assist, Blazing Torque, Combat Torque, Copycat, Dynamax Cannon, Encore, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Sketch, Sleep Talk, Struggle, Transform, or Wicked Torque.",
-    shortDesc: "Target repeats its last move for its next 3 turns.",
-    pp: 5
-  },
-  endeavor: {
-    id: "endeavor",
-    name: "Endeavor",
-    num: 283,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      noparentalbond: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Deals damage to the target equal to (target's current HP - user's current HP). The target is unaffected if its current HP is less than or equal to the user's current HP.",
-    shortDesc: "Lowers the target's HP to the user's HP.",
-    pp: 5
-  },
-  endure: {
-    id: "endure",
-    name: "Endure",
-    num: 203,
-    type: "Normal",
-    flags: {
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user will survive attacks made by other Pokemon during this turn with at least 1 HP. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "User survives attacks this turn with at least 1 HP.",
-    pp: 10
-  },
-  energyball: {
-    id: "energyball",
-    name: "Energy Ball",
-    num: 412,
-    type: "Grass",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "10% chance to lower the target's Sp. Def by 1.",
-    pp: 10
-  },
-  entrainment: {
-    id: "entrainment",
-    name: "Entrainment",
-    num: 494,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target's Ability to become the same as the user's. Fails if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Truant, Zen Mode, Zero to Hero, or the same Ability as the user, or if the user's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Flower Gift, Forecast, Gulp Missile, Hadron Engine, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Orichalcum Pulse, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Trace, Zen Mode, or Zero to Hero.",
-    shortDesc: "The target's Ability changes to match the user's.",
-    pp: 15
-  },
-  eruption: {
-    id: "eruption",
-    name: "Eruption",
-    num: 284,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
+      protect: 1
     },
     basePower: 150,
     accuracy: 100,
-    category: "Special",
-    desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
-    shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+    category: "Physical",
+    desc: "The user beats the target into hopeless submission.\nThis deals 25% recoil to the user, and drops the\nuser's Defensive stats by 1 after use. Contact.",
+    shortDesc: "The user beats the target into hopeless submission.\nThis deals 25% recoil to the user, and drops the\nuser's Defensive stats by 1 after use. Contact.",
     pp: 5
   },
-  esperwing: {
-    id: "esperwing",
-    name: "Esper Wing",
-    num: 840,
-    type: "Psychic",
+  lowkick: {
+    id: "lowkick",
+    name: "Low Kick",
+    num: 67,
+    type: "Fighting",
     flags: {
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 80,
+    basePower: 1,
     accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to raise the user's Speed by 1 stage and a higher chance for a critical hit.",
-    shortDesc: "100% chance to raise user Speed by 1. High crit.",
-    pp: 10
+    category: "Physical",
+    desc: "A powerful low kick that makes the target fall over.\nThe heavier the target, the stronger this becomes.\nThis ALWAYS drops the foe's Speed by 1. Contact.",
+    shortDesc: "A powerful low kick that makes the target fall over.\nThe heavier the target, the stronger this becomes.\nThis ALWAYS drops the foe's Speed by 1. Contact.",
+    pp: 20
   },
-  eternabeam: {
-    id: "eternabeam",
-    name: "Eternabeam",
-    num: 795,
-    type: "Dragon",
+  counter: {
+    id: "counter",
+    name: "Counter",
+    num: 68,
+    type: "Fighting",
     flags: {
-      recharge: 1,
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      protect: 1
     },
-    basePower: 160,
-    accuracy: 90,
-    category: "Special",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "A retaliation move that counters any physical attack,\ninflicting double the damage taken. Contact.",
+    shortDesc: "A retaliation move that counters any physical attack,\ninflicting double the damage taken. Contact.",
+    pp: 20
+  },
+  seismictoss: {
+    id: "seismictoss",
+    name: "Seismic Toss",
+    num: 69,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level. Contact.\nThis ALWAYS gives the user +1 Accuracy after use.",
+    shortDesc: "The target is thrown using the power of gravity.\nIt inflicts damage equal to the user’s level. Contact.\nThis ALWAYS gives the user +1 Accuracy after use.",
+    pp: 20
+  },
+  strength: {
+    id: "strength",
+    name: "Strength",
+    num: 70,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats by 1. Contact.",
+    shortDesc: "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats by 1. Contact.",
     pp: 5
   },
-  expandingforce: {
-    id: "expandingforce",
-    name: "Expanding Force",
-    num: 797,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the current terrain is Psychic Terrain and the user is grounded, this move hits all opposing Pokemon and has its power multiplied by 1.5.",
-    shortDesc: "User on Psychic Terrain: 1.5x power, hits foes.",
-    pp: 10
-  },
-  explosion: {
-    id: "explosion",
-    name: "Explosion",
-    num: 153,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      noparentalbond: 1
-    },
-    basePower: 250,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
-    shortDesc: "Hits adjacent Pokemon. The user faints.",
-    pp: 5
-  },
-  extrasensory: {
-    id: "extrasensory",
-    name: "Extrasensory",
-    num: 326,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to make the target flinch.",
-    shortDesc: "10% chance to make the target flinch.",
-    pp: 20
-  },
-  extremeevoboost: {
-    id: "extremeevoboost",
-    name: "Extreme Evoboost",
-    num: 702,
-    type: "Normal",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 2 stages.",
-    shortDesc: "Raises user's Atk, Def, SpA, SpD, and Spe by 2.",
-    pp: 1
-  },
-  extremespeed: {
-    id: "extremespeed",
-    name: "Extreme Speed",
-    num: 245,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Nearly always goes first.",
-    pp: 5
-  },
-  facade: {
-    id: "facade",
-    name: "Facade",
-    num: 263,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the user is burned, paralyzed, or poisoned. The physical damage halving effect from the user's burn is ignored.",
-    shortDesc: "Power doubles if user is burn/poison/paralyzed.",
-    pp: 20
-  },
-  fairylock: {
-    id: "fairylock",
-    name: "Fairy Lock",
-    num: 587,
-    type: "Fairy",
-    flags: {
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Prevents all active Pokemon from switching next turn. A Pokemon can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. Fails if the effect is already active.",
-    shortDesc: "Prevents all Pokemon from switching next turn.",
-    pp: 10
-  },
-  fairywind: {
-    id: "fairywind",
-    name: "Fairy Wind",
-    num: 584,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 30
-  },
-  fakeout: {
-    id: "fakeout",
-    name: "Fake Out",
-    num: 252,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
-    shortDesc: "Hits first. First turn out only. 100% flinch chance.",
-    pp: 10
-  },
-  faketears: {
-    id: "faketears",
-    name: "Fake Tears",
-    num: 313,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Special Defense by 2 stages.",
-    shortDesc: "Lowers the target's Sp. Def by 2.",
-    pp: 20
-  },
-  falsesurrender: {
-    id: "falsesurrender",
-    name: "False Surrender",
-    num: 793,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 10
-  },
-  falseswipe: {
-    id: "falseswipe",
-    name: "False Swipe",
-    num: 206,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Leaves the target with at least 1 HP.",
-    shortDesc: "Always leaves the target with at least 1 HP.",
-    pp: 40
-  },
-  featherdance: {
-    id: "featherdance",
-    name: "Feather Dance",
-    num: 297,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack by 2 stages.",
-    shortDesc: "Lowers the target's Attack by 2.",
-    pp: 15
-  },
-  feint: {
-    id: "feint",
-    name: "Feint",
-    num: 364,
-    type: "Normal",
-    flags: {
-      mirror: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 30,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
-    shortDesc: "Nullifies Detect, Protect, and Quick/Wide Guard.",
-    pp: 10
-  },
-  feintattack: {
-    id: "feintattack",
-    name: "Feint Attack",
-    num: 185,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 20
-  },
-  fellstinger: {
-    id: "fellstinger",
-    name: "Fell Stinger",
-    num: 565,
+  siphon: {
+    id: "siphon",
+    name: "Siphon",
+    num: 71,
     type: "Bug",
     flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
     basePower: 50,
     accuracy: 100,
-    category: "Physical",
-    desc: "Raises the user's Attack by 3 stages if this move knocks out the target.",
-    shortDesc: "Raises user's Attack by 3 if this KOes the target.",
-    pp: 25
+    category: "Special",
+    desc: "The user siphons the foe's vital fluids or energy.\nThis heals the user by 100% of damage dealt.",
+    shortDesc: "The user siphons the foe's vital fluids or energy.\nThis heals the user by 100% of damage dealt.",
+    pp: 10
   },
-  fierydance: {
-    id: "fierydance",
-    name: "Fiery Dance",
-    num: 552,
-    type: "Fire",
+  megadrain: {
+    id: "megadrain",
+    name: "Mega Drain",
+    num: 72,
+    type: "Grass",
     flags: {
-      protect: 1,
       mirror: 1,
-      dance: 1
+      protect: 1
     },
-    basePower: 80,
+    basePower: 60,
     accuracy: 100,
     category: "Special",
-    desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
-    shortDesc: "50% chance to raise the user's Sp. Atk by 1.",
-    pp: 10
+    desc: "A nutrient-draining attack. The user’s HP is restored\nby 75% of the damage taken by the target.",
+    shortDesc: "A nutrient-draining attack. The user’s HP is restored\nby 75% of the damage taken by the target.",
+    pp: 15
   },
-  fierywrath: {
-    id: "fierywrath",
-    name: "Fiery Wrath",
-    num: 822,
-    type: "Dark",
+  leechseed: {
+    id: "leechseed",
+    name: "Leech Seed",
+    num: 73,
+    type: "Grass",
     flags: {
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      reflectable: 1
     },
-    basePower: 90,
+    basePower: 0,
     accuracy: 100,
-    category: "Special",
-    desc: "Has a 20% chance to make the target flinch.",
-    shortDesc: "20% chance to make the foe(s) flinch.",
+    category: "Status",
+    desc: "A seed is planted on the target. It steals 12% HP\nfrom the target every turn. Z-Effect heals user fully.",
+    shortDesc: "A seed is planted on the target. It steals 12% HP\nfrom the target every turn. Z-Effect heals user fully.",
     pp: 10
   },
-  filletaway: {
-    id: "filletaway",
-    name: "Fillet Away",
-    num: 868,
-    type: "Normal",
+  growth: {
+    id: "growth",
+    name: "Growth",
+    num: 74,
+    type: "Grass",
     flags: {
+      dance: 1,
       snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Attack, Special Attack, and Speed by 2 stages in exchange for the user losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Special Attack, and Speed stat stages would not change.",
-    shortDesc: "+2 Attack, Sp. Atk, Speed for 1/2 user's max HP.",
+    desc: "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats by one, or two in the Sun.\nZ-Effect heals user fully.",
+    shortDesc: "The user’s body grows all at once, raising the\nAttack and Sp. Atk stats by one, or two in the Sun.\nZ-Effect heals user fully.",
+    pp: 2
+  },
+  razorleaf: {
+    id: "razorleaf",
+    name: "Razor Leaf",
+    num: 75,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Sharp-edged leaves are launched to slash at the\nfoes. This has a 12% (+1) crit rate.",
+    shortDesc: "Sharp-edged leaves are launched to slash at the\nfoes. This has a 12% (+1) crit rate.",
+    pp: 20
+  },
+  solarbeam: {
+    id: "solarbeam",
+    name: "Solar Beam",
+    num: 76,
+    type: "Grass",
+    flags: {
+      charge: 1,
+      mirror: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Special",
+    desc: "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.This doesn't\ncharge in Sun. ALWAYS CRITS, ignores Protect.",
+    shortDesc: "In this two-turn attack, the user gathers light, then\nblasts a bundled beam on the next turn.This doesn't\ncharge in Sun. ALWAYS CRITS, ignores Protect.",
     pp: 10
   },
-  finalgambit: {
-    id: "finalgambit",
-    name: "Final Gambit",
-    num: 515,
-    type: "Fighting",
+  poisonpowder: {
+    id: "poisonpowder",
+    name: "Poison Powder",
+    num: 77,
+    type: "Poison",
     flags: {
+      mirror: 1,
       protect: 1,
-      noparentalbond: 1
+      reflectable: 1
     },
     basePower: 0,
     accuracy: 100,
-    category: "Special",
-    desc: "Deals damage to the target equal to the user's current HP. If this move is successful, the user faints.",
-    shortDesc: "Does damage equal to the user's HP. User faints.",
-    pp: 5
+    category: "Status",
+    desc: "The user scatters a cloud of poisonous dust that\npoisons the target. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user scatters a cloud of poisonous dust that\npoisons the target. Z-Effect +2 Sp. Def.",
+    pp: 35
   },
-  fireblast: {
-    id: "fireblast",
-    name: "Fire Blast",
-    num: 126,
-    type: "Fire",
+  stunspore: {
+    id: "stunspore",
+    name: "Stun Spore",
+    num: 78,
+    type: "Grass",
     flags: {
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      reflectable: 1
     },
-    basePower: 110,
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user scatters a cloud of numbing powder that\nparalyzes the target. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user scatters a cloud of numbing powder that\nparalyzes the target. Z-Effect +2 Sp. Def.",
+    pp: 30
+  },
+  sleeppowder: {
+    id: "sleeppowder",
+    name: "Sleep Powder",
+    num: 79,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
     accuracy: 85,
+    category: "Status",
+    desc: "The user scatters a big cloud of sleep-inducing dust,\nputting the target to sleep for 2 turns.\nZ-Effect heals the user fully.",
+    shortDesc: "The user scatters a big cloud of sleep-inducing dust,\nputting the target to sleep for 2 turns.\nZ-Effect heals the user fully.",
+    pp: 2
+  },
+  petaldance: {
+    id: "petaldance",
+    name: "Petal Dance",
+    num: 80,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 100,
     category: "Special",
-    desc: "Has a 10% chance to burn the target.",
-    shortDesc: "10% chance to burn the target.",
+    desc: "The user attacks the target by scattering petals for\ntwo to three turns. The user then becomes confused.",
+    shortDesc: "The user attacks the target by scattering petals for\ntwo to three turns. The user then becomes confused.",
     pp: 5
   },
-  firefang: {
-    id: "firefang",
-    name: "Fire Fang",
-    num: 424,
-    type: "Fire",
+  stringshot: {
+    id: "stringshot",
+    name: "String Shot",
+    num: 81,
+    type: "Bug",
     flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 10% chance to burn the target and a 10% chance to make it flinch.",
-    shortDesc: "10% chance to burn. 10% chance to flinch.",
-    pp: 15
-  },
-  firelash: {
-    id: "firelash",
-    name: "Fire Lash",
-    num: 680,
-    type: "Fire",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "100% chance to lower the target's Defense by 1.",
-    pp: 15
-  },
-  firepledge: {
-    id: "firepledge",
-    name: "Fire Pledge",
-    num: 519,
-    type: "Fire",
-    flags: {
-      protect: 1,
       mirror: 1,
-      nonsky: 1,
-      pledgecombo: 1
+      protect: 1,
+      reflectable: 1
     },
-    basePower: 80,
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 2.\nZ-Effect +3 Speed.",
+    shortDesc: "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 2.\nZ-Effect +3 Speed.",
+    pp: 20
+  },
+  dragonburst: {
+    id: "dragonburst",
+    name: "Dragon Burst",
+    num: 82,
+    type: "Dragon",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
     accuracy: 100,
     category: "Special",
-    desc: "If one of the user's allies chose to use Grass Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Grass Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Water Pledge with 150 power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances and stacks with the Serene Grace Ability, except effects that cause flinching can only have their chance doubled once. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Fire Gem.",
-    shortDesc: "Use with Grass or Water Pledge for added effect.",
-    pp: 10
-  },
-  firepunch: {
-    id: "firepunch",
-    name: "Fire Punch",
-    num: 7,
-    type: "Fire",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to burn the target.",
-    shortDesc: "10% chance to burn the target.",
-    pp: 15
+    desc: "In a rage, the user fires 3 shockwaves of dragon\nenergy at the foe. Each individual shockwave deals\n40 HP damage for a total of 120 flat HP damage.",
+    shortDesc: "In a rage, the user fires 3 shockwaves of dragon\nenergy at the foe. Each individual shockwave deals\n40 HP damage for a total of 120 flat HP damage.",
+    pp: 5
   },
   firespin: {
     id: "firespin",
@@ -4096,49 +1387,114 @@ exports.BattleMovedex = {
     num: 83,
     type: "Fire",
     flags: {
-      protect: 1,
-      mirror: 1
+      defrost: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 35,
-    accuracy: 85,
+    basePower: 60,
+    accuracy: 100,
     category: "Special",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
+    desc: "The target becomes trapped within a fierce vortex of\nfire that traps foe for 6 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
+    shortDesc: "The target becomes trapped within a fierce vortex of\nfire that traps foe for 6 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
     pp: 15
   },
-  firstimpression: {
-    id: "firstimpression",
-    name: "First Impression",
-    num: 660,
-    type: "Bug",
+  thundershock: {
+    id: "thundershock",
+    name: "Thunder Shock",
+    num: 84,
+    type: "Electric",
     flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 40,
+    accuracy: 100,
+    category: "Special",
+    desc: "A jolt of concentrated static electricity strikes the foe.\nThis will ALWAYS leave the foe with paralysis.",
+    shortDesc: "A jolt of concentrated static electricity strikes the foe.\nThis will ALWAYS leave the foe with paralysis.",
+    pp: 15
+  },
+  thunderbolt: {
+    id: "thunderbolt",
+    name: "Thunderbolt",
+    num: 85,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
     },
     basePower: 90,
     accuracy: 100,
-    category: "Physical",
-    desc: "Fails unless it is the user's first turn on the field.",
-    shortDesc: "Hits first. First turn out only.",
-    pp: 10
+    category: "Special",
+    desc: "A strong electric blast crashes down on the target.\nThis leaves the target paralyzed 10% of the time.",
+    shortDesc: "A strong electric blast crashes down on the target.\nThis leaves the target paralyzed 10% of the time.",
+    pp: 15
   },
-  fishiousrend: {
-    id: "fishiousrend",
-    name: "Fishious Rend",
-    num: 755,
-    type: "Water",
+  thunderwave: {
+    id: "thunderwave",
+    name: "Thunder Wave",
+    num: 86,
+    type: "Electric",
     flags: {
-      bite: 1,
-      contact: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      reflectable: 1
     },
-    basePower: 85,
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user launches a weak wave of electricity that\nparalyzes the target. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user launches a weak wave of electricity that\nparalyzes the target. Z-Effect +2 Sp. Def.",
+    pp: 20
+  },
+  thunder: {
+    id: "thunder",
+    name: "Thunder",
+    num: 87,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 85,
+    category: "Special",
+    desc: "A wicked thunderbolt is dropped on the target.\nThis leaves the target paralyzed 30% of the time.\nThis can't miss in the Rain.",
+    shortDesc: "A wicked thunderbolt is dropped on the target.\nThis leaves the target paralyzed 30% of the time.\nThis can't miss in the Rain.",
+    pp: 5
+  },
+  faerieblow: {
+    id: "faerieblow",
+    name: "Faerie Blow",
+    num: 88,
+    type: "Fairy",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user quickly strikes the target whimsically.\nThis has +1 priority, and can't miss. Contact.",
+    shortDesc: "The user quickly strikes the target whimsically.\nThis has +1 priority, and can't miss. Contact.",
+    pp: 15
+  },
+  earthquake: {
+    id: "earthquake",
+    name: "Earthquake",
+    num: 89,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
     accuracy: 100,
     category: "Physical",
-    desc: "Power doubles if the user moves before the target.",
-    shortDesc: "Power doubles if user moves before the target.",
+    desc: "The user sets off an earthquake that strikes every\nPokemon around it.",
+    shortDesc: "The user sets off an earthquake that strikes every\nPokemon around it.",
     pp: 10
   },
   fissure: {
@@ -4147,1010 +1503,248 @@ exports.BattleMovedex = {
     num: 90,
     type: "Ground",
     flags: {
-      protect: 1,
       mirror: 1,
-      nonsky: 1
+      protect: 1
     },
-    basePower: 0,
-    accuracy: 30,
-    category: "Physical",
-    desc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
-    shortDesc: "OHKOs the target. Fails if user is a lower level.",
-    pp: 5
-  },
-  flail: {
-    id: "flail",
-    name: "Flail",
-    num: 175,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
-    shortDesc: "More power the less HP the user has left.",
-    pp: 15
-  },
-  flameburst: {
-    id: "flameburst",
-    name: "Flame Burst",
-    num: 481,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "If this move is successful, the target's ally loses 1/16 of its maximum HP, rounded down, unless it has the Magic Guard Ability.",
-    shortDesc: "Damages Pokemon next to the target as well.",
-    pp: 15
-  },
-  flamecharge: {
-    id: "flamecharge",
-    name: "Flame Charge",
-    num: 488,
-    type: "Fire",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
-    shortDesc: "100% chance to raise the user's Speed by 1.",
-    pp: 20
-  },
-  flamewheel: {
-    id: "flamewheel",
-    name: "Flame Wheel",
-    num: 172,
-    type: "Fire",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to burn the target.",
-    shortDesc: "10% chance to burn the target. Thaws user.",
-    pp: 25
-  },
-  flamethrower: {
-    id: "flamethrower",
-    name: "Flamethrower",
-    num: 53,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to burn the target.",
-    shortDesc: "10% chance to burn the target.",
-    pp: 15
-  },
-  flareblitz: {
-    id: "flareblitz",
-    name: "Flare Blitz",
-    num: 394,
-    type: "Fire",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 33% recoil. 10% chance to burn. Thaws user.",
-    pp: 15
-  },
-  flash: {
-    id: "flash",
-    name: "Flash",
-    num: 148,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's accuracy by 1 stage.",
-    shortDesc: "Lowers the target's accuracy by 1.",
-    pp: 20
-  },
-  flashcannon: {
-    id: "flashcannon",
-    name: "Flash Cannon",
-    num: 430,
-    type: "Steel",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "10% chance to lower the target's Sp. Def by 1.",
-    pp: 10
-  },
-  flatter: {
-    id: "flatter",
-    name: "Flatter",
-    num: 260,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Raises the target's Special Attack by 1 stage and confuses it.",
-    shortDesc: "Raises the target's Sp. Atk by 1 and confuses it.",
-    pp: 15
-  },
-  fleurcannon: {
-    id: "fleurcannon",
-    name: "Fleur Cannon",
-    num: 705,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 130,
-    accuracy: 90,
-    category: "Special",
-    desc: "Lowers the user's Special Attack by 2 stages.",
-    shortDesc: "Lowers the user's Sp. Atk by 2.",
-    pp: 5
-  },
-  fling: {
-    id: "fling",
-    name: "Fling",
-    num: 374,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      allyanim: 1,
-      noparentalbond: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The power of this move is based on the user's held item. The held item is lost and it activates for the target if applicable. If there is no target or the target avoids this move by protecting itself, the user's held item is still lost. The user can regain a thrown item with Recycle or the Harvest Ability. Fails if the user has no held item, if the held item cannot be thrown, if the user is under the effect of Embargo or Magic Room, or if the user has the Klutz Ability.",
-    shortDesc: "Flings the user's item at the target. Power varies.",
-    pp: 10
-  },
-  flipturn: {
-    id: "flipturn",
-    name: "Flip Turn",
-    num: 812,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
-    shortDesc: "User switches out after damaging the target.",
-    pp: 20
-  },
-  floralhealing: {
-    id: "floralhealing",
-    name: "Floral Healing",
-    num: 666,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      heal: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The target restores 1/2 of its maximum HP, rounded half up. If the terrain is Grassy Terrain, the target instead restores 2/3 of its maximum HP, rounded half down.",
-    shortDesc: "Heals the target by 50% of its max HP.",
-    pp: 10
-  },
-  flowershield: {
-    id: "flowershield",
-    name: "Flower Shield",
-    num: 579,
-    type: "Fairy",
-    flags: {
-      distance: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the Defense of all active Grass-type Pokemon by 1 stage. Fails if there are no active Grass-type Pokemon.",
-    shortDesc: "Raises Defense by 1 of all active Grass types.",
-    pp: 10
-  },
-  flowertrick: {
-    id: "flowertrick",
-    name: "Flower Trick",
-    num: 870,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities. This move does not check accuracy.",
-    shortDesc: "Always results in a critical hit; no accuracy check.",
-    pp: 10
-  },
-  fly: {
-    id: "fly",
-    name: "Fly",
-    num: 19,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      gravity: 1,
-      distance: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failinstruct: 1
-    },
-    basePower: 90,
-    accuracy: 95,
-    category: "Physical",
-    desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister, and Gust and Twister have doubled power when used against it. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Flies up on first turn, then strikes the next turn.",
-    pp: 15
-  },
-  flyingpress: {
-    id: "flyingpress",
-    name: "Flying Press",
-    num: 560,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      gravity: 1,
-      distance: 1,
-      nonsky: 1
-    },
-    basePower: 100,
-    accuracy: 95,
-    category: "Physical",
-    desc: "This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "Combines Flying in its type effectiveness.",
-    pp: 10
-  },
-  focusblast: {
-    id: "focusblast",
-    name: "Focus Blast",
-    num: 411,
-    type: "Fighting",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 70,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "10% chance to lower the target's Sp. Def by 1.",
-    pp: 5
-  },
-  focusenergy: {
-    id: "focusenergy",
-    name: "Focus Energy",
-    num: 116,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's chance for a critical hit by 2 stages. Fails if the user already has the effect. Baton Pass can be used to transfer this effect to an ally.",
-    shortDesc: "Raises the user's critical hit ratio by 2.",
-    pp: 30
-  },
-  focuspunch: {
-    id: "focuspunch",
-    name: "Focus Punch",
-    num: 264,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      punch: 1,
-      failmefirst: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1
-    },
-    basePower: 150,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user loses its focus and does nothing if it is hit by a damaging attack this turn before it can execute the move.",
-    shortDesc: "Fails if the user takes damage before it hits.",
-    pp: 20
-  },
-  followme: {
-    id: "followme",
-    name: "Follow Me",
-    num: 266,
-    type: "Normal",
-    flags: {
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.",
-    shortDesc: "The foes' moves target the user on the turn used.",
-    pp: 20
-  },
-  forcepalm: {
-    id: "forcepalm",
-    name: "Force Palm",
-    num: 395,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to paralyze the target.",
-    shortDesc: "30% chance to paralyze the target.",
-    pp: 10
-  },
-  foresight: {
-    id: "foresight",
-    name: "Foresight",
-    num: 193,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Normal- and Fighting-type attacks can hit the target if it is a Ghost type. Fails if the target is already affected, or affected by Miracle Eye or Odor Sleuth.",
-    shortDesc: "Fighting, Normal hit Ghost. Evasiveness ignored.",
-    pp: 40
-  },
-  forestscurse: {
-    id: "forestscurse",
-    name: "Forest's Curse",
-    num: 571,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the Grass type to be added to the target, effectively making it have two or three types. Fails if the target is already a Grass type. If Trick-or-Treat adds a type to the target, it replaces the type added by this move and vice versa.",
-    shortDesc: "Adds Grass to the target's type(s).",
-    pp: 20
-  },
-  foulplay: {
-    id: "foulplay",
-    name: "Foul Play",
-    num: 492,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 95,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
-    shortDesc: "Uses target's Attack stat in damage calculation.",
-    pp: 15
-  },
-  freezedry: {
-    id: "freezedry",
-    name: "Freeze-Dry",
-    num: 573,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
-    shortDesc: "10% chance to freeze. Super effective on Water.",
-    pp: 20
-  },
-  freezeshock: {
-    id: "freezeshock",
-    name: "Freeze Shock",
-    num: 553,
-    type: "Ice",
-    flags: {
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 140,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 30% chance to paralyze the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Charges turn 1. Hits turn 2. 30% paralyze.",
-    pp: 5
-  },
-  freezingglare: {
-    id: "freezingglare",
-    name: "Freezing Glare",
-    num: 821,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to freeze the target.",
-    shortDesc: "10% chance to freeze the target.",
-    pp: 10
-  },
-  frenzyplant: {
-    id: "frenzyplant",
-    name: "Frenzy Plant",
-    num: 338,
-    type: "Grass",
-    flags: {
-      recharge: 1,
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 150,
-    accuracy: 90,
-    category: "Special",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  frostbreath: {
-    id: "frostbreath",
-    name: "Frost Breath",
-    num: 524,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 90,
-    category: "Special",
-    desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
-    shortDesc: "Always results in a critical hit.",
-    pp: 10
-  },
-  frustration: {
-    id: "frustration",
-    name: "Frustration",
-    num: 218,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1.",
-    shortDesc: "Max 102 power at minimum Happiness.",
-    pp: 20
-  },
-  furyattack: {
-    id: "furyattack",
-    name: "Fury Attack",
-    num: 31,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 15,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 20
-  },
-  furycutter: {
-    id: "furycutter",
-    name: "Fury Cutter",
-    num: 210,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 40,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Power doubles with each successful hit, up to a maximum of 160 power. The power is reset if this move misses or another move is used.",
-    shortDesc: "Power doubles with each hit, up to 160.",
-    pp: 20
-  },
-  furyswipes: {
-    id: "furyswipes",
-    name: "Fury Swipes",
-    num: 154,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 18,
-    accuracy: 80,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 15
-  },
-  fusionbolt: {
-    id: "fusionbolt",
-    name: "Fusion Bolt",
-    num: 559,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the last move used by any Pokemon this turn was Fusion Flare.",
-    shortDesc: "Power doubles if used after Fusion Flare this turn.",
-    pp: 5
-  },
-  fusionflare: {
-    id: "fusionflare",
-    name: "Fusion Flare",
-    num: 558,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "Power doubles if the last move used by any Pokemon this turn was Fusion Bolt.",
-    shortDesc: "Power doubles if used after Fusion Bolt this turn.",
-    pp: 5
-  },
-  futuresight: {
-    id: "futuresight",
-    name: "Future Sight",
-    num: 248,
-    type: "Psychic",
-    flags: {
-      allyanim: 1,
-      futuremove: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage two turns after this move is used. At the end of that turn, the damage is calculated at that time and dealt to the Pokemon at the position the target had when the move was used. If the user is no longer active at the time, damage is calculated based on the user's natural Special Attack stat, types, and level, with no boosts from its held item or Ability. Fails if this move or Doom Desire is already in effect for the target's position.",
-    shortDesc: "Hits two turns after being used.",
-    pp: 10
-  },
-  gastroacid: {
-    id: "gastroacid",
-    name: "Gastro Acid",
-    num: 380,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target's Ability to be rendered ineffective as long as it remains active. If the target uses Baton Pass, the replacement will remain under this effect. If the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Zen Mode, or Zero to Hero, this move fails, and receiving the effect through Baton Pass ends the effect immediately.",
-    shortDesc: "Nullifies the target's Ability.",
-    pp: 10
-  },
-  geargrind: {
-    id: "geargrind",
-    name: "Gear Grind",
-    num: 544,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times in one turn.",
-    pp: 15
-  },
-  gearup: {
-    id: "gearup",
-    name: "Gear Up",
-    num: 674,
-    type: "Steel",
-    flags: {
-      snatch: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the Attack and Special Attack of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
-    shortDesc: "Raises Atk, Sp. Atk of allies with Plus/Minus by 1.",
-    pp: 20
-  },
-  genesissupernova: {
-    id: "genesissupernova",
-    name: "Genesis Supernova",
-    num: 703,
-    type: "Psychic",
-    flags: {},
-    basePower: 185,
-    accuracy: true,
-    category: "Special",
-    desc: "If this move is successful, the terrain becomes Psychic Terrain.",
-    shortDesc: "Summons Psychic Terrain.",
-    pp: 1
-  },
-  geomancy: {
-    id: "geomancy",
-    name: "Geomancy",
-    num: 601,
-    type: "Fairy",
-    flags: {
-      charge: 1,
-      nonsky: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Special Attack, Special Defense, and Speed by 2 stages. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Charges, then raises SpA, SpD, Spe by 2 turn 2.",
-    pp: 10
-  },
-  gigadrain: {
-    id: "gigadrain",
-    name: "Giga Drain",
-    num: 202,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 10
-  },
-  gigaimpact: {
-    id: "gigaimpact",
-    name: "Giga Impact",
-    num: 416,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      recharge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  gigatonhammer: {
-    id: "gigatonhammer",
-    name: "Gigaton Hammer",
-    num: 893,
-    type: "Steel",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      cantusetwice: 1
-    },
-    basePower: 160,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Cannot be used twice in a row.",
-    shortDesc: "Cannot be used twice in a row.",
-    pp: 5
-  },
-  gigavolthavoc: {
-    id: "gigavolthavoc",
-    name: "Gigavolt Havoc",
-    num: 646,
-    type: "Electric",
-    flags: {},
     basePower: 1,
     accuracy: true,
     category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
+    desc: "The opens up a fissure under the foe, fainting them.\nThis attack NEVER misses, but can only be used once.\nContact.",
+    shortDesc: "The opens up a fissure under the foe, fainting them.\nThis attack NEVER misses, but can only be used once.\nContact.",
     pp: 1
   },
-  glaciallance: {
-    id: "glaciallance",
-    name: "Glacial Lance",
-    num: 824,
-    type: "Ice",
+  dig: {
+    id: "dig",
+    name: "Dig",
+    num: 91,
+    type: "Ground",
     flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent foes.",
-    pp: 5
-  },
-  glaciate: {
-    id: "glaciate",
-    name: "Glaciate",
-    num: 549,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the foe(s) Speed by 1.",
-    pp: 10
-  },
-  glaiverush: {
-    id: "glaiverush",
-    name: "Glaive Rush",
-    num: 862,
-    type: "Dragon",
-    flags: {
+      charge: 1,
       contact: 1,
-      protect: 1,
       mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful, moves targeted at the user deal double damage and do not check accuracy until the user's next turn.",
-    shortDesc: "User takes sure-hit 2x damage until its next turn.",
-    pp: 5
-  },
-  glare: {
-    id: "glare",
-    name: "Glare",
-    num: 137,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Paralyzes the target.",
-    shortDesc: "Paralyzes the target.",
-    pp: 30
-  },
-  grassknot: {
-    id: "grassknot",
-    name: "Grass Knot",
-    num: 447,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Special",
-    desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
-    shortDesc: "More power the heavier the target.",
-    pp: 20
-  },
-  grasspledge: {
-    id: "grasspledge",
-    name: "Grass Pledge",
-    num: 520,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1,
-      pledgecombo: 1
     },
     basePower: 80,
     accuracy: 100,
-    category: "Special",
-    desc: "If one of the user's allies chose to use Fire Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Fire Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Grass Pledge with 150 power and a swamp appears on the target's side for 4 turns, which quarters the Speed of each Pokemon on that side. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Grass Gem.",
-    shortDesc: "Use with Fire or Water Pledge for added effect.",
-    pp: 10
-  },
-  grasswhistle: {
-    id: "grasswhistle",
-    name: "Grass Whistle",
-    num: 320,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 55,
-    category: "Status",
-    desc: "Causes the target to fall asleep.",
-    shortDesc: "Causes the target to fall asleep.",
+    category: "Physical",
+    desc: "The user burrows, then attacks on the next turn.\nThe user gains +1 Accuracy after attacking. Contact.\nBypasses protect.",
+    shortDesc: "The user burrows, then attacks on the next turn.\nThe user gains +1 Accuracy after attacking. Contact.\nBypasses protect.",
     pp: 15
   },
-  grassyglide: {
-    id: "grassyglide",
-    name: "Grassy Glide",
-    num: 803,
-    type: "Grass",
+  toxic: {
+    id: "toxic",
+    name: "Toxic",
+    num: 92,
+    type: "Poison",
     flags: {
-      contact: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      reflectable: 1
     },
-    basePower: 55,
+    basePower: 0,
     accuracy: 100,
-    category: "Physical",
-    desc: "If the current terrain is Grassy Terrain and the user is grounded, this move has its priority increased by 1.",
-    shortDesc: "User on Grassy Terrain: +1 priority.",
-    pp: 20
+    category: "Status",
+    desc: "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.\nZ-Effect heals user fully.",
+    shortDesc: "A move that leaves the target badly poisoned.\nIts poison damage worsens every turn.\nZ-Effect heals user fully.",
+    pp: 10
   },
-  grassyterrain: {
-    id: "grassyterrain",
-    name: "Grassy Terrain",
-    num: 580,
-    type: "Grass",
+  confusion: {
+    id: "confusion",
+    name: "Confusion",
+    num: 93,
+    type: "Psychic",
     flags: {
-      nonsky: 1
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is hit by a weak telekinetic force.\nThis confuses the target for 4 turns 50% of the time.",
+    shortDesc: "The target is hit by a weak telekinetic force.\nThis confuses the target for 4 turns 50% of the time.",
+    pp: 25
+  },
+  psychic: {
+    id: "psychic",
+    name: "Psychic",
+    num: 94,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is hit by a strong telekinetic force.\nThis drops the foe's Sp. Def 25% of the time.",
+    shortDesc: "The target is hit by a strong telekinetic force.\nThis drops the foe's Sp. Def 25% of the time.",
+    pp: 10
+  },
+  hypnosis: {
+    id: "hypnosis",
+    name: "Hypnosis",
+    num: 95,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 80,
+    category: "Status",
+    desc: "The user employs hypnotic suggestion, putting the\ntarget in a deep sleep that lasts 2 turns.\nZ-Effect +2 Sp. Def.",
+    shortDesc: "The user employs hypnotic suggestion, putting the\ntarget in a deep sleep that lasts 2 turns.\nZ-Effect +2 Sp. Def.",
+    pp: 2
+  },
+  meditate: {
+    id: "meditate",
+    name: "Meditate",
+    num: 96,
+    type: "Psychic",
+    flags: {
+      dance: 1,
+      snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "For 5 turns, the terrain becomes Grassy Terrain. During the effect, the power of Grass-type attacks used by grounded Pokemon is multiplied by 1.3, the power of Bulldoze, Earthquake, and Magnitude used against grounded Pokemon is multiplied by 0.5, and grounded Pokemon have 1/16 of their maximum HP, rounded down, restored at the end of each turn, including the last turn. Camouflage transforms the user into a Grass type, Nature Power becomes Energy Ball, and Secret Power has a 30% chance to cause sleep. Fails if the current terrain is Grassy Terrain.",
-    shortDesc: "5 turns. Grounded: +Grass power, +1/16 max HP.",
-    pp: 10
+    desc: "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect heals the user fully.",
+    shortDesc: "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect heals the user fully.",
+    pp: 3
   },
-  gravapple: {
-    id: "gravapple",
-    name: "Grav Apple",
-    num: 788,
-    type: "Grass",
+  agility: {
+    id: "agility",
+    name: "Agility",
+    num: 97,
+    type: "Psychic",
     flags: {
-      protect: 1,
-      mirror: 1
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user relaxes and lightens its body to move\nfaster. This raises Speed by 2. Z-Effect +2 Crit Rate.",
+    shortDesc: "The user relaxes and lightens its body to move\nfaster. This raises Speed by 2. Z-Effect +2 Crit Rate.",
+    pp: 5
+  },
+  quickattack: {
+    id: "quickattack",
+    name: "Quick Attack",
+    num: 98,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user lunges quickly at the target.\n+1 Priority, can't miss, and makes contact.",
+    shortDesc: "The user lunges quickly at the target.\n+1 Priority, can't miss, and makes contact.",
+    pp: 15
+  },
+  rage: {
+    id: "rage",
+    name: "Rage",
+    num: 99,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 100% chance to lower the target's Defense by 1 stage. Power is multiplied by 1.5 during Gravity's effect.",
-    shortDesc: "Target: 100% -1 Def. During Gravity: 1.5x power.",
-    pp: 10
+    desc: "The user attacks with rage. As long as this move is in\nuse, rage raises the Attack stat by 1 each time the\nuser is hit. Contact.",
+    shortDesc: "The user attacks with rage. As long as this move is in\nuse, rage raises the Attack stat by 1 each time the\nuser is hit. Contact.",
+    pp: 15
   },
-  gravity: {
-    id: "gravity",
-    name: "Gravity",
-    num: 356,
+  teleport: {
+    id: "teleport",
+    name: "Teleport",
+    num: 100,
     type: "Psychic",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Use it to flee from any wild Pokemon.",
+    shortDesc: "Use it to flee from any wild Pokemon.",
+    pp: 15
+  },
+  soulabsorb: {
+    id: "soulabsorb",
+    name: "Soul Absorb",
+    num: 101,
+    type: "Ghost",
     flags: {
-      nonsky: 1
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user absorbs the foe's vital energy, or soul.\nThis deals damage equal to the user's level, and\nrecovers damage equal to the user's level.",
+    shortDesc: "The user absorbs the foe's vital energy, or soul.\nThis deals damage equal to the user's level, and\nrecovers damage equal to the user's level.",
+    pp: 5
+  },
+  mimic: {
+    id: "mimic",
+    name: "Mimic",
+    num: 102,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      protect: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "For 5 turns, the evasiveness of all active Pokemon is multiplied by 0.6. At the time of use, Bounce, Fly, Magnet Rise, Sky Drop, and Telekinesis end immediately for all active Pokemon. During the effect, Bounce, Fly, Flying Press, High Jump Kick, Jump Kick, Magnet Rise, Sky Drop, Splash, and Telekinesis are prevented from being used by all active Pokemon. Ground-type attacks, Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability can affect Flying types or Pokemon with the Levitate Ability. Fails if this move is already in effect.",
-    shortDesc: "5 turns: no Ground immunities, 1.67x accuracy.",
-    pp: 5
+    desc: "The user copies the target’s last move. The move\ncan be used during battle until the Pokemon is\nswitched out. Z-Effect +1 all stats. +6 Priority.",
+    shortDesc: "The user copies the target’s last move. The move\ncan be used during battle until the Pokemon is\nswitched out. Z-Effect +1 all stats. +6 Priority.",
+    pp: 10
   },
-  growl: {
-    id: "growl",
-    name: "Growl",
-    num: 45,
+  screech: {
+    id: "screech",
+    name: "Screech",
+    num: 103,
     type: "Normal",
     flags: {
-      protect: 1,
-      reflectable: 1,
+      bypasssub: 1,
       mirror: 1,
-      sound: 1,
-      bypasssub: 1
+      protect: 1,
+      reflectable: 1
     },
     basePower: 0,
     accuracy: 100,
     category: "Status",
-    desc: "Lowers the target's Attack by 1 stage.",
-    shortDesc: "Lowers the foe(s) Attack by 1.",
-    pp: 40
+    desc: "An earsplitting screech that lowers the foe's Defense\nstat by 2 stages. Z-Effect +3 Accuracy.",
+    shortDesc: "An earsplitting screech that lowers the foe's Defense\nstat by 2 stages. Z-Effect +3 Accuracy.",
+    pp: 15
   },
-  growth: {
-    id: "growth",
-    name: "Growth",
-    num: 74,
+  hyperspeed: {
+    id: "hyperspeed",
+    name: "Hyper Speed",
+    num: 104,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user moves so rapidly that it becomes nearly\ninvisible to the human eye, boosting the user's Speed\nstat by 3 stages. Z-Effect gives +2 crit rate.",
+    shortDesc: "The user moves so rapidly that it becomes nearly\ninvisible to the human eye, boosting the user's Speed\nstat by 3 stages. Z-Effect gives +2 crit rate.",
+    pp: 1
+  },
+  recover: {
+    id: "recover",
+    name: "Recover",
+    num: 105,
     type: "Normal",
     flags: {
       snatch: 1
@@ -5158,184 +1752,9 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Attack and Special Attack by 1 stage. If the weather is Sunny Day or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
-    shortDesc: "Raises user's Attack and Sp. Atk by 1; 2 in Sun.",
-    pp: 20
-  },
-  grudge: {
-    id: "grudge",
-    name: "Grudge",
-    num: 288,
-    type: "Ghost",
-    flags: {
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the user's next turn, if an opposing Pokemon's attack knocks the user out, that move loses all its remaining PP.",
-    shortDesc: "If the user faints, the attack used loses all its PP.",
+    desc: "Restoring its own cells, the user restores its own HP\nby half of its max HP. Z-Effect +2 Sp. Def.",
+    shortDesc: "Restoring its own cells, the user restores its own HP\nby half of its max HP. Z-Effect +2 Sp. Def.",
     pp: 5
-  },
-  guardianofalola: {
-    id: "guardianofalola",
-    name: "Guardian of Alola",
-    num: 698,
-    type: "Fairy",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Special",
-    desc: "Deals damage to the target equal to 3/4 of its current HP, rounded down, but not less than 1 HP.",
-    shortDesc: "Does damage equal to 3/4 target's current HP.",
-    pp: 1
-  },
-  guardsplit: {
-    id: "guardsplit",
-    name: "Guard Split",
-    num: 470,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user and the target have their Defense and Special Defense stats set to be equal to the average of the user and the target's Defense and Special Defense stats, respectively, rounded down. Stat stage changes are unaffected.",
-    shortDesc: "Averages Defense and Sp. Def stats with target.",
-    pp: 10
-  },
-  guardswap: {
-    id: "guardswap",
-    name: "Guard Swap",
-    num: 385,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user swaps its Defense and Special Defense stat stage changes with the target.",
-    shortDesc: "Swaps Defense and Sp. Def changes with target.",
-    pp: 10
-  },
-  guillotine: {
-    id: "guillotine",
-    name: "Guillotine",
-    num: 12,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 30,
-    category: "Physical",
-    desc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
-    shortDesc: "OHKOs the target. Fails if user is a lower level.",
-    pp: 5
-  },
-  gunkshot: {
-    id: "gunkshot",
-    name: "Gunk Shot",
-    num: 441,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 80,
-    category: "Physical",
-    desc: "Has a 30% chance to poison the target.",
-    shortDesc: "30% chance to poison the target.",
-    pp: 5
-  },
-  gust: {
-    id: "gust",
-    name: "Gust",
-    num: 16,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      distance: 1,
-      wind: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.",
-    shortDesc: "Power doubles during Bounce, Fly, and Sky Drop.",
-    pp: 35
-  },
-  gyroball: {
-    id: "gyroball",
-    name: "Gyro Ball",
-    num: 360,
-    type: "Steel",
-    flags: {
-      bullet: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to (25 * target's current Speed / user's current Speed) + 1, rounded down, but not more than 150. If the user's current Speed is 0, this move's power is 1.",
-    shortDesc: "More power the slower the user than the target.",
-    pp: 5
-  },
-  hail: {
-    id: "hail",
-    name: "Hail",
-    num: 258,
-    type: "Ice",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.",
-    shortDesc: "For 5 turns, hail crashes down.",
-    pp: 10
-  },
-  hammerarm: {
-    id: "hammerarm",
-    name: "Hammer Arm",
-    num: 359,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 100,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Lowers the user's Speed by 1 stage.",
-    shortDesc: "Lowers the user's Speed by 1.",
-    pp: 10
-  },
-  happyhour: {
-    id: "happyhour",
-    name: "Happy Hour",
-    num: 603,
-    type: "Normal",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "No competitive use.",
-    shortDesc: "No competitive use.",
-    pp: 30
   },
   harden: {
     id: "harden",
@@ -5343,14 +1762,128 @@ exports.BattleMovedex = {
     num: 106,
     type: "Normal",
     flags: {
+      dance: 1,
       snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Defense by 1 stage.",
-    shortDesc: "Raises the user's Defense by 1.",
-    pp: 30
+    desc: "The user hardens its body, boosting Defense by 1.\nZ-Effect heals user fully.",
+    shortDesc: "The user hardens its body, boosting Defense by 1.\nZ-Effect heals user fully.",
+    pp: 10
+  },
+  deflate: {
+    id: "deflate",
+    name: "Deflate",
+    num: 107,
+    type: "Flying",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user deflates itself to recover HP. This heals\nthe user to FULL HP, AND has +4 Priority.\nZ-Effect gives the user +1 to all stats.",
+    shortDesc: "The user deflates itself to recover HP. This heals\nthe user to FULL HP, AND has +4 Priority.\nZ-Effect gives the user +1 to all stats.",
+    pp: 3
+  },
+  noxiousgas: {
+    id: "noxiousgas",
+    name: "Noxious Gas",
+    num: 108,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user expels an utterly putrid smelling gas.\nThis poisons the foes while dropping their Attack,\nSp. Atk and Speed stats by 2. Z-Effect +1 All Stats.",
+    shortDesc: "The user expels an utterly putrid smelling gas.\nThis poisons the foes while dropping their Attack,\nSp. Atk and Speed stats by 2. Z-Effect +1 All Stats.",
+    pp: 5
+  },
+  confuseray: {
+    id: "confuseray",
+    name: "Confuse Ray",
+    num: 109,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The target is exposed to a sinister ray that\nconfuses them for four turns. Z-Effect +2 Sp. Atk.",
+    shortDesc: "The target is exposed to a sinister ray that\nconfuses them for four turns. Z-Effect +2 Sp. Atk.",
+    pp: 10
+  },
+  withdraw: {
+    id: "withdraw",
+    name: "Withdraw",
+    num: 110,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user withdraws its body into its hard shell,\nraising its Defense and Sp. Def stats by 1.\nZ-Effect heals user fully.",
+    shortDesc: "The user withdraws its body into its hard shell,\nraising its Defense and Sp. Def stats by 1.\nZ-Effect heals user fully.",
+    pp: 3
+  },
+  defensecurl: {
+    id: "defensecurl",
+    name: "Defense Curl",
+    num: 111,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user curls up to conceal weak spots and raise\nits Defense stat by 1. Z-Effect heals user fully.",
+    shortDesc: "The user curls up to conceal weak spots and raise\nits Defense stat by 1. Z-Effect heals user fully.",
+    pp: 40
+  },
+  barrier: {
+    id: "barrier",
+    name: "Barrier",
+    num: 112,
+    type: "Psychic",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user throws up a psychic wall that raises its\nDefense stat by 2. Z-Effect heals user fully.",
+    shortDesc: "The user throws up a psychic wall that raises its\nDefense stat by 2. Z-Effect heals user fully.",
+    pp: 2
+  },
+  lightscreen: {
+    id: "lightscreen",
+    name: "Light Screen",
+    num: 113,
+    type: "Psychic",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "A wondrous wall of light is put up to halve damage\nfrom special attacks for 5 turns. Z-Effect +2 Sp. Atk.",
+    shortDesc: "A wondrous wall of light is put up to halve damage\nfrom special attacks for 5 turns. Z-Effect +2 Sp. Atk.",
+    pp: 5
   },
   haze: {
     id: "haze",
@@ -5363,286 +1896,2007 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Resets the stat stages of all active Pokemon to 0.",
-    shortDesc: "Eliminates all stat changes.",
+    desc: "The user creates a haze that eliminates every stat\nchange on the field. Z-Effect heals user fully.\nThis has +4 Priority.",
+    shortDesc: "The user creates a haze that eliminates every stat\nchange on the field. Z-Effect heals user fully.\nThis has +4 Priority.",
     pp: 30
   },
-  headbutt: {
-    id: "headbutt",
-    name: "Headbutt",
-    num: 29,
+  reflect: {
+    id: "reflect",
+    name: "Reflect",
+    num: 115,
+    type: "Psychic",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "A wondrous wall of light is put up to halve damage of\nphysical attacks for 5 turns. Z-Effect +2 Sp. Atk.",
+    shortDesc: "A wondrous wall of light is put up to halve damage of\nphysical attacks for 5 turns. Z-Effect +2 Sp. Atk.",
+    pp: 5
+  },
+  focusenergy: {
+    id: "focusenergy",
+    name: "Focus Energy",
+    num: 116,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user takes a moment to focus. This boosts the\nthe user's crit rate by +2. Z-Effect +2 Speed.",
+    shortDesc: "The user takes a moment to focus. This boosts the\nthe user's crit rate by +2. Z-Effect +2 Speed.",
+    pp: 5
+  },
+  bide: {
+    id: "bide",
+    name: "Bide",
+    num: 117,
     type: "Normal",
     flags: {
       contact: 1,
-      protect: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user endures attacks for two turns, then strikes\nback to cause double the damage taken.",
+    shortDesc: "The user endures attacks for two turns, then strikes\nback to cause double the damage taken.",
+    pp: 10
+  },
+  metronome: {
+    id: "metronome",
+    name: "Metronome",
+    num: 118,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user waggles a finger and stimulates its brain\ninto randomly using nearly any move. Z-Effect boosts\nall stats by +1 before using the random Z-move.",
+    shortDesc: "The user waggles a finger and stimulates its brain\ninto randomly using nearly any move. Z-Effect boosts\nall stats by +1 before using the random Z-move.",
+    pp: 10
+  },
+  mirrormove: {
+    id: "mirrormove",
+    name: "Mirror Move",
+    num: 119,
+    type: "Flying",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user counters the target by mimicking the\ntarget’s last move. Z-Effect +2 Attack.\nThis has +6 Priority.",
+    shortDesc: "The user counters the target by mimicking the\ntarget’s last move. Z-Effect +2 Attack.\nThis has +6 Priority.",
+    pp: 5
+  },
+  detonate: {
+    id: "detonate",
+    name: "Detonate",
+    num: 120,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      heal: 1,
       mirror: 1
     },
-    basePower: 70,
+    basePower: 250,
     accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 15
+    category: "Special",
+    desc: "The user detonates itself, causing a fiery explosion.\nThis causes the user to faint. In exchange, everything\nhit by the explosion is left with a burn. Ignores Protect.",
+    shortDesc: "The user detonates itself, causing a fiery explosion.\nThis causes the user to faint. In exchange, everything\nhit by the explosion is left with a burn. Ignores Protect.",
+    pp: 5
   },
-  headcharge: {
-    id: "headcharge",
-    name: "Head Charge",
-    num: 543,
+  eggcannon: {
+    id: "eggcannon",
+    name: "Egg Cannon",
+    num: 121,
     type: "Normal",
     flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      heal: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 120,
+    basePower: 25,
     accuracy: 100,
     category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 1/4 recoil.",
+    desc: "The user fires a barrage of three exploding eggs.\nThis hits 3 times and ALWAYS lands a critical hit.",
+    shortDesc: "The user fires a barrage of three exploding eggs.\nThis hits 3 times and ALWAYS lands a critical hit.",
+    pp: 5
+  },
+  deviouslick: {
+    id: "deviouslick",
+    name: "Devious Lick",
+    num: 122,
+    type: "Poison",
+    flags: {
+      bypasssub: 1,
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 20,
+    accuracy: true,
+    category: "Special",
+    desc: "The user uses its filthy tongue to lick the foe.\nThis leaves the foe afflicted with a curse, causing\nthem to lose 1/4 of their max HP after each turn.",
+    shortDesc: "The user uses its filthy tongue to lick the foe.\nThis leaves the foe afflicted with a curse, causing\nthem to lose 1/4 of their max HP after each turn.",
+    pp: 3
+  },
+  smog: {
+    id: "smog",
+    name: "Smog",
+    num: 123,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 40,
+    accuracy: 100,
+    category: "Special",
+    desc: "The foes are attacked with a discharge of filthy gases\nThis ALWAYS poisons those exposed to the smog.",
+    shortDesc: "The foes are attacked with a discharge of filthy gases\nThis ALWAYS poisons those exposed to the smog.",
     pp: 15
   },
-  headlongrush: {
-    id: "headlongrush",
-    name: "Headlong Rush",
-    num: 838,
+  sludgefling: {
+    id: "sludgefling",
+    name: "Sludge Fling",
+    num: 124,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user flings thick, slimy sludge at the foe.\nThis ALWAYS lowers the foe's Speed by 1.",
+    shortDesc: "The user flings thick, slimy sludge at the foe.\nThis ALWAYS lowers the foe's Speed by 1.",
+    pp: 20
+  },
+  boneclub: {
+    id: "boneclub",
+    name: "Bone Club",
+    num: 125,
     type: "Ground",
     flags: {
-      contact: 1,
-      protect: 1,
       mirror: 1,
-      punch: 1
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1,\nand ALWAYS flinches the foe. +4 Priority.",
+    shortDesc: "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1,\nand ALWAYS flinches the foe. +4 Priority.",
+    pp: 1
+  },
+  fireblast: {
+    id: "fireblast",
+    name: "Fire Blast",
+    num: 126,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 90,
+    category: "Special",
+    desc: "The target is attacked with an intense blast of\nflames. This burns the target 25% of the time.",
+    shortDesc: "The target is attacked with an intense blast of\nflames. This burns the target 25% of the time.",
+    pp: 5
+  },
+  wavecrash: {
+    id: "wavecrash",
+    name: "Wave Crash",
+    num: 127,
+    type: "Water",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user surges at the target with great force.\nThis deals 25% recoil to the user, and has a 20%\nflinch rate. Contact.",
+    shortDesc: "The user surges at the target with great force.\nThis deals 25% recoil to the user, and has a 20%\nflinch rate. Contact.",
+    pp: 10
+  },
+  clamp: {
+    id: "clamp",
+    name: "Clamp",
+    num: 128,
+    type: "Water",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is clamped and squeezed by the user’s\nsturdy shell for 6 turns, preventing switching and\ndealing 12% of the foe's max HP per turn. Contact.",
+    shortDesc: "The target is clamped and squeezed by the user’s\nsturdy shell for 6 turns, preventing switching and\ndealing 12% of the foe's max HP per turn. Contact.",
+    pp: 15
+  },
+  swift: {
+    id: "swift",
+    name: "Swift",
+    num: 129,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: true,
+    category: "Special",
+    desc: "Star-shaped rays are rapidly shot at foe.\nThis attack has +2 Priority, and can't miss.",
+    shortDesc: "Star-shaped rays are rapidly shot at foe.\nThis attack has +2 Priority, and can't miss.",
+    pp: 10
+  },
+  skullbash: {
+    id: "skullbash",
+    name: "Skull Bash",
+    num: 130,
+    type: "Normal",
+    flags: {
+      charge: 1,
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 90,
+    accuracy: true,
+    category: "Physical",
+    desc: "On the 1st turn, the user tucks in its head, raising\nDefense by 1. On the 2nd, the user charges, gaining\n+1 Attack & Accuracy. ALWAYS crits, Ignores protect.",
+    shortDesc: "On the 1st turn, the user tucks in its head, raising\nDefense by 1. On the 2nd, the user charges, gaining\n+1 Attack & Accuracy. ALWAYS crits, Ignores protect.",
+    pp: 5
+  },
+  burningbarrage: {
+    id: "burningbarrage",
+    name: "Burning Barrage",
+    num: 131,
+    type: "Fire",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 20,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user fires three burning projectiles at the foe.\nThis will ALWAYS leave the target with a burn.",
+    shortDesc: "The user fires three burning projectiles at the foe.\nThis will ALWAYS leave the target with a burn.",
+    pp: 10
+  },
+  constrict: {
+    id: "constrict",
+    name: "Constrict",
+    num: 132,
+    type: "Grass",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is constricted with thick, strong vines.\nFor 6 turns, the foe can't switch out of battle and\nloses 12% of their max HP after each turn. Contact.",
+    shortDesc: "The target is constricted with thick, strong vines.\nFor 6 turns, the foe can't switch out of battle and\nloses 12% of their max HP after each turn. Contact.",
+    pp: 20
+  },
+  amnesia: {
+    id: "amnesia",
+    name: "Amnesia",
+    num: 133,
+    type: "Psychic",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user temporarily empties its mind to forget its\nconcerns. This raises the user's Sp. Def by +2.\nZ-Effect heals user fully.",
+    shortDesc: "The user temporarily empties its mind to forget its\nconcerns. This raises the user's Sp. Def by +2.\nZ-Effect heals user fully.",
+    pp: 2
+  },
+  kinesis: {
+    id: "kinesis",
+    name: "Kinesis",
+    num: 134,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 80,
+    category: "Status",
+    desc: "The user distracts the target by bending a spoon.\nThis lowers the target’s accuracy.",
+    shortDesc: "The user distracts the target by bending a spoon.\nThis lowers the target’s accuracy.",
+    pp: 15
+  },
+  softboiled: {
+    id: "softboiled",
+    name: "Soft-Boiled",
+    num: 135,
+    type: "Normal",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user consumes the egg it holds, healing itself to\nfull HP. This has +4 Priority, but only 2 PP.\nZ-Effect gives the user +3 Speed.",
+    shortDesc: "The user consumes the egg it holds, healing itself to\nfull HP. This has +4 Priority, but only 2 PP.\nZ-Effect gives the user +3 Speed.",
+    pp: 3
+  },
+  divebomb: {
+    id: "divebomb",
+    name: "Divebomb",
+    num: 136,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      gravity: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user recklessly dives onto the target from above.\nIf it misses, the user loses half max HP. Contact.",
+    shortDesc: "The user recklessly dives onto the target from above.\nIf it misses, the user loses half max HP. Contact.",
+    pp: 5
+  },
+  glare: {
+    id: "glare",
+    name: "Glare",
+    num: 137,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user intimidates the target with a glare,\ncausing paralysis AND lowering offensive stats by 1.\nZ-Effect gives +2 Attack.",
+    shortDesc: "The user intimidates the target with a glare,\ncausing paralysis AND lowering offensive stats by 1.\nZ-Effect gives +2 Attack.",
+    pp: 10
+  },
+  dreameater: {
+    id: "dreameater",
+    name: "Dream Eater",
+    num: 138,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
     },
     basePower: 120,
     accuracy: 100,
-    category: "Physical",
-    desc: "Lowers the user's Defense and Special Defense by 1 stage.",
-    shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
-    pp: 5
+    category: "Special",
+    desc: "The user eats the dreams of a sleeping target. It\nabsorbs 100% of the damage caused to heal its own HP.",
+    shortDesc: "The user eats the dreams of a sleeping target. It\nabsorbs 100% of the damage caused to heal its own HP.",
+    pp: 15
   },
-  headsmash: {
-    id: "headsmash",
-    name: "Head Smash",
-    num: 457,
-    type: "Rock",
+  poisongas: {
+    id: "poisongas",
+    name: "Poison Gas",
+    num: 139,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "A cloud of poison gas is sprayed at the opponents,\npoisoning those hit. Z-Effect +2 Sp. Atk.",
+    shortDesc: "A cloud of poison gas is sprayed at the opponents,\npoisoning those hit. Z-Effect +2 Sp. Atk.",
+    pp: 40
+  },
+  triplecannonade: {
+    id: "triplecannonade",
+    name: "Triple Cannonade",
+    num: 140,
+    type: "Steel",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      bullet: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Three rounds of heavy artillery are fired at the foe.\nThis ALWAYS results in a critical hit, hits 3 times,\nand bypasses Protect.",
+    shortDesc: "Three rounds of heavy artillery are fired at the foe.\nThis ALWAYS results in a critical hit, hits 3 times,\nand bypasses Protect.",
+    pp: 3
+  },
+  leechlife: {
+    id: "leechlife",
+    name: "Leech Life",
+    num: 141,
+    type: "Bug",
     flags: {
       contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user drains the target’s vital fluids.\nThis heals the user by ALL damage dealt. Contact.",
+    shortDesc: "The user drains the target’s vital fluids.\nThis heals the user by ALL damage dealt. Contact.",
+    pp: 10
+  },
+  dreamykiss: {
+    id: "dreamykiss",
+    name: "Dreamy Kiss",
+    num: 142,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
       protect: 1,
+      reflectable: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: 85,
+    category: "Status",
+    desc: "The user kisses the target dreamily, causing the\ntarget to sleep for 2 turns. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user kisses the target dreamily, causing the\ntarget to sleep for 2 turns. Z-Effect +2 Sp. Def.",
+    pp: 2
+  },
+  skyattack: {
+    id: "skyattack",
+    name: "Sky Attack",
+    num: 143,
+    type: "Flying",
+    flags: {
+      charge: 1,
       mirror: 1
     },
-    basePower: 150,
-    accuracy: 80,
+    basePower: 120,
+    accuracy: true,
     category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 1/2 recoil.",
+    desc: "A 2 turn attack where the user soars from the sky\nwith full power. This ALWAYS crits.\n30% Flinch rate. Ignores protect. Contact.",
+    shortDesc: "A 2 turn attack where the user soars from the sky\nwith full power. This ALWAYS crits.\n30% Flinch rate. Ignores protect. Contact.",
     pp: 5
   },
-  healbell: {
-    id: "healbell",
-    name: "Heal Bell",
-    num: 215,
+  transform: {
+    id: "transform",
+    name: "Transform",
+    num: 144,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user transforms into an identical copy of the foe,\nbesides the HP stat. Z-Effect heals user.\nThis has +6 priority.",
+    shortDesc: "The user transforms into an identical copy of the foe,\nbesides the HP stat. Z-Effect heals user.\nThis has +6 priority.",
+    pp: 10
+  },
+  bubblebarrage: {
+    id: "bubblebarrage",
+    name: "Bubble Barrage",
+    num: 145,
+    type: "Water",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 20,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires a barrage of bubbles at the foe.\nHits 3 times. Each hit lowers the foe's Speed by 1.",
+    shortDesc: "The user fires a barrage of bubbles at the foe.\nHits 3 times. Each hit lowers the foe's Speed by 1.",
+    pp: 10
+  },
+  dizzypunches: {
+    id: "dizzypunches",
+    name: "Dizzy Punches",
+    num: 146,
+    type: "Psychic",
+    flags: {
+      contact: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 30,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is hit with 3 punches imbued with psychic\nenergy. Each hit has a 30% chance to confuse for 4\nturns. Contact.",
+    shortDesc: "The target is hit with 3 punches imbued with psychic\nenergy. Each hit has a 30% chance to confuse for 4\nturns. Contact.",
+    pp: 10
+  },
+  spore: {
+    id: "spore",
+    name: "Spore",
+    num: 147,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user scatters bursts of spores that\ninduce sleep for 2 turns. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user scatters bursts of spores that\ninduce sleep for 2 turns. Z-Effect +2 Sp. Def.",
+    pp: 2
+  },
+  neuralyze: {
+    id: "neuralyze",
+    name: "Neuralyze",
+    num: 148,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user flashes a strange light that wipes the foe's\nmemory, causing them to forget their last used move\nfor 15 turns. +6 Priority. Z-Effect +3 Sp. Def.",
+    shortDesc: "The user flashes a strange light that wipes the foe's\nmemory, causing them to forget their last used move\nfor 15 turns. +6 Priority. Z-Effect +3 Sp. Def.",
+    pp: 5
+  },
+  pendulumwave: {
+    id: "pendulumwave",
+    name: "Pendulum Wave",
+    num: 149,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Special",
+    desc: "Hypno swings its pendulum, firing off a psywave that\nvaries in power, and sleeps the foe for 2 FULL turns\nAFTER its used. +4 Priority. Z-Effect +2 Speed.",
+    shortDesc: "Hypno swings its pendulum, firing off a psywave that\nvaries in power, and sleeps the foe for 2 FULL turns\nAFTER its used. +4 Priority. Z-Effect +2 Speed.",
+    pp: 1
+  },
+  hop: {
+    id: "hop",
+    name: "Hop",
+    num: 150,
     type: "Normal",
     flags: {
-      snatch: 1,
-      sound: 1,
-      distance: 1,
+      gravity: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user just hops around, doing absolutely nothing.\nZ-Effect +3 Attack.",
+    shortDesc: "The user just hops around, doing absolutely nothing.\nZ-Effect +3 Attack.",
+    pp: 1
+  },
+  acidarmor: {
+    id: "acidarmor",
+    name: "Acid Armor",
+    num: 151,
+    type: "Poison",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user alters its cellular structure to liquefy itself,\nraising Defense by 3. Z-Effect heals user fully.",
+    shortDesc: "The user alters its cellular structure to liquefy itself,\nraising Defense by 3. Z-Effect heals user fully.",
+    pp: 2
+  },
+  crabhammer: {
+    id: "crabhammer",
+    name: "Crabhammer",
+    num: 152,
+    type: "Water",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: true,
+    category: "Physical",
+    desc: "The target is hammered hard with the user's pincer.\nThis ALWAYS crits and can't miss.\n30% Defense drop rate. Contact.",
+    shortDesc: "The target is hammered hard with the user's pincer.\nThis ALWAYS crits and can't miss.\n30% Defense drop rate. Contact.",
+    pp: 5
+  },
+  explosion: {
+    id: "explosion",
+    name: "Explosion",
+    num: 153,
+    type: "Normal",
+    flags: {
+      heal: 1,
+      mirror: 1
+    },
+    basePower: 250,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user blows itself up, causing massive destruction.\nThis will ALWAYS result in a critical hit.\nThis also bypasses Protect.",
+    shortDesc: "The user blows itself up, causing massive destruction.\nThis will ALWAYS result in a critical hit.\nThis also bypasses Protect.",
+    pp: 5
+  },
+  furyswipes: {
+    id: "furyswipes",
+    name: "Fury Swipes",
+    num: 154,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is raked with sharp claws, scythes, or the\nlike furiously 2-5 times in a row. Contact.",
+    shortDesc: "The target is raked with sharp claws, scythes, or the\nlike furiously 2-5 times in a row. Contact.",
+    pp: 15
+  },
+  bonemerang: {
+    id: "bonemerang",
+    name: "Bonemerang",
+    num: 155,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user throws a bone like a boomerang, hitting 2\ntimes. Each hit has a 20% flinch rate.",
+    shortDesc: "The user throws a bone like a boomerang, hitting 2\ntimes. Each hit has a 20% flinch rate.",
+    pp: 5
+  },
+  rest: {
+    id: "rest",
+    name: "Rest",
+    num: 156,
+    type: "Normal",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user goes to sleep for two turns. This fully\nrestores the user’s HP and heals any\nstatus conditions. Z-Effect +2 Sp. Def.",
+    pp: 10
+  },
+  rockslide: {
+    id: "rockslide",
+    name: "Rock Slide",
+    num: 157,
+    type: "Rock",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 95,
+    category: "Physical",
+    desc: "Large boulders are hurled at the opposing Pokemon\nto inflict damage. This flinches 30% of the time.",
+    shortDesc: "Large boulders are hurled at the opposing Pokemon\nto inflict damage. This flinches 30% of the time.",
+    pp: 10
+  },
+  hyperfang: {
+    id: "hyperfang",
+    name: "Hyper Fang",
+    num: 158,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user bites the foe with specialized front teeth.\nThis will ALWAYS result in a critical hit, and has a\n30% flinch rate, and can't miss. Contact.",
+    shortDesc: "The user bites the foe with specialized front teeth.\nThis will ALWAYS result in a critical hit, and has a\n30% flinch rate, and can't miss. Contact.",
+    pp: 5
+  },
+  fortify: {
+    id: "fortify",
+    name: "Fortify",
+    num: 159,
+    type: "Steel",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user fortifies the metal on its body.\nThis heals the user by 50% of their max HP.\nZ-Effect gives +2 Defense.",
+    shortDesc: "The user fortifies the metal on its body.\nThis heals the user by 50% of their max HP.\nZ-Effect gives +2 Defense.",
+    pp: 5
+  },
+  acclimate: {
+    id: "acclimate",
+    name: "Acclimate",
+    num: 160,
+    type: "Normal",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user changes its type to become the same type\nas the move at the top of the list of moves it knows.\nZ-Effect +1 all stats. +4 Priority.",
+    shortDesc: "The user changes its type to become the same type\nas the move at the top of the list of moves it knows.\nZ-Effect +1 all stats. +4 Priority.",
+    pp: 30
+  },
+  triattack: {
+    id: "triattack",
+    name: "Tri Attack",
+    num: 161,
+    type: "Normal",
+    flags: {
+      defrost: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 35,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires three volatile beams of energy.\nThis hits 3 times, with each hit having a 10% chance\nto either burn, paralyze or freeze, totaling to 27%.",
+    shortDesc: "The user fires three volatile beams of energy.\nThis hits 3 times, with each hit having a 10% chance\nto either burn, paralyze or freeze, totaling to 27%.",
+    pp: 5
+  },
+  superfang: {
+    id: "superfang",
+    name: "Super Fang",
+    num: 162,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half. Contact.",
+    shortDesc: "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half. Contact.",
+    pp: 10
+  },
+  slash: {
+    id: "slash",
+    name: "Slash",
+    num: 163,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is attacked with a slash of claws, blades,\nor the like. This has a 50% (+2) crit rate. Contact.",
+    shortDesc: "The target is attacked with a slash of claws, blades,\nor the like. This has a 50% (+2) crit rate. Contact.",
+    pp: 10
+  },
+  substitute: {
+    id: "substitute",
+    name: "Substitute",
+    num: 164,
+    type: "Normal",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user makes a decoy using 25% of it's HP. This\ndecoy can absorb most attacks for the user.\nZ-Effect +3 Accuracy.",
+    shortDesc: "The user makes a decoy using 25% of it's HP. This\ndecoy can absorb most attacks for the user.\nZ-Effect +3 Accuracy.",
+    pp: 5
+  },
+  struggle: {
+    id: "struggle",
+    name: "Struggle",
+    num: 165,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "This attack is used in desperation only if the user\nhas no PP. It has 50% recoil for the user.",
+    shortDesc: "This attack is used in desperation only if the user\nhas no PP. It has 50% recoil for the user.",
+    pp: 1
+  },
+  sketch: {
+    id: "sketch",
+    name: "Sketch",
+    num: 166,
+    type: "Normal",
+    flags: {
       bypasssub: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Every Pokemon in the user's party is cured of its non-volatile status condition. Active Pokemon with the Soundproof Ability are not cured, unless they are the user.",
-    shortDesc: "Cures the user's party of all status conditions.",
-    pp: 5
+    desc: "Smeargle instantly learns the last used move.\nThis has +6 priority now, because the Z-Effect gives\nSmeargle +1 to all of its stats.",
+    shortDesc: "Smeargle instantly learns the last used move.\nThis has +6 priority now, because the Z-Effect gives\nSmeargle +1 to all of its stats.",
+    pp: 1
   },
-  healblock: {
-    id: "healblock",
-    name: "Heal Block",
-    num: 377,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "For 5 turns, the target is prevented from restoring any HP as long as it remains active. During the effect, healing and draining moves are unusable, and Abilities and items that grant healing will not heal the user. If an affected Pokemon uses Baton Pass, the replacement will remain unable to restore its HP. Pain Split and the Regenerator Ability are unaffected.",
-    shortDesc: "For 5 turns, the foe(s) is prevented from healing.",
-    pp: 15
-  },
-  healingwish: {
-    id: "healingwish",
-    name: "Healing Wish",
-    num: 361,
-    type: "Psychic",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user faints, and if the Pokemon brought out to replace it does not have full HP or has a non-volatile status condition, its HP is fully restored along with having any non-volatile status condition cured. The replacement is sent out at the end of the turn, and the healing happens before hazards take effect. This effect continues until a Pokemon that meets either of these conditions switches in at the user's position or gets swapped into the position with Ally Switch. Fails if the user is the last unfainted Pokemon in its party.",
-    shortDesc: "User faints. Next hurt Pokemon is fully healed.",
-    pp: 10
-  },
-  healorder: {
-    id: "healorder",
-    name: "Heal Order",
-    num: 456,
-    type: "Bug",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP, rounded half up.",
-    shortDesc: "Heals the user by 50% of its max HP.",
-    pp: 10
-  },
-  healpulse: {
-    id: "healpulse",
-    name: "Heal Pulse",
-    num: 505,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      pulse: 1,
-      reflectable: 1,
-      distance: 1,
-      heal: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The target restores 1/2 of its maximum HP, rounded half up. If the user has the Mega Launcher Ability, the target instead restores 3/4 of its maximum HP, rounded half down.",
-    shortDesc: "Heals the target by 50% of its max HP.",
-    pp: 10
-  },
-  heartstamp: {
-    id: "heartstamp",
-    name: "Heart Stamp",
-    num: 531,
-    type: "Psychic",
+  triplekick: {
+    id: "triplekick",
+    name: "Triple Kick",
+    num: 167,
+    type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 10,
+    accuracy: true,
+    category: "Physical",
+    desc: "This kick ALWAYS lands a critical hit, and won't\nmiss anymore. It's effectively 15, 30 and then 45 BP.\nThis adds up to 90 BP overall. Contact.",
+    shortDesc: "This kick ALWAYS lands a critical hit, and won't\nmiss anymore. It's effectively 15, 30 and then 45 BP.\nThis adds up to 90 BP overall. Contact.",
+    pp: 10
+  },
+  thief: {
+    id: "thief",
+    name: "Thief",
+    num: 168,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 60,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 25
+    desc: "The user attacks and steals the target’s held item\nsimultaneously. The user can’t steal anything if it\nalready holds an item. Contact.",
+    shortDesc: "The user attacks and steals the target’s held item\nsimultaneously. The user can’t steal anything if it\nalready holds an item. Contact.",
+    pp: 15
   },
-  heartswap: {
-    id: "heartswap",
-    name: "Heart Swap",
-    num: 391,
-    type: "Psychic",
+  spiderweb: {
+    id: "spiderweb",
+    name: "Spider Web",
+    num: 169,
+    type: "Bug",
     flags: {
-      protect: 1,
       mirror: 1,
-      bypasssub: 1,
-      allyanim: 1
+      protect: 1,
+      reflectable: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user swaps all its stat stage changes with the target.",
-    shortDesc: "Swaps all stat changes with target.",
+    desc: "The user ensnares the target within it's web. This\nhas +4 priority, prevents the foe from switching, and\ndrops Defense & Evasion by 3. Z-Effect +1 all stats.",
+    shortDesc: "The user ensnares the target within it's web. This\nhas +4 priority, prevents the foe from switching, and\ndrops Defense & Evasion by 3. Z-Effect +1 all stats.",
     pp: 10
   },
-  heatcrash: {
-    id: "heatcrash",
-    name: "Heat Crash",
-    num: 535,
-    type: "Fire",
+  mindreader: {
+    id: "mindreader",
+    name: "Mind Reader",
+    num: 170,
+    type: "Psychic",
     flags: {
-      contact: 1,
-      protect: 1,
       mirror: 1,
-      nonsky: 1
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user senses the target’s movements with its\nmind to ensure its next attack does not miss\nthe target. Z-Effect +3 Sp. Atk.",
+    shortDesc: "The user senses the target’s movements with its\nmind to ensure its next attack does not miss\nthe target. Z-Effect +3 Sp. Atk.",
+    pp: 5
+  },
+  nightmare: {
+    id: "nightmare",
+    name: "Nightmare",
+    num: 171,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
     },
     basePower: 0,
     accuracy: 100,
-    category: "Physical",
-    desc: "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "More power the heavier the user than the target.",
-    pp: 10
+    category: "Status",
+    desc: "The user inflicts the foe with a horrible nightmare\nif it's asleep, making it lose 25% of it's HP per turn.\nZ-Effect +1 all stats.",
+    shortDesc: "The user inflicts the foe with a horrible nightmare\nif it's asleep, making it lose 25% of it's HP per turn.\nZ-Effect +1 all stats.",
+    pp: 15
   },
-  heatwave: {
-    id: "heatwave",
-    name: "Heat Wave",
-    num: 257,
+  flamewheel: {
+    id: "flamewheel",
+    name: "Flame Wheel",
+    num: 172,
     type: "Fire",
     flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 95,
-    accuracy: 90,
-    category: "Special",
-    desc: "Has a 10% chance to burn the target.",
-    shortDesc: "10% chance to burn the foe(s).",
-    pp: 10
-  },
-  heavyslam: {
-    id: "heavyslam",
-    name: "Heavy Slam",
-    num: 484,
-    type: "Steel",
-    flags: {
       contact: 1,
-      protect: 1,
+      defrost: 1,
       mirror: 1,
-      nonsky: 1
+      protect: 1
     },
-    basePower: 0,
+    basePower: 60,
     accuracy: 100,
     category: "Physical",
-    desc: "The power of this move depends on (user's weight / target's weight), rounded down. Power is equal to 120 if the result is 5 or more, 100 if 4, 80 if 3, 60 if 2, and 40 if 1 or less. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "More power the heavier the user than the target.",
-    pp: 10
+    desc: "The user cloaks itself in fire and charges at the\ntarget spinning.This boosts the user's Speed by 1.\nContact.",
+    shortDesc: "The user cloaks itself in fire and charges at the\ntarget spinning.This boosts the user's Speed by 1.\nContact.",
+    pp: 15
   },
-  helpinghand: {
-    id: "helpinghand",
-    name: "Helping Hand",
-    num: 270,
+  snore: {
+    id: "snore",
+    name: "Snore",
+    num: 173,
     type: "Normal",
     flags: {
       bypasssub: 1,
-      noassist: 1,
-      failcopycat: 1
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "This attack can be used only if the user is asleep.\nThe harsh noise will ALWAYS flinch the target.",
+    shortDesc: "This attack can be used only if the user is asleep.\nThe harsh noise will ALWAYS flinch the target.",
+    pp: 10
+  },
+  conjure: {
+    id: "conjure",
+    name: "Conjure",
+    num: 174,
+    type: "Ghost",
+    flags: {
+      dance: 1,
+      mirror: 1,
+      reflectable: 1,
+      snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The power of the target's attack this turn is multiplied by 1.5 (this effect is stackable). Fails if there is no ally adjacent to the user or if the ally already moved this turn, but does not fail if the ally is using a two-turn move.",
-    shortDesc: "One adjacent ally's move power is 1.5x this turn.",
-    pp: 20
+    desc: "The user gathers energy from the \"other side.\"\nThis boosts the user's Defense & Sp. Atk by 1.\nZ-Effect gives +2 Sp. Def. Only works on Ghost types.",
+    shortDesc: "The user gathers energy from the \"other side.\"\nThis boosts the user's Defense & Sp. Atk by 1.\nZ-Effect gives +2 Sp. Def. Only works on Ghost types.",
+    pp: 2
   },
-  hex: {
-    id: "hex",
-    name: "Hex",
-    num: 506,
-    type: "Ghost",
+  flail: {
+    id: "flail",
+    name: "Flail",
+    num: 175,
+    type: "Normal",
     flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user flails about aimlessly to attack. The less HP\nthe user has, the greater the move’s power. This\ncannot miss, and makes contact.",
+    shortDesc: "The user flails about aimlessly to attack. The less HP\nthe user has, the greater the move’s power. This\ncannot miss, and makes contact.",
+    pp: 15
+  },
+  accustom: {
+    id: "accustom",
+    name: "Accustom",
+    num: 176,
+    type: "Normal",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user changes its type to make itself resistant to\nthe type of the attack the opponent used last.\nZ-Effect +1 all stats. +4 Priority.",
+    shortDesc: "The user changes its type to make itself resistant to\nthe type of the attack the opponent used last.\nZ-Effect +1 all stats. +4 Priority.",
+    pp: 30
+  },
+  aeroblast: {
+    id: "aeroblast",
+    name: "Aeroblast",
+    num: 177,
+    type: "Flying",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      punch: 1
     },
     basePower: 65,
     accuracy: 100,
     category: "Special",
-    desc: "Power doubles if the target has a non-volatile status condition.",
-    shortDesc: "Power doubles if the target has a status ailment.",
+    desc: "A fierce vortex of air is shot at the target.\nThis ALWAYS results in a critical hit.\nThis is now a Sound Move.",
+    shortDesc: "A fierce vortex of air is shot at the target.\nThis ALWAYS results in a critical hit.\nThis is now a Sound Move.",
+    pp: 5
+  },
+  cottonspore: {
+    id: "cottonspore",
+    name: "Cotton Spore",
+    num: 178,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 2.\nZ-Effect gives the user +3 Defense.",
+    shortDesc: "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 2.\nZ-Effect gives the user +3 Defense.",
     pp: 10
+  },
+  reversal: {
+    id: "reversal",
+    name: "Reversal",
+    num: 179,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "An all-out attack that becomes more powerful the\nless HP the user has. This can't miss. Contact.",
+    shortDesc: "An all-out attack that becomes more powerful the\nless HP the user has. This can't miss. Contact.",
+    pp: 15
+  },
+  spitefulspell: {
+    id: "spitefulspell",
+    name: "Spiteful Spell",
+    num: 180,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user casts a spiteful spell on the foe, disabling\nfairy moves for 15 turns and removing 4 PP.\nThis has +4 Priority. Z-Effect heals user.",
+    shortDesc: "The user casts a spiteful spell on the foe, disabling\nfairy moves for 15 turns and removing 4 PP.\nThis has +4 Priority. Z-Effect heals user.",
+    pp: 5
+  },
+  frostflurry: {
+    id: "frostflurry",
+    name: "Frost Flurry",
+    num: 181,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Special",
+    desc: "The user attacks with a rapid flurry of frost. This\nattack has +1 priority, and can't miss.",
+    shortDesc: "The user attacks with a rapid flurry of frost. This\nattack has +1 priority, and can't miss.",
+    pp: 20
+  },
+  protect: {
+    id: "protect",
+    name: "Protect",
+    num: 182,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.\nZ-Effect resets lowered stats.",
+    shortDesc: "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.\nZ-Effect resets lowered stats.",
+    pp: 10
+  },
+  machpunch: {
+    id: "machpunch",
+    name: "Mach Punch",
+    num: 183,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user throws a punch at blinding speed. This\nattack has +1 priority, and can't miss. Contact.",
+    shortDesc: "The user throws a punch at blinding speed. This\nattack has +1 priority, and can't miss. Contact.",
+    pp: 20
+  },
+  scaryface: {
+    id: "scaryface",
+    name: "Scary Face",
+    num: 184,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user scares the target with a frightening face. \nThis drops Attack AND Speed by 2, and inflicts a\nsleeping foe with a nightmare. Z-Effect +2 crit rate.",
+    shortDesc: "The user scares the target with a frightening face. \nThis drops Attack AND Speed by 2, and inflicts a\nsleeping foe with a nightmare. Z-Effect +2 crit rate.",
+    pp: 10
+  },
+  wickedblow: {
+    id: "wickedblow",
+    name: "Wicked Blow",
+    num: 185,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user strikes the target with a wicked blow. This\nattack always results in a critical hit. Contact.\nThis attack bypasses Protect.",
+    shortDesc: "The user strikes the target with a wicked blow. This\nattack always results in a critical hit. Contact.\nThis attack bypasses Protect.",
+    pp: 3
+  },
+  charmingkiss: {
+    id: "charmingkiss",
+    name: "Charming Kiss",
+    num: 186,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user kisses the foe in a charming, calming manner.\nThis lowers the foe's Attack by 2 in addition to\nputting the foe to sleep for 2 turns. Z-Effect heals.",
+    shortDesc: "The user kisses the foe in a charming, calming manner.\nThis lowers the foe's Attack by 2 in addition to\nputting the foe to sleep for 2 turns. Z-Effect heals.",
+    pp: 1
+  },
+  bellydrum: {
+    id: "bellydrum",
+    name: "Belly Drum",
+    num: 187,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user maximizes its Attack stat in exchange for\n50% of it's max HP. Z-Effect heals user fully.",
+    shortDesc: "The user maximizes its Attack stat in exchange for\n50% of it's max HP. Z-Effect heals user fully.",
+    pp: 10
+  },
+  sludgebomb: {
+    id: "sludgebomb",
+    name: "Sludge Bomb",
+    num: 188,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Special",
+    desc: "Unsanitary sludge explodes all over the target.\nThis attack poisons 30% of the time.",
+    shortDesc: "Unsanitary sludge explodes all over the target.\nThis attack poisons 30% of the time.",
+    pp: 10
+  },
+  mudfling: {
+    id: "mudfling",
+    name: "Mud Fling",
+    num: 189,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user flings mud at the target, slowing it down.\nThis drops the foe's Speed by one 100% of the time.",
+    shortDesc: "The user flings mud at the target, slowing it down.\nThis drops the foe's Speed by one 100% of the time.",
+    pp: 20
+  },
+  scumshot: {
+    id: "scumshot",
+    name: "Scum Shot",
+    num: 190,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 60,
+    accuracy: true,
+    category: "Special",
+    desc: "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as BADLY poison the foe.",
+    shortDesc: "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as BADLY poison the foe.",
+    pp: 1
+  },
+  spikes: {
+    id: "spikes",
+    name: "Spikes",
+    num: 191,
+    type: "Ground",
+    flags: {
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user lays a trap of spikes at the opposing side.\nThis damages foes that switch in, for 12-25% of their\nHP depending on how many layers. Z-Effect +3 Defense.",
+    shortDesc: "The user lays a trap of spikes at the opposing side.\nThis damages foes that switch in, for 12-25% of their\nHP depending on how many layers. Z-Effect +3 Defense.",
+    pp: 20
+  },
+  zapcannon: {
+    id: "zapcannon",
+    name: "Zap Cannon",
+    num: 192,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires an intensely powerful blast of\nelectricity at the foe. This lowers the user's Sp. Atk\nstat by 2 after use.",
+    shortDesc: "The user fires an intensely powerful blast of\nelectricity at the foe. This lowers the user's Sp. Atk\nstat by 2 after use.",
+    pp: 5
+  },
+  investigate: {
+    id: "investigate",
+    name: "Investigate",
+    num: 193,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Gumshoos investigates the target, allowing them to\nbe hit by Normal or Fighting moves, even if they're\na Ghost-type. Z-EFFECT GIVES +3 ATTACK.",
+    shortDesc: "Gumshoos investigates the target, allowing them to\nbe hit by Normal or Fighting moves, even if they're\na Ghost-type. Z-EFFECT GIVES +3 ATTACK.",
+    pp: 40
+  },
+  destinybond: {
+    id: "destinybond",
+    name: "Destiny Bond",
+    num: 194,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "After using this move, if the user faints, the\nPokemon that landed the knockout hit also faints.\nZ-Effect heals the user's replacement fully.",
+    shortDesc: "After using this move, if the user faints, the\nPokemon that landed the knockout hit also faints.\nZ-Effect heals the user's replacement fully.",
+    pp: 5
+  },
+  perishsong: {
+    id: "perishsong",
+    name: "Perish Song",
+    num: 195,
+    type: "Dark",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Any Pokemon that hears this sound faints in 3 turns.\nSwitching out removes this timer.\nZ-Effect heals user fully.",
+    shortDesc: "Any Pokemon that hears this sound faints in 3 turns.\nSwitching out removes this timer.\nZ-Effect heals user fully.",
+    pp: 5
+  },
+  icywind: {
+    id: "icywind",
+    name: "Icy Wind",
+    num: 196,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks with a gust of freezing air. This\nalways lowers the foe's Speed stat by 1.",
+    shortDesc: "The user attacks with a gust of freezing air. This\nalways lowers the foe's Speed stat by 1.",
+    pp: 20
+  },
+  detect: {
+    id: "detect",
+    name: "Detect",
+    num: 197,
+    type: "Fighting",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.\nZ-Effect will heal the user fully while protected.",
+    shortDesc: "Enables the user to evade all attacks. Its chance of\nfailing rises if it is used in succession.\nZ-Effect will heal the user fully while protected.",
+    pp: 10
+  },
+  bonerush: {
+    id: "bonerush",
+    name: "Bone Rush",
+    num: 198,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user quickly throws a hard bone at the foe.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user quickly throws a hard bone at the foe.\nThis has +1 priority, and can't miss.",
+    pp: 15
+  },
+  lockon: {
+    id: "lockon",
+    name: "Lock-On",
+    num: 199,
+    type: "Steel",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.\nZ-Effect +3 Sp. Atk.",
+    shortDesc: "The user takes sure aim at the target. This ensures\nthe next attack does not miss the target.\nZ-Effect +3 Sp. Atk.",
+    pp: 1
+  },
+  outrage: {
+    id: "outrage",
+    name: "Outrage",
+    num: 200,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user rampages and attacks for two to three\nturns. The user then becomes confused. Contact.",
+    shortDesc: "The user rampages and attacks for two to three\nturns. The user then becomes confused. Contact.",
+    pp: 5
+  },
+  sandstorm: {
+    id: "sandstorm",
+    name: "Sandstorm",
+    num: 201,
+    type: "Rock",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user summons a sandstorm.\nZ-Effect gives +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons a sandstorm.\nZ-Effect gives +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    pp: 5
+  },
+  gigadrain: {
+    id: "gigadrain",
+    name: "Giga Drain",
+    num: 202,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Special",
+    desc: "A powerful nutrient-draining attack. The user’s HP is\nrestored by 50% of the damage taken by the target.",
+    shortDesc: "A powerful nutrient-draining attack. The user’s HP is\nrestored by 50% of the damage taken by the target.",
+    pp: 10
+  },
+  endure: {
+    id: "endure",
+    name: "Endure",
+    num: 203,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.\nZ-Effect +2 Speed.",
+    shortDesc: "The user endures any attack with at least 1 HP.\nIts chance of failing rises if it is used in succession.\nZ-Effect +2 Speed.",
+    pp: 10
+  },
+  charm: {
+    id: "charm",
+    name: "Charm",
+    num: 204,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user gazes at the target rather charmingly,\nmaking it less wary. This lowers their Attack by 2.\nZ-Charm +2 Attack.",
+    shortDesc: "The user gazes at the target rather charmingly,\nmaking it less wary. This lowers their Attack by 2.\nZ-Charm +2 Attack.",
+    pp: 5
+  },
+  rollout: {
+    id: "rollout",
+    name: "Rollout",
+    num: 205,
+    type: "Rock",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 30,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user continually rolls into the target over five\nturns. It becomes more powerful each time it hits. Contact.",
+    shortDesc: "The user continually rolls into the target over five\nturns. It becomes more powerful each time it hits. Contact.",
+    pp: 5
+  },
+  falsestrike: {
+    id: "falsestrike",
+    name: "False Strike",
+    num: 206,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user feigns a strike that will never faint the\ntarget. In exchange, this boosts the user's Attack\nand Accuracy by 1 after use. Can't miss. Contact.",
+    shortDesc: "The user feigns a strike that will never faint the\ntarget. In exchange, this boosts the user's Attack\nand Accuracy by 1 after use. Can't miss. Contact.",
+    pp: 5
+  },
+  swagger: {
+    id: "swagger",
+    name: "Swagger",
+    num: 207,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user enrages and confuses the target for 3 turns.\nThis raises their Attack by 2, making them hit\nthemselves for more damage. Z-Effect +2 Attack.",
+    shortDesc: "The user enrages and confuses the target for 3 turns.\nThis raises their Attack by 2, making them hit\nthemselves for more damage. Z-Effect +2 Attack.",
+    pp: 15
+  },
+  milkdrink: {
+    id: "milkdrink",
+    name: "Milk Drink",
+    num: 208,
+    type: "Normal",
+    flags: {
+      heal: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Miltank drinks its own milk, healing to FULL HP.\nZ-Effect gives +2 Defense.\nThis also has +4 PRIORITY. Yummy.",
+    shortDesc: "Miltank drinks its own milk, healing to FULL HP.\nZ-Effect gives +2 Defense.\nThis also has +4 PRIORITY. Yummy.",
+    pp: 10
+  },
+  spark: {
+    id: "spark",
+    name: "Spark",
+    num: 209,
+    type: "Electric",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user, charged with electricity, rapidly dashes at\nthe target. This has +2 priority, and can't miss.\nContact.",
+    shortDesc: "The user, charged with electricity, rapidly dashes at\nthe target. This has +2 priority, and can't miss.\nContact.",
+    pp: 10
+  },
+  furycutter: {
+    id: "furycutter",
+    name: "Fury Cutter",
+    num: 210,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 35,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The target is slashed with scythes or claws. This\nmove doubles in power if used in sucession. Contact.",
+    shortDesc: "The target is slashed with scythes or claws. This\nmove doubles in power if used in sucession. Contact.",
+    pp: 20
+  },
+  steelwing: {
+    id: "steelwing",
+    name: "Steel Wing",
+    num: 211,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user hardens its wings and strikes the foe.\nThis ALWAYS boosts the user's Defense by 1 after use.\nContact.",
+    shortDesc: "The user hardens its wings and strikes the foe.\nThis ALWAYS boosts the user's Defense by 1 after use.\nContact.",
+    pp: 10
+  },
+  mesmereyes: {
+    id: "mesmereyes",
+    name: "Mesmer-Eyes",
+    num: 212,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user mesmerizes the target with it's eyes\nputting it to sleep for 2 turns. Z-Effect +1 Speed.\nThis move fails on Ghost-types.",
+    shortDesc: "The user mesmerizes the target with it's eyes\nputting it to sleep for 2 turns. Z-Effect +1 Speed.\nThis move fails on Ghost-types.",
+    pp: 2
+  },
+  attract: {
+    id: "attract",
+    name: "Attract",
+    num: 213,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "Doesn't exist.",
+    shortDesc: "Doesn't exist.",
+    pp: 15
+  },
+  sleeptalk: {
+    id: "sleeptalk",
+    name: "Sleep Talk",
+    num: 214,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "While it is asleep, the user randomly uses one of the\nmoves it knows. Z-Effect +2 crit rate.\nThis has +4 Priority.",
+    shortDesc: "While it is asleep, the user randomly uses one of the\nmoves it knows. Z-Effect +2 crit rate.\nThis has +4 Priority.",
+    pp: 10
+  },
+  timeout: {
+    id: "timeout",
+    name: "Time Out",
+    num: 215,
+    type: "Fighting",
+    flags: {
+      bypasssub: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user calls a time out.\nThis heals the user's side of the field by 50% of\ntheir max HP. Z-Effect gives the user +2 Speed.",
+    shortDesc: "The user calls a time out.\nThis heals the user's side of the field by 50% of\ntheir max HP. Z-Effect gives the user +2 Speed.",
+    pp: 5
+  },
+  "return": {
+    id: "return",
+    name: "Return",
+    num: 216,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "This full-power attack grows more powerful the\nmore the user likes its Trainer, for a max of 102\nbase power. Contact.",
+    shortDesc: "This full-power attack grows more powerful the\nmore the user likes its Trainer, for a max of 102\nbase power. Contact.",
+    pp: 10
+  },
+  present: {
+    id: "present",
+    name: "Present",
+    num: 217,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
+    shortDesc: "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
+    pp: 1
+  },
+  frustration: {
+    id: "frustration",
+    name: "Frustration",
+    num: 218,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Doesn't exist.",
+    shortDesc: "Doesn't exist.",
+    pp: 10
+  },
+  safeguard: {
+    id: "safeguard",
+    name: "Safeguard",
+    num: 219,
+    type: "Psychic",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user creates a protective field that prevents\nstatus conditions for five turns.\nZ-Effect heals user fully.",
+    shortDesc: "The user creates a protective field that prevents\nstatus conditions for five turns.\nZ-Effect heals user fully.",
+    pp: 25
+  },
+  painsplit: {
+    id: "painsplit",
+    name: "Pain Split",
+    num: 220,
+    type: "Ghost",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user adds its HP to the target’s HP, then equally\nshares the combined HP with the target.\nZ-Effect +2 Sp. Def.",
+    shortDesc: "The user adds its HP to the target’s HP, then equally\nshares the combined HP with the target.\nZ-Effect +2 Sp. Def.",
+    pp: 5
+  },
+  infernalparade: {
+    id: "infernalparade",
+    name: "Infernal Parade",
+    num: 221,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 70,
+    category: "Special",
+    desc: "The user attacks the foe with an infernal flame\nfueled by spiritual energy. This attack leaves the\ntarget with a burn 100% of the time.",
+    shortDesc: "The user attacks the foe with an infernal flame\nfueled by spiritual energy. This attack leaves the\ntarget with a burn 100% of the time.",
+    pp: 5
+  },
+  magnitude: {
+    id: "magnitude",
+    name: "Magnitude",
+    num: 222,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user lets off an earthquake of varying magnitude.\nThe average power is 70, with a maximum of 150 and a\nminimum of 10.",
+    shortDesc: "The user lets off an earthquake of varying magnitude.\nThe average power is 70, with a maximum of 150 and a\nminimum of 10.",
+    pp: 30
+  },
+  knockoutpunch: {
+    id: "knockoutpunch",
+    name: "Knockout Punch",
+    num: 223,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 80,
+    category: "Physical",
+    desc: "The user punches the foe with great force.\nThe resulting fatigue causes the target to fall asleep\non the next turn. Contact. Affected by Rapid Fire.",
+    shortDesc: "The user punches the foe with great force.\nThe resulting fatigue causes the target to fall asleep\non the next turn. Contact. Affected by Rapid Fire.",
+    pp: 5
+  },
+  megahorn: {
+    id: "megahorn",
+    name: "Megahorn",
+    num: 224,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Using its tough and impressive horn, the user rams\ninto the target with no letup. This lowers the user's\ndefensive stats by 1 after use. Contact.",
+    shortDesc: "Using its tough and impressive horn, the user rams\ninto the target with no letup. This lowers the user's\ndefensive stats by 1 after use. Contact.",
+    pp: 5
+  },
+  dragonbreath: {
+    id: "dragonbreath",
+    name: "Dragon Breath",
+    num: 225,
+    type: "Dragon",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user exhales a destructive breath of dragon\nenergy. This burns the target 30% of the time.",
+    shortDesc: "The user exhales a destructive breath of dragon\nenergy. This burns the target 30% of the time.",
+    pp: 15
+  },
+  batonpass: {
+    id: "batonpass",
+    name: "Baton Pass",
+    num: 226,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user switches places with a party Pokemon in\nwaiting and passes along any stat changes.\nZ-Effect heals the ally fully. This ALWAYS goes last.",
+    shortDesc: "The user switches places with a party Pokemon in\nwaiting and passes along any stat changes.\nZ-Effect heals the ally fully. This ALWAYS goes last.",
+    pp: 5
+  },
+  encore: {
+    id: "encore",
+    name: "Encore",
+    num: 227,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user compels the target to keep using the move\nit encored for three turns. Z-Effect +2 Speed.",
+    shortDesc: "The user compels the target to keep using the move\nit encored for three turns. Z-Effect +2 Speed.",
+    pp: 5
+  },
+  pursuit: {
+    id: "pursuit",
+    name: "Pursuit",
+    num: 228,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user strikes the target violently. The power of\nthe move doubles if target attempts to switch out.\nThis ALWAYS results in a critical hit. Contact.",
+    shortDesc: "The user strikes the target violently. The power of\nthe move doubles if target attempts to switch out.\nThis ALWAYS results in a critical hit. Contact.",
+    pp: 15
+  },
+  rapidspin: {
+    id: "rapidspin",
+    name: "Rapid Spin",
+    num: 229,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Physical",
+    desc: "A spin attack that can also eliminate the effects of\ntrapping moves, entry hazards and more. This ALWAYS\nsharply raises the user's Speed by 2. Contact.",
+    shortDesc: "A spin attack that can also eliminate the effects of\ntrapping moves, entry hazards and more. This ALWAYS\nsharply raises the user's Speed by 2. Contact.",
+    pp: 10
+  },
+  sweetscent: {
+    id: "sweetscent",
+    name: "Sweet Scent",
+    num: 230,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "A sweet scent that lowers the opponents Sp. Def and\nSp. Atk by 1. Z-Effect raises user's Accuracy by 3.",
+    shortDesc: "A sweet scent that lowers the opponents Sp. Def and\nSp. Atk by 1. Z-Effect raises user's Accuracy by 3.",
+    pp: 10
+  },
+  irontail: {
+    id: "irontail",
+    name: "Iron Tail",
+    num: 231,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The target is slammed with a steel-hard tail.\nThis drops the foe's Defense 50% of the time. Contact.",
+    shortDesc: "The target is slammed with a steel-hard tail.\nThis drops the foe's Defense 50% of the time. Contact.",
+    pp: 5
+  },
+  laceration: {
+    id: "laceration",
+    name: "Laceration",
+    num: 232,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The foe is slashed with steel-hard claws, blades, or\nthe like. This has a 50% (+2) crit rate. Contact.",
+    shortDesc: "The foe is slashed with steel-hard claws, blades, or\nthe like. This has a 50% (+2) crit rate. Contact.",
+    pp: 10
+  },
+  skirmish: {
+    id: "skirmish",
+    name: "Skirmish",
+    num: 233,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user picks a fight, roughhousing the foe.\nThis ALWAYS drops the foe's attacking stats by 1.\nContact.",
+    shortDesc: "The user picks a fight, roughhousing the foe.\nThis ALWAYS drops the foe's attacking stats by 1.\nContact.",
+    pp: 10
+  },
+  morningsun: {
+    id: "morningsun",
+    name: "Morning Sun",
+    num: 234,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user heals itself by 50% of it's max HP. This\nrestores 2/3 of it's max HP in the Sun, and 1/3 in\nother weather. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user heals itself by 50% of it's max HP. This\nrestores 2/3 of it's max HP in the Sun, and 1/3 in\nother weather. Z-Effect +2 Sp. Def.",
+    pp: 5
+  },
+  synthesis: {
+    id: "synthesis",
+    name: "Synthesis",
+    num: 235,
+    type: "Grass",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user heals itself by 50% of it's max HP. This\nrestores 2/3 of it's max HP in the Sun, and 1/3 in\nother weather. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user heals itself by 50% of it's max HP. This\nrestores 2/3 of it's max HP in the Sun, and 1/3 in\nother weather. Z-Effect +2 Sp. Def.",
+    pp: 5
+  },
+  moonlight: {
+    id: "moonlight",
+    name: "Moonlight",
+    num: 236,
+    type: "Fairy",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user heals itself by 50% of it's max HP. This\nrestores 2/3 of it's max HP in the Sun, and 1/3 in\nother weather. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user heals itself by 50% of it's max HP. This\nrestores 2/3 of it's max HP in the Sun, and 1/3 in\nother weather. Z-Effect +2 Sp. Def.",
+    pp: 5
   },
   hiddenpower: {
     id: "hiddenpower",
@@ -5660,4167 +3914,38 @@ exports.BattleMovedex = {
     shortDesc: "",
     pp: 15
   },
-  highhorsepower: {
-    id: "highhorsepower",
-    name: "High Horsepower",
-    num: 667,
-    type: "Ground",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 95,
-    accuracy: 95,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 10
-  },
-  highjumpkick: {
-    id: "highjumpkick",
-    name: "High Jump Kick",
-    num: 136,
+  crosschop: {
+    id: "crosschop",
+    name: "Cross Chop",
+    num: 238,
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      gravity: 1
-    },
-    basePower: 130,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-    shortDesc: "User is hurt by 50% of its max HP if it misses.",
-    pp: 10
-  },
-  holdback: {
-    id: "holdback",
-    name: "Hold Back",
-    num: 610,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Leaves the target with at least 1 HP.",
-    shortDesc: "Always leaves the target with at least 1 HP.",
-    pp: 40
-  },
-  holdhands: {
-    id: "holdhands",
-    name: "Hold Hands",
-    num: 607,
-    type: "Normal",
-    flags: {
-      bypasssub: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "No competitive use. Fails if there is no ally adjacent to the user.",
-    shortDesc: "No competitive use.",
-    pp: 40
-  },
-  honeclaws: {
-    id: "honeclaws",
-    name: "Hone Claws",
-    num: 468,
-    type: "Dark",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack and accuracy by 1 stage.",
-    shortDesc: "Raises the user's Attack and accuracy by 1.",
-    pp: 15
-  },
-  hornattack: {
-    id: "hornattack",
-    name: "Horn Attack",
-    num: 30,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 25
-  },
-  horndrill: {
-    id: "horndrill",
-    name: "Horn Drill",
-    num: 32,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 30,
-    category: "Physical",
-    desc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
-    shortDesc: "OHKOs the target. Fails if user is a lower level.",
-    pp: 5
-  },
-  hornleech: {
-    id: "hornleech",
-    name: "Horn Leech",
-    num: 532,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 10
-  },
-  howl: {
-    id: "howl",
-    name: "Howl",
-    num: 336,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      sound: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the Attack of the user and all allies 1 stage.",
-    shortDesc: "Raises the user's and ally's Attack by 1.",
-    pp: 40
-  },
-  hurricane: {
-    id: "hurricane",
-    name: "Hurricane",
-    num: 542,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      distance: 1,
-      wind: 1
-    },
-    basePower: 110,
-    accuracy: 70,
-    category: "Special",
-    desc: "Has a 30% chance to confuse the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
-    shortDesc: "30% chance to confuse target. Can't miss in rain.",
-    pp: 10
-  },
-  hydrocannon: {
-    id: "hydrocannon",
-    name: "Hydro Cannon",
-    num: 308,
-    type: "Water",
-    flags: {
-      recharge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 90,
-    category: "Special",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  hydropump: {
-    id: "hydropump",
-    name: "Hydro Pump",
-    num: 56,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 110,
-    accuracy: 80,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 5
-  },
-  hydrosteam: {
-    id: "hydrosteam",
-    name: "Hydro Steam",
-    num: 876,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the current weather is Sunny Day and the user is not holding Utility Umbrella, this move's damage is multiplied by 1.5 instead of halved for being Water type.",
-    shortDesc: "During Sunny Day: 1.5x damage instead of half.",
-    pp: 15
-  },
-  hydrovortex: {
-    id: "hydrovortex",
-    name: "Hydro Vortex",
-    num: 642,
-    type: "Water",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  hyperbeam: {
-    id: "hyperbeam",
-    name: "Hyper Beam",
-    num: 63,
-    type: "Normal",
-    flags: {
-      recharge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 90,
-    category: "Special",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  hyperdrill: {
-    id: "hyperdrill",
-    name: "Hyper Drill",
-    num: 887,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Bypasses protection without breaking it.",
-    shortDesc: "Bypasses protection without breaking it.",
-    pp: 5
-  },
-  hyperfang: {
-    id: "hyperfang",
-    name: "Hyper Fang",
-    num: 158,
-    type: "Normal",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 10% chance to make the target flinch.",
-    shortDesc: "10% chance to make the target flinch.",
-    pp: 15
-  },
-  hyperspacefury: {
-    id: "hyperspacefury",
-    name: "Hyperspace Fury",
-    num: 621,
-    type: "Dark",
-    flags: {
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 100,
-    accuracy: true,
-    category: "Physical",
-    desc: "Lowers the user's Defense by 1 stage. This move cannot be used successfully unless the user's current form, while considering Transform, is Hoopa Unbound. If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
-    shortDesc: "Hoopa-U: Lowers user's Def by 1; breaks protect.",
-    pp: 5
-  },
-  hyperspacehole: {
-    id: "hyperspacehole",
-    name: "Hyperspace Hole",
-    num: 593,
-    type: "Psychic",
-    flags: {
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 80,
-    accuracy: true,
-    category: "Special",
-    desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally.",
-    shortDesc: "Breaks the target's protection for this turn.",
-    pp: 5
-  },
-  hypervoice: {
-    id: "hypervoice",
-    name: "Hyper Voice",
-    num: 304,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent foes.",
-    pp: 10
-  },
-  hypnosis: {
-    id: "hypnosis",
-    name: "Hypnosis",
-    num: 95,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 60,
-    category: "Status",
-    desc: "Causes the target to fall asleep.",
-    shortDesc: "Causes the target to fall asleep.",
-    pp: 20
-  },
-  iceball: {
-    id: "iceball",
-    name: "Ice Ball",
-    num: 301,
-    type: "Ice",
-    flags: {
-      bullet: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      noparentalbond: 1,
-      failinstruct: 1
-    },
-    basePower: 30,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn.",
-    shortDesc: "Power doubles with each hit. Repeats for 5 turns.",
-    pp: 20
-  },
-  icebeam: {
-    id: "icebeam",
-    name: "Ice Beam",
-    num: 58,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to freeze the target.",
-    shortDesc: "10% chance to freeze the target.",
-    pp: 10
-  },
-  iceburn: {
-    id: "iceburn",
-    name: "Ice Burn",
-    num: 554,
-    type: "Ice",
-    flags: {
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 140,
-    accuracy: 90,
-    category: "Special",
-    desc: "Has a 30% chance to burn the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Charges turn 1. Hits turn 2. 30% burn.",
-    pp: 5
-  },
-  icefang: {
-    id: "icefang",
-    name: "Ice Fang",
-    num: 423,
-    type: "Ice",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 10% chance to freeze the target and a 10% chance to make it flinch.",
-    shortDesc: "10% chance to freeze. 10% chance to flinch.",
-    pp: 15
-  },
-  icehammer: {
-    id: "icehammer",
-    name: "Ice Hammer",
-    num: 665,
-    type: "Ice",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 100,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Lowers the user's Speed by 1 stage.",
-    shortDesc: "Lowers the user's Speed by 1.",
-    pp: 10
-  },
-  icepunch: {
-    id: "icepunch",
-    name: "Ice Punch",
-    num: 8,
-    type: "Ice",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to freeze the target.",
-    shortDesc: "10% chance to freeze the target.",
-    pp: 15
-  },
-  iceshard: {
-    id: "iceshard",
-    name: "Ice Shard",
-    num: 420,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 30
-  },
-  icespinner: {
-    id: "icespinner",
-    name: "Ice Spinner",
-    num: 861,
-    type: "Ice",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
-    shortDesc: "Ends the effects of terrain.",
-    pp: 15
-  },
-  iciclecrash: {
-    id: "iciclecrash",
-    name: "Icicle Crash",
-    num: 556,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 10
-  },
-  iciclespear: {
-    id: "iciclespear",
-    name: "Icicle Spear",
-    num: 333,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 30
-  },
-  icywind: {
-    id: "icywind",
-    name: "Icy Wind",
-    num: 196,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 55,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the foe(s) Speed by 1.",
-    pp: 15
-  },
-  imprison: {
-    id: "imprison",
-    name: "Imprison",
-    num: 286,
-    type: "Psychic",
-    flags: {
-      snatch: 1,
-      bypasssub: 1,
-      mustpressure: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user prevents all opposing Pokemon from using any moves that the user also knows as long as the user remains active.",
-    shortDesc: "No foe can use any move known by the user.",
-    pp: 10
-  },
-  incinerate: {
-    id: "incinerate",
-    name: "Incinerate",
-    num: 510,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "The target loses its held item if it is a Berry or a Gem. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-    shortDesc: "Destroys the foe(s) Berry/Gem.",
-    pp: 15
-  },
-  infernalparade: {
-    id: "infernalparade",
-    name: "Infernal Parade",
-    num: 844,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to burn the target. Power doubles if the target has a non-volatile status condition.",
-    shortDesc: "30% burn. 2x power if target is already statused.",
-    pp: 15
-  },
-  inferno: {
-    id: "inferno",
-    name: "Inferno",
-    num: 517,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 50,
-    category: "Special",
-    desc: "Has a 100% chance to burn the target.",
-    shortDesc: "100% chance to burn the target.",
-    pp: 5
-  },
-  infernooverdrive: {
-    id: "infernooverdrive",
-    name: "Inferno Overdrive",
-    num: 640,
-    type: "Fire",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  infestation: {
-    id: "infestation",
-    name: "Infestation",
-    num: 611,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 100,
-    category: "Special",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 20
-  },
-  ingrain: {
-    id: "ingrain",
-    name: "Ingrain",
-    num: 275,
-    type: "Grass",
-    flags: {
-      snatch: 1,
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user has 1/16 of its maximum HP restored at the end of each turn, but it is prevented from switching out and other Pokemon cannot force the user to switch out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped and still receive the healing effect. During the effect, the user can be hit normally by Ground-type attacks and be affected by Spikes, Toxic Spikes, and Sticky Web, even if the user is a Flying type or has the Levitate Ability.",
-    shortDesc: "Traps/grounds user; heals 1/16 max HP per turn.",
-    pp: 20
-  },
-  instruct: {
-    id: "instruct",
-    name: "Instruct",
-    num: 689,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      bypasssub: 1,
-      allyanim: 1,
-      failinstruct: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The target immediately uses its last used move. Fails if the target has not made a move, if the move has 0 PP, if the target is preparing to use Beak Blast, Focus Punch, or Shell Trap, or if the move is Assist, Beak Blast, Belch, Bide, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Focus Punch, Hold Hands, Ice Ball, Instruct, King's Shield, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Obstruct, Outrage, Petal Dance, Rollout, Shell Trap, Sketch, Sleep Talk, Struggle, Thrash, Transform, Uproar, Wicked Torque, any two-turn move, or any recharge move.",
-    shortDesc: "The target immediately uses its last used move.",
-    pp: 15
-  },
-  iondeluge: {
-    id: "iondeluge",
-    name: "Ion Deluge",
-    num: 569,
-    type: "Electric",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Causes Normal-type moves to become Electric type this turn. The effect happens after other effects that change a move's type.",
-    shortDesc: "Normal moves become Electric type this turn.",
-    pp: 25
-  },
-  irondefense: {
-    id: "irondefense",
-    name: "Iron Defense",
-    num: 334,
-    type: "Steel",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense by 2 stages.",
-    shortDesc: "Raises the user's Defense by 2.",
-    pp: 15
-  },
-  ironhead: {
-    id: "ironhead",
-    name: "Iron Head",
-    num: 442,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 15
-  },
-  irontail: {
-    id: "irontail",
-    name: "Iron Tail",
-    num: 231,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 75,
-    category: "Physical",
-    desc: "Has a 30% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "30% chance to lower the target's Defense by 1.",
-    pp: 15
-  },
-  ivycudgel: {
-    id: "ivycudgel",
-    name: "Ivy Cudgel",
-    num: 904,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit. If the user is an Ogerpon holding a mask, this move's type changes to match. Water type for Wellspring Mask, Fire type for Hearthflame Mask, and Rock type for Cornerstone Mask.",
-    shortDesc: "High critical hit ratio. Type depends on user's form.",
-    pp: 10
-  },
-  jawlock: {
-    id: "jawlock",
-    name: "Jaw Lock",
-    num: 746,
-    type: "Dark",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Prevents the user and the target from switching out. The user and the target can still switch out if either of them is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
-    shortDesc: "Prevents both user and target from switching out.",
-    pp: 10
-  },
-  jetpunch: {
-    id: "jetpunch",
-    name: "Jet Punch",
-    num: 857,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 15
-  },
-  judgment: {
-    id: "judgment",
-    name: "Judgment",
-    num: 449,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "This move's type depends on the user's held Plate.",
-    shortDesc: "Type varies based on the held Plate.",
-    pp: 10
-  },
-  jumpkick: {
-    id: "jumpkick",
-    name: "Jump Kick",
-    num: 26,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      gravity: 1
-    },
-    basePower: 100,
-    accuracy: 95,
-    category: "Physical",
-    desc: "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-    shortDesc: "User is hurt by 50% of its max HP if it misses.",
-    pp: 10
-  },
-  junglehealing: {
-    id: "junglehealing",
-    name: "Jungle Healing",
-    num: 816,
-    type: "Grass",
-    flags: {
-      heal: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
-    shortDesc: "User and allies: healed 1/4 max HP, status cured.",
-    pp: 10
-  },
-  karatechop: {
-    id: "karatechop",
-    name: "Karate Chop",
-    num: 2,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 25
-  },
-  kinesis: {
-    id: "kinesis",
-    name: "Kinesis",
-    num: 134,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 80,
-    category: "Status",
-    desc: "Lowers the target's accuracy by 1 stage.",
-    shortDesc: "Lowers the target's accuracy by 1.",
-    pp: 15
-  },
-  kingsshield: {
-    id: "kingsshield",
-    name: "King's Shield",
-    num: 588,
-    type: "Steel",
-    flags: {
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Attack lowered by 1 stage. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Protects from damaging attacks. Contact: -1 Atk.",
-    pp: 10
-  },
-  knockoff: {
-    id: "knockoff",
-    name: "Knock Off",
-    num: 282,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If the target is holding an item that can be removed from it, ignoring the Sticky Hold Ability, this move's power is multiplied by 1.5. If the user has not fainted, the target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-    shortDesc: "1.5x damage if foe holds an item. Removes item.",
-    pp: 20
-  },
-  kowtowcleave: {
-    id: "kowtowcleave",
-    name: "Kowtow Cleave",
-    num: 869,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 85,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 10
-  },
-  landswrath: {
-    id: "landswrath",
-    name: "Land's Wrath",
-    num: 616,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent foes.",
-    pp: 10
-  },
-  laserfocus: {
-    id: "laserfocus",
-    name: "Laser Focus",
-    num: 673,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the end of the next turn, the user's attacks will be critical hits.",
-    shortDesc: "Until the end of the next turn, user's moves crit.",
-    pp: 30
-  },
-  lashout: {
-    id: "lashout",
-    name: "Lash Out",
-    num: 808,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the user had a stat stage lowered this turn.",
-    shortDesc: "2x power if the user had a stat lowered this turn.",
-    pp: 5
-  },
-  lastresort: {
-    id: "lastresort",
-    name: "Last Resort",
-    num: 387,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 140,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This move fails unless the user knows this move and at least one other move, and has used all the other moves it knows at least once each since it became active or Transformed.",
-    shortDesc: "Fails unless each known move has been used.",
-    pp: 5
-  },
-  lastrespects: {
-    id: "lastrespects",
-    name: "Last Respects",
-    num: 854,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to 50+(X*50), where X is the total number of times any Pokemon has fainted on the user's side, and X cannot be greater than 100.",
-    shortDesc: "+50 power for each time a party member fainted.",
-    pp: 10
-  },
-  lavaplume: {
-    id: "lavaplume",
-    name: "Lava Plume",
-    num: 436,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to burn the target.",
-    shortDesc: "30% chance to burn adjacent Pokemon.",
-    pp: 15
-  },
-  leafage: {
-    id: "leafage",
-    name: "Leafage",
-    num: 670,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 40
-  },
-  leafblade: {
-    id: "leafblade",
-    name: "Leaf Blade",
-    num: 348,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 15
-  },
-  leafstorm: {
-    id: "leafstorm",
-    name: "Leaf Storm",
-    num: 437,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 130,
-    accuracy: 90,
-    category: "Special",
-    desc: "Lowers the user's Special Attack by 2 stages.",
-    shortDesc: "Lowers the user's Sp. Atk by 2.",
-    pp: 5
-  },
-  leaftornado: {
-    id: "leaftornado",
-    name: "Leaf Tornado",
-    num: 536,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 90,
-    category: "Special",
-    desc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
-    shortDesc: "50% chance to lower the target's accuracy by 1.",
-    pp: 10
-  },
-  leechlife: {
-    id: "leechlife",
-    name: "Leech Life",
-    num: 141,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 10
-  },
-  leechseed: {
-    id: "leechseed",
-    name: "Leech Seed",
-    num: 73,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Status",
-    desc: "The Pokemon at the user's position steals 1/8 of the target's maximum HP, rounded down, at the end of each turn. If Big Root is held by the recipient, the HP recovered is 1.3x normal, rounded half down. If the target uses Baton Pass, the replacement will continue being leeched. If the target switches out or uses Mortal Spin or Rapid Spin successfully, the effect ends. Grass-type Pokemon are immune to this move on use, but not its effect.",
-    shortDesc: "1/8 of target's HP is restored to user every turn.",
-    pp: 10
-  },
-  leer: {
-    id: "leer",
-    name: "Leer",
-    num: 43,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Defense by 1 stage.",
-    shortDesc: "Lowers the foe(s) Defense by 1.",
-    pp: 30
-  },
-  letssnuggleforever: {
-    id: "letssnuggleforever",
-    name: "Let's Snuggle Forever",
-    num: 726,
-    type: "Fairy",
-    flags: {
-      contact: 1
-    },
-    basePower: 190,
-    accuracy: true,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 1
-  },
-  lick: {
-    id: "lick",
-    name: "Lick",
-    num: 122,
-    type: "Ghost",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 30,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to paralyze the target.",
-    shortDesc: "30% chance to paralyze the target.",
-    pp: 30
-  },
-  lifedew: {
-    id: "lifedew",
-    name: "Life Dew",
-    num: 791,
-    type: "Water",
-    flags: {
-      snatch: 1,
-      heal: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
-    shortDesc: "Heals the user and its allies by 1/4 their max HP.",
-    pp: 10
-  },
-  lightofruin: {
-    id: "lightofruin",
-    name: "Light of Ruin",
-    num: 617,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 140,
-    accuracy: 90,
-    category: "Special",
-    desc: "If the target lost HP, the user takes recoil damage equal to 1/2 the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 1/2 recoil.",
-    pp: 5
-  },
-  lightscreen: {
-    id: "lightscreen",
-    name: "Light Screen",
-    num: 113,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the user and its party members take 0.5x damage from special attacks, or 0.66x damage if in a Double Battle. Damage is not reduced further with Aurora Veil. Critical hits ignore this effect. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Lasts for 8 turns if the user is holding Light Clay. Fails if the effect is already active on the user's side.",
-    shortDesc: "For 5 turns, special damage to allies is halved.",
-    pp: 30
-  },
-  lightthatburnsthesky: {
-    id: "lightthatburnsthesky",
-    name: "Light That Burns the Sky",
-    num: 723,
-    type: "Psychic",
-    flags: {},
-    basePower: 200,
-    accuracy: true,
-    category: "Special",
-    desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
-    shortDesc: "Physical if user's Atk > Sp. Atk. Ignores Abilities.",
-    pp: 1
-  },
-  liquidation: {
-    id: "liquidation",
-    name: "Liquidation",
-    num: 710,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "20% chance to lower the target's Defense by 1.",
-    pp: 10
-  },
-  lockon: {
-    id: "lockon",
-    name: "Lock-On",
-    num: 199,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
-    shortDesc: "User's next move will not miss the target.",
-    pp: 5
-  },
-  lovelykiss: {
-    id: "lovelykiss",
-    name: "Lovely Kiss",
-    num: 142,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 75,
-    category: "Status",
-    desc: "Causes the target to fall asleep.",
-    shortDesc: "Causes the target to fall asleep.",
-    pp: 10
-  },
-  lowkick: {
-    id: "lowkick",
-    name: "Low Kick",
-    num: 67,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
-    shortDesc: "More power the heavier the target.",
-    pp: 20
-  },
-  lowsweep: {
-    id: "lowsweep",
-    name: "Low Sweep",
-    num: 490,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the target's Speed by 1.",
-    pp: 20
-  },
-  luckychant: {
-    id: "luckychant",
-    name: "Lucky Chant",
-    num: 381,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the user and its party members cannot be struck by a critical hit. Fails if the effect is already active on the user's side.",
-    shortDesc: "For 5 turns, shields user's party from critical hits.",
-    pp: 30
-  },
-  luminacrash: {
-    id: "luminacrash",
-    name: "Lumina Crash",
-    num: 855,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Special Defense by 2 stages.",
-    shortDesc: "100% chance to lower the target's Sp. Def by 2.",
-    pp: 10
-  },
-  lunarblessing: {
-    id: "lunarblessing",
-    name: "Lunar Blessing",
-    num: 849,
-    type: "Psychic",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up, and has its status condition cured.",
-    shortDesc: "User and allies: healed 1/4 max HP, status cured.",
-    pp: 5
-  },
-  lunardance: {
-    id: "lunardance",
-    name: "Lunar Dance",
-    num: 461,
-    type: "Psychic",
-    flags: {
-      snatch: 1,
-      heal: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user faints, and if the Pokemon brought out to replace it does not have full HP or PP, or has a non-volatile status condition, its HP and PP are fully restored along with having any non-volatile status condition cured. The replacement is sent out at the end of the turn, and the healing happens before hazards take effect. This effect continues until a Pokemon that meets any of these conditions switches in at the user's position or gets swapped into the position with Ally Switch. Fails if the user is the last unfainted Pokemon in its party.",
-    shortDesc: "User faints. Next hurt Pkmn is cured, max HP/PP.",
-    pp: 10
-  },
-  lunge: {
-    id: "lunge",
-    name: "Lunge",
-    num: 679,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "100% chance to lower the target's Attack by 1.",
-    pp: 15
-  },
-  lusterpurge: {
-    id: "lusterpurge",
-    name: "Luster Purge",
-    num: 295,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 50% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "50% chance to lower the target's Sp. Def by 1.",
-    pp: 5
-  },
-  machpunch: {
-    id: "machpunch",
-    name: "Mach Punch",
-    num: 183,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 30
-  },
-  magicalleaf: {
-    id: "magicalleaf",
-    name: "Magical Leaf",
-    num: 345,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: true,
-    category: "Special",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 20
-  },
-  magiccoat: {
-    id: "magiccoat",
-    name: "Magic Coat",
-    num: 277,
-    type: "Psychic",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the end of the turn, the user is unaffected by certain non-damaging moves directed at it and will instead use such moves against the original user. Moves reflected in this way are unable to be reflected again by this or the Magic Bounce Ability's effect. Spikes, Stealth Rock, Sticky Web, and Toxic Spikes can only be reflected once per side, by the leftmost Pokemon under this or the Magic Bounce Ability's effect. The Lightning Rod and Storm Drain Abilities redirect their respective moves before this move takes effect.",
-    shortDesc: "Bounces back certain non-damaging moves.",
-    pp: 15
-  },
-  magicpowder: {
-    id: "magicpowder",
-    name: "Magic Powder",
-    num: 750,
-    type: "Psychic",
-    flags: {
-      powder: 1,
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to become a Psychic type. Fails if the target is an Arceus or a Silvally, if the target is already purely Psychic type, or if the target is Terastallized.",
-    shortDesc: "Changes the target's type to Psychic.",
-    pp: 20
-  },
-  magicroom: {
-    id: "magicroom",
-    name: "Magic Room",
-    num: 478,
-    type: "Psychic",
-    flags: {
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the held items of all active Pokemon have no effect. An item's effect of causing forme changes is unaffected, but any other effects from such items are negated. During the effect, Fling and Natural Gift are prevented from being used by all active Pokemon. If this move is used during the effect, the effect ends.",
-    shortDesc: "For 5 turns, all held items have no effect.",
-    pp: 10
-  },
-  magmastorm: {
-    id: "magmastorm",
-    name: "Magma Storm",
-    num: 463,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 75,
-    category: "Special",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 5
-  },
-  magnetbomb: {
-    id: "magnetbomb",
-    name: "Magnet Bomb",
-    num: 443,
-    type: "Steel",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 20
-  },
-  magneticflux: {
-    id: "magneticflux",
-    name: "Magnetic Flux",
-    num: 602,
-    type: "Electric",
-    flags: {
-      snatch: 1,
-      distance: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the Defense and Special Defense of Pokemon on the user's side with the Plus or Minus Abilities by 1 stage.",
-    shortDesc: "Raises Def, Sp. Def of allies with Plus/Minus by 1.",
-    pp: 20
-  },
-  magnetrise: {
-    id: "magnetrise",
-    name: "Magnet Rise",
-    num: 393,
-    type: "Electric",
-    flags: {
-      snatch: 1,
-      gravity: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the user is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the user uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the user is under any of their effects. Fails if the user is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows.",
-    shortDesc: "For 5 turns, the user has immunity to Ground.",
-    pp: 10
-  },
-  magnitude: {
-    id: "magnitude",
-    name: "Magnitude",
-    num: 222,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The power of this move varies; 5% chances for 10 and 150 power, 10% chances for 30 and 110 power, 20% chances for 50 and 90 power, and 30% chance for 70 power. Damage doubles if the target is using Dig.",
-    shortDesc: "Hits adjacent Pokemon. Power varies; 2x on Dig.",
-    pp: 30
-  },
-  makeitrain: {
-    id: "makeitrain",
-    name: "Make It Rain",
-    num: 874,
-    type: "Steel",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Special",
-    desc: "Lowers the user's Special Attack by 1 stage.",
-    shortDesc: "Lowers the user's Sp. Atk by 1. Hits foe(s).",
-    pp: 5
-  },
-  maliciousmoonsault: {
-    id: "maliciousmoonsault",
-    name: "Malicious Moonsault",
-    num: 696,
-    type: "Dark",
-    flags: {
-      contact: 1
-    },
-    basePower: 180,
-    accuracy: true,
-    category: "Physical",
-    desc: "Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "Damage doubles if the target used Minimize.",
-    pp: 1
-  },
-  matblock: {
-    id: "matblock",
-    name: "Mat Block",
-    num: 561,
-    type: "Fighting",
-    flags: {
-      snatch: 1,
-      nonsky: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user and its party members are protected from damaging attacks made by other Pokemon, including allies, during this turn. Fails unless it is the user's first turn on the field, if the user moves last this turn, or if this move is already in effect for the user's side.",
-    shortDesc: "Protects allies from damaging attacks. Turn 1 only.",
-    pp: 10
-  },
-  matchagotcha: {
-    id: "matchagotcha",
-    name: "Matcha Gotcha",
-    num: 902,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 80,
-    accuracy: 90,
-    category: "Special",
-    desc: "Has a 20% chance to burn the target. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. The target thaws out if it is frozen.",
-    shortDesc: "20% burn. Recovers 50% dmg dealt. Thaws foe(s).",
-    pp: 15
-  },
-  maxairstream: {
-    id: "maxairstream",
-    name: "Max Airstream",
-    num: 766,
-    type: "Flying",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Allies: +1 Speed.",
-    pp: 10
-  },
-  maxdarkness: {
-    id: "maxdarkness",
-    name: "Max Darkness",
-    num: 772,
-    type: "Dark",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Foes: -1 Sp. Def.",
-    pp: 10
-  },
-  maxflare: {
-    id: "maxflare",
-    name: "Max Flare",
-    num: 757,
-    type: "Fire",
-    flags: {},
-    basePower: 100,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sunny Day begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Sunny Day.",
-    pp: 10
-  },
-  maxflutterby: {
-    id: "maxflutterby",
-    name: "Max Flutterby",
-    num: 758,
-    type: "Bug",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Foes: -1 Sp. Atk.",
-    pp: 10
-  },
-  maxgeyser: {
-    id: "maxgeyser",
-    name: "Max Geyser",
-    num: 765,
-    type: "Water",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Rain Dance begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Rain Dance.",
-    pp: 10
-  },
-  maxguard: {
-    id: "maxguard",
-    name: "Max Guard",
-    num: 743,
-    type: "Normal",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user is protected from nearly all attacks made by other Pokemon during this turn, including Max and G-Max Moves. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Protects user from moves & Max Moves this turn.",
-    pp: 10
-  },
-  maxhailstorm: {
-    id: "maxhailstorm",
-    name: "Max Hailstorm",
-    num: 763,
-    type: "Ice",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Hail begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Hail.",
-    pp: 10
-  },
-  maxknuckle: {
-    id: "maxknuckle",
-    name: "Max Knuckle",
-    num: 761,
-    type: "Fighting",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Boosts the user and its allies' Attack by 1 stage. BP scales with the base move's BP. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Allies: +1 Attack.",
-    pp: 10
-  },
-  maxlightning: {
-    id: "maxlightning",
-    name: "Max Lightning",
-    num: 759,
-    type: "Electric",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Electric Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Electric Terrain.",
-    pp: 10
-  },
-  maxmindstorm: {
-    id: "maxmindstorm",
-    name: "Max Mindstorm",
-    num: 769,
-    type: "Psychic",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Psychic Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Psychic Terrain.",
-    pp: 10
-  },
-  maxooze: {
-    id: "maxooze",
-    name: "Max Ooze",
-    num: 764,
-    type: "Poison",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Attack of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Allies: +1 Sp. Atk.",
-    pp: 10
-  },
-  maxovergrowth: {
-    id: "maxovergrowth",
-    name: "Max Overgrowth",
-    num: 773,
-    type: "Grass",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Grassy Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Grassy Terrain.",
-    pp: 10
-  },
-  maxphantasm: {
-    id: "maxphantasm",
-    name: "Max Phantasm",
-    num: 762,
-    type: "Ghost",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Foes: -1 Defense.",
-    pp: 10
-  },
-  maxquake: {
-    id: "maxquake",
-    name: "Max Quake",
-    num: 771,
-    type: "Ground",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Special Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Allies: +1 Sp. Def.",
-    pp: 10
-  },
-  maxrockfall: {
-    id: "maxrockfall",
-    name: "Max Rockfall",
-    num: 770,
-    type: "Rock",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Sandstorm begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Sandstorm.",
-    pp: 10
-  },
-  maxstarfall: {
-    id: "maxstarfall",
-    name: "Max Starfall",
-    num: 767,
-    type: "Fairy",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the effect of Misty Terrain begins. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Starts Misty Terrain.",
-    pp: 10
-  },
-  maxsteelspike: {
-    id: "maxsteelspike",
-    name: "Max Steelspike",
-    num: 774,
-    type: "Steel",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Defense of each Pokemon on the user's side is raised by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Allies: +1 Defense.",
-    pp: 10
-  },
-  maxstrike: {
-    id: "maxstrike",
-    name: "Max Strike",
-    num: 760,
-    type: "Normal",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Speed of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Foes: -1 Speed.",
-    pp: 10
-  },
-  maxwyrmwind: {
-    id: "maxwyrmwind",
-    name: "Max Wyrmwind",
-    num: 768,
-    type: "Dragon",
-    flags: {},
-    basePower: 10,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Max Move power. If this move is successful, the Attack of each Pokemon on the opposing side is lowered by 1 stage, even if they have a substitute. This effect does not happen if the user is not Dynamaxed. If this move is used as a base move, it deals damage with a power of 0.",
-    shortDesc: "Base move affects power. Foes: -1 Attack.",
-    pp: 10
-  },
-  meanlook: {
-    id: "meanlook",
-    name: "Mean Look",
-    num: 212,
-    type: "Normal",
-    flags: {
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-    shortDesc: "Prevents the target from switching out.",
-    pp: 5
-  },
-  meditate: {
-    id: "meditate",
-    name: "Meditate",
-    num: 96,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack by 1 stage.",
-    shortDesc: "Raises the user's Attack by 1.",
-    pp: 40
-  },
-  mefirst: {
-    id: "mefirst",
-    name: "Me First",
-    num: 382,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      bypasssub: 1,
-      failencore: 1,
-      failmefirst: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user uses the move the target chose for use this turn against it, if possible, with its power multiplied by 1.5. The move must be a damaging move other than Beak Blast, Belch, Blazing Torque, Combat Torque, Comeuppance, Counter, Covet, Focus Punch, Magical Torque, Me First, Metal Burst, Mirror Coat, Noxious Torque, Shell Trap, Struggle, Thief, or Wicked Torque. Fails if the target moves before the user. Ignores the target's substitute for the purpose of copying the move.",
-    shortDesc: "Copies a foe at 1.5x power. User must be faster.",
-    pp: 20
-  },
-  megadrain: {
-    id: "megadrain",
-    name: "Mega Drain",
-    num: 72,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 15
-  },
-  megahorn: {
-    id: "megahorn",
-    name: "Megahorn",
-    num: 224,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 85,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 10
-  },
-  megakick: {
-    id: "megakick",
-    name: "Mega Kick",
-    num: 25,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 75,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 5
-  },
-  megapunch: {
-    id: "megapunch",
-    name: "Mega Punch",
-    num: 5,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 80,
-    accuracy: 85,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 20
-  },
-  memento: {
-    id: "memento",
-    name: "Memento",
-    num: 262,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack and Special Attack by 2 stages. The user faints unless this move misses or there is no target. Fails entirely if this move hits a substitute, but does not fail if the target's stats cannot be changed.",
-    shortDesc: "Lowers target's Attack, Sp. Atk by 2. User faints.",
-    pp: 10
-  },
-  menacingmoonrazemaelstrom: {
-    id: "menacingmoonrazemaelstrom",
-    name: "Menacing Moonraze Maelstrom",
-    num: 725,
-    type: "Ghost",
-    flags: {},
-    basePower: 200,
-    accuracy: true,
-    category: "Special",
-    desc: "This move and its effects ignore the Abilities of other Pokemon.",
-    shortDesc: "Ignores the Abilities of other Pokemon.",
-    pp: 1
-  },
-  metalburst: {
-    id: "metalburst",
-    name: "Metal Burst",
-    num: 368,
-    type: "Steel",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      failmefirst: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Deals damage to the last opposing Pokemon to hit the user with a physical or special attack this turn equal to 1.5 times the HP lost by the user from that attack, rounded down. If the user did not lose HP from that attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical or special attack this turn.",
-    shortDesc: "If hit by an attack, returns 1.5x damage.",
-    pp: 10
-  },
-  metalclaw: {
-    id: "metalclaw",
-    name: "Metal Claw",
-    num: 232,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 10% chance to raise the user's Attack by 1 stage.",
-    shortDesc: "10% chance to raise the user's Attack by 1.",
-    pp: 35
-  },
-  metalsound: {
-    id: "metalsound",
-    name: "Metal Sound",
-    num: 319,
-    type: "Steel",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 85,
-    category: "Status",
-    desc: "Lowers the target's Special Defense by 2 stages.",
-    shortDesc: "Lowers the target's Sp. Def by 2.",
-    pp: 40
-  },
-  meteorassault: {
-    id: "meteorassault",
-    name: "Meteor Assault",
-    num: 794,
-    type: "Fighting",
-    flags: {
-      protect: 1,
-      recharge: 1,
-      mirror: 1,
-      failinstruct: 1
-    },
-    basePower: 150,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  meteorbeam: {
-    id: "meteorbeam",
-    name: "Meteor Beam",
-    num: 800,
-    type: "Rock",
-    flags: {
-      charge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 90,
-    category: "Special",
-    desc: "This attack charges on the first turn and executes on the second. Raises the user's Special Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Raises user's Sp. Atk by 1 on turn 1. Hits turn 2.",
-    pp: 10
-  },
-  meteormash: {
-    id: "meteormash",
-    name: "Meteor Mash",
-    num: 309,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 90,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 20% chance to raise the user's Attack by 1 stage.",
-    shortDesc: "20% chance to raise the user's Attack by 1.",
-    pp: 10
-  },
-  metronome: {
-    id: "metronome",
-    name: "Metronome",
-    num: 118,
-    type: "Normal",
-    flags: {
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "A random move is selected for use, other than After You, Apple Acid, Armor Cannon, Assist, Astral Barrage, Aura Wheel, Baneful Bunker, Beak Blast, Behemoth Bash, Behemoth Blade, Belch, Bestow, Blazing Torque, Body Press, Branch Poke, Breaking Swipe, Celebrate, Chatter, Chilling Water, Chilly Reception, Clangorous Soul, Collision Course, Combat Torque, Comeuppance, Copycat, Counter, Covet, Crafty Shield, Decorate, Destiny Bond, Detect, Diamond Storm, Doodle, Double Iron Bash, Double Shock, Dragon Ascent, Dragon Energy, Drum Beating, Dynamax Cannon, Electro Drift, Endure, Eternabeam, False Surrender, Feint, Fiery Wrath, Fillet Away, Fleur Cannon, Focus Punch, Follow Me, Freeze Shock, Freezing Glare, Glacial Lance, Grav Apple, Helping Hand, Hold Hands, Hyper Drill, Hyperspace Fury, Hyperspace Hole, Ice Burn, Instruct, Jet Punch, Jungle Healing, King's Shield, Life Dew, Light of Ruin, Magical Torque, Make It Rain, Mat Block, Me First, Meteor Assault, Metronome, Mimic, Mind Blown, Mirror Coat, Mirror Move, Moongeist Beam, Nature Power, Nature's Madness, Noxious Torque, Obstruct, Order Up, Origin Pulse, Overdrive, Photon Geyser, Plasma Fists, Population Bomb, Pounce, Power Shift, Precipice Blades, Protect, Pyro Ball, Quash, Quick Guard, Rage Fist, Rage Powder, Raging Bull, Raging Fury, Relic Song, Revival Blessing, Ruination, Salt Cure, Secret Sword, Shed Tail, Shell Trap, Silk Trap, Sketch, Sleep Talk, Snap Trap, Snarl, Snatch, Snore, Snowscape, Spectral Thief, Spicy Extract, Spiky Shield, Spirit Break, Spotlight, Springtide Storm, Steam Eruption, Steel Beam, Strange Steam, Struggle, Sunsteel Strike, Surging Strikes, Switcheroo, Techno Blast, Thief, Thousand Arrows, Thousand Waves, Thunder Cage, Thunderous Kick, Tidy Up, Trailblaze, Transform, Trick, Twin Beam, V-create, Wicked Blow, Wicked Torque, or Wide Guard.",
-    shortDesc: "Picks a random move.",
-    pp: 10
-  },
-  milkdrink: {
-    id: "milkdrink",
-    name: "Milk Drink",
-    num: 208,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP, rounded half up.",
-    shortDesc: "Heals the user by 50% of its max HP.",
-    pp: 5
-  },
-  mimic: {
-    id: "mimic",
-    name: "Mimic",
-    num: 102,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      bypasssub: 1,
-      allyanim: 1,
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "While the user remains active, this move is replaced by the last move used by the target. The copied move has the maximum PP for that move. Fails if the target has not made a move, if the user has Transformed, if the user already knows the move, or if the move is Assist, Behemoth Bash, Behemoth Blade, Belch, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Hold Hands, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Sketch, Sleep Talk, Struggle, Transform, or Wicked Torque.",
-    shortDesc: "The last move the target used replaces this one.",
-    pp: 10
-  },
-  mindblown: {
-    id: "mindblown",
-    name: "Mind Blown",
-    num: 720,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 100,
-    category: "Special",
-    desc: "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability. This move is prevented from executing and the user does not lose HP if any active Pokemon has the Damp Ability, or if this move is Fire type and the user is affected by Powder or the weather is Primordial Sea.",
-    shortDesc: "User loses 50% max HP. Hits adjacent Pokemon.",
-    pp: 5
-  },
-  mindreader: {
-    id: "mindreader",
-    name: "Mind Reader",
-    num: 170,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
-    shortDesc: "User's next move will not miss the target.",
-    pp: 5
-  },
-  minimize: {
-    id: "minimize",
-    name: "Minimize",
-    num: 107,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's evasiveness by 2 stages. Whether or not the user's evasiveness was changed, Body Slam, Dragon Rush, Flying Press, Heat Crash, Heavy Slam, Malicious Moonsault, Steamroller, and Stomp will not check accuracy and have their damage doubled if used against the user while it is active.",
-    shortDesc: "Raises the user's evasiveness by 2.",
-    pp: 10
-  },
-  miracleeye: {
-    id: "miracleeye",
-    name: "Miracle Eye",
-    num: 357,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Psychic-type attacks can hit the target if it is a Dark type. Fails if the target is already affected, or affected by Foresight or Odor Sleuth.",
-    shortDesc: "Psychic hits Dark. Evasiveness ignored.",
-    pp: 40
-  },
-  mirrorcoat: {
-    id: "mirrorcoat",
-    name: "Mirror Coat",
-    num: 243,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      failmefirst: 1,
-      noassist: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage to the last opposing Pokemon to hit the user with a special attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's special attack this turn.",
-    shortDesc: "If hit by special attack, returns double damage.",
-    pp: 20
-  },
-  mirrormove: {
-    id: "mirrormove",
-    name: "Mirror Move",
-    num: 119,
-    type: "Flying",
-    flags: {
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user uses the last move used by the target. The copied move is used against that target, if possible. Fails if the target has not made a move, or if the last move used cannot be copied by this move.",
-    shortDesc: "User uses the target's last used move against it.",
-    pp: 20
-  },
-  mirrorshot: {
-    id: "mirrorshot",
-    name: "Mirror Shot",
-    num: 429,
-    type: "Steel",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 85,
-    category: "Special",
-    desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
-    shortDesc: "30% chance to lower the target's accuracy by 1.",
-    pp: 10
-  },
-  mist: {
-    id: "mist",
-    name: "Mist",
-    num: 54,
-    type: "Ice",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the user and its party members are protected from having their stat stages lowered by other Pokemon. Fails if the effect is already active on the user's side.",
-    shortDesc: "For 5 turns, protects user's party from stat drops.",
-    pp: 30
-  },
-  mistball: {
-    id: "mistball",
-    name: "Mist Ball",
-    num: 296,
-    type: "Psychic",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 50% chance to lower the target's Special Attack by 1 stage.",
-    shortDesc: "50% chance to lower the target's Sp. Atk by 1.",
-    pp: 5
-  },
-  mistyexplosion: {
-    id: "mistyexplosion",
-    name: "Misty Explosion",
-    num: 802,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
-    shortDesc: "User faints. User on Misty Terrain: 1.5x power.",
-    pp: 5
-  },
-  mistyterrain: {
-    id: "mistyterrain",
-    name: "Misty Terrain",
-    num: 581,
-    type: "Fairy",
-    flags: {
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the terrain becomes Misty Terrain. During the effect, the power of Dragon-type attacks used against grounded Pokemon is multiplied by 0.5 and grounded Pokemon cannot be inflicted with a non-volatile status condition nor confusion. Grounded Pokemon can become affected by Yawn but cannot fall asleep from its effect. Camouflage transforms the user into a Fairy type, Nature Power becomes Moonblast, and Secret Power has a 30% chance to lower Special Attack by 1 stage. Fails if the current terrain is Misty Terrain.",
-    shortDesc: "5 turns. Can't status,-Dragon power vs grounded.",
-    pp: 10
-  },
-  moonblast: {
-    id: "moonblast",
-    name: "Moonblast",
-    num: 585,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 95,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to lower the target's Special Attack by 1 stage.",
-    shortDesc: "30% chance to lower the target's Sp. Atk by 1.",
-    pp: 15
-  },
-  moongeistbeam: {
-    id: "moongeistbeam",
-    name: "Moongeist Beam",
-    num: 714,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "This move and its effects ignore the Abilities of other Pokemon.",
-    shortDesc: "Ignores the Abilities of other Pokemon.",
-    pp: 5
-  },
-  moonlight: {
-    id: "moonlight",
-    name: "Moonlight",
-    num: 236,
-    type: "Fairy",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP if Delta Stream or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Desolate Land or Sunny Day, and 1/4 of its maximum HP if the weather is Primordial Sea, Rain Dance, Sandstorm, or Snow, all rounded half down.",
-    shortDesc: "Heals the user by a weather-dependent amount.",
-    pp: 5
-  },
-  morningsun: {
-    id: "morningsun",
-    name: "Morning Sun",
-    num: 234,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP if Delta Stream or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Desolate Land or Sunny Day, and 1/4 of its maximum HP if the weather is Primordial Sea, Rain Dance, Sandstorm, or Snow, all rounded half down.",
-    shortDesc: "Heals the user by a weather-dependent amount.",
-    pp: 5
-  },
-  mortalspin: {
-    id: "mortalspin",
-    name: "Mortal Spin",
-    num: 866,
-    type: "Poison",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 30,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field. Has a 100% chance to poison the target.",
-    shortDesc: "Poisons foes, frees user from hazards/bind/leech.",
-    pp: 15
-  },
-  mountaingale: {
-    id: "mountaingale",
-    name: "Mountain Gale",
-    num: 836,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 10
-  },
-  mudbomb: {
-    id: "mudbomb",
-    name: "Mud Bomb",
-    num: 426,
-    type: "Ground",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 85,
-    category: "Special",
-    desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
-    shortDesc: "30% chance to lower the target's accuracy by 1.",
-    pp: 10
-  },
-  mudshot: {
-    id: "mudshot",
-    name: "Mud Shot",
-    num: 341,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 55,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the target's Speed by 1.",
-    pp: 15
-  },
-  mudslap: {
-    id: "mudslap",
-    name: "Mud-Slap",
-    num: 189,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
-    shortDesc: "100% chance to lower the target's accuracy by 1.",
-    pp: 10
-  },
-  mudsport: {
-    id: "mudsport",
-    name: "Mud Sport",
-    num: 300,
-    type: "Ground",
-    flags: {
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
-    shortDesc: "For 5 turns, Electric-type attacks have 1/3 power.",
-    pp: 15
-  },
-  muddywater: {
-    id: "muddywater",
-    name: "Muddy Water",
-    num: 330,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 90,
-    accuracy: 85,
-    category: "Special",
-    desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
-    shortDesc: "30% chance to lower the foe(s) accuracy by 1.",
-    pp: 10
-  },
-  multiattack: {
-    id: "multiattack",
-    name: "Multi-Attack",
-    num: 718,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This move's type depends on the user's held Memory.",
-    shortDesc: "Type varies based on the held Memory.",
-    pp: 10
-  },
-  mysticalfire: {
-    id: "mysticalfire",
-    name: "Mystical Fire",
-    num: 595,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
-    shortDesc: "100% chance to lower the target's Sp. Atk by 1.",
-    pp: 10
-  },
-  mysticalpower: {
-    id: "mysticalpower",
-    name: "Mystical Power",
-    num: 832,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 90,
-    category: "Special",
-    desc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
-    shortDesc: "100% chance to raise the user's Sp. Atk by 1.",
-    pp: 10
-  },
-  nastyplot: {
-    id: "nastyplot",
-    name: "Nasty Plot",
-    num: 417,
-    type: "Dark",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Special Attack by 2 stages.",
-    shortDesc: "Raises the user's Sp. Atk by 2.",
-    pp: 20
-  },
-  naturalgift: {
-    id: "naturalgift",
-    name: "Natural Gift",
-    num: 363,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The type and power of this move depend on the user's held Berry, and the Berry is lost. Fails if the user is not holding a Berry, if the user has the Klutz Ability, or if Embargo or Magic Room is in effect for the user.",
-    shortDesc: "Power and type depends on the user's Berry.",
-    pp: 15
-  },
-  naturepower: {
-    id: "naturepower",
-    name: "Nature Power",
-    num: 267,
-    type: "Normal",
-    flags: {
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "This move calls another move for use based on the battle terrain. Tri Attack on the regular Wi-Fi terrain, Thunderbolt during Electric Terrain, Moonblast during Misty Terrain, Energy Ball during Grassy Terrain, and Psychic during Psychic Terrain.",
-    shortDesc: "Attack depends on terrain (default Tri Attack).",
-    pp: 20
-  },
-  naturesmadness: {
-    id: "naturesmadness",
-    name: "Nature's Madness",
-    num: 717,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Special",
-    desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
-    shortDesc: "Does damage equal to 1/2 target's current HP.",
-    pp: 10
-  },
-  needlearm: {
-    id: "needlearm",
-    name: "Needle Arm",
-    num: 302,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 15
-  },
-  neverendingnightmare: {
-    id: "neverendingnightmare",
-    name: "Never-Ending Nightmare",
-    num: 636,
-    type: "Ghost",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  nightdaze: {
-    id: "nightdaze",
-    name: "Night Daze",
-    num: 539,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 40% chance to lower the target's accuracy by 1 stage.",
-    shortDesc: "40% chance to lower the target's accuracy by 1.",
-    pp: 10
-  },
-  nightmare: {
-    id: "nightmare",
-    name: "Nightmare",
-    num: 171,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to lose 1/4 of its maximum HP, rounded down, at the end of each turn as long as it is asleep. This move does not affect the target unless it is asleep. The effect ends when the target wakes up, even if it falls asleep again in the same turn.",
-    shortDesc: "A sleeping target is hurt by 1/4 max HP per turn.",
-    pp: 15
-  },
-  nightshade: {
-    id: "nightshade",
-    name: "Night Shade",
-    num: 101,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage to the target equal to the user's level.",
-    shortDesc: "Does damage equal to the user's level.",
-    pp: 15
-  },
-  nightslash: {
-    id: "nightslash",
-    name: "Night Slash",
-    num: 400,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 15
-  },
-  nobleroar: {
-    id: "nobleroar",
-    name: "Noble Roar",
-    num: 568,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack and Special Attack by 1 stage.",
-    shortDesc: "Lowers the target's Attack and Sp. Atk by 1.",
-    pp: 30
-  },
-  noretreat: {
-    id: "noretreat",
-    name: "No Retreat",
-    num: 748,
-    type: "Fighting",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage, but it becomes prevented from switching out. The user can still switch out if it uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the user leaves the field using Baton Pass, the replacement will remain trapped. Fails if the user has already been prevented from switching by this effect.",
-    shortDesc: "Raises all stats by 1 (not acc/eva). Traps user.",
-    pp: 5
-  },
-  nuzzle: {
-    id: "nuzzle",
-    name: "Nuzzle",
-    num: 609,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to paralyze the target.",
-    shortDesc: "100% chance to paralyze the target.",
-    pp: 20
-  },
-  oblivionwing: {
-    id: "oblivionwing",
-    name: "Oblivion Wing",
-    num: 613,
-    type: "Flying",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      distance: 1,
-      heal: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 75% of the damage dealt.",
-    pp: 10
-  },
-  obstruct: {
-    id: "obstruct",
-    name: "Obstruct",
-    num: 792,
-    type: "Dark",
-    flags: {
-      failinstruct: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Defense lowered by 2 stages. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Protects from damaging attacks. Contact: -2 Def.",
-    pp: 10
-  },
-  oceanicoperetta: {
-    id: "oceanicoperetta",
-    name: "Oceanic Operetta",
-    num: 697,
-    type: "Water",
-    flags: {},
-    basePower: 195,
-    accuracy: true,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 1
-  },
-  octazooka: {
-    id: "octazooka",
-    name: "Octazooka",
-    num: 190,
-    type: "Water",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 85,
-    category: "Special",
-    desc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
-    shortDesc: "50% chance to lower the target's accuracy by 1.",
-    pp: 10
-  },
-  octolock: {
-    id: "octolock",
-    name: "Octolock",
-    num: 753,
-    type: "Fighting",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Prevents the target from switching out. At the end of each turn during effect, the target's Defense and Special Defense are lowered by 1 stage. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-    shortDesc: "Traps target, lowers Def and SpD by 1 each turn.",
-    pp: 15
-  },
-  odorsleuth: {
-    id: "odorsleuth",
-    name: "Odor Sleuth",
-    num: 316,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "As long as the target remains active, its evasiveness stat stage is ignored during accuracy checks against it if it is greater than 0, and Normal- and Fighting-type attacks can hit the target if it is a Ghost type. Fails if the target is already affected, or affected by Foresight or Miracle Eye.",
-    shortDesc: "Fighting, Normal hit Ghost. Evasiveness ignored.",
-    pp: 40
-  },
-  ominouswind: {
-    id: "ominouswind",
-    name: "Ominous Wind",
-    num: 466,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
-    shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
-    pp: 5
-  },
-  orderup: {
-    id: "orderup",
-    name: "Order Up",
-    num: 856,
-    type: "Dragon",
-    flags: {
       protect: 1
     },
     basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "If an ally Tatsugiri has activated its Commander Ability, this move raises the user's Attack by 1 stage if the Tatsugiri is Curly Form, Defense by 1 stage if Droopy Form, or Speed by 1 stage if Stretchy Form. The effect happens whether or not this move is successful, and even if the Tatsugiri that activated the effect has since fainted.",
-    shortDesc: "Curly|Droopy|Stretchy eaten: +1 Atk|Def|Spe.",
+    desc: "The user delivers a vicous chop with hands, blades,\nor the like. This has a 50% (+2) crit rate. Contact.",
+    shortDesc: "The user delivers a vicous chop with hands, blades,\nor the like. This has a 50% (+2) crit rate. Contact.",
     pp: 10
   },
-  originpulse: {
-    id: "originpulse",
-    name: "Origin Pulse",
-    num: 618,
-    type: "Water",
-    flags: {
-      protect: 1,
-      pulse: 1,
-      mirror: 1
-    },
-    basePower: 110,
-    accuracy: 85,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent foes.",
-    pp: 10
-  },
-  outrage: {
-    id: "outrage",
-    name: "Outrage",
-    num: 200,
+  twister: {
+    id: "twister",
+    name: "Twister",
+    num: 239,
     type: "Dragon",
     flags: {
-      contact: 1,
-      protect: 1,
       mirror: 1,
-      failinstruct: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-    shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
-    pp: 10
-  },
-  overdrive: {
-    id: "overdrive",
-    name: "Overdrive",
-    num: 786,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits foe(s).",
-    pp: 10
-  },
-  overheat: {
-    id: "overheat",
-    name: "Overheat",
-    num: 315,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 130,
-    accuracy: 90,
-    category: "Special",
-    desc: "Lowers the user's Special Attack by 2 stages.",
-    shortDesc: "Lowers the user's Sp. Atk by 2.",
-    pp: 5
-  },
-  painsplit: {
-    id: "painsplit",
-    name: "Pain Split",
-    num: 220,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user and the target's HP become the average of their current HP, rounded down, but not more than the maximum HP of either one.",
-    shortDesc: "Shares HP of user and target equally.",
-    pp: 20
-  },
-  paraboliccharge: {
-    id: "paraboliccharge",
-    name: "Parabolic Charge",
-    num: 570,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
-    shortDesc: "User recovers 50% of the damage dealt.",
-    pp: 20
-  },
-  partingshot: {
-    id: "partingshot",
-    name: "Parting Shot",
-    num: 575,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack and Special Attack by 1 stage. If this move is successful, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if the target's Attack and Special Attack stat stages were both unchanged, or if there are no unfainted party members.",
-    shortDesc: "Lowers target's Atk, Sp. Atk by 1. User switches.",
-    pp: 20
-  },
-  payback: {
-    id: "payback",
-    name: "Payback",
-    num: 371,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      protect: 1
     },
     basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the user moves after the target this turn, including actions taken through Instruct or the Dancer Ability. Switching in does not count as an action.",
-    shortDesc: "Power doubles if the user moves after the target.",
-    pp: 10
-  },
-  payday: {
-    id: "payday",
-    name: "Pay Day",
-    num: 6,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Scatters coins.",
-    pp: 20
-  },
-  peck: {
-    id: "peck",
-    name: "Peck",
-    num: 64,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 35,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 35
-  },
-  perishsong: {
-    id: "perishsong",
-    name: "Perish Song",
-    num: 195,
-    type: "Normal",
-    flags: {
-      sound: 1,
-      distance: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
     accuracy: true,
-    category: "Status",
-    desc: "Each active Pokemon receives a perish count of 4 if it doesn't already have a perish count. At the end of each turn including the turn used, the perish count of all active Pokemon lowers by 1 and Pokemon faint if the number reaches 0. The perish count is removed from Pokemon that switch out. If a Pokemon uses Baton Pass while it has a perish count, the replacement will gain the perish count and continue to count down.",
-    shortDesc: "All active Pokemon will faint in 3 turns.",
-    pp: 5
-  },
-  petalblizzard: {
-    id: "petalblizzard",
-    name: "Petal Blizzard",
-    num: 572,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent Pokemon.",
+    category: "Special",
+    desc: "The user quickly whips up a tornado fueled by\ndragon energy. This has +1 Priority, and can't miss.",
+    shortDesc: "The user quickly whips up a tornado fueled by\ndragon energy. This has +1 Priority, and can't miss.",
     pp: 15
-  },
-  petaldance: {
-    id: "petaldance",
-    name: "Petal Dance",
-    num: 80,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      dance: 1,
-      failinstruct: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-    shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
-    pp: 10
-  },
-  phantomforce: {
-    id: "phantomforce",
-    name: "Phantom Force",
-    num: 566,
-    type: "Ghost",
-    flags: {
-      contact: 1,
-      charge: 1,
-      mirror: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failinstruct: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Disappears turn 1. Hits turn 2. Breaks protection.",
-    pp: 10
-  },
-  photongeyser: {
-    id: "photongeyser",
-    name: "Photon Geyser",
-    num: 722,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. This move and its effects ignore the Abilities of other Pokemon.",
-    shortDesc: "Physical if user's Atk > Sp. Atk. Ignores Abilities.",
-    pp: 5
-  },
-  pinmissile: {
-    id: "pinmissile",
-    name: "Pin Missile",
-    num: 42,
-    type: "Bug",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 20
-  },
-  plasmafists: {
-    id: "plasmafists",
-    name: "Plasma Fists",
-    num: 721,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful, causes Normal-type moves to become Electric type this turn.",
-    shortDesc: "Normal moves become Electric type this turn.",
-    pp: 15
-  },
-  playnice: {
-    id: "playnice",
-    name: "Play Nice",
-    num: 589,
-    type: "Normal",
-    flags: {
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Lowers the target's Attack by 1 stage.",
-    shortDesc: "Lowers the target's Attack by 1.",
-    pp: 20
-  },
-  playrough: {
-    id: "playrough",
-    name: "Play Rough",
-    num: 583,
-    type: "Fairy",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 10% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "10% chance to lower the target's Attack by 1.",
-    pp: 10
-  },
-  pluck: {
-    id: "pluck",
-    name: "Pluck",
-    num: 365,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful and the user has not fainted, it steals the target's held Berry if it is holding one and eats it immediately, gaining its effects even if the user's item is being ignored. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-    shortDesc: "User steals and eats the target's Berry.",
-    pp: 20
-  },
-  poisonfang: {
-    id: "poisonfang",
-    name: "Poison Fang",
-    num: 305,
-    type: "Poison",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 50% chance to badly poison the target.",
-    shortDesc: "50% chance to badly poison the target.",
-    pp: 15
-  },
-  poisongas: {
-    id: "poisongas",
-    name: "Poison Gas",
-    num: 139,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Status",
-    desc: "Poisons the target.",
-    shortDesc: "Poisons the foe(s).",
-    pp: 40
-  },
-  poisonjab: {
-    id: "poisonjab",
-    name: "Poison Jab",
-    num: 398,
-    type: "Poison",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to poison the target.",
-    shortDesc: "30% chance to poison the target.",
-    pp: 20
-  },
-  poisonpowder: {
-    id: "poisonpowder",
-    name: "Poison Powder",
-    num: 77,
-    type: "Poison",
-    flags: {
-      powder: 1,
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 75,
-    category: "Status",
-    desc: "Poisons the target.",
-    shortDesc: "Poisons the target.",
-    pp: 35
-  },
-  poisonsting: {
-    id: "poisonsting",
-    name: "Poison Sting",
-    num: 40,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 15,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to poison the target.",
-    shortDesc: "30% chance to poison the target.",
-    pp: 35
-  },
-  poisontail: {
-    id: "poisontail",
-    name: "Poison Tail",
-    num: 342,
-    type: "Poison",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to poison the target and a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio. 10% chance to poison.",
-    pp: 25
-  },
-  pollenpuff: {
-    id: "pollenpuff",
-    name: "Pollen Puff",
-    num: 676,
-    type: "Bug",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the target is an ally, this move restores 1/2 of its maximum HP, rounded down, instead of dealing damage.",
-    shortDesc: "If the target is an ally, heals 50% of its max HP.",
-    pp: 15
-  },
-  poltergeist: {
-    id: "poltergeist",
-    name: "Poltergeist",
-    num: 809,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 110,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Fails if the target has no held item.",
-    shortDesc: "Fails if the target has no held item.",
-    pp: 5
-  },
-  populationbomb: {
-    id: "populationbomb",
-    name: "Population Bomb",
-    num: 860,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 20,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits ten times. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit ten times. If the user is holding Loaded Dice, this move hits four to ten times at random without checking accuracy between hits.",
-    shortDesc: "Hits 10 times. Each hit can miss.",
-    pp: 10
-  },
-  pounce: {
-    id: "pounce",
-    name: "Pounce",
-    num: 884,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the target's Speed by 1.",
-    pp: 20
-  },
-  pound: {
-    id: "pound",
-    name: "Pound",
-    num: 1,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 35
-  },
-  powder: {
-    id: "powder",
-    name: "Powder",
-    num: 600,
-    type: "Bug",
-    flags: {
-      powder: 1,
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "If the target uses a Fire-type move this turn, it is prevented from executing and the target loses 1/4 of its maximum HP, rounded half up. This effect does not happen if the Fire-type move is prevented by Primordial Sea.",
-    shortDesc: "If using a Fire move, target loses 1/4 max HP.",
-    pp: 20
-  },
-  powdersnow: {
-    id: "powdersnow",
-    name: "Powder Snow",
-    num: 181,
-    type: "Ice",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to freeze the target.",
-    shortDesc: "10% chance to freeze the foe(s).",
-    pp: 25
-  },
-  powergem: {
-    id: "powergem",
-    name: "Power Gem",
-    num: 408,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 20
-  },
-  powersplit: {
-    id: "powersplit",
-    name: "Power Split",
-    num: 471,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user and the target have their Attack and Special Attack stats set to be equal to the average of the user and the target's Attack and Special Attack stats, respectively, rounded down. Stat stage changes are unaffected.",
-    shortDesc: "Averages Attack and Sp. Atk stats with target.",
-    pp: 10
-  },
-  powerswap: {
-    id: "powerswap",
-    name: "Power Swap",
-    num: 384,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user swaps its Attack and Special Attack stat stage changes with the target.",
-    shortDesc: "Swaps Attack and Sp. Atk stat stages with target.",
-    pp: 10
-  },
-  powertrick: {
-    id: "powertrick",
-    name: "Power Trick",
-    num: 379,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user swaps its Attack and Defense stats, and stat stage changes remain on their respective stats. This move can be used again to swap the stats back. If the user uses Baton Pass, the replacement will have its Attack and Defense stats swapped if the effect is active. If the user has its stats recalculated by changing forme while its stats are swapped, this effect is ignored but is still active for the purposes of Baton Pass.",
-    shortDesc: "Switches user's Attack and Defense stats.",
-    pp: 10
-  },
-  powertrip: {
-    id: "powertrip",
-    name: "Power Trip",
-    num: 681,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
-    shortDesc: " + 20 power for each of the user's stat boosts.",
-    pp: 10
-  },
-  poweruppunch: {
-    id: "poweruppunch",
-    name: "Power-Up Punch",
-    num: 612,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to raise the user's Attack by 1 stage.",
-    shortDesc: "100% chance to raise the user's Attack by 1.",
-    pp: 20
-  },
-  powerwhip: {
-    id: "powerwhip",
-    name: "Power Whip",
-    num: 438,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 85,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 10
-  },
-  precipiceblades: {
-    id: "precipiceblades",
-    name: "Precipice Blades",
-    num: 619,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 120,
-    accuracy: 85,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect. Hits adjacent foes.",
-    pp: 10
-  },
-  present: {
-    id: "present",
-    name: "Present",
-    num: 217,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this move is successful, it deals damage or heals the target. 40% chance for 40 power, 30% chance for 80 power, 10% chance for 120 power, and 20% chance to heal the target by 1/4 of its maximum HP, rounded down.",
-    shortDesc: "40, 80, 120 power, or heals target 1/4 max HP.",
-    pp: 15
-  },
-  prismaticlaser: {
-    id: "prismaticlaser",
-    name: "Prismatic Laser",
-    num: 711,
-    type: "Psychic",
-    flags: {
-      recharge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 160,
-    accuracy: 100,
-    category: "Special",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 10
-  },
-  protect: {
-    id: "protect",
-    name: "Protect",
-    num: 182,
-    type: "Normal",
-    flags: {
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user is protected from most attacks made by other Pokemon during this turn. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Prevents moves from affecting the user this turn.",
-    pp: 10
-  },
-  psybeam: {
-    id: "psybeam",
-    name: "Psybeam",
-    num: 60,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to confuse the target.",
-    shortDesc: "10% chance to confuse the target.",
-    pp: 20
-  },
-  psyblade: {
-    id: "psyblade",
-    name: "Psyblade",
-    num: 875,
-    type: "Psychic",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If the current terrain is Electric Terrain, this move's power is multiplied by 1.5.",
-    shortDesc: "During Electric Terrain: 1.5x power.",
-    pp: 15
-  },
-  psychup: {
-    id: "psychup",
-    name: "Psych Up",
-    num: 244,
-    type: "Normal",
-    flags: {
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user copies all of the target's current stat stage changes.",
-    shortDesc: "Copies the target's current stat stages.",
-    pp: 10
-  },
-  psychic: {
-    id: "psychic",
-    name: "Psychic",
-    num: 94,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "10% chance to lower the target's Sp. Def by 1.",
-    pp: 10
-  },
-  psychicfangs: {
-    id: "psychicfangs",
-    name: "Psychic Fangs",
-    num: 706,
-    type: "Psychic",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
-    shortDesc: "Destroys screens, unless the target is immune.",
-    pp: 10
-  },
-  psychicterrain: {
-    id: "psychicterrain",
-    name: "Psychic Terrain",
-    num: 678,
-    type: "Psychic",
-    flags: {
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the terrain becomes Psychic Terrain. During the effect, the power of Psychic-type attacks made by grounded Pokemon is multiplied by 1.3 and grounded Pokemon cannot be hit by moves with priority greater than 0, unless the target is an ally. Camouflage transforms the user into a Psychic type, Nature Power becomes Psychic, and Secret Power has a 30% chance to lower the target's Speed by 1 stage. Fails if the current terrain is Psychic Terrain.",
-    shortDesc: "5 turns. Grounded: +Psychic power, priority-safe.",
-    pp: 10
-  },
-  psychoboost: {
-    id: "psychoboost",
-    name: "Psycho Boost",
-    num: 354,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 140,
-    accuracy: 90,
-    category: "Special",
-    desc: "Lowers the user's Special Attack by 2 stages.",
-    shortDesc: "Lowers the user's Sp. Atk by 2.",
-    pp: 5
-  },
-  psychocut: {
-    id: "psychocut",
-    name: "Psycho Cut",
-    num: 427,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 20
-  },
-  psychoshift: {
-    id: "psychoshift",
-    name: "Psycho Shift",
-    num: 375,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
-    shortDesc: "Transfers the user's status ailment to the target.",
-    pp: 10
-  },
-  psyshieldbash: {
-    id: "psyshieldbash",
-    name: "Psyshield Bash",
-    num: 828,
-    type: "Psychic",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 100% chance to raise the user's Defense by 1 stage.",
-    shortDesc: "100% chance to raise the user's Defense by 1.",
-    pp: 10
-  },
-  psyshock: {
-    id: "psyshock",
-    name: "Psyshock",
-    num: 473,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage to the target based on its Defense instead of Special Defense.",
-    shortDesc: "Damages target based on Defense, not Sp. Def.",
-    pp: 10
-  },
-  psystrike: {
-    id: "psystrike",
-    name: "Psystrike",
-    num: 540,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage to the target based on its Defense instead of Special Defense.",
-    shortDesc: "Damages target based on Defense, not Sp. Def.",
-    pp: 10
-  },
-  psywave: {
-    id: "psywave",
-    name: "Psywave",
-    num: 149,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage to the target equal to (user's level) * (X + 50) / 100, where X is a random number from 0 to 100, rounded down, but not less than 1 HP.",
-    shortDesc: "Random damage equal to 0.5x-1.5x user's level.",
-    pp: 15
-  },
-  pulverizingpancake: {
-    id: "pulverizingpancake",
-    name: "Pulverizing Pancake",
-    num: 701,
-    type: "Normal",
-    flags: {
-      contact: 1
-    },
-    basePower: 210,
-    accuracy: true,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 1
-  },
-  punishment: {
-    id: "punishment",
-    name: "Punishment",
-    num: 386,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to 60+(X*20), where X is the target's total stat stage changes that are greater than 0, but not more than 200 power.",
-    shortDesc: "60 power +20 for each of the target's stat boosts.",
-    pp: 5
-  },
-  purify: {
-    id: "purify",
-    name: "Purify",
-    num: 685,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The target is cured if it has a non-volatile status condition. If the target was cured, the user restores 1/2 of its maximum HP, rounded down.",
-    shortDesc: "Cures target's status; heals user 1/2 max HP if so.",
-    pp: 20
-  },
-  pursuit: {
-    id: "pursuit",
-    name: "Pursuit",
-    num: 228,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If an opposing Pokemon switches out this turn, this move hits that Pokemon before it leaves the field, even if it was not the original target. If the user moves after an opponent using Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch, but not Baton Pass, it will hit that opponent before it leaves the field. Power doubles and no accuracy check is done if the user hits an opponent switching out, and the user's turn is over; if an opponent faints from this, the replacement Pokemon does not become active until the end of the turn.",
-    shortDesc: "If a foe is switching out, hits it at 2x power.",
-    pp: 20
-  },
-  pyroball: {
-    id: "pyroball",
-    name: "Pyro Ball",
-    num: 780,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      defrost: 1,
-      bullet: 1
-    },
-    basePower: 120,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 10% chance to burn the target.",
-    shortDesc: "10% chance to burn the target. Thaws user.",
-    pp: 5
-  },
-  quash: {
-    id: "quash",
-    name: "Quash",
-    num: 511,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to take its turn after all other Pokemon this turn, no matter the priority of its selected move. Fails if the target already moved this turn.",
-    shortDesc: "Forces the target to move last this turn.",
-    pp: 15
-  },
-  quickattack: {
-    id: "quickattack",
-    name: "Quick Attack",
-    num: 98,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 30
-  },
-  quickguard: {
-    id: "quickguard",
-    name: "Quick Guard",
-    num: 501,
-    type: "Fighting",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user and its party members are protected from attacks with original or altered priority greater than 0 made by other Pokemon, including allies, during this turn. This move modifies the same 1/X chance of being successful used by other protection moves, where X starts at 1 and triples each time this move is successfully used, but does not use the chance to check for failure. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
-    shortDesc: "Protects allies from priority attacks this turn.",
-    pp: 15
-  },
-  quiverdance: {
-    id: "quiverdance",
-    name: "Quiver Dance",
-    num: 483,
-    type: "Bug",
-    flags: {
-      snatch: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Special Attack, Special Defense, and Speed by 1 stage.",
-    shortDesc: "Raises the user's Sp. Atk, Sp. Def, Speed by 1.",
-    pp: 20
-  },
-  rage: {
-    id: "rage",
-    name: "Rage",
-    num: 99,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Once this move is successfully used, the user's Attack is raised by 1 stage every time it is hit by another Pokemon's attack as long as this move is chosen for use.",
-    shortDesc: "Raises the user's Attack by 1 if hit during use.",
-    pp: 20
-  },
-  ragefist: {
-    id: "ragefist",
-    name: "Rage Fist",
-    num: 889,
-    type: "Ghost",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to 50+(X*50), where X is the total number of times the user has been hit by a damaging attack during the battle, even if the user did not lose HP from the attack. X cannot be greater than 6 and does not reset upon switching out or fainting. Each hit of a multi-hit attack is counted, but confusion damage is not counted.",
-    shortDesc: "+50 power for each time user was hit. Max 6 hits.",
-    pp: 10
-  },
-  ragepowder: {
-    id: "ragepowder",
-    name: "Rage Powder",
-    num: 476,
-    type: "Bug",
-    flags: {
-      powder: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the end of the turn, all single-target attacks from the opposing side are redirected to the user. Such attacks are redirected to the user before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal. This effect is ignored while the user is under the effect of Sky Drop.",
-    shortDesc: "The foes' moves target the user on the turn used.",
-    pp: 20
-  },
-  ragingbull: {
-    id: "ragingbull",
-    name: "Raging Bull",
-    num: 873,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated. If the user's current form is a Paldean Tauros, this move's type changes to match. Fighting type for Combat Breed, Fire type for Blaze Breed, and Water type for Aqua Breed.",
-    shortDesc: "Destroys screens. Type depends on user's form.",
-    pp: 10
-  },
-  ragingfury: {
-    id: "ragingfury",
-    name: "Raging Fury",
-    num: 833,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-    shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
-    pp: 10
   },
   raindance: {
     id: "raindance",
@@ -9831,96 +3956,596 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "For 5 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
-    shortDesc: "For 5 turns, heavy rain powers Water moves.",
+    desc: "The user summons rain that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons rain that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     pp: 5
   },
-  rapidspin: {
-    id: "rapidspin",
-    name: "Rapid Spin",
-    num: 229,
-    type: "Normal",
+  sunnyday: {
+    id: "sunnyday",
+    name: "Sunny Day",
+    num: 241,
+    type: "Fire",
     flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field. Has a 100% chance to raise the user's Speed by 1 stage.",
-    shortDesc: "Free user from hazards/bind/Leech Seed; +1 Spe.",
-    pp: 40
-  },
-  razorleaf: {
-    id: "razorleaf",
-    name: "Razor Leaf",
-    num: 75,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 55,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio. Hits adjacent foes.",
-    pp: 25
-  },
-  razorshell: {
-    id: "razorshell",
-    name: "Razor Shell",
-    num: 534,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 75,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 50% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "50% chance to lower the target's Defense by 1.",
-    pp: 10
-  },
-  razorwind: {
-    id: "razorwind",
-    name: "Razor Wind",
-    num: 13,
-    type: "Normal",
-    flags: {
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Charges, then hits foe(s) turn 2. High crit ratio.",
-    pp: 10
-  },
-  recover: {
-    id: "recover",
-    name: "Recover",
-    num: 105,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      heal: 1
+      defrost: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user restores 1/2 of its maximum HP, rounded half up.",
-    shortDesc: "Heals the user by 50% of its max HP.",
+    desc: "The user summons sunlight that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons sunlight that lasts for 5 turns.\nZ-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
     pp: 5
+  },
+  crunch: {
+    id: "crunch",
+    name: "Crunch",
+    num: 242,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      bite: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user crunches up the target with sharp fangs.\nThis lowers Defense 30% of the time. Contact.",
+    shortDesc: "The user crunches up the target with sharp fangs.\nThis lowers Defense 30% of the time. Contact.",
+    pp: 15
+  },
+  mirrorcoat: {
+    id: "mirrorcoat",
+    name: "Mirror Coat",
+    num: 243,
+    type: "Psychic",
+    flags: {
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Special",
+    desc: "A retaliation move that counters any special attack,\ninflicting double the damage taken.",
+    shortDesc: "A retaliation move that counters any special attack,\ninflicting double the damage taken.",
+    pp: 20
+  },
+  psychup: {
+    id: "psychup",
+    name: "Psych Up",
+    num: 244,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user hypnotizes itself into copying any stat\nchange made by the target. This has +4 Priority.\nZ-Effect heals user fully.",
+    shortDesc: "The user hypnotizes itself into copying any stat\nchange made by the target. This has +4 Priority.\nZ-Effect heals user fully.",
+    pp: 10
+  },
+  extremespeed: {
+    id: "extremespeed",
+    name: "Extreme Speed",
+    num: 245,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user charges the target at blinding speed.\nThis has +3 priority, and can't miss. Contact.",
+    shortDesc: "The user charges the target at blinding speed.\nThis has +3 priority, and can't miss. Contact.",
+    pp: 5
+  },
+  ancientpower: {
+    id: "ancientpower",
+    name: "Ancient Power",
+    num: 246,
+    type: "Rock",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks with rocks imbued with a strange\nprimal energy. This ALWAYS lowers BOTH offensive\nstats of the opponent by 1.",
+    shortDesc: "The user attacks with rocks imbued with a strange\nprimal energy. This ALWAYS lowers BOTH offensive\nstats of the opponent by 1.",
+    pp: 10
+  },
+  shadowball: {
+    id: "shadowball",
+    name: "Shadow Ball",
+    num: 247,
+    type: "Ghost",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user hurls a shadowy blob at the target.\nThis lowers the target's Sp. Def 20% of the time.",
+    shortDesc: "The user hurls a shadowy blob at the target.\nThis lowers the target's Sp. Def 20% of the time.",
+    pp: 15
+  },
+  futuresight: {
+    id: "futuresight",
+    name: "Future Sight",
+    num: 248,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 160,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user foresees a very powerful attack that will\nstrike the target 2 turns after this move is used.\nThis bypasses Protect, Substitute, and cannot miss.",
+    shortDesc: "The user foresees a very powerful attack that will\nstrike the target 2 turns after this move is used.\nThis bypasses Protect, Substitute, and cannot miss.",
+    pp: 5
+  },
+  boulderbash: {
+    id: "boulderbash",
+    name: "Boulder Bash",
+    num: 249,
+    type: "Rock",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user smashes the foe with a rock-shattering punch.\nThis ALWAYS drops the foe's Defense by 1. Contact.",
+    shortDesc: "The user smashes the foe with a rock-shattering punch.\nThis ALWAYS drops the foe's Defense by 1. Contact.",
+    pp: 15
+  },
+  whirlpool: {
+    id: "whirlpool",
+    name: "Whirlpool",
+    num: 250,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 85,
+    category: "Special",
+    desc: "The user traps the target in a violent swirling whirlpool\nthat traps foe for 6 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
+    shortDesc: "The user traps the target in a violent swirling whirlpool\nthat traps foe for 6 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
+    pp: 5
+  },
+  beatup: {
+    id: "beatup",
+    name: "Beat Up",
+    num: 251,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user gets all party Pokemon to attack the target.\nEach hit uses the user's Attack stat for damage. The\nmath for each hit's power is: base Attack/10, add 5.",
+    shortDesc: "The user gets all party Pokemon to attack the target.\nEach hit uses the user's Attack stat for damage. The\nmath for each hit's power is: base Attack/10, add 5.",
+    pp: 10
+  },
+  fakeout: {
+    id: "fakeout",
+    name: "Fake Out",
+    num: 252,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Physical",
+    desc: "A quick and unexpected strike fakes out the target.\nThis has +5 Priority & always flinches- but only works\nthe 1st turn in battle. Contact. BYPASSES PROTECT.",
+    shortDesc: "A quick and unexpected strike fakes out the target.\nThis has +5 Priority & always flinches- but only works\nthe 1st turn in battle. Contact. BYPASSES PROTECT.",
+    pp: 5
+  },
+  uproar: {
+    id: "uproar",
+    name: "Uproar",
+    num: 253,
+    type: "Fighting",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks in an uproar for three turns.\nDuring that time, no Pokemon can fall asleep.",
+    shortDesc: "The user attacks in an uproar for three turns.\nDuring that time, no Pokemon can fall asleep.",
+    pp: 5
+  },
+  stockpile: {
+    id: "stockpile",
+    name: "Stockpile",
+    num: 254,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user charges up power and raises both its\nDefense and Sp. Def stats by 1. The move can be\nused three times. Z-Effect heals user fully.",
+    shortDesc: "The user charges up power and raises both its\nDefense and Sp. Def stats by 1. The move can be\nused three times. Z-Effect heals user fully.",
+    pp: 10
+  },
+  spewout: {
+    id: "spewout",
+    name: "Spew Out",
+    num: 255,
+    type: "Poison",
+    flags: {
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. ALWAYS crits & drops Sp. Def by 4.",
+    shortDesc: "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. ALWAYS crits & drops Sp. Def by 4.",
+    pp: 15
+  },
+  swallow: {
+    id: "swallow",
+    name: "Swallow",
+    num: 256,
+    type: "Normal",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user heals 1/3 for 1 stockpile, 1/2 for 2, and full\nHP for 3 stockpiles. This now has +4 priority.\nZ-Move gives +1 all stats. (Doesn't work with Simple.)",
+    shortDesc: "The user heals 1/3 for 1 stockpile, 1/2 for 2, and full\nHP for 3 stockpiles. This now has +4 priority.\nZ-Move gives +1 all stats. (Doesn't work with Simple.)",
+    pp: 10
+  },
+  heatwave: {
+    id: "heatwave",
+    name: "Heat Wave",
+    num: 257,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 65,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user blows a burning, abrasive wind at the foes.\nThis will ALWAYS result in a critical hit.",
+    shortDesc: "The user blows a burning, abrasive wind at the foes.\nThis will ALWAYS result in a critical hit.",
+    pp: 5
+  },
+  hail: {
+    id: "hail",
+    name: "Hail",
+    num: 258,
+    type: "Ice",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user summons a hailstorm lasting five turns.\nZ-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user summons a hailstorm lasting five turns.\nZ-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    pp: 5
+  },
+  torment: {
+    id: "torment",
+    name: "Torment",
+    num: 259,
+    type: "Dark",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user torments and enrages the target, making it\nincapable of using the same move twice in a row.\nZ-Effect +2 Attack.",
+    shortDesc: "The user torments and enrages the target, making it\nincapable of using the same move twice in a row.\nZ-Effect +2 Attack.",
+    pp: 15
+  },
+  flatter: {
+    id: "flatter",
+    name: "Flatter",
+    num: 260,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "Flattery is used to confuse the target for 4 turns.\nThis also raises the target’s Sp. Atk by 1.\nZ-Effect gives +3 Sp. Atk.",
+    shortDesc: "Flattery is used to confuse the target for 4 turns.\nThis also raises the target’s Sp. Atk by 1.\nZ-Effect gives +3 Sp. Atk.",
+    pp: 15
+  },
+  willowisp: {
+    id: "willowisp",
+    name: "Will-O-Wisp",
+    num: 261,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 90,
+    category: "Status",
+    desc: "The user shoots a sinister, bluish-white flame at the\ntarget to inflict a burn. Z-Effect +3 Accuracy.",
+    shortDesc: "The user shoots a sinister, bluish-white flame at the\ntarget to inflict a burn. Z-Effect +3 Accuracy.",
+    pp: 10
+  },
+  memento: {
+    id: "memento",
+    name: "Memento",
+    num: 262,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user faints when using this move. In return, this\nlowers the target's Sp. Atk and Attack by 2.\n+4 Priority. Z-Effect heals user's replacement fully.",
+    shortDesc: "The user faints when using this move. In return, this\nlowers the target's Sp. Atk and Attack by 2.\n+4 Priority. Z-Effect heals user's replacement fully.",
+    pp: 10
+  },
+  facade: {
+    id: "facade",
+    name: "Facade",
+    num: 263,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "This attack's power is doubled if the user is\nburnt, poisoned or paralyzed. Contact.",
+    shortDesc: "This attack's power is doubled if the user is\nburnt, poisoned or paralyzed. Contact.",
+    pp: 20
+  },
+  focuspunch: {
+    id: "focuspunch",
+    name: "Focus Punch",
+    num: 264,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user focuses its mind and fires a massive punch\nat the end of the turn if they weren't hit that turn.\nThis ALWAYS crits, and gives +1 Accuracy. Contact.",
+    shortDesc: "The user focuses its mind and fires a massive punch\nat the end of the turn if they weren't hit that turn.\nThis ALWAYS crits, and gives +1 Accuracy. Contact.",
+    pp: 10
+  },
+  smellingsalts: {
+    id: "smellingsalts",
+    name: "Smelling Salts",
+    num: 265,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user smacks the foe, resuscitating them. This has\n+4 Priority, and ALWAYS flinches the foe from shock.\nDoubles in power if the foe is paralyzed. Contact.",
+    shortDesc: "The user smacks the foe, resuscitating them. This has\n+4 Priority, and ALWAYS flinches the foe from shock.\nDoubles in power if the foe is paralyzed. Contact.",
+    pp: 1
+  },
+  followme: {
+    id: "followme",
+    name: "Follow Me",
+    num: 266,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user draws attention to itself, making all targets\ntake aim only at the user. Z-Effect heals user fully.",
+    shortDesc: "The user draws attention to itself, making all targets\ntake aim only at the user. Z-Effect heals user fully.",
+    pp: 5
+  },
+  naturepower: {
+    id: "naturepower",
+    name: "Nature Power",
+    num: 267,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user summons energy from the environment.\nThis changes into a move based on the terrain, like\nPsychic, Moonblast, Thunderbolt & Energy Ball.",
+    shortDesc: "The user summons energy from the environment.\nThis changes into a move based on the terrain, like\nPsychic, Moonblast, Thunderbolt & Energy Ball.",
+    pp: 20
+  },
+  recharge: {
+    id: "recharge",
+    name: "Recharge",
+    num: 268,
+    type: "Electric",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user heals itself by 35% of it's max HP, and\nDOUBLES the power of it's next used Electric attack.\nZ-Effect +2 Sp. Def.",
+    shortDesc: "The user heals itself by 35% of it's max HP, and\nDOUBLES the power of it's next used Electric attack.\nZ-Effect +2 Sp. Def.",
+    pp: 5
+  },
+  taunt: {
+    id: "taunt",
+    name: "Taunt",
+    num: 269,
+    type: "Dark",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The target is taunted into a rage that allows it to use\nonly attack moves for three turns. Z-Effect +2 Attack.",
+    shortDesc: "The target is taunted into a rage that allows it to use\nonly attack moves for three turns. Z-Effect +2 Attack.",
+    pp: 20
+  },
+  helpinghand: {
+    id: "helpinghand",
+    name: "Helping Hand",
+    num: 270,
+    type: "Normal",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user assists an ally by boosting the power of\nthat ally’s attack by 1.5x.\nThis has +6 Priority. Z-Effect heals the user fully.",
+    shortDesc: "The user assists an ally by boosting the power of\nthat ally’s attack by 1.5x.\nThis has +6 Priority. Z-Effect heals the user fully.",
+    pp: 20
+  },
+  trick: {
+    id: "trick",
+    name: "Trick",
+    num: 271,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user catches the target off guard and swaps its\nheld item with its own. Z-Effect +3 Speed.\n+4 Priority.",
+    shortDesc: "The user catches the target off guard and swaps its\nheld item with its own. Z-Effect +3 Speed.\n+4 Priority.",
+    pp: 1
+  },
+  roleplay: {
+    id: "roleplay",
+    name: "Role Play",
+    num: 272,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user mimics the target completely, copying the\ntarget’s natural Ability. Z-Effect +3 Speed.",
+    shortDesc: "The user mimics the target completely, copying the\ntarget’s natural Ability. Z-Effect +3 Speed.",
+    pp: 10
+  },
+  wish: {
+    id: "wish",
+    name: "Wish",
+    num: 273,
+    type: "Fairy",
+    flags: {
+      snatch: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "One turn after this move is used, the user’s or its\nreplacement’s HP is restored by half the user’s\nmax HP. Z-Effect +2 Sp. Def.",
+    shortDesc: "One turn after this move is used, the user’s or its\nreplacement’s HP is restored by half the user’s\nmax HP. Z-Effect +2 Sp. Def.",
+    pp: 10
+  },
+  assist: {
+    id: "assist",
+    name: "Assist",
+    num: 274,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user hurriedly and randomly uses a move among\nthose known by ally Pokemon.\nZ-Effect +1 all stats before attacking with a Z-Move.",
+    shortDesc: "The user hurriedly and randomly uses a move among\nthose known by ally Pokemon.\nZ-Effect +1 all stats before attacking with a Z-Move.",
+    pp: 5
+  },
+  ingrain: {
+    id: "ingrain",
+    name: "Ingrain",
+    num: 275,
+    type: "Grass",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user digs roots in the ground, locking itself on\nthe field, but heals 1/16 per turn. Gives -3 Speed\nfor +3 SP. ATK/SPDEF. Z-Effect gives +3 DEFENSE.",
+    shortDesc: "The user digs roots in the ground, locking itself on\nthe field, but heals 1/16 per turn. Gives -3 Speed\nfor +3 SP. ATK/SPDEF. Z-Effect gives +3 DEFENSE.",
+    pp: 1
+  },
+  superpower: {
+    id: "superpower",
+    name: "Superpower",
+    num: 276,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user attacks with overwhelming physical force.\nIn exchange, the user's Attack drops by 2 after use.\nContact.",
+    shortDesc: "The user attacks with overwhelming physical force.\nIn exchange, the user's Attack drops by 2 after use.\nContact.",
+    pp: 5
+  },
+  magiccoat: {
+    id: "magiccoat",
+    name: "Magic Coat",
+    num: 277,
+    type: "Psychic",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "A barrier reflects back to the target moves like\nLeech Seed and moves that damage status.\n+6 Priority. Z-Effect +3 Sp. Def.",
+    shortDesc: "A barrier reflects back to the target moves like\nLeech Seed and moves that damage status.\n+6 Priority. Z-Effect +3 Sp. Def.",
+    pp: 15
   },
   recycle: {
     id: "recycle",
@@ -9933,773 +4558,190 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user regains the item it last used. Fails if the user is holding an item, if the user has not held an item, if the item was a popped Air Balloon, if the item was picked up by a Pokemon with the Pickup Ability, or if the item was lost to Bug Bite, Corrosive Gas, Covet, Incinerate, Knock Off, Pluck, or Thief. Items thrown with Fling can be regained.",
-    shortDesc: "Restores the item the user last used.",
+    desc: "The user recycles a held item that has been used in\nbattle so it can be used again.\n+6 Priority. Z-Effect heals user fully.",
+    shortDesc: "The user recycles a held item that has been used in\nbattle so it can be used again.\n+6 Priority. Z-Effect heals user fully.",
     pp: 10
   },
-  reflect: {
-    id: "reflect",
-    name: "Reflect",
-    num: 115,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the user and its party members take 0.5x damage from physical attacks, or 0.66x damage if in a Double Battle. Damage is not reduced further with Aurora Veil. Critical hits ignore this effect. It is removed from the user's side if the user or an ally is successfully hit by Brick Break, Psychic Fangs, or Defog. Lasts for 8 turns if the user is holding Light Clay. Fails if the effect is already active on the user's side.",
-    shortDesc: "For 5 turns, physical damage to allies is halved.",
-    pp: 20
-  },
-  reflecttype: {
-    id: "reflecttype",
-    name: "Reflect Type",
-    num: 513,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Causes the user's types to become the same as the current types of the target. If the target's current types include typeless and a non-added type, typeless is ignored. If the target's current types include typeless and an added type from Forest's Curse or Trick-or-Treat, typeless is copied as the Normal type instead. Fails if the user is an Arceus or a Silvally, if the user is Terastallized, or if the target's current type is typeless alone.",
-    shortDesc: "User becomes the same type as the target.",
-    pp: 15
-  },
-  refresh: {
-    id: "refresh",
-    name: "Refresh",
-    num: 287,
-    type: "Normal",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user cures its burn, poison, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.",
-    shortDesc: "User cures its burn, poison, or paralysis.",
-    pp: 20
-  },
-  relicsong: {
-    id: "relicsong",
-    name: "Relic Song",
-    num: 547,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",
-    shortDesc: "10% chance to sleep foe(s). Meloetta transforms.",
-    pp: 10
-  },
-  rest: {
-    id: "rest",
-    name: "Rest",
-    num: 156,
-    type: "Psychic",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user falls asleep for the next two turns and restores all of its HP, curing itself of any non-volatile status condition in the process. Fails if the user has full HP, is already asleep, or if another effect is preventing sleep.",
-    shortDesc: "User sleeps 2 turns and restores HP and status.",
-    pp: 5
-  },
-  retaliate: {
-    id: "retaliate",
-    name: "Retaliate",
-    num: 514,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if one of the user's party members fainted last turn.",
-    shortDesc: "Power doubles if an ally fainted last turn.",
-    pp: 5
-  },
-  "return": {
-    id: "return",
-    name: "Return",
-    num: 216,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
-    shortDesc: "Max 102 power at maximum Happiness.",
-    pp: 20
-  },
-  revelationdance: {
-    id: "revelationdance",
-    name: "Revelation Dance",
-    num: 686,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      dance: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
-    shortDesc: "Type varies based on the user's primary type.",
-    pp: 15
-  },
-  revenge: {
-    id: "revenge",
-    name: "Revenge",
+  ragingfury: {
+    id: "ragingfury",
+    name: "Raging Fury",
     num: 279,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the user was hit by the target this turn.",
-    shortDesc: "Power doubles if user is damaged by the target.",
-    pp: 10
-  },
-  reversal: {
-    id: "reversal",
-    name: "Reversal",
-    num: 179,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The power of this move is 20 if X is 33 to 48, 40 if X is 17 to 32, 80 if X is 10 to 16, 100 if X is 5 to 9, 150 if X is 2 to 4, and 200 if X is 0 or 1, where X is equal to (user's current HP * 48 / user's maximum HP), rounded down.",
-    shortDesc: "More power the less HP the user has left.",
-    pp: 15
-  },
-  revivalblessing: {
-    id: "revivalblessing",
-    name: "Revival Blessing",
-    num: 863,
-    type: "Normal",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "A fainted party member is selected and revived with 1/2 its max HP, rounded down. Fails if there are no fainted party members.",
-    shortDesc: "Revives a fainted Pokemon to 50% HP.",
-    pp: 1
-  },
-  risingvoltage: {
-    id: "risingvoltage",
-    name: "Rising Voltage",
-    num: 804,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the current terrain is Electric Terrain and the target is grounded, this move's power is doubled.",
-    shortDesc: "2x power if target is grounded in Electric Terrain.",
-    pp: 20
-  },
-  roar: {
-    id: "roar",
-    name: "Roar",
-    num: 46,
-    type: "Normal",
-    flags: {
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1,
-      allyanim: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the target used Ingrain previously or has the Suction Cups Ability.",
-    shortDesc: "Forces the target to switch to a random ally.",
-    pp: 20
-  },
-  roaroftime: {
-    id: "roaroftime",
-    name: "Roar of Time",
-    num: 459,
-    type: "Dragon",
-    flags: {
-      recharge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 90,
-    category: "Special",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  rockblast: {
-    id: "rockblast",
-    name: "Rock Blast",
-    num: 350,
-    type: "Rock",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 10
-  },
-  rockclimb: {
-    id: "rockclimb",
-    name: "Rock Climb",
-    num: 431,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Has a 20% chance to confuse the target.",
-    shortDesc: "20% chance to confuse the target.",
-    pp: 20
-  },
-  rockpolish: {
-    id: "rockpolish",
-    name: "Rock Polish",
-    num: 397,
-    type: "Rock",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Speed by 2 stages.",
-    shortDesc: "Raises the user's Speed by 2.",
-    pp: 20
-  },
-  rockslide: {
-    id: "rockslide",
-    name: "Rock Slide",
-    num: 157,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 75,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the foe(s) flinch.",
-    pp: 10
-  },
-  rocksmash: {
-    id: "rocksmash",
-    name: "Rock Smash",
-    num: 249,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 50% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "50% chance to lower the target's Defense by 1.",
-    pp: 15
-  },
-  rockthrow: {
-    id: "rockthrow",
-    name: "Rock Throw",
-    num: 88,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 90,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 15
-  },
-  rocktomb: {
-    id: "rocktomb",
-    name: "Rock Tomb",
-    num: 317,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
-    shortDesc: "100% chance to lower the target's Speed by 1.",
-    pp: 15
-  },
-  rockwrecker: {
-    id: "rockwrecker",
-    name: "Rock Wrecker",
-    num: 439,
-    type: "Rock",
-    flags: {
-      bullet: 1,
-      recharge: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 150,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
-    shortDesc: "User cannot move next turn.",
-    pp: 5
-  },
-  roleplay: {
-    id: "roleplay",
-    name: "Role Play",
-    num: 272,
-    type: "Psychic",
-    flags: {
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user's Ability changes to match the target's Ability. Fails if the user's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Zen Mode, Zero to Hero, or already matches the target, or if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Flower Gift, Forecast, Gulp Missile, Hadron Engine, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Orichalcum Pulse, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Trace, Wonder Guard, Zen Mode, or Zero to Hero.",
-    shortDesc: "User replaces its Ability with the target's.",
-    pp: 10
-  },
-  rollingkick: {
-    id: "rollingkick",
-    name: "Rolling Kick",
-    num: 27,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 15
-  },
-  rollout: {
-    id: "rollout",
-    name: "Rollout",
-    num: 205,
-    type: "Rock",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      noparentalbond: 1,
-      failinstruct: 1
-    },
-    basePower: 30,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn.",
-    shortDesc: "Power doubles with each hit. Repeats for 5 turns.",
-    pp: 20
-  },
-  roost: {
-    id: "roost",
-    name: "Roost",
-    num: 355,
-    type: "Flying",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP, rounded half up. If the user is not Terastallized, until the end of the turn Flying-type users lose their Flying type and pure Flying-type users become Normal type. Does nothing if the user's HP is full.",
-    shortDesc: "Heals 50% HP. Flying-type removed 'til turn ends.",
-    pp: 5
-  },
-  rototiller: {
-    id: "rototiller",
-    name: "Rototiller",
-    num: 563,
-    type: "Ground",
-    flags: {
-      distance: 1,
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the Attack and Special Attack of all grounded Grass-type Pokemon on the field by 1 stage.",
-    shortDesc: "Raises Atk/Sp. Atk of grounded Grass types by 1.",
-    pp: 10
-  },
-  round: {
-    id: "round",
-    name: "Round",
-    num: 496,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "If there are other active Pokemon that chose this move for use this turn, those Pokemon take their turn immediately after the user, in Speed order, and this move's power is 120 for each other user.",
-    shortDesc: "Power doubles if others used Round this turn.",
-    pp: 15
-  },
-  ruination: {
-    id: "ruination",
-    name: "Ruination",
-    num: 877,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Special",
-    desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
-    shortDesc: "Does damage equal to 1/2 target's current HP.",
-    pp: 10
-  },
-  sacredfire: {
-    id: "sacredfire",
-    name: "Sacred Fire",
-    num: 221,
     type: "Fire",
     flags: {
-      protect: 1,
+      contact: 1,
+      defrost: 1,
       mirror: 1,
-      defrost: 1
+      protect: 1
     },
-    basePower: 100,
-    accuracy: 95,
+    basePower: 50,
+    accuracy: true,
     category: "Physical",
-    desc: "Has a 50% chance to burn the target.",
-    shortDesc: "50% chance to burn the target. Thaws user.",
+    desc: "The user unleashes its burning rage onto the foe.\nRaises the user's Attack by 1 after use, & can't miss.\nIf the user was attacked this turn, the power DOUBLES.",
+    shortDesc: "The user unleashes its burning rage onto the foe.\nRaises the user's Attack by 1 after use, & can't miss.\nIf the user was attacked this turn, the power DOUBLES.",
     pp: 5
   },
-  sacredsword: {
-    id: "sacredsword",
-    name: "Sacred Sword",
-    num: 533,
+  brickbreak: {
+    id: "brickbreak",
+    name: "Brick Break",
+    num: 280,
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      slicing: 1
+      protect: 1
     },
-    basePower: 90,
+    basePower: 85,
     accuracy: 100,
     category: "Physical",
-    desc: "Ignores the target's stat stage changes, including evasiveness.",
-    shortDesc: "Ignores the target's stat stage changes.",
+    desc: "The user attacks with a hard chop. It can also break\nbarriers, such as Light Screen and Reflect. Contact.",
+    shortDesc: "The user attacks with a hard chop. It can also break\nbarriers, such as Light Screen and Reflect. Contact.",
     pp: 15
   },
-  safeguard: {
-    id: "safeguard",
-    name: "Safeguard",
-    num: 219,
+  yawn: {
+    id: "yawn",
+    name: "Yawn",
+    num: 281,
     type: "Normal",
     flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the user and its party members cannot have non-volatile status conditions or confusion inflicted on them by other Pokemon. Pokemon on the user's side cannot become affected by Yawn but can fall asleep from its effect. It is removed from the user's side if the user or an ally is successfully hit by Defog. Fails if the effect is already active on the user's side.",
-    shortDesc: "For 5 turns, protects user's party from status.",
-    pp: 25
-  },
-  saltcure: {
-    id: "saltcure",
-    name: "Salt Cure",
-    num: 864,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Causes damage to the target equal to 1/8 of its maximum HP (1/4 if the target is Steel or Water type), rounded down, at the end of each turn during effect. This effect ends when the target is no longer active.",
-    shortDesc: "Deals 1/8 max HP each turn; 1/4 on Steel, Water.",
-    pp: 15
-  },
-  sandattack: {
-    id: "sandattack",
-    name: "Sand Attack",
-    num: 28,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's accuracy by 1 stage.",
-    shortDesc: "Lowers the target's accuracy by 1.",
-    pp: 15
-  },
-  sandsearstorm: {
-    id: "sandsearstorm",
-    name: "Sandsear Storm",
-    num: 848,
-    type: "Ground",
-    flags: {
-      protect: 1,
       mirror: 1,
-      wind: 1
-    },
-    basePower: 100,
-    accuracy: 80,
-    category: "Special",
-    desc: "Has a 20% chance to burn the target. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
-    shortDesc: "20% chance to burn foe(s). Can't miss in rain.",
-    pp: 10
-  },
-  sandstorm: {
-    id: "sandstorm",
-    name: "Sandstorm",
-    num: 201,
-    type: "Rock",
-    flags: {
-      wind: 1
+      protect: 1,
+      reflectable: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "For 5 turns, the weather becomes Sandstorm. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are a Ground, Rock, or Steel type, or have the Magic Guard, Overcoat, Sand Force, Sand Rush, or Sand Veil Abilities. During the effect, the Special Defense of Rock-type Pokemon is multiplied by 1.5 when taking damage from a special attack. Lasts for 8 turns if the user is holding Smooth Rock. Fails if the current weather is Sandstorm.",
-    shortDesc: "For 5 turns, a sandstorm rages. Rock: 1.5x SpD.",
+    desc: "The user lets loose a huge yawn that lulls the target\ninto falling asleep on the next turn.\nZ-Effect heals user fully.",
+    shortDesc: "The user lets loose a huge yawn that lulls the target\ninto falling asleep on the next turn.\nZ-Effect heals user fully.",
     pp: 10
   },
-  sandtomb: {
-    id: "sandtomb",
-    name: "Sand Tomb",
-    num: 328,
-    type: "Ground",
+  knockoff: {
+    id: "knockoff",
+    name: "Knock Off",
+    num: 282,
+    type: "Dark",
     flags: {
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 35,
-    accuracy: 85,
+    basePower: 60,
+    accuracy: 100,
     category: "Physical",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 15
+    desc: "The user hits the target’s held item off, and that\nitem can’t be used until the end of the battle. This\nmove's damage is 1.5x if it removes an item. Contact.",
+    shortDesc: "The user hits the target’s held item off, and that\nitem can’t be used until the end of the battle. This\nmove's damage is 1.5x if it removes an item. Contact.",
+    pp: 10
   },
-  savagespinout: {
-    id: "savagespinout",
-    name: "Savage Spin-Out",
-    num: 634,
-    type: "Bug",
-    flags: {},
+  endeavor: {
+    id: "endeavor",
+    name: "Endeavor",
+    num: 283,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
     basePower: 1,
     accuracy: true,
     category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  scald: {
-    id: "scald",
-    name: "Scald",
-    num: 503,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-    shortDesc: "30% chance to burn the target. Thaws target.",
-    pp: 15
-  },
-  scaleshot: {
-    id: "scaleshot",
-    name: "Scale Shot",
-    num: 799,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits two to five times. Lowers the user's Defense by 1 stage and raises the user's Speed by 1 stage after the last hit. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times. User: -1 Def, +1 Spe after last hit.",
-    pp: 20
-  },
-  scaryface: {
-    id: "scaryface",
-    name: "Scary Face",
-    num: 184,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Speed by 2 stages.",
-    shortDesc: "Lowers the target's Speed by 2.",
-    pp: 10
-  },
-  scorchingsands: {
-    id: "scorchingsands",
-    name: "Scorching Sands",
-    num: 815,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      defrost: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-    shortDesc: "30% chance to burn the target. Thaws target.",
-    pp: 10
-  },
-  scratch: {
-    id: "scratch",
-    name: "Scratch",
-    num: 10,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 35
-  },
-  screech: {
-    id: "screech",
-    name: "Screech",
-    num: 103,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 85,
-    category: "Status",
-    desc: "Lowers the target's Defense by 2 stages.",
-    shortDesc: "Lowers the target's Defense by 2.",
-    pp: 40
-  },
-  searingshot: {
-    id: "searingshot",
-    name: "Searing Shot",
-    num: 545,
-    type: "Fire",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to burn the target.",
-    shortDesc: "30% chance to burn adjacent Pokemon.",
+    desc: "This attack move cuts down the target’s HP to equal\nthe user’s current HP. Can't miss. Contact.",
+    shortDesc: "This attack move cuts down the target’s HP to equal\nthe user’s current HP. Can't miss. Contact.",
     pp: 5
   },
-  searingsunrazesmash: {
-    id: "searingsunrazesmash",
-    name: "Searing Sunraze Smash",
-    num: 724,
-    type: "Steel",
+  eruption: {
+    id: "eruption",
+    name: "Eruption",
+    num: 284,
+    type: "Fire",
     flags: {
-      contact: 1
+      defrost: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 200,
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks opposing Pokemon with explosive\nfury. The lower the user’s HP, the lower the\nmove’s power.",
+    shortDesc: "The user attacks opposing Pokemon with explosive\nfury. The lower the user’s HP, the lower the\nmove’s power.",
+    pp: 5
+  },
+  skillswap: {
+    id: "skillswap",
+    name: "Skill Swap",
+    num: 285,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
     accuracy: true,
-    category: "Physical",
-    desc: "This move and its effects ignore the Abilities of other Pokemon.",
-    shortDesc: "Ignores the Abilities of other Pokemon.",
-    pp: 1
+    category: "Status",
+    desc: "The user employs its psychic power to exchange\nAbilities with the target. Z-Effect +3 Speed.",
+    shortDesc: "The user employs its psychic power to exchange\nAbilities with the target. Z-Effect +3 Speed.",
+    pp: 10
+  },
+  imprison: {
+    id: "imprison",
+    name: "Imprison",
+    num: 286,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user prevents the foe from using any moves\nthat the user also currently knows.\nZ-Effect gives +1 to all stats. +6 Priority.",
+    shortDesc: "The user prevents the foe from using any moves\nthat the user also currently knows.\nZ-Effect gives +1 to all stats. +6 Priority.",
+    pp: 10
+  },
+  molt: {
+    id: "molt",
+    name: "Molt",
+    num: 287,
+    type: "Bug",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user sheds its skin or exoskeleton.\nThis heals the user by 50% of their max HP.\nZ-Effect gives the user +2 Speed.",
+    shortDesc: "The user sheds its skin or exoskeleton.\nThis heals the user by 50% of their max HP.\nZ-Effect gives the user +2 Speed.",
+    pp: 5
+  },
+  grudge: {
+    id: "grudge",
+    name: "Grudge",
+    num: 288,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Banette vindictively braces itself. If Banette faints,\nthe move that knocked it out will lost all PP.\n+4 Priority. Z-Effect gives Banette +1 all stats.",
+    shortDesc: "Banette vindictively braces itself. If Banette faints,\nthe move that knocked it out will lost all PP.\n+4 Priority. Z-Effect gives Banette +1 all stats.",
+    pp: 5
+  },
+  snatch: {
+    id: "snatch",
+    name: "Snatch",
+    num: 289,
+    type: "Dark",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user steals the effects of any attempts to use a\nhealing, stat-changing or other similar moves.\n+6 Priority. Z-Effect gives +3 Speed.",
+    shortDesc: "The user steals the effects of any attempts to use a\nhealing, stat-changing or other similar moves.\n+6 Priority. Z-Effect gives +3 Speed.",
+    pp: 10
   },
   secretpower: {
     id: "secretpower",
@@ -10707,209 +4749,54 @@ exports.BattleMovedex = {
     num: 290,
     type: "Normal",
     flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to cause a secondary effect on the target based on the battle terrain. Causes paralysis on the regular Wi-Fi terrain, causes paralysis during Electric Terrain, lowers Special Attack by 1 stage during Misty Terrain, causes sleep during Grassy Terrain and lowers Speed by 1 stage during Psychic Terrain.",
-    shortDesc: "Effect varies with terrain. (30% paralysis chance)",
-    pp: 20
-  },
-  secretsword: {
-    id: "secretsword",
-    name: "Secret Sword",
-    num: 548,
-    type: "Fighting",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 100,
-    category: "Special",
-    desc: "Deals damage to the target based on its Defense instead of Special Defense.",
-    shortDesc: "Damages target based on Defense, not Sp. Def.",
-    pp: 10
-  },
-  seedbomb: {
-    id: "seedbomb",
-    name: "Seed Bomb",
-    num: 402,
-    type: "Grass",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
     basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 15
-  },
-  seedflare: {
-    id: "seedflare",
-    name: "Seed Flare",
-    num: 465,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 85,
-    category: "Special",
-    desc: "Has a 40% chance to lower the target's Special Defense by 2 stages.",
-    shortDesc: "40% chance to lower the target's Sp. Def by 2.",
-    pp: 5
-  },
-  seismictoss: {
-    id: "seismictoss",
-    name: "Seismic Toss",
-    num: 69,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Deals damage to the target equal to the user's level.",
-    shortDesc: "Does damage equal to the user's level.",
+    desc: "This odd move has a 50% chance to do various things.\nThe effect changes based on your surroundings,\nincluding Psychic, Electric, Misty and Grassy Terrain.",
+    shortDesc: "This odd move has a 50% chance to do various things.\nThe effect changes based on your surroundings,\nincluding Psychic, Electric, Misty and Grassy Terrain.",
     pp: 20
   },
-  selfdestruct: {
-    id: "selfdestruct",
-    name: "Self-Destruct",
-    num: 120,
-    type: "Normal",
+  dive: {
+    id: "dive",
+    name: "Dive",
+    num: 291,
+    type: "Water",
     flags: {
-      protect: 1,
-      mirror: 1,
-      noparentalbond: 1
-    },
-    basePower: 200,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
-    shortDesc: "Hits adjacent Pokemon. The user faints.",
-    pp: 5
-  },
-  shadowball: {
-    id: "shadowball",
-    name: "Shadow Ball",
-    num: 247,
-    type: "Ghost",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
-    shortDesc: "20% chance to lower the target's Sp. Def by 1.",
-    pp: 15
-  },
-  shadowbone: {
-    id: "shadowbone",
-    name: "Shadow Bone",
-    num: 708,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 85,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "20% chance to lower the target's Defense by 1.",
-    pp: 10
-  },
-  shadowclaw: {
-    id: "shadowclaw",
-    name: "Shadow Claw",
-    num: 421,
-    type: "Ghost",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 15
-  },
-  shadowforce: {
-    id: "shadowforce",
-    name: "Shadow Force",
-    num: 467,
-    type: "Ghost",
-    flags: {
-      contact: 1,
       charge: 1,
-      mirror: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failinstruct: 1
+      contact: 1,
+      mirror: 1
     },
-    basePower: 120,
+    basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "If this move is successful, it breaks through the target's Baneful Bunker, Detect, King's Shield, Protect, or Spiky Shield for this turn, allowing other Pokemon to attack the target normally. If the target's side is protected by Crafty Shield, Mat Block, Quick Guard, or Wide Guard, that protection is also broken for this turn and other Pokemon may attack the target's side normally. This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Disappears turn 1. Hits turn 2. Breaks protection.",
-    pp: 5
+    desc: "The user dives underwater, striking on the 2nd turn.\nThis boosts the user's Accuracy by 1 after use. Contact.\nBypasses protect.",
+    shortDesc: "The user dives underwater, striking on the 2nd turn.\nThis boosts the user's Accuracy by 1 after use. Contact.\nBypasses protect.",
+    pp: 15
   },
-  shadowpunch: {
-    id: "shadowpunch",
-    name: "Shadow Punch",
-    num: 325,
-    type: "Ghost",
+  forcepalm: {
+    id: "forcepalm",
+    name: "Force Palm",
+    num: 292,
+    type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      punch: 1
-    },
-    basePower: 60,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 20
-  },
-  shadowsneak: {
-    id: "shadowsneak",
-    name: "Shadow Sneak",
-    num: 425,
-    type: "Ghost",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      protect: 1
     },
     basePower: 40,
     accuracy: 100,
     category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 30
+    desc: "The user hits the foe hard with open palms, stunning\nthem with a small shockwave. This ALWAYS leaves the foe\nwith paralysis. Contact.",
+    shortDesc: "The user hits the foe hard with open palms, stunning\nthem with a small shockwave. This ALWAYS leaves the foe\nwith paralysis. Contact.",
+    pp: 10
   },
-  sharpen: {
-    id: "sharpen",
-    name: "Sharpen",
-    num: 159,
+  camouflage: {
+    id: "camouflage",
+    name: "Camouflage",
+    num: 293,
     type: "Normal",
     flags: {
       snatch: 1
@@ -10917,72 +4804,162 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Attack by 1 stage.",
-    shortDesc: "Raises the user's Attack by 1.",
-    pp: 30
+    desc: "The user’s type is changed depending on its\nenvironment, including terrains like Grassy or Misty.\nZ-Effect +1 all stats. +4 Priority.",
+    shortDesc: "The user’s type is changed depending on its\nenvironment, including terrains like Grassy or Misty.\nZ-Effect +1 all stats. +4 Priority.",
+    pp: 20
   },
-  shatteredpsyche: {
-    id: "shatteredpsyche",
-    name: "Shattered Psyche",
-    num: 648,
-    type: "Psychic",
-    flags: {},
-    basePower: 1,
+  powerglow: {
+    id: "powerglow",
+    name: "Power Glow",
+    num: 294,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
     accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
+    category: "Status",
+    desc: "The user flashes an organic light from its body.\nThis boosts the user's Sp. Atk stat by 3 stages.\nZ-Effect gives +2 Sp. Def.",
+    shortDesc: "The user flashes an organic light from its body.\nThis boosts the user's Sp. Atk stat by 3 stages.\nZ-Effect gives +2 Sp. Def.",
     pp: 1
   },
-  shedtail: {
-    id: "shedtail",
-    name: "Shed Tail",
-    num: 880,
+  chloroblast: {
+    id: "chloroblast",
+    name: "Chloroblast",
+    num: 295,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user launches its amassed chlorophyll in a\npowerful blast of light. This deals 25% recoil damage.",
+    shortDesc: "The user launches its amassed chlorophyll in a\npowerful blast of light. This deals 25% recoil damage.",
+    pp: 10
+  },
+  featherball: {
+    id: "featherball",
+    name: "Feather Ball",
+    num: 296,
+    type: "Flying",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires a concentrated ball of feathers & wind.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    shortDesc: "The user fires a concentrated ball of feathers & wind.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    pp: 10
+  },
+  featherdance: {
+    id: "featherdance",
+    name: "Feather Dance",
+    num: 297,
+    type: "Flying",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user performs a dance, covering the target with\nit's feathers, dropping their Attack by 2.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user performs a dance, covering the target with\nit's feathers, dropping their Attack by 2.\nZ-Effect +2 crit rate.",
+    pp: 5
+  },
+  teeterdance: {
+    id: "teeterdance",
+    name: "Teeter Dance",
+    num: 298,
     type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user performs a wobbly dance that confuses\nthe Pokemon around it for 4 turns.\nZ-Effect +2 Sp. Atk.",
+    shortDesc: "The user performs a wobbly dance that confuses\nthe Pokemon around it for 4 turns.\nZ-Effect +2 Sp. Atk.",
+    pp: 20
+  },
+  blazekick: {
+    id: "blazekick",
+    name: "Blaze Kick",
+    num: 299,
+    type: "Fire",
+    flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 95,
+    category: "Physical",
+    desc: "The user launches a blazing kick at the target. This\nhas a 20% chance to burn the target. Contact.",
+    shortDesc: "The user launches a blazing kick at the target. This\nhas a 20% chance to burn the target. Contact.",
+    pp: 10
+  },
+  mudsport: {
+    id: "mudsport",
+    name: "Mud Sport",
+    num: 300,
+    type: "Ground",
     flags: {},
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user takes 1/2 of its maximum HP, rounded up, and creates a substitute that has 1/4 of the user's maximum HP, rounded down. The user is replaced with another Pokemon in its party and the selected Pokemon has the substitute transferred to it. Fails if the user would faint, or if there are no unfainted party members.",
-    shortDesc: "User takes 1/2 its max HP to pass a substitute.",
-    pp: 10
+    desc: "The user kicks up mud on the battlefield. This\nweakens Electric-type moves for five turns.\nZ-Effect +3 Sp. Def. +4 Priority.",
+    shortDesc: "The user kicks up mud on the battlefield. This\nweakens Electric-type moves for five turns.\nZ-Effect +3 Sp. Def. +4 Priority.",
+    pp: 15
   },
-  sheercold: {
-    id: "sheercold",
-    name: "Sheer Cold",
-    num: 329,
+  iceball: {
+    id: "iceball",
+    name: "Ice Ball",
+    num: 301,
     type: "Ice",
     flags: {
+      contact: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      bullet: 1
     },
-    basePower: 0,
-    accuracy: 30,
-    category: "Special",
-    desc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + X)%, where X is 30 if the user is an Ice type and 20 otherwise, and fails if the target is at a higher level. Ice-type Pokemon and Pokemon with the Sturdy Ability are immune.",
-    shortDesc: "OHKOs non-Ice targets. Fails if user's lower level.",
+    basePower: 30,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user attacks the target for five turns.\nThe move’s power increases each time it hits. Contact.",
+    shortDesc: "The user attacks the target for five turns.\nThe move’s power increases each time it hits. Contact.",
     pp: 5
   },
-  shellsidearm: {
-    id: "shellsidearm",
-    name: "Shell Side Arm",
-    num: 801,
-    type: "Poison",
+  needlebash: {
+    id: "needlebash",
+    name: "Needle Bash",
+    num: 302,
+    type: "Grass",
     flags: {
-      protect: 1,
-      mirror: 1
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 20% chance to poison the target. This move becomes a physical attack that makes contact if the value of ((((2 * the user's level / 5 + 2) * 90 * X) / Y) / 50), where X is the user's Attack stat and Y is the target's Defense stat, is greater than the same value where X is the user's Special Attack stat and Y is the target's Special Defense stat. No stat modifiers other than stat stage changes are considered for this purpose. If the two values are equal, this move chooses a damage category at random.",
-    shortDesc: "20% psn. Physical+contact if it would be stronger.",
+    basePower: 95,
+    accuracy: 95,
+    category: "Physical",
+    desc: "The user attacks by striking the foe with a spiked\nappendage. This flinches 30% of the time. Contact.",
+    shortDesc: "The user attacks by striking the foe with a spiked\nappendage. This flinches 30% of the time. Contact.",
     pp: 10
   },
-  shellsmash: {
-    id: "shellsmash",
-    name: "Shell Smash",
-    num: 504,
+  slackoff: {
+    id: "slackoff",
+    name: "Slack Off",
+    num: 303,
     type: "Normal",
     flags: {
       snatch: 1
@@ -10990,90 +4967,346 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Lowers the user's Defense and Special Defense by 1 stage. Raises the user's Attack, Special Attack, and Speed by 2 stages.",
-    shortDesc: "Lowers Def, SpD by 1; raises Atk, SpA, Spe by 2.",
+    desc: "The user slacks off, restoring its own HP 50% of the\nuser's max HP. Z-Effect +2 Defense.",
+    shortDesc: "The user slacks off, restoring its own HP 50% of the\nuser's max HP. Z-Effect +2 Defense.",
+    pp: 5
+  },
+  hypervoice: {
+    id: "hypervoice",
+    name: "Hyper Voice",
+    num: 304,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user lets loose a horribly echoing shout with\nthe power to inflict damage.",
+    shortDesc: "The user lets loose a horribly echoing shout with\nthe power to inflict damage.",
+    pp: 10
+  },
+  poisonfang: {
+    id: "poisonfang",
+    name: "Poison Fang",
+    num: 305,
+    type: "Poison",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      bite: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user bites the target with toxic fangs. This has a\n50% chance to badly poison the foe. Contact.",
+    shortDesc: "The user bites the target with toxic fangs. This has a\n50% chance to badly poison the foe. Contact.",
     pp: 15
   },
-  shelltrap: {
-    id: "shelltrap",
-    name: "Shell Trap",
-    num: 704,
+  jaggededge: {
+    id: "jaggededge",
+    name: "Jagged Edge",
+    num: 306,
+    type: "Rock",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is slashed with jagged claws, blades, or\nthe like. This has a 50% (+2) crit rate. Contact.",
+    shortDesc: "The target is slashed with jagged claws, blades, or\nthe like. This has a 50% (+2) crit rate. Contact.",
+    pp: 10
+  },
+  blastburn: {
+    id: "blastburn",
+    name: "Blast Burn",
+    num: 307,
     type: "Fire",
     flags: {
-      protect: 1,
-      failmefirst: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1
+      defrost: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 150,
     accuracy: 100,
     category: "Special",
-    desc: "Fails unless the user is hit by a physical attack from an opponent this turn before it can execute the move. If the user was hit and has not fainted, it attacks immediately after being hit, and the effect ends. If the opponent's physical attack had a secondary effect removed by the Sheer Force Ability, it does not count for the purposes of this effect.",
-    shortDesc: "User must take physical damage before moving.",
+    desc: "The target is razed by a fiery explosion. This drops\nthe user's Sp. Atk by 2 after use.",
+    shortDesc: "The target is razed by a fiery explosion. This drops\nthe user's Sp. Atk by 2 after use.",
     pp: 5
   },
-  shelter: {
-    id: "shelter",
-    name: "Shelter",
-    num: 842,
-    type: "Steel",
+  hydrocannon: {
+    id: "hydrocannon",
+    name: "Hydro Cannon",
+    num: 308,
+    type: "Water",
     flags: {
-      snatch: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Defense by 2 stages.",
-    shortDesc: "Raises the user's Defense by 2.",
-    pp: 10
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is hit with a watery blast. This drops\nthe user's Sp. Atk by 2 after use.",
+    shortDesc: "The target is hit with a watery blast. This drops\nthe user's Sp. Atk by 2 after use.",
+    pp: 5
   },
-  shiftgear: {
-    id: "shiftgear",
-    name: "Shift Gear",
-    num: 508,
-    type: "Steel",
+  meteormash: {
+    id: "meteormash",
+    name: "Meteor Mash",
+    num: 309,
+    type: "Fairy",
     flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Speed by 2 stages and its Attack by 1 stage.",
-    shortDesc: "Raises the user's Speed by 2 and Attack by 1.",
-    pp: 10
-  },
-  shockwave: {
-    id: "shockwave",
-    name: "Shock Wave",
-    num: 351,
-    type: "Electric",
-    flags: {
+      contact: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      sound: 1
     },
-    basePower: 60,
+    basePower: 95,
+    accuracy: 95,
+    category: "Physical",
+    desc: "The target is hit with a punch imbued with fairy\nenergy. This boosts the user's attack 25% of the time.\nContact.",
+    shortDesc: "The target is hit with a punch imbued with fairy\nenergy. This boosts the user's attack 25% of the time.\nContact.",
+    pp: 10
+  },
+  spook: {
+    id: "spook",
+    name: "Spook",
+    num: 310,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
     accuracy: true,
     category: "Special",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
+    desc: "The user quickly jumpscares the target. This move\nhas +1 priority, and can't miss.",
+    shortDesc: "The user quickly jumpscares the target. This move\nhas +1 priority, and can't miss.",
     pp: 20
   },
-  shoreup: {
-    id: "shoreup",
-    name: "Shore Up",
-    num: 659,
-    type: "Ground",
+  weatherball: {
+    id: "weatherball",
+    name: "Weather Ball",
+    num: 311,
+    type: "Normal",
     flags: {
-      snatch: 1,
-      heal: 1
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 45,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires off a ball of energy that doubles in\npower and changes type depending on the weather.\nThis drops Sp. Def by one 50% of the time.",
+    shortDesc: "The user fires off a ball of energy that doubles in\npower and changes type depending on the weather.\nThis drops Sp. Def by one 50% of the time.",
+    pp: 10
+  },
+  blossomdance: {
+    id: "blossomdance",
+    name: "Blossom Dance",
+    num: 312,
+    type: "Grass",
+    flags: {
+      snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user restores 1/2 of its maximum HP, rounded half down. If the weather is Sandstorm, the user instead restores 2/3 of its maximum HP, rounded half down.",
-    shortDesc: "User restores 1/2 its max HP; 2/3 in Sandstorm.",
+    desc: "The user performs a beautiful, elegant dance.\nThis boosts the user's Attack & Sp. Atk stats by 1,\nand boosts the user's Speed by 2. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user performs a beautiful, elegant dance.\nThis boosts the user's Attack & Sp. Atk stats by 1,\nand boosts the user's Speed by 2. Z-Effect +2 Sp. Def.",
+    pp: 2
+  },
+  faketears: {
+    id: "faketears",
+    name: "Fake Tears",
+    num: 313,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user feigns crying to fluster the target, lowering\nSp. Def by 2. Z-Effect +2 Sp. Atk.",
+    shortDesc: "The user feigns crying to fluster the target, lowering\nSp. Def by 2. Z-Effect +2 Sp. Atk.",
+    pp: 20
+  },
+  aircutter: {
+    id: "aircutter",
+    name: "Air Cutter",
+    num: 314,
+    type: "Flying",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user slashes the air, firing a blade of wind at\nthe foes. This flinches 25% of the time.\nThis also has a +1 (12%) critical hit rate.",
+    shortDesc: "The user slashes the air, firing a blade of wind at\nthe foes. This flinches 25% of the time.\nThis also has a +1 (12%) critical hit rate.",
+    pp: 20
+  },
+  overheat: {
+    id: "overheat",
+    name: "Overheat",
+    num: 315,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user's excess body heat is fired off in a powerful\nattack. This hurts the user, dealing 25% recoil.\nThis has a 25% chance to burn the target.",
+    shortDesc: "The user's excess body heat is fired off in a powerful\nattack. This hurts the user, dealing 25% recoil.\nThis has a 25% chance to burn the target.",
+    pp: 10
+  },
+  odorsleuth: {
+    id: "odorsleuth",
+    name: "Odor Sleuth",
+    num: 316,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user identifies the target, allowing Ghost types to\nbe hit with Normal/Fighting moves.\nZ-Effect gives user +2 Attack.",
+    shortDesc: "The user identifies the target, allowing Ghost types to\nbe hit with Normal/Fighting moves.\nZ-Effect gives user +2 Attack.",
+    pp: 40
+  },
+  rocktomb: {
+    id: "rocktomb",
+    name: "Rock Tomb",
+    num: 317,
+    type: "Rock",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Rocks are hurled at the target, entrapping them. This\ndrops Speed by one 100% of the time.",
+    shortDesc: "Rocks are hurled at the target, entrapping them. This\ndrops Speed by one 100% of the time.",
+    pp: 15
+  },
+  silvergale: {
+    id: "silvergale",
+    name: "Silver Gale",
+    num: 318,
+    type: "Bug",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Special",
+    desc: "The user rapidly blows powdery scales at the target.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user rapidly blows powdery scales at the target.\nThis has +1 priority, and can't miss.",
+    pp: 15
+  },
+  metalsound: {
+    id: "metalsound",
+    name: "Metal Sound",
+    num: 319,
+    type: "Steel",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "A horrible sound like scraping metal drops the foe's\nSp. Def by 2. Z-Effect +2 Sp. Atk.",
+    shortDesc: "A horrible sound like scraping metal drops the foe's\nSp. Def by 2. Z-Effect +2 Sp. Atk.",
+    pp: 10
+  },
+  grasswhistle: {
+    id: "grasswhistle",
+    name: "Grass Whistle",
+    num: 320,
+    type: "Grass",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 80,
+    category: "Status",
+    desc: "The user plays a pleasant melody that lulls the\ntarget into a deep sleep for 2 turns.\nZ-Effect +1 Speed.",
+    shortDesc: "The user plays a pleasant melody that lulls the\ntarget into a deep sleep for 2 turns.\nZ-Effect +1 Speed.",
+    pp: 2
+  },
+  tickle: {
+    id: "tickle",
+    name: "Tickle",
+    num: 321,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user tickles the target into laughing, reducing its\nAttack and Defense stats by 1.\nZ-Effect +3 Accuracy.",
+    shortDesc: "The user tickles the target into laughing, reducing its\nAttack and Defense stats by 1.\nZ-Effect +3 Accuracy.",
+    pp: 10
+  },
+  cosmicpower: {
+    id: "cosmicpower",
+    name: "Cosmic Power",
+    num: 322,
+    type: "Psychic",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user absorbs a mystical power from space to\nraise its Defense and Sp. Def stats by 1.\nZ-Effect +3 Sp. Def.",
+    shortDesc: "The user absorbs a mystical power from space to\nraise its Defense and Sp. Def stats by 1.\nZ-Effect +3 Sp. Def.",
+    pp: 3
+  },
+  waterspout: {
+    id: "waterspout",
+    name: "Water Spout",
+    num: 323,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user spouts water to damage opposing\nPokemon. The lower the user’s HP, the lower the\nmove’s power.",
+    shortDesc: "The user spouts water to damage opposing\nPokemon. The lower the user’s HP, the lower the\nmove’s power.",
     pp: 5
   },
   signalbeam: {
@@ -11082,214 +5315,49 @@ exports.BattleMovedex = {
     num: 324,
     type: "Bug",
     flags: {
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks with a sinister beam of light.\nThis boosts your Sp. Atk 25% of the time.",
+    shortDesc: "The user attacks with a sinister beam of light.\nThis boosts your Sp. Atk 25% of the time.",
+    pp: 15
+  },
+  shadowpunch: {
+    id: "shadowpunch",
+    name: "Shadow Punch",
+    num: 325,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user throws a punch from the shadows.\nThis can't miss, and bypasses substitute. Contact.",
+    shortDesc: "The user throws a punch from the shadows.\nThis can't miss, and bypasses substitute. Contact.",
+    pp: 15
+  },
+  extrasensory: {
+    id: "extrasensory",
+    name: "Extrasensory",
+    num: 326,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
     },
     basePower: 75,
     accuracy: 100,
     category: "Special",
-    desc: "Has a 10% chance to confuse the target.",
-    shortDesc: "10% chance to confuse the target.",
-    pp: 15
-  },
-  silktrap: {
-    id: "silktrap",
-    name: "Silk Trap",
-    num: 852,
-    type: "Bug",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user have their Speed lowered by 1 stage. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Protects from damaging attacks. Contact: -1 Spe.",
-    pp: 10
-  },
-  silverwind: {
-    id: "silverwind",
-    name: "Silver Wind",
-    num: 318,
-    type: "Bug",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
-    shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
-    pp: 5
-  },
-  simplebeam: {
-    id: "simplebeam",
-    name: "Simple Beam",
-    num: 493,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target's Ability to become Simple. Fails if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Simple, Stance Change, Truant, Zen Mode, or Zero to Hero.",
-    shortDesc: "The target's Ability becomes Simple.",
-    pp: 15
-  },
-  sing: {
-    id: "sing",
-    name: "Sing",
-    num: 47,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 55,
-    category: "Status",
-    desc: "Causes the target to fall asleep.",
-    shortDesc: "Causes the target to fall asleep.",
-    pp: 15
-  },
-  sinisterarrowraid: {
-    id: "sinisterarrowraid",
-    name: "Sinister Arrow Raid",
-    num: 695,
-    type: "Ghost",
-    flags: {},
-    basePower: 180,
-    accuracy: true,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 1
-  },
-  sketch: {
-    id: "sketch",
-    name: "Sketch",
-    num: 166,
-    type: "Normal",
-    flags: {
-      bypasssub: 1,
-      allyanim: 1,
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "This move is permanently replaced by the last move used by the target. The copied move has the maximum PP for that move. Fails if the target has not made a move, if the user has Transformed, or if the move is Chatter, Sketch, Struggle, or any move the user knows.",
-    shortDesc: "Permanently copies the last move target used.",
-    pp: 1
-  },
-  skillswap: {
-    id: "skillswap",
-    name: "Skill Swap",
-    num: 285,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user swaps its Ability with the target's Ability. Fails if either the user or the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Hunger Switch, Ice Face, Illusion, Multitype, Neutralizing Gas, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Wonder Guard, Zen Mode, or Zero to Hero.",
-    shortDesc: "The user and the target trade Abilities.",
-    pp: 10
-  },
-  skittersmack: {
-    id: "skittersmack",
-    name: "Skitter Smack",
-    num: 806,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
-    shortDesc: "100% chance to lower target's Sp. Atk by 1.",
-    pp: 10
-  },
-  skullbash: {
-    id: "skullbash",
-    name: "Skull Bash",
-    num: 130,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 130,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This attack charges on the first turn and executes on the second. Raises the user's Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Raises user's Defense by 1 on turn 1. Hits turn 2.",
-    pp: 10
-  },
-  skyattack: {
-    id: "skyattack",
-    name: "Sky Attack",
-    num: 143,
-    type: "Flying",
-    flags: {
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      distance: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 140,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch and a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-    shortDesc: "Charges, then hits turn 2. 30% flinch. High crit.",
-    pp: 5
-  },
-  skydrop: {
-    id: "skydrop",
-    name: "Sky Drop",
-    num: 507,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      gravity: 1,
-      distance: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failinstruct: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This attack takes the target into the air with the user on the first turn and executes on the second. Pokemon weighing 200 kg or more cannot be lifted. On the first turn, the user and the target avoid all attacks other than Gust, Hurricane, Sky Uppercut, Smack Down, Thousand Arrows, Thunder, and Twister. The user and the target cannot make a move between turns, but the target can select a move to use. This move cannot damage Flying-type Pokemon. Fails on the first turn if the target is an ally, if the target has a substitute, or if the target is using Bounce, Dig, Dive, Fly, Phantom Force, Shadow Force, or Sky Drop.",
-    shortDesc: "User and foe fly up turn 1. Damages on turn 2.",
-    pp: 10
+    desc: "The user attacks with an odd, unseeable power.\nThis flinches the target 30% of\nthe time.",
+    shortDesc: "The user attacks with an odd, unseeable power.\nThis flinches the target 30% of\nthe time.",
+    pp: 20
   },
   skyuppercut: {
     id: "skyuppercut",
@@ -11298,1210 +5366,1011 @@ exports.BattleMovedex = {
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
+      heal: 1,
       mirror: 1,
-      punch: 1
-    },
-    basePower: 85,
-    accuracy: 90,
-    category: "Physical",
-    desc: "This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.",
-    shortDesc: "Can hit Pokemon using Bounce, Fly, or Sky Drop.",
-    pp: 15
-  },
-  slackoff: {
-    id: "slackoff",
-    name: "Slack Off",
-    num: 303,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP, rounded half up.",
-    shortDesc: "Heals the user by 50% of its max HP.",
-    pp: 5
-  },
-  slam: {
-    id: "slam",
-    name: "Slam",
-    num: 21,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 80,
-    accuracy: 75,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 20
-  },
-  slash: {
-    id: "slash",
-    name: "Slash",
-    num: 163,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 20
-  },
-  sleeppowder: {
-    id: "sleeppowder",
-    name: "Sleep Powder",
-    num: 79,
-    type: "Grass",
-    flags: {
-      powder: 1,
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 75,
-    category: "Status",
-    desc: "Causes the target to fall asleep.",
-    shortDesc: "Causes the target to fall asleep.",
-    pp: 15
-  },
-  sleeptalk: {
-    id: "sleeptalk",
-    name: "Sleep Talk",
-    num: 214,
-    type: "Normal",
-    flags: {
-      failencore: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "One of the user's known moves, besides this move, is selected for use at random. Fails if the user is not asleep. The selected move does not have PP deducted from it, and can currently have 0 PP. This move cannot select Assist, Beak Blast, Belch, Bide, Blazing Torque, Celebrate, Chatter, Combat Torque, Copycat, Dynamax Cannon, Focus Punch, Hold Hands, Magical Torque, Me First, Metronome, Mimic, Mirror Move, Nature Power, Noxious Torque, Shell Trap, Sketch, Sleep Talk, Struggle, Uproar, Wicked Torque, or any two-turn move.",
-    shortDesc: "User must be asleep. Uses another known move.",
-    pp: 10
-  },
-  sludge: {
-    id: "sludge",
-    name: "Sludge",
-    num: 124,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to poison the target.",
-    shortDesc: "30% chance to poison the target.",
-    pp: 20
-  },
-  sludgebomb: {
-    id: "sludgebomb",
-    name: "Sludge Bomb",
-    num: 188,
-    type: "Poison",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to poison the target.",
-    shortDesc: "30% chance to poison the target.",
-    pp: 10
-  },
-  sludgewave: {
-    id: "sludgewave",
-    name: "Sludge Wave",
-    num: 482,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 95,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to poison the target.",
-    shortDesc: "10% chance to poison adjacent Pokemon.",
-    pp: 10
-  },
-  smackdown: {
-    id: "smackdown",
-    name: "Smack Down",
-    num: 479,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.",
-    shortDesc: "Removes the target's Ground immunity.",
-    pp: 15
-  },
-  smartstrike: {
-    id: "smartstrike",
-    name: "Smart Strike",
-    num: 684,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy.",
-    pp: 10
-  },
-  smellingsalts: {
-    id: "smellingsalts",
-    name: "Smelling Salts",
-    num: 265,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the target is paralyzed. If the user has not fainted, the target is cured of paralysis.",
-    shortDesc: "Power doubles if target is paralyzed, and cures it.",
-    pp: 10
-  },
-  smog: {
-    id: "smog",
-    name: "Smog",
-    num: 123,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 30,
-    accuracy: 70,
-    category: "Special",
-    desc: "Has a 40% chance to poison the target.",
-    shortDesc: "40% chance to poison the target.",
-    pp: 20
-  },
-  smokescreen: {
-    id: "smokescreen",
-    name: "Smokescreen",
-    num: 108,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's accuracy by 1 stage.",
-    shortDesc: "Lowers the target's accuracy by 1.",
-    pp: 20
-  },
-  snaptrap: {
-    id: "snaptrap",
-    name: "Snap Trap",
-    num: 779,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 35,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 15
-  },
-  snarl: {
-    id: "snarl",
-    name: "Snarl",
-    num: 555,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 55,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
-    shortDesc: "100% chance to lower the foe(s) Sp. Atk by 1.",
-    pp: 15
-  },
-  snatch: {
-    id: "snatch",
-    name: "Snatch",
-    num: 289,
-    type: "Dark",
-    flags: {
-      bypasssub: 1,
-      mustpressure: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "If another Pokemon uses certain non-damaging moves this turn, the user steals that move to use itself. If multiple Pokemon use one of those moves this turn, the applicable moves are all stolen by the first Pokemon in turn order that used this move this turn. This effect is ignored while the user is under the effect of Sky Drop.",
-    shortDesc: "User steals certain support moves to use itself.",
-    pp: 10
-  },
-  snipeshot: {
-    id: "snipeshot",
-    name: "Snipe Shot",
-    num: 745,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a higher chance for a critical hit. This move cannot be redirected to a different target by any effect.",
-    shortDesc: "High critical hit ratio. Cannot be redirected.",
-    pp: 15
-  },
-  snore: {
-    id: "snore",
-    name: "Snore",
-    num: 173,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 30% chance to make the target flinch. Fails if the user is not asleep.",
-    shortDesc: "User must be asleep. 30% chance to flinch target.",
-    pp: 15
-  },
-  snowscape: {
-    id: "snowscape",
-    name: "Snowscape",
-    num: 883,
-    type: "Ice",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the weather becomes Snow. During the effect, the Defense of Ice-type Pokemon is multiplied by 1.5 when taking damage from a physical attack. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Snow.",
-    shortDesc: "For 5 turns, snow falls. Ice: 1.5x Def.",
-    pp: 10
-  },
-  soak: {
-    id: "soak",
-    name: "Soak",
-    num: 487,
-    type: "Water",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to become a Water type. Fails if the target is an Arceus or a Silvally, if the target is already purely Water type, or if the target is Terastallized.",
-    shortDesc: "Changes the target's type to Water.",
-    pp: 20
-  },
-  softboiled: {
-    id: "softboiled",
-    name: "Soft-Boiled",
-    num: 135,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP, rounded half up.",
-    shortDesc: "Heals the user by 50% of its max HP.",
-    pp: 5
-  },
-  solarbeam: {
-    id: "solarbeam",
-    name: "Solar Beam",
-    num: 76,
-    type: "Grass",
-    flags: {
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Special",
-    desc: "This attack charges on the first turn and executes on the second. Power is halved if the weather is Primordial Sea, Rain Dance, Sandstorm, or Snow and the user is not holding Utility Umbrella. If the user is holding a Power Herb or the weather is Desolate Land or Sunny Day, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Desolate Land or Sunny Day, the move still requires a turn to charge.",
-    shortDesc: "Charges turn 1. Hits turn 2. No charge in sunlight.",
-    pp: 10
-  },
-  solarblade: {
-    id: "solarblade",
-    name: "Solar Blade",
-    num: 669,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      charge: 1,
-      protect: 1,
-      mirror: 1,
-      slicing: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 125,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This attack charges on the first turn and executes on the second. Power is halved if the weather is Hail, Primordial Sea, Rain Dance, or Sandstorm and the user is not holding Utility Umbrella. If the user is holding a Power Herb or the weather is Desolate Land or Sunny Day, the move completes in one turn. If the user is holding Utility Umbrella and the weather is Desolate Land or Sunny Day, the move still requires a turn to charge.",
-    shortDesc: "Charges turn 1. Hits turn 2. No charge in sunlight.",
-    pp: 10
-  },
-  sonicboom: {
-    id: "sonicboom",
-    name: "Sonic Boom",
-    num: 49,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Special",
-    desc: "Deals 20 HP of damage to the target.",
-    shortDesc: "Always does 20 HP of damage.",
-    pp: 20
-  },
-  soulstealing7starstrike: {
-    id: "soulstealing7starstrike",
-    name: "Soul-Stealing 7-Star Strike",
-    num: 699,
-    type: "Ghost",
-    flags: {
-      contact: 1
-    },
-    basePower: 195,
-    accuracy: true,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 1
-  },
-  spacialrend: {
-    id: "spacialrend",
-    name: "Spacial Rend",
-    num: 460,
-    type: "Dragon",
-    flags: {
-      protect: 1,
-      mirror: 1
+      protect: 1
     },
     basePower: 100,
     accuracy: 95,
-    category: "Special",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 5
-  },
-  spark: {
-    id: "spark",
-    name: "Spark",
-    num: 209,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
     category: "Physical",
-    desc: "Has a 30% chance to paralyze the target.",
-    shortDesc: "30% chance to paralyze the target.",
-    pp: 20
-  },
-  sparklingaria: {
-    id: "sparklingaria",
-    name: "Sparkling Aria",
-    num: 664,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the user has not fainted, the target is cured of its burn.",
-    shortDesc: "The target is cured of its burn.",
+    desc: "The user attacks the target with an uppercut thrown\nskyward with force. This flinches 25% of the time.\nContact. Affected by Rapid Fire.",
+    shortDesc: "The user attacks the target with an uppercut thrown\nskyward with force. This flinches 25% of the time.\nContact. Affected by Rapid Fire.",
     pp: 10
   },
-  spectralthief: {
-    id: "spectralthief",
-    name: "Spectral Thief",
-    num: 712,
-    type: "Ghost",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
-    shortDesc: "Steals target's boosts before dealing damage.",
-    pp: 10
-  },
-  speedswap: {
-    id: "speedswap",
-    name: "Speed Swap",
-    num: 683,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      bypasssub: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user swaps its Speed stat with the target. Stat stage changes are unaffected.",
-    shortDesc: "Swaps Speed stat with target.",
-    pp: 10
-  },
-  spicyextract: {
-    id: "spicyextract",
-    name: "Spicy Extract",
-    num: 858,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the target's Attack by 2 stages and lowers its Defense by 2 stages.",
-    shortDesc: "Raises target's Atk by 2 and lowers its Def by 2.",
-    pp: 15
-  },
-  spiderweb: {
-    id: "spiderweb",
-    name: "Spider Web",
-    num: 169,
-    type: "Bug",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-    shortDesc: "Prevents the target from switching out.",
-    pp: 10
-  },
-  spikecannon: {
-    id: "spikecannon",
-    name: "Spike Cannon",
-    num: 131,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 15
-  },
-  spikes: {
-    id: "spikes",
-    name: "Spikes",
-    num: 191,
+  scorchingsands: {
+    id: "scorchingsands",
+    name: "Scorching Sands",
+    num: 328,
     type: "Ground",
     flags: {
-      reflectable: 1,
-      nonsky: 1,
-      mustpressure: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to three times before failing. Opponents lose 1/8 of their maximum HP with one layer, 1/6 of their maximum HP with two layers, and 1/4 of their maximum HP with three layers, all rounded down. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
-    shortDesc: "Hurts grounded foes on switch-in. Max 3 layers.",
-    pp: 20
-  },
-  spikyshield: {
-    id: "spikyshield",
-    name: "Spiky Shield",
-    num: 596,
-    type: "Grass",
-    flags: {
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
-    shortDesc: "Protects from moves. Contact: loses 1/8 max HP.",
-    pp: 10
-  },
-  spinout: {
-    id: "spinout",
-    name: "Spin Out",
-    num: 859,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Lowers the user's Speed by 2 stages.",
-    shortDesc: "Lowers the user's Speed by 2.",
-    pp: 5
-  },
-  spiritbreak: {
-    id: "spiritbreak",
-    name: "Spirit Break",
-    num: 789,
-    type: "Fairy",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      defrost: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 75,
     accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
-    shortDesc: "100% chance to lower the target's Sp. Atk by 1.",
+    category: "Special",
+    desc: "The user envelops the target with searing hot sands.\nThis burns the target 30% of the time.",
+    shortDesc: "The user envelops the target with searing hot sands.\nThis burns the target 30% of the time.",
     pp: 15
   },
-  spiritshackle: {
-    id: "spiritshackle",
-    name: "Spirit Shackle",
-    num: 662,
-    type: "Ghost",
+  sheercold: {
+    id: "sheercold",
+    name: "Sheer Cold",
+    num: 329,
+    type: "Ice",
     flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-    shortDesc: "Prevents the target from switching out.",
-    pp: 10
-  },
-  spitup: {
-    id: "spitup",
-    name: "Spit Up",
-    num: 255,
-    type: "Normal",
-    flags: {
+      mirror: 1,
       protect: 1
     },
-    basePower: 0,
-    accuracy: 100,
+    basePower: 1,
+    accuracy: true,
     category: "Special",
-    desc: "Power is equal to 100 times the user's Stockpile count. Fails if the user's Stockpile count is 0. Whether or not this move is successful, the user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-    shortDesc: "More power with more uses of Stockpile.",
-    pp: 10
-  },
-  spite: {
-    id: "spite",
-    name: "Spite",
-    num: 180,
-    type: "Ghost",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target's last move used to lose 4 PP. Fails if the target has not made a move, if the move has 0 PP, or if it no longer knows the move.",
-    shortDesc: "Lowers the PP of the target's last move by 4.",
-    pp: 10
-  },
-  splash: {
-    id: "splash",
-    name: "Splash",
-    num: 150,
-    type: "Normal",
-    flags: {
-      gravity: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "No competitive use.",
-    shortDesc: "No competitive use.",
-    pp: 40
-  },
-  splinteredstormshards: {
-    id: "splinteredstormshards",
-    name: "Splintered Stormshards",
-    num: 727,
-    type: "Rock",
-    flags: {},
-    basePower: 190,
-    accuracy: true,
-    category: "Physical",
-    desc: "Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
-    shortDesc: "Ends the effects of terrain.",
+    desc: "The target is fainted with absolute-zero cold.\nThis attack NEVER misses, but can only be used once.\nContact.",
+    shortDesc: "The target is fainted with absolute-zero cold.\nThis attack NEVER misses, but can only be used once.\nContact.",
     pp: 1
   },
-  spore: {
-    id: "spore",
-    name: "Spore",
-    num: 147,
-    type: "Grass",
-    flags: {
-      powder: 1,
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to fall asleep.",
-    shortDesc: "Causes the target to fall asleep.",
-    pp: 15
-  },
-  spotlight: {
-    id: "spotlight",
-    name: "Spotlight",
-    num: 671,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      allyanim: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Until the end of the turn, all single-target attacks from opponents of the target are redirected to the target. Such attacks are redirected to the target before they can be reflected by Magic Coat or the Magic Bounce Ability, or drawn in by the Lightning Rod or Storm Drain Abilities. Fails if it is not a Double Battle or Battle Royal.",
-    shortDesc: "Target's foes' moves are redirected to it this turn.",
-    pp: 15
-  },
-  springtidestorm: {
-    id: "springtidestorm",
-    name: "Springtide Storm",
-    num: 831,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 100,
-    accuracy: 80,
-    category: "Special",
-    desc: "Has a 30% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "30% chance to lower the foe(s) Attack by 1.",
-    pp: 5
-  },
-  stealthrock: {
-    id: "stealthrock",
-    name: "Stealth Rock",
-    num: 446,
-    type: "Rock",
-    flags: {
-      reflectable: 1,
-      mustpressure: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Fails if the effect is already active on the opposing side. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
-    shortDesc: "Hurts foes on switch-in. Factors Rock weakness.",
-    pp: 20
-  },
-  steameruption: {
-    id: "steameruption",
-    name: "Steam Eruption",
-    num: 592,
+  muddywater: {
+    id: "muddywater",
+    name: "Muddy Water",
+    num: 330,
     type: "Water",
     flags: {
-      protect: 1,
       mirror: 1,
-      defrost: 1
+      protect: 1
     },
     basePower: 110,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
-    shortDesc: "30% chance to burn the target. Thaws target.",
-    pp: 5
-  },
-  steamroller: {
-    id: "steamroller",
-    name: "Steamroller",
-    num: 537,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 30% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 20
-  },
-  steelbeam: {
-    id: "steelbeam",
-    name: "Steel Beam",
-    num: 796,
-    type: "Steel",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 140,
-    accuracy: 95,
-    category: "Special",
-    desc: "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
-    shortDesc: "User loses 50% max HP.",
-    pp: 5
-  },
-  steelroller: {
-    id: "steelroller",
-    name: "Steel Roller",
-    num: 798,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 130,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Fails if there is no terrain active. Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
-    shortDesc: "Fails if there is no terrain active. Ends the terrain.",
-    pp: 5
-  },
-  steelwing: {
-    id: "steelwing",
-    name: "Steel Wing",
-    num: 211,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
     accuracy: 90,
-    category: "Physical",
-    desc: "Has a 10% chance to raise the user's Defense by 1 stage.",
-    shortDesc: "10% chance to raise the user's Defense by 1.",
-    pp: 25
+    category: "Special",
+    desc: "The user swamps the field with muddy water.\nThis lowers the opponents Speed 100% of the time.",
+    shortDesc: "The user swamps the field with muddy water.\nThis lowers the opponents Speed 100% of the time.",
+    pp: 5
   },
-  stickyweb: {
-    id: "stickyweb",
-    name: "Sticky Web",
-    num: 564,
-    type: "Bug",
+  bulletseed: {
+    id: "bulletseed",
+    name: "Bullet Seed",
+    num: 331,
+    type: "Grass",
     flags: {
+      heal: 1,
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user forcefully shoots seeds at the target two\nto five times in a row.",
+    shortDesc: "The user forcefully shoots seeds at the target two\nto five times in a row.",
+    pp: 15
+  },
+  aerialace: {
+    id: "aerialace",
+    name: "Aerial Ace",
+    num: 332,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user confounds the target with speed, then\nslashes. This is +2 priority, and can't miss. Contact.",
+    shortDesc: "The user confounds the target with speed, then\nslashes. This is +2 priority, and can't miss. Contact.",
+    pp: 10
+  },
+  iciclespear: {
+    id: "iciclespear",
+    name: "Icicle Spear",
+    num: 333,
+    type: "Ice",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user launches sharp icicles at the target two to\nfive times in a row.",
+    shortDesc: "The user launches sharp icicles at the target two to\nfive times in a row.",
+    pp: 15
+  },
+  irondefense: {
+    id: "irondefense",
+    name: "Iron Defense",
+    num: 334,
+    type: "Steel",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user hardens its body’s surface like iron,\nsharply raising its Defense stat.\nZ-Effect heals user fully.",
+    shortDesc: "The user hardens its body’s surface like iron,\nsharply raising its Defense stat.\nZ-Effect heals user fully.",
+    pp: 2
+  },
+  block: {
+    id: "block",
+    name: "Block",
+    num: 335,
+    type: "Normal",
+    flags: {
+      mirror: 1,
       reflectable: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Sets up a hazard on the opposing side of the field, lowering the Speed by 1 stage of each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Fails if the effect is already active on the opposing side. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
-    shortDesc: "Lowers Speed of grounded foes by 1 on switch-in.",
-    pp: 20
+    desc: "Blocks the foe to prevent them from switching.\nZ-Effect +3 Defense.",
+    shortDesc: "Blocks the foe to prevent them from switching.\nZ-Effect +3 Defense.",
+    pp: 5
   },
-  stockpile: {
-    id: "stockpile",
-    name: "Stockpile",
-    num: 254,
+  howl: {
+    id: "howl",
+    name: "Howl",
+    num: 336,
     type: "Normal",
     flags: {
+      dance: 1,
       snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Defense and Special Defense by 1 stage. The user's Stockpile count increases by 1. Fails if the user's Stockpile count is 3. The user's Stockpile count is reset to 0 when it is no longer active.",
-    shortDesc: "Raises user's Defense, Sp. Def by 1. Max 3 uses.",
-    pp: 20
-  },
-  stokedsparksurfer: {
-    id: "stokedsparksurfer",
-    name: "Stoked Sparksurfer",
-    num: 700,
-    type: "Electric",
-    flags: {},
-    basePower: 175,
-    accuracy: true,
-    category: "Special",
-    desc: "Has a 100% chance to paralyze the target.",
-    shortDesc: "100% chance to paralyze the target.",
+    desc: "The user howls loudly to raise its spirit, which raises\nits Attack and Sp. Atk stats by 2 stages.\nZ-Effect gives +3 Accuracy.",
+    shortDesc: "The user howls loudly to raise its spirit, which raises\nits Attack and Sp. Atk stats by 2 stages.\nZ-Effect gives +3 Accuracy.",
     pp: 1
   },
-  stomp: {
-    id: "stomp",
-    name: "Stomp",
-    num: 23,
-    type: "Normal",
+  dragonclaw: {
+    id: "dragonclaw",
+    name: "Dragon Claw",
+    num: 337,
+    type: "Dragon",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      nonsky: 1
+      protect: 1
     },
-    basePower: 65,
+    basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 30% chance to make the target flinch. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 20
+    desc: "The user slashes the foe with claws or blades imbued\nwith dragon energy. This has a 50% (+2) crit rate.\nContact.",
+    shortDesc: "The user slashes the foe with claws or blades imbued\nwith dragon energy. This has a 50% (+2) crit rate.\nContact.",
+    pp: 10
   },
-  stompingtantrum: {
-    id: "stompingtantrum",
-    name: "Stomping Tantrum",
-    num: 707,
-    type: "Ground",
+  frenzyplant: {
+    id: "frenzyplant",
+    name: "Frenzy Plant",
+    num: 338,
+    type: "Grass",
     flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "In a frenzy, the user slams the foe with plant matter.\nThis drops the user's attack by 2 after use.",
+    shortDesc: "In a frenzy, the user slams the foe with plant matter.\nThis drops the user's attack by 2 after use.",
+    pp: 5
+  },
+  bulkup: {
+    id: "bulkup",
+    name: "Bulk Up",
+    num: 339,
+    type: "Fighting",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user tenses its muscles to bulk up its body,\nraising both its Attack and Defense stats by 1.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user tenses its muscles to bulk up its body,\nraising both its Attack and Defense stats by 1.\nZ-Effect +2 crit rate.",
+    pp: 3
+  },
+  bounce: {
+    id: "bounce",
+    name: "Bounce",
+    num: 340,
+    type: "Flying",
+    flags: {
+      charge: 1,
       contact: 1,
-      protect: 1,
+      gravity: 1,
       mirror: 1
     },
     basePower: 75,
     accuracy: 100,
     category: "Physical",
-    desc: "Power doubles if the user's last move on the previous turn, including moves called by other moves or those used through Instruct, Magic Coat, Snatch, or the Dancer or Magic Bounce Abilities, failed to do any of its normal effects, not including damage from an unsuccessful High Jump Kick, Jump Kick, or Mind Blown, or if the user was prevented from moving by any effect other than recharging or Sky Drop. A move that was blocked by Baneful Bunker, Detect, King's Shield, Protect, Spiky Shield, Crafty Shield, Mat Block, Quick Guard, or Wide Guard will not double this move's power, nor will Bounce or Fly ending early due to the effect of Gravity, Smack Down, or Thousand Arrows.",
-    shortDesc: "Power doubles if the user's last move failed.",
+    desc: "The user bounces up high, then drops on the target\non the second turn. This paralyzes the foe 30% of\nthe time. Contact. Bypasses Protect.",
+    shortDesc: "The user bounces up high, then drops on the target\non the second turn. This paralyzes the foe 30% of\nthe time. Contact. Bypasses Protect.",
     pp: 10
   },
-  stoneaxe: {
-    id: "stoneaxe",
-    name: "Stone Axe",
-    num: 830,
-    type: "Rock",
+  mudshot: {
+    id: "mudshot",
+    name: "Mud Shot",
+    num: 341,
+    type: "Ground",
     flags: {
-      contact: 1,
-      protect: 1,
       mirror: 1,
-      slicing: 1
+      protect: 1
     },
-    basePower: 65,
-    accuracy: 90,
-    category: "Physical",
-    desc: "If this move is successful, it sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Rock type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, or is hit by Defog.",
-    shortDesc: "Sets Stealth Rock on the target's side.",
-    pp: 15
-  },
-  stoneedge: {
-    id: "stoneedge",
-    name: "Stone Edge",
-    num: 444,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 80,
-    category: "Physical",
-    desc: "Has a higher chance for a critical hit.",
-    shortDesc: "High critical hit ratio.",
-    pp: 5
-  },
-  storedpower: {
-    id: "storedpower",
-    name: "Stored Power",
-    num: 500,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 100,
+    basePower: 45,
+    accuracy: true,
     category: "Special",
-    desc: "Power is equal to 20+(X*20), where X is the user's total stat stage changes that are greater than 0.",
-    shortDesc: " + 20 power for each of the user's stat boosts.",
-    pp: 10
+    desc: "The user quickly shoots mud at the target.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user quickly shoots mud at the target.\nThis has +1 priority, and can't miss.",
+    pp: 20
   },
-  stormthrow: {
-    id: "stormthrow",
-    name: "Storm Throw",
-    num: 480,
-    type: "Fighting",
+  poisontail: {
+    id: "poisontail",
+    name: "Poison Tail",
+    num: 342,
+    type: "Poison",
     flags: {
       contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 95,
+    category: "Physical",
+    desc: "The user pummels the target with a tail steeped in\npoison. This poisons 30% of the time, and has a\n30% flinch rate. Contact.",
+    shortDesc: "The user pummels the target with a tail steeped in\npoison. This poisons 30% of the time, and has a\n30% flinch rate. Contact.",
+    pp: 10
+  },
+  covet: {
+    id: "covet",
+    name: "Covet",
+    num: 343,
+    type: "Fairy",
+    flags: {
+      contact: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      sound: 1
     },
     basePower: 60,
     accuracy: 100,
     category: "Physical",
-    desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
-    shortDesc: "Always results in a critical hit.",
-    pp: 10
+    desc: "The user endearingly approaches the target, then\nsteals the target's held item. The user can't steal\nan item if it already holds one. Contact.",
+    shortDesc: "The user endearingly approaches the target, then\nsteals the target's held item. The user can't steal\nan item if it already holds one. Contact.",
+    pp: 25
   },
-  strangesteam: {
-    id: "strangesteam",
-    name: "Strange Steam",
-    num: 790,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 95,
-    category: "Special",
-    desc: "Has a 20% chance to confuse the target.",
-    shortDesc: "20% chance to confuse the target.",
-    pp: 10
-  },
-  strength: {
-    id: "strength",
-    name: "Strength",
-    num: 70,
-    type: "Normal",
+  volttackle: {
+    id: "volttackle",
+    name: "Volt Tackle",
+    num: 344,
+    type: "Electric",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user electrifies itself and charges the target\naggressively. This deals 25% recoil to the user.\nThis paralyzes the foe 25% of the time. Contact.",
+    shortDesc: "The user electrifies itself and charges the target\naggressively. This deals 25% recoil to the user.\nThis paralyzes the foe 25% of the time. Contact.",
+    pp: 10
+  },
+  magicalleaf: {
+    id: "magicalleaf",
+    name: "Magical Leaf",
+    num: 345,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user scatters magical, curious leaves at the foe.\nThis ALWAYS raises the user's Sp. Def by 1 after use.",
+    shortDesc: "The user scatters magical, curious leaves at the foe.\nThis ALWAYS raises the user's Sp. Def by 1 after use.",
+    pp: 15
+  },
+  watersport: {
+    id: "watersport",
+    name: "Water Sport",
+    num: 346,
+    type: "Water",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user soaks the battlefield with water. This\nweakens Fire-type moves for five turns.\nZ-Effect +3 Sp. Def. +4 Priority.",
+    shortDesc: "The user soaks the battlefield with water. This\nweakens Fire-type moves for five turns.\nZ-Effect +3 Sp. Def. +4 Priority.",
+    pp: 15
+  },
+  calmmind: {
+    id: "calmmind",
+    name: "Calm Mind",
+    num: 347,
+    type: "Psychic",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user quietly focuses its mind and calms its\nspirit to raise its Sp. Atk and Sp. Def stats by 1.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user quietly focuses its mind and calms its\nspirit to raise its Sp. Atk and Sp. Def stats by 1.\nZ-Effect +2 crit rate.",
+    pp: 3
+  },
+  leafblade: {
+    id: "leafblade",
+    name: "Leaf Blade",
+    num: 348,
+    type: "Grass",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 15
-  },
-  strengthsap: {
-    id: "strengthsap",
-    name: "Strength Sap",
-    num: 668,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack by 1 stage. The user restores its HP equal to the target's Attack stat calculated with its stat stage before this move was used. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Fails if the target's Attack stat stage is -6.",
-    shortDesc: "User heals HP=target's Atk stat. Lowers Atk by 1.",
+    desc: "The user slashes the foe with a blade made of a leaf.\nThis has a 50% (+2) crit rate. Contact.",
+    shortDesc: "The user slashes the foe with a blade made of a leaf.\nThis has a 50% (+2) crit rate. Contact.",
     pp: 10
   },
-  stringshot: {
-    id: "stringshot",
-    name: "String Shot",
-    num: 81,
-    type: "Bug",
+  dragondance: {
+    id: "dragondance",
+    name: "Dragon Dance",
+    num: 349,
+    type: "Dragon",
     flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
+      dance: 1,
+      snatch: 1
     },
     basePower: 0,
-    accuracy: 95,
-    category: "Status",
-    desc: "Lowers the target's Speed by 2 stages.",
-    shortDesc: "Lowers the foe(s) Speed by 2.",
-    pp: 40
-  },
-  struggle: {
-    id: "struggle",
-    name: "Struggle",
-    num: 165,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      failencore: 1,
-      failmefirst: 1,
-      nosleeptalk: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
-    },
-    basePower: 50,
     accuracy: true,
-    category: "Physical",
-    desc: "Deals typeless damage to a random opposing Pokemon. If this move was successful, the user loses 1/4 of its maximum HP, rounded half up, and the Rock Head Ability does not prevent this. This move is automatically used if none of the user's known moves can be selected.",
-    shortDesc: "User loses 1/4 of its max HP.",
-    pp: 1
+    category: "Status",
+    desc: "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats by 1.\nZ-Effect crit rate +2.",
+    shortDesc: "The user vigorously performs a mystic, powerful\ndance that raises its Attack and Speed stats by 1.\nZ-Effect crit rate +2.",
+    pp: 2
   },
-  strugglebug: {
-    id: "strugglebug",
-    name: "Struggle Bug",
-    num: 522,
-    type: "Bug",
+  rockblast: {
+    id: "rockblast",
+    name: "Rock Blast",
+    num: 350,
+    type: "Rock",
     flags: {
+      heal: 1,
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      bullet: 1
     },
-    basePower: 50,
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user hurls hard rocks at the target. Two to five\nrocks are launched in a row.",
+    shortDesc: "The user hurls hard rocks at the target. Two to five\nrocks are launched in a row.",
+    pp: 15
+  },
+  shockwave: {
+    id: "shockwave",
+    name: "Shock Wave",
+    num: 351,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: true,
+    category: "Special",
+    desc: "The user strikes the target with a rapid wave of\nelectricity. This has +2 priority, and can't miss.",
+    shortDesc: "The user strikes the target with a rapid wave of\nelectricity. This has +2 priority, and can't miss.",
+    pp: 10
+  },
+  waterpulse: {
+    id: "waterpulse",
+    name: "Water Pulse",
+    num: 352,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      pulse: 1
+    },
+    basePower: 60,
     accuracy: 100,
     category: "Special",
-    desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
-    shortDesc: "100% chance to lower the foe(s) Sp. Atk by 1.",
-    pp: 20
+    desc: "The user attacks the foe with a beautiful pulse of\nwater. This ALWAYS drops BOTH of the foe's offensive\nstats by 1 after use.",
+    shortDesc: "The user attacks the foe with a beautiful pulse of\nwater. This ALWAYS drops BOTH of the foe's offensive\nstats by 1 after use.",
+    pp: 15
   },
-  stuffcheeks: {
-    id: "stuffcheeks",
-    name: "Stuff Cheeks",
-    num: 747,
-    type: "Normal",
+  doomdesire: {
+    id: "doomdesire",
+    name: "Doom Desire",
+    num: 353,
+    type: "Dark",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 160,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user foresees the target's demise. 2 turns after\nthis move is used, the target is hit with an immense\nblast of dark energy. Bypasses Protect and Substitute.",
+    shortDesc: "The user foresees the target's demise. 2 turns after\nthis move is used, the target is hit with an immense\nblast of dark energy. Bypasses Protect and Substitute.",
+    pp: 5
+  },
+  psychoboost: {
+    id: "psychoboost",
+    name: "Psycho Boost",
+    num: 354,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a massive blast of psychic energy.\nThis drops the user's Sp. Atk by 2 after use.",
+    shortDesc: "The user unleashes a massive blast of psychic energy.\nThis drops the user's Sp. Atk by 2 after use.",
+    pp: 5
+  },
+  roost: {
+    id: "roost",
+    name: "Roost",
+    num: 355,
+    type: "Flying",
     flags: {
       snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "This move cannot be selected unless the user is holding a Berry. The user eats its Berry and raises its Defense by 2 stages. This effect is not prevented by the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if the user is not holding a Berry.",
-    shortDesc: "Must hold Berry to use. User eats Berry, Def +2.",
-    pp: 10
+    desc: "The user lands and rests its body. It restores the\nuser’s HP by 50% of the user's max HP.\nZ-Effect +2 Defense. Removes Flying type for the turn.",
+    shortDesc: "The user lands and rests its body. It restores the\nuser’s HP by 50% of the user's max HP.\nZ-Effect +2 Defense. Removes Flying type for the turn.",
+    pp: 5
   },
-  stunspore: {
-    id: "stunspore",
-    name: "Stun Spore",
-    num: 78,
-    type: "Grass",
+  gravity: {
+    id: "gravity",
+    name: "Gravity",
+    num: 356,
+    type: "Psychic",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Enables Flying-type Pokemon or Pokemon with the\nLevitate Ability to be hit by Ground-type moves.\nFlying moves can’t be used. Z-Effect +2 Sp. Atk.",
+    shortDesc: "Enables Flying-type Pokemon or Pokemon with the\nLevitate Ability to be hit by Ground-type moves.\nFlying moves can’t be used. Z-Effect +2 Sp. Atk.",
+    pp: 5
+  },
+  miracleeye: {
+    id: "miracleeye",
+    name: "Miracle Eye",
+    num: 357,
+    type: "Psychic",
     flags: {
-      powder: 1,
+      bypasssub: 1,
+      mirror: 1,
       protect: 1,
-      reflectable: 1,
-      mirror: 1
+      reflectable: 1
     },
     basePower: 0,
-    accuracy: 75,
+    accuracy: true,
     category: "Status",
-    desc: "Paralyzes the target.",
-    shortDesc: "Paralyzes the target.",
-    pp: 30
+    desc: "Enables the user to hit Dark-types with Psychic moves.\nAlso makes it so no attacks will miss the foe.\nZ-Effect gives +1 to all stats.",
+    shortDesc: "Enables the user to hit Dark-types with Psychic moves.\nAlso makes it so no attacks will miss the foe.\nZ-Effect gives +1 to all stats.",
+    pp: 10
   },
-  submission: {
-    id: "submission",
-    name: "Submission",
-    num: 66,
+  wakeupslap: {
+    id: "wakeupslap",
+    name: "Wake-Up Slap",
+    num: 358,
     type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 80,
-    accuracy: 80,
+    basePower: 70,
+    accuracy: true,
     category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 1/4 recoil.",
-    pp: 20
+    desc: "The user slaps the foe, startling them. This has\n+4 Priority, and ALWAYS flinches the foe from shock.\nDoubles in power if the foe is asleep. Contact.",
+    shortDesc: "The user slaps the foe, startling them. This has\n+4 Priority, and ALWAYS flinches the foe from shock.\nDoubles in power if the foe is asleep. Contact.",
+    pp: 1
   },
-  substitute: {
-    id: "substitute",
-    name: "Substitute",
-    num: 164,
-    type: "Normal",
+  hammerarm: {
+    id: "hammerarm",
+    name: "Hammer Arm",
+    num: 359,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user slams its heavy arm or fist onto the foe.\nThis always lowers the user's Speed by 1. Contact.",
+    shortDesc: "The user slams its heavy arm or fist onto the foe.\nThis always lowers the user's Speed by 1. Contact.",
+    pp: 5
+  },
+  gyroball: {
+    id: "gyroball",
+    name: "Gyro Ball",
+    num: 360,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user tackles the target while spinning.\nThis gains power the faster the foe is than the user.\nAfter use, the user's Speed drops by 2. Contact.",
+    shortDesc: "The user tackles the target while spinning.\nThis gains power the faster the foe is than the user.\nAfter use, the user's Speed drops by 2. Contact.",
+    pp: 5
+  },
+  healingwish: {
+    id: "healingwish",
+    name: "Healing Wish",
+    num: 361,
+    type: "Fairy",
     flags: {
       snatch: 1,
-      nonsky: 1
+      sound: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user takes 1/4 of its maximum HP, rounded down, and puts it into a substitute to take its place in battle. The substitute is removed once enough damage is inflicted on it, or if the user switches out or faints. Baton Pass can be used to transfer the substitute to an ally, and the substitute will keep its remaining HP. Until the substitute is broken, it receives damage from all attacks made by other Pokemon and shields the user from status effects and stat stage changes caused by other Pokemon. Sound-based moves and Pokemon with the Infiltrator Ability ignore substitutes. The user still takes normal damage from weather and status effects while behind its substitute. If the substitute breaks during a multi-hit attack, the user will take damage from any remaining hits. If a substitute is created while the user is trapped by a binding move, the binding effect ends immediately. Fails if the user does not have enough HP remaining to create a substitute without fainting, or if it already has a substitute.",
-    shortDesc: "User takes 1/4 its max HP to put in a substitute.",
+    desc: "The user faints. In return, the Pokemon taking its\nplace will have its HP restored and status\nconditions cured. This has +6 Priority.",
+    shortDesc: "The user faints. In return, the Pokemon taking its\nplace will have its HP restored and status\nconditions cured. This has +6 Priority.",
+    pp: 5
+  },
+  brine: {
+    id: "brine",
+    name: "Brine",
+    num: 362,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user douses the foe in water.\nIf the target’s HP is 50% or less, this attack will hit\nwith double the power.",
+    shortDesc: "The user douses the foe in water.\nIf the target’s HP is 50% or less, this attack will hit\nwith double the power.",
     pp: 10
   },
-  subzeroslammer: {
-    id: "subzeroslammer",
-    name: "Subzero Slammer",
-    num: 650,
-    type: "Ice",
+  naturalgift: {
+    id: "naturalgift",
+    name: "Natural Gift",
+    num: 363,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user draws power to attack by using its held\nBerry. Super effective weakening berries become 110\nBase Power moves of their respective type.",
+    shortDesc: "The user draws power to attack by using its held\nBerry. Super effective weakening berries become 110\nBase Power moves of their respective type.",
+    pp: 15
+  },
+  thinkfast: {
+    id: "thinkfast",
+    name: "Think Fast",
+    num: 364,
+    type: "Psychic",
+    flags: {
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 55,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user uses its intelligence to outmaneuver the foe,\nthrowing a quick punch. This has +2 Priority, and\nbypasses protect, lifting the effects. Can't miss.",
+    shortDesc: "The user uses its intelligence to outmaneuver the foe,\nthrowing a quick punch. This has +2 Priority, and\nbypasses protect, lifting the effects. Can't miss.",
+    pp: 10
+  },
+  pluck: {
+    id: "pluck",
+    name: "Pluck",
+    num: 365,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 65,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user pecks the target. If the target is holding a\nBerry, the user eats it and gains its effect. Contact.",
+    shortDesc: "The user pecks the target. If the target is holding a\nBerry, the user eats it and gains its effect. Contact.",
+    pp: 20
+  },
+  tailwind: {
+    id: "tailwind",
+    name: "Tailwind",
+    num: 366,
+    type: "Flying",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user whips up a turbulent whirlwind that doubles\nthe Speed stat of the user and its allies for\nfour turns. Z-Effect +2 crit rate.",
+    shortDesc: "The user whips up a turbulent whirlwind that doubles\nthe Speed stat of the user and its allies for\nfour turns. Z-Effect +2 crit rate.",
+    pp: 15
+  },
+  acupressure: {
+    id: "acupressure",
+    name: "Acupressure",
+    num: 367,
+    type: "Normal",
     flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user applies pressure to stress points, sharply\nboosting one of its or its allies’ stats by 2.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user applies pressure to stress points, sharply\nboosting one of its or its allies’ stats by 2.\nZ-Effect +2 crit rate.",
+    pp: 3
+  },
+  metalburst: {
+    id: "metalburst",
+    name: "Metal Burst",
+    num: 368,
+    type: "Steel",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user takes any attack and delivers 50% of\ndamage taken back at the foe at the end of the turn.",
+    shortDesc: "The user takes any attack and delivers 50% of\ndamage taken back at the foe at the end of the turn.",
+    pp: 10
+  },
+  uturn: {
+    id: "uturn",
+    name: "U-turn",
+    num: 369,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: true,
+    category: "Physical",
+    desc: "After making its attack, the user rushes back to\nswitch places with a party Pokemon in waiting.\nThis attack cannot miss. Contact.",
+    shortDesc: "After making its attack, the user rushes back to\nswitch places with a party Pokemon in waiting.\nThis attack cannot miss. Contact.",
+    pp: 15
+  },
+  closecombat: {
+    id: "closecombat",
+    name: "Close Combat",
+    num: 370,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats by 1. Contact.",
+    shortDesc: "The user fights the target up close without guarding\nitself. This also lowers the user’s Defense and\nSp. Def stats by 1. Contact.",
+    pp: 5
+  },
+  payback: {
+    id: "payback",
+    name: "Payback",
+    num: 371,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user violently retaliates at the foe.\nThis doubles in power if you move after the target.\nContact. Can't miss. Neutral Priority.",
+    shortDesc: "The user violently retaliates at the foe.\nThis doubles in power if you move after the target.\nContact. Can't miss. Neutral Priority.",
+    pp: 5
+  },
+  assurance: {
+    id: "assurance",
+    name: "Assurance",
+    num: 372,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "If the foe's taken damage this turn, the power of this\nattack doubles. This includes damage from life orb,\nentry hazards, confusion, and recoil damage. Contact.",
+    shortDesc: "If the foe's taken damage this turn, the power of this\nattack doubles. This includes damage from life orb,\nentry hazards, confusion, and recoil damage. Contact.",
+    pp: 20
+  },
+  embargo: {
+    id: "embargo",
+    name: "Embargo",
+    num: 373,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "This move prevents the target from using its held\nitem for 15 turns. Z-Effect +2 Attack.\nThis has +4 priority.",
+    shortDesc: "This move prevents the target from using its held\nitem for 15 turns. Z-Effect +2 Attack.\nThis has +4 priority.",
+    pp: 15
+  },
+  fling: {
+    id: "fling",
+    name: "Fling",
+    num: 374,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
     basePower: 1,
     accuracy: true,
     category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
+    desc: "The user quickly throws its held item. +4 Priority.\nZap Plate paralyzes, Flame Plate burns, & Toxic Plate\nbadly poisons. Plates do 100 BP. King's Rock flinches.",
+    shortDesc: "The user quickly throws its held item. +4 Priority.\nZap Plate paralyzes, Flame Plate burns, & Toxic Plate\nbadly poisons. Plates do 100 BP. King's Rock flinches.",
+    pp: 3
+  },
+  psychoshift: {
+    id: "psychoshift",
+    name: "Psycho Shift",
+    num: 375,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target.\nZ-Effect +1 All Stats.",
+    shortDesc: "Using its psychic power of suggestion, the user\ntransfers its status conditions to the target.\nZ-Effect +1 All Stats.",
+    pp: 10
+  },
+  hocuspocus: {
+    id: "hocuspocus",
+    name: "Hocus-Pocus",
+    num: 376,
+    type: "Psychic",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "The user performs an astonishing magic trick.\nThis can only fool the foe once, but ALWAYS flinches.\nThis has +2 Priority, and is 200 Base Power.",
+    shortDesc: "The user performs an astonishing magic trick.\nThis can only fool the foe once, but ALWAYS flinches.\nThis has +2 Priority, and is 200 Base Power.",
     pp: 1
+  },
+  healblock: {
+    id: "healblock",
+    name: "Heal Block",
+    num: 377,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "For 15 turns, the foe's team is prevented from using\nany moves, Abilities, or held items that recover HP.\nZ-Effect +2 Sp. Atk. +4 Priority.",
+    shortDesc: "For 15 turns, the foe's team is prevented from using\nany moves, Abilities, or held items that recover HP.\nZ-Effect +2 Sp. Atk. +4 Priority.",
+    pp: 15
+  },
+  chromosomecrush: {
+    id: "chromosomecrush",
+    name: "Chromosome Crush",
+    num: 378,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. MEW HAS SIGNATURE Z-MOVE.",
+    shortDesc: "The user mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. MEW HAS SIGNATURE Z-MOVE.",
+    pp: 5
+  },
+  powertrick: {
+    id: "powertrick",
+    name: "Power Trick",
+    num: 379,
+    type: "Psychic",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user employs its psychic power to switch its\nAttack stat with its Defense stat.\nZ-Effect +2 Attack.",
+    shortDesc: "The user employs its psychic power to switch its\nAttack stat with its Defense stat.\nZ-Effect +2 Attack.",
+    pp: 10
+  },
+  acidreflux: {
+    id: "acidreflux",
+    name: "Acid Reflux",
+    num: 380,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user hurls stomach acid at the foe, dropping their\nSp. Def stat by 4 in addition to poisoning them.\nZ-Effect heals the user fully.",
+    shortDesc: "The user hurls stomach acid at the foe, dropping their\nSp. Def stat by 4 in addition to poisoning them.\nZ-Effect heals the user fully.",
+    pp: 5
+  },
+  luckychant: {
+    id: "luckychant",
+    name: "Lucky Chant",
+    num: 381,
+    type: "Fairy",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user chants an incantation toward the sky,\npreventing opposing Pokemon from landing\ncrits for 5 turns. +4 Priority. Z-Effect +3 Sp. Def.",
+    shortDesc: "The user chants an incantation toward the sky,\npreventing opposing Pokemon from landing\ncrits for 5 turns. +4 Priority. Z-Effect +3 Sp. Def.",
+    pp: 30
+  },
+  mefirst: {
+    id: "mefirst",
+    name: "Me First",
+    num: 382,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Status",
+    desc: "The user cuts ahead of the target to copy and use\nthe target’s intended move with greater power.\nZ-Effect +2 Attack. +6 Priority.",
+    shortDesc: "The user cuts ahead of the target to copy and use\nthe target’s intended move with greater power.\nZ-Effect +2 Attack. +6 Priority.",
+    pp: 5
+  },
+  copycat: {
+    id: "copycat",
+    name: "Copycat",
+    num: 383,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet. Z-Effect +2 Attack. +6 Priority.",
+    shortDesc: "The user mimics the move used immediately before\nit. The move fails if no other move has been\nused yet. Z-Effect +2 Attack. +6 Priority.",
+    pp: 5
+  },
+  powerswap: {
+    id: "powerswap",
+    name: "Power Swap",
+    num: 384,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user employs its psychic power to switch\nchanges to its Attack and Sp. Atk stats with\nthe foe. +4 Priority. Z-Effect +3 Speed.",
+    shortDesc: "The user employs its psychic power to switch\nchanges to its Attack and Sp. Atk stats with\nthe foe. +4 Priority. Z-Effect +3 Speed.",
+    pp: 10
+  },
+  guardswap: {
+    id: "guardswap",
+    name: "Guard Swap",
+    num: 385,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user employs its psychic power to switch\nchanges to its Defense and Sp. Def stats with\nthe foe. +4 Priority. Z-Effect +3 Speed.",
+    shortDesc: "The user employs its psychic power to switch\nchanges to its Defense and Sp. Def stats with\nthe foe. +4 Priority. Z-Effect +3 Speed.",
+    pp: 10
+  },
+  punishment: {
+    id: "punishment",
+    name: "Punishment",
+    num: 386,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user punishes the opponent for boosting stats.\nThe base power increases by 20 for every stat boost,\nbeginning at 60 BP. Can't miss,",
+    shortDesc: "The user punishes the opponent for boosting stats.\nThe base power increases by 20 for every stat boost,\nbeginning at 60 BP. Can't miss,",
+    pp: 15
+  },
+  lastresort: {
+    id: "lastresort",
+    name: "Last Resort",
+    num: 387,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 140,
+    accuracy: true,
+    category: "Physical",
+    desc: "This powerful, desperate attack can only be used\nafter the user has exhausted all other options.\nThis can't miss.",
+    shortDesc: "This powerful, desperate attack can only be used\nafter the user has exhausted all other options.\nThis can't miss.",
+    pp: 5
+  },
+  worryseed: {
+    id: "worryseed",
+    name: "Worry Seed",
+    num: 388,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "A seed that causes worry is planted on the target.\nIt prevents sleep by making the target’s\nAbility Insomnia. Z-Effect +2 Sp. Atk.",
+    shortDesc: "A seed that causes worry is planted on the target.\nIt prevents sleep by making the target’s\nAbility Insomnia. Z-Effect +2 Sp. Atk.",
+    pp: 10
   },
   suckerpunch: {
     id: "suckerpunch",
@@ -12510,931 +6379,15 @@ exports.BattleMovedex = {
     type: "Dark",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
     basePower: 70,
-    accuracy: 100,
+    accuracy: true,
     category: "Physical",
-    desc: "Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user.",
-    shortDesc: "Usually goes first. Fails if target is not attacking.",
+    desc: "This user sucker punches the foe. This fails if the\ntarget isn't using an attacking move that turn. This\nhas +2 priority and can't miss. Contact.",
+    shortDesc: "This user sucker punches the foe. This fails if the\ntarget isn't using an attacking move that turn. This\nhas +2 priority and can't miss. Contact.",
     pp: 5
-  },
-  sunnyday: {
-    id: "sunnyday",
-    name: "Sunny Day",
-    num: 241,
-    type: "Fire",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, the weather becomes Sunny Day. The damage of Fire-type attacks is multiplied by 1.5 and the damage of Water-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Heat Rock. Fails if the current weather is Sunny Day.",
-    shortDesc: "For 5 turns, intense sunlight powers Fire moves.",
-    pp: 5
-  },
-  sunsteelstrike: {
-    id: "sunsteelstrike",
-    name: "Sunsteel Strike",
-    num: 713,
-    type: "Steel",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 100,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This move and its effects ignore the Abilities of other Pokemon.",
-    shortDesc: "Ignores the Abilities of other Pokemon.",
-    pp: 5
-  },
-  superfang: {
-    id: "superfang",
-    name: "Super Fang",
-    num: 162,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Deals damage to the target equal to half of its current HP, rounded down, but not less than 1 HP.",
-    shortDesc: "Does damage equal to 1/2 target's current HP.",
-    pp: 10
-  },
-  superpower: {
-    id: "superpower",
-    name: "Superpower",
-    num: 276,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Lowers the user's Attack and Defense by 1 stage.",
-    shortDesc: "Lowers the user's Attack and Defense by 1.",
-    pp: 5
-  },
-  supersonic: {
-    id: "supersonic",
-    name: "Supersonic",
-    num: 48,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 55,
-    category: "Status",
-    desc: "Causes the target to become confused.",
-    shortDesc: "Causes the target to become confused.",
-    pp: 20
-  },
-  supersonicskystrike: {
-    id: "supersonicskystrike",
-    name: "Supersonic Skystrike",
-    num: 626,
-    type: "Flying",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  surf: {
-    id: "surf",
-    name: "Surf",
-    num: 57,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Damage doubles if the target is using Dive.",
-    shortDesc: "Hits adjacent Pokemon. Double damage on Dive.",
-    pp: 15
-  },
-  surgingstrikes: {
-    id: "surgingstrikes",
-    name: "Surging Strikes",
-    num: 818,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      punch: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits three times. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
-    shortDesc: "Always results in a critical hit. Hits 3 times.",
-    pp: 5
-  },
-  swagger: {
-    id: "swagger",
-    name: "Swagger",
-    num: 207,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 85,
-    category: "Status",
-    desc: "Raises the target's Attack by 2 stages and confuses it.",
-    shortDesc: "Raises the target's Attack by 2 and confuses it.",
-    pp: 15
-  },
-  swallow: {
-    id: "swallow",
-    name: "Swallow",
-    num: 256,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores its HP based on its Stockpile count. Restores 1/4 of its maximum HP if it's 1, 1/2 of its maximum HP if it's 2, both rounded half down, and all of its HP if it's 3. Fails if the user's Stockpile count is 0. The user's Defense and Special Defense decrease by as many stages as Stockpile had increased them, and the user's Stockpile count resets to 0.",
-    shortDesc: "Heals the user based on uses of Stockpile.",
-    pp: 10
-  },
-  sweetkiss: {
-    id: "sweetkiss",
-    name: "Sweet Kiss",
-    num: 186,
-    type: "Fairy",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 75,
-    category: "Status",
-    desc: "Causes the target to become confused.",
-    shortDesc: "Causes the target to become confused.",
-    pp: 10
-  },
-  sweetscent: {
-    id: "sweetscent",
-    name: "Sweet Scent",
-    num: 230,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's evasiveness by 2 stages.",
-    shortDesc: "Lowers the foe(s) evasiveness by 2.",
-    pp: 20
-  },
-  swift: {
-    id: "swift",
-    name: "Swift",
-    num: 129,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 60,
-    accuracy: true,
-    category: "Special",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy. Hits foes.",
-    pp: 20
-  },
-  switcheroo: {
-    id: "switcheroo",
-    name: "Switcheroo",
-    num: 415,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      allyanim: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "The user swaps its held item with the target's held item. Fails if either the user or the target is holding a Mail or Z-Crystal, if neither is holding an item, if the user is trying to give or take a Mega Stone to or from the species that can Mega Evolve with it, or if the user is trying to give or take a Blue Orb, a Red Orb, a Griseous Orb, a Plate, a Drive, or a Memory to or from a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, or a Silvally, respectively. The target is immune to this move if it has the Sticky Hold Ability.",
-    shortDesc: "User switches its held item with the target's.",
-    pp: 10
-  },
-  swordsdance: {
-    id: "swordsdance",
-    name: "Swords Dance",
-    num: 14,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack by 2 stages.",
-    shortDesc: "Raises the user's Attack by 2.",
-    pp: 20
-  },
-  synchronoise: {
-    id: "synchronoise",
-    name: "Synchronoise",
-    num: 485,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Special",
-    desc: "The target is immune if it does not share a type with the user.",
-    shortDesc: "Hits adjacent Pokemon sharing the user's type.",
-    pp: 10
-  },
-  synthesis: {
-    id: "synthesis",
-    name: "Synthesis",
-    num: 235,
-    type: "Grass",
-    flags: {
-      snatch: 1,
-      heal: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user restores 1/2 of its maximum HP if Delta Stream or no weather conditions are in effect or if the user is holding Utility Umbrella, 2/3 of its maximum HP if the weather is Desolate Land or Sunny Day, and 1/4 of its maximum HP if the weather is Primordial Sea, Rain Dance, Sandstorm, or Snow, all rounded half down.",
-    shortDesc: "Heals the user by a weather-dependent amount.",
-    pp: 5
-  },
-  syrupbomb: {
-    id: "syrupbomb",
-    name: "Syrup Bomb",
-    num: 903,
-    type: "Grass",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      bullet: 1
-    },
-    basePower: 60,
-    accuracy: 85,
-    category: "Special",
-    desc: "If this move is successful, it causes the target's Speed to be lowered by 1 stage at the end of each turn for 3 turns.",
-    shortDesc: "Target's Speed is lowered by 1 stage for 3 turns.",
-    pp: 10
-  },
-  tackle: {
-    id: "tackle",
-    name: "Tackle",
-    num: 33,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 35
-  },
-  tailglow: {
-    id: "tailglow",
-    name: "Tail Glow",
-    num: 294,
-    type: "Bug",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Special Attack by 3 stages.",
-    shortDesc: "Raises the user's Sp. Atk by 3.",
-    pp: 20
-  },
-  tailslap: {
-    id: "tailslap",
-    name: "Tail Slap",
-    num: 541,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 85,
-    category: "Physical",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
-    shortDesc: "Hits 2-5 times in one turn.",
-    pp: 10
-  },
-  tailwhip: {
-    id: "tailwhip",
-    name: "Tail Whip",
-    num: 39,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Defense by 1 stage.",
-    shortDesc: "Lowers the foe(s) Defense by 1.",
-    pp: 30
-  },
-  tailwind: {
-    id: "tailwind",
-    name: "Tailwind",
-    num: 366,
-    type: "Flying",
-    flags: {
-      snatch: 1,
-      wind: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 4 turns, the user and its party members have their Speed doubled. Fails if this move is already in effect for the user's side.",
-    shortDesc: "For 4 turns, allies' Speed is doubled.",
-    pp: 15
-  },
-  takedown: {
-    id: "takedown",
-    name: "Take Down",
-    num: 36,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 85,
-    category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 1/4 recoil.",
-    pp: 20
-  },
-  takeheart: {
-    id: "takeheart",
-    name: "Take Heart",
-    num: 850,
-    type: "Psychic",
-    flags: {
-      snatch: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The user cures its non-volatile status condition. Raises the user's Special Attack and Special Defense by 1 stage.",
-    shortDesc: "Cures user's status, raises Sp. Atk, Sp. Def by 1.",
-    pp: 15
-  },
-  tarshot: {
-    id: "tarshot",
-    name: "Tar Shot",
-    num: 749,
-    type: "Rock",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Speed by 1 stage. Until the target switches out, the effectiveness of Fire-type moves is doubled against it.",
-    shortDesc: "Target gets -1 Spe and becomes weaker to Fire.",
-    pp: 15
-  },
-  taunt: {
-    id: "taunt",
-    name: "Taunt",
-    num: 269,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Prevents the target from using non-damaging moves for its next three turns. Pokemon with the Oblivious Ability or protected by the Aroma Veil Ability are immune.",
-    shortDesc: "Target can't use status moves its next 3 turns.",
-    pp: 20
-  },
-  tearfullook: {
-    id: "tearfullook",
-    name: "Tearful Look",
-    num: 715,
-    type: "Normal",
-    flags: {
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Lowers the target's Attack and Special Attack by 1 stage.",
-    shortDesc: "Lowers the target's Attack and Sp. Atk by 1.",
-    pp: 20
-  },
-  teatime: {
-    id: "teatime",
-    name: "Teatime",
-    num: 752,
-    type: "Normal",
-    flags: {
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "All active Pokemon consume their held Berries. This effect is not prevented by substitutes, the Klutz or Unnerve Abilities, or the effects of Embargo or Magic Room. Fails if no active Pokemon is holding a Berry.",
-    shortDesc: "All active Pokemon consume held Berries.",
-    pp: 10
-  },
-  technoblast: {
-    id: "technoblast",
-    name: "Techno Blast",
-    num: 546,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Special",
-    desc: "This move's type depends on the user's held Drive.",
-    shortDesc: "Type varies based on the held Drive.",
-    pp: 5
-  },
-  tectonicrage: {
-    id: "tectonicrage",
-    name: "Tectonic Rage",
-    num: 630,
-    type: "Ground",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  teeterdance: {
-    id: "teeterdance",
-    name: "Teeter Dance",
-    num: 298,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target to become confused.",
-    shortDesc: "Confuses adjacent Pokemon.",
-    pp: 20
-  },
-  telekinesis: {
-    id: "telekinesis",
-    name: "Telekinesis",
-    num: 477,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      gravity: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 3 turns, the target cannot avoid any attacks made against it, other than OHKO moves, as long as it remains active. During the effect, the target is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability as long as it remains active. If the target uses Baton Pass, the replacement will gain the effect. Ingrain, Smack Down, Thousand Arrows, and Iron Ball override this move if the target is under any of their effects. Fails if the target is already under this effect or the effects of Ingrain, Smack Down, or Thousand Arrows. The target is immune to this move on use if its species is Diglett, Dugtrio, Alolan Diglett, Alolan Dugtrio, Sandygast, Palossand, or Gengar while Mega-Evolved. Mega Gengar cannot be under this effect by any means.",
-    shortDesc: "For 3 turns, target floats but moves can't miss it.",
-    pp: 15
-  },
-  teleport: {
-    id: "teleport",
-    name: "Teleport",
-    num: 100,
-    type: "Psychic",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
-    shortDesc: "User switches out.",
-    pp: 20
-  },
-  terablast: {
-    id: "terablast",
-    name: "Tera Blast",
-    num: 851,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      mustpressure: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "If the user is Terastallized, this move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes, and this move's type becomes the same as the user's Tera Type.",
-    shortDesc: "If Terastallized: Phys. if Atk > SpA, type = Tera.",
-    pp: 10
-  },
-  terrainpulse: {
-    id: "terrainpulse",
-    name: "Terrain Pulse",
-    num: 805,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      pulse: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Special",
-    desc: "Power doubles if the user is grounded and a terrain is active, and this move's type changes to match. Electric type during Electric Terrain, Grass type during Grassy Terrain, Fairy type during Misty Terrain, and Psychic type during Psychic Terrain.",
-    shortDesc: "User on terrain: power doubles, type varies.",
-    pp: 10
-  },
-  thief: {
-    id: "thief",
-    name: "Thief",
-    num: 168,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      failmefirst: 1,
-      noassist: 1,
-      failcopycat: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this attack was successful and the user has not fainted, it steals the target's held item if the user is not holding one. The target's item is not stolen if it is a Mail or Z-Crystal, or if the target is a Kyogre holding a Blue Orb, a Groudon holding a Red Orb, a Giratina holding a Griseous Orb, an Arceus holding a Plate, a Genesect holding a Drive, a Silvally holding a Memory, or a Pokemon that can Mega Evolve holding the Mega Stone for its species. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
-    shortDesc: "If the user has no item, it steals the target's.",
-    pp: 25
-  },
-  thousandarrows: {
-    id: "thousandarrows",
-    name: "Thousand Arrows",
-    num: 614,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "This move can hit airborne Pokemon, which includes Flying-type Pokemon, Pokemon with the Levitate Ability, Pokemon holding an Air Balloon, and Pokemon under the effect of Magnet Rise or Telekinesis. If the target is a Flying type and is not already grounded, this move deals neutral damage regardless of its other type(s). This move can hit a target using Bounce, Fly, or Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.",
-    shortDesc: "Grounds adjacent foes. First hit neutral on Flying.",
-    pp: 10
-  },
-  thousandwaves: {
-    id: "thousandwaves",
-    name: "Thousand Waves",
-    num: 615,
-    type: "Ground",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
-    shortDesc: "Hits adjacent foes. Prevents them from switching.",
-    pp: 10
-  },
-  thrash: {
-    id: "thrash",
-    name: "Thrash",
-    num: 37,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      failinstruct: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
-    shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
-    pp: 10
-  },
-  throatchop: {
-    id: "throatchop",
-    name: "Throat Chop",
-    num: 675,
-    type: "Dark",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "For 2 turns, the target cannot use sound-based moves.",
-    shortDesc: "For 2 turns, the target cannot use sound moves.",
-    pp: 15
-  },
-  thunder: {
-    id: "thunder",
-    name: "Thunder",
-    num: 87,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 110,
-    accuracy: 70,
-    category: "Special",
-    desc: "Has a 30% chance to paralyze the target. This move can hit a target using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If the weather is Desolate Land or Sunny Day, this move's accuracy is 50%. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 70%.",
-    shortDesc: "30% chance to paralyze. Can't miss in rain.",
-    pp: 10
-  },
-  thunderbolt: {
-    id: "thunderbolt",
-    name: "Thunderbolt",
-    num: 85,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to paralyze the target.",
-    shortDesc: "10% chance to paralyze the target.",
-    pp: 15
-  },
-  thundercage: {
-    id: "thundercage",
-    name: "Thunder Cage",
-    num: 819,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 90,
-    category: "Special",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 15
-  },
-  thunderfang: {
-    id: "thunderfang",
-    name: "Thunder Fang",
-    num: 422,
-    type: "Electric",
-    flags: {
-      bite: 1,
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Has a 10% chance to paralyze the target and a 10% chance to make it flinch.",
-    shortDesc: "10% chance to paralyze. 10% chance to flinch.",
-    pp: 15
-  },
-  thunderouskick: {
-    id: "thunderouskick",
-    name: "Thunderous Kick",
-    num: 823,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Defense by 1 stage.",
-    shortDesc: "100% chance to lower the target's Defense by 1.",
-    pp: 10
-  },
-  thunderpunch: {
-    id: "thunderpunch",
-    name: "Thunder Punch",
-    num: 9,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      punch: 1
-    },
-    basePower: 75,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to paralyze the target.",
-    shortDesc: "10% chance to paralyze the target.",
-    pp: 15
-  },
-  thundershock: {
-    id: "thundershock",
-    name: "Thunder Shock",
-    num: 84,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 10% chance to paralyze the target.",
-    shortDesc: "10% chance to paralyze the target.",
-    pp: 30
-  },
-  thunderwave: {
-    id: "thunderwave",
-    name: "Thunder Wave",
-    num: 86,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Status",
-    desc: "Paralyzes the target. This move does not ignore type immunity.",
-    shortDesc: "Paralyzes the target.",
-    pp: 20
-  },
-  tickle: {
-    id: "tickle",
-    name: "Tickle",
-    num: 321,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack and Defense by 1 stage.",
-    shortDesc: "Lowers the target's Attack and Defense by 1.",
-    pp: 20
-  },
-  tidyup: {
-    id: "tidyup",
-    name: "Tidy Up",
-    num: 882,
-    type: "Normal",
-    flags: {},
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack and Speed by 1 stage. Removes subtitutes from all active Pokemon and ends the effects of Spikes, Stealth Rock, Sticky Web, and Toxic Spikes for both sides.",
-    shortDesc: "User +1 Atk, Spe. Clears all substitutes/hazards.",
-    pp: 10
-  },
-  topsyturvy: {
-    id: "topsyturvy",
-    name: "Topsy-Turvy",
-    num: 576,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      allyanim: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "The target's positive stat stages become negative and vice versa. Fails if all of the target's stat stages are 0.",
-    shortDesc: "Inverts the target's stat stages.",
-    pp: 20
-  },
-  torchsong: {
-    id: "torchsong",
-    name: "Torch Song",
-    num: 871,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
-    shortDesc: "100% chance to raise the user's Sp. Atk by 1.",
-    pp: 10
-  },
-  torment: {
-    id: "torment",
-    name: "Torment",
-    num: 259,
-    type: "Dark",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1,
-      bypasssub: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Prevents the target from selecting the same move for use two turns in a row. This effect ends when the target is no longer active.",
-    shortDesc: "Target can't select the same move twice in a row.",
-    pp: 15
-  },
-  toxic: {
-    id: "toxic",
-    name: "Toxic",
-    num: 92,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 90,
-    category: "Status",
-    desc: "Badly poisons the target. If a Poison-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move.",
-    shortDesc: "Badly poisons the target. Poison types can't miss.",
-    pp: 10
   },
   toxicspikes: {
     id: "toxicspikes",
@@ -13442,123 +6395,721 @@ exports.BattleMovedex = {
     num: 390,
     type: "Poison",
     flags: {
-      reflectable: 1,
-      nonsky: 1,
-      mustpressure: 1
+      reflectable: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Sets up a hazard on the opposing side of the field, poisoning each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Can be used up to two times before failing. Opposing Pokemon become poisoned with one layer and badly poisoned with two layers. Can be removed from the opposing side if any opposing Pokemon uses Mortal Spin, Rapid Spin, or Defog successfully, is hit by Defog, or a grounded Poison-type Pokemon switches in. Safeguard prevents the opposing party from being poisoned on switch-in, but a substitute does not.",
-    shortDesc: "Poisons grounded foes on switch-in. Max 2 layers.",
+    desc: "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +3 Defense.",
+    shortDesc: "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +3 Defense.",
     pp: 20
   },
-  toxicthread: {
-    id: "toxicthread",
-    name: "Toxic Thread",
-    num: 672,
-    type: "Poison",
+  heartswap: {
+    id: "heartswap",
+    name: "Heart Swap",
+    num: 391,
+    type: "Fairy",
     flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Speed by 1 stage and poisons it.",
-    shortDesc: "Lowers the target's Speed by 1 and poisons it.",
-    pp: 20
-  },
-  trailblaze: {
-    id: "trailblaze",
-    name: "Trailblaze",
-    num: 885,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
-    shortDesc: "100% chance to raise the user's Speed by 1.",
-    pp: 20
-  },
-  transform: {
-    id: "transform",
-    name: "Transform",
-    num: 144,
-    type: "Normal",
-    flags: {
-      allyanim: 1,
-      failencore: 1,
-      noassist: 1,
-      failcopycat: 1,
-      failinstruct: 1,
-      failmimic: 1
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user transforms into the target. The target's current stats, stat stages, types, moves, Ability, weight, gender, and sprite are copied. The user's level and HP remain the same and each copied move receives only 5 PP, with a maximum of 5 PP each. The user can no longer change formes if it would have the ability to do so. This move fails if it hits a substitute, if either the user or the target is already transformed, or if either is behind an Illusion.",
-    shortDesc: "Copies target's stats, moves, types, and Ability.",
+    desc: "The user instantly switches stat changes with the foe.\nThis has +4 Priority. Z-Effect heals the user fully.",
+    shortDesc: "The user instantly switches stat changes with the foe.\nThis has +4 Priority. Z-Effect heals the user fully.",
+    pp: 1
+  },
+  rehydrate: {
+    id: "rehydrate",
+    name: "Rehydrate",
+    num: 392,
+    type: "Water",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user envelops itself in a veil made of water.\nThis recovers 50% of the user's max HP.\nZ-Effect +2 Sp. Def.",
+    shortDesc: "The user envelops itself in a veil made of water.\nThis recovers 50% of the user's max HP.\nZ-Effect +2 Sp. Def.",
+    pp: 5
+  },
+  magnetrise: {
+    id: "magnetrise",
+    name: "Magnet Rise",
+    num: 393,
+    type: "Electric",
+    flags: {
+      gravity: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user levitates using electrically generated\nmagnetism for five turns. Z-Effect +2 Speed.",
+    shortDesc: "The user levitates using electrically generated\nmagnetism for five turns. Z-Effect +2 Speed.",
     pp: 10
   },
-  triattack: {
-    id: "triattack",
-    name: "Tri Attack",
-    num: 161,
-    type: "Normal",
+  flareblitz: {
+    id: "flareblitz",
+    name: "Flare Blitz",
+    num: 394,
+    type: "Fire",
     flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user cloaks itself in fire and charges the target.\nThis has 25% recoil, and a 25% chance to burn the foe.\nContact.",
+    shortDesc: "The user cloaks itself in fire and charges the target.\nThis has 25% recoil, and a 25% chance to burn the foe.\nContact.",
+    pp: 10
+  },
+  forcewaves: {
+    id: "forcewaves",
+    name: "Force Waves",
+    num: 395,
+    type: "Fighting",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 40,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user creates 2 shock waves with it's palms. This\nhits twice. Each hit has a\n30% chance to paralyze, for a total chance of 51%.",
+    shortDesc: "The user creates 2 shock waves with it's palms. This\nhits twice. Each hit has a\n30% chance to paralyze, for a total chance of 51%.",
+    pp: 15
+  },
+  aurasphere: {
+    id: "aurasphere",
+    name: "Aura Sphere",
+    num: 396,
+    type: "Fighting",
+    flags: {
+      mirror: 1,
       protect: 1,
-      mirror: 1
+      bullet: 1,
+      pulse: 1
+    },
+    basePower: 90,
+    accuracy: true,
+    category: "Special",
+    desc: "The user lets loose a blast of aura power from deep\nwithin itself. This has a 20% chance to drop\nSp. Def by 1, and can't miss.",
+    shortDesc: "The user lets loose a blast of aura power from deep\nwithin itself. This has a 20% chance to drop\nSp. Def by 1, and can't miss.",
+    pp: 10
+  },
+  rockpolish: {
+    id: "rockpolish",
+    name: "Rock Polish",
+    num: 397,
+    type: "Rock",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user polishes its body to reduce drag.\nThis raises the user's Speed by 2 and Accuracy by 1.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user polishes its body to reduce drag.\nThis raises the user's Speed by 2 and Accuracy by 1.\nZ-Effect +2 crit rate.",
+    pp: 1
+  },
+  poisonjab: {
+    id: "poisonjab",
+    name: "Poison Jab",
+    num: 398,
+    type: "Poison",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The target is stabbed with a tentacle or arm steeped\nin poison. This poisons the foe 30% of the time.\nContact.",
+    shortDesc: "The target is stabbed with a tentacle or arm steeped\nin poison. This poisons the foe 30% of the time.\nContact.",
+    pp: 15
+  },
+  darkpulse: {
+    id: "darkpulse",
+    name: "Dark Pulse",
+    num: 399,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      pulse: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user releases a horrible aura imbued with dark\nenergy. This flinches 20% of the time, and afflicts\na sleeping target with a horrible nightmare.",
+    shortDesc: "The user releases a horrible aura imbued with dark\nenergy. This flinches 20% of the time, and afflicts\na sleeping target with a horrible nightmare.",
+    pp: 15
+  },
+  nightslash: {
+    id: "nightslash",
+    name: "Night Slash",
+    num: 400,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user slashes the target the instant an\nopportunity arises. This has a 50% (+2) crit rate.\nContact.",
+    shortDesc: "The user slashes the target the instant an\nopportunity arises. This has a 50% (+2) crit rate.\nContact.",
+    pp: 10
+  },
+  aquatail: {
+    id: "aquatail",
+    name: "Aqua Tail",
+    num: 401,
+    type: "Water",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Physical",
+    desc: "The user attacks by swinging its tail as if it were a\nvicious wave in a raging storm. This has a 30%\nchance to drop Defense. Contact.",
+    shortDesc: "The user attacks by swinging its tail as if it were a\nvicious wave in a raging storm. This has a 30%\nchance to drop Defense. Contact.",
+    pp: 10
+  },
+  seedbomb: {
+    id: "seedbomb",
+    name: "Seed Bomb",
+    num: 402,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user slams a barrage of hard-shelled seeds\ndown on the target from above. This flinches the\ntarget 20% of the time.",
+    shortDesc: "The user slams a barrage of hard-shelled seeds\ndown on the target from above. This flinches the\ntarget 20% of the time.",
+    pp: 15
+  },
+  airslash: {
+    id: "airslash",
+    name: "Air Slash",
+    num: 403,
+    type: "Flying",
+    flags: {
+      mirror: 1,
+      protect: 1
     },
     basePower: 80,
     accuracy: 100,
     category: "Special",
-    desc: "Has a 20% chance to either burn, freeze, or paralyze the target.",
-    shortDesc: "20% chance to paralyze or burn or freeze target.",
+    desc: "The user attacks with a blade of air that slices even\nthe sky. This flinches the target 30% of the time.",
+    shortDesc: "The user attacks with a blade of air that slices even\nthe sky. This flinches the target 30% of the time.",
+    pp: 15
+  },
+  xscissor: {
+    id: "xscissor",
+    name: "X-Scissor",
+    num: 404,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.\nThis has a 50% (+2) crit rate. Contact.",
+    shortDesc: "The user slashes at the target by crossing its\nscythes or claws as if they were a pair of scissors.\nThis has a 50% (+2) crit rate. Contact.",
     pp: 10
   },
-  trick: {
-    id: "trick",
-    name: "Trick",
-    num: 271,
-    type: "Psychic",
+  bugbuzz: {
+    id: "bugbuzz",
+    name: "Bug Buzz",
+    num: 405,
+    type: "Bug",
     flags: {
-      protect: 1,
+      bypasssub: 1,
       mirror: 1,
-      allyanim: 1,
-      noassist: 1,
-      failcopycat: 1
+      protect: 1,
+      punch: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user generates a devastating sound wave with\nvibration. This flinches the targets 30% of the time.",
+    shortDesc: "The user generates a devastating sound wave with\nvibration. This flinches the targets 30% of the time.",
+    pp: 10
+  },
+  dragonpulse: {
+    id: "dragonpulse",
+    name: "Dragon Pulse",
+    num: 406,
+    type: "Dragon",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      pulse: 1
+    },
+    basePower: 100,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is attacked with a shock wave generated\nby the user’s gaping mouth. This leaves the target\nwith paralysis 30% of the time.",
+    shortDesc: "The target is attacked with a shock wave generated\nby the user’s gaping mouth. This leaves the target\nwith paralysis 30% of the time.",
+    pp: 10
+  },
+  dragonrush: {
+    id: "dragonrush",
+    name: "Dragon Rush",
+    num: 407,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user tackles the target while exhibiting\noverwhelming menace. This drops the user's Defensive\nstats by 1 after use. 30% flinch rate. Contact.",
+    shortDesc: "The user tackles the target while exhibiting\noverwhelming menace. This drops the user's Defensive\nstats by 1 after use. 30% flinch rate. Contact.",
+    pp: 5
+  },
+  powergem: {
+    id: "powergem",
+    name: "Power Gem",
+    num: 408,
+    type: "Rock",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks with a ray of light that sparkles as\nif it were made of gemstones. This raises the user's\nSp. Atk by one 25% of the time.",
+    shortDesc: "The user attacks with a ray of light that sparkles as\nif it were made of gemstones. This raises the user's\nSp. Atk by one 25% of the time.",
+    pp: 10
+  },
+  drainpunch: {
+    id: "drainpunch",
+    name: "Drain Punch",
+    num: 409,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "An energy-draining punch. The user’s HP is restored\nby half the damage taken by the target. Contact.",
+    shortDesc: "An energy-draining punch. The user’s HP is restored\nby half the damage taken by the target. Contact.",
+    pp: 10
+  },
+  vacuumwave: {
+    id: "vacuumwave",
+    name: "Vacuum Wave",
+    num: 410,
+    type: "Fighting",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: true,
+    category: "Special",
+    desc: "The user sends a wave of pure vacuum at the target.\nThis has +2 priority, and can't miss.",
+    shortDesc: "The user sends a wave of pure vacuum at the target.\nThis has +2 priority, and can't miss.",
+    pp: 15
+  },
+  focusblast: {
+    id: "focusblast",
+    name: "Focus Blast",
+    num: 411,
+    type: "Fighting",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 130,
+    accuracy: 85,
+    category: "Special",
+    desc: "The user heightens its mental focus and unleashes\nmassive power. This lowers Sp. Def 30% of the time.",
+    shortDesc: "The user heightens its mental focus and unleashes\nmassive power. This lowers Sp. Def 30% of the time.",
+    pp: 5
+  },
+  energyball: {
+    id: "energyball",
+    name: "Energy Ball",
+    num: 412,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user draws power from nature and fires it at the\ntarget. This lowers Sp. Def 25% of the time.",
+    shortDesc: "The user draws power from nature and fires it at the\ntarget. This lowers Sp. Def 25% of the time.",
+    pp: 10
+  },
+  bravebird: {
+    id: "bravebird",
+    name: "Brave Bird",
+    num: 413,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user tucks in its wings and charges from a low\naltitude. This deals 25% recoil, and has a 30%\nchance to drop the foe's Defense. Contact.",
+    shortDesc: "The user tucks in its wings and charges from a low\naltitude. This deals 25% recoil, and has a 30%\nchance to drop the foe's Defense. Contact.",
+    pp: 10
+  },
+  earthpower: {
+    id: "earthpower",
+    name: "Earth Power",
+    num: 414,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user makes the ground under the target erupt\nwith power. This drops Sp. Def by one 20% of the time.",
+    shortDesc: "The user makes the ground under the target erupt\nwith power. This drops Sp. Def by one 20% of the time.",
+    pp: 10
+  },
+  switcheroo: {
+    id: "switcheroo",
+    name: "Switcheroo",
+    num: 415,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
     },
     basePower: 0,
     accuracy: 100,
     category: "Status",
-    desc: "The user swaps its held item with the target's held item. Fails if either the user or the target is holding a Mail or Z-Crystal, if neither is holding an item, if the user is trying to give or take a Mega Stone to or from the species that can Mega Evolve with it, or if the user is trying to give or take a Blue Orb, a Red Orb, a Griseous Orb, a Plate, a Drive, or a Memory to or from a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, or a Silvally, respectively. The target is immune to this move if it has the Sticky Hold Ability.",
-    shortDesc: "User switches its held item with the target's.",
-    pp: 10
+    desc: "The user trades held items with the target faster\nthan the eye can follow. Z-Effect +3 Speed. +4 Priority.",
+    shortDesc: "The user trades held items with the target faster\nthan the eye can follow. Z-Effect +3 Speed. +4 Priority.",
+    pp: 1
   },
-  trickortreat: {
-    id: "trickortreat",
-    name: "Trick-or-Treat",
-    num: 567,
+  gigaimpact: {
+    id: "gigaimpact",
+    name: "Giga Impact",
+    num: 416,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 160,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user charges at the target using every bit of its\npower. This drops the user's Attack by 2. Contact.",
+    shortDesc: "The user charges at the target using every bit of its\npower. This drops the user's Attack by 2. Contact.",
+    pp: 5
+  },
+  nastyplot: {
+    id: "nastyplot",
+    name: "Nasty Plot",
+    num: 417,
+    type: "Dark",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user stimulates its brain by thinking bad\nthoughts. This raises the user's Sp. Atk by 2.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user stimulates its brain by thinking bad\nthoughts. This raises the user's Sp. Atk by 2.\nZ-Effect +2 crit rate.",
+    pp: 1
+  },
+  bulletpunch: {
+    id: "bulletpunch",
+    name: "Bullet Punch",
+    num: 418,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user strikes the target with hard punches as\nfast as bullets. This has +1 priority, and can't miss.\nContact.",
+    shortDesc: "The user strikes the target with hard punches as\nfast as bullets. This has +1 priority, and can't miss.\nContact.",
+    pp: 15
+  },
+  avalanche: {
+    id: "avalanche",
+    name: "Avalanche",
+    num: 419,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user summons a devastating avalanche.\nThis now has NEUTRAL priority, can't miss, & doubles\nin power if you move last. 30% Flinch rate.",
+    shortDesc: "The user summons a devastating avalanche.\nThis now has NEUTRAL priority, can't miss, & doubles\nin power if you move last. 30% Flinch rate.",
+    pp: 5
+  },
+  iceshard: {
+    id: "iceshard",
+    name: "Ice Shard",
+    num: 420,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user flash-freezes chunks of ice and hurls them\nat the target. This has +1 priority and can't miss.",
+    shortDesc: "The user flash-freezes chunks of ice and hurls them\nat the target. This has +1 priority and can't miss.",
+    pp: 20
+  },
+  shadowclaw: {
+    id: "shadowclaw",
+    name: "Shadow Claw",
+    num: 421,
     type: "Ghost",
     flags: {
-      protect: 1,
-      reflectable: 1,
+      contact: 1,
       mirror: 1,
-      allyanim: 1
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user slashes with shadowy claws or blades.\nThis has a 50% (+2) critical hit rate.\nContact.",
+    shortDesc: "The user slashes with shadowy claws or blades.\nThis has a 50% (+2) critical hit rate.\nContact.",
+    pp: 10
+  },
+  thunderfang: {
+    id: "thunderfang",
+    name: "Thunder Fang",
+    num: 422,
+    type: "Electric",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      bite: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 10% chance to paralyze.\nContact.",
+    shortDesc: "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 10% chance to paralyze.\nContact.",
+    pp: 15
+  },
+  icefang: {
+    id: "icefang",
+    name: "Ice Fang",
+    num: 423,
+    type: "Ice",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      bite: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user bites with ice-infused fangs. This has a 20%\nchance to flinch, and a 10% chance to freeze.\nContact.",
+    shortDesc: "The user bites with ice-infused fangs. This has a 20%\nchance to flinch, and a 10% chance to freeze.\nContact.",
+    pp: 15
+  },
+  firefang: {
+    id: "firefang",
+    name: "Fire Fang",
+    num: 424,
+    type: "Fire",
+    flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1,
+      bite: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 10% chance to burn.\nContact.",
+    shortDesc: "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 10% chance to burn.\nContact.",
+    pp: 15
+  },
+  shadowsneak: {
+    id: "shadowsneak",
+    name: "Shadow Sneak",
+    num: 425,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user sneaks behind the foe and strikes from the\nshadows. This has +1 priority.\nThis also can't miss, and ignores substitutes. Contact.",
+    shortDesc: "The user sneaks behind the foe and strikes from the\nshadows. This has +1 priority.\nThis also can't miss, and ignores substitutes. Contact.",
+    pp: 15
+  },
+  mudbomb: {
+    id: "mudbomb",
+    name: "Mud Bomb",
+    num: 426,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 110,
+    accuracy: 90,
+    category: "Special",
+    desc: "The user launches a mud ball that explodes on impact.\nThis drops the foe's Speed by one 100% of the time.",
+    shortDesc: "The user launches a mud ball that explodes on impact.\nThis drops the foe's Speed by one 100% of the time.",
+    pp: 5
+  },
+  psychocut: {
+    id: "psychocut",
+    name: "Psycho Cut",
+    num: 427,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user tears at the target with blades formed by\npsychic power. This has a 50% (+2) crit rate.",
+    shortDesc: "The user tears at the target with blades formed by\npsychic power. This has a 50% (+2) crit rate.",
+    pp: 10
+  },
+  zenheadbutt: {
+    id: "zenheadbutt",
+    name: "Zen Headbutt",
+    num: 428,
+    type: "Psychic",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Physical",
+    desc: "The user focuses its willpower to its head and\nattacks the target. This flinches the foe 25% the\ntime. Contact.",
+    shortDesc: "The user focuses its willpower to its head and\nattacks the target. This flinches the foe 25% the\ntime. Contact.",
+    pp: 10
+  },
+  mirrorshot: {
+    id: "mirrorshot",
+    name: "Mirror Shot",
+    num: 429,
+    type: "Steel",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user lets loose a flash of energy at the target\nfrom its body. This boosts the user's Sp. Atk 25% of\nthe time.",
+    shortDesc: "The user lets loose a flash of energy at the target\nfrom its body. This boosts the user's Sp. Atk 25% of\nthe time.",
+    pp: 15
+  },
+  flashcannon: {
+    id: "flashcannon",
+    name: "Flash Cannon",
+    num: 430,
+    type: "Steel",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 90,
+    category: "Special",
+    desc: "The user gathers all its light energy and releases it\nall at once. This drops Sp. Def 50% of the time.",
+    shortDesc: "The user gathers all its light energy and releases it\nall at once. This drops Sp. Def 50% of the time.",
+    pp: 5
+  },
+  rockclimb: {
+    id: "rockclimb",
+    name: "Rock Climb",
+    num: 431,
+    type: "Rock",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user attacks the target by smashing into it with\nincredible force. This deals 20% recoil to the user.\nThis also has a 30% chance to drop Defense. Contact.",
+    shortDesc: "The user attacks the target by smashing into it with\nincredible force. This deals 20% recoil to the user.\nThis also has a 30% chance to drop Defense. Contact.",
+    pp: 10
+  },
+  defog: {
+    id: "defog",
+    name: "Defog",
+    num: 432,
+    type: "Flying",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
     },
     basePower: 0,
-    accuracy: 100,
+    accuracy: true,
     category: "Status",
-    desc: "Causes the Ghost type to be added to the target, effectively making it have two or three types. Fails if the target is already a Ghost type. If Forest's Curse adds a type to the target, it replaces the type added by this move and vice versa.",
-    shortDesc: "Adds Ghost to the target's type(s).",
-    pp: 20
+    desc: "A strong wind blows away the target’s barriers such\nas Reflect or Light Screen. This also lowers the\ntarget’s evasiveness. Z-Effect +2 crit rate.",
+    shortDesc: "A strong wind blows away the target’s barriers such\nas Reflect or Light Screen. This also lowers the\ntarget’s evasiveness. Z-Effect +2 crit rate.",
+    pp: 15
   },
   trickroom: {
     id: "trickroom",
@@ -13571,597 +7122,586 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "For 5 turns, the Speed of every Pokemon is recalculated for the purposes of determining turn order. During the effect, each Pokemon's Speed is considered to be (10000 - its normal Speed), and if this value is greater than 8191, 8192 is subtracted from it. If this move is used during the effect, the effect ends.",
-    shortDesc: "Goes last. For 5 turns, turn order is reversed.",
+    desc: "The user creates a bizarre area in which slower\nPokemon get to move first for five turns.\nZ-Effect +2 Sp. Def. This now has NEUTRAL priority.",
+    shortDesc: "The user creates a bizarre area in which slower\nPokemon get to move first for five turns.\nZ-Effect +2 Sp. Def. This now has NEUTRAL priority.",
     pp: 5
   },
-  triplearrows: {
-    id: "triplearrows",
-    name: "Triple Arrows",
-    num: 843,
-    type: "Fighting",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 50% chance to lower the target's Defense by 1 stage, a 30% chance to make it flinch, and a higher chance for a critical hit.",
-    shortDesc: "High crit. Target: 50% -1 Defense, 30% flinch.",
-    pp: 10
-  },
-  tripleaxel: {
-    id: "tripleaxel",
-    name: "Triple Axel",
-    num: 813,
-    type: "Ice",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 20,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
-    shortDesc: "Hits 3 times. Each hit can miss, but power rises.",
-    pp: 10
-  },
-  tripledive: {
-    id: "tripledive",
-    name: "Triple Dive",
-    num: 865,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 30,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Hits three times.",
-    shortDesc: "Hits 3 times.",
-    pp: 10
-  },
-  triplekick: {
-    id: "triplekick",
-    name: "Triple Kick",
-    num: 167,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 10,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Hits three times. Power increases to 20 for the second hit and 30 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
-    shortDesc: "Hits 3 times. Each hit can miss, but power rises.",
-    pp: 10
-  },
-  tropkick: {
-    id: "tropkick",
-    name: "Trop Kick",
-    num: 688,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
-    shortDesc: "100% chance to lower the target's Attack by 1.",
-    pp: 15
-  },
-  trumpcard: {
-    id: "trumpcard",
-    name: "Trump Card",
-    num: 376,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Special",
-    desc: "The power of this move is based on the amount of PP remaining after normal PP reduction and the Pressure Ability resolve. 200 power for 0 PP, 80 power for 1 PP, 60 power for 2 PP, 50 power for 3 PP, and 40 power for 4 or more PP.",
-    shortDesc: "More power the fewer PP this move has left.",
-    pp: 5
-  },
-  twinbeam: {
-    id: "twinbeam",
-    name: "Twin Beam",
-    num: 888,
-    type: "Psychic",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times in one turn.",
-    pp: 10
-  },
-  twineedle: {
-    id: "twineedle",
-    name: "Twineedle",
-    num: 41,
-    type: "Bug",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 25,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Hits twice, with each hit having a 20% chance to poison the target. If the first hit breaks the target's substitute, it will take damage for the second hit.",
-    shortDesc: "Hits 2 times. Each hit has 20% chance to poison.",
-    pp: 20
-  },
-  twinkletackle: {
-    id: "twinkletackle",
-    name: "Twinkle Tackle",
-    num: 656,
-    type: "Fairy",
-    flags: {},
-    basePower: 1,
-    accuracy: true,
-    category: "Physical",
-    desc: "Power is equal to the base move's Z-Power.",
-    shortDesc: "Power is equal to the base move's Z-Power.",
-    pp: 1
-  },
-  twister: {
-    id: "twister",
-    name: "Twister",
-    num: 239,
+  dracometeor: {
+    id: "dracometeor",
+    name: "Draco Meteor",
+    num: 434,
     type: "Dragon",
     flags: {
-      protect: 1,
       mirror: 1,
-      wind: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 20% chance to make the target flinch. Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.",
-    shortDesc: "20% chance to make the foe(s) flinch.",
-    pp: 20
-  },
-  uturn: {
-    id: "uturn",
-    name: "U-turn",
-    num: 369,
-    type: "Bug",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
-    shortDesc: "User switches out after damaging the target.",
-    pp: 20
-  },
-  uproar: {
-    id: "uproar",
-    name: "Uproar",
-    num: 253,
-    type: "Normal",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      sound: 1,
-      bypasssub: 1,
-      nosleeptalk: 1,
-      failinstruct: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Special",
-    desc: "The user spends three turns locked into this move. This move targets an opponent at random on each turn. On the first of the three turns, all sleeping active Pokemon wake up. During the three turns, no active Pokemon can fall asleep by any means, and Pokemon switched in during the effect do not wake up. If the user is prevented from moving or the attack is not successful against the target during one of the turns, the effect ends.",
-    shortDesc: "Lasts 3 turns. Active Pokemon cannot fall asleep.",
-    pp: 10
-  },
-  vacuumwave: {
-    id: "vacuumwave",
-    name: "Vacuum Wave",
-    num: 410,
-    type: "Fighting",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "Usually goes first.",
-    pp: 30
-  },
-  vcreate: {
-    id: "vcreate",
-    name: "V-create",
-    num: 557,
-    type: "Fire",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 180,
-    accuracy: 95,
-    category: "Physical",
-    desc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",
-    shortDesc: "Lowers the user's Defense, Sp. Def, Speed by 1.",
-    pp: 5
-  },
-  venomdrench: {
-    id: "venomdrench",
-    name: "Venom Drench",
-    num: 599,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Lowers the target's Attack, Special Attack, and Speed by 1 stage if the target is poisoned. Fails if the target is not poisoned.",
-    shortDesc: "Lowers Atk/Sp. Atk/Speed of poisoned foes by 1.",
-    pp: 20
-  },
-  venoshock: {
-    id: "venoshock",
-    name: "Venoshock",
-    num: 474,
-    type: "Poison",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 65,
-    accuracy: 100,
-    category: "Special",
-    desc: "Power doubles if the target is poisoned.",
-    shortDesc: "Power doubles if the target is poisoned.",
-    pp: 10
-  },
-  victorydance: {
-    id: "victorydance",
-    name: "Victory Dance",
-    num: 837,
-    type: "Fighting",
-    flags: {
-      snatch: 1,
-      dance: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "Raises the user's Attack, Defense, and Speed by 1 stage.",
-    shortDesc: "Raises the user's Attack, Defense, Speed by 1.",
-    pp: 10
-  },
-  vinewhip: {
-    id: "vinewhip",
-    name: "Vine Whip",
-    num: 22,
-    type: "Grass",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 45,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 25
-  },
-  visegrip: {
-    id: "visegrip",
-    name: "Vise Grip",
-    num: 11,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 55,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 30
-  },
-  vitalthrow: {
-    id: "vitalthrow",
-    name: "Vital Throw",
-    num: 233,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: true,
-    category: "Physical",
-    desc: "This move does not check accuracy.",
-    shortDesc: "This move does not check accuracy. Goes last.",
-    pp: 10
-  },
-  voltswitch: {
-    id: "voltswitch",
-    name: "Volt Switch",
-    num: 521,
-    type: "Electric",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Special",
-    desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
-    shortDesc: "User switches out after damaging the target.",
-    pp: 20
-  },
-  volttackle: {
-    id: "volttackle",
-    name: "Volt Tackle",
-    num: 344,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 10% chance to paralyze the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 33% recoil. 10% chance to paralyze target.",
-    pp: 15
-  },
-  wakeupslap: {
-    id: "wakeupslap",
-    name: "Wake-Up Slap",
-    num: 358,
-    type: "Fighting",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 70,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Power doubles if the target is asleep. If the user has not fainted, the target wakes up.",
-    shortDesc: "Power doubles if target is asleep, and wakes it.",
-    pp: 10
-  },
-  waterfall: {
-    id: "waterfall",
-    name: "Waterfall",
-    num: 127,
-    type: "Water",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Physical",
-    desc: "Has a 20% chance to make the target flinch.",
-    shortDesc: "20% chance to make the target flinch.",
-    pp: 15
-  },
-  watergun: {
-    id: "watergun",
-    name: "Water Gun",
-    num: 55,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 40,
-    accuracy: 100,
-    category: "Special",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 25
-  },
-  waterpledge: {
-    id: "waterpledge",
-    name: "Water Pledge",
-    num: 518,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1,
-      nonsky: 1,
-      pledgecombo: 1
-    },
-    basePower: 80,
-    accuracy: 100,
-    category: "Special",
-    desc: "If one of the user's allies chose to use Fire Pledge or Grass Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Fire Pledge, the ally uses Water Pledge with 150 power and a rainbow appears on the user's side for 4 turns, which doubles secondary effect chances and stacks with the Serene Grace Ability, except effects that cause flinching can only have their chance doubled once. If combined with Grass Pledge, the ally uses Grass Pledge with 150 power and a swamp appears on the target's side for 4 turns, which quarters the Speed of each Pokemon on that side. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Water Gem, and cannot be redirected by the Storm Drain Ability.",
-    shortDesc: "Use with Grass or Fire Pledge for added effect.",
-    pp: 10
-  },
-  waterpulse: {
-    id: "waterpulse",
-    name: "Water Pulse",
-    num: 352,
-    type: "Water",
-    flags: {
-      protect: 1,
-      pulse: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Special",
-    desc: "Has a 20% chance to confuse the target.",
-    shortDesc: "20% chance to confuse the target.",
-    pp: 20
-  },
-  watershuriken: {
-    id: "watershuriken",
-    name: "Water Shuriken",
-    num: 594,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 15,
-    accuracy: 100,
-    category: "Special",
-    desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times. If the user is an Ash-Greninja with the Battle Bond Ability, this move has a power of 20 and always hits three times.",
-    shortDesc: "Usually goes first. Hits 2-5 times in one turn.",
-    pp: 20
-  },
-  watersport: {
-    id: "watersport",
-    name: "Water Sport",
-    num: 346,
-    type: "Water",
-    flags: {
-      nonsky: 1
-    },
-    basePower: 0,
-    accuracy: true,
-    category: "Status",
-    desc: "For 5 turns, all Fire-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
-    shortDesc: "For 5 turns, Fire-type attacks have 1/3 power.",
-    pp: 15
-  },
-  waterspout: {
-    id: "waterspout",
-    name: "Water Spout",
-    num: 323,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
+      protect: 1
     },
     basePower: 150,
     accuracy: 100,
     category: "Special",
-    desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
-    shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+    desc: "Comets are summoned down from the sky onto the\ntarget. This drops the user's Sp. Atk by 2 after use.",
+    shortDesc: "Comets are summoned down from the sky onto the\ntarget. This drops the user's Sp. Atk by 2 after use.",
     pp: 5
   },
-  wavecrash: {
-    id: "wavecrash",
-    name: "Wave Crash",
-    num: 834,
-    type: "Water",
+  discharge: {
+    id: "discharge",
+    name: "Discharge",
+    num: 435,
+    type: "Electric",
     flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 120,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 33% recoil.",
-    pp: 10
-  },
-  weatherball: {
-    id: "weatherball",
-    name: "Weather Ball",
-    num: 311,
-    type: "Normal",
-    flags: {
-      bullet: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 50,
+    basePower: 85,
     accuracy: 100,
     category: "Special",
-    desc: "Power doubles if a weather condition other than Delta Stream is active, and this move's type changes to match. Ice type during Snow, Water type during Primordial Sea or Rain Dance, Rock type during Sandstorm, and Fire type during Desolate Land or Sunny Day. If the user is holding Utility Umbrella and uses Weather Ball during Primordial Sea, Rain Dance, Desolate Land, or Sunny Day, this move remains Normal type and does not double in power.",
-    shortDesc: "Power doubles and type varies in each weather.",
-    pp: 10
-  },
-  whirlpool: {
-    id: "whirlpool",
-    name: "Whirlpool",
-    num: 250,
-    type: "Water",
-    flags: {
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 35,
-    accuracy: 85,
-    category: "Special",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
+    desc: "The user strikes everything around it by letting loose\na flare of electricity. This paralyzes the target 30%\nof the time.",
+    shortDesc: "The user strikes everything around it by letting loose\na flare of electricity. This paralyzes the target 30%\nof the time.",
     pp: 15
   },
-  whirlwind: {
-    id: "whirlwind",
-    name: "Whirlwind",
-    num: 18,
-    type: "Normal",
+  pyroplume: {
+    id: "pyroplume",
+    name: "Pyro Plume",
+    num: 436,
+    type: "Fire",
     flags: {
-      reflectable: 1,
+      defrost: 1,
       mirror: 1,
-      bypasssub: 1,
-      allyanim: 1,
-      wind: 1,
-      noassist: 1,
-      failcopycat: 1
+      protect: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user torches everything around it in an inferno\nof scarlet flames. This burns the foe 30% of the time.",
+    shortDesc: "The user torches everything around it in an inferno\nof scarlet flames. This burns the foe 30% of the time.",
+    pp: 15
+  },
+  leafstorm: {
+    id: "leafstorm",
+    name: "Leaf Storm",
+    num: 437,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user whips up a storm of leaves around the\ntarget. This drops the user's Sp. Atk by 2 after use.",
+    shortDesc: "The user whips up a storm of leaves around the\ntarget. This drops the user's Sp. Atk by 2 after use.",
+    pp: 5
+  },
+  powerwhip: {
+    id: "powerwhip",
+    name: "Power Whip",
+    num: 438,
+    type: "Grass",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user violently whirls its vines, tentacles, or the\nlike to harshly lash the target. This lowers the foe's\nDefense 30% of the time. Contact.",
+    shortDesc: "The user violently whirls its vines, tentacles, or the\nlike to harshly lash the target. This lowers the foe's\nDefense 30% of the time. Contact.",
+    pp: 5
+  },
+  rockwrecker: {
+    id: "rockwrecker",
+    name: "Rock Wrecker",
+    num: 439,
+    type: "Rock",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user hurls a massive boulder with full force.\nThis lowers the user's Attack by 2 after use.",
+    shortDesc: "The user hurls a massive boulder with full force.\nThis lowers the user's Attack by 2 after use.",
+    pp: 5
+  },
+  crosspoison: {
+    id: "crosspoison",
+    name: "Cross Poison",
+    num: 440,
+    type: "Poison",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "A slashing attack with a poisonous blade that poisons\n20% of the time. This has a 50% (+2) crit rate.\nContact.",
+    shortDesc: "A slashing attack with a poisonous blade that poisons\n20% of the time. This has a 50% (+2) crit rate.\nContact.",
+    pp: 10
+  },
+  gunkshot: {
+    id: "gunkshot",
+    name: "Gunk Shot",
+    num: 441,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user shoots filthy, dense gunk at the target.\nThis has a 50% chance to poison the target.",
+    shortDesc: "The user shoots filthy, dense gunk at the target.\nThis has a 50% chance to poison the target.",
+    pp: 5
+  },
+  ironhead: {
+    id: "ironhead",
+    name: "Iron Head",
+    num: 442,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user slams the target with its steel-hard head.\nThis flinches the target 30% of the time. Contact.",
+    shortDesc: "The user slams the target with its steel-hard head.\nThis flinches the target 30% of the time. Contact.",
+    pp: 15
+  },
+  magneticburst: {
+    id: "magneticburst",
+    name: "Magnetic Burst",
+    num: 443,
+    type: "Steel",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Special",
+    desc: "The user rapidly releases a burst of magnetic bombs.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user rapidly releases a burst of magnetic bombs.\nThis has +1 priority, and can't miss.",
+    pp: 10
+  },
+  stoneedge: {
+    id: "stoneedge",
+    name: "Stone Edge",
+    num: 444,
+    type: "Rock",
+    flags: {
+      mirror: 1
+    },
+    basePower: 80,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user stabs the target from below with jagged\nstones. This ALWAYS results in a critical hit.\nBypasses Protect.",
+    shortDesc: "The user stabs the target from below with jagged\nstones. This ALWAYS results in a critical hit.\nBypasses Protect.",
+    pp: 5
+  },
+  captivate: {
+    id: "captivate",
+    name: "Captivate",
+    num: 445,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "If any opposing Pokemon is the opposite gender of\nthe user, it is charmed, which lowers it's Attack and\nSp. Atk by 2. Z-Effect +2 Sp. Def.",
+    shortDesc: "If any opposing Pokemon is the opposite gender of\nthe user, it is charmed, which lowers it's Attack and\nSp. Atk by 2. Z-Effect +2 Sp. Def.",
+    pp: 20
+  },
+  stealthrock: {
+    id: "stealthrock",
+    name: "Stealth Rock",
+    num: 446,
+    type: "Rock",
+    flags: {
+      reflectable: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The target is forced to switch out and be replaced with a random unfainted ally. Fails if the target is the last unfainted Pokemon in its party, or if the target used Ingrain previously or has the Suction Cups Ability.",
-    shortDesc: "Forces the target to switch to a random ally.",
+    desc: "Lays a trap of levitating stones around the opponent's\nside, damaging foes that switch in based on their\nweakness to Rock. Z-Effect +2 Defense.",
+    shortDesc: "Lays a trap of levitating stones around the opponent's\nside, damaging foes that switch in based on their\nweakness to Rock. Z-Effect +2 Defense.",
     pp: 20
   },
-  wickedblow: {
-    id: "wickedblow",
-    name: "Wicked Blow",
-    num: 817,
-    type: "Dark",
+  grassknot: {
+    id: "grassknot",
+    name: "Grass Knot",
+    num: 447,
+    type: "Grass",
     flags: {
       contact: 1,
-      protect: 1,
-      punch: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 75,
+    basePower: 1,
     accuracy: 100,
     category: "Physical",
-    desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
-    shortDesc: "Always results in a critical hit.",
+    desc: "The user snares the target with grass and trips it.\nThe heavier the target, the stronger this becomes.\nThis ALWAYS lowers the foe's Speed by 1. Contact.",
+    shortDesc: "The user snares the target with grass and trips it.\nThe heavier the target, the stronger this becomes.\nThis ALWAYS lowers the foe's Speed by 1. Contact.",
+    pp: 20
+  },
+  commotion: {
+    id: "commotion",
+    name: "Commotion",
+    num: 448,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks the target with sound waves of\ndeafening chatter. This confuses the target for 4\nturns 100% of the time.",
+    shortDesc: "The user attacks the target with sound waves of\ndeafening chatter. This confuses the target for 4\nturns 100% of the time.",
+    pp: 15
+  },
+  ancientforce: {
+    id: "ancientforce",
+    name: "Ancient Force",
+    num: 449,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user taps into a chaotic, ancient force.\nThis changes type in accordance with a held Plate,\nand becomes 20% stronger with a Plate equipped.",
+    shortDesc: "The user taps into a chaotic, ancient force.\nThis changes type in accordance with a held Plate,\nand becomes 20% stronger with a Plate equipped.",
     pp: 5
+  },
+  bugbiting: {
+    id: "bugbiting",
+    name: "Bug Biting",
+    num: 450,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 35,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user bites the foe TWICE. If the foe is holding a\nBerry, the user eats it and gains its effect. Contact.\nThis has a 15% flinch rate per hit.",
+    shortDesc: "The user bites the foe TWICE. If the foe is holding a\nBerry, the user eats it and gains its effect. Contact.\nThis has a 15% flinch rate per hit.",
+    pp: 20
+  },
+  chargebeam: {
+    id: "chargebeam",
+    name: "Charge Beam",
+    num: 451,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires off a weak beam of electricity that\nboosts the user's Sp. Atk by 1 after each use.",
+    shortDesc: "The user fires off a weak beam of electricity that\nboosts the user's Sp. Atk by 1 after each use.",
+    pp: 5
+  },
+  woodhammer: {
+    id: "woodhammer",
+    name: "Wood Hammer",
+    num: 452,
+    type: "Grass",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user powerfully slams the target with a tree.\nThis deals 25% recoil to the user, and drops\nDefense 30% of the time. Contact.",
+    shortDesc: "The user powerfully slams the target with a tree.\nThis deals 25% recoil to the user, and drops\nDefense 30% of the time. Contact.",
+    pp: 10
+  },
+  aquajet: {
+    id: "aquajet",
+    name: "Aqua Jet",
+    num: 453,
+    type: "Water",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user quickly surges at the target. This attack\nhas +1 priority, and can't miss. Contact.",
+    shortDesc: "The user quickly surges at the target. This attack\nhas +1 priority, and can't miss. Contact.",
+    pp: 15
+  },
+  attackorder: {
+    id: "attackorder",
+    name: "Attack Order",
+    num: 454,
+    type: "Bug",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: true,
+    category: "Physical",
+    desc: "Vespiquen orders its underlings to assault the foe.\nThis ALWAYS results in a critical hit, and can't miss.",
+    shortDesc: "Vespiquen orders its underlings to assault the foe.\nThis ALWAYS results in a critical hit, and can't miss.",
+    pp: 5
+  },
+  defendorder: {
+    id: "defendorder",
+    name: "Defend Order",
+    num: 455,
+    type: "Bug",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Vespiquen orders its underlings to shield its body.\nThis raises Vespiquen's Defense and Sp. Def by 1.\nThis has +4 Priority. Z-Effect +2 crit rate.",
+    shortDesc: "Vespiquen orders its underlings to shield its body.\nThis raises Vespiquen's Defense and Sp. Def by 1.\nThis has +4 Priority. Z-Effect +2 crit rate.",
+    pp: 2
+  },
+  healorder: {
+    id: "healorder",
+    name: "Heal Order",
+    num: 456,
+    type: "Bug",
+    flags: {
+      heal: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Vespiquen orders its underlings to heal itself.\nThis heals Vespiquen by 50% of it's max HP.\nThis has +4 priority. Z-Effect heals user fully.",
+    shortDesc: "Vespiquen orders its underlings to heal itself.\nThis heals Vespiquen by 50% of it's max HP.\nThis has +4 priority. Z-Effect heals user fully.",
+    pp: 5
+  },
+  headsmash: {
+    id: "headsmash",
+    name: "Head Smash",
+    num: 457,
+    type: "Rock",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user attacks the target with a hazardous,\nfull-power headbutt. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    shortDesc: "The user attacks the target with a hazardous,\nfull-power headbutt. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    pp: 5
+  },
+  breakingswipe: {
+    id: "breakingswipe",
+    name: "Breaking Swipe",
+    num: 458,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user widely swipes at the foes with great force.\nThis ALWAYS drops the foe's attacking stats by 1.\nContact.",
+    shortDesc: "The user widely swipes at the foes with great force.\nThis ALWAYS drops the foe's attacking stats by 1.\nContact.",
+    pp: 15
+  },
+  drakonicbeam: {
+    id: "drakonicbeam",
+    name: "Drakonic Beam",
+    num: 459,
+    type: "Dragon",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 180,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a destructive beam of dragon\nenergy at the foe. This lowers the user's Sp. Atk\nstat by 4 (-2/3) after use in exchange for high power.",
+    shortDesc: "The user unleashes a destructive beam of dragon\nenergy at the foe. This lowers the user's Sp. Atk\nstat by 4 (-2/3) after use in exchange for high power.",
+    pp: 3
+  },
+  subspacetear: {
+    id: "subspacetear",
+    name: "Subspace Tear",
+    num: 460,
+    type: "Psychic",
+    flags: {
+      mirror: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "Using psychic powers, the user tears the space\naround the foe. This ALWAYS results in a critical hit.\nBypasses Protect.",
+    shortDesc: "Using psychic powers, the user tears the space\naround the foe. This ALWAYS results in a critical hit.\nBypasses Protect.",
+    pp: 3
+  },
+  lunardance: {
+    id: "lunardance",
+    name: "Lunar Dance",
+    num: 461,
+    type: "Psychic",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user absorbs energy from the moon and performs\na mystic dance. This boosts the user's Sp. Atk,\nSp. Def and Speed by 1. Z-Effect heals the user fully.",
+    shortDesc: "The user absorbs energy from the moon and performs\na mystic dance. This boosts the user's Sp. Atk,\nSp. Def and Speed by 1. Z-Effect heals the user fully.",
+    pp: 2
+  },
+  crushgrip: {
+    id: "crushgrip",
+    name: "Crush Grip",
+    num: 462,
+    type: "Ground",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Regigias grips the foe with immense force. This ALWAYS\ncrits. Z-MOVE is 250 BP, AND gives +1 to all stats.\n120 BP without crit if target is full HP. Contact.",
+    shortDesc: "Regigias grips the foe with immense force. This ALWAYS\ncrits. Z-MOVE is 250 BP, AND gives +1 to all stats.\n120 BP without crit if target is full HP. Contact.",
+    pp: 5
+  },
+  firevortex: {
+    id: "firevortex",
+    name: "Fire Vortex",
+    num: 463,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 85,
+    category: "Special",
+    desc: "The target becomes trapped within a maelstrom of\nfire that traps foe for 12 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
+    shortDesc: "The target becomes trapped within a maelstrom of\nfire that traps foe for 12 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
+    pp: 5
+  },
+  darkvoid: {
+    id: "darkvoid",
+    name: "Dark Void",
+    num: 464,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect gives +3 Speed.",
+    shortDesc: "Darkai drags the foes into a world of darkness,\nputting them to sleep for three guaranteed turns.\nZ-Effect gives +3 Speed.",
+    pp: 1
+  },
+  seedflare: {
+    id: "seedflare",
+    name: "Seed Flare",
+    num: 465,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 85,
+    category: "Special",
+    desc: "The user emits a destructive blast from within itself.\nThis has a 50% chance to drop the foe's Sp. Def by 2.",
+    shortDesc: "The user emits a destructive blast from within itself.\nThis has a 50% chance to drop the foe's Sp. Def by 2.",
+    pp: 5
+  },
+  ominouswind: {
+    id: "ominouswind",
+    name: "Ominous Wind",
+    num: 466,
+    type: "Ghost",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user blasts the target with a gust of dismal wind.\nThis ALWAYS drops the foe's offensive stats by 1.",
+    shortDesc: "The user blasts the target with a gust of dismal wind.\nThis ALWAYS drops the foe's offensive stats by 1.",
+    pp: 15
+  },
+  shadowforce: {
+    id: "shadowforce",
+    name: "Shadow Force",
+    num: 467,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      charge: 1,
+      mirror: 1
+    },
+    basePower: 120,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user disappears, then strikes powerfully on the\nnext turn. This lowers the user's Defense stat by 2\nafter use. Ignores Protect & Substitute. Contact.",
+    shortDesc: "The user disappears, then strikes powerfully on the\nnext turn. This lowers the user's Defense stat by 2\nafter use. Ignores Protect & Substitute. Contact.",
+    pp: 5
+  },
+  honeclaws: {
+    id: "honeclaws",
+    name: "Hone Claws",
+    num: 468,
+    type: "Dark",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user sharpens its claws to boost its Attack stat\nby 1, and Accuracy by 2. Z-Effect +2 crit rate.",
+    shortDesc: "The user sharpens its claws to boost its Attack stat\nby 1, and Accuracy by 2. Z-Effect +2 crit rate.",
+    pp: 3
   },
   wideguard: {
     id: "wideguard",
@@ -14174,109 +7714,39 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "The user and its party members are protected from moves made by other Pokemon, including allies, during this turn that target all adjacent foes or all adjacent Pokemon. This move modifies the same 1/X chance of being successful used by other protection moves, where X starts at 1 and triples each time this move is successfully used, but does not use the chance to check for failure. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
-    shortDesc: "Protects allies from multi-target moves this turn.",
-    pp: 10
+    desc: "The user protects its side of the field from spread\nmoves & Z-Moves, even in single battles. This can be\nused in succession without fail. Z-Effect +3 Defense.",
+    shortDesc: "The user protects its side of the field from spread\nmoves & Z-Moves, even in single battles. This can be\nused in succession without fail. Z-Effect +3 Defense.",
+    pp: 20
   },
-  wildboltstorm: {
-    id: "wildboltstorm",
-    name: "Wildbolt Storm",
-    num: 847,
-    type: "Electric",
+  guardsplit: {
+    id: "guardsplit",
+    name: "Guard Split",
+    num: 470,
+    type: "Psychic",
     flags: {
-      protect: 1,
-      mirror: 1,
-      wind: 1
-    },
-    basePower: 100,
-    accuracy: 80,
-    category: "Special",
-    desc: "Has a 20% chance to paralyze the target. If the weather is Primordial Sea or Rain Dance, this move does not check accuracy. If this move is used against a Pokemon holding Utility Umbrella, this move's accuracy remains at 80%.",
-    shortDesc: "20% chance to paralyze foe(s). Rain: can't miss.",
-    pp: 10
-  },
-  wildcharge: {
-    id: "wildcharge",
-    name: "Wild Charge",
-    num: 528,
-    type: "Electric",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 90,
-    accuracy: 100,
-    category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 1/4 recoil.",
-    pp: 15
-  },
-  willowisp: {
-    id: "willowisp",
-    name: "Will-O-Wisp",
-    num: 261,
-    type: "Fire",
-    flags: {
-      protect: 1,
-      reflectable: 1,
-      mirror: 1
-    },
-    basePower: 0,
-    accuracy: 85,
-    category: "Status",
-    desc: "Burns the target.",
-    shortDesc: "Burns the target.",
-    pp: 15
-  },
-  wingattack: {
-    id: "wingattack",
-    name: "Wing Attack",
-    num: 17,
-    type: "Flying",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1,
-      distance: 1
-    },
-    basePower: 60,
-    accuracy: 100,
-    category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
-    pp: 35
-  },
-  wish: {
-    id: "wish",
-    name: "Wish",
-    num: 273,
-    type: "Normal",
-    flags: {
-      snatch: 1,
-      heal: 1
+      protect: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "At the end of the next turn, the Pokemon at the user's position has 1/2 of the user's maximum HP restored to it, rounded down. Fails if this move is already in effect for the user's position.",
-    shortDesc: "Next turn, 50% of the user's max HP is restored.",
+    desc: "The user employs its psychic power to average its\nDefense and Sp. Def stats with those of the target.\nZ-Effect +2 Sp. Atk. +4 Priority.",
+    shortDesc: "The user employs its psychic power to average its\nDefense and Sp. Def stats with those of the target.\nZ-Effect +2 Sp. Atk. +4 Priority.",
     pp: 10
   },
-  withdraw: {
-    id: "withdraw",
-    name: "Withdraw",
-    num: 110,
-    type: "Water",
+  powersplit: {
+    id: "powersplit",
+    name: "Power Split",
+    num: 471,
+    type: "Psychic",
     flags: {
-      snatch: 1
+      protect: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Defense by 1 stage.",
-    shortDesc: "Raises the user's Defense by 1.",
-    pp: 40
+    desc: "The user employs its psychic power to average its\nAttack and Sp. Atk stats with those of the target.\nZ-Effect +2 Sp. Atk. +4 Priority.",
+    shortDesc: "The user employs its psychic power to average its\nAttack and Sp. Atk stats with those of the target.\nZ-Effect +2 Sp. Atk. +4 Priority.",
+    pp: 10
   },
   wonderroom: {
     id: "wonderroom",
@@ -14289,25 +7759,877 @@ exports.BattleMovedex = {
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "For 5 turns, all active Pokemon have their Defense and Special Defense stats swapped. Stat stage changes are unaffected. If this move is used during the effect, the effect ends.",
-    shortDesc: "For 5 turns, all Defense and Sp. Def stats switch.",
+    desc: "The user creates a bizarre area in which Pokemon’s\nDefense and Sp. Def stats are swapped for\nfive turns. Z-Effect +2 Sp. Atk. +6 Priority.",
+    shortDesc: "The user creates a bizarre area in which Pokemon’s\nDefense and Sp. Def stats are swapped for\nfive turns. Z-Effect +2 Sp. Atk. +6 Priority.",
     pp: 10
   },
-  woodhammer: {
-    id: "woodhammer",
-    name: "Wood Hammer",
-    num: 452,
-    type: "Grass",
+  psyshock: {
+    id: "psyshock",
+    name: "Psyshock",
+    num: 473,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user materializes an odd psychic blast to attack.\nThis move deals Physical damage to the target.",
+    shortDesc: "The user materializes an odd psychic blast to attack.\nThis move deals Physical damage to the target.",
+    pp: 10
+  },
+  venoshock: {
+    id: "venoshock",
+    name: "Venoshock",
+    num: 474,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user drenches the target in a special poisonous\nliquid. This move's power is doubled if the target\nis poisoned.",
+    shortDesc: "The user drenches the target in a special poisonous\nliquid. This move's power is doubled if the target\nis poisoned.",
+    pp: 10
+  },
+  autotomize: {
+    id: "autotomize",
+    name: "Autotomize",
+    num: 475,
+    type: "Steel",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user sheds part of its body to make itself lighter\nand maximize its Speed stat to +5. In exchange, the\nuser's defense stats drop by 1. Z-Effect +2 crit rate.",
+    shortDesc: "The user sheds part of its body to make itself lighter\nand maximize its Speed stat to +5. In exchange, the\nuser's defense stats drop by 1. Z-Effect +2 crit rate.",
+    pp: 1
+  },
+  ragepowder: {
+    id: "ragepowder",
+    name: "Rage Powder",
+    num: 476,
+    type: "Bug",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opponents aim only at\nthe user.",
+    shortDesc: "The user scatters a cloud of irritating powder to\ndraw attention to itself. Opponents aim only at\nthe user.",
+    pp: 5
+  },
+  telekinesis: {
+    id: "telekinesis",
+    name: "Telekinesis",
+    num: 477,
+    type: "Psychic",
+    flags: {
+      gravity: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user makes the target float with telekinesis.\nIn addition to levitating, no attacks will miss the\nfoe for 15 turns. +4 Priority. Z-Effect +2 Sp. Atk.",
+    shortDesc: "The user makes the target float with telekinesis.\nIn addition to levitating, no attacks will miss the\nfoe for 15 turns. +4 Priority. Z-Effect +2 Sp. Atk.",
+    pp: 15
+  },
+  magicroom: {
+    id: "magicroom",
+    name: "Magic Room",
+    num: 478,
+    type: "Psychic",
+    flags: {
+      mirror: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user creates a bizarre area in which Pokemon’s\nheld items lose their effects for five turns.\nZ-Effect +2 Sp. Atk. +6 Priority.",
+    shortDesc: "The user creates a bizarre area in which Pokemon’s\nheld items lose their effects for five turns.\nZ-Effect +2 Sp. Atk. +6 Priority.",
+    pp: 10
+  },
+  smackdown: {
+    id: "smackdown",
+    name: "Smack Down",
+    num: 479,
+    type: "Rock",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user throws a stone or similar projectile to\nattack an opponent. A flying Pokemon will fall to the\nground when it’s hit. 30% flinch rate.",
+    shortDesc: "The user throws a stone or similar projectile to\nattack an opponent. A flying Pokemon will fall to the\nground when it’s hit. 30% flinch rate.",
+    pp: 15
+  },
+  stormthrow: {
+    id: "stormthrow",
+    name: "Storm Throw",
+    num: 480,
+    type: "Fighting",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user throws the target violently.\nThis ALWAYS results in a critical hit.\nBypasses Protect. Contact.",
+    shortDesc: "The user throws the target violently.\nThis ALWAYS results in a critical hit.\nBypasses Protect. Contact.",
+    pp: 3
+  },
+  flameburst: {
+    id: "flameburst",
+    name: "Flame Burst",
+    num: 481,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks the target with a bursting flame.\nThis hits 3 times, and damages Pokemon next to the\ntarget for 6% of their HP per hit for a total of 18%.",
+    shortDesc: "The user attacks the target with a bursting flame.\nThis hits 3 times, and damages Pokemon next to the\ntarget for 6% of their HP per hit for a total of 18%.",
+    pp: 15
+  },
+  sludgewave: {
+    id: "sludgewave",
+    name: "Sludge Wave",
+    num: 482,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 90,
+    category: "Special",
+    desc: "The user swamps the foes with a wave of filthy sludge.\nThis ALWAYS lowers the Speed of the foes by 1.",
+    shortDesc: "The user swamps the foes with a wave of filthy sludge.\nThis ALWAYS lowers the Speed of the foes by 1.",
+    pp: 5
+  },
+  quiverdance: {
+    id: "quiverdance",
+    name: "Quiver Dance",
+    num: 483,
+    type: "Bug",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user lightly performs a beautiful, mystic dance.\nThis boosts the user’s Sp. Atk and Speed by 1.\nZ-Effect +2 Sp. Def.",
+    shortDesc: "The user lightly performs a beautiful, mystic dance.\nThis boosts the user’s Sp. Atk and Speed by 1.\nZ-Effect +2 Sp. Def.",
+    pp: 2
+  },
+  heavyslam: {
+    id: "heavyslam",
+    name: "Heavy Slam",
+    num: 484,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user slams into the target with its heavy body.\nThe heavier the user is, the stronger this becomes.\nThis grounds a flying or levitating opponent. Contact.",
+    shortDesc: "The user slams into the target with its heavy body.\nThe heavier the user is, the stronger this becomes.\nThis grounds a flying or levitating opponent. Contact.",
+    pp: 10
+  },
+  synchronoise: {
+    id: "synchronoise",
+    name: "Synchronoise",
+    num: 485,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
     },
     basePower: 120,
     accuracy: 100,
+    category: "Special",
+    desc: "Using an odd sound wave, the user inflicts massive\ndamage on any Pokemon that share a type with the\nuser. This ALWAYS boosts the user's Sp. Atk by 1.",
+    shortDesc: "Using an odd sound wave, the user inflicts massive\ndamage on any Pokemon that share a type with the\nuser. This ALWAYS boosts the user's Sp. Atk by 1.",
+    pp: 10
+  },
+  electroball: {
+    id: "electroball",
+    name: "Electro Ball",
+    num: 486,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user hurls an electric orb at the target. The\nfaster the user is than the foe, the higher the power.\nThis ALWAYS boosts the user's Speed by 1 after use.",
+    shortDesc: "The user hurls an electric orb at the target. The\nfaster the user is than the foe, the higher the power.\nThis ALWAYS boosts the user's Speed by 1 after use.",
+    pp: 5
+  },
+  soak: {
+    id: "soak",
+    name: "Soak",
+    num: 487,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user douses the target in water.\nThis changes their typing to pure Water.\nZ-Effect +2 Sp. Atk.",
+    shortDesc: "The user douses the target in water.\nThis changes their typing to pure Water.\nZ-Effect +2 Sp. Atk.",
+    pp: 20
+  },
+  pyrodash: {
+    id: "pyrodash",
+    name: "Pyro Dash",
+    num: 488,
+    type: "Fire",
+    flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
     category: "Physical",
-    desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
-    shortDesc: "Has 33% recoil.",
+    desc: "The user quickly dashes at the target cloaked in fire.\nThis has +1 priority, and can't miss. Contact.",
+    shortDesc: "The user quickly dashes at the target cloaked in fire.\nThis has +1 priority, and can't miss. Contact.",
+    pp: 15
+  },
+  coil: {
+    id: "coil",
+    name: "Coil",
+    num: 489,
+    type: "Poison",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user coils up it's long body. This boosts\nthe user's Attack, Defense and Accuracy by 1.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user coils up it's long body. This boosts\nthe user's Attack, Defense and Accuracy by 1.\nZ-Effect +2 crit rate.",
+    pp: 3
+  },
+  lowsweep: {
+    id: "lowsweep",
+    name: "Low Sweep",
+    num: 490,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user makes a swift attack on the target’s legs.\nThis has a 30% flinch rate. Contact.",
+    shortDesc: "The user makes a swift attack on the target’s legs.\nThis has a 30% flinch rate. Contact.",
+    pp: 20
+  },
+  sludgeshot: {
+    id: "sludgeshot",
+    name: "Sludge Shot",
+    num: 491,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Special",
+    desc: "The user shoots sludge at astonishing speed.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user shoots sludge at astonishing speed.\nThis has +1 priority, and can't miss.",
+    pp: 20
+  },
+  foulplay: {
+    id: "foulplay",
+    name: "Foul Play",
+    num: 492,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Physical",
+    desc: "This devious attack uses the target's Attack stat\ninstead of the user's when dealing damage. Contact.",
+    shortDesc: "This devious attack uses the target's Attack stat\ninstead of the user's when dealing damage. Contact.",
+    pp: 10
+  },
+  simplebeam: {
+    id: "simplebeam",
+    name: "Simple Beam",
+    num: 493,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user’s mysterious psychic wave changes the\ntarget’s Ability to Simple. Z-Effect +2 Sp. Atk.",
+    shortDesc: "The user’s mysterious psychic wave changes the\ntarget’s Ability to Simple. Z-Effect +2 Sp. Atk.",
+    pp: 15
+  },
+  entrainment: {
+    id: "entrainment",
+    name: "Entrainment",
+    num: 494,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user influences the target to copy it's ability.\nZ-Effect +2 Atk.",
+    shortDesc: "The user influences the target to copy it's ability.\nZ-Effect +2 Atk.",
+    pp: 15
+  },
+  afteryou: {
+    id: "afteryou",
+    name: "After You",
+    num: 495,
+    type: "Normal",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Makes an ally move right after the user.\nThis can be useful to let a slower ally move first.",
+    shortDesc: "Makes an ally move right after the user.\nThis can be useful to let a slower ally move first.",
+    pp: 5
+  },
+  harmonize: {
+    id: "harmonize",
+    name: "Harmonize",
+    num: 496,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks the target with it's voice. Others can\nharmonize to increase the power of the voice.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    shortDesc: "The user attacks the target with it's voice. Others can\nharmonize to increase the power of the voice.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    pp: 15
+  },
+  echoedvoice: {
+    id: "echoedvoice",
+    name: "Echoed Voice",
+    num: 497,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 30,
+    accuracy: 95,
+    category: "Special",
+    desc: "The user attacks the target with an echoing voice.\nIf this move is used every turn, its power\nis boosted by 40 each time, for a maximum of 200.",
+    shortDesc: "The user attacks the target with an echoing voice.\nIf this move is used every turn, its power\nis boosted by 40 each time, for a maximum of 200.",
+    pp: 15
+  },
+  skittersmack: {
+    id: "skittersmack",
+    name: "Skitter Smack",
+    num: 498,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user creeps up on the foe, striking them quickly.\nThis ALWAYS drops the foe's attacking stats by 1.\nThis also ignores any defense boosts. Contact.",
+    shortDesc: "The user creeps up on the foe, striking them quickly.\nThis ALWAYS drops the foe's attacking stats by 1.\nThis also ignores any defense boosts. Contact.",
+    pp: 20
+  },
+  clearsmog: {
+    id: "clearsmog",
+    name: "Clear Smog",
+    num: 499,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: true,
+    category: "Special",
+    desc: "The user emits an odd gas, damaging the foes and\nresetting all stat changes to zero.",
+    shortDesc: "The user emits an odd gas, damaging the foes and\nresetting all stat changes to zero.",
+    pp: 15
+  },
+  storedpower: {
+    id: "storedpower",
+    name: "Stored Power",
+    num: 500,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 20,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user releases it's stored up power all at once.\nThis move gains 20 Base Power for every stat boost,\nand ALWAYS boosts the user's Sp. Atk by 1 after use.",
+    shortDesc: "The user releases it's stored up power all at once.\nThis move gains 20 Base Power for every stat boost,\nand ALWAYS boosts the user's Sp. Atk by 1 after use.",
+    pp: 3
+  },
+  quickguard: {
+    id: "quickguard",
+    name: "Quick Guard",
+    num: 501,
+    type: "Fighting",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user protects its side of the field from all\ntargeted priority moves. This can be used repeatedly\nwithout risk of failing. Z-Effect +3 Defense.",
+    shortDesc: "The user protects its side of the field from all\ntargeted priority moves. This can be used repeatedly\nwithout risk of failing. Z-Effect +3 Defense.",
+    pp: 30
+  },
+  allyswitch: {
+    id: "allyswitch",
+    name: "Ally Switch",
+    num: 502,
+    type: "Psychic",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user switches places with an ally.\nThis has +6 priority. Z-Effect +3 Speed.",
+    shortDesc: "The user switches places with an ally.\nThis has +6 priority. Z-Effect +3 Speed.",
+    pp: 15
+  },
+  scald: {
+    id: "scald",
+    name: "Scald",
+    num: 503,
+    type: "Water",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user shoots boiling hot water at its target.\nThis ALWAYS burns the target.",
+    shortDesc: "The user shoots boiling hot water at its target.\nThis ALWAYS burns the target.",
+    pp: 10
+  },
+  shellsmash: {
+    id: "shellsmash",
+    name: "Shell Smash",
+    num: 504,
+    type: "Normal",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user breaks its shell, which lowers Defense and\nSp. Def stats by 1, but raises Sp. Atk, Attack, and\nSpeed by 2. Z-Effect +1 Speed.",
+    shortDesc: "The user breaks its shell, which lowers Defense and\nSp. Def stats by 1, but raises Sp. Atk, Attack, and\nSpeed by 2. Z-Effect +1 Speed.",
+    pp: 2
+  },
+  healpulse: {
+    id: "healpulse",
+    name: "Heal Pulse",
+    num: 505,
+    type: "Psychic",
+    flags: {
+      protect: 1,
+      reflectable: 1,
+      pulse: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user emits a healing pulse that restores the\ntarget’s HP by 2/3 of its max HP.\nZ-Effect heals user fully.",
+    shortDesc: "The user emits a healing pulse that restores the\ntarget’s HP by 2/3 of its max HP.\nZ-Effect heals user fully.",
+    pp: 10
+  },
+  hex: {
+    id: "hex",
+    name: "Hex",
+    num: 506,
+    type: "Ghost",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Special",
+    desc: "This sinister attack does double damage to a foe\nwith a status affliction.",
+    shortDesc: "This sinister attack does double damage to a foe\nwith a status affliction.",
+    pp: 10
+  },
+  skydrop: {
+    id: "skydrop",
+    name: "Sky Drop",
+    num: 507,
+    type: "Flying",
+    flags: {
+      charge: 1,
+      contact: 1,
+      gravity: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user takes the target into the sky, then drops it\nnext turn. The foe can't attack while in the sky.\nFails if the foe is too heavy. Can't miss. Contact.",
+    shortDesc: "The user takes the target into the sky, then drops it\nnext turn. The foe can't attack while in the sky.\nFails if the foe is too heavy. Can't miss. Contact.",
+    pp: 10
+  },
+  shiftgear: {
+    id: "shiftgear",
+    name: "Shift Gear",
+    num: 508,
+    type: "Steel",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user rotates its gears, raising its Attack and\nSp. Atk by 1, and raising it's Speed by 2.\nZ-Effect +2 crit rate.",
+    shortDesc: "The user rotates its gears, raising its Attack and\nSp. Atk by 1, and raising it's Speed by 2.\nZ-Effect +2 crit rate.",
+    pp: 2
+  },
+  circlethrow: {
+    id: "circlethrow",
+    name: "Circle Throw",
+    num: 509,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: true,
+    category: "Physical",
+    desc: "The target is thrown, and a different Pokemon is\ndragged out. This attack always goes last, and can't\nmiss. Contact.",
+    shortDesc: "The target is thrown, and a different Pokemon is\ndragged out. This attack always goes last, and can't\nmiss. Contact.",
+    pp: 15
+  },
+  burningmalice: {
+    id: "burningmalice",
+    name: "Burning Malice",
+    num: 510,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user's bitterness flares up, engulfing the target\nin flames fueled by pure malice. This consumes\nany berries or gems the foe holds.",
+    shortDesc: "The user's bitterness flares up, engulfing the target\nin flames fueled by pure malice. This consumes\nany berries or gems the foe holds.",
+    pp: 15
+  },
+  quash: {
+    id: "quash",
+    name: "Quash",
+    num: 511,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "Doesn't exist.",
+    shortDesc: "Doesn't exist.",
+    pp: 15
+  },
+  acrobatics: {
+    id: "acrobatics",
+    name: "Acrobatics",
+    num: 512,
+    type: "Flying",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user nimbly strikes the target. If the user is not\nholding an item, this attack inflicts double damage.\nContact.",
+    shortDesc: "The user nimbly strikes the target. If the user is not\nholding an item, this attack inflicts double damage.\nContact.",
+    pp: 10
+  },
+  reflecttype: {
+    id: "reflecttype",
+    name: "Reflect Type",
+    num: 513,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user reflects the target’s type, making it the\nsame type as the target.\nThis has +4 priority. Z-Effect +1 all stats.",
+    shortDesc: "The user reflects the target’s type, making it the\nsame type as the target.\nThis has +4 priority. Z-Effect +1 all stats.",
+    pp: 15
+  },
+  retaliate: {
+    id: "retaliate",
+    name: "Retaliate",
+    num: 514,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user gets revenge for a fainted ally. If an ally\nfainted in the previous turn, this move’s power\nis doubled to insane levels. Contact.",
+    shortDesc: "The user gets revenge for a fainted ally. If an ally\nfainted in the previous turn, this move’s power\nis doubled to insane levels. Contact.",
+    pp: 10
+  },
+  finalgambit: {
+    id: "finalgambit",
+    name: "Final Gambit",
+    num: 515,
+    type: "Fighting",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "The user risks it all to attack the target. This user\nfaints, and deals damage equal to it's current HP.",
+    shortDesc: "The user risks it all to attack the target. This user\nfaints, and deals damage equal to it's current HP.",
+    pp: 5
+  },
+  bestow: {
+    id: "bestow",
+    name: "Bestow",
+    num: 516,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user passes its held item to the target when the\ntarget isn’t holding an item. Z-Effect +2 Attack.",
+    shortDesc: "The user passes its held item to the target when the\ntarget isn’t holding an item. Z-Effect +2 Attack.",
+    pp: 15
+  },
+  inferno: {
+    id: "inferno",
+    name: "Inferno",
+    num: 517,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 70,
+    category: "Special",
+    desc: "The user attacks by engulfing the target in an\ncatastrophic inferno of flames. This always leaves\nthe target with a burn.",
+    shortDesc: "The user attacks by engulfing the target in an\ncatastrophic inferno of flames. This always leaves\nthe target with a burn.",
+    pp: 5
+  },
+  waterpledge: {
+    id: "waterpledge",
+    name: "Water Pledge",
+    num: 518,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "A column of water strikes the target. When combined\nwith its fire equivalent, its power increases and a\nrainbow appears. 25% chance to boost Sp. Atk by one.",
+    shortDesc: "A column of water strikes the target. When combined\nwith its fire equivalent, its power increases and a\nrainbow appears. 25% chance to boost Sp. Atk by one.",
+    pp: 10
+  },
+  firepledge: {
+    id: "firepledge",
+    name: "Fire Pledge",
+    num: 519,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "A column of fire hits the target. When used with its\ngrass equivalent, its power increases and a vast sea\nof fire appears. 25% chance to boost Sp. Atk by one.",
+    shortDesc: "A column of fire hits the target. When used with its\ngrass equivalent, its power increases and a vast sea\nof fire appears. 25% chance to boost Sp. Atk by one.",
+    pp: 10
+  },
+  grasspledge: {
+    id: "grasspledge",
+    name: "Grass Pledge",
+    num: 520,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears. 25% chance to boost Sp. Atk by one.",
+    shortDesc: "A column of grass hits the target. When used with\nits water equivalent, its power increases and a vast\nswamp appears. 25% chance to boost Sp. Atk by one.",
+    pp: 10
+  },
+  voltswitch: {
+    id: "voltswitch",
+    name: "Volt Switch",
+    num: 521,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: true,
+    category: "Special",
+    desc: "After making its attack, the user rushes back to\nswitch places with a party Pokemon in waiting.\nThis attack can't miss.",
+    shortDesc: "After making its attack, the user rushes back to\nswitch places with a party Pokemon in waiting.\nThis attack can't miss.",
+    pp: 15
+  },
+  strugglebug: {
+    id: "strugglebug",
+    name: "Struggle Bug",
+    num: 522,
+    type: "Bug",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user struggles, lashing out at all opponents.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    shortDesc: "The user struggles, lashing out at all opponents.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    pp: 15
+  },
+  bulldoze: {
+    id: "bulldoze",
+    name: "Bulldoze",
+    num: 523,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user strikes everything around it with a small\nearthquake. This lowers the Speed stat of\nthose hit by 1.",
+    shortDesc: "The user strikes everything around it with a small\nearthquake. This lowers the Speed stat of\nthose hit by 1.",
+    pp: 20
+  },
+  frostbreath: {
+    id: "frostbreath",
+    name: "Frost Breath",
+    num: 524,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 65,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user blows its freezing breath on the target.\nThis attack always results in a critical hit.",
+    shortDesc: "The user blows its freezing breath on the target.\nThis attack always results in a critical hit.",
+    pp: 5
+  },
+  dragontail: {
+    id: "dragontail",
+    name: "Dragon Tail",
+    num: 525,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user slams the target with its tail, and a\ndifferent Pokemon is dragged out. This attack always\ngoes last, and can't miss. Contact.",
+    shortDesc: "The user slams the target with its tail, and a\ndifferent Pokemon is dragged out. This attack always\ngoes last, and can't miss. Contact.",
     pp: 15
   },
   workup: {
@@ -14316,135 +8638,2763 @@ exports.BattleMovedex = {
     num: 526,
     type: "Normal",
     flags: {
+      dance: 1,
       snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Raises the user's Attack and Special Attack by 1 stage.",
-    shortDesc: "Raises the user's Attack and Sp. Atk by 1.",
-    pp: 30
+    desc: "The user is roused, and its Attack and Sp. Atk\nstats increase by 1. Z-Effect +1 Speed.",
+    shortDesc: "The user is roused, and its Attack and Sp. Atk\nstats increase by 1. Z-Effect +1 Speed.",
+    pp: 3
   },
-  worryseed: {
-    id: "worryseed",
-    name: "Worry Seed",
-    num: 388,
-    type: "Grass",
+  electroweb: {
+    id: "electroweb",
+    name: "Electroweb",
+    num: 527,
+    type: "Electric",
     flags: {
-      protect: 1,
-      reflectable: 1,
       mirror: 1,
-      allyanim: 1
+      protect: 1
     },
-    basePower: 0,
-    accuracy: 100,
-    category: "Status",
-    desc: "Causes the target's Ability to become Insomnia. Fails if the target's Ability is As One, Battle Bond, Comatose, Commander, Disguise, Gulp Missile, Hadron Engine, Ice Face, Insomnia, Multitype, Orichalcum Pulse, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Truant, Zen Mode, or Zero to Hero.",
-    shortDesc: "The target's Ability becomes Insomnia.",
-    pp: 10
-  },
-  wrap: {
-    id: "wrap",
-    name: "Wrap",
-    num: 35,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 15,
-    accuracy: 90,
-    category: "Physical",
-    desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
-    shortDesc: "Traps and damages the target for 4-5 turns.",
-    pp: 20
-  },
-  wringout: {
-    id: "wringout",
-    name: "Wring Out",
-    num: 378,
-    type: "Normal",
-    flags: {
-      contact: 1,
-      protect: 1,
-      mirror: 1
-    },
-    basePower: 0,
+    basePower: 60,
     accuracy: 100,
     category: "Special",
-    desc: "Power is equal to 120 * (target's current HP / target's maximum HP), rounded half down, but not less than 1.",
-    shortDesc: "More power the more HP the target has left.",
-    pp: 5
+    desc: "The user attacks and captures opposing Pokemon\nusing an electric net. This lowers their\nSpeed stat by 1.",
+    shortDesc: "The user attacks and captures opposing Pokemon\nusing an electric net. This lowers their\nSpeed stat by 1.",
+    pp: 15
   },
-  xscissor: {
-    id: "xscissor",
-    name: "X-Scissor",
-    num: 404,
-    type: "Bug",
+  wildcharge: {
+    id: "wildcharge",
+    name: "Wild Charge",
+    num: 528,
+    type: "Electric",
     flags: {
       contact: 1,
-      protect: 1,
       mirror: 1,
-      slicing: 1
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user shrouds itself in electricity and smashes\ninto its target. This has 20% recoil, and a 20%\nchance to paralyze the target. Contact.",
+    shortDesc: "The user shrouds itself in electricity and smashes\ninto its target. This has 20% recoil, and a 20%\nchance to paralyze the target. Contact.",
+    pp: 10
+  },
+  drillrun: {
+    id: "drillrun",
+    name: "Drill Run",
+    num: 529,
+    type: "Ground",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
     },
     basePower: 80,
     accuracy: 100,
     category: "Physical",
-    desc: "No additional effect.",
-    shortDesc: "No additional effect.",
+    desc: "The user crashes into its target while rotating its\nbody or body parts like a drill.  This has a 50% (+2)\ncrit rate. Contact.",
+    shortDesc: "The user crashes into its target while rotating its\nbody or body parts like a drill.  This has a 50% (+2)\ncrit rate. Contact.",
+    pp: 10
+  },
+  dracojet: {
+    id: "dracojet",
+    name: "Draco Jet",
+    num: 530,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user strikes the target with immense speed.\nThis has +1 priority, and can't miss. Contact.",
+    shortDesc: "The user strikes the target with immense speed.\nThis has +1 priority, and can't miss. Contact.",
     pp: 15
   },
-  yawn: {
-    id: "yawn",
-    name: "Yawn",
-    num: 281,
-    type: "Normal",
+  hoodwink: {
+    id: "hoodwink",
+    name: "Hoodwink",
+    num: 531,
+    type: "Fairy",
     flags: {
+      contact: 1,
+      mirror: 1,
       protect: 1,
-      reflectable: 1,
-      mirror: 1
+      sound: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user unleashes a vicious blow after its cute act\nmakes the target less wary. This flinches the target\n30% of the time. Contact.",
+    shortDesc: "The user unleashes a vicious blow after its cute act\nmakes the target less wary. This flinches the target\n30% of the time. Contact.",
+    pp: 15
+  },
+  branchleech: {
+    id: "branchleech",
+    name: "Branch Leech",
+    num: 532,
+    type: "Grass",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user drains the foe's energy with branch-like\nappendages. The user’s HP is restored by 50% of\ndamage dealt. Contact.",
+    shortDesc: "The user drains the foe's energy with branch-like\nappendages. The user’s HP is restored by 50% of\ndamage dealt. Contact.",
+    pp: 10
+  },
+  sacredsword: {
+    id: "sacredsword",
+    name: "Sacred Sword",
+    num: 533,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 65,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user attacks by slicing with a long horn or blade.\nThis ignores all stat boosts the target may have.\nThis ALWAYS lands a critical hit. Contact.",
+    shortDesc: "The user attacks by slicing with a long horn or blade.\nThis ignores all stat boosts the target may have.\nThis ALWAYS lands a critical hit. Contact.",
+    pp: 5
+  },
+  razorshell: {
+    id: "razorshell",
+    name: "Razor Shell",
+    num: 534,
+    type: "Water",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user cuts its target with it's hard shell. This\nhas a 50% (+2) crit rate. Contact.",
+    shortDesc: "The user cuts its target with it's hard shell. This\nhas a 50% (+2) crit rate. Contact.",
+    pp: 10
+  },
+  heatcrash: {
+    id: "heatcrash",
+    name: "Heat Crash",
+    num: 535,
+    type: "Fire",
+    flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user slams its target with its flame-covered\nbody. The more the user outweighs the target, the\nstronger this is. This has a 30% burn rate. Contact.",
+    shortDesc: "The user slams its target with its flame-covered\nbody. The more the user outweighs the target, the\nstronger this is. This has a 30% burn rate. Contact.",
+    pp: 10
+  },
+  leafflurry: {
+    id: "leafflurry",
+    name: "Leaf Flurry",
+    num: 536,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user whips up a rapid flurry of leaves at the foe.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user whips up a rapid flurry of leaves at the foe.\nThis has +1 priority, and can't miss.",
+    pp: 20
+  },
+  steamroller: {
+    id: "steamroller",
+    name: "Steamroller",
+    num: 537,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user crushes its target by rolling over the target\nwith its rolled-up body. This flinches 30% of the\ntime and boosts Speed by one 100% of the time.",
+    shortDesc: "The user crushes its target by rolling over the target\nwith its rolled-up body. This flinches 30% of the\ntime and boosts Speed by one 100% of the time.",
+    pp: 5
+  },
+  cottonguard: {
+    id: "cottonguard",
+    name: "Cotton Guard",
+    num: 538,
+    type: "Grass",
+    flags: {
+      dance: 1,
+      snatch: 1
     },
     basePower: 0,
     accuracy: true,
     category: "Status",
-    desc: "Causes the target to fall asleep at the end of the next turn. Fails when used if the target cannot fall asleep or if it already has a non-volatile status condition. At the end of the next turn, if the target is still active, does not have a non-volatile status condition, and can fall asleep, it falls asleep. If the target becomes affected, this effect cannot be prevented by Safeguard or a substitute, or by falling asleep and waking up during the effect.",
-    shortDesc: "Puts the target to sleep after 1 turn.",
+    desc: "The user protects itself by wrapping its body in dense\ncotton, which raises the user's Defense by 3.\nZ-Effect heals user fully.",
+    shortDesc: "The user protects itself by wrapping its body in dense\ncotton, which raises the user's Defense by 3.\nZ-Effect heals user fully.",
+    pp: 2
+  },
+  nightdaze: {
+    id: "nightdaze",
+    name: "Night Daze",
+    num: 539,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Special",
+    desc: "The user lets loose a horrible pitch-black shock wave.\nThis flinches 25% of the time, and afflicts a sleeping\nfoe with a horrible nightmare.",
+    shortDesc: "The user lets loose a horrible pitch-black shock wave.\nThis flinches 25% of the time, and afflicts a sleeping\nfoe with a horrible nightmare.",
     pp: 10
   },
-  zapcannon: {
-    id: "zapcannon",
-    name: "Zap Cannon",
-    num: 192,
+  psystrike: {
+    id: "psystrike",
+    name: "Psystrike",
+    num: 540,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 85,
+    category: "Special",
+    desc: "The user materializes a chaotic psychic blast to\nattack the target. This attack does physical damage.",
+    shortDesc: "The user materializes a chaotic psychic blast to\nattack the target. This attack does physical damage.",
+    pp: 5
+  },
+  tailslap: {
+    id: "tailslap",
+    name: "Tail Slap",
+    num: 541,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user attacks by striking the target hard with its\ntail. It hits 2-5 times in a row. Contact.",
+    shortDesc: "The user attacks by striking the target hard with its\ntail. It hits 2-5 times in a row. Contact.",
+    pp: 15
+  },
+  hurricane: {
+    id: "hurricane",
+    name: "Hurricane",
+    num: 542,
+    type: "Flying",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 85,
+    category: "Special",
+    desc: "The user attacks by surrounding its opponent in a\nfierce hurricane. This flinches 20% of the time, and\ncan't miss in the rain.",
+    shortDesc: "The user attacks by surrounding its opponent in a\nfierce hurricane. This flinches 20% of the time, and\ncan't miss in the rain.",
+    pp: 5
+  },
+  headlongrush: {
+    id: "headlongrush",
+    name: "Headlong Rush",
+    num: 543,
+    type: "Ground",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user charges into the target with insane force.\nThis has 25% recoil, and lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
+    shortDesc: "The user charges into the target with insane force.\nThis has 25% recoil, and lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
+    pp: 5
+  },
+  geargrind: {
+    id: "geargrind",
+    name: "Gear Grind",
+    num: 544,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 55,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user attacks by grinding the target in it's gears.\nThis hits twice, with a 20% chance to flinch per hit.\nContact.",
+    shortDesc: "The user attacks by grinding the target in it's gears.\nThis hits twice, with a 20% chance to flinch per hit.\nContact.",
+    pp: 5
+  },
+  searingshot: {
+    id: "searingshot",
+    name: "Searing Shot",
+    num: 545,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1,
+      bullet: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Special",
+    desc: "The user torches everything around it in an shower\nof immense flames. This burns 25% of the time.",
+    shortDesc: "The user torches everything around it in an shower\nof immense flames. This burns 25% of the time.",
+    pp: 5
+  },
+  technoblast: {
+    id: "technoblast",
+    name: "Techno Blast",
+    num: 546,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires a blast of energy at it's target. The\nmove’s type changes depending on the Drive the\nuser holds. This ALWAYS lowers the foe's Sp. Def by 1.",
+    shortDesc: "The user fires a blast of energy at it's target. The\nmove’s type changes depending on the Drive the\nuser holds. This ALWAYS lowers the foe's Sp. Def by 1.",
+    pp: 5
+  },
+  serenade: {
+    id: "serenade",
+    name: "Serenade",
+    num: 547,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user sings a song and attacks by\nappealing to the hearts of the listening opponents.\nThis makes the foes drowsy, falling asleep in 2 turns.",
+    shortDesc: "The user sings a song and attacks by\nappealing to the hearts of the listening opponents.\nThis makes the foes drowsy, falling asleep in 2 turns.",
+    pp: 10
+  },
+  radiantedge: {
+    id: "radiantedge",
+    name: "Radiant Edge",
+    num: 548,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 65,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user conjures up a blade made from light, slashing\nat the foe. This deals PHYSICAL damage, NOT Special.\nThis ALWAYS results in a critical hit.",
+    shortDesc: "The user conjures up a blade made from light, slashing\nat the foe. This deals PHYSICAL damage, NOT Special.\nThis ALWAYS results in a critical hit.",
+    pp: 5
+  },
+  glaciate: {
+    id: "glaciate",
+    name: "Glaciate",
+    num: 549,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 90,
+    category: "Special",
+    desc: "The user freezes the space around the targets. This\nhas a 100% chance to lower the opponent's Speed by 2.",
+    shortDesc: "The user freezes the space around the targets. This\nhas a 100% chance to lower the opponent's Speed by 2.",
+    pp: 5
+  },
+  electroassault: {
+    id: "electroassault",
+    name: "Electro Assault",
+    num: 550,
     type: "Electric",
     flags: {
-      bullet: 1,
-      protect: 1,
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
+    shortDesc: "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
+    pp: 5
+  },
+  dragonfury: {
+    id: "dragonfury",
+    name: "Dragon Fury",
+    num: 551,
+    type: "Dragon",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 70,
+    category: "Special",
+    desc: "The user fires off a destructive blast of dragon breath.\nThis ALWAYS leaves the foe with a burn.",
+    shortDesc: "The user fires off a destructive blast of dragon breath.\nThis ALWAYS leaves the foe with a burn.",
+    pp: 5
+  },
+  fierydance: {
+    id: "fierydance",
+    name: "Fiery Dance",
+    num: 552,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "Cloaked in flames, the user dances with enthusiasm.\nThis ALWAYS boosts the user's Sp. Atk stat by 1.",
+    shortDesc: "Cloaked in flames, the user dances with enthusiasm.\nThis ALWAYS boosts the user's Sp. Atk stat by 1.",
+    pp: 10
+  },
+  icebreaker: {
+    id: "icebreaker",
+    name: "Ice Breaker",
+    num: 553,
+    type: "Ice",
+    flags: {
+      charge: 1,
+      mirror: 1
+    },
+    basePower: 140,
+    accuracy: true,
+    category: "Physical",
+    desc: "Charging up energy on the 1st turn, the user fires a\nnmassive chunk of energized ice on the 2nd. This will\nALWAYS paralyze and ALWAYS crit. Ignores protect.",
+    shortDesc: "Charging up energy on the 1st turn, the user fires a\nnmassive chunk of energized ice on the 2nd. This will\nALWAYS paralyze and ALWAYS crit. Ignores protect.",
+    pp: 1
+  },
+  freezerburn: {
+    id: "freezerburn",
+    name: "Freezer Burn",
+    num: 554,
+    type: "Ice",
+    flags: {
+      charge: 1,
+      defrost: 1,
       mirror: 1
     },
     basePower: 120,
-    accuracy: 50,
+    accuracy: 100,
     category: "Special",
-    desc: "Has a 100% chance to paralyze the target.",
-    shortDesc: "100% chance to paralyze the target.",
+    desc: "Charging up energy on the 1st turn, the user unleashes\na wave of harsh, frigid cold on the 2nd. The resulting\nfrostbite ALWAYS burns & ALWAYS crits. Ignores protect.",
+    shortDesc: "Charging up energy on the 1st turn, the user unleashes\na wave of harsh, frigid cold on the 2nd. The resulting\nfrostbite ALWAYS burns & ALWAYS crits. Ignores protect.",
+    pp: 1
+  },
+  dismalcry: {
+    id: "dismalcry",
+    name: "Dismal Cry",
+    num: 555,
+    type: "Dark",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a horrible sound imbued with dark\nfeelings. This demoralizes all foes who hear it,\nALWAYS dropping the foe's attacking stats by 1.",
+    shortDesc: "The user unleashes a horrible sound imbued with dark\nfeelings. This demoralizes all foes who hear it,\nALWAYS dropping the foe's attacking stats by 1.",
+    pp: 15
+  },
+  iciclecrash: {
+    id: "iciclecrash",
+    name: "Icicle Crash",
+    num: 556,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user attacks by harshly crashing large icicles\nonto the target. This flinches 30% of the time.",
+    shortDesc: "The user attacks by harshly crashing large icicles\nonto the target. This flinches 30% of the time.",
     pp: 5
   },
-  zenheadbutt: {
-    id: "zenheadbutt",
-    name: "Zen Headbutt",
-    num: 428,
+  blazingassault: {
+    id: "blazingassault",
+    name: "Blazing Assault",
+    num: 557,
+    type: "Fire",
+    flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Cloaked in flames, the user delivers a physical\nonslaught on the foe. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    shortDesc: "Cloaked in flames, the user delivers a physical\nonslaught on the foe. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    pp: 5
+  },
+  blazingoutburst: {
+    id: "blazingoutburst",
+    name: "Blazing Outburst",
+    num: 558,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 180,
+    accuracy: 100,
+    category: "Special",
+    desc: "The use fires off a destructive burst of flames.\nThis lowers the user's Sp. Atk by 4 (2/3) after use.\nPower DOUBLES when used right after Electro Outburst.",
+    shortDesc: "The use fires off a destructive burst of flames.\nThis lowers the user's Sp. Atk by 4 (2/3) after use.\nPower DOUBLES when used right after Electro Outburst.",
+    pp: 3
+  },
+  electrooutburst: {
+    id: "electrooutburst",
+    name: "Electro Outburst",
+    num: 559,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 180,
+    accuracy: 100,
+    category: "Special",
+    desc: "The use fires off a destructive bolt of lightning.\nThis lowers the user's Sp. Atk by 4 (2/3) after use.\nPower DOUBLES when used right after Blazing Outburst.",
+    shortDesc: "The use fires off a destructive bolt of lightning.\nThis lowers the user's Sp. Atk by 4 (2/3) after use.\nPower DOUBLES when used right after Blazing Outburst.",
+    pp: 3
+  },
+  flyingpress: {
+    id: "flyingpress",
+    name: "Flying Press",
+    num: 560,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      gravity: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user dives down onto the target from the sky.\nThis move is Fighting and Flying type simultaneously.\nThis has a 30% paralysis rate. Contact.",
+    shortDesc: "The user dives down onto the target from the sky.\nThis move is Fighting and Flying type simultaneously.\nThis has a 30% paralysis rate. Contact.",
+    pp: 5
+  },
+  matblock: {
+    id: "matblock",
+    name: "Mat Block",
+    num: 561,
+    type: "Fighting",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Using a pulled-up mat as a shield, the user protects\nitself and allies from damaging moves, not status.\nOnly works on turn 1. Z-Effect gives +1 All Stats.",
+    shortDesc: "Using a pulled-up mat as a shield, the user protects\nitself and allies from damaging moves, not status.\nOnly works on turn 1. Z-Effect gives +1 All Stats.",
+    pp: 10
+  },
+  belch: {
+    id: "belch",
+    name: "Belch",
+    num: 562,
+    type: "Poison",
+    flags: {
+      bypasssub: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Special",
+    desc: "Only after eating a berry, the user belches, ALWAYS\nboosting the user's Sp. Atk by 1. This also has a 30%\nflinch rate. You can swap out and still use this move.",
+    shortDesc: "Only after eating a berry, the user belches, ALWAYS\nboosting the user's Sp. Atk by 1. This also has a 30%\nflinch rate. You can swap out and still use this move.",
+    pp: 10
+  },
+  rototiller: {
+    id: "rototiller",
+    name: "Rototiller",
+    num: 563,
+    type: "Grass",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Plowing the soil, the user boosts the Attack & Sp. Atk\nof any Grass-type on the field, including itself, by 2.\nZ-Effect gives +1 all stats.",
+    shortDesc: "Plowing the soil, the user boosts the Attack & Sp. Atk\nof any Grass-type on the field, including itself, by 2.\nZ-Effect gives +1 all stats.",
+    pp: 1
+  },
+  stickyweb: {
+    id: "stickyweb",
+    name: "Sticky Web",
+    num: 564,
+    type: "Bug",
+    flags: {
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user weaves a sticky net around the opposing\nteam, which lowers their Speed stat by 1 when\nswitching into battle. Z-Effect +3 Accuracy.",
+    shortDesc: "The user weaves a sticky net around the opposing\nteam, which lowers their Speed stat by 1 when\nswitching into battle. Z-Effect +3 Accuracy.",
+    pp: 20
+  },
+  finishingblow: {
+    id: "finishingblow",
+    name: "Finishing Blow",
+    num: 565,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 35,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user jabs at the target's critical weakpoint.\nALWAYS results in a critical hit, and will boost the\nuser's Attack by 3 if it knocks out the foe. Contact.",
+    shortDesc: "The user jabs at the target's critical weakpoint.\nALWAYS results in a critical hit, and will boost the\nuser's Attack by 3 if it knocks out the foe. Contact.",
+    pp: 10
+  },
+  phantomforce: {
+    id: "phantomforce",
+    name: "Phantom Force",
+    num: 566,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      charge: 1,
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 105,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user vanishes, then strikes the target on the\nnext turn. This drops the user's Defense stat by 1\nafter use. Bypasses Protect & Substitute, and can't miss. Contact.",
+    shortDesc: "The user vanishes, then strikes the target on the\nnext turn. This drops the user's Defense stat by 1\nafter use. Bypasses Protect & Substitute, and can't miss. Contact.",
+    pp: 10
+  },
+  spectrify: {
+    id: "spectrify",
+    name: "Spectrify",
+    num: 567,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user imbues the target with ghostly power.\nThis adds Ghost type to the target’s type.\nZ-Effect +1 all stats.",
+    shortDesc: "The user imbues the target with ghostly power.\nThis adds Ghost type to the target’s type.\nZ-Effect +1 all stats.",
+    pp: 20
+  },
+  battlecry: {
+    id: "battlecry",
+    name: "Battle Cry",
+    num: 568,
+    type: "Fighting",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "Letting out a battle cry, the user intimidates the\ntarget and lowers its Attack and Sp. Atk stats by 2.\nZ-Effect +2 crit rate.",
+    shortDesc: "Letting out a battle cry, the user intimidates the\ntarget and lowers its Attack and Sp. Atk stats by 2.\nZ-Effect +2 crit rate.",
+    pp: 5
+  },
+  iondeluge: {
+    id: "iondeluge",
+    name: "Ion Deluge",
+    num: 569,
+    type: "Electric",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user disperses electrically charged particles,\nwhich changes Normal-type moves to Electric-type.\nThis has +4 Priority. Z-Effect +1 all stats.",
+    shortDesc: "The user disperses electrically charged particles,\nwhich changes Normal-type moves to Electric-type.\nThis has +4 Priority. Z-Effect +1 all stats.",
+    pp: 10
+  },
+  paraboliccharge: {
+    id: "paraboliccharge",
+    name: "Parabolic Charge",
+    num: 570,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a strange electric charge that\nheals the user by 50% of damage dealt.",
+    shortDesc: "The user unleashes a strange electric charge that\nheals the user by 50% of damage dealt.",
+    pp: 10
+  },
+  forestscurse: {
+    id: "forestscurse",
+    name: "Forest’s Curse",
+    num: 571,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user puts a curse on the foe that causes them\nto lose 25% HP at the end of each turn, at no\ncost to the user. Z-Effect +1 all stats.",
+    shortDesc: "The user puts a curse on the foe that causes them\nto lose 25% HP at the end of each turn, at no\ncost to the user. Z-Effect +1 all stats.",
+    pp: 3
+  },
+  petalblizzard: {
+    id: "petalblizzard",
+    name: "Petal Blizzard",
+    num: 572,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Special",
+    desc: "The user stirs up a violent blizzard of petals and wind.\nThis ALWAYS lowers opponent Speed by 1.",
+    shortDesc: "The user stirs up a violent blizzard of petals and wind.\nThis ALWAYS lowers opponent Speed by 1.",
+    pp: 10
+  },
+  freezedry: {
+    id: "freezedry",
+    name: "Freeze-Dry",
+    num: 573,
+    type: "Ice",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user rapidly cools the target. This freezes the\ntarget 10% of the time. This move is super effective\non Water types.",
+    shortDesc: "The user rapidly cools the target. This freezes the\ntarget 10% of the time. This move is super effective\non Water types.",
+    pp: 15
+  },
+  disarmingvoice: {
+    id: "disarmingvoice",
+    name: "Disarming Voice",
+    num: 574,
+    type: "Fairy",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1,
+      sound: 1
+    },
+    basePower: 60,
+    accuracy: 100,
+    category: "Special",
+    desc: "Letting out a charming cry, the user subdues the\nfoes, ALWAYS dropping the foe's attacking stats by 1.",
+    shortDesc: "Letting out a charming cry, the user subdues the\nfoes, ALWAYS dropping the foe's attacking stats by 1.",
+    pp: 15
+  },
+  partingshot: {
+    id: "partingshot",
+    name: "Parting Shot",
+    num: 575,
+    type: "Dark",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "With a parting threat, the user lowers the target’s\nAttack and Sp. Atk stats. Then it switches with a\nparty Pokemon. Z-Effect heals replacement.",
+    shortDesc: "With a parting threat, the user lowers the target’s\nAttack and Sp. Atk stats. Then it switches with a\nparty Pokemon. Z-Effect heals replacement.",
+    pp: 20
+  },
+  topsyturvy: {
+    id: "topsyturvy",
+    name: "Topsy-Turvy",
+    num: 576,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "All stat changes affecting the target turn\nare reversed. Z-Effect heals user fully.\nThis has +4 Priority.",
+    shortDesc: "All stat changes affecting the target turn\nare reversed. Z-Effect heals user fully.\nThis has +4 Priority.",
+    pp: 20
+  },
+  drainingkiss: {
+    id: "drainingkiss",
+    name: "Draining Kiss",
+    num: 577,
+    type: "Fairy",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by 75% of damage dealt.\nContact.",
+    shortDesc: "The user steals the target’s HP with a kiss. The\nuser’s HP is restored by 75% of damage dealt.\nContact.",
+    pp: 10
+  },
+  craftyshield: {
+    id: "craftyshield",
+    name: "Crafty Shield",
+    num: 578,
+    type: "Psychic",
+    flags: {
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user blocks any and all targeted status moves.\nThis can be used repeatedly without fail.\nHas +6 Priority. Z-EFFECT GIVES +1 ALL STATS.",
+    shortDesc: "The user blocks any and all targeted status moves.\nThis can be used repeatedly without fail.\nHas +6 Priority. Z-EFFECT GIVES +1 ALL STATS.",
+    pp: 40
+  },
+  floralguard: {
+    id: "floralguard",
+    name: "Floral Guard",
+    num: 579,
+    type: "Grass",
+    flags: {
+      dance: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user raises the Defense and Sp. Def stat of all\nGrass-type allies, including itself with a\nmysterious power. Z-Effect heals user fully.",
+    shortDesc: "The user raises the Defense and Sp. Def stat of all\nGrass-type allies, including itself with a\nmysterious power. Z-Effect heals user fully.",
+    pp: 3
+  },
+  grassyterrain: {
+    id: "grassyterrain",
+    name: "Grassy Terrain",
+    num: 580,
+    type: "Grass",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    pp: 5
+  },
+  mistyterrain: {
+    id: "mistyterrain",
+    name: "Misty Terrain",
+    num: 581,
+    type: "Fairy",
+    flags: {
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user changes the terrain to Misty Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Misty Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    pp: 5
+  },
+  electrify: {
+    id: "electrify",
+    name: "Electrify",
+    num: 582,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user makes the opponent's selected move\nfor the turn become Electric type.\nThis has +4 Priority. Z-Effect gives +2 Speed.",
+    shortDesc: "The user makes the opponent's selected move\nfor the turn become Electric type.\nThis has +4 Priority. Z-Effect gives +2 Speed.",
+    pp: 1
+  },
+  playrough: {
+    id: "playrough",
+    name: "Play Rough",
+    num: 583,
+    type: "Fairy",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 110,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user roughhouses the foe strongly, but playfully.\nThis deals 20% recoil damage to the user, and has a\n50% chance to drop the foe's Attack by 1 after use.",
+    shortDesc: "The user roughhouses the foe strongly, but playfully.\nThis deals 20% recoil damage to the user, and has a\n50% chance to drop the foe's Attack by 1 after use.",
+    pp: 5
+  },
+  pixiedust: {
+    id: "pixiedust",
+    name: "Pixie Dust",
+    num: 584,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Special",
+    desc: "The user quickly blows fairy dust at the opponent.\nThis has +1 priority, and can't miss.",
+    shortDesc: "The user quickly blows fairy dust at the opponent.\nThis has +1 priority, and can't miss.",
+    pp: 20
+  },
+  moonblast: {
+    id: "moonblast",
+    name: "Moonblast",
+    num: 585,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Special",
+    desc: "Borrowing the power of the moon, the user attacks\nthe foe. This lowers their Sp. Atk 30% of the time.",
+    shortDesc: "Borrowing the power of the moon, the user attacks\nthe foe. This lowers their Sp. Atk 30% of the time.",
+    pp: 10
+  },
+  boomburst: {
+    id: "boomburst",
+    name: "Boomburst",
+    num: 586,
+    type: "Normal",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes an excruciatingly loud sound wave.\nThis hits all foes.",
+    shortDesc: "The user unleashes an excruciatingly loud sound wave.\nThis hits all foes.",
+    pp: 5
+  },
+  fairylock: {
+    id: "fairylock",
+    name: "Fairy Lock",
+    num: 587,
+    type: "Fairy",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Doesn't exist.",
+    shortDesc: "Doesn't exist.",
+    pp: 10
+  },
+  kingsshield: {
+    id: "kingsshield",
+    name: "King’s Shield",
+    num: 588,
+    type: "Steel",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user takes a defensive stance while it protects\nitself from damage. It lowers the Attack of any foes\nthat make contact by 2. Z-Effect +1 Speed.",
+    shortDesc: "The user takes a defensive stance while it protects\nitself from damage. It lowers the Attack of any foes\nthat make contact by 2. Z-Effect +1 Speed.",
+    pp: 5
+  },
+  playnice: {
+    id: "playnice",
+    name: "Play Nice",
+    num: 589,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      reflectable: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user and the target become friends, and the\ntarget loses its will to fight. This has +4 priority,\nand drops their Sp. Atk by 1. Z-Effect +2 Attack.",
+    shortDesc: "The user and the target become friends, and the\ntarget loses its will to fight. This has +4 priority,\nand drops their Sp. Atk by 1. Z-Effect +2 Attack.",
+    pp: 20
+  },
+  confide: {
+    id: "confide",
+    name: "Confide",
+    num: 590,
+    type: "Dark",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user tells the target a shocking secret, and\ndrops their Sp. Atk and Sp. Def by one.\nZ-Effect +2 Sp. Atk. BYPASSES PROTECT.",
+    shortDesc: "The user tells the target a shocking secret, and\ndrops their Sp. Atk and Sp. Def by one.\nZ-Effect +2 Sp. Atk. BYPASSES PROTECT.",
+    pp: 10
+  },
+  mineralshower: {
+    id: "mineralshower",
+    name: "Mineral Shower",
+    num: 591,
+    type: "Rock",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user whips up a storm of gemstones and crystals.\nThis lowers the user's Sp. Atk stat by 2 after use.",
+    shortDesc: "The user whips up a storm of gemstones and crystals.\nThis lowers the user's Sp. Atk stat by 2 after use.",
+    pp: 5
+  },
+  steameruption: {
+    id: "steameruption",
+    name: "Steam Eruption",
+    num: 592,
+    type: "Water",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user immerses the target in superheated steam.\nThis ALWAYS leaves the foe with a burn.",
+    shortDesc: "The user immerses the target in superheated steam.\nThis ALWAYS leaves the foe with a burn.",
+    pp: 5
+  },
+  psychowarp: {
+    id: "psychowarp",
+    name: "Psycho Warp",
+    num: 593,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 120,
+    accuracy: true,
+    category: "Physical",
+    desc: "Using great psychic power, the user appears right\nnext to the target and strikes. This lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
+    shortDesc: "Using great psychic power, the user appears right\nnext to the target and strikes. This lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
+    pp: 5
+  },
+  surgingstrikes: {
+    id: "surgingstrikes",
+    name: "Surging Strikes",
+    num: 594,
+    type: "Water",
+    flags: {
+      contact: 1,
+      heal: 1,
+      mirror: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user repeatedly strikes the target with the force\nof a tsunami. This hits three times, and always\nresults in a critical hit. Bypasses Protect. Contact.",
+    shortDesc: "The user repeatedly strikes the target with the force\nof a tsunami. This hits three times, and always\nresults in a critical hit. Bypasses Protect. Contact.",
+    pp: 3
+  },
+  mysticalfire: {
+    id: "mysticalfire",
+    name: "Mystical Fire",
+    num: 595,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user attacks by forming a strange, magical flame.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    shortDesc: "The user attacks by forming a strange, magical flame.\nThis ALWAYS drops the foe's attacking stats by 1.",
+    pp: 10
+  },
+  spikyshield: {
+    id: "spikyshield",
+    name: "Spiky Shield",
+    num: 596,
+    type: "Grass",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "In addition to protecting the user from attacks, this\nmove also damages any attacker who makes\ncontact for 12% of their max HP. Z-Effect +2 Defense.",
+    shortDesc: "In addition to protecting the user from attacks, this\nmove also damages any attacker who makes\ncontact for 12% of their max HP. Z-Effect +2 Defense.",
+    pp: 10
+  },
+  aromaticmist: {
+    id: "aromaticmist",
+    name: "Aromatic Mist",
+    num: 597,
+    type: "Fairy",
+    flags: {
+      bypasssub: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user releases an alluring, strong smelling mist.\nThis lowers the Sp. Atk & Sp. Def stats of foes who\nsmell it by 2. Z-Effect heals the user fully.",
+    shortDesc: "The user releases an alluring, strong smelling mist.\nThis lowers the Sp. Atk & Sp. Def stats of foes who\nsmell it by 2. Z-Effect heals the user fully.",
+    pp: 5
+  },
+  strangeimpulse: {
+    id: "strangeimpulse",
+    name: "Strange Impulse",
+    num: 598,
+    type: "Electric",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user’s body emits a bizarre, unnerving impulse.\nThis lowers the Sp. Atk of the foes by 2.\nZ-Effect +2 Sp. Atk.",
+    shortDesc: "The user’s body emits a bizarre, unnerving impulse.\nThis lowers the Sp. Atk of the foes by 2.\nZ-Effect +2 Sp. Atk.",
+    pp: 5
+  },
+  venomdrench: {
+    id: "venomdrench",
+    name: "Venom Drench",
+    num: 599,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The opponent is drenched in a special, poison liquid.\nThis drops the Speed & Offenses of the foe by 3.\nFails if the foe isn't poisoned. Z-Effect +3 Sp. Atk.",
+    shortDesc: "The opponent is drenched in a special, poison liquid.\nThis drops the Speed & Offenses of the foe by 3.\nFails if the foe isn't poisoned. Z-Effect +3 Sp. Atk.",
+    pp: 5
+  },
+  powder: {
+    id: "powder",
+    name: "Powder",
+    num: 600,
+    type: "Bug",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "Covers the foe in combustible powder. +4 Priority.\nIf the target uses a Fire move, the move fails and\nthey take 25% of their max HP. Z-Effect +1 all stats.",
+    shortDesc: "Covers the foe in combustible powder. +4 Priority.\nIf the target uses a Fire move, the move fails and\nthey take 25% of their max HP. Z-Effect +1 all stats.",
+    pp: 5
+  },
+  enchantment: {
+    id: "enchantment",
+    name: "Enchantment",
+    num: 601,
+    type: "Fairy",
+    flags: {
+      charge: 1,
+      dance: 1,
+      snatch: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user summons a magical force for 1 turn.\nOn the second turn, the user gains +2 Sp. Def and\nSp. Atk and +1 Speed. Z-Effect heals user fully.",
+    shortDesc: "The user summons a magical force for 1 turn.\nOn the second turn, the user gains +2 Sp. Def and\nSp. Atk and +1 Speed. Z-Effect heals user fully.",
+    pp: 1
+  },
+  magneticflux: {
+    id: "magneticflux",
+    name: "Magnetic Flux",
+    num: 602,
+    type: "Electric",
+    flags: {
+      bypasssub: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Doesn't exist.",
+    shortDesc: "Doesn't exist.",
+    pp: 20
+  },
+  happyhour: {
+    id: "happyhour",
+    name: "Happy Hour",
+    num: 603,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Using Happy Hour doubles the amount of prize\nmoney received after battle.\nZ-Effect +1 all stats.",
+    shortDesc: "Using Happy Hour doubles the amount of prize\nmoney received after battle.\nZ-Effect +1 all stats.",
+    pp: 30
+  },
+  electricterrain: {
+    id: "electricterrain",
+    name: "Electric Terrain",
+    num: 604,
+    type: "Electric",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    pp: 5
+  },
+  dazzlinggleam: {
+    id: "dazzlinggleam",
+    name: "Dazzling Gleam",
+    num: 605,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 80,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user damages opposing Pokemon by emitting a\nbeautiful gleam of light. This has a 25% chance to\nboost the user's Sp. Atk by one.",
+    shortDesc: "The user damages opposing Pokemon by emitting a\nbeautiful gleam of light. This has a 25% chance to\nboost the user's Sp. Atk by one.",
+    pp: 15
+  },
+  celebrate: {
+    id: "celebrate",
+    name: "Celebrate",
+    num: 606,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Delibird summons a giant present with holiday spirit.\nThis does nothing, but Delibird enjoys it!\nZ-Effect gives +1 to all stats, and has +4 Priority.",
+    shortDesc: "Delibird summons a giant present with holiday spirit.\nThis does nothing, but Delibird enjoys it!\nZ-Effect gives +1 to all stats, and has +4 Priority.",
+    pp: 40
+  },
+  befriend: {
+    id: "befriend",
+    name: "Befriend",
+    num: 607,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user befriends the foe, making them less hostile.\nThis lowers the foe's Sp. Atk stat by 2.\nZ-Effect heals the user fully.",
+    shortDesc: "The user befriends the foe, making them less hostile.\nThis lowers the foe's Sp. Atk stat by 2.\nZ-Effect heals the user fully.",
+    pp: 5
+  },
+  babydolleyes: {
+    id: "babydolleyes",
+    name: "Baby-Doll Eyes",
+    num: 608,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1,
+      sound: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user stares at the target with its baby-doll\neyes, which lowers its Attack by one.\nThis has +4 priority. Z-Effect +2 Attack.",
+    shortDesc: "The user stares at the target with its baby-doll\neyes, which lowers its Attack by one.\nThis has +4 priority. Z-Effect +2 Attack.",
+    pp: 20
+  },
+  nuzzle: {
+    id: "nuzzle",
+    name: "Nuzzle",
+    num: 609,
+    type: "Electric",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user cutely nuzzles the foe.\nThis leaves the foe paralyzed and lowers their Attack\nand Sp. Atk by 1. Z-Effect +2 Attack. Contact.",
+    shortDesc: "The user cutely nuzzles the foe.\nThis leaves the foe paralyzed and lowers their Attack\nand Sp. Atk by 1. Z-Effect +2 Attack. Contact.",
+    pp: 10
+  },
+  holdback: {
+    id: "holdback",
+    name: "Hold Back",
+    num: 610,
+    type: "Fairy",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user goes easy on the foe to avoid knocking them\nout. In return, this boosts the user's Attack and\nAccuracy stats by 1 after use. Can't miss. Contact.",
+    shortDesc: "The user goes easy on the foe to avoid knocking them\nout. In return, this boosts the user's Attack and\nAccuracy stats by 1 after use. Can't miss. Contact.",
+    pp: 5
+  },
+  infestation: {
+    id: "infestation",
+    name: "Infestation",
+    num: 611,
+    type: "Bug",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Special",
+    desc: "The target is infested with a relentless pestilence\nthat traps foe for 12 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
+    shortDesc: "The target is infested with a relentless pestilence\nthat traps foe for 12 turns, preventing switching\nand dealing 12% of the foe's max HP per turn.",
+    pp: 20
+  },
+  poweruppunch: {
+    id: "poweruppunch",
+    name: "Power-Up Punch",
+    num: 612,
+    type: "Fighting",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Striking opponents over and over makes the user’s\nfists harder. Hitting a target raises the Attack stat.",
+    shortDesc: "Striking opponents over and over makes the user’s\nfists harder. Hitting a target raises the Attack stat.",
+    pp: 5
+  },
+  oblivionbeam: {
+    id: "oblivionbeam",
+    name: "Oblivion Beam",
+    num: 613,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 180,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires off a devastating beam of darkness from\nthe sky. This drops your Sp. Atk stat by -4. (2/3).",
+    shortDesc: "The user fires off a devastating beam of darkness from\nthe sky. This drops your Sp. Atk stat by -4. (2/3).",
+    pp: 3
+  },
+  thousandarrows: {
+    id: "thousandarrows",
+    name: "Thousand Arrows",
+    num: 614,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 100,
+    category: "Special",
+    desc: "Zygarde fires off an onslaught of arrows.\nThese will ground a flying target.",
+    shortDesc: "Zygarde fires off an onslaught of arrows.\nThese will ground a flying target.",
+    pp: 5
+  },
+  thousandwaves: {
+    id: "thousandwaves",
+    name: "Thousand Waves",
+    num: 615,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Special",
+    desc: "Zygarde fires off an onslaught of waves.\nThese will trap the targets in battle.",
+    shortDesc: "Zygarde fires off an onslaught of waves.\nThese will trap the targets in battle.",
+    pp: 5
+  },
+  landswrath: {
+    id: "landswrath",
+    name: "Land's Wrath",
+    num: 616,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user gathers the energy of the land and focuses\nit on the target. This lowers the user's Sp. Atk stat\nby 2 stages after use in exchange.",
+    shortDesc: "The user gathers the energy of the land and focuses\nit on the target. This lowers the user's Sp. Atk stat\nby 2 stages after use in exchange.",
+    pp: 5
+  },
+  eternalbeam: {
+    id: "eternalbeam",
+    name: "Eternal Beam",
+    num: 617,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a perilous beam fueled by its own\nlife force. This deals 25% recoil, and has a 30%\nchance to drop the foe's Sp. Def stat after use.",
+    shortDesc: "The user unleashes a perilous beam fueled by its own\nlife force. This deals 25% recoil, and has a 30%\nchance to drop the foe's Sp. Def stat after use.",
+    pp: 10
+  },
+  torrentialpulse: {
+    id: "torrentialpulse",
+    name: "Torrential Pulse",
+    num: 618,
+    type: "Water",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      pulse: 1
+    },
+    basePower: 100,
+    accuracy: 90,
+    category: "Special",
+    desc: "The user attacks opponents with a brilliant cascade of\nwater. This has a 50% chance to drop Sp. Def.",
+    shortDesc: "The user attacks opponents with a brilliant cascade of\nwater. This has a 50% chance to drop Sp. Def.",
+    pp: 10
+  },
+  precipiceblades: {
+    id: "precipiceblades",
+    name: "Precipice Blades",
+    num: 619,
+    type: "Ground",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 85,
+    category: "Physical",
+    desc: "The user attacks opposing Pokemon by manifesting\nthe power of the land in fearsome, searingly hot\nblades of stone. This burns the foes 30% of the time.",
+    shortDesc: "The user attacks opposing Pokemon by manifesting\nthe power of the land in fearsome, searingly hot\nblades of stone. This burns the foes 30% of the time.",
+    pp: 5
+  },
+  dragonascent: {
+    id: "dragonascent",
+    name: "Dragon Ascent",
+    num: 620,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user descends from the sky onto the foe\nwith immense, drakonic force.\nThis drops the user's Attack by 2 after use. Contact.",
+    shortDesc: "The user descends from the sky onto the foe\nwith immense, drakonic force.\nThis drops the user's Attack by 2 after use. Contact.",
+    pp: 5
+  },
+  hyperspacefury: {
+    id: "hyperspacefury",
+    name: "Hyperspace Fury",
+    num: 621,
+    type: "Dark",
+    flags: {
+      bypasssub: 1,
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 150,
+    accuracy: true,
+    category: "Physical",
+    desc: "Using its many arms, Hoopa Unbound unleashes it's\nfury. This drops Hoopa's Defenses by 1 after use, and\ndeals 30% recoil damage. Contact. Bypasses protect.",
+    shortDesc: "Using its many arms, Hoopa Unbound unleashes it's\nfury. This drops Hoopa's Defenses by 1 after use, and\ndeals 30% recoil damage. Contact. Bypasses protect.",
+    pp: 5
+  },
+  breakneckblitz: {
+    id: "breakneckblitz",
+    name: "Breakneck Blitz",
+    num: 623,
+    type: "Normal",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  alloutpummeling: {
+    id: "alloutpummeling",
+    name: "All-Out Pummeling",
+    num: 625,
+    type: "Fighting",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  supersonicskystrike: {
+    id: "supersonicskystrike",
+    name: "Supersonic Skystrike",
+    num: 627,
+    type: "Flying",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  aciddownpour: {
+    id: "aciddownpour",
+    name: "Acid Downpour",
+    num: 629,
+    type: "Poison",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  tectonicrage: {
+    id: "tectonicrage",
+    name: "Tectonic Rage",
+    num: 631,
+    type: "Ground",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  continentalcrush: {
+    id: "continentalcrush",
+    name: "Continental Crush",
+    num: 633,
+    type: "Rock",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  savagespinout: {
+    id: "savagespinout",
+    name: "Savage Spin-Out",
+    num: 635,
+    type: "Bug",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  neverendingnightmare: {
+    id: "neverendingnightmare",
+    name: "Never-Ending Nightmare",
+    num: 637,
+    type: "Ghost",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  corkscrewcrash: {
+    id: "corkscrewcrash",
+    name: "Corkscrew Crash",
+    num: 639,
+    type: "Steel",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  infernooverdrive: {
+    id: "infernooverdrive",
+    name: "Inferno Overdrive",
+    num: 641,
+    type: "Fire",
+    flags: {
+      defrost: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  hydrovortex: {
+    id: "hydrovortex",
+    name: "Hydro Vortex",
+    num: 643,
+    type: "Water",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  bloomdoom: {
+    id: "bloomdoom",
+    name: "Bloom Doom",
+    num: 645,
+    type: "Grass",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  gigavolthavoc: {
+    id: "gigavolthavoc",
+    name: "Gigavolt Havoc",
+    num: 647,
+    type: "Electric",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  shatteredpsyche: {
+    id: "shatteredpsyche",
+    name: "Shattered Psyche",
+    num: 649,
+    type: "Psychic",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  subzeroslammer: {
+    id: "subzeroslammer",
+    name: "Subzero Slammer",
+    num: 651,
+    type: "Ice",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  devastatingdrake: {
+    id: "devastatingdrake",
+    name: "Devastating Drake",
+    num: 653,
+    type: "Dragon",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  blackholeeclipse: {
+    id: "blackholeeclipse",
+    name: "Black Hole Eclipse",
+    num: 655,
+    type: "Dark",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  twinkletackle: {
+    id: "twinkletackle",
+    name: "Twinkle Tackle",
+    num: 657,
+    type: "Fairy",
+    flags: {
+      sound: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "Dummy Data",
+    shortDesc: "Dummy Data",
+    pp: 1
+  },
+  catastropika: {
+    id: "catastropika",
+    name: "Catastropika",
+    num: 658,
+    type: "Electric",
+    flags: {},
+    basePower: 250,
+    accuracy: true,
+    category: "Physical",
+    desc: "Pikachu dives at the target with immense force.\nThis ALWAYS crits and ALWAYS paralyzes the foe.",
+    shortDesc: "Pikachu dives at the target with immense force.\nThis ALWAYS crits and ALWAYS paralyzes the foe.",
+    pp: 1
+  },
+  sedimend: {
+    id: "sedimend",
+    name: "Sedimend",
+    num: 659,
+    type: "Ground",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user mends it's body with sand or other minerals.\nThis heals the user by 50% of it's max HP. This heals\n66% of it's HP in a Sandstorm. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user mends it's body with sand or other minerals.\nThis heals the user by 50% of it's max HP. This heals\n66% of it's HP in a Sandstorm. Z-Effect +2 Sp. Def.",
+    pp: 5
+  },
+  firstimpression: {
+    id: "firstimpression",
+    name: "First Impression",
+    num: 660,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 60,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user delivers a quick, potent blow. This has +4\npriority, can't miss, & ALWAYS crits. However, it only\nworks the on the 1st turn. Contact. BYPASSES PROTECT.",
+    shortDesc: "The user delivers a quick, potent blow. This has +4\npriority, can't miss, & ALWAYS crits. However, it only\nworks the on the 1st turn. Contact. BYPASSES PROTECT.",
+    pp: 10
+  },
+  banefulbunker: {
+    id: "banefulbunker",
+    name: "Baneful Bunker",
+    num: 661,
+    type: "Poison",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "In addition to protecting the user from attacks, this\nmove also poisons any attacker that makes\ndirect contact. Z-Effect +2 Defense.",
+    shortDesc: "In addition to protecting the user from attacks, this\nmove also poisons any attacker that makes\ndirect contact. Z-Effect +2 Defense.",
+    pp: 10
+  },
+  spiritshackle: {
+    id: "spiritshackle",
+    name: "Spirit Shackle",
+    num: 662,
+    type: "Ghost",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 60,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user attacks while simultaneously stitching the\ntarget’s shadow to the ground to prevent the target\nfrom escaping. This always results in a critical hit.",
+    shortDesc: "The user attacks while simultaneously stitching the\ntarget’s shadow to the ground to prevent the target\nfrom escaping. This always results in a critical hit.",
+    pp: 5
+  },
+  brutalswing: {
+    id: "brutalswing",
+    name: "Brutal Swing",
+    num: 663,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user crashes into the target, swinging around.\nThis has 25% recoil. The target’s stat changes don’t\naffect this attack’s damage. Contact.",
+    shortDesc: "The user crashes into the target, swinging around.\nThis has 25% recoil. The target’s stat changes don’t\naffect this attack’s damage. Contact.",
+    pp: 10
+  },
+  bubbleburst: {
+    id: "bubbleburst",
+    name: "Bubble Burst",
+    num: 664,
+    type: "Water",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Special",
+    desc: "The user releases a flurry of exploding bubbles down\nonto the foe. This ALWAYS lowers their Speed by 1.",
+    shortDesc: "The user releases a flurry of exploding bubbles down\nonto the foe. This ALWAYS lowers their Speed by 1.",
+    pp: 10
+  },
+  icehammer: {
+    id: "icehammer",
+    name: "Ice Hammer",
+    num: 665,
+    type: "Ice",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user wildly swings its heavy fist encased in ice.\nThis deals 25% recoil, and drops Defense 30% of\nthe time. Contact.",
+    shortDesc: "The user wildly swings its heavy fist encased in ice.\nThis deals 25% recoil, and drops Defense 30% of\nthe time. Contact.",
+    pp: 10
+  },
+  floralhealing: {
+    id: "floralhealing",
+    name: "Floral Healing",
+    num: 666,
+    type: "Grass",
+    flags: {
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user heals itself by 50% of its max HP.\nThis restores 2/3 HP under Grassy Terrain.\nZ-Effect gives +2 Sp. Def.",
+    shortDesc: "The user heals itself by 50% of its max HP.\nThis restores 2/3 HP under Grassy Terrain.\nZ-Effect gives +2 Sp. Def.",
+    pp: 5
+  },
+  highhorsepower: {
+    id: "highhorsepower",
+    name: "High Horsepower",
+    num: 667,
+    type: "Ground",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 95,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user kicks the target with immense power using\nits hooves. This has a 30% flinch chance. Contact.",
+    shortDesc: "The user kicks the target with immense power using\nits hooves. This has a 30% flinch chance. Contact.",
+    pp: 10
+  },
+  strengthsap: {
+    id: "strengthsap",
+    name: "Strength Sap",
+    num: 668,
+    type: "Grass",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user drains the target's life force. This\nrecovers massive HP,  equal to the foe's Attack stat.\nThis also lowers Attack by 1. Z-Effect +2 Sp. Def.",
+    shortDesc: "The user drains the target's life force. This\nrecovers massive HP,  equal to the foe's Attack stat.\nThis also lowers Attack by 1. Z-Effect +2 Sp. Def.",
+    pp: 5
+  },
+  solarblade: {
+    id: "solarblade",
+    name: "Solar Blade",
+    num: 669,
+    type: "Grass",
+    flags: {
+      charge: 1,
+      contact: 1,
+      mirror: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user gathers light and strikes with a blade on the\nsecond turn. This doesn't need to charge in sun.\nContact. ALWAYS CRITS. Ignores protect.",
+    shortDesc: "The user gathers light and strikes with a blade on the\nsecond turn. This doesn't need to charge in sun.\nContact. ALWAYS CRITS. Ignores protect.",
+    pp: 10
+  },
+  seedshot: {
+    id: "seedshot",
+    name: "Seed Shot",
+    num: 670,
+    type: "Grass",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user quickly shoots small seeds and other\nplant matter at the foe. This can't miss.\nThis attack has +1 priority.",
+    shortDesc: "The user quickly shoots small seeds and other\nplant matter at the foe. This can't miss.\nThis attack has +1 priority.",
+    pp: 25
+  },
+  spotlight: {
+    id: "spotlight",
+    name: "Spotlight",
+    num: 671,
+    type: "Normal",
+    flags: {
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user shines a spotlight on the foe so they become\nthe center of attention for the rest of the turn.\nZ-Effect gives +1 to all stats.",
+    shortDesc: "The user shines a spotlight on the foe so they become\nthe center of attention for the rest of the turn.\nZ-Effect gives +1 to all stats.",
+    pp: 15
+  },
+  toxicthread: {
+    id: "toxicthread",
+    name: "Toxic Thread",
+    num: 672,
+    type: "Poison",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: 100,
+    category: "Status",
+    desc: "The user shoots poisonous filaments to poison and slow\nthe foe. This both poisons the foe, and drops their\nSpeed & Evasion stats by 4. Z-Effect +1 all stats.",
+    shortDesc: "The user shoots poisonous filaments to poison and slow\nthe foe. This both poisons the foe, and drops their\nSpeed & Evasion stats by 4. Z-Effect +1 all stats.",
+    pp: 20
+  },
+  laserfocus: {
+    id: "laserfocus",
+    name: "Laser Focus",
+    num: 673,
+    type: "Normal",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 Speed.",
+    shortDesc: "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 Speed.",
+    pp: 30
+  },
+  gearup: {
+    id: "gearup",
+    name: "Gear Up",
+    num: 674,
+    type: "Steel",
+    flags: {
+      bypasssub: 1,
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user gears up for battle. This heals the user by\n50% of their max HP. With a Z-Crystal, however,\nthis will give the user +1 to ALL stats.",
+    shortDesc: "The user gears up for battle. This heals the user by\n50% of their max HP. With a Z-Crystal, however,\nthis will give the user +1 to ALL stats.",
+    pp: 5
+  },
+  hellthrust: {
+    id: "hellthrust",
+    name: "Hell Thrust",
+    num: 675,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 100,
+    accuracy: 95,
+    category: "Physical",
+    desc: "The user savagely strikes the target, and the\nresultant suffering prevents the target from using\nFairy-type moves for 2 turns. Contact.",
+    shortDesc: "The user savagely strikes the target, and the\nresultant suffering prevents the target from using\nFairy-type moves for 2 turns. Contact.",
+    pp: 10
+  },
+  bugbomber: {
+    id: "bugbomber",
+    name: "Bug Bomber",
+    num: 676,
+    type: "Bug",
+    flags: {
+      heal: 1,
+      mirror: 1,
+      bullet: 1
+    },
+    basePower: 25,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user fires 3 balls made from varying components.\nThis hits 3 times, ALWAYS results in a critical hit,\nand bypasses Protect. Heals an ally by 50% when used.",
+    shortDesc: "The user fires 3 balls made from varying components.\nThis hits 3 times, ALWAYS results in a critical hit,\nand bypasses Protect. Heals an ally by 50% when used.",
+    pp: 3
+  },
+  anchorshot: {
+    id: "anchorshot",
+    name: "Anchor Shot",
+    num: 677,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 140,
+    accuracy: 100,
+    category: "Physical",
+    desc: "Dhelmise pummels and wraps the target with it's\nanchor. This traps the target in battle, and ALWAYS\nlowers their Speed stat by 4. Contact.",
+    shortDesc: "Dhelmise pummels and wraps the target with it's\nanchor. This traps the target in battle, and ALWAYS\nlowers their Speed stat by 4. Contact.",
+    pp: 5
+  },
+  psychicterrain: {
+    id: "psychicterrain",
+    name: "Psychic Terrain",
+    num: 678,
+    type: "Psychic",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user changes the terrain to Psychic Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    shortDesc: "The user changes the terrain to Psychic Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    pp: 5
+  },
+  lunge: {
+    id: "lunge",
+    name: "Lunge",
+    num: 679,
+    type: "Bug",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user makes a lunge at the target, attacking with\nfull force. This always lowers the target’s Defense\nstat by one. Contact.",
+    shortDesc: "The user makes a lunge at the target, attacking with\nfull force. This always lowers the target’s Defense\nstat by one. Contact.",
+    pp: 10
+  },
+  firelash: {
+    id: "firelash",
+    name: "Fire Lash",
+    num: 680,
+    type: "Fire",
+    flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user lashes the target with a burning whip, tail\nor the like. This always lowers the target's Defense\nstat by one. Contact.",
+    shortDesc: "The user lashes the target with a burning whip, tail\nor the like. This always lowers the target's Defense\nstat by one. Contact.",
+    pp: 10
+  },
+  powertrip: {
+    id: "powertrip",
+    name: "Power Trip",
+    num: 681,
+    type: "Dark",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 20,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user boasts its strength and attacks the target.\nThis gains 20 Base Power for every stat boost.\nThe user gains +1 Attack after each use. Contact.",
+    shortDesc: "The user boasts its strength and attacks the target.\nThis gains 20 Base Power for every stat boost.\nThe user gains +1 Attack after each use. Contact.",
+    pp: 3
+  },
+  burnup: {
+    id: "burnup",
+    name: "Burn Up",
+    num: 682,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      heal: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 140,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user burns its fire out in a massive blast this\nremoves the user's Fire typing after use. This fails\nafter the Fire type is lost, & ALWAYS burns the foe.",
+    shortDesc: "The user burns its fire out in a massive blast this\nremoves the user's Fire typing after use. This fails\nafter the Fire type is lost, & ALWAYS burns the foe.",
+    pp: 5
+  },
+  speedswap: {
+    id: "speedswap",
+    name: "Speed Swap",
+    num: 683,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user exchanges Speed stats with the target.\nZ-Effect +3 Speed. +4 Priority.",
+    shortDesc: "The user exchanges Speed stats with the target.\nZ-Effect +3 Speed. +4 Priority.",
+    pp: 10
+  },
+  smartstrike: {
+    id: "smartstrike",
+    name: "Smart Strike",
+    num: 684,
+    type: "Steel",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user concentrates, and strikes the target with a\nsharp horn, blade or the like. This can't miss, and\nboosts the user's Accuracy by 1 after use. Contact.",
+    shortDesc: "The user concentrates, and strikes the target with a\nsharp horn, blade or the like. This can't miss, and\nboosts the user's Accuracy by 1 after use. Contact.",
+    pp: 15
+  },
+  purify: {
+    id: "purify",
+    name: "Purify",
+    num: 685,
+    type: "Grass",
+    flags: {
+      protect: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user heals the target’s status condition. If the\nmove succeeds, it heals the user to max HP.\nZ-Effect +1 all stats, even if Purify fails.",
+    shortDesc: "The user heals the target’s status condition. If the\nmove succeeds, it heals the user to max HP.\nZ-Effect +1 all stats, even if Purify fails.",
+    pp: 20
+  },
+  revelationdance: {
+    id: "revelationdance",
+    name: "Revelation Dance",
+    num: 686,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user does a dance that embodies it's typing.\nThis move changes type based on the user's primary\ntyping. This has a 50% chance to boost Sp. Atk by 1.",
+    shortDesc: "The user does a dance that embodies it's typing.\nThis move changes type based on the user's primary\ntyping. This has a 50% chance to boost Sp. Atk by 1.",
+    pp: 10
+  },
+  coreenforcer: {
+    id: "coreenforcer",
+    name: "Core Enforcer",
+    num: 687,
+    type: "Dragon",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "Zygarde unleashes it's inner power on the foe.\nThis ignores the effects of abilities if it moves last.\nLowers your Defensive stats by 1 and deals 30% recoil.",
+    shortDesc: "Zygarde unleashes it's inner power on the foe.\nThis ignores the effects of abilities if it moves last.\nLowers your Defensive stats by 1 and deals 30% recoil.",
+    pp: 5
+  },
+  tropkick: {
+    id: "tropkick",
+    name: "Trop Kick",
+    num: 688,
+    type: "Grass",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 70,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user lands an intense jungle kick on the target.\nThis ALWAYS drops the foe's attacking stats by 1.\nContact.",
+    shortDesc: "The user lands an intense jungle kick on the target.\nThis ALWAYS drops the foe's attacking stats by 1.\nContact.",
+    pp: 10
+  },
+  instruct: {
+    id: "instruct",
+    name: "Instruct",
+    num: 689,
+    type: "Psychic",
+    flags: {
+      bypasssub: 1,
+      protect: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "Oranguru instructs the target to use the move they\nmost recently used again. This takes up your turn, not\ntheirs. Z-Effect gives +1 All Stats.",
+    shortDesc: "Oranguru instructs the target to use the move they\nmost recently used again. This takes up your turn, not\ntheirs. Z-Effect gives +1 All Stats.",
+    pp: 15
+  },
+  beakblast: {
+    id: "beakblast",
+    name: "Beak Blast",
+    num: 690,
+    type: "Flying",
+    flags: {
+      defrost: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it.\nThis leaves the target with a burn 100% of the time.",
+    shortDesc: "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it.\nThis leaves the target with a burn 100% of the time.",
+    pp: 10
+  },
+  drakonicwave: {
+    id: "drakonicwave",
+    name: "Drakonic Wave",
+    num: 691,
+    type: "Dragon",
+    flags: {
+      bypasssub: 1,
+      mirror: 1,
+      protect: 1,
+      punch: 1
+    },
+    basePower: 125,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a destructive soundwave or blast\nimbued with dragon energy. This hits all foes.",
+    shortDesc: "The user unleashes a destructive soundwave or blast\nimbued with dragon energy. This hits all foes.",
+    pp: 5
+  },
+  dragonhammer: {
+    id: "dragonhammer",
+    name: "Dragon Hammer",
+    num: 692,
+    type: "Dragon",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 110,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user hammers down on the opponent. This has\n20% recoil and a 50% chance to drop the foe's\nDefense by 1. Contact.",
+    shortDesc: "The user hammers down on the opponent. This has\n20% recoil and a 50% chance to drop the foe's\nDefense by 1. Contact.",
+    pp: 10
+  },
+  nightburst: {
+    id: "nightburst",
+    name: "Night Burst",
+    num: 693,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 50,
+    accuracy: true,
+    category: "Special",
+    desc: "The user quickly releases a weak shock wave of\ndark energy. This has +1 priority, and can't miss.",
+    shortDesc: "The user quickly releases a weak shock wave of\ndark energy. This has +1 priority, and can't miss.",
+    pp: 15
+  },
+  auroraveil: {
+    id: "auroraveil",
+    name: "Aurora Veil",
+    num: 694,
+    type: "Ice",
+    flags: {
+      snatch: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "This move reduces damage from physical and\nspecial moves for five turns. This can be used only\nin a hailstorm. Z-Effect heals user fully.",
+    shortDesc: "This move reduces damage from physical and\nspecial moves for five turns. This can be used only\nin a hailstorm. Z-Effect heals user fully.",
+    pp: 20
+  },
+  sinisterarrowraid: {
+    id: "sinisterarrowraid",
+    name: "Sinister Arrow Raid",
+    num: 695,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      contact: 1
+    },
+    basePower: 250,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user, Decidueye, creates countless arrows\nusing its Z-Power and shoots the target with\nfull force.",
+    shortDesc: "The user, Decidueye, creates countless arrows\nusing its Z-Power and shoots the target with\nfull force.",
+    pp: 1
+  },
+  maliciousmoonsault: {
+    id: "maliciousmoonsault",
+    name: "Malicious Moonsault",
+    num: 696,
+    type: "Dark",
+    flags: {
+      contact: 1
+    },
+    basePower: 250,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user, Incineroar, strengthens its body using\nits Z-Power and crashes into the target with\nfull force.",
+    shortDesc: "The user, Incineroar, strengthens its body using\nits Z-Power and crashes into the target with\nfull force.",
+    pp: 1
+  },
+  oceanicoperetta: {
+    id: "oceanicoperetta",
+    name: "Oceanic Operetta",
+    num: 697,
+    type: "Water",
+    flags: {
+      punch: 1
+    },
+    basePower: 250,
+    accuracy: true,
+    category: "Special",
+    desc: "The user, Primarina, summons a massive amount of \nwater using its Z-Power and attacks the target with \nfull force.",
+    shortDesc: "The user, Primarina, summons a massive amount of \nwater using its Z-Power and attacks the target with \nfull force.",
+    pp: 1
+  },
+  guardianofalola: {
+    id: "guardianofalola",
+    name: "Guardian of Alola",
+    num: 698,
+    type: "Fairy",
+    flags: {},
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "The user, the Land Spirit Pokemon, obtains Alola’s\nenergy using its Z-Power and attacks the target with\nfull force. This reduces the target’s HP greatly.",
+    shortDesc: "The user, the Land Spirit Pokemon, obtains Alola’s\nenergy using its Z-Power and attacks the target with\nfull force. This reduces the target’s HP greatly.",
+    pp: 1
+  },
+  soulstealing7starstrike: {
+    id: "soulstealing7starstrike",
+    name: "Soul-Stealing 7-Star Strike",
+    num: 699,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      contact: 1
+    },
+    basePower: 200,
+    accuracy: true,
+    category: "Physical",
+    desc: "After obtaining Z-Power, the user, Marshadow,\npunches and kicks the target consecutively\nwith full force. This heals 50% of damage dealt.",
+    shortDesc: "After obtaining Z-Power, the user, Marshadow,\npunches and kicks the target consecutively\nwith full force. This heals 50% of damage dealt.",
+    pp: 1
+  },
+  stokedsparksurfer: {
+    id: "stokedsparksurfer",
+    name: "Stoked Sparksurfer",
+    num: 700,
+    type: "Electric",
+    flags: {
+      contact: 1
+    },
+    basePower: 250,
+    accuracy: true,
+    category: "Special",
+    desc: "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move will\nALWAYS crit and ALWAYS paralyze the foe.",
+    shortDesc: "After obtaining Z-Power, the user, Alolan Raichu,\nattacks the target with full force. This move will\nALWAYS crit and ALWAYS paralyze the foe.",
+    pp: 1
+  },
+  pulverizingpancake: {
+    id: "pulverizingpancake",
+    name: "Pulverizing Pancake",
+    num: 701,
+    type: "Normal",
+    flags: {
+      contact: 1
+    },
+    basePower: 250,
+    accuracy: true,
+    category: "Physical",
+    desc: "Snorlax moves its enormous body energetically,\nslamming onto the target with full force. Contact. \nThis ALWAYS leaves the target with Paralysis.",
+    shortDesc: "Snorlax moves its enormous body energetically,\nslamming onto the target with full force. Contact. \nThis ALWAYS leaves the target with Paralysis.",
+    pp: 1
+  },
+  extremeevoboost: {
+    id: "extremeevoboost",
+    name: "Extreme Evoboost",
+    num: 702,
+    type: "Normal",
+    flags: {},
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "After obtaining Z-Power, the user, Eevee, gets\nenergy from its evolved friends and boosts its\nstats sharply.",
+    shortDesc: "After obtaining Z-Power, the user, Eevee, gets\nenergy from its evolved friends and boosts its\nstats sharply.",
+    pp: 1
+  },
+  genesissupernova: {
+    id: "genesissupernova",
+    name: "Genesis Supernova",
+    num: 703,
+    type: "Psychic",
+    flags: {},
+    basePower: 250,
+    accuracy: true,
+    category: "Special",
+    desc: "Mew unleashes an immense blast of ancient power.\nThis ALWAYS crits, is 250 BP AND\nwill give Mew +1 all stats BEFORE attacking.",
+    shortDesc: "Mew unleashes an immense blast of ancient power.\nThis ALWAYS crits, is 250 BP AND\nwill give Mew +1 all stats BEFORE attacking.",
+    pp: 1
+  },
+  shelltrap: {
+    id: "shelltrap",
+    name: "Shell Trap",
+    num: 704,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      protect: 1
+    },
+    basePower: 200,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user sets a shell trap. If the user is hit by a\nphysical move, the trap will explode at the end of the\nturn, burning the foes and inflicting massive damage.",
+    shortDesc: "The user sets a shell trap. If the user is hit by a\nphysical move, the trap will explode at the end of the\nturn, burning the foes and inflicting massive damage.",
+    pp: 5
+  },
+  fleurcannon: {
+    id: "fleurcannon",
+    name: "Fleur Cannon",
+    num: 705,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a strong beam fueled by fairy\nenergy. This drops the user's Sp. Atk by 2 after use.",
+    shortDesc: "The user unleashes a strong beam fueled by fairy\nenergy. This drops the user's Sp. Atk by 2 after use.",
+    pp: 5
+  },
+  psychicfangs: {
+    id: "psychicfangs",
+    name: "Psychic Fangs",
+    num: 706,
     type: "Psychic",
     flags: {
       contact: 1,
+      mirror: 1,
       protect: 1,
+      bite: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user bites the target with fangs imbued with\npsychic energy. This breaks the effects of Reflect\nand Light Screen. Contact.",
+    shortDesc: "The user bites the target with fangs imbued with\npsychic energy. This breaks the effects of Reflect\nand Light Screen. Contact.",
+    pp: 15
+  },
+  stompingtantrum: {
+    id: "stompingtantrum",
+    name: "Stomping Tantrum",
+    num: 707,
+    type: "Ground",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 75,
+    accuracy: true,
+    category: "Physical",
+    desc: "Driven by frustration, the user stomps the ground\naround itself. If the user’s previous move has\nfailed or missed, this damage doubles. Can't miss.",
+    shortDesc: "Driven by frustration, the user stomps the ground\naround itself. If the user’s previous move has\nfailed or missed, this damage doubles. Can't miss.",
+    pp: 15
+  },
+  shadowbone: {
+    id: "shadowbone",
+    name: "Shadow Bone",
+    num: 708,
+    type: "Ghost",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 90,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user attacks by beating the target with a bone\nimbued with spirits. This ALWAYS drops\ndefense, ALWAYS flinches and has +4 Priority.",
+    shortDesc: "The user attacks by beating the target with a bone\nimbued with spirits. This ALWAYS drops\ndefense, ALWAYS flinches and has +4 Priority.",
+    pp: 1
+  },
+  accelerock: {
+    id: "accelerock",
+    name: "Accelerock",
+    num: 709,
+    type: "Rock",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 45,
+    accuracy: true,
+    category: "Physical",
+    desc: "The user smashes into the target at high speed with\nit's rocky body. This has +1 priority, and can't\nmiss. Contact.",
+    shortDesc: "The user smashes into the target at high speed with\nit's rocky body. This has +1 priority, and can't\nmiss. Contact.",
+    pp: 20
+  },
+  liquidation: {
+    id: "liquidation",
+    name: "Liquidation",
+    num: 710,
+    type: "Water",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 85,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user pummels the target using a full-force blast\nof water. This lowers Defense 25% of the time.\nContact.",
+    shortDesc: "The user pummels the target using a full-force blast\nof water. This lowers Defense 25% of the time.\nContact.",
+    pp: 15
+  },
+  radiantoutburst: {
+    id: "radiantoutburst",
+    name: "Radiant Outburst",
+    num: 711,
+    type: "Fairy",
+    flags: {
+      mirror: 1,
+      protect: 1,
+      sound: 1
+    },
+    basePower: 180,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashes a destructive, yet beautiful blast\nof colorful light and energy. This drops the user's\nSp. Atk stat by 4 (or 2/3) after use, however.",
+    shortDesc: "The user unleashes a destructive, yet beautiful blast\nof colorful light and energy. This drops the user's\nSp. Atk stat by 4 (or 2/3) after use, however.",
+    pp: 3
+  },
+  spectralthief: {
+    id: "spectralthief",
+    name: "Spectral Thief",
+    num: 712,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1,
+      contact: 1,
       mirror: 1
     },
-    basePower: 80,
-    accuracy: 90,
+    basePower: 95,
+    accuracy: true,
     category: "Physical",
-    desc: "Has a 20% chance to make the target flinch.",
-    shortDesc: "20% chance to make the target flinch.",
-    pp: 15
+    desc: "The user hides in the shadows, and strikes. This\nsteals any stat boosts the target has, then attacks.\nIgnores Protect and Substitute. Can't miss. Contact.",
+    shortDesc: "The user hides in the shadows, and strikes. This\nsteals any stat boosts the target has, then attacks.\nIgnores Protect and Substitute. Can't miss. Contact.",
+    pp: 5
+  },
+  solarstrike: {
+    id: "solarstrike",
+    name: "Solar Strike",
+    num: 713,
+    type: "Fire",
+    flags: {
+      contact: 1,
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
+    accuracy: 100,
+    category: "Physical",
+    desc: "The user flies up and descends onto the target with\na column of flames. ALWAYS crits, ALWAYS burns, and\ndeals 30% recoil to the user. Contact.",
+    shortDesc: "The user flies up and descends onto the target with\na column of flames. ALWAYS crits, ALWAYS burns, and\ndeals 30% recoil to the user. Contact.",
+    pp: 3
+  },
+  spectralbeam: {
+    id: "spectralbeam",
+    name: "Spectral Beam",
+    num: 714,
+    type: "Ghost",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user blasts the target with a devastating,\nshadowy beam. This move ignores the target's Ability.\nThis lowers the user's Sp. Atk by 2 after use.",
+    shortDesc: "The user blasts the target with a devastating,\nshadowy beam. This move ignores the target's Ability.\nThis lowers the user's Sp. Atk by 2 after use.",
+    pp: 5
+  },
+  tearfullook: {
+    id: "tearfullook",
+    name: "Tearful Look",
+    num: 715,
+    type: "Normal",
+    flags: {
+      mirror: 1,
+      reflectable: 1
+    },
+    basePower: 0,
+    accuracy: true,
+    category: "Status",
+    desc: "The user gets teary eyed to make the target lose\nits combative spirit. This lowers both offensive stats\nby 1. Z-Effect +3 Accuracy. BYPASSES PROTECT.",
+    shortDesc: "The user gets teary eyed to make the target lose\nits combative spirit. This lowers both offensive stats\nby 1. Z-Effect +3 Accuracy. BYPASSES PROTECT.",
+    pp: 10
   },
   zingzap: {
     id: "zingzap",
@@ -14453,14 +11403,197 @@ exports.BattleMovedex = {
     type: "Electric",
     flags: {
       contact: 1,
-      protect: 1,
-      mirror: 1
+      mirror: 1,
+      protect: 1
     },
-    basePower: 80,
+    basePower: 85,
+    accuracy: 90,
+    category: "Physical",
+    desc: "The user swiftly and nimbly strikes the target.\nThis has a 30% chance to flinch, and ALWAYS boosts\nthe user's Speed by 1 after use. Contact.",
+    shortDesc: "The user swiftly and nimbly strikes the target.\nThis has a 30% chance to flinch, and ALWAYS boosts\nthe user's Speed by 1 after use. Contact.",
+    pp: 10
+  },
+  cosmicchaos: {
+    id: "cosmicchaos",
+    name: "Cosmic Chaos",
+    num: 717,
+    type: "Psychic",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 1,
+    accuracy: true,
+    category: "Special",
+    desc: "The user staggers the foe with cosmic energy\nThis attack will ALWAYS flinch the foe, and go first.\nThis halves the foe's current HP stat.",
+    shortDesc: "The user staggers the foe with cosmic energy\nThis attack will ALWAYS flinch the foe, and go first.\nThis halves the foe's current HP stat.",
+    pp: 1
+  },
+  multiattack: {
+    id: "multiattack",
+    name: "Multi-Attack",
+    num: 718,
+    type: "Normal",
+    flags: {
+      contact: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 120,
     accuracy: 100,
     category: "Physical",
-    desc: "Has a 30% chance to make the target flinch.",
-    shortDesc: "30% chance to make the target flinch.",
-    pp: 10
+    desc: "The user slashes at the foe, cloaked in energy.\nThis move's type changes with the user's held Memory.\nThis ALWAYS drops the foe's Defense by 1. Contact.",
+    shortDesc: "The user slashes at the foe, cloaked in energy.\nThis move's type changes with the user's held Memory.\nThis ALWAYS drops the foe's Defense by 1. Contact.",
+    pp: 5
+  },
+  "10000000voltthunderbolt": {
+    id: "10000000voltthunderbolt",
+    name: "10,000,000 Volt Thunderbolt",
+    num: 719,
+    type: "Electric",
+    flags: {},
+    basePower: 250,
+    accuracy: true,
+    category: "Special",
+    desc: "The user, Pikachu wearing a cap, powers up a jolt of\nelectricity using its Z-Power and unleashes it.\nALWAYS CRITS AND ALWAYS PARAS.",
+    shortDesc: "The user, Pikachu wearing a cap, powers up a jolt of\nelectricity using its Z-Power and unleashes it.\nALWAYS CRITS AND ALWAYS PARAS.",
+    pp: 1
+  },
+  mindblown: {
+    id: "mindblown",
+    name: "Mind Blown",
+    num: 720,
+    type: "Fire",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "Blacephalon attacks everything around it by blowing\nup it's own head for amusement. This will ALWAYS\nflinch the opponent, in exchange for losing 50% HP.",
+    shortDesc: "Blacephalon attacks everything around it by blowing\nup it's own head for amusement. This will ALWAYS\nflinch the opponent, in exchange for losing 50% HP.",
+    pp: 2
+  },
+  plasmashot: {
+    id: "plasmashot",
+    name: "Plasma Shot",
+    num: 721,
+    type: "Electric",
+    flags: {
+      defrost: 1,
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 130,
+    accuracy: 70,
+    category: "Special",
+    desc: "The user fires an intense blast of superheated plasma.\nThis ALWAYS burns the target, and turns Normal type\nmoves to Electric type moves for the rest of the turn.",
+    shortDesc: "The user fires an intense blast of superheated plasma.\nThis ALWAYS burns the target, and turns Normal type\nmoves to Electric type moves for the rest of the turn.",
+    pp: 5
+  },
+  twilightcannon: {
+    id: "twilightcannon",
+    name: "Twilight Cannon",
+    num: 722,
+    type: "Dark",
+    flags: {
+      mirror: 1,
+      protect: 1
+    },
+    basePower: 150,
+    accuracy: 100,
+    category: "Special",
+    desc: "The user unleashed a wicked beam of dark energy. This\nis Physical or Special, based on the user's higher\nstat, & drops offensive stats by 2. IGNORES ABILITIES.",
+    shortDesc: "The user unleashed a wicked beam of dark energy. This\nis Physical or Special, based on the user's higher\nstat, & drops offensive stats by 2. IGNORES ABILITIES.",
+    pp: 5
+  },
+  lightthatburnsthesky: {
+    id: "lightthatburnsthesky",
+    name: "Light That Burns the Sky",
+    num: 723,
+    type: "Psychic",
+    flags: {},
+    basePower: 220,
+    accuracy: true,
+    category: "Special",
+    desc: "This attack inflicts Attack or Sp. Atk damage,\nwhichever stat is higher for the user \nThis move ignores the target’s Ability.",
+    shortDesc: "This attack inflicts Attack or Sp. Atk damage,\nwhichever stat is higher for the user \nThis move ignores the target’s Ability.",
+    pp: 1
+  },
+  searingsunrazesmash: {
+    id: "searingsunrazesmash",
+    name: "Searing Sunraze Smash",
+    num: 724,
+    type: "Steel",
+    flags: {
+      contact: 1
+    },
+    basePower: 220,
+    accuracy: true,
+    category: "Physical",
+    desc: "After obtaining Z-Power, the user, Solgaleo,\nattacks the target with full force. This move can\nignore the effect of the target’s Ability.",
+    shortDesc: "After obtaining Z-Power, the user, Solgaleo,\nattacks the target with full force. This move can\nignore the effect of the target’s Ability.",
+    pp: 1
+  },
+  menacingmoonrazemaelstrom: {
+    id: "menacingmoonrazemaelstrom",
+    name: "Menacing Moonraze Maelstrom",
+    num: 725,
+    type: "Ghost",
+    flags: {
+      bypasssub: 1
+    },
+    basePower: 220,
+    accuracy: true,
+    category: "Special",
+    desc: "After obtaining Z-Power, the user, Lunala,\nattacks the target with full force. This move can\nignore the effect of the target’s Ability.",
+    shortDesc: "After obtaining Z-Power, the user, Lunala,\nattacks the target with full force. This move can\nignore the effect of the target’s Ability.",
+    pp: 1
+  },
+  letssnuggleforever: {
+    id: "letssnuggleforever",
+    name: "Let’s Snuggle Forever",
+    num: 726,
+    type: "Fairy",
+    flags: {
+      contact: 1
+    },
+    basePower: 250,
+    accuracy: true,
+    category: "Physical",
+    desc: "After obtaining Z-Power, the user, Mimikyu,\npunches the target with full force.",
+    shortDesc: "After obtaining Z-Power, the user, Mimikyu,\npunches the target with full force.",
+    pp: 1
+  },
+  splinteredstormshards: {
+    id: "splinteredstormshards",
+    name: "Splintered Stormshards",
+    num: 727,
+    type: "Rock",
+    flags: {},
+    basePower: 190,
+    accuracy: true,
+    category: "Physical",
+    desc: "After obtaining Z-Power, the user, Lycanroc,\nattacks the target with full force. This move negates\nthe effect on the battlefield.",
+    shortDesc: "After obtaining Z-Power, the user, Lycanroc,\nattacks the target with full force. This move negates\nthe effect on the battlefield.",
+    pp: 1
+  },
+  clangoroussoulblaze: {
+    id: "clangoroussoulblaze",
+    name: "Clangorous Soulblaze",
+    num: 728,
+    type: "Dragon",
+    flags: {
+      bypasssub: 1,
+      punch: 1
+    },
+    basePower: 190,
+    accuracy: true,
+    category: "Special",
+    desc: "After obtaining Z-Power, the user, Kommo-o,\nattacks the opposing Pokemon with full force. This\ngives +1 all stats in exchange for 30% recoil.",
+    shortDesc: "After obtaining Z-Power, the user, Kommo-o,\nattacks the opposing Pokemon with full force. This\ngives +1 all stats in exchange for 30% recoil.",
+    pp: 1
   }
 };
