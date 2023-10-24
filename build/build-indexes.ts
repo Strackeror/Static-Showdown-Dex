@@ -92,6 +92,7 @@ async function buildDex() {
 
       evos: entry.evos,
       prevo: entry.prevo,
+      evoItem: entry.evoItem,
       evoType: entry.evoType,
       evoLevel: entry.evoLevel,
       evoMove: entry.evoMove,
