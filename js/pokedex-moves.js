@@ -1,10 +1,3 @@
-function sourcePad(source) {
-	var level = source.slice(2);
-	if (level.length < 3) level = '0' + level;
-	if (level.length < 3) level = '0' + level;
-	return level.length > 3 ? level : level+' ';
-}
-
 var PokedexMovePanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
@@ -324,17 +317,16 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 	getDistribution: function() {
 		var results = []
 		for (let pokeId in BattlePokedex) {
-			let poke = BattlePokedex[pokeId];
+			let learnset = getLearnset(pokeId);
 			results = results.concat(
-				poke.learnset
-					.filter((m) => m.move == this.id)
-					.map((m) => {
-						m.poke = pokeId;
-						return m;
-					})
-			);
+        learnset
+          .filter((m) => m.move == this.id)
+          .map((m) => {
+            return { poke: pokeId, ...m };
+          })
+      );
 		}
-		const methods = ["lvl", "tm", "tutor"];
+		const methods = ["lvl", "tm", "tutor", "egg"];
 		results.sort((a, b) => {
 			if (a.how != b.how) return methods.indexOf(a.how) - methods.indexOf(b.how);
       if (a.how == "lvl" && a.level != b.level) return a.level - b.level;
@@ -408,7 +400,7 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 				desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(721)}"></span>`;
 				break;
 			case 'tutor': // tutor
-				desc = '<img src="//' + ResourcePrefix + 'sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
+				desc = '<img src="' + ResourcePrefix + 'sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />';
 				break;
 			case 'egg': // egg move
 				desc = '<span class="picon" style="margin-top:-12px;'+getPokemonIcon('egg')+'"></span>';
