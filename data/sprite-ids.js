@@ -144,7 +144,7 @@ exports.PokemonIconIndexes = {
 	oricoriosensu: 1020 + 142,
 	lycanrocmidnight: 1020 + 143,
 	wishiwashischool: 1020 + 144,
-	miniormeteor: 1020 + 145,
+	minior: 1020 + 145,
 	miniororange: 1020 + 146,
 	minioryellow: 1020 + 147,
 	miniorgreen: 1020 + 148,
