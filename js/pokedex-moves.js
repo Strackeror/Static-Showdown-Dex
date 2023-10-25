@@ -108,9 +108,6 @@ var PokedexMovePanel = PokedexResultPanel.extend({
 		if ('contact' in move.flags) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/contact" data-target="push">&#x2713; Contact</a> <small>(affected by many abilities like Iron Barbs and moves like Spiky Shield)</small></p>';
 		}
-		if ('sound' in move.flags) {
-			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/sound" data-target="push">&#x2713; Sound</a> <small>(bypasses <a class="subtle" href="'+Config.baseurl+'moves/substitute" data-target="push">Substitute</a>, doesn\'t affect <a class="subtle" href="'+Config.baseurl+'abilities/soundproof" data-target="push">Soundproof</a> pokemon)</small></p>';
-		}
 		if ('powder' in move.flags) {
 			buf += '<p class="movetag"><a href="'+Config.baseurl+'tags/powder" data-target="push">&#x2713; Powder</a> <small>(doesn\'t affect <a class="subtle" href="'+Config.baseurl+'types/grass" data-target="push">Grass</a>-types, <a class="subtle" href="'+Config.baseurl+'abilities/overcoat" data-target="push">Overcoat</a> pokemon, and <a class="subtle" href="'+Config.baseurl+'items/safetygoggles" data-target="push">Safety Goggles</a> holders)</small></p>';
 		}
