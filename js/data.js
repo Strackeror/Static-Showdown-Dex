@@ -109,5 +109,5 @@ function getLearnset(pokemonId) {
 }
 
 function canLearn(pokemonId, moveId) {
-	return getLearnset(pokemonId).any(n => n.move == moveId);
+	return getLearnset(pokemonId).some(n => n.move == moveId);
 }
