@@ -465,11 +465,11 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 					desc = ""
 					break;
 				case 'tm': // tm/hm
-					if (newCategory && last.how != "tutor") buf += '<li class="resultheader"><h3>TM/HM/Tutors</h3></li>';
+					if (newCategory && last.how != "tutor") buf += '<li class="resultheader"><h3>TM/Tutors (Chronological Order)</h3></li>';
 					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(721)}"></span>`;
 					break;
 				case 'tutor': // tutor
-					if (newCategory && last.how != "tm") buf += '<li class="resultheader"><h3>TM/HM/Tutors</h3></li>';
+					if (newCategory && last.how != "tm") buf += '<li class="resultheader"><h3>TM/Tutors (Chronological Order)</h3></li>';
 					desc = `<img src="${ResourcePrefix}sprites/tutor.png" style="margin-top:-4px;opacity:.7" width="27" height="26" alt="T" />`;
 					break;
 				case 'egg': // egg move
