@@ -10,7 +10,6 @@ for (let folder of [
   "js",
   "theme",
   "images",
-  "showdown",
   "index.html",
   "favicon.ico",
 ]) {
