@@ -79,75 +79,97 @@ const allItems = Object.fromEntries(
 /*********************************************************
  * Build pokedex.js
  *********************************************************/
-async function buildDex() {
-  let dex = {};
-  process.stdout.write("Building `data/pokedex.js`... ");
+let dexjs = {};
+
+for (let species in allSpecies) {
+  let entry = allSpecies[species];
+  let dexEntry  = {
+    name: entry.name,
+    num: entry.num,
+    types: entry.types,
+    abilities: entry.abilities,
+    eggGroups: entry.eggGroups,
+
+    evos: entry.evos,
+    prevo: entry.prevo,
+    evoItem: entry.evoItem,
+    evoType: entry.evoType,
+    evoLevel: entry.evoLevel,
+    evoMove: entry.evoMove,
+    evoCondition: entry.evoCondition,
+
+    baseSpecies: entry.baseSpecies,
+    forme: entry.forme,
+    formes: entry.formes ?? allSpecies[toID(entry.baseSpecies)]?.formes,
+    requiredItem: entry.requiredItem,
+    cosmeticFormes: entry.cosmeticFormes?.map(s => s.slice(entry.name.length + 1)),
+
+    genderRatio: entry.genderRatio,
+    weightkg: entry.weightkg,
+    baseStats: entry.baseStats,
+  };
+
+  if (dexEntry.formes) {
+    dexEntry.formes = dexEntry.formes.filter(f => toID(f) in allSpecies)
+    if (dexEntry.formes.length <= 1) {
+      delete dexEntry.formes;
+    }
+  }
+  if (dexEntry.forme == "") delete dexEntry.forme;
+  if (dexEntry.baseSpecies == dexEntry.name) delete dexEntry.baseSpecies;
+  dexjs[species] = dexEntry
+}
+
+const buf = "exports.BattlePokedex = " + es3stringify(dexjs) + ";";
+fs.writeFileSync("data/pokedex.js", buf);
+console.log("pokedex DONE");
+
+async function buildLearnsets() {
+  let learnsets = {};
+  process.stdout.write("Building `data/learnsets.js`... ");
+
   for (let species in allSpecies) {
-    let entry = { ...allSpecies[species] };
-    let dexEntry = {
-      id: entry.id,
-      name: entry.name,
-      num: entry.num,
-      types: entry.types,
-      abilities: entry.abilities,
-      eggGroups: entry.eggGroups,
-
-      evos: entry.evos,
-      prevo: entry.prevo,
-      evoItem: entry.evoItem,
-      evoType: entry.evoType,
-      evoLevel: entry.evoLevel,
-      evoMove: entry.evoMove,
-      evoCondition: entry.evoCondition,
-
-      baseSpecies: entry.baseSpecies,
-      forme: entry.forme,
-      formes: entry.formes ?? allSpecies[toID(entry.baseSpecies)]?.formes,
-      requiredItem: entry.requiredItem,
-      cosmeticFormes: entry.cosmeticFormes,
-
-      genderRatio: entry.genderRatio,
-      weightkg: entry.weightkg,
-      baseStats: entry.baseStats,
-      learnset: [],
-    };
-
     let learnsetData = { ...(await generation.learnsets.get(species)) };
     if (!learnsetData) continue;
 
+    let learnset = [];
     let latestLearnset = getLatestLearnset(learnsetData);
     for (let moveId in latestLearnset) {
       for (let entry of latestLearnset[moveId]) {
         switch (entry[1]) {
           case "L":
-            dexEntry.learnset.push({
+            learnset.push({
               move: moveId,
               how: "lvl",
               level: +entry.slice(2),
             });
             break;
           case "M":
-            dexEntry.learnset.push({ move: moveId, how: "tm" });
+            learnset.push({ move: moveId, how: "tm" });
             break;
           case "T":
-            dexEntry.learnset.push({ move: moveId, how: "tutor" });
+            learnset.push({ move: moveId, how: "tutor" });
+            break;
+          case "E":
+            learnset.push({ move: moveId, how: "egg" });
             break;
         }
       }
+      learnset.sort((a, b) => {
+        const order = ["lvl", "tm", "tutor", "egg"];
+        if (a.how != b.how) return order.indexOf(a.how) - order.indexOf(b.how);
+        if (a.how == "lvl" && a.level != b.level) return a.level - b.level;
+        return a.move.localeCompare(b.move);
+      });
     }
-    dexEntry.learnset.sort((a, b) => {
-      const order = ["lvl", "tm", "tutor"];
-      if (a.how != b.how) return order.indexOf(a.how) - order.indexOf(b.how);
-      if (a.how == "lvl" && a.level != b.level) return a.level - b.level;
-      return a.move.localeCompare(b.move);
-    });
-    dex[species] = dexEntry;
+    learnsets[species] = learnset;
   }
-  const buf = "exports.BattlePokedex = " + es3stringify(dex) + ";";
-  fs.writeFileSync("data/pokedex.js", buf);
-  console.log("pokedex DONE");
+  fs.writeFileSync(
+    "data/learnsets.js",
+    `exports.Learnsets = ${es3stringify(learnsets)};`
+  );
 }
-buildDex();
+buildLearnsets();
 
 /*********************************************************
  * Build moves.js
@@ -162,12 +184,11 @@ process.stdout.write(
   for (let moveId in allMoves) {
     let move = allMoves[moveId];
     moves[moveId] = {
-      id: move.id,
       name: move.name,
       num: move.num,
       type: move.type,
       flags: move.flags,
-			basePower: move.basePower,
+      basePower: move.basePower,
       accuracy: move.accuracy,
       category: move.category,
       desc: move.desc,
@@ -188,10 +209,9 @@ process.stdout.write(
   for (let itemId in allItems) {
     let item = allItems[itemId];
     items[itemId] = {
-      id: item.id,
       name: item.name,
       num: item.num,
-			spritenum: item["spritenum"],
+      spritenum: item["spritenum"],
       desc: item.desc,
       shortDesc: item.shortDesc,
     };
@@ -209,7 +229,6 @@ process.stdout.write(
   for (let abilityId in allAbilities) {
     let ability = allAbilities[abilityId];
     abilities[abilityId] = {
-      id: ability.id,
       name: ability.name,
       num: ability.num,
       desc: ability.desc,
@@ -229,7 +248,6 @@ process.stdout.write(
   for (let typeId in allTypes) {
     let type = allTypes[typeId];
     types[typeId] = {
-      id: type.id,
       name: type.name,
       category: type.category,
       effectiveness: type.effectiveness,

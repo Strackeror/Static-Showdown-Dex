@@ -45,9 +45,11 @@ declare const BattleAbilities: any;
 declare const BattleTypeChart: any;
 declare const BattlePokedex: any;
 declare const BattleItems: any;
+declare const Learnsets: any;
 
 declare function toID(id: string): ID;
 declare function getID(set: any, text: string): any;
+declare function canLearn(poke: ID, move: ID): boolean;
 
 function hasAbility(pokemon: any, ability: ID) {
   for (let key in pokemon.abilities) {
@@ -864,16 +866,6 @@ abstract class BattleTypedSearch<T extends SearchType> {
     return results;
   }
 
-  protected canLearn(speciesid: ID, moveid: ID) {
-    let poke = BattlePokedex[speciesid];
-    for (let learn of poke.learnset) {
-      if (learn.move == moveid) {
-        return true;
-      }
-    }
-    return false;
-  }
-
   abstract getTable(): { [id: string]: any };
   abstract getDefaultResults(): SearchRow[];
   abstract getBaseResults(): SearchRow[];
@@ -896,7 +888,7 @@ class BattlePokemonSearch extends BattleTypedSearch<"pokemon"> {
           if (poke.types.all((t) => t != value)) return false;
           break;
         case "move":
-          if (!this.canLearn(poke.id, value)) return false;
+          if (!canLearn(poke.id, value)) return false;
           break;
         case "ability":
           if (!hasAbility(poke, value)) return false;
@@ -1084,7 +1076,7 @@ class BattleMoveSearch extends BattleTypedSearch<"move"> {
           if (move.category !== value) return false;
           break;
         case "pokemon":
-          if (!this.canLearn(value as ID, move.id)) return false;
+          if (!canLearn(value as ID, move.id)) return false;
           break;
       }
     }

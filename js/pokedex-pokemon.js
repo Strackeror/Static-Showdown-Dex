@@ -320,12 +320,12 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 		if (pokemon.cosmeticFormes) {
 			buf += '</dd><dt>Cosmetic formes:</dt> <dd>';
-			name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>`;
+			name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>` + pokemon.name;
 			buf += ''+name;
 
 			for (var i = 0; i < pokemon.cosmeticFormes.length; i++) {
-				name = `<span class="picon" style="${getPokemonIcon(pokemon.cosmeticFormes[i])}"></span>`;
-				buf += "," + name;
+				name = `<span class="picon" style="${getPokemonIcon(pokemon.name + '-' + pokemon.cosmeticFormes[i])}"></span>` + pokemon.cosmeticFormes[i];
+				buf += "," + name ;
 			}
 		}
 		buf += '</dd></dl>';
@@ -438,7 +438,7 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 	},
 	renderFullLearnset: function() {
 		var pokemon = getID(BattlePokedex, this.id);
-		var learnset = pokemon.learnset || [];
+		var learnset = getLearnset(this.id);
 		var last;
 		var buf = "", desc = "";
 		learnset.sort((a, b) => {
