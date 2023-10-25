@@ -83,7 +83,6 @@ async function buildDex() {
   for (let species in allSpecies) {
     let entry = { ...allSpecies[species] };
     let dexEntry = {
-      id: entry.id,
       name: entry.name,
       num: entry.num,
       types: entry.types,
@@ -160,7 +159,6 @@ process.stdout.write(
   for (let moveId in allMoves) {
     let move = allMoves[moveId];
     moves[moveId] = {
-      id: move.id,
       name: move.name,
       num: move.num,
       type: move.type,
@@ -186,7 +184,6 @@ process.stdout.write(
   for (let itemId in allItems) {
     let item = allItems[itemId];
     items[itemId] = {
-      id: item.id,
       name: item.name,
       num: item.num,
 			spritenum: item["spritenum"],
@@ -207,7 +204,6 @@ process.stdout.write(
   for (let abilityId in allAbilities) {
     let ability = allAbilities[abilityId];
     abilities[abilityId] = {
-      id: ability.id,
       name: ability.name,
       num: ability.num,
       desc: ability.desc,
@@ -227,7 +223,6 @@ process.stdout.write(
   for (let typeId in allTypes) {
     let type = allTypes[typeId];
     types[typeId] = {
-      id: type.id,
       name: type.name,
       category: type.category,
       effectiveness: type.effectiveness,

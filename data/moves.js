@@ -1,6 +1,5 @@
 exports.BattleMovedex = {
   "10000000voltthunderbolt": {
-    id: "10000000voltthunderbolt",
     name: "10,000,000 Volt Thunderbolt",
     num: 719,
     type: "Electric",
@@ -13,7 +12,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   absorb: {
-    id: "absorb",
     name: "Absorb",
     num: 71,
     type: "Grass",
@@ -30,7 +28,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   accelerock: {
-    id: "accelerock",
     name: "Accelerock",
     num: 709,
     type: "Rock",
@@ -47,7 +44,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   acid: {
-    id: "acid",
     name: "Acid",
     num: 51,
     type: "Poison",
@@ -63,7 +59,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   acidarmor: {
-    id: "acidarmor",
     name: "Acid Armor",
     num: 151,
     type: "Poison",
@@ -78,7 +73,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   aciddownpour: {
-    id: "aciddownpour",
     name: "Acid Downpour",
     num: 628,
     type: "Poison",
@@ -91,7 +85,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   acidspray: {
-    id: "acidspray",
     name: "Acid Spray",
     num: 491,
     type: "Poison",
@@ -108,7 +101,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   acrobatics: {
-    id: "acrobatics",
     name: "Acrobatics",
     num: 512,
     type: "Flying",
@@ -126,7 +118,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   acupressure: {
-    id: "acupressure",
     name: "Acupressure",
     num: 367,
     type: "Normal",
@@ -139,7 +130,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   aerialace: {
-    id: "aerialace",
     name: "Aerial Ace",
     num: 332,
     type: "Flying",
@@ -158,7 +148,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   aeroblast: {
-    id: "aeroblast",
     name: "Aeroblast",
     num: 177,
     type: "Flying",
@@ -175,7 +164,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   afteryou: {
-    id: "afteryou",
     name: "After You",
     num: 495,
     type: "Normal",
@@ -191,7 +179,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   agility: {
-    id: "agility",
     name: "Agility",
     num: 97,
     type: "Psychic",
@@ -206,7 +193,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   aircutter: {
-    id: "aircutter",
     name: "Air Cutter",
     num: 314,
     type: "Flying",
@@ -224,7 +210,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   airslash: {
-    id: "airslash",
     name: "Air Slash",
     num: 403,
     type: "Flying",
@@ -242,7 +227,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   alloutpummeling: {
-    id: "alloutpummeling",
     name: "All-Out Pummeling",
     num: 624,
     type: "Fighting",
@@ -255,7 +239,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   allyswitch: {
-    id: "allyswitch",
     name: "Ally Switch",
     num: 502,
     type: "Psychic",
@@ -268,7 +251,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   amnesia: {
-    id: "amnesia",
     name: "Amnesia",
     num: 133,
     type: "Psychic",
@@ -283,7 +265,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   anchorshot: {
-    id: "anchorshot",
     name: "Anchor Shot",
     num: 677,
     type: "Steel",
@@ -300,7 +281,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   ancientpower: {
-    id: "ancientpower",
     name: "Ancient Power",
     num: 246,
     type: "Rock",
@@ -316,7 +296,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   appleacid: {
-    id: "appleacid",
     name: "Apple Acid",
     num: 787,
     type: "Grass",
@@ -332,7 +311,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   aquacutter: {
-    id: "aquacutter",
     name: "Aqua Cutter",
     num: 895,
     type: "Water",
@@ -349,7 +327,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   aquajet: {
-    id: "aquajet",
     name: "Aqua Jet",
     num: 453,
     type: "Water",
@@ -366,7 +343,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   aquaring: {
-    id: "aquaring",
     name: "Aqua Ring",
     num: 392,
     type: "Water",
@@ -381,7 +357,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   aquastep: {
-    id: "aquastep",
     name: "Aqua Step",
     num: 872,
     type: "Water",
@@ -399,7 +374,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   aquatail: {
-    id: "aquatail",
     name: "Aqua Tail",
     num: 401,
     type: "Water",
@@ -416,7 +390,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   armorcannon: {
-    id: "armorcannon",
     name: "Armor Cannon",
     num: 890,
     type: "Fire",
@@ -432,7 +405,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   armthrust: {
-    id: "armthrust",
     name: "Arm Thrust",
     num: 292,
     type: "Fighting",
@@ -449,7 +421,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   aromatherapy: {
-    id: "aromatherapy",
     name: "Aromatherapy",
     num: 312,
     type: "Grass",
@@ -465,7 +436,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   aromaticmist: {
-    id: "aromaticmist",
     name: "Aromatic Mist",
     num: 597,
     type: "Fairy",
@@ -480,7 +450,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   assist: {
-    id: "assist",
     name: "Assist",
     num: 274,
     type: "Normal",
@@ -500,7 +469,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   assurance: {
-    id: "assurance",
     name: "Assurance",
     num: 372,
     type: "Dark",
@@ -517,7 +485,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   astonish: {
-    id: "astonish",
     name: "Astonish",
     num: 310,
     type: "Ghost",
@@ -534,7 +501,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   astralbarrage: {
-    id: "astralbarrage",
     name: "Astral Barrage",
     num: 825,
     type: "Ghost",
@@ -550,7 +516,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   attackorder: {
-    id: "attackorder",
     name: "Attack Order",
     num: 454,
     type: "Bug",
@@ -566,7 +531,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   attract: {
-    id: "attract",
     name: "Attract",
     num: 213,
     type: "Normal",
@@ -584,7 +548,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   aurasphere: {
-    id: "aurasphere",
     name: "Aura Sphere",
     num: 396,
     type: "Fighting",
@@ -603,7 +566,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   aurawheel: {
-    id: "aurawheel",
     name: "Aura Wheel",
     num: 783,
     type: "Electric",
@@ -619,7 +581,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   aurorabeam: {
-    id: "aurorabeam",
     name: "Aurora Beam",
     num: 62,
     type: "Ice",
@@ -635,7 +596,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   auroraveil: {
-    id: "auroraveil",
     name: "Aurora Veil",
     num: 694,
     type: "Ice",
@@ -650,7 +610,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   autotomize: {
-    id: "autotomize",
     name: "Autotomize",
     num: 475,
     type: "Steel",
@@ -665,7 +624,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   avalanche: {
-    id: "avalanche",
     name: "Avalanche",
     num: 419,
     type: "Ice",
@@ -682,7 +640,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   axekick: {
-    id: "axekick",
     name: "Axe Kick",
     num: 853,
     type: "Fighting",
@@ -699,7 +656,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   babydolleyes: {
-    id: "babydolleyes",
     name: "Baby-Doll Eyes",
     num: 608,
     type: "Fairy",
@@ -717,7 +673,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   banefulbunker: {
-    id: "banefulbunker",
     name: "Baneful Bunker",
     num: 661,
     type: "Poison",
@@ -733,7 +688,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   barbbarrage: {
-    id: "barbbarrage",
     name: "Barb Barrage",
     num: 839,
     type: "Poison",
@@ -749,7 +703,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   barrage: {
-    id: "barrage",
     name: "Barrage",
     num: 140,
     type: "Normal",
@@ -766,7 +719,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   barrier: {
-    id: "barrier",
     name: "Barrier",
     num: 112,
     type: "Psychic",
@@ -781,7 +733,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   batonpass: {
-    id: "batonpass",
     name: "Baton Pass",
     num: 226,
     type: "Normal",
@@ -794,7 +745,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   beakblast: {
-    id: "beakblast",
     name: "Beak Blast",
     num: 690,
     type: "Flying",
@@ -815,7 +765,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   beatup: {
-    id: "beatup",
     name: "Beat Up",
     num: 251,
     type: "Dark",
@@ -832,7 +781,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   behemothbash: {
-    id: "behemothbash",
     name: "Behemoth Bash",
     num: 782,
     type: "Steel",
@@ -851,7 +799,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   behemothblade: {
-    id: "behemothblade",
     name: "Behemoth Blade",
     num: 781,
     type: "Steel",
@@ -871,7 +818,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   belch: {
-    id: "belch",
     name: "Belch",
     num: 562,
     type: "Poison",
@@ -892,7 +838,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bellydrum: {
-    id: "bellydrum",
     name: "Belly Drum",
     num: 187,
     type: "Normal",
@@ -907,7 +852,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bestow: {
-    id: "bestow",
     name: "Bestow",
     num: 516,
     type: "Normal",
@@ -926,7 +870,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   bide: {
-    id: "bide",
     name: "Bide",
     num: 117,
     type: "Normal",
@@ -944,7 +887,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bind: {
-    id: "bind",
     name: "Bind",
     num: 20,
     type: "Normal",
@@ -961,7 +903,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   bite: {
-    id: "bite",
     name: "Bite",
     num: 44,
     type: "Dark",
@@ -979,7 +920,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   bitterblade: {
-    id: "bitterblade",
     name: "Bitter Blade",
     num: 891,
     type: "Fire",
@@ -997,7 +937,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bittermalice: {
-    id: "bittermalice",
     name: "Bitter Malice",
     num: 841,
     type: "Ghost",
@@ -1013,7 +952,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   blackholeeclipse: {
-    id: "blackholeeclipse",
     name: "Black Hole Eclipse",
     num: 654,
     type: "Dark",
@@ -1026,7 +964,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   blastburn: {
-    id: "blastburn",
     name: "Blast Burn",
     num: 307,
     type: "Fire",
@@ -1043,7 +980,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   blazekick: {
-    id: "blazekick",
     name: "Blaze Kick",
     num: 299,
     type: "Fire",
@@ -1060,7 +996,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bleakwindstorm: {
-    id: "bleakwindstorm",
     name: "Bleakwind Storm",
     num: 846,
     type: "Flying",
@@ -1077,7 +1012,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   blizzard: {
-    id: "blizzard",
     name: "Blizzard",
     num: 59,
     type: "Ice",
@@ -1094,7 +1028,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   block: {
-    id: "block",
     name: "Block",
     num: 335,
     type: "Normal",
@@ -1110,7 +1043,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   bloodmoon: {
-    id: "bloodmoon",
     name: "Blood Moon",
     num: 901,
     type: "Normal",
@@ -1127,7 +1059,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   bloomdoom: {
-    id: "bloomdoom",
     name: "Bloom Doom",
     num: 644,
     type: "Grass",
@@ -1140,7 +1071,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   blueflare: {
-    id: "blueflare",
     name: "Blue Flare",
     num: 551,
     type: "Fire",
@@ -1156,7 +1086,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   bodypress: {
-    id: "bodypress",
     name: "Body Press",
     num: 776,
     type: "Fighting",
@@ -1173,7 +1102,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bodyslam: {
-    id: "bodyslam",
     name: "Body Slam",
     num: 34,
     type: "Normal",
@@ -1191,7 +1119,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   boltbeak: {
-    id: "boltbeak",
     name: "Bolt Beak",
     num: 754,
     type: "Electric",
@@ -1208,7 +1135,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   boltstrike: {
-    id: "boltstrike",
     name: "Bolt Strike",
     num: 550,
     type: "Electric",
@@ -1225,7 +1151,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   boneclub: {
-    id: "boneclub",
     name: "Bone Club",
     num: 125,
     type: "Ground",
@@ -1241,7 +1166,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   bonemerang: {
-    id: "bonemerang",
     name: "Bonemerang",
     num: 155,
     type: "Ground",
@@ -1257,7 +1181,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bonerush: {
-    id: "bonerush",
     name: "Bone Rush",
     num: 198,
     type: "Ground",
@@ -1273,7 +1196,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   boomburst: {
-    id: "boomburst",
     name: "Boomburst",
     num: 586,
     type: "Normal",
@@ -1291,7 +1213,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bounce: {
-    id: "bounce",
     name: "Bounce",
     num: 340,
     type: "Flying",
@@ -1314,7 +1235,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   branchpoke: {
-    id: "branchpoke",
     name: "Branch Poke",
     num: 785,
     type: "Grass",
@@ -1331,7 +1251,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   bravebird: {
-    id: "bravebird",
     name: "Brave Bird",
     num: 413,
     type: "Flying",
@@ -1349,7 +1268,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   breakingswipe: {
-    id: "breakingswipe",
     name: "Breaking Swipe",
     num: 784,
     type: "Dragon",
@@ -1366,7 +1284,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   breakneckblitz: {
-    id: "breakneckblitz",
     name: "Breakneck Blitz",
     num: 622,
     type: "Normal",
@@ -1379,7 +1296,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   brickbreak: {
-    id: "brickbreak",
     name: "Brick Break",
     num: 280,
     type: "Fighting",
@@ -1396,7 +1312,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   brine: {
-    id: "brine",
     name: "Brine",
     num: 362,
     type: "Water",
@@ -1412,7 +1327,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   brutalswing: {
-    id: "brutalswing",
     name: "Brutal Swing",
     num: 693,
     type: "Dark",
@@ -1429,7 +1343,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   bubble: {
-    id: "bubble",
     name: "Bubble",
     num: 145,
     type: "Water",
@@ -1445,7 +1358,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   bubblebeam: {
-    id: "bubblebeam",
     name: "Bubble Beam",
     num: 61,
     type: "Water",
@@ -1461,7 +1373,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   bugbite: {
-    id: "bugbite",
     name: "Bug Bite",
     num: 450,
     type: "Bug",
@@ -1478,7 +1389,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   bugbuzz: {
-    id: "bugbuzz",
     name: "Bug Buzz",
     num: 405,
     type: "Bug",
@@ -1496,7 +1406,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   bulkup: {
-    id: "bulkup",
     name: "Bulk Up",
     num: 339,
     type: "Fighting",
@@ -1511,7 +1420,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   bulldoze: {
-    id: "bulldoze",
     name: "Bulldoze",
     num: 523,
     type: "Ground",
@@ -1528,7 +1436,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   bulletpunch: {
-    id: "bulletpunch",
     name: "Bullet Punch",
     num: 418,
     type: "Steel",
@@ -1546,7 +1453,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   bulletseed: {
-    id: "bulletseed",
     name: "Bullet Seed",
     num: 331,
     type: "Grass",
@@ -1563,7 +1469,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   burningjealousy: {
-    id: "burningjealousy",
     name: "Burning Jealousy",
     num: 807,
     type: "Fire",
@@ -1579,7 +1484,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   burnup: {
-    id: "burnup",
     name: "Burn Up",
     num: 682,
     type: "Fire",
@@ -1596,7 +1500,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   calmmind: {
-    id: "calmmind",
     name: "Calm Mind",
     num: 347,
     type: "Psychic",
@@ -1611,7 +1514,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   camouflage: {
-    id: "camouflage",
     name: "Camouflage",
     num: 293,
     type: "Normal",
@@ -1626,7 +1528,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   captivate: {
-    id: "captivate",
     name: "Captivate",
     num: 445,
     type: "Normal",
@@ -1643,7 +1544,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   catastropika: {
-    id: "catastropika",
     name: "Catastropika",
     num: 658,
     type: "Electric",
@@ -1658,7 +1558,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   ceaselessedge: {
-    id: "ceaselessedge",
     name: "Ceaseless Edge",
     num: 845,
     type: "Dark",
@@ -1676,7 +1575,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   celebrate: {
-    id: "celebrate",
     name: "Celebrate",
     num: 606,
     type: "Normal",
@@ -1695,7 +1593,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   charge: {
-    id: "charge",
     name: "Charge",
     num: 268,
     type: "Electric",
@@ -1710,7 +1607,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   chargebeam: {
-    id: "chargebeam",
     name: "Charge Beam",
     num: 451,
     type: "Electric",
@@ -1726,7 +1622,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   charm: {
-    id: "charm",
     name: "Charm",
     num: 204,
     type: "Fairy",
@@ -1744,7 +1639,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   chatter: {
-    id: "chatter",
     name: "Chatter",
     num: 448,
     type: "Flying",
@@ -1768,7 +1662,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   chillingwater: {
-    id: "chillingwater",
     name: "Chilling Water",
     num: 886,
     type: "Water",
@@ -1784,7 +1677,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   chillyreception: {
-    id: "chillyreception",
     name: "Chilly Reception",
     num: 881,
     type: "Ice",
@@ -1797,7 +1689,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   chipaway: {
-    id: "chipaway",
     name: "Chip Away",
     num: 498,
     type: "Normal",
@@ -1814,7 +1705,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   chloroblast: {
-    id: "chloroblast",
     name: "Chloroblast",
     num: 835,
     type: "Grass",
@@ -1830,7 +1720,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   circlethrow: {
-    id: "circlethrow",
     name: "Circle Throw",
     num: 509,
     type: "Fighting",
@@ -1849,7 +1738,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   clamp: {
-    id: "clamp",
     name: "Clamp",
     num: 128,
     type: "Water",
@@ -1866,7 +1754,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   clangingscales: {
-    id: "clangingscales",
     name: "Clanging Scales",
     num: 691,
     type: "Dragon",
@@ -1884,7 +1771,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   clangoroussoul: {
-    id: "clangoroussoul",
     name: "Clangorous Soul",
     num: 775,
     type: "Dragon",
@@ -1901,7 +1787,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   clangoroussoulblaze: {
-    id: "clangoroussoulblaze",
     name: "Clangorous Soulblaze",
     num: 728,
     type: "Dragon",
@@ -1917,7 +1802,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   clearsmog: {
-    id: "clearsmog",
     name: "Clear Smog",
     num: 499,
     type: "Poison",
@@ -1933,7 +1817,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   closecombat: {
-    id: "closecombat",
     name: "Close Combat",
     num: 370,
     type: "Fighting",
@@ -1950,7 +1833,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   coaching: {
-    id: "coaching",
     name: "Coaching",
     num: 811,
     type: "Fighting",
@@ -1966,7 +1848,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   coil: {
-    id: "coil",
     name: "Coil",
     num: 489,
     type: "Poison",
@@ -1981,7 +1862,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   collisioncourse: {
-    id: "collisioncourse",
     name: "Collision Course",
     num: 878,
     type: "Fighting",
@@ -1998,7 +1878,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   cometpunch: {
-    id: "cometpunch",
     name: "Comet Punch",
     num: 4,
     type: "Normal",
@@ -2016,7 +1895,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   comeuppance: {
-    id: "comeuppance",
     name: "Comeuppance",
     num: 894,
     type: "Dark",
@@ -2034,7 +1912,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   confide: {
-    id: "confide",
     name: "Confide",
     num: 590,
     type: "Normal",
@@ -2052,7 +1929,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   confuseray: {
-    id: "confuseray",
     name: "Confuse Ray",
     num: 109,
     type: "Ghost",
@@ -2069,7 +1945,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   confusion: {
-    id: "confusion",
     name: "Confusion",
     num: 93,
     type: "Psychic",
@@ -2085,7 +1960,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   constrict: {
-    id: "constrict",
     name: "Constrict",
     num: 132,
     type: "Normal",
@@ -2102,7 +1976,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   continentalcrush: {
-    id: "continentalcrush",
     name: "Continental Crush",
     num: 632,
     type: "Rock",
@@ -2115,7 +1988,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   conversion: {
-    id: "conversion",
     name: "Conversion",
     num: 160,
     type: "Normal",
@@ -2130,7 +2002,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   conversion2: {
-    id: "conversion2",
     name: "Conversion 2",
     num: 176,
     type: "Normal",
@@ -2145,7 +2016,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   copycat: {
-    id: "copycat",
     name: "Copycat",
     num: 383,
     type: "Normal",
@@ -2165,7 +2035,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   coreenforcer: {
-    id: "coreenforcer",
     name: "Core Enforcer",
     num: 687,
     type: "Dragon",
@@ -2181,7 +2050,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   corkscrewcrash: {
-    id: "corkscrewcrash",
     name: "Corkscrew Crash",
     num: 638,
     type: "Steel",
@@ -2194,7 +2062,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   corrosivegas: {
-    id: "corrosivegas",
     name: "Corrosive Gas",
     num: 810,
     type: "Poison",
@@ -2212,7 +2079,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   cosmicpower: {
-    id: "cosmicpower",
     name: "Cosmic Power",
     num: 322,
     type: "Psychic",
@@ -2227,7 +2093,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   cottonguard: {
-    id: "cottonguard",
     name: "Cotton Guard",
     num: 538,
     type: "Grass",
@@ -2242,7 +2107,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   cottonspore: {
-    id: "cottonspore",
     name: "Cotton Spore",
     num: 178,
     type: "Grass",
@@ -2260,7 +2124,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   counter: {
-    id: "counter",
     name: "Counter",
     num: 68,
     type: "Fighting",
@@ -2279,7 +2142,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   courtchange: {
-    id: "courtchange",
     name: "Court Change",
     num: 756,
     type: "Normal",
@@ -2294,7 +2156,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   covet: {
-    id: "covet",
     name: "Covet",
     num: 343,
     type: "Normal",
@@ -2314,7 +2175,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   crabhammer: {
-    id: "crabhammer",
     name: "Crabhammer",
     num: 152,
     type: "Water",
@@ -2331,7 +2191,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   craftyshield: {
-    id: "craftyshield",
     name: "Crafty Shield",
     num: 578,
     type: "Fairy",
@@ -2344,7 +2203,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   crosschop: {
-    id: "crosschop",
     name: "Cross Chop",
     num: 238,
     type: "Fighting",
@@ -2361,7 +2219,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   crosspoison: {
-    id: "crosspoison",
     name: "Cross Poison",
     num: 440,
     type: "Poison",
@@ -2379,7 +2236,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   crunch: {
-    id: "crunch",
     name: "Crunch",
     num: 242,
     type: "Dark",
@@ -2397,7 +2253,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   crushclaw: {
-    id: "crushclaw",
     name: "Crush Claw",
     num: 306,
     type: "Normal",
@@ -2414,7 +2269,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   crushgrip: {
-    id: "crushgrip",
     name: "Crush Grip",
     num: 462,
     type: "Normal",
@@ -2431,7 +2285,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   curse: {
-    id: "curse",
     name: "Curse",
     num: 174,
     type: "Ghost",
@@ -2446,7 +2299,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   cut: {
-    id: "cut",
     name: "Cut",
     num: 15,
     type: "Normal",
@@ -2464,7 +2316,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   darkestlariat: {
-    id: "darkestlariat",
     name: "Darkest Lariat",
     num: 663,
     type: "Dark",
@@ -2481,7 +2332,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   darkpulse: {
-    id: "darkpulse",
     name: "Dark Pulse",
     num: 399,
     type: "Dark",
@@ -2499,7 +2349,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   darkvoid: {
-    id: "darkvoid",
     name: "Dark Void",
     num: 464,
     type: "Dark",
@@ -2516,7 +2365,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dazzlinggleam: {
-    id: "dazzlinggleam",
     name: "Dazzling Gleam",
     num: 605,
     type: "Fairy",
@@ -2532,7 +2380,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   decorate: {
-    id: "decorate",
     name: "Decorate",
     num: 777,
     type: "Fairy",
@@ -2547,7 +2394,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   defendorder: {
-    id: "defendorder",
     name: "Defend Order",
     num: 455,
     type: "Bug",
@@ -2562,7 +2408,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   defensecurl: {
-    id: "defensecurl",
     name: "Defense Curl",
     num: 111,
     type: "Normal",
@@ -2577,7 +2422,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   defog: {
-    id: "defog",
     name: "Defog",
     num: 432,
     type: "Flying",
@@ -2595,7 +2439,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   destinybond: {
-    id: "destinybond",
     name: "Destiny Bond",
     num: 194,
     type: "Ghost",
@@ -2612,7 +2455,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   detect: {
-    id: "detect",
     name: "Detect",
     num: 197,
     type: "Fighting",
@@ -2628,7 +2470,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   devastatingdrake: {
-    id: "devastatingdrake",
     name: "Devastating Drake",
     num: 652,
     type: "Dragon",
@@ -2641,7 +2482,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   diamondstorm: {
-    id: "diamondstorm",
     name: "Diamond Storm",
     num: 591,
     type: "Rock",
@@ -2657,7 +2497,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   dig: {
-    id: "dig",
     name: "Dig",
     num: 91,
     type: "Ground",
@@ -2679,7 +2518,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   disable: {
-    id: "disable",
     name: "Disable",
     num: 50,
     type: "Normal",
@@ -2697,7 +2535,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   disarmingvoice: {
-    id: "disarmingvoice",
     name: "Disarming Voice",
     num: 574,
     type: "Fairy",
@@ -2715,7 +2552,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   discharge: {
-    id: "discharge",
     name: "Discharge",
     num: 435,
     type: "Electric",
@@ -2731,7 +2567,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   direclaw: {
-    id: "direclaw",
     name: "Dire Claw",
     num: 827,
     type: "Poison",
@@ -2748,7 +2583,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   dive: {
-    id: "dive",
     name: "Dive",
     num: 291,
     type: "Water",
@@ -2771,7 +2605,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dizzypunch: {
-    id: "dizzypunch",
     name: "Dizzy Punch",
     num: 146,
     type: "Normal",
@@ -2789,7 +2622,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   doodle: {
-    id: "doodle",
     name: "Doodle",
     num: 867,
     type: "Normal",
@@ -2802,7 +2634,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   doomdesire: {
-    id: "doomdesire",
     name: "Doom Desire",
     num: 353,
     type: "Steel",
@@ -2817,7 +2648,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   doubleedge: {
-    id: "doubleedge",
     name: "Double-Edge",
     num: 38,
     type: "Normal",
@@ -2834,7 +2664,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   doublehit: {
-    id: "doublehit",
     name: "Double Hit",
     num: 458,
     type: "Normal",
@@ -2851,7 +2680,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   doubleironbash: {
-    id: "doubleironbash",
     name: "Double Iron Bash",
     num: 742,
     type: "Steel",
@@ -2869,7 +2697,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   doublekick: {
-    id: "doublekick",
     name: "Double Kick",
     num: 24,
     type: "Fighting",
@@ -2886,7 +2713,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   doubleshock: {
-    id: "doubleshock",
     name: "Double Shock",
     num: 892,
     type: "Electric",
@@ -2903,7 +2729,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   doubleslap: {
-    id: "doubleslap",
     name: "Double Slap",
     num: 3,
     type: "Normal",
@@ -2920,7 +2745,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   doubleteam: {
-    id: "doubleteam",
     name: "Double Team",
     num: 104,
     type: "Normal",
@@ -2935,7 +2759,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   dracometeor: {
-    id: "dracometeor",
     name: "Draco Meteor",
     num: 434,
     type: "Dragon",
@@ -2951,7 +2774,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   dragonascent: {
-    id: "dragonascent",
     name: "Dragon Ascent",
     num: 620,
     type: "Flying",
@@ -2969,7 +2791,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   dragonbreath: {
-    id: "dragonbreath",
     name: "Dragon Breath",
     num: 225,
     type: "Dragon",
@@ -2985,7 +2806,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   dragonclaw: {
-    id: "dragonclaw",
     name: "Dragon Claw",
     num: 337,
     type: "Dragon",
@@ -3002,7 +2822,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   dragondance: {
-    id: "dragondance",
     name: "Dragon Dance",
     num: 349,
     type: "Dragon",
@@ -3018,7 +2837,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   dragondarts: {
-    id: "dragondarts",
     name: "Dragon Darts",
     num: 751,
     type: "Dragon",
@@ -3035,7 +2853,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dragonenergy: {
-    id: "dragonenergy",
     name: "Dragon Energy",
     num: 820,
     type: "Dragon",
@@ -3051,7 +2868,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   dragonhammer: {
-    id: "dragonhammer",
     name: "Dragon Hammer",
     num: 692,
     type: "Dragon",
@@ -3068,7 +2884,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   dragonpulse: {
-    id: "dragonpulse",
     name: "Dragon Pulse",
     num: 406,
     type: "Dragon",
@@ -3086,7 +2901,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dragonrage: {
-    id: "dragonrage",
     name: "Dragon Rage",
     num: 82,
     type: "Dragon",
@@ -3102,7 +2916,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dragonrush: {
-    id: "dragonrush",
     name: "Dragon Rush",
     num: 407,
     type: "Dragon",
@@ -3119,7 +2932,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dragontail: {
-    id: "dragontail",
     name: "Dragon Tail",
     num: 525,
     type: "Dragon",
@@ -3138,7 +2950,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   drainingkiss: {
-    id: "drainingkiss",
     name: "Draining Kiss",
     num: 577,
     type: "Fairy",
@@ -3156,7 +2967,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   drainpunch: {
-    id: "drainpunch",
     name: "Drain Punch",
     num: 409,
     type: "Fighting",
@@ -3175,7 +2985,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dreameater: {
-    id: "dreameater",
     name: "Dream Eater",
     num: 138,
     type: "Psychic",
@@ -3192,7 +3001,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   drillpeck: {
-    id: "drillpeck",
     name: "Drill Peck",
     num: 65,
     type: "Flying",
@@ -3210,7 +3018,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   drillrun: {
-    id: "drillrun",
     name: "Drill Run",
     num: 529,
     type: "Ground",
@@ -3227,7 +3034,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   drumbeating: {
-    id: "drumbeating",
     name: "Drum Beating",
     num: 778,
     type: "Grass",
@@ -3243,7 +3049,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dualchop: {
-    id: "dualchop",
     name: "Dual Chop",
     num: 530,
     type: "Dragon",
@@ -3260,7 +3065,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   dualwingbeat: {
-    id: "dualwingbeat",
     name: "Dual Wingbeat",
     num: 814,
     type: "Flying",
@@ -3277,7 +3081,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   dynamaxcannon: {
-    id: "dynamaxcannon",
     name: "Dynamax Cannon",
     num: 744,
     type: "Dragon",
@@ -3298,7 +3101,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   dynamicpunch: {
-    id: "dynamicpunch",
     name: "Dynamic Punch",
     num: 223,
     type: "Fighting",
@@ -3316,7 +3118,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   earthpower: {
-    id: "earthpower",
     name: "Earth Power",
     num: 414,
     type: "Ground",
@@ -3333,7 +3134,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   earthquake: {
-    id: "earthquake",
     name: "Earthquake",
     num: 89,
     type: "Ground",
@@ -3350,7 +3150,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   echoedvoice: {
-    id: "echoedvoice",
     name: "Echoed Voice",
     num: 497,
     type: "Normal",
@@ -3368,7 +3167,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   eerieimpulse: {
-    id: "eerieimpulse",
     name: "Eerie Impulse",
     num: 598,
     type: "Electric",
@@ -3385,7 +3183,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   eeriespell: {
-    id: "eeriespell",
     name: "Eerie Spell",
     num: 826,
     type: "Psychic",
@@ -3403,7 +3200,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   eggbomb: {
-    id: "eggbomb",
     name: "Egg Bomb",
     num: 121,
     type: "Normal",
@@ -3420,7 +3216,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   electricterrain: {
-    id: "electricterrain",
     name: "Electric Terrain",
     num: 604,
     type: "Electric",
@@ -3435,7 +3230,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   electrify: {
-    id: "electrify",
     name: "Electrify",
     num: 582,
     type: "Electric",
@@ -3452,7 +3246,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   electroball: {
-    id: "electroball",
     name: "Electro Ball",
     num: 486,
     type: "Electric",
@@ -3469,7 +3262,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   electrodrift: {
-    id: "electrodrift",
     name: "Electro Drift",
     num: 879,
     type: "Electric",
@@ -3486,7 +3278,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   electroweb: {
-    id: "electroweb",
     name: "Electroweb",
     num: 527,
     type: "Electric",
@@ -3502,7 +3293,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   embargo: {
-    id: "embargo",
     name: "Embargo",
     num: 373,
     type: "Dark",
@@ -3519,7 +3309,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   ember: {
-    id: "ember",
     name: "Ember",
     num: 52,
     type: "Fire",
@@ -3535,7 +3324,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   encore: {
-    id: "encore",
     name: "Encore",
     num: 227,
     type: "Normal",
@@ -3554,7 +3342,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   endeavor: {
-    id: "endeavor",
     name: "Endeavor",
     num: 283,
     type: "Normal",
@@ -3572,7 +3359,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   endure: {
-    id: "endure",
     name: "Endure",
     num: 203,
     type: "Normal",
@@ -3588,7 +3374,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   energyball: {
-    id: "energyball",
     name: "Energy Ball",
     num: 412,
     type: "Grass",
@@ -3605,7 +3390,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   entrainment: {
-    id: "entrainment",
     name: "Entrainment",
     num: 494,
     type: "Normal",
@@ -3623,7 +3407,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   eruption: {
-    id: "eruption",
     name: "Eruption",
     num: 284,
     type: "Fire",
@@ -3639,7 +3422,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   esperwing: {
-    id: "esperwing",
     name: "Esper Wing",
     num: 840,
     type: "Psychic",
@@ -3655,7 +3437,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   eternabeam: {
-    id: "eternabeam",
     name: "Eternabeam",
     num: 795,
     type: "Dragon",
@@ -3672,7 +3453,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   expandingforce: {
-    id: "expandingforce",
     name: "Expanding Force",
     num: 797,
     type: "Psychic",
@@ -3688,7 +3468,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   explosion: {
-    id: "explosion",
     name: "Explosion",
     num: 153,
     type: "Normal",
@@ -3705,7 +3484,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   extrasensory: {
-    id: "extrasensory",
     name: "Extrasensory",
     num: 326,
     type: "Psychic",
@@ -3721,7 +3499,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   extremeevoboost: {
-    id: "extremeevoboost",
     name: "Extreme Evoboost",
     num: 702,
     type: "Normal",
@@ -3734,7 +3511,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   extremespeed: {
-    id: "extremespeed",
     name: "Extreme Speed",
     num: 245,
     type: "Normal",
@@ -3751,7 +3527,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   facade: {
-    id: "facade",
     name: "Facade",
     num: 263,
     type: "Normal",
@@ -3768,7 +3543,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   fairylock: {
-    id: "fairylock",
     name: "Fairy Lock",
     num: 587,
     type: "Fairy",
@@ -3784,7 +3558,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   fairywind: {
-    id: "fairywind",
     name: "Fairy Wind",
     num: 584,
     type: "Fairy",
@@ -3801,7 +3574,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   fakeout: {
-    id: "fakeout",
     name: "Fake Out",
     num: 252,
     type: "Normal",
@@ -3818,7 +3590,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   faketears: {
-    id: "faketears",
     name: "Fake Tears",
     num: 313,
     type: "Dark",
@@ -3836,7 +3607,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   falsesurrender: {
-    id: "falsesurrender",
     name: "False Surrender",
     num: 793,
     type: "Dark",
@@ -3853,7 +3623,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   falseswipe: {
-    id: "falseswipe",
     name: "False Swipe",
     num: 206,
     type: "Normal",
@@ -3870,7 +3639,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   featherdance: {
-    id: "featherdance",
     name: "Feather Dance",
     num: 297,
     type: "Flying",
@@ -3889,7 +3657,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   feint: {
-    id: "feint",
     name: "Feint",
     num: 364,
     type: "Normal",
@@ -3906,7 +3673,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   feintattack: {
-    id: "feintattack",
     name: "Feint Attack",
     num: 185,
     type: "Dark",
@@ -3923,7 +3689,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   fellstinger: {
-    id: "fellstinger",
     name: "Fell Stinger",
     num: 565,
     type: "Bug",
@@ -3940,7 +3705,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   fierydance: {
-    id: "fierydance",
     name: "Fiery Dance",
     num: 552,
     type: "Fire",
@@ -3957,7 +3721,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   fierywrath: {
-    id: "fierywrath",
     name: "Fiery Wrath",
     num: 822,
     type: "Dark",
@@ -3973,7 +3736,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   filletaway: {
-    id: "filletaway",
     name: "Fillet Away",
     num: 868,
     type: "Normal",
@@ -3988,7 +3750,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   finalgambit: {
-    id: "finalgambit",
     name: "Final Gambit",
     num: 515,
     type: "Fighting",
@@ -4004,7 +3765,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   fireblast: {
-    id: "fireblast",
     name: "Fire Blast",
     num: 126,
     type: "Fire",
@@ -4020,7 +3780,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   firefang: {
-    id: "firefang",
     name: "Fire Fang",
     num: 424,
     type: "Fire",
@@ -4038,7 +3797,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   firelash: {
-    id: "firelash",
     name: "Fire Lash",
     num: 680,
     type: "Fire",
@@ -4055,7 +3813,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   firepledge: {
-    id: "firepledge",
     name: "Fire Pledge",
     num: 519,
     type: "Fire",
@@ -4073,7 +3830,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   firepunch: {
-    id: "firepunch",
     name: "Fire Punch",
     num: 7,
     type: "Fire",
@@ -4091,7 +3847,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   firespin: {
-    id: "firespin",
     name: "Fire Spin",
     num: 83,
     type: "Fire",
@@ -4107,7 +3862,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   firstimpression: {
-    id: "firstimpression",
     name: "First Impression",
     num: 660,
     type: "Bug",
@@ -4124,7 +3878,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   fishiousrend: {
-    id: "fishiousrend",
     name: "Fishious Rend",
     num: 755,
     type: "Water",
@@ -4142,7 +3895,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   fissure: {
-    id: "fissure",
     name: "Fissure",
     num: 90,
     type: "Ground",
@@ -4159,7 +3911,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   flail: {
-    id: "flail",
     name: "Flail",
     num: 175,
     type: "Normal",
@@ -4176,7 +3927,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   flameburst: {
-    id: "flameburst",
     name: "Flame Burst",
     num: 481,
     type: "Fire",
@@ -4192,7 +3942,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   flamecharge: {
-    id: "flamecharge",
     name: "Flame Charge",
     num: 488,
     type: "Fire",
@@ -4209,7 +3958,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   flamewheel: {
-    id: "flamewheel",
     name: "Flame Wheel",
     num: 172,
     type: "Fire",
@@ -4227,7 +3975,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   flamethrower: {
-    id: "flamethrower",
     name: "Flamethrower",
     num: 53,
     type: "Fire",
@@ -4243,7 +3990,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   flareblitz: {
-    id: "flareblitz",
     name: "Flare Blitz",
     num: 394,
     type: "Fire",
@@ -4261,7 +4007,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   flash: {
-    id: "flash",
     name: "Flash",
     num: 148,
     type: "Normal",
@@ -4278,7 +4023,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   flashcannon: {
-    id: "flashcannon",
     name: "Flash Cannon",
     num: 430,
     type: "Steel",
@@ -4294,7 +4038,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   flatter: {
-    id: "flatter",
     name: "Flatter",
     num: 260,
     type: "Dark",
@@ -4312,7 +4055,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   fleurcannon: {
-    id: "fleurcannon",
     name: "Fleur Cannon",
     num: 705,
     type: "Fairy",
@@ -4328,7 +4070,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   fling: {
-    id: "fling",
     name: "Fling",
     num: 374,
     type: "Dark",
@@ -4346,7 +4087,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   flipturn: {
-    id: "flipturn",
     name: "Flip Turn",
     num: 812,
     type: "Water",
@@ -4363,7 +4103,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   floralhealing: {
-    id: "floralhealing",
     name: "Floral Healing",
     num: 666,
     type: "Fairy",
@@ -4381,7 +4120,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   flowershield: {
-    id: "flowershield",
     name: "Flower Shield",
     num: 579,
     type: "Fairy",
@@ -4396,7 +4134,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   flowertrick: {
-    id: "flowertrick",
     name: "Flower Trick",
     num: 870,
     type: "Grass",
@@ -4412,7 +4149,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   fly: {
-    id: "fly",
     name: "Fly",
     num: 19,
     type: "Flying",
@@ -4435,7 +4171,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   flyingpress: {
-    id: "flyingpress",
     name: "Flying Press",
     num: 560,
     type: "Fighting",
@@ -4455,7 +4190,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   focusblast: {
-    id: "focusblast",
     name: "Focus Blast",
     num: 411,
     type: "Fighting",
@@ -4472,7 +4206,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   focusenergy: {
-    id: "focusenergy",
     name: "Focus Energy",
     num: 116,
     type: "Normal",
@@ -4487,7 +4220,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   focuspunch: {
-    id: "focuspunch",
     name: "Focus Punch",
     num: 264,
     type: "Fighting",
@@ -4509,7 +4241,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   followme: {
-    id: "followme",
     name: "Follow Me",
     num: 266,
     type: "Normal",
@@ -4525,7 +4256,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   forcepalm: {
-    id: "forcepalm",
     name: "Force Palm",
     num: 395,
     type: "Fighting",
@@ -4542,7 +4272,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   foresight: {
-    id: "foresight",
     name: "Foresight",
     num: 193,
     type: "Normal",
@@ -4560,7 +4289,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   forestscurse: {
-    id: "forestscurse",
     name: "Forest's Curse",
     num: 571,
     type: "Grass",
@@ -4578,7 +4306,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   foulplay: {
-    id: "foulplay",
     name: "Foul Play",
     num: 492,
     type: "Dark",
@@ -4595,7 +4322,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   freezedry: {
-    id: "freezedry",
     name: "Freeze-Dry",
     num: 573,
     type: "Ice",
@@ -4611,7 +4337,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   freezeshock: {
-    id: "freezeshock",
     name: "Freeze Shock",
     num: 553,
     type: "Ice",
@@ -4630,7 +4355,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   freezingglare: {
-    id: "freezingglare",
     name: "Freezing Glare",
     num: 821,
     type: "Psychic",
@@ -4646,7 +4370,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   frenzyplant: {
-    id: "frenzyplant",
     name: "Frenzy Plant",
     num: 338,
     type: "Grass",
@@ -4664,7 +4387,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   frostbreath: {
-    id: "frostbreath",
     name: "Frost Breath",
     num: 524,
     type: "Ice",
@@ -4680,7 +4402,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   frustration: {
-    id: "frustration",
     name: "Frustration",
     num: 218,
     type: "Normal",
@@ -4697,7 +4418,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   furyattack: {
-    id: "furyattack",
     name: "Fury Attack",
     num: 31,
     type: "Normal",
@@ -4714,7 +4434,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   furycutter: {
-    id: "furycutter",
     name: "Fury Cutter",
     num: 210,
     type: "Bug",
@@ -4732,7 +4451,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   furyswipes: {
-    id: "furyswipes",
     name: "Fury Swipes",
     num: 154,
     type: "Normal",
@@ -4749,7 +4467,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   fusionbolt: {
-    id: "fusionbolt",
     name: "Fusion Bolt",
     num: 559,
     type: "Electric",
@@ -4765,7 +4482,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   fusionflare: {
-    id: "fusionflare",
     name: "Fusion Flare",
     num: 558,
     type: "Fire",
@@ -4782,7 +4498,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   futuresight: {
-    id: "futuresight",
     name: "Future Sight",
     num: 248,
     type: "Psychic",
@@ -4798,7 +4513,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   gastroacid: {
-    id: "gastroacid",
     name: "Gastro Acid",
     num: 380,
     type: "Poison",
@@ -4816,7 +4530,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   geargrind: {
-    id: "geargrind",
     name: "Gear Grind",
     num: 544,
     type: "Steel",
@@ -4833,7 +4546,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   gearup: {
-    id: "gearup",
     name: "Gear Up",
     num: 674,
     type: "Steel",
@@ -4849,7 +4561,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   genesissupernova: {
-    id: "genesissupernova",
     name: "Genesis Supernova",
     num: 703,
     type: "Psychic",
@@ -4862,7 +4573,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   geomancy: {
-    id: "geomancy",
     name: "Geomancy",
     num: 601,
     type: "Fairy",
@@ -4880,7 +4590,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   gigadrain: {
-    id: "gigadrain",
     name: "Giga Drain",
     num: 202,
     type: "Grass",
@@ -4897,7 +4606,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   gigaimpact: {
-    id: "gigaimpact",
     name: "Giga Impact",
     num: 416,
     type: "Normal",
@@ -4915,7 +4623,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   gigatonhammer: {
-    id: "gigatonhammer",
     name: "Gigaton Hammer",
     num: 893,
     type: "Steel",
@@ -4932,7 +4639,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   gigavolthavoc: {
-    id: "gigavolthavoc",
     name: "Gigavolt Havoc",
     num: 646,
     type: "Electric",
@@ -4945,7 +4651,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   glaciallance: {
-    id: "glaciallance",
     name: "Glacial Lance",
     num: 824,
     type: "Ice",
@@ -4961,7 +4666,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   glaciate: {
-    id: "glaciate",
     name: "Glaciate",
     num: 549,
     type: "Ice",
@@ -4977,7 +4681,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   glaiverush: {
-    id: "glaiverush",
     name: "Glaive Rush",
     num: 862,
     type: "Dragon",
@@ -4994,7 +4697,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   glare: {
-    id: "glare",
     name: "Glare",
     num: 137,
     type: "Normal",
@@ -5011,7 +4713,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   grassknot: {
-    id: "grassknot",
     name: "Grass Knot",
     num: 447,
     type: "Grass",
@@ -5029,7 +4730,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   grasspledge: {
-    id: "grasspledge",
     name: "Grass Pledge",
     num: 520,
     type: "Grass",
@@ -5047,7 +4747,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   grasswhistle: {
-    id: "grasswhistle",
     name: "Grass Whistle",
     num: 320,
     type: "Grass",
@@ -5066,7 +4765,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   grassyglide: {
-    id: "grassyglide",
     name: "Grassy Glide",
     num: 803,
     type: "Grass",
@@ -5083,7 +4781,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   grassyterrain: {
-    id: "grassyterrain",
     name: "Grassy Terrain",
     num: 580,
     type: "Grass",
@@ -5098,7 +4795,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   gravapple: {
-    id: "gravapple",
     name: "Grav Apple",
     num: 788,
     type: "Grass",
@@ -5114,7 +4810,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   gravity: {
-    id: "gravity",
     name: "Gravity",
     num: 356,
     type: "Psychic",
@@ -5129,7 +4824,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   growl: {
-    id: "growl",
     name: "Growl",
     num: 45,
     type: "Normal",
@@ -5148,7 +4842,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   growth: {
-    id: "growth",
     name: "Growth",
     num: 74,
     type: "Normal",
@@ -5163,7 +4856,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   grudge: {
-    id: "grudge",
     name: "Grudge",
     num: 288,
     type: "Ghost",
@@ -5178,7 +4870,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   guardianofalola: {
-    id: "guardianofalola",
     name: "Guardian of Alola",
     num: 698,
     type: "Fairy",
@@ -5191,7 +4882,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   guardsplit: {
-    id: "guardsplit",
     name: "Guard Split",
     num: 470,
     type: "Psychic",
@@ -5207,7 +4897,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   guardswap: {
-    id: "guardswap",
     name: "Guard Swap",
     num: 385,
     type: "Psychic",
@@ -5225,7 +4914,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   guillotine: {
-    id: "guillotine",
     name: "Guillotine",
     num: 12,
     type: "Normal",
@@ -5242,7 +4930,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   gunkshot: {
-    id: "gunkshot",
     name: "Gunk Shot",
     num: 441,
     type: "Poison",
@@ -5258,7 +4945,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   gust: {
-    id: "gust",
     name: "Gust",
     num: 16,
     type: "Flying",
@@ -5276,7 +4962,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   gyroball: {
-    id: "gyroball",
     name: "Gyro Ball",
     num: 360,
     type: "Steel",
@@ -5294,7 +4979,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hail: {
-    id: "hail",
     name: "Hail",
     num: 258,
     type: "Ice",
@@ -5307,7 +4991,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   hammerarm: {
-    id: "hammerarm",
     name: "Hammer Arm",
     num: 359,
     type: "Fighting",
@@ -5325,7 +5008,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   happyhour: {
-    id: "happyhour",
     name: "Happy Hour",
     num: 603,
     type: "Normal",
@@ -5338,7 +5020,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   harden: {
-    id: "harden",
     name: "Harden",
     num: 106,
     type: "Normal",
@@ -5353,7 +5034,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   haze: {
-    id: "haze",
     name: "Haze",
     num: 114,
     type: "Ice",
@@ -5368,7 +5048,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   headbutt: {
-    id: "headbutt",
     name: "Headbutt",
     num: 29,
     type: "Normal",
@@ -5385,7 +5064,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   headcharge: {
-    id: "headcharge",
     name: "Head Charge",
     num: 543,
     type: "Normal",
@@ -5402,7 +5080,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   headlongrush: {
-    id: "headlongrush",
     name: "Headlong Rush",
     num: 838,
     type: "Ground",
@@ -5420,7 +5097,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   headsmash: {
-    id: "headsmash",
     name: "Head Smash",
     num: 457,
     type: "Rock",
@@ -5437,7 +5113,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   healbell: {
-    id: "healbell",
     name: "Heal Bell",
     num: 215,
     type: "Normal",
@@ -5455,7 +5130,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   healblock: {
-    id: "healblock",
     name: "Heal Block",
     num: 377,
     type: "Psychic",
@@ -5472,7 +5146,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   healingwish: {
-    id: "healingwish",
     name: "Healing Wish",
     num: 361,
     type: "Psychic",
@@ -5488,7 +5161,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   healorder: {
-    id: "healorder",
     name: "Heal Order",
     num: 456,
     type: "Bug",
@@ -5504,7 +5176,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   healpulse: {
-    id: "healpulse",
     name: "Heal Pulse",
     num: 505,
     type: "Psychic",
@@ -5524,7 +5195,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   heartstamp: {
-    id: "heartstamp",
     name: "Heart Stamp",
     num: 531,
     type: "Psychic",
@@ -5541,7 +5211,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   heartswap: {
-    id: "heartswap",
     name: "Heart Swap",
     num: 391,
     type: "Psychic",
@@ -5559,7 +5228,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   heatcrash: {
-    id: "heatcrash",
     name: "Heat Crash",
     num: 535,
     type: "Fire",
@@ -5577,7 +5245,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   heatwave: {
-    id: "heatwave",
     name: "Heat Wave",
     num: 257,
     type: "Fire",
@@ -5594,7 +5261,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   heavyslam: {
-    id: "heavyslam",
     name: "Heavy Slam",
     num: 484,
     type: "Steel",
@@ -5612,7 +5278,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   helpinghand: {
-    id: "helpinghand",
     name: "Helping Hand",
     num: 270,
     type: "Normal",
@@ -5629,7 +5294,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   hex: {
-    id: "hex",
     name: "Hex",
     num: 506,
     type: "Ghost",
@@ -5645,7 +5309,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   hiddenpower: {
-    id: "hiddenpower",
     name: "Hidden Power Water",
     num: 237,
     type: "Water",
@@ -5661,7 +5324,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   highhorsepower: {
-    id: "highhorsepower",
     name: "High Horsepower",
     num: 667,
     type: "Ground",
@@ -5678,7 +5340,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   highjumpkick: {
-    id: "highjumpkick",
     name: "High Jump Kick",
     num: 136,
     type: "Fighting",
@@ -5696,7 +5357,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   holdback: {
-    id: "holdback",
     name: "Hold Back",
     num: 610,
     type: "Normal",
@@ -5713,7 +5373,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   holdhands: {
-    id: "holdhands",
     name: "Hold Hands",
     num: 607,
     type: "Normal",
@@ -5733,7 +5392,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   honeclaws: {
-    id: "honeclaws",
     name: "Hone Claws",
     num: 468,
     type: "Dark",
@@ -5748,7 +5406,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   hornattack: {
-    id: "hornattack",
     name: "Horn Attack",
     num: 30,
     type: "Normal",
@@ -5765,7 +5422,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   horndrill: {
-    id: "horndrill",
     name: "Horn Drill",
     num: 32,
     type: "Normal",
@@ -5782,7 +5438,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hornleech: {
-    id: "hornleech",
     name: "Horn Leech",
     num: 532,
     type: "Grass",
@@ -5800,7 +5455,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   howl: {
-    id: "howl",
     name: "Howl",
     num: 336,
     type: "Normal",
@@ -5816,7 +5470,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   hurricane: {
-    id: "hurricane",
     name: "Hurricane",
     num: 542,
     type: "Flying",
@@ -5834,7 +5487,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   hydrocannon: {
-    id: "hydrocannon",
     name: "Hydro Cannon",
     num: 308,
     type: "Water",
@@ -5851,7 +5503,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hydropump: {
-    id: "hydropump",
     name: "Hydro Pump",
     num: 56,
     type: "Water",
@@ -5867,7 +5518,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hydrosteam: {
-    id: "hydrosteam",
     name: "Hydro Steam",
     num: 876,
     type: "Water",
@@ -5884,7 +5534,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   hydrovortex: {
-    id: "hydrovortex",
     name: "Hydro Vortex",
     num: 642,
     type: "Water",
@@ -5897,7 +5546,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   hyperbeam: {
-    id: "hyperbeam",
     name: "Hyper Beam",
     num: 63,
     type: "Normal",
@@ -5914,7 +5562,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hyperdrill: {
-    id: "hyperdrill",
     name: "Hyper Drill",
     num: 887,
     type: "Normal",
@@ -5930,7 +5577,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hyperfang: {
-    id: "hyperfang",
     name: "Hyper Fang",
     num: 158,
     type: "Normal",
@@ -5948,7 +5594,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   hyperspacefury: {
-    id: "hyperspacefury",
     name: "Hyperspace Fury",
     num: 621,
     type: "Dark",
@@ -5964,7 +5609,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hyperspacehole: {
-    id: "hyperspacehole",
     name: "Hyperspace Hole",
     num: 593,
     type: "Psychic",
@@ -5980,7 +5624,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   hypervoice: {
-    id: "hypervoice",
     name: "Hyper Voice",
     num: 304,
     type: "Normal",
@@ -5998,7 +5641,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   hypnosis: {
-    id: "hypnosis",
     name: "Hypnosis",
     num: 95,
     type: "Psychic",
@@ -6015,7 +5657,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   iceball: {
-    id: "iceball",
     name: "Ice Ball",
     num: 301,
     type: "Ice",
@@ -6035,7 +5676,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   icebeam: {
-    id: "icebeam",
     name: "Ice Beam",
     num: 58,
     type: "Ice",
@@ -6051,7 +5691,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   iceburn: {
-    id: "iceburn",
     name: "Ice Burn",
     num: 554,
     type: "Ice",
@@ -6070,7 +5709,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   icefang: {
-    id: "icefang",
     name: "Ice Fang",
     num: 423,
     type: "Ice",
@@ -6088,7 +5726,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   icehammer: {
-    id: "icehammer",
     name: "Ice Hammer",
     num: 665,
     type: "Ice",
@@ -6106,7 +5743,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   icepunch: {
-    id: "icepunch",
     name: "Ice Punch",
     num: 8,
     type: "Ice",
@@ -6124,7 +5760,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   iceshard: {
-    id: "iceshard",
     name: "Ice Shard",
     num: 420,
     type: "Ice",
@@ -6140,7 +5775,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   icespinner: {
-    id: "icespinner",
     name: "Ice Spinner",
     num: 861,
     type: "Ice",
@@ -6157,7 +5791,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   iciclecrash: {
-    id: "iciclecrash",
     name: "Icicle Crash",
     num: 556,
     type: "Ice",
@@ -6173,7 +5806,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   iciclespear: {
-    id: "iciclespear",
     name: "Icicle Spear",
     num: 333,
     type: "Ice",
@@ -6189,7 +5821,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   icywind: {
-    id: "icywind",
     name: "Icy Wind",
     num: 196,
     type: "Ice",
@@ -6206,7 +5837,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   imprison: {
-    id: "imprison",
     name: "Imprison",
     num: 286,
     type: "Psychic",
@@ -6223,7 +5853,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   incinerate: {
-    id: "incinerate",
     name: "Incinerate",
     num: 510,
     type: "Fire",
@@ -6239,7 +5868,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   infernalparade: {
-    id: "infernalparade",
     name: "Infernal Parade",
     num: 844,
     type: "Ghost",
@@ -6255,7 +5883,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   inferno: {
-    id: "inferno",
     name: "Inferno",
     num: 517,
     type: "Fire",
@@ -6271,7 +5898,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   infernooverdrive: {
-    id: "infernooverdrive",
     name: "Inferno Overdrive",
     num: 640,
     type: "Fire",
@@ -6284,7 +5910,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   infestation: {
-    id: "infestation",
     name: "Infestation",
     num: 611,
     type: "Bug",
@@ -6301,7 +5926,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   ingrain: {
-    id: "ingrain",
     name: "Ingrain",
     num: 275,
     type: "Grass",
@@ -6317,7 +5941,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   instruct: {
-    id: "instruct",
     name: "Instruct",
     num: 689,
     type: "Psychic",
@@ -6335,7 +5958,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   iondeluge: {
-    id: "iondeluge",
     name: "Ion Deluge",
     num: 569,
     type: "Electric",
@@ -6348,7 +5970,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   irondefense: {
-    id: "irondefense",
     name: "Iron Defense",
     num: 334,
     type: "Steel",
@@ -6363,7 +5984,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   ironhead: {
-    id: "ironhead",
     name: "Iron Head",
     num: 442,
     type: "Steel",
@@ -6380,7 +6000,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   irontail: {
-    id: "irontail",
     name: "Iron Tail",
     num: 231,
     type: "Steel",
@@ -6397,7 +6016,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   ivycudgel: {
-    id: "ivycudgel",
     name: "Ivy Cudgel",
     num: 904,
     type: "Grass",
@@ -6413,7 +6031,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   jawlock: {
-    id: "jawlock",
     name: "Jaw Lock",
     num: 746,
     type: "Dark",
@@ -6431,7 +6048,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   jetpunch: {
-    id: "jetpunch",
     name: "Jet Punch",
     num: 857,
     type: "Water",
@@ -6449,7 +6065,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   judgment: {
-    id: "judgment",
     name: "Judgment",
     num: 449,
     type: "Normal",
@@ -6465,7 +6080,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   jumpkick: {
-    id: "jumpkick",
     name: "Jump Kick",
     num: 26,
     type: "Fighting",
@@ -6483,7 +6097,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   junglehealing: {
-    id: "junglehealing",
     name: "Jungle Healing",
     num: 816,
     type: "Grass",
@@ -6500,7 +6113,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   karatechop: {
-    id: "karatechop",
     name: "Karate Chop",
     num: 2,
     type: "Fighting",
@@ -6517,7 +6129,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   kinesis: {
-    id: "kinesis",
     name: "Kinesis",
     num: 134,
     type: "Psychic",
@@ -6534,7 +6145,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   kingsshield: {
-    id: "kingsshield",
     name: "King's Shield",
     num: 588,
     type: "Steel",
@@ -6551,7 +6161,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   knockoff: {
-    id: "knockoff",
     name: "Knock Off",
     num: 282,
     type: "Dark",
@@ -6568,7 +6177,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   kowtowcleave: {
-    id: "kowtowcleave",
     name: "Kowtow Cleave",
     num: 869,
     type: "Dark",
@@ -6586,7 +6194,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   landswrath: {
-    id: "landswrath",
     name: "Land's Wrath",
     num: 616,
     type: "Ground",
@@ -6603,7 +6210,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   laserfocus: {
-    id: "laserfocus",
     name: "Laser Focus",
     num: 673,
     type: "Normal",
@@ -6618,7 +6224,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   lashout: {
-    id: "lashout",
     name: "Lash Out",
     num: 808,
     type: "Dark",
@@ -6635,7 +6240,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   lastresort: {
-    id: "lastresort",
     name: "Last Resort",
     num: 387,
     type: "Normal",
@@ -6652,7 +6256,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   lastrespects: {
-    id: "lastrespects",
     name: "Last Respects",
     num: 854,
     type: "Ghost",
@@ -6668,7 +6271,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   lavaplume: {
-    id: "lavaplume",
     name: "Lava Plume",
     num: 436,
     type: "Fire",
@@ -6684,7 +6286,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   leafage: {
-    id: "leafage",
     name: "Leafage",
     num: 670,
     type: "Grass",
@@ -6700,7 +6301,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   leafblade: {
-    id: "leafblade",
     name: "Leaf Blade",
     num: 348,
     type: "Grass",
@@ -6718,7 +6318,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   leafstorm: {
-    id: "leafstorm",
     name: "Leaf Storm",
     num: 437,
     type: "Grass",
@@ -6734,7 +6333,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   leaftornado: {
-    id: "leaftornado",
     name: "Leaf Tornado",
     num: 536,
     type: "Grass",
@@ -6750,7 +6348,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   leechlife: {
-    id: "leechlife",
     name: "Leech Life",
     num: 141,
     type: "Bug",
@@ -6768,7 +6365,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   leechseed: {
-    id: "leechseed",
     name: "Leech Seed",
     num: 73,
     type: "Grass",
@@ -6785,7 +6381,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   leer: {
-    id: "leer",
     name: "Leer",
     num: 43,
     type: "Normal",
@@ -6802,7 +6397,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   letssnuggleforever: {
-    id: "letssnuggleforever",
     name: "Let's Snuggle Forever",
     num: 726,
     type: "Fairy",
@@ -6817,7 +6411,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   lick: {
-    id: "lick",
     name: "Lick",
     num: 122,
     type: "Ghost",
@@ -6834,7 +6427,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   lifedew: {
-    id: "lifedew",
     name: "Life Dew",
     num: 791,
     type: "Water",
@@ -6851,7 +6443,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   lightofruin: {
-    id: "lightofruin",
     name: "Light of Ruin",
     num: 617,
     type: "Fairy",
@@ -6867,7 +6458,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   lightscreen: {
-    id: "lightscreen",
     name: "Light Screen",
     num: 113,
     type: "Psychic",
@@ -6882,7 +6472,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   lightthatburnsthesky: {
-    id: "lightthatburnsthesky",
     name: "Light That Burns the Sky",
     num: 723,
     type: "Psychic",
@@ -6895,7 +6484,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   liquidation: {
-    id: "liquidation",
     name: "Liquidation",
     num: 710,
     type: "Water",
@@ -6912,7 +6500,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   lockon: {
-    id: "lockon",
     name: "Lock-On",
     num: 199,
     type: "Normal",
@@ -6928,7 +6515,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   lovelykiss: {
-    id: "lovelykiss",
     name: "Lovely Kiss",
     num: 142,
     type: "Normal",
@@ -6945,7 +6531,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   lowkick: {
-    id: "lowkick",
     name: "Low Kick",
     num: 67,
     type: "Fighting",
@@ -6962,7 +6547,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   lowsweep: {
-    id: "lowsweep",
     name: "Low Sweep",
     num: 490,
     type: "Fighting",
@@ -6979,7 +6563,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   luckychant: {
-    id: "luckychant",
     name: "Lucky Chant",
     num: 381,
     type: "Normal",
@@ -6994,7 +6577,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   luminacrash: {
-    id: "luminacrash",
     name: "Lumina Crash",
     num: 855,
     type: "Psychic",
@@ -7010,7 +6592,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   lunarblessing: {
-    id: "lunarblessing",
     name: "Lunar Blessing",
     num: 849,
     type: "Psychic",
@@ -7026,7 +6607,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   lunardance: {
-    id: "lunardance",
     name: "Lunar Dance",
     num: 461,
     type: "Psychic",
@@ -7043,7 +6623,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   lunge: {
-    id: "lunge",
     name: "Lunge",
     num: 679,
     type: "Bug",
@@ -7060,7 +6639,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   lusterpurge: {
-    id: "lusterpurge",
     name: "Luster Purge",
     num: 295,
     type: "Psychic",
@@ -7076,7 +6654,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   machpunch: {
-    id: "machpunch",
     name: "Mach Punch",
     num: 183,
     type: "Fighting",
@@ -7094,7 +6671,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   magicalleaf: {
-    id: "magicalleaf",
     name: "Magical Leaf",
     num: 345,
     type: "Grass",
@@ -7110,7 +6686,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   magiccoat: {
-    id: "magiccoat",
     name: "Magic Coat",
     num: 277,
     type: "Psychic",
@@ -7123,7 +6698,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   magicpowder: {
-    id: "magicpowder",
     name: "Magic Powder",
     num: 750,
     type: "Psychic",
@@ -7142,7 +6716,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   magicroom: {
-    id: "magicroom",
     name: "Magic Room",
     num: 478,
     type: "Psychic",
@@ -7157,7 +6730,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   magmastorm: {
-    id: "magmastorm",
     name: "Magma Storm",
     num: 463,
     type: "Fire",
@@ -7173,7 +6745,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   magnetbomb: {
-    id: "magnetbomb",
     name: "Magnet Bomb",
     num: 443,
     type: "Steel",
@@ -7190,7 +6761,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   magneticflux: {
-    id: "magneticflux",
     name: "Magnetic Flux",
     num: 602,
     type: "Electric",
@@ -7207,7 +6777,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   magnetrise: {
-    id: "magnetrise",
     name: "Magnet Rise",
     num: 393,
     type: "Electric",
@@ -7223,7 +6792,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   magnitude: {
-    id: "magnitude",
     name: "Magnitude",
     num: 222,
     type: "Ground",
@@ -7240,7 +6808,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   makeitrain: {
-    id: "makeitrain",
     name: "Make It Rain",
     num: 874,
     type: "Steel",
@@ -7256,7 +6823,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   maliciousmoonsault: {
-    id: "maliciousmoonsault",
     name: "Malicious Moonsault",
     num: 696,
     type: "Dark",
@@ -7271,7 +6837,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   matblock: {
-    id: "matblock",
     name: "Mat Block",
     num: 561,
     type: "Fighting",
@@ -7289,7 +6854,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   matchagotcha: {
-    id: "matchagotcha",
     name: "Matcha Gotcha",
     num: 902,
     type: "Grass",
@@ -7306,7 +6870,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   maxairstream: {
-    id: "maxairstream",
     name: "Max Airstream",
     num: 766,
     type: "Flying",
@@ -7319,7 +6882,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxdarkness: {
-    id: "maxdarkness",
     name: "Max Darkness",
     num: 772,
     type: "Dark",
@@ -7332,7 +6894,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxflare: {
-    id: "maxflare",
     name: "Max Flare",
     num: 757,
     type: "Fire",
@@ -7345,7 +6906,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxflutterby: {
-    id: "maxflutterby",
     name: "Max Flutterby",
     num: 758,
     type: "Bug",
@@ -7358,7 +6918,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxgeyser: {
-    id: "maxgeyser",
     name: "Max Geyser",
     num: 765,
     type: "Water",
@@ -7371,7 +6930,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxguard: {
-    id: "maxguard",
     name: "Max Guard",
     num: 743,
     type: "Normal",
@@ -7384,7 +6942,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxhailstorm: {
-    id: "maxhailstorm",
     name: "Max Hailstorm",
     num: 763,
     type: "Ice",
@@ -7397,7 +6954,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxknuckle: {
-    id: "maxknuckle",
     name: "Max Knuckle",
     num: 761,
     type: "Fighting",
@@ -7410,7 +6966,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxlightning: {
-    id: "maxlightning",
     name: "Max Lightning",
     num: 759,
     type: "Electric",
@@ -7423,7 +6978,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxmindstorm: {
-    id: "maxmindstorm",
     name: "Max Mindstorm",
     num: 769,
     type: "Psychic",
@@ -7436,7 +6990,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxooze: {
-    id: "maxooze",
     name: "Max Ooze",
     num: 764,
     type: "Poison",
@@ -7449,7 +7002,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxovergrowth: {
-    id: "maxovergrowth",
     name: "Max Overgrowth",
     num: 773,
     type: "Grass",
@@ -7462,7 +7014,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxphantasm: {
-    id: "maxphantasm",
     name: "Max Phantasm",
     num: 762,
     type: "Ghost",
@@ -7475,7 +7026,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxquake: {
-    id: "maxquake",
     name: "Max Quake",
     num: 771,
     type: "Ground",
@@ -7488,7 +7038,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxrockfall: {
-    id: "maxrockfall",
     name: "Max Rockfall",
     num: 770,
     type: "Rock",
@@ -7501,7 +7050,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxstarfall: {
-    id: "maxstarfall",
     name: "Max Starfall",
     num: 767,
     type: "Fairy",
@@ -7514,7 +7062,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxsteelspike: {
-    id: "maxsteelspike",
     name: "Max Steelspike",
     num: 774,
     type: "Steel",
@@ -7527,7 +7074,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxstrike: {
-    id: "maxstrike",
     name: "Max Strike",
     num: 760,
     type: "Normal",
@@ -7540,7 +7086,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   maxwyrmwind: {
-    id: "maxwyrmwind",
     name: "Max Wyrmwind",
     num: 768,
     type: "Dragon",
@@ -7553,7 +7098,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   meanlook: {
-    id: "meanlook",
     name: "Mean Look",
     num: 212,
     type: "Normal",
@@ -7569,7 +7113,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   meditate: {
-    id: "meditate",
     name: "Meditate",
     num: 96,
     type: "Psychic",
@@ -7584,7 +7127,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   mefirst: {
-    id: "mefirst",
     name: "Me First",
     num: 382,
     type: "Normal",
@@ -7607,7 +7149,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   megadrain: {
-    id: "megadrain",
     name: "Mega Drain",
     num: 72,
     type: "Grass",
@@ -7624,7 +7165,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   megahorn: {
-    id: "megahorn",
     name: "Megahorn",
     num: 224,
     type: "Bug",
@@ -7641,7 +7181,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   megakick: {
-    id: "megakick",
     name: "Mega Kick",
     num: 25,
     type: "Normal",
@@ -7658,7 +7197,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   megapunch: {
-    id: "megapunch",
     name: "Mega Punch",
     num: 5,
     type: "Normal",
@@ -7676,7 +7214,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   memento: {
-    id: "memento",
     name: "Memento",
     num: 262,
     type: "Dark",
@@ -7692,7 +7229,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   menacingmoonrazemaelstrom: {
-    id: "menacingmoonrazemaelstrom",
     name: "Menacing Moonraze Maelstrom",
     num: 725,
     type: "Ghost",
@@ -7705,7 +7241,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   metalburst: {
-    id: "metalburst",
     name: "Metal Burst",
     num: 368,
     type: "Steel",
@@ -7722,7 +7257,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   metalclaw: {
-    id: "metalclaw",
     name: "Metal Claw",
     num: 232,
     type: "Steel",
@@ -7739,7 +7273,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   metalsound: {
-    id: "metalsound",
     name: "Metal Sound",
     num: 319,
     type: "Steel",
@@ -7759,7 +7292,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   meteorassault: {
-    id: "meteorassault",
     name: "Meteor Assault",
     num: 794,
     type: "Fighting",
@@ -7777,7 +7309,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   meteorbeam: {
-    id: "meteorbeam",
     name: "Meteor Beam",
     num: 800,
     type: "Rock",
@@ -7794,7 +7325,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   meteormash: {
-    id: "meteormash",
     name: "Meteor Mash",
     num: 309,
     type: "Steel",
@@ -7812,7 +7342,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   metronome: {
-    id: "metronome",
     name: "Metronome",
     num: 118,
     type: "Normal",
@@ -7832,7 +7361,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   milkdrink: {
-    id: "milkdrink",
     name: "Milk Drink",
     num: 208,
     type: "Normal",
@@ -7848,7 +7376,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   mimic: {
-    id: "mimic",
     name: "Mimic",
     num: 102,
     type: "Normal",
@@ -7871,7 +7398,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   mindblown: {
-    id: "mindblown",
     name: "Mind Blown",
     num: 720,
     type: "Fire",
@@ -7887,7 +7413,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   mindreader: {
-    id: "mindreader",
     name: "Mind Reader",
     num: 170,
     type: "Normal",
@@ -7903,7 +7428,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   minimize: {
-    id: "minimize",
     name: "Minimize",
     num: 107,
     type: "Normal",
@@ -7918,7 +7442,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   miracleeye: {
-    id: "miracleeye",
     name: "Miracle Eye",
     num: 357,
     type: "Psychic",
@@ -7936,7 +7459,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   mirrorcoat: {
-    id: "mirrorcoat",
     name: "Mirror Coat",
     num: 243,
     type: "Psychic",
@@ -7953,7 +7475,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   mirrormove: {
-    id: "mirrormove",
     name: "Mirror Move",
     num: 119,
     type: "Flying",
@@ -7973,7 +7494,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   mirrorshot: {
-    id: "mirrorshot",
     name: "Mirror Shot",
     num: 429,
     type: "Steel",
@@ -7989,7 +7509,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   mist: {
-    id: "mist",
     name: "Mist",
     num: 54,
     type: "Ice",
@@ -8004,7 +7523,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   mistball: {
-    id: "mistball",
     name: "Mist Ball",
     num: 296,
     type: "Psychic",
@@ -8021,7 +7539,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   mistyexplosion: {
-    id: "mistyexplosion",
     name: "Misty Explosion",
     num: 802,
     type: "Fairy",
@@ -8037,7 +7554,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   mistyterrain: {
-    id: "mistyterrain",
     name: "Misty Terrain",
     num: 581,
     type: "Fairy",
@@ -8052,7 +7568,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   moonblast: {
-    id: "moonblast",
     name: "Moonblast",
     num: 585,
     type: "Fairy",
@@ -8068,7 +7583,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   moongeistbeam: {
-    id: "moongeistbeam",
     name: "Moongeist Beam",
     num: 714,
     type: "Ghost",
@@ -8084,7 +7598,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   moonlight: {
-    id: "moonlight",
     name: "Moonlight",
     num: 236,
     type: "Fairy",
@@ -8100,7 +7613,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   morningsun: {
-    id: "morningsun",
     name: "Morning Sun",
     num: 234,
     type: "Normal",
@@ -8116,7 +7628,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   mortalspin: {
-    id: "mortalspin",
     name: "Mortal Spin",
     num: 866,
     type: "Poison",
@@ -8133,7 +7644,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   mountaingale: {
-    id: "mountaingale",
     name: "Mountain Gale",
     num: 836,
     type: "Ice",
@@ -8149,7 +7659,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   mudbomb: {
-    id: "mudbomb",
     name: "Mud Bomb",
     num: 426,
     type: "Ground",
@@ -8166,7 +7675,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   mudshot: {
-    id: "mudshot",
     name: "Mud Shot",
     num: 341,
     type: "Ground",
@@ -8182,7 +7690,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   mudslap: {
-    id: "mudslap",
     name: "Mud-Slap",
     num: 189,
     type: "Ground",
@@ -8198,7 +7705,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   mudsport: {
-    id: "mudsport",
     name: "Mud Sport",
     num: 300,
     type: "Ground",
@@ -8213,7 +7719,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   muddywater: {
-    id: "muddywater",
     name: "Muddy Water",
     num: 330,
     type: "Water",
@@ -8230,7 +7735,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   multiattack: {
-    id: "multiattack",
     name: "Multi-Attack",
     num: 718,
     type: "Normal",
@@ -8247,7 +7751,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   mysticalfire: {
-    id: "mysticalfire",
     name: "Mystical Fire",
     num: 595,
     type: "Fire",
@@ -8263,7 +7766,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   mysticalpower: {
-    id: "mysticalpower",
     name: "Mystical Power",
     num: 832,
     type: "Psychic",
@@ -8279,7 +7781,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   nastyplot: {
-    id: "nastyplot",
     name: "Nasty Plot",
     num: 417,
     type: "Dark",
@@ -8294,7 +7795,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   naturalgift: {
-    id: "naturalgift",
     name: "Natural Gift",
     num: 363,
     type: "Normal",
@@ -8310,7 +7810,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   naturepower: {
-    id: "naturepower",
     name: "Nature Power",
     num: 267,
     type: "Normal",
@@ -8330,7 +7829,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   naturesmadness: {
-    id: "naturesmadness",
     name: "Nature's Madness",
     num: 717,
     type: "Fairy",
@@ -8346,7 +7844,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   needlearm: {
-    id: "needlearm",
     name: "Needle Arm",
     num: 302,
     type: "Grass",
@@ -8363,7 +7860,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   neverendingnightmare: {
-    id: "neverendingnightmare",
     name: "Never-Ending Nightmare",
     num: 636,
     type: "Ghost",
@@ -8376,7 +7872,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   nightdaze: {
-    id: "nightdaze",
     name: "Night Daze",
     num: 539,
     type: "Dark",
@@ -8392,7 +7887,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   nightmare: {
-    id: "nightmare",
     name: "Nightmare",
     num: 171,
     type: "Ghost",
@@ -8408,7 +7902,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   nightshade: {
-    id: "nightshade",
     name: "Night Shade",
     num: 101,
     type: "Ghost",
@@ -8424,7 +7917,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   nightslash: {
-    id: "nightslash",
     name: "Night Slash",
     num: 400,
     type: "Dark",
@@ -8442,7 +7934,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   nobleroar: {
-    id: "nobleroar",
     name: "Noble Roar",
     num: 568,
     type: "Normal",
@@ -8461,7 +7952,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   noretreat: {
-    id: "noretreat",
     name: "No Retreat",
     num: 748,
     type: "Fighting",
@@ -8476,7 +7966,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   nuzzle: {
-    id: "nuzzle",
     name: "Nuzzle",
     num: 609,
     type: "Electric",
@@ -8493,7 +7982,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   oblivionwing: {
-    id: "oblivionwing",
     name: "Oblivion Wing",
     num: 613,
     type: "Flying",
@@ -8511,7 +7999,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   obstruct: {
-    id: "obstruct",
     name: "Obstruct",
     num: 792,
     type: "Dark",
@@ -8526,7 +8013,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   oceanicoperetta: {
-    id: "oceanicoperetta",
     name: "Oceanic Operetta",
     num: 697,
     type: "Water",
@@ -8539,7 +8025,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   octazooka: {
-    id: "octazooka",
     name: "Octazooka",
     num: 190,
     type: "Water",
@@ -8556,7 +8041,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   octolock: {
-    id: "octolock",
     name: "Octolock",
     num: 753,
     type: "Fighting",
@@ -8572,7 +8056,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   odorsleuth: {
-    id: "odorsleuth",
     name: "Odor Sleuth",
     num: 316,
     type: "Normal",
@@ -8591,7 +8074,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   ominouswind: {
-    id: "ominouswind",
     name: "Ominous Wind",
     num: 466,
     type: "Ghost",
@@ -8607,7 +8089,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   orderup: {
-    id: "orderup",
     name: "Order Up",
     num: 856,
     type: "Dragon",
@@ -8622,7 +8103,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   originpulse: {
-    id: "originpulse",
     name: "Origin Pulse",
     num: 618,
     type: "Water",
@@ -8639,7 +8119,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   outrage: {
-    id: "outrage",
     name: "Outrage",
     num: 200,
     type: "Dragon",
@@ -8657,7 +8136,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   overdrive: {
-    id: "overdrive",
     name: "Overdrive",
     num: 786,
     type: "Electric",
@@ -8675,7 +8153,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   overheat: {
-    id: "overheat",
     name: "Overheat",
     num: 315,
     type: "Fire",
@@ -8691,7 +8168,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   painsplit: {
-    id: "painsplit",
     name: "Pain Split",
     num: 220,
     type: "Normal",
@@ -8708,7 +8184,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   paraboliccharge: {
-    id: "paraboliccharge",
     name: "Parabolic Charge",
     num: 570,
     type: "Electric",
@@ -8725,7 +8200,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   partingshot: {
-    id: "partingshot",
     name: "Parting Shot",
     num: 575,
     type: "Dark",
@@ -8744,7 +8218,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   payback: {
-    id: "payback",
     name: "Payback",
     num: 371,
     type: "Dark",
@@ -8761,7 +8234,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   payday: {
-    id: "payday",
     name: "Pay Day",
     num: 6,
     type: "Normal",
@@ -8777,7 +8249,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   peck: {
-    id: "peck",
     name: "Peck",
     num: 64,
     type: "Flying",
@@ -8795,7 +8266,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   perishsong: {
-    id: "perishsong",
     name: "Perish Song",
     num: 195,
     type: "Normal",
@@ -8812,7 +8282,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   petalblizzard: {
-    id: "petalblizzard",
     name: "Petal Blizzard",
     num: 572,
     type: "Grass",
@@ -8829,7 +8298,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   petaldance: {
-    id: "petaldance",
     name: "Petal Dance",
     num: 80,
     type: "Grass",
@@ -8848,7 +8316,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   phantomforce: {
-    id: "phantomforce",
     name: "Phantom Force",
     num: 566,
     type: "Ghost",
@@ -8868,7 +8335,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   photongeyser: {
-    id: "photongeyser",
     name: "Photon Geyser",
     num: 722,
     type: "Psychic",
@@ -8884,7 +8350,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   pinmissile: {
-    id: "pinmissile",
     name: "Pin Missile",
     num: 42,
     type: "Bug",
@@ -8900,7 +8365,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   plasmafists: {
-    id: "plasmafists",
     name: "Plasma Fists",
     num: 721,
     type: "Electric",
@@ -8918,7 +8382,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   playnice: {
-    id: "playnice",
     name: "Play Nice",
     num: 589,
     type: "Normal",
@@ -8935,7 +8398,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   playrough: {
-    id: "playrough",
     name: "Play Rough",
     num: 583,
     type: "Fairy",
@@ -8952,7 +8414,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   pluck: {
-    id: "pluck",
     name: "Pluck",
     num: 365,
     type: "Flying",
@@ -8970,7 +8431,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   poisonfang: {
-    id: "poisonfang",
     name: "Poison Fang",
     num: 305,
     type: "Poison",
@@ -8988,7 +8448,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   poisongas: {
-    id: "poisongas",
     name: "Poison Gas",
     num: 139,
     type: "Poison",
@@ -9005,7 +8464,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   poisonjab: {
-    id: "poisonjab",
     name: "Poison Jab",
     num: 398,
     type: "Poison",
@@ -9022,7 +8480,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   poisonpowder: {
-    id: "poisonpowder",
     name: "Poison Powder",
     num: 77,
     type: "Poison",
@@ -9040,7 +8497,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   poisonsting: {
-    id: "poisonsting",
     name: "Poison Sting",
     num: 40,
     type: "Poison",
@@ -9056,7 +8512,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   poisontail: {
-    id: "poisontail",
     name: "Poison Tail",
     num: 342,
     type: "Poison",
@@ -9073,7 +8528,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   pollenpuff: {
-    id: "pollenpuff",
     name: "Pollen Puff",
     num: 676,
     type: "Bug",
@@ -9091,7 +8545,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   poltergeist: {
-    id: "poltergeist",
     name: "Poltergeist",
     num: 809,
     type: "Ghost",
@@ -9107,7 +8560,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   populationbomb: {
-    id: "populationbomb",
     name: "Population Bomb",
     num: 860,
     type: "Normal",
@@ -9125,7 +8577,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   pounce: {
-    id: "pounce",
     name: "Pounce",
     num: 884,
     type: "Bug",
@@ -9142,7 +8593,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   pound: {
-    id: "pound",
     name: "Pound",
     num: 1,
     type: "Normal",
@@ -9159,7 +8609,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   powder: {
-    id: "powder",
     name: "Powder",
     num: 600,
     type: "Bug",
@@ -9178,7 +8627,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   powdersnow: {
-    id: "powdersnow",
     name: "Powder Snow",
     num: 181,
     type: "Ice",
@@ -9194,7 +8642,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   powergem: {
-    id: "powergem",
     name: "Power Gem",
     num: 408,
     type: "Rock",
@@ -9210,7 +8657,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   powersplit: {
-    id: "powersplit",
     name: "Power Split",
     num: 471,
     type: "Psychic",
@@ -9226,7 +8672,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   powerswap: {
-    id: "powerswap",
     name: "Power Swap",
     num: 384,
     type: "Psychic",
@@ -9244,7 +8689,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   powertrick: {
-    id: "powertrick",
     name: "Power Trick",
     num: 379,
     type: "Psychic",
@@ -9259,7 +8703,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   powertrip: {
-    id: "powertrip",
     name: "Power Trip",
     num: 681,
     type: "Dark",
@@ -9276,7 +8719,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   poweruppunch: {
-    id: "poweruppunch",
     name: "Power-Up Punch",
     num: 612,
     type: "Fighting",
@@ -9294,7 +8736,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   powerwhip: {
-    id: "powerwhip",
     name: "Power Whip",
     num: 438,
     type: "Grass",
@@ -9311,7 +8752,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   precipiceblades: {
-    id: "precipiceblades",
     name: "Precipice Blades",
     num: 619,
     type: "Ground",
@@ -9328,7 +8768,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   present: {
-    id: "present",
     name: "Present",
     num: 217,
     type: "Normal",
@@ -9344,7 +8783,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   prismaticlaser: {
-    id: "prismaticlaser",
     name: "Prismatic Laser",
     num: 711,
     type: "Psychic",
@@ -9361,7 +8799,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   protect: {
-    id: "protect",
     name: "Protect",
     num: 182,
     type: "Normal",
@@ -9377,7 +8814,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psybeam: {
-    id: "psybeam",
     name: "Psybeam",
     num: 60,
     type: "Psychic",
@@ -9393,7 +8829,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   psyblade: {
-    id: "psyblade",
     name: "Psyblade",
     num: 875,
     type: "Psychic",
@@ -9411,7 +8846,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   psychup: {
-    id: "psychup",
     name: "Psych Up",
     num: 244,
     type: "Normal",
@@ -9427,7 +8861,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psychic: {
-    id: "psychic",
     name: "Psychic",
     num: 94,
     type: "Psychic",
@@ -9443,7 +8876,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psychicfangs: {
-    id: "psychicfangs",
     name: "Psychic Fangs",
     num: 706,
     type: "Psychic",
@@ -9461,7 +8893,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psychicterrain: {
-    id: "psychicterrain",
     name: "Psychic Terrain",
     num: 678,
     type: "Psychic",
@@ -9476,7 +8907,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psychoboost: {
-    id: "psychoboost",
     name: "Psycho Boost",
     num: 354,
     type: "Psychic",
@@ -9492,7 +8922,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   psychocut: {
-    id: "psychocut",
     name: "Psycho Cut",
     num: 427,
     type: "Psychic",
@@ -9509,7 +8938,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   psychoshift: {
-    id: "psychoshift",
     name: "Psycho Shift",
     num: 375,
     type: "Psychic",
@@ -9525,7 +8953,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psyshieldbash: {
-    id: "psyshieldbash",
     name: "Psyshield Bash",
     num: 828,
     type: "Psychic",
@@ -9542,7 +8969,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psyshock: {
-    id: "psyshock",
     name: "Psyshock",
     num: 473,
     type: "Psychic",
@@ -9558,7 +8984,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psystrike: {
-    id: "psystrike",
     name: "Psystrike",
     num: 540,
     type: "Psychic",
@@ -9574,7 +8999,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   psywave: {
-    id: "psywave",
     name: "Psywave",
     num: 149,
     type: "Psychic",
@@ -9590,7 +9014,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   pulverizingpancake: {
-    id: "pulverizingpancake",
     name: "Pulverizing Pancake",
     num: 701,
     type: "Normal",
@@ -9605,7 +9028,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   punishment: {
-    id: "punishment",
     name: "Punishment",
     num: 386,
     type: "Dark",
@@ -9622,7 +9044,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   purify: {
-    id: "purify",
     name: "Purify",
     num: 685,
     type: "Poison",
@@ -9639,7 +9060,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   pursuit: {
-    id: "pursuit",
     name: "Pursuit",
     num: 228,
     type: "Dark",
@@ -9656,7 +9076,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   pyroball: {
-    id: "pyroball",
     name: "Pyro Ball",
     num: 780,
     type: "Fire",
@@ -9674,7 +9093,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   quash: {
-    id: "quash",
     name: "Quash",
     num: 511,
     type: "Dark",
@@ -9690,7 +9108,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   quickattack: {
-    id: "quickattack",
     name: "Quick Attack",
     num: 98,
     type: "Normal",
@@ -9707,7 +9124,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   quickguard: {
-    id: "quickguard",
     name: "Quick Guard",
     num: 501,
     type: "Fighting",
@@ -9722,7 +9138,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   quiverdance: {
-    id: "quiverdance",
     name: "Quiver Dance",
     num: 483,
     type: "Bug",
@@ -9738,7 +9153,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   rage: {
-    id: "rage",
     name: "Rage",
     num: 99,
     type: "Normal",
@@ -9755,7 +9169,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   ragefist: {
-    id: "ragefist",
     name: "Rage Fist",
     num: 889,
     type: "Ghost",
@@ -9773,7 +9186,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   ragepowder: {
-    id: "ragepowder",
     name: "Rage Powder",
     num: 476,
     type: "Bug",
@@ -9790,7 +9202,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   ragingbull: {
-    id: "ragingbull",
     name: "Raging Bull",
     num: 873,
     type: "Normal",
@@ -9807,7 +9218,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   ragingfury: {
-    id: "ragingfury",
     name: "Raging Fury",
     num: 833,
     type: "Fire",
@@ -9823,7 +9233,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   raindance: {
-    id: "raindance",
     name: "Rain Dance",
     num: 240,
     type: "Water",
@@ -9836,7 +9245,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   rapidspin: {
-    id: "rapidspin",
     name: "Rapid Spin",
     num: 229,
     type: "Normal",
@@ -9853,7 +9261,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   razorleaf: {
-    id: "razorleaf",
     name: "Razor Leaf",
     num: 75,
     type: "Grass",
@@ -9870,7 +9277,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   razorshell: {
-    id: "razorshell",
     name: "Razor Shell",
     num: 534,
     type: "Water",
@@ -9888,7 +9294,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   razorwind: {
-    id: "razorwind",
     name: "Razor Wind",
     num: 13,
     type: "Normal",
@@ -9907,7 +9312,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   recover: {
-    id: "recover",
     name: "Recover",
     num: 105,
     type: "Normal",
@@ -9923,7 +9327,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   recycle: {
-    id: "recycle",
     name: "Recycle",
     num: 278,
     type: "Normal",
@@ -9938,7 +9341,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   reflect: {
-    id: "reflect",
     name: "Reflect",
     num: 115,
     type: "Psychic",
@@ -9953,7 +9355,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   reflecttype: {
-    id: "reflecttype",
     name: "Reflect Type",
     num: 513,
     type: "Normal",
@@ -9970,7 +9371,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   refresh: {
-    id: "refresh",
     name: "Refresh",
     num: 287,
     type: "Normal",
@@ -9985,7 +9385,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   relicsong: {
-    id: "relicsong",
     name: "Relic Song",
     num: 547,
     type: "Normal",
@@ -10003,7 +9402,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   rest: {
-    id: "rest",
     name: "Rest",
     num: 156,
     type: "Psychic",
@@ -10019,7 +9417,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   retaliate: {
-    id: "retaliate",
     name: "Retaliate",
     num: 514,
     type: "Normal",
@@ -10036,7 +9433,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   "return": {
-    id: "return",
     name: "Return",
     num: 216,
     type: "Normal",
@@ -10053,7 +9449,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   revelationdance: {
-    id: "revelationdance",
     name: "Revelation Dance",
     num: 686,
     type: "Normal",
@@ -10070,7 +9465,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   revenge: {
-    id: "revenge",
     name: "Revenge",
     num: 279,
     type: "Fighting",
@@ -10087,7 +9481,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   reversal: {
-    id: "reversal",
     name: "Reversal",
     num: 179,
     type: "Fighting",
@@ -10104,7 +9497,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   revivalblessing: {
-    id: "revivalblessing",
     name: "Revival Blessing",
     num: 863,
     type: "Normal",
@@ -10117,7 +9509,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   risingvoltage: {
-    id: "risingvoltage",
     name: "Rising Voltage",
     num: 804,
     type: "Electric",
@@ -10133,7 +9524,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   roar: {
-    id: "roar",
     name: "Roar",
     num: 46,
     type: "Normal",
@@ -10154,7 +9544,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   roaroftime: {
-    id: "roaroftime",
     name: "Roar of Time",
     num: 459,
     type: "Dragon",
@@ -10171,7 +9560,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   rockblast: {
-    id: "rockblast",
     name: "Rock Blast",
     num: 350,
     type: "Rock",
@@ -10188,7 +9576,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   rockclimb: {
-    id: "rockclimb",
     name: "Rock Climb",
     num: 431,
     type: "Normal",
@@ -10205,7 +9592,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   rockpolish: {
-    id: "rockpolish",
     name: "Rock Polish",
     num: 397,
     type: "Rock",
@@ -10220,7 +9606,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   rockslide: {
-    id: "rockslide",
     name: "Rock Slide",
     num: 157,
     type: "Rock",
@@ -10236,7 +9621,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   rocksmash: {
-    id: "rocksmash",
     name: "Rock Smash",
     num: 249,
     type: "Fighting",
@@ -10253,7 +9637,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   rockthrow: {
-    id: "rockthrow",
     name: "Rock Throw",
     num: 88,
     type: "Rock",
@@ -10269,7 +9652,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   rocktomb: {
-    id: "rocktomb",
     name: "Rock Tomb",
     num: 317,
     type: "Rock",
@@ -10285,7 +9667,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   rockwrecker: {
-    id: "rockwrecker",
     name: "Rock Wrecker",
     num: 439,
     type: "Rock",
@@ -10303,7 +9684,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   roleplay: {
-    id: "roleplay",
     name: "Role Play",
     num: 272,
     type: "Psychic",
@@ -10319,7 +9699,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   rollingkick: {
-    id: "rollingkick",
     name: "Rolling Kick",
     num: 27,
     type: "Fighting",
@@ -10336,7 +9715,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   rollout: {
-    id: "rollout",
     name: "Rollout",
     num: 205,
     type: "Rock",
@@ -10355,7 +9733,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   roost: {
-    id: "roost",
     name: "Roost",
     num: 355,
     type: "Flying",
@@ -10371,7 +9748,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   rototiller: {
-    id: "rototiller",
     name: "Rototiller",
     num: 563,
     type: "Ground",
@@ -10387,7 +9763,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   round: {
-    id: "round",
     name: "Round",
     num: 496,
     type: "Normal",
@@ -10405,7 +9780,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   ruination: {
-    id: "ruination",
     name: "Ruination",
     num: 877,
     type: "Dark",
@@ -10421,7 +9795,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sacredfire: {
-    id: "sacredfire",
     name: "Sacred Fire",
     num: 221,
     type: "Fire",
@@ -10438,7 +9811,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   sacredsword: {
-    id: "sacredsword",
     name: "Sacred Sword",
     num: 533,
     type: "Fighting",
@@ -10456,7 +9828,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   safeguard: {
-    id: "safeguard",
     name: "Safeguard",
     num: 219,
     type: "Normal",
@@ -10471,7 +9842,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   saltcure: {
-    id: "saltcure",
     name: "Salt Cure",
     num: 864,
     type: "Rock",
@@ -10487,7 +9857,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   sandattack: {
-    id: "sandattack",
     name: "Sand Attack",
     num: 28,
     type: "Ground",
@@ -10504,7 +9873,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   sandsearstorm: {
-    id: "sandsearstorm",
     name: "Sandsear Storm",
     num: 848,
     type: "Ground",
@@ -10521,7 +9889,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sandstorm: {
-    id: "sandstorm",
     name: "Sandstorm",
     num: 201,
     type: "Rock",
@@ -10536,7 +9903,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sandtomb: {
-    id: "sandtomb",
     name: "Sand Tomb",
     num: 328,
     type: "Ground",
@@ -10552,7 +9918,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   savagespinout: {
-    id: "savagespinout",
     name: "Savage Spin-Out",
     num: 634,
     type: "Bug",
@@ -10565,7 +9930,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   scald: {
-    id: "scald",
     name: "Scald",
     num: 503,
     type: "Water",
@@ -10582,7 +9946,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   scaleshot: {
-    id: "scaleshot",
     name: "Scale Shot",
     num: 799,
     type: "Dragon",
@@ -10598,7 +9961,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   scaryface: {
-    id: "scaryface",
     name: "Scary Face",
     num: 184,
     type: "Normal",
@@ -10616,7 +9978,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   scorchingsands: {
-    id: "scorchingsands",
     name: "Scorching Sands",
     num: 815,
     type: "Ground",
@@ -10633,7 +9994,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   scratch: {
-    id: "scratch",
     name: "Scratch",
     num: 10,
     type: "Normal",
@@ -10650,7 +10010,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   screech: {
-    id: "screech",
     name: "Screech",
     num: 103,
     type: "Normal",
@@ -10670,7 +10029,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   searingshot: {
-    id: "searingshot",
     name: "Searing Shot",
     num: 545,
     type: "Fire",
@@ -10687,7 +10045,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   searingsunrazesmash: {
-    id: "searingsunrazesmash",
     name: "Searing Sunraze Smash",
     num: 724,
     type: "Steel",
@@ -10702,7 +10059,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   secretpower: {
-    id: "secretpower",
     name: "Secret Power",
     num: 290,
     type: "Normal",
@@ -10718,7 +10074,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   secretsword: {
-    id: "secretsword",
     name: "Secret Sword",
     num: 548,
     type: "Fighting",
@@ -10734,7 +10089,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   seedbomb: {
-    id: "seedbomb",
     name: "Seed Bomb",
     num: 402,
     type: "Grass",
@@ -10751,7 +10105,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   seedflare: {
-    id: "seedflare",
     name: "Seed Flare",
     num: 465,
     type: "Grass",
@@ -10767,7 +10120,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   seismictoss: {
-    id: "seismictoss",
     name: "Seismic Toss",
     num: 69,
     type: "Fighting",
@@ -10785,7 +10137,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   selfdestruct: {
-    id: "selfdestruct",
     name: "Self-Destruct",
     num: 120,
     type: "Normal",
@@ -10802,7 +10153,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   shadowball: {
-    id: "shadowball",
     name: "Shadow Ball",
     num: 247,
     type: "Ghost",
@@ -10819,7 +10169,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   shadowbone: {
-    id: "shadowbone",
     name: "Shadow Bone",
     num: 708,
     type: "Ghost",
@@ -10835,7 +10184,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   shadowclaw: {
-    id: "shadowclaw",
     name: "Shadow Claw",
     num: 421,
     type: "Ghost",
@@ -10852,7 +10200,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   shadowforce: {
-    id: "shadowforce",
     name: "Shadow Force",
     num: 467,
     type: "Ghost",
@@ -10872,7 +10219,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   shadowpunch: {
-    id: "shadowpunch",
     name: "Shadow Punch",
     num: 325,
     type: "Ghost",
@@ -10890,7 +10236,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   shadowsneak: {
-    id: "shadowsneak",
     name: "Shadow Sneak",
     num: 425,
     type: "Ghost",
@@ -10907,7 +10252,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   sharpen: {
-    id: "sharpen",
     name: "Sharpen",
     num: 159,
     type: "Normal",
@@ -10922,7 +10266,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   shatteredpsyche: {
-    id: "shatteredpsyche",
     name: "Shattered Psyche",
     num: 648,
     type: "Psychic",
@@ -10935,7 +10278,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   shedtail: {
-    id: "shedtail",
     name: "Shed Tail",
     num: 880,
     type: "Normal",
@@ -10948,7 +10290,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sheercold: {
-    id: "sheercold",
     name: "Sheer Cold",
     num: 329,
     type: "Ice",
@@ -10964,7 +10305,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   shellsidearm: {
-    id: "shellsidearm",
     name: "Shell Side Arm",
     num: 801,
     type: "Poison",
@@ -10980,7 +10320,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   shellsmash: {
-    id: "shellsmash",
     name: "Shell Smash",
     num: 504,
     type: "Normal",
@@ -10995,7 +10334,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   shelltrap: {
-    id: "shelltrap",
     name: "Shell Trap",
     num: 704,
     type: "Fire",
@@ -11015,7 +10353,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   shelter: {
-    id: "shelter",
     name: "Shelter",
     num: 842,
     type: "Steel",
@@ -11030,7 +10367,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   shiftgear: {
-    id: "shiftgear",
     name: "Shift Gear",
     num: 508,
     type: "Steel",
@@ -11045,7 +10381,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   shockwave: {
-    id: "shockwave",
     name: "Shock Wave",
     num: 351,
     type: "Electric",
@@ -11061,7 +10396,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   shoreup: {
-    id: "shoreup",
     name: "Shore Up",
     num: 659,
     type: "Ground",
@@ -11077,7 +10411,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   signalbeam: {
-    id: "signalbeam",
     name: "Signal Beam",
     num: 324,
     type: "Bug",
@@ -11093,7 +10426,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   silktrap: {
-    id: "silktrap",
     name: "Silk Trap",
     num: 852,
     type: "Bug",
@@ -11106,7 +10438,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   silverwind: {
-    id: "silverwind",
     name: "Silver Wind",
     num: 318,
     type: "Bug",
@@ -11122,7 +10453,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   simplebeam: {
-    id: "simplebeam",
     name: "Simple Beam",
     num: 493,
     type: "Normal",
@@ -11140,7 +10470,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   sing: {
-    id: "sing",
     name: "Sing",
     num: 47,
     type: "Normal",
@@ -11159,7 +10488,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   sinisterarrowraid: {
-    id: "sinisterarrowraid",
     name: "Sinister Arrow Raid",
     num: 695,
     type: "Ghost",
@@ -11172,7 +10500,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   sketch: {
-    id: "sketch",
     name: "Sketch",
     num: 166,
     type: "Normal",
@@ -11194,7 +10521,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   skillswap: {
-    id: "skillswap",
     name: "Skill Swap",
     num: 285,
     type: "Psychic",
@@ -11212,7 +10538,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   skittersmack: {
-    id: "skittersmack",
     name: "Skitter Smack",
     num: 806,
     type: "Bug",
@@ -11229,7 +10554,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   skullbash: {
-    id: "skullbash",
     name: "Skull Bash",
     num: 130,
     type: "Normal",
@@ -11249,7 +10573,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   skyattack: {
-    id: "skyattack",
     name: "Sky Attack",
     num: 143,
     type: "Flying",
@@ -11269,7 +10592,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   skydrop: {
-    id: "skydrop",
     name: "Sky Drop",
     num: 507,
     type: "Flying",
@@ -11292,7 +10614,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   skyuppercut: {
-    id: "skyuppercut",
     name: "Sky Uppercut",
     num: 327,
     type: "Fighting",
@@ -11310,7 +10631,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   slackoff: {
-    id: "slackoff",
     name: "Slack Off",
     num: 303,
     type: "Normal",
@@ -11326,7 +10646,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   slam: {
-    id: "slam",
     name: "Slam",
     num: 21,
     type: "Normal",
@@ -11344,7 +10663,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   slash: {
-    id: "slash",
     name: "Slash",
     num: 163,
     type: "Normal",
@@ -11362,7 +10680,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   sleeppowder: {
-    id: "sleeppowder",
     name: "Sleep Powder",
     num: 79,
     type: "Grass",
@@ -11380,7 +10697,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   sleeptalk: {
-    id: "sleeptalk",
     name: "Sleep Talk",
     num: 214,
     type: "Normal",
@@ -11400,7 +10716,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sludge: {
-    id: "sludge",
     name: "Sludge",
     num: 124,
     type: "Poison",
@@ -11416,7 +10731,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   sludgebomb: {
-    id: "sludgebomb",
     name: "Sludge Bomb",
     num: 188,
     type: "Poison",
@@ -11433,7 +10747,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sludgewave: {
-    id: "sludgewave",
     name: "Sludge Wave",
     num: 482,
     type: "Poison",
@@ -11449,7 +10762,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   smackdown: {
-    id: "smackdown",
     name: "Smack Down",
     num: 479,
     type: "Rock",
@@ -11466,7 +10778,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   smartstrike: {
-    id: "smartstrike",
     name: "Smart Strike",
     num: 684,
     type: "Steel",
@@ -11483,7 +10794,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   smellingsalts: {
-    id: "smellingsalts",
     name: "Smelling Salts",
     num: 265,
     type: "Normal",
@@ -11500,7 +10810,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   smog: {
-    id: "smog",
     name: "Smog",
     num: 123,
     type: "Poison",
@@ -11516,7 +10825,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   smokescreen: {
-    id: "smokescreen",
     name: "Smokescreen",
     num: 108,
     type: "Normal",
@@ -11533,7 +10841,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   snaptrap: {
-    id: "snaptrap",
     name: "Snap Trap",
     num: 779,
     type: "Grass",
@@ -11550,7 +10857,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   snarl: {
-    id: "snarl",
     name: "Snarl",
     num: 555,
     type: "Dark",
@@ -11568,7 +10874,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   snatch: {
-    id: "snatch",
     name: "Snatch",
     num: 289,
     type: "Dark",
@@ -11586,7 +10891,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   snipeshot: {
-    id: "snipeshot",
     name: "Snipe Shot",
     num: 745,
     type: "Water",
@@ -11602,7 +10906,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   snore: {
-    id: "snore",
     name: "Snore",
     num: 173,
     type: "Normal",
@@ -11620,7 +10923,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   snowscape: {
-    id: "snowscape",
     name: "Snowscape",
     num: 883,
     type: "Ice",
@@ -11633,7 +10935,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   soak: {
-    id: "soak",
     name: "Soak",
     num: 487,
     type: "Water",
@@ -11651,7 +10952,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   softboiled: {
-    id: "softboiled",
     name: "Soft-Boiled",
     num: 135,
     type: "Normal",
@@ -11667,7 +10967,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   solarbeam: {
-    id: "solarbeam",
     name: "Solar Beam",
     num: 76,
     type: "Grass",
@@ -11686,7 +10985,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   solarblade: {
-    id: "solarblade",
     name: "Solar Blade",
     num: 669,
     type: "Grass",
@@ -11707,7 +11005,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sonicboom: {
-    id: "sonicboom",
     name: "Sonic Boom",
     num: 49,
     type: "Normal",
@@ -11723,7 +11020,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   soulstealing7starstrike: {
-    id: "soulstealing7starstrike",
     name: "Soul-Stealing 7-Star Strike",
     num: 699,
     type: "Ghost",
@@ -11738,7 +11034,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   spacialrend: {
-    id: "spacialrend",
     name: "Spacial Rend",
     num: 460,
     type: "Dragon",
@@ -11754,7 +11049,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   spark: {
-    id: "spark",
     name: "Spark",
     num: 209,
     type: "Electric",
@@ -11771,7 +11065,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   sparklingaria: {
-    id: "sparklingaria",
     name: "Sparkling Aria",
     num: 664,
     type: "Water",
@@ -11789,7 +11082,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   spectralthief: {
-    id: "spectralthief",
     name: "Spectral Thief",
     num: 712,
     type: "Ghost",
@@ -11807,7 +11099,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   speedswap: {
-    id: "speedswap",
     name: "Speed Swap",
     num: 683,
     type: "Psychic",
@@ -11825,7 +11116,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   spicyextract: {
-    id: "spicyextract",
     name: "Spicy Extract",
     num: 858,
     type: "Grass",
@@ -11842,7 +11132,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   spiderweb: {
-    id: "spiderweb",
     name: "Spider Web",
     num: 169,
     type: "Bug",
@@ -11859,7 +11148,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   spikecannon: {
-    id: "spikecannon",
     name: "Spike Cannon",
     num: 131,
     type: "Normal",
@@ -11875,7 +11163,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   spikes: {
-    id: "spikes",
     name: "Spikes",
     num: 191,
     type: "Ground",
@@ -11892,7 +11179,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   spikyshield: {
-    id: "spikyshield",
     name: "Spiky Shield",
     num: 596,
     type: "Grass",
@@ -11908,7 +11194,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   spinout: {
-    id: "spinout",
     name: "Spin Out",
     num: 859,
     type: "Steel",
@@ -11925,7 +11210,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   spiritbreak: {
-    id: "spiritbreak",
     name: "Spirit Break",
     num: 789,
     type: "Fairy",
@@ -11942,7 +11226,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   spiritshackle: {
-    id: "spiritshackle",
     name: "Spirit Shackle",
     num: 662,
     type: "Ghost",
@@ -11958,7 +11241,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   spitup: {
-    id: "spitup",
     name: "Spit Up",
     num: 255,
     type: "Normal",
@@ -11973,7 +11255,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   spite: {
-    id: "spite",
     name: "Spite",
     num: 180,
     type: "Ghost",
@@ -11991,7 +11272,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   splash: {
-    id: "splash",
     name: "Splash",
     num: 150,
     type: "Normal",
@@ -12006,7 +11286,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   splinteredstormshards: {
-    id: "splinteredstormshards",
     name: "Splintered Stormshards",
     num: 727,
     type: "Rock",
@@ -12019,7 +11298,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   spore: {
-    id: "spore",
     name: "Spore",
     num: 147,
     type: "Grass",
@@ -12037,7 +11315,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   spotlight: {
-    id: "spotlight",
     name: "Spotlight",
     num: 671,
     type: "Normal",
@@ -12056,7 +11333,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   springtidestorm: {
-    id: "springtidestorm",
     name: "Springtide Storm",
     num: 831,
     type: "Fairy",
@@ -12073,7 +11349,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   stealthrock: {
-    id: "stealthrock",
     name: "Stealth Rock",
     num: 446,
     type: "Rock",
@@ -12089,7 +11364,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   steameruption: {
-    id: "steameruption",
     name: "Steam Eruption",
     num: 592,
     type: "Water",
@@ -12106,7 +11380,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   steamroller: {
-    id: "steamroller",
     name: "Steamroller",
     num: 537,
     type: "Bug",
@@ -12123,7 +11396,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   steelbeam: {
-    id: "steelbeam",
     name: "Steel Beam",
     num: 796,
     type: "Steel",
@@ -12139,7 +11411,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   steelroller: {
-    id: "steelroller",
     name: "Steel Roller",
     num: 798,
     type: "Steel",
@@ -12156,7 +11427,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   steelwing: {
-    id: "steelwing",
     name: "Steel Wing",
     num: 211,
     type: "Steel",
@@ -12173,7 +11443,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   stickyweb: {
-    id: "stickyweb",
     name: "Sticky Web",
     num: 564,
     type: "Bug",
@@ -12188,7 +11457,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   stockpile: {
-    id: "stockpile",
     name: "Stockpile",
     num: 254,
     type: "Normal",
@@ -12203,7 +11471,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   stokedsparksurfer: {
-    id: "stokedsparksurfer",
     name: "Stoked Sparksurfer",
     num: 700,
     type: "Electric",
@@ -12216,7 +11483,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   stomp: {
-    id: "stomp",
     name: "Stomp",
     num: 23,
     type: "Normal",
@@ -12234,7 +11500,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   stompingtantrum: {
-    id: "stompingtantrum",
     name: "Stomping Tantrum",
     num: 707,
     type: "Ground",
@@ -12251,7 +11516,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   stoneaxe: {
-    id: "stoneaxe",
     name: "Stone Axe",
     num: 830,
     type: "Rock",
@@ -12269,7 +11533,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   stoneedge: {
-    id: "stoneedge",
     name: "Stone Edge",
     num: 444,
     type: "Rock",
@@ -12285,7 +11548,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   storedpower: {
-    id: "storedpower",
     name: "Stored Power",
     num: 500,
     type: "Psychic",
@@ -12301,7 +11563,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   stormthrow: {
-    id: "stormthrow",
     name: "Storm Throw",
     num: 480,
     type: "Fighting",
@@ -12318,7 +11579,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   strangesteam: {
-    id: "strangesteam",
     name: "Strange Steam",
     num: 790,
     type: "Fairy",
@@ -12334,7 +11594,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   strength: {
-    id: "strength",
     name: "Strength",
     num: 70,
     type: "Normal",
@@ -12351,7 +11610,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   strengthsap: {
-    id: "strengthsap",
     name: "Strength Sap",
     num: 668,
     type: "Grass",
@@ -12369,7 +11627,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   stringshot: {
-    id: "stringshot",
     name: "String Shot",
     num: 81,
     type: "Bug",
@@ -12386,7 +11643,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   struggle: {
-    id: "struggle",
     name: "Struggle",
     num: 165,
     type: "Normal",
@@ -12409,7 +11665,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   strugglebug: {
-    id: "strugglebug",
     name: "Struggle Bug",
     num: 522,
     type: "Bug",
@@ -12425,7 +11680,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   stuffcheeks: {
-    id: "stuffcheeks",
     name: "Stuff Cheeks",
     num: 747,
     type: "Normal",
@@ -12440,7 +11694,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   stunspore: {
-    id: "stunspore",
     name: "Stun Spore",
     num: 78,
     type: "Grass",
@@ -12458,7 +11711,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   submission: {
-    id: "submission",
     name: "Submission",
     num: 66,
     type: "Fighting",
@@ -12475,7 +11727,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   substitute: {
-    id: "substitute",
     name: "Substitute",
     num: 164,
     type: "Normal",
@@ -12491,7 +11742,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   subzeroslammer: {
-    id: "subzeroslammer",
     name: "Subzero Slammer",
     num: 650,
     type: "Ice",
@@ -12504,7 +11754,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   suckerpunch: {
-    id: "suckerpunch",
     name: "Sucker Punch",
     num: 389,
     type: "Dark",
@@ -12521,7 +11770,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   sunnyday: {
-    id: "sunnyday",
     name: "Sunny Day",
     num: 241,
     type: "Fire",
@@ -12534,7 +11782,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   sunsteelstrike: {
-    id: "sunsteelstrike",
     name: "Sunsteel Strike",
     num: 713,
     type: "Steel",
@@ -12551,7 +11798,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   superfang: {
-    id: "superfang",
     name: "Super Fang",
     num: 162,
     type: "Normal",
@@ -12568,7 +11814,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   superpower: {
-    id: "superpower",
     name: "Superpower",
     num: 276,
     type: "Fighting",
@@ -12585,7 +11830,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   supersonic: {
-    id: "supersonic",
     name: "Supersonic",
     num: 48,
     type: "Normal",
@@ -12604,7 +11848,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   supersonicskystrike: {
-    id: "supersonicskystrike",
     name: "Supersonic Skystrike",
     num: 626,
     type: "Flying",
@@ -12617,7 +11860,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   surf: {
-    id: "surf",
     name: "Surf",
     num: 57,
     type: "Water",
@@ -12634,7 +11876,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   surgingstrikes: {
-    id: "surgingstrikes",
     name: "Surging Strikes",
     num: 818,
     type: "Water",
@@ -12652,7 +11893,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   swagger: {
-    id: "swagger",
     name: "Swagger",
     num: 207,
     type: "Normal",
@@ -12670,7 +11910,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   swallow: {
-    id: "swallow",
     name: "Swallow",
     num: 256,
     type: "Normal",
@@ -12686,7 +11925,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sweetkiss: {
-    id: "sweetkiss",
     name: "Sweet Kiss",
     num: 186,
     type: "Fairy",
@@ -12703,7 +11941,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   sweetscent: {
-    id: "sweetscent",
     name: "Sweet Scent",
     num: 230,
     type: "Normal",
@@ -12720,7 +11957,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   swift: {
-    id: "swift",
     name: "Swift",
     num: 129,
     type: "Normal",
@@ -12736,7 +11972,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   switcheroo: {
-    id: "switcheroo",
     name: "Switcheroo",
     num: 415,
     type: "Dark",
@@ -12755,7 +11990,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   swordsdance: {
-    id: "swordsdance",
     name: "Swords Dance",
     num: 14,
     type: "Normal",
@@ -12771,7 +12005,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   synchronoise: {
-    id: "synchronoise",
     name: "Synchronoise",
     num: 485,
     type: "Psychic",
@@ -12787,7 +12020,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   synthesis: {
-    id: "synthesis",
     name: "Synthesis",
     num: 235,
     type: "Grass",
@@ -12803,7 +12035,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   syrupbomb: {
-    id: "syrupbomb",
     name: "Syrup Bomb",
     num: 903,
     type: "Grass",
@@ -12820,7 +12051,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   tackle: {
-    id: "tackle",
     name: "Tackle",
     num: 33,
     type: "Normal",
@@ -12837,7 +12067,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   tailglow: {
-    id: "tailglow",
     name: "Tail Glow",
     num: 294,
     type: "Bug",
@@ -12852,7 +12081,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   tailslap: {
-    id: "tailslap",
     name: "Tail Slap",
     num: 541,
     type: "Normal",
@@ -12869,7 +12097,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   tailwhip: {
-    id: "tailwhip",
     name: "Tail Whip",
     num: 39,
     type: "Normal",
@@ -12886,7 +12113,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   tailwind: {
-    id: "tailwind",
     name: "Tailwind",
     num: 366,
     type: "Flying",
@@ -12902,7 +12128,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   takedown: {
-    id: "takedown",
     name: "Take Down",
     num: 36,
     type: "Normal",
@@ -12919,7 +12144,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   takeheart: {
-    id: "takeheart",
     name: "Take Heart",
     num: 850,
     type: "Psychic",
@@ -12934,7 +12158,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   tarshot: {
-    id: "tarshot",
     name: "Tar Shot",
     num: 749,
     type: "Rock",
@@ -12951,7 +12174,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   taunt: {
-    id: "taunt",
     name: "Taunt",
     num: 269,
     type: "Dark",
@@ -12969,7 +12191,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   tearfullook: {
-    id: "tearfullook",
     name: "Tearful Look",
     num: 715,
     type: "Normal",
@@ -12985,7 +12206,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   teatime: {
-    id: "teatime",
     name: "Teatime",
     num: 752,
     type: "Normal",
@@ -13000,7 +12220,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   technoblast: {
-    id: "technoblast",
     name: "Techno Blast",
     num: 546,
     type: "Normal",
@@ -13016,7 +12235,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   tectonicrage: {
-    id: "tectonicrage",
     name: "Tectonic Rage",
     num: 630,
     type: "Ground",
@@ -13029,7 +12247,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   teeterdance: {
-    id: "teeterdance",
     name: "Teeter Dance",
     num: 298,
     type: "Normal",
@@ -13046,7 +12263,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   telekinesis: {
-    id: "telekinesis",
     name: "Telekinesis",
     num: 477,
     type: "Psychic",
@@ -13065,7 +12281,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   teleport: {
-    id: "teleport",
     name: "Teleport",
     num: 100,
     type: "Psychic",
@@ -13078,7 +12293,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   terablast: {
-    id: "terablast",
     name: "Tera Blast",
     num: 851,
     type: "Normal",
@@ -13095,7 +12309,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   terrainpulse: {
-    id: "terrainpulse",
     name: "Terrain Pulse",
     num: 805,
     type: "Normal",
@@ -13112,7 +12325,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   thief: {
-    id: "thief",
     name: "Thief",
     num: 168,
     type: "Dark",
@@ -13132,7 +12344,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   thousandarrows: {
-    id: "thousandarrows",
     name: "Thousand Arrows",
     num: 614,
     type: "Ground",
@@ -13149,7 +12360,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   thousandwaves: {
-    id: "thousandwaves",
     name: "Thousand Waves",
     num: 615,
     type: "Ground",
@@ -13166,7 +12376,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   thrash: {
-    id: "thrash",
     name: "Thrash",
     num: 37,
     type: "Normal",
@@ -13184,7 +12393,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   throatchop: {
-    id: "throatchop",
     name: "Throat Chop",
     num: 675,
     type: "Dark",
@@ -13201,7 +12409,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   thunder: {
-    id: "thunder",
     name: "Thunder",
     num: 87,
     type: "Electric",
@@ -13217,7 +12424,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   thunderbolt: {
-    id: "thunderbolt",
     name: "Thunderbolt",
     num: 85,
     type: "Electric",
@@ -13233,7 +12439,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   thundercage: {
-    id: "thundercage",
     name: "Thunder Cage",
     num: 819,
     type: "Electric",
@@ -13249,7 +12454,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   thunderfang: {
-    id: "thunderfang",
     name: "Thunder Fang",
     num: 422,
     type: "Electric",
@@ -13267,7 +12471,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   thunderouskick: {
-    id: "thunderouskick",
     name: "Thunderous Kick",
     num: 823,
     type: "Fighting",
@@ -13284,7 +12487,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   thunderpunch: {
-    id: "thunderpunch",
     name: "Thunder Punch",
     num: 9,
     type: "Electric",
@@ -13302,7 +12504,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   thundershock: {
-    id: "thundershock",
     name: "Thunder Shock",
     num: 84,
     type: "Electric",
@@ -13318,7 +12519,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   thunderwave: {
-    id: "thunderwave",
     name: "Thunder Wave",
     num: 86,
     type: "Electric",
@@ -13335,7 +12535,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   tickle: {
-    id: "tickle",
     name: "Tickle",
     num: 321,
     type: "Normal",
@@ -13353,7 +12552,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   tidyup: {
-    id: "tidyup",
     name: "Tidy Up",
     num: 882,
     type: "Normal",
@@ -13366,7 +12564,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   topsyturvy: {
-    id: "topsyturvy",
     name: "Topsy-Turvy",
     num: 576,
     type: "Dark",
@@ -13384,7 +12581,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   torchsong: {
-    id: "torchsong",
     name: "Torch Song",
     num: 871,
     type: "Fire",
@@ -13402,7 +12598,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   torment: {
-    id: "torment",
     name: "Torment",
     num: 259,
     type: "Dark",
@@ -13420,7 +12615,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   toxic: {
-    id: "toxic",
     name: "Toxic",
     num: 92,
     type: "Poison",
@@ -13437,7 +12631,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   toxicspikes: {
-    id: "toxicspikes",
     name: "Toxic Spikes",
     num: 390,
     type: "Poison",
@@ -13454,7 +12647,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   toxicthread: {
-    id: "toxicthread",
     name: "Toxic Thread",
     num: 672,
     type: "Poison",
@@ -13471,7 +12663,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   trailblaze: {
-    id: "trailblaze",
     name: "Trailblaze",
     num: 885,
     type: "Grass",
@@ -13488,7 +12679,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   transform: {
-    id: "transform",
     name: "Transform",
     num: 144,
     type: "Normal",
@@ -13508,7 +12698,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   triattack: {
-    id: "triattack",
     name: "Tri Attack",
     num: 161,
     type: "Normal",
@@ -13524,7 +12713,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   trick: {
-    id: "trick",
     name: "Trick",
     num: 271,
     type: "Psychic",
@@ -13543,7 +12731,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   trickortreat: {
-    id: "trickortreat",
     name: "Trick-or-Treat",
     num: 567,
     type: "Ghost",
@@ -13561,7 +12748,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   trickroom: {
-    id: "trickroom",
     name: "Trick Room",
     num: 433,
     type: "Psychic",
@@ -13576,7 +12762,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   triplearrows: {
-    id: "triplearrows",
     name: "Triple Arrows",
     num: 843,
     type: "Fighting",
@@ -13592,7 +12777,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   tripleaxel: {
-    id: "tripleaxel",
     name: "Triple Axel",
     num: 813,
     type: "Ice",
@@ -13609,7 +12793,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   tripledive: {
-    id: "tripledive",
     name: "Triple Dive",
     num: 865,
     type: "Water",
@@ -13626,7 +12809,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   triplekick: {
-    id: "triplekick",
     name: "Triple Kick",
     num: 167,
     type: "Fighting",
@@ -13643,7 +12825,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   tropkick: {
-    id: "tropkick",
     name: "Trop Kick",
     num: 688,
     type: "Grass",
@@ -13660,7 +12841,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   trumpcard: {
-    id: "trumpcard",
     name: "Trump Card",
     num: 376,
     type: "Normal",
@@ -13677,7 +12857,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   twinbeam: {
-    id: "twinbeam",
     name: "Twin Beam",
     num: 888,
     type: "Psychic",
@@ -13693,7 +12872,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   twineedle: {
-    id: "twineedle",
     name: "Twineedle",
     num: 41,
     type: "Bug",
@@ -13709,7 +12887,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   twinkletackle: {
-    id: "twinkletackle",
     name: "Twinkle Tackle",
     num: 656,
     type: "Fairy",
@@ -13722,7 +12899,6 @@ exports.BattleMovedex = {
     pp: 1
   },
   twister: {
-    id: "twister",
     name: "Twister",
     num: 239,
     type: "Dragon",
@@ -13739,7 +12915,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   uturn: {
-    id: "uturn",
     name: "U-turn",
     num: 369,
     type: "Bug",
@@ -13756,7 +12931,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   uproar: {
-    id: "uproar",
     name: "Uproar",
     num: 253,
     type: "Normal",
@@ -13776,7 +12950,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   vacuumwave: {
-    id: "vacuumwave",
     name: "Vacuum Wave",
     num: 410,
     type: "Fighting",
@@ -13792,7 +12965,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   vcreate: {
-    id: "vcreate",
     name: "V-create",
     num: 557,
     type: "Fire",
@@ -13809,7 +12981,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   venomdrench: {
-    id: "venomdrench",
     name: "Venom Drench",
     num: 599,
     type: "Poison",
@@ -13826,7 +12997,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   venoshock: {
-    id: "venoshock",
     name: "Venoshock",
     num: 474,
     type: "Poison",
@@ -13842,7 +13012,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   victorydance: {
-    id: "victorydance",
     name: "Victory Dance",
     num: 837,
     type: "Fighting",
@@ -13858,7 +13027,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   vinewhip: {
-    id: "vinewhip",
     name: "Vine Whip",
     num: 22,
     type: "Grass",
@@ -13875,7 +13043,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   visegrip: {
-    id: "visegrip",
     name: "Vise Grip",
     num: 11,
     type: "Normal",
@@ -13892,7 +13059,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   vitalthrow: {
-    id: "vitalthrow",
     name: "Vital Throw",
     num: 233,
     type: "Fighting",
@@ -13909,7 +13075,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   voltswitch: {
-    id: "voltswitch",
     name: "Volt Switch",
     num: 521,
     type: "Electric",
@@ -13925,7 +13090,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   volttackle: {
-    id: "volttackle",
     name: "Volt Tackle",
     num: 344,
     type: "Electric",
@@ -13942,7 +13106,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   wakeupslap: {
-    id: "wakeupslap",
     name: "Wake-Up Slap",
     num: 358,
     type: "Fighting",
@@ -13959,7 +13122,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   waterfall: {
-    id: "waterfall",
     name: "Waterfall",
     num: 127,
     type: "Water",
@@ -13976,7 +13138,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   watergun: {
-    id: "watergun",
     name: "Water Gun",
     num: 55,
     type: "Water",
@@ -13992,7 +13153,6 @@ exports.BattleMovedex = {
     pp: 25
   },
   waterpledge: {
-    id: "waterpledge",
     name: "Water Pledge",
     num: 518,
     type: "Water",
@@ -14010,7 +13170,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   waterpulse: {
-    id: "waterpulse",
     name: "Water Pulse",
     num: 352,
     type: "Water",
@@ -14028,7 +13187,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   watershuriken: {
-    id: "watershuriken",
     name: "Water Shuriken",
     num: 594,
     type: "Water",
@@ -14044,7 +13202,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   watersport: {
-    id: "watersport",
     name: "Water Sport",
     num: 346,
     type: "Water",
@@ -14059,7 +13216,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   waterspout: {
-    id: "waterspout",
     name: "Water Spout",
     num: 323,
     type: "Water",
@@ -14075,7 +13231,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   wavecrash: {
-    id: "wavecrash",
     name: "Wave Crash",
     num: 834,
     type: "Water",
@@ -14092,7 +13247,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   weatherball: {
-    id: "weatherball",
     name: "Weather Ball",
     num: 311,
     type: "Normal",
@@ -14109,7 +13263,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   whirlpool: {
-    id: "whirlpool",
     name: "Whirlpool",
     num: 250,
     type: "Water",
@@ -14125,7 +13278,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   whirlwind: {
-    id: "whirlwind",
     name: "Whirlwind",
     num: 18,
     type: "Normal",
@@ -14146,7 +13298,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   wickedblow: {
-    id: "wickedblow",
     name: "Wicked Blow",
     num: 817,
     type: "Dark",
@@ -14164,7 +13315,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   wideguard: {
-    id: "wideguard",
     name: "Wide Guard",
     num: 469,
     type: "Rock",
@@ -14179,7 +13329,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   wildboltstorm: {
-    id: "wildboltstorm",
     name: "Wildbolt Storm",
     num: 847,
     type: "Electric",
@@ -14196,7 +13345,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   wildcharge: {
-    id: "wildcharge",
     name: "Wild Charge",
     num: 528,
     type: "Electric",
@@ -14213,7 +13361,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   willowisp: {
-    id: "willowisp",
     name: "Will-O-Wisp",
     num: 261,
     type: "Fire",
@@ -14230,7 +13377,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   wingattack: {
-    id: "wingattack",
     name: "Wing Attack",
     num: 17,
     type: "Flying",
@@ -14248,7 +13394,6 @@ exports.BattleMovedex = {
     pp: 35
   },
   wish: {
-    id: "wish",
     name: "Wish",
     num: 273,
     type: "Normal",
@@ -14264,7 +13409,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   withdraw: {
-    id: "withdraw",
     name: "Withdraw",
     num: 110,
     type: "Water",
@@ -14279,7 +13423,6 @@ exports.BattleMovedex = {
     pp: 40
   },
   wonderroom: {
-    id: "wonderroom",
     name: "Wonder Room",
     num: 472,
     type: "Psychic",
@@ -14294,7 +13437,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   woodhammer: {
-    id: "woodhammer",
     name: "Wood Hammer",
     num: 452,
     type: "Grass",
@@ -14311,7 +13453,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   workup: {
-    id: "workup",
     name: "Work Up",
     num: 526,
     type: "Normal",
@@ -14326,7 +13467,6 @@ exports.BattleMovedex = {
     pp: 30
   },
   worryseed: {
-    id: "worryseed",
     name: "Worry Seed",
     num: 388,
     type: "Grass",
@@ -14344,7 +13484,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   wrap: {
-    id: "wrap",
     name: "Wrap",
     num: 35,
     type: "Normal",
@@ -14361,7 +13500,6 @@ exports.BattleMovedex = {
     pp: 20
   },
   wringout: {
-    id: "wringout",
     name: "Wring Out",
     num: 378,
     type: "Normal",
@@ -14378,7 +13516,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   xscissor: {
-    id: "xscissor",
     name: "X-Scissor",
     num: 404,
     type: "Bug",
@@ -14396,7 +13533,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   yawn: {
-    id: "yawn",
     name: "Yawn",
     num: 281,
     type: "Normal",
@@ -14413,7 +13549,6 @@ exports.BattleMovedex = {
     pp: 10
   },
   zapcannon: {
-    id: "zapcannon",
     name: "Zap Cannon",
     num: 192,
     type: "Electric",
@@ -14430,7 +13565,6 @@ exports.BattleMovedex = {
     pp: 5
   },
   zenheadbutt: {
-    id: "zenheadbutt",
     name: "Zen Headbutt",
     num: 428,
     type: "Psychic",
@@ -14447,7 +13581,6 @@ exports.BattleMovedex = {
     pp: 15
   },
   zingzap: {
-    id: "zingzap",
     name: "Zing Zap",
     num: 716,
     type: "Electric",
