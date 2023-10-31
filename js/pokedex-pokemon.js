@@ -70,7 +70,7 @@ let tmOrder = [
   "Dazzling Gleam",
   "Aurora Veil",
   "Weather Ball",
-  "Scald",
+  "Belch",
   "Rage",
   "Power-Up Punch",
   "Charge Beam",
@@ -82,7 +82,7 @@ let tmOrder = [
   "Agility",
   "Scorching Sands",
   "Burning Malice",
-  "Thunder Wave",
+  "Synchronoise",
   "Dark Pulse",
   "Steel Wing",
   "Nature Power",
@@ -168,6 +168,7 @@ let tmOrder = [
   "Role Play",
   "Worry Seed",
   "Block",
+	"After You",
   "Ally Switch",
 ].map(toID);
 
