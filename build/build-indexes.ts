@@ -192,6 +192,8 @@ process.stdout.write(
       desc: move.desc,
       shortDesc: move.shortDesc,
       pp: move.pp,
+      priority: move.priority,
+      target: move.target,
     };
   }
   const buf = "exports.BattleMovedex = " + es3stringify(moves) + ";";
