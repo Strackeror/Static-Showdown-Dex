@@ -641,7 +641,7 @@ class DexSearch {
           buf.push(["header", `${type}-type Pok&eacute;mon`]);
           for (let id in BattlePokedex) {
             if (!BattlePokedex[id].types) continue;
-            if (BattlePokedex(id).types.includes(type)) {
+            if (BattlePokedex[id].types.includes(type)) {
               (illegal && id in illegal ? illegalBuf : buf).push([
                 "pokemon",
                 id as ID,
@@ -885,7 +885,7 @@ class BattlePokemonSearch extends BattleTypedSearch<"pokemon"> {
     for (const [filterType, value] of filters) {
       switch (filterType) {
         case "type":
-          if (poke.types.all((t) => t != value)) return false;
+          if (poke.types.every((t) => t != value)) return false;
           break;
         case "move":
           if (!canLearn(poke.id, value)) return false;
@@ -894,7 +894,7 @@ class BattlePokemonSearch extends BattleTypedSearch<"pokemon"> {
           if (!hasAbility(poke, value)) return false;
           break;
         case "egggroup":
-          if (poke.eggGroups.all((t) => t != value)) return false;
+          if (poke.eggGroups.every((t) => t != value)) return false;
           break;
       }
     }
