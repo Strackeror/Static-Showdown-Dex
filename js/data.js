@@ -5,6 +5,10 @@ import BattleAbilities from "../data/abilities.json";
 import BattleTypeChart from "../data/typechart.json";
 import Learnsets from "../data/learnsets.json"
 import SpriteIds from "../data/sprite-ids.json"
+import Config from "../data/config.json"
+
+window.Config = Config
+window.ResourcePrefix = window.Config.baseurl + "images/";
 
 window.BattlePokedex = BattlePokedex;
 window.BattleMovedex = BattleMovedex;
