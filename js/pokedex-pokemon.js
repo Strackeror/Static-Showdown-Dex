@@ -172,7 +172,6 @@ let tmOrder = [
   "Ally Switch",
 ].map(toID);
 
-var PokedexPokemonPanel = PokedexResultPanel.extend({
 window.PokedexPokemonPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
@@ -459,7 +458,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 			switch(learn.how) {
 				case 'lvl': // level-up move
 					if (newCategory) buf += '<li class="resultheader"><h3>Level-up</h3></li>';
-					level = learn.level
+					let level = learn.level
 					desc = level <= 1  ? '&ndash;' : '<small>L</small>'+level;
 					break;
 				case 'prevo': // prevo
