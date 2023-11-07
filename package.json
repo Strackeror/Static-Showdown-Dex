@@ -6,8 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gendata": "ts-node build/build-indexes.ts",
     "dist": "ts-node build/dist.ts dist",
-    "tsc": "cd ts && tsc",
-    "deploy": "npm run dist && npm run tsc && ts-node build/gh-pages.ts"
+    "deploy": "npm run dist && ts-node build/gh-pages.ts"
   },
   "author": "",
   "license": "MIT",
