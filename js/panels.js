@@ -1010,7 +1010,7 @@ if (!Function.prototype.bind) {
 		// TODO
 	});
 
-}).call(this);
+}).call(window);
 
 /*!
  * jQuery Transit - CSS3 transitions and transformations

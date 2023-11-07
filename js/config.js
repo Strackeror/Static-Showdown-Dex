@@ -1,11 +1,4 @@
 var Config = Config || {};
 
-/* version */ 
-Config.baseurl = "/Static-Showdown-Dex/"
-const ResourcePrefix = Config.baseurl+"images/"
-
-if (typeof window === "undefined") {
-  global.window = global;
-} else {
-  window.exports = window;
-}
+window.Config = { baseurl: "/Static-Showdown-Dex/" };
+window.ResourcePrefix = window.Config.baseurl + "images/";

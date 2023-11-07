@@ -1,4 +1,4 @@
-var PokedexMovePanel = PokedexResultPanel.extend({
+window.PokedexMovePanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var move = getID(BattleMovedex, id);

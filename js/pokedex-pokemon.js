@@ -1,4 +1,4 @@
-var PokedexPokemonPanel = PokedexResultPanel.extend({
+window.PokedexPokemonPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var pokemon = BattlePokedex[id]

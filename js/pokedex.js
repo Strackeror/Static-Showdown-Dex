@@ -1,10 +1,10 @@
 BattleSearch.urlRoot = Config.baseurl;
 
-var Topbar = Panels.Topbar.extend({
+window.Topbar = Panels.Topbar.extend({
 	height: 51
 });
 
-var PokedexResultPanel = Panels.Panel.extend({
+window.PokedexResultPanel = Panels.Panel.extend({
 	minWidth: 639,
 	maxWidth: 639,
 	initialize: function() {
@@ -12,7 +12,7 @@ var PokedexResultPanel = Panels.Panel.extend({
 	}
 });
 
-var PokedexItemPanel = PokedexResultPanel.extend({
+window.PokedexItemPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var item = getID(BattleItems, id);
@@ -28,7 +28,7 @@ var PokedexItemPanel = PokedexResultPanel.extend({
 		this.html(buf);
 	}
 });
-var PokedexAbilityPanel = PokedexResultPanel.extend({
+window. PokedexAbilityPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var ability = getID(BattleAbilities, id);
@@ -67,7 +67,7 @@ var PokedexAbilityPanel = PokedexResultPanel.extend({
 		this.$('.utilichart').html(buf);
 	}
 });
-var PokedexTypePanel = PokedexResultPanel.extend({
+window. PokedexTypePanel = PokedexResultPanel.extend({
 	
 	BattleSearchCountIndex: {},
 	buildCountIndex: function() {
@@ -223,7 +223,7 @@ var PokedexTypePanel = PokedexResultPanel.extend({
 		this.$('.utilichart').append(primaryBuf + secondaryBuf);
 	}
 });
-var PokedexTagPanel = PokedexResultPanel.extend({
+window. PokedexTagPanel = PokedexResultPanel.extend({
 	table: {
 		contact: {
 			name: 'Contact',
@@ -479,7 +479,7 @@ var PokedexTagPanel = PokedexResultPanel.extend({
 		}
 	}
 });
-var PokedexEggGroupPanel = PokedexResultPanel.extend({
+window. PokedexEggGroupPanel = PokedexResultPanel.extend({
 	table: {
 		amorphous: {
 			name: 'Amorphous',
@@ -704,7 +704,7 @@ var PokedexEggGroupPanel = PokedexResultPanel.extend({
 		}
 	}
 });
-var PokedexCategoryPanel = PokedexResultPanel.extend({
+window. PokedexCategoryPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		var category = {
@@ -732,7 +732,7 @@ var PokedexCategoryPanel = PokedexResultPanel.extend({
 		this.html(buf);
 	}
 });
-var PokedexTierPanel = PokedexResultPanel.extend({
+window. PokedexTierPanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		var tierTable = {
 			ag: "AG",
@@ -795,7 +795,7 @@ var PokedexTierPanel = PokedexResultPanel.extend({
 		this.$('.utilichart').html(buf);
 	}
 });
-var PokedexArticlePanel = PokedexResultPanel.extend({
+window. PokedexArticlePanel = PokedexResultPanel.extend({
 	initialize: function(id) {
 		id = toID(id);
 		this.shortTitle = id;

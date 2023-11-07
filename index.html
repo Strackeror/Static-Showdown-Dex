@@ -37,26 +37,21 @@
 			Loading...
 		</p>
 	</div></div>
-	<script src="js/lib/jquery-1.12.4.min.js"></script>
-	<script src="js/lib/lodash.min.js"></script>
-	<script src="js/lib/backbone-min.js"></script>
-	<script src="js/panels.js"></script>
+	<script type="module">
+		window.$ = window.jQuery = require("jquery")
+		Backbone = require("backbone")
+		_ = require("underscore")
+	</script>
+	<script type="module" src="js/panels.js"></script>
 
-	<script src="js/config.js"></script>
-	<script src="data/pokedex.js"></script>
-	<script src="data/learnsets.js"></script>
-	<script src="data/moves.js"></script>
-	<script src="data/abilities.js"></script>
-	<script src="data/items.js"></script>
-	<script src="data/sprite-ids.js"></script>
-	<script src="data/typechart.js"></script>
-	<script src="js/data.js"></script>
-	<script src="js/battle-dex-search.js"></script>
-	<script src="js/search.js"></script>
-	<script src="js/pokedex.js"></script>
-	<script src="js/pokedex-pokemon.js"></script>
-	<script src="js/pokedex-moves.js"></script>
-	<script src="js/pokedex-search.js"></script>
-	<script src="js/router.js"></script>
+	<script type="module" src="js/config.js"></script>
+	<script type="module" src="js/data.js"></script>
+	<script type="module" src="ts/battle-dex-search.ts"></script>
+	<script type="module" src="js/search.js"></script>
+	<script type="module" src="js/pokedex.js"></script>
+	<script type="module" src="js/pokedex-pokemon.js"></script>
+	<script type="module" src="js/pokedex-moves.js"></script>
+	<script type="module" src="js/pokedex-search.js"></script>
+	<script type="module" src="js/router.js"></script>
 
 </body></html>
