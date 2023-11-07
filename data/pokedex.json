@@ -19,8 +19,8 @@
       "spd": 65
     },
     "abilities": {
-      "0": "Overgrow",
-      "1": "Solar Rush"
+      "0": "Harvest",
+      "1": "Overgrow"
     },
     "weightkg": 6.9,
     "evos": [
@@ -51,10 +51,10 @@
       "spd": 85
     },
     "abilities": {
-      "0": "Overgrow",
-      "1": "Solar Rush"
+      "0": "Harvest",
+      "1": "Overgrow"
     },
-    "weightkg": 13.0,
+    "weightkg": 6.9,
     "prevo": "Bulbasaur",
     "evoLevel": 17,
     "evos": [
@@ -85,7 +85,7 @@
       "spd": 100
     },
     "abilities": {
-      "0": "Flower Veil",
+      "0": "Harvest",
       "1": "Solar Rush"
     },
     "weightkg": 100.0,
@@ -703,7 +703,7 @@
     },
     "abilities": {
       "0": "Defiant",
-      "1": "Bird's Eye View"
+      "1": "Emergency Exit"
     },
     "weightkg": 1.8,
     "evos": [
@@ -771,7 +771,7 @@
     },
     "weightkg": 39.5,
     "prevo": "Pidgeotto",
-    "evoLevel": 32,
+    "evoLevel": 31,
     "eggGroups": [
       "Flying"
     ],
@@ -1009,7 +1009,7 @@
     "num": 21,
     "name": "Spearow",
     "types": [
-      "Normal",
+      "Electric",
       "Flying"
     ],
     "genderRatio": {
@@ -1018,14 +1018,14 @@
     },
     "baseStats": {
       "hp": 45,
-      "atk": 70,
+      "atk": 75,
       "def": 45,
-      "spe": 93,
+      "spe": 103,
       "spa": 31,
-      "spd": 41
+      "spd": 51
     },
     "abilities": {
-      "0": "Bird's Eye View",
+      "0": "Intimidate",
       "1": "Defiant"
     },
     "weightkg": 2.0,
@@ -1040,7 +1040,7 @@
     "num": 22,
     "name": "Fearow",
     "types": [
-      "Normal",
+      "Electric",
       "Flying"
     ],
     "genderRatio": {
@@ -1049,15 +1049,15 @@
     },
     "baseStats": {
       "hp": 75,
-      "atk": 113,
+      "atk": 120,
       "def": 75,
-      "spe": 113,
-      "spa": 62,
-      "spd": 62
+      "spe": 133,
+      "spa": 41,
+      "spd": 81
     },
     "abilities": {
-      "0": "Stamina",
-      "1": "Ruthless"
+      "0": "Intimidate",
+      "1": "Reckless"
     },
     "weightkg": 38.0,
     "prevo": "Spearow",
@@ -1109,8 +1109,8 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 100,
-      "atk": 100,
+      "hp": 105,
+      "atk": 105,
       "def": 80,
       "spe": 80,
       "spa": 85,
@@ -1481,7 +1481,7 @@
       "atk": 72,
       "def": 58,
       "spe": 70,
-      "spa": 45,
+      "spa": 40,
       "spd": 50
     },
     "abilities": {
@@ -1660,7 +1660,8 @@
     "num": 37,
     "name": "Vulpix-Alola",
     "types": [
-      "Ice"
+      "Ice",
+      "Fairy"
     ],
     "genderRatio": {
       "M": 0.25,
@@ -1869,12 +1870,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 75,
+      "hp": 85,
       "atk": 85,
-      "def": 70,
+      "def": 80,
       "spe": 105,
-      "spa": 75,
-      "spd": 70
+      "spa": 80,
+      "spd": 80
     },
     "abilities": {
       "0": "Merciless",
@@ -1981,7 +1982,7 @@
     },
     "weightkg": 18.6,
     "prevo": "Gloom",
-    "evoLevel": 33,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Poison Gem",
     "eggGroups": [
@@ -2461,18 +2462,19 @@
     "num": 56,
     "name": "Mankey",
     "types": [
-      "Fighting"
+      "Fighting",
+      "Electric"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
     "baseStats": {
-      "hp": 55,
+      "hp": 50,
       "atk": 85,
       "def": 45,
-      "spe": 105,
-      "spa": 35,
+      "spe": 115,
+      "spa": 30,
       "spd": 45
     },
     "abilities": {
@@ -2491,7 +2493,8 @@
     "num": 57,
     "name": "Primeape",
     "types": [
-      "Fighting"
+      "Fighting",
+      "Electric"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -2499,19 +2502,19 @@
     },
     "baseStats": {
       "hp": 70,
-      "atk": 135,
-      "def": 85,
-      "spe": 105,
+      "atk": 130,
+      "def": 80,
+      "spe": 115,
       "spa": 60,
-      "spd": 70
+      "spd": 80
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Headstrong"
+      "1": "Reckless"
     },
     "weightkg": 32.0,
     "prevo": "Mankey",
-    "evoLevel": 28,
+    "evoLevel": 26,
     "eggGroups": [
       "Field"
     ]
@@ -2520,23 +2523,24 @@
     "num": 58,
     "name": "Growlithe",
     "types": [
-      "Fire"
+      "Fire",
+      "Ice"
     ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
     },
     "baseStats": {
-      "hp": 50,
-      "atk": 70,
-      "def": 50,
-      "spe": 80,
-      "spa": 70,
-      "spd": 50
+      "hp": 55,
+      "atk": 75,
+      "def": 55,
+      "spe": 85,
+      "spa": 75,
+      "spd": 55
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Defiant"
+      "1": "Refrigerate"
     },
     "weightkg": 19.0,
     "evos": [
@@ -2550,7 +2554,8 @@
     "num": 59,
     "name": "Arcanine",
     "types": [
-      "Fire"
+      "Fire",
+      "Ice"
     ],
     "genderRatio": {
       "M": 0.75,
@@ -2558,15 +2563,15 @@
     },
     "baseStats": {
       "hp": 90,
-      "atk": 110,
+      "atk": 120,
       "def": 80,
       "spe": 115,
-      "spa": 100,
+      "spa": 90,
       "spd": 80
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Stamina"
+      "1": "Refrigerate"
     },
     "weightkg": 155.0,
     "prevo": "Growlithe",
@@ -2619,9 +2624,9 @@
       "hp": 65,
       "atk": 80,
       "def": 80,
-      "spe": 60,
-      "spa": 70,
-      "spd": 70
+      "spe": 65,
+      "spa": 80,
+      "spd": 80
     },
     "abilities": {
       "0": "Swift Swim",
@@ -2629,7 +2634,7 @@
     },
     "weightkg": 20.0,
     "prevo": "Poliwag",
-    "evoLevel": 19,
+    "evoLevel": 17,
     "evos": [
       "Poliwrath",
       "Politoed"
@@ -2663,7 +2668,7 @@
     },
     "weightkg": 54.0,
     "prevo": "Poliwhirl",
-    "evoLevel": 35,
+    "evoLevel": 34,
     "evoType": "useItem",
     "evoItem": "Fighting Gem",
     "eggGroups": [
@@ -2756,7 +2761,7 @@
     },
     "weightkg": 48.0,
     "prevo": "Kadabra",
-    "evoLevel": 36,
+    "evoLevel": 33,
     "eggGroups": [
       "Human-Like"
     ],
@@ -2820,8 +2825,8 @@
       "spd": 50
     },
     "abilities": {
-      "0": "Defiant",
-      "1": "Scrappy"
+      "0": "Moxie",
+      "1": "Defiant"
     },
     "weightkg": 19.5,
     "evos": [
@@ -2850,8 +2855,8 @@
       "spd": 60
     },
     "abilities": {
-      "0": "Defiant",
-      "1": "Scrappy"
+      "0": "Moxie",
+      "1": "Defiant"
     },
     "weightkg": 70.5,
     "prevo": "Machop",
@@ -2882,8 +2887,8 @@
       "spd": 85
     },
     "abilities": {
-      "0": "Defiant",
-      "1": "No Guard"
+      "0": "Moxie",
+      "1": "Sheer Force"
     },
     "weightkg": 130.0,
     "prevo": "Machoke",
@@ -3588,7 +3593,7 @@
     },
     "weightkg": 85.2,
     "prevo": "Doduo",
-    "evoLevel": 28,
+    "evoLevel": 26,
     "eggGroups": [
       "Flying"
     ]
@@ -4250,8 +4255,8 @@
       "spd": 115
     },
     "abilities": {
-      "0": "Grassy Guard",
-      "1": "Solar Rush"
+      "0": "Solar Rush",
+      "1": "Harvest"
     },
     "weightkg": 120.0,
     "prevo": "Exeggcute",
@@ -4855,7 +4860,8 @@
     "num": 118,
     "name": "Goldeen",
     "types": [
-      "Water"
+      "Water",
+      "Ghost"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -4863,14 +4869,14 @@
     },
     "baseStats": {
       "hp": 50,
-      "atk": 77,
+      "atk": 72,
       "def": 60,
-      "spe": 73,
-      "spa": 35,
-      "spd": 75
+      "spe": 83,
+      "spa": 75,
+      "spd": 70
     },
     "abilities": {
-      "0": "Swift Swim",
+      "0": "Adaptability",
       "1": "Lightning Rod"
     },
     "weightkg": 15.0,
@@ -4885,7 +4891,8 @@
     "num": 119,
     "name": "Seaking",
     "types": [
-      "Water"
+      "Water",
+      "Ghost"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -4894,13 +4901,13 @@
     "baseStats": {
       "hp": 80,
       "atk": 112,
-      "def": 80,
-      "spe": 93,
-      "spa": 65,
-      "spd": 95
+      "def": 65,
+      "spe": 98,
+      "spa": 90,
+      "spd": 90
     },
     "abilities": {
-      "0": "Swift Swim",
+      "0": "Adaptability",
       "1": "Lightning Rod"
     },
     "weightkg": 39.0,
@@ -5049,7 +5056,7 @@
     },
     "weightkg": 40.6,
     "prevo": "Smoochum",
-    "evoLevel": 25,
+    "evoLevel": 23,
     "eggGroups": [
       "Human-Like"
     ]
@@ -5551,7 +5558,7 @@
       "spd": 80
     },
     "abilities": {
-      "0": "Sturdy",
+      "0": "Weak Armor",
       "1": "Shell Armor"
     },
     "weightkg": 7.5,
@@ -5583,7 +5590,7 @@
       "spd": 110
     },
     "abilities": {
-      "0": "Sturdy",
+      "0": "Weak Armor",
       "1": "Shell Armor"
     },
     "weightkg": 35.0,
@@ -5939,9 +5946,9 @@
       "hp": 100,
       "atk": 100,
       "def": 80,
-      "spe": 130,
-      "spa": 180,
-      "spd": 130
+      "spe": 135,
+      "spa": 200,
+      "spd": 135
     },
     "abilities": {
       "0": "Psychic Surge"
@@ -5954,7 +5961,8 @@
       "Mewtwo",
       "Mewtwo-Mega-X",
       "Mewtwo-Mega-Y"
-    ]
+    ],
+    "unusable": true
   },
   "mewtwomegax": {
     "num": 150,
@@ -5966,14 +5974,14 @@
     "gender": "N",
     "baseStats": {
       "hp": 100,
-      "atk": 190,
-      "def": 90,
-      "spe": 150,
-      "spa": 160,
-      "spd": 130
+      "atk": 200,
+      "def": 100,
+      "spe": 165,
+      "spa": 150,
+      "spd": 135
     },
     "abilities": {
-      "0": "Sheer Force"
+      "0": "Expertise"
     },
     "weightkg": 127.0,
     "eggGroups": [
@@ -5988,7 +5996,8 @@
     ],
     "requiredItems": [
       "Mewtwonite X"
-    ]
+    ],
+    "unusable": true
   },
   "mewtwomegay": {
     "num": 150,
@@ -6001,9 +6010,9 @@
       "hp": 100,
       "atk": 80,
       "def": 60,
-      "spe": 165,
+      "spe": 180,
       "spa": 250,
-      "spd": 165
+      "spd": 180
     },
     "abilities": {
       "0": "Hubris"
@@ -6021,7 +6030,8 @@
     ],
     "requiredItems": [
       "Mewtwonite Y"
-    ]
+    ],
+    "unusable": true
   },
   "mew": {
     "num": 151,
@@ -6067,7 +6077,7 @@
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Grassy Guard"
+      "1": "Harvest"
     },
     "weightkg": 6.4,
     "evos": [
@@ -6098,7 +6108,7 @@
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Grassy Guard"
+      "1": "Harvest"
     },
     "weightkg": 15.8,
     "prevo": "Chikorita",
@@ -6132,7 +6142,7 @@
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Grassy Guard"
+      "1": "Harvest"
     },
     "weightkg": 100.5,
     "prevo": "Bayleef",
@@ -6585,15 +6595,15 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 95,
+      "hp": 85,
+      "atk": 90,
       "def": 70,
       "spe": 145,
       "spa": 90,
       "spd": 70
     },
     "abilities": {
-      "0": "Ruthless",
+      "0": "Instinct",
       "1": "Intimidate",
       "H": "Stakeout"
     },
@@ -7046,7 +7056,7 @@
     },
     "weightkg": 5.8,
     "prevo": "Gloom",
-    "evoLevel": 33,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Fairy Gem",
     "eggGroups": [
@@ -7057,7 +7067,7 @@
     "num": 183,
     "name": "Marill",
     "types": [
-      "Water",
+      "Fire",
       "Fairy"
     ],
     "genderRatio": {
@@ -7067,13 +7077,13 @@
     "baseStats": {
       "hp": 65,
       "atk": 35,
-      "def": 60,
-      "spe": 50,
-      "spa": 60,
-      "spd": 80
+      "def": 65,
+      "spe": 55,
+      "spa": 90,
+      "spd": 90
     },
     "abilities": {
-      "0": "Liquid Veil",
+      "0": "Intimidate",
       "1": "Huge Power"
     },
     "weightkg": 8.5,
@@ -7091,7 +7101,7 @@
     "num": 184,
     "name": "Azumarill",
     "types": [
-      "Water",
+      "Fire",
       "Fairy"
     ],
     "genderRatio": {
@@ -7100,14 +7110,14 @@
     },
     "baseStats": {
       "hp": 100,
-      "atk": 50,
-      "def": 90,
+      "atk": 55,
+      "def": 85,
       "spe": 60,
-      "spa": 80,
+      "spa": 115,
       "spd": 100
     },
     "abilities": {
-      "0": "Liquid Veil",
+      "0": "Intimidate",
       "1": "Huge Power"
     },
     "weightkg": 28.5,
@@ -7172,7 +7182,7 @@
     },
     "weightkg": 33.9,
     "prevo": "Poliwhirl",
-    "evoLevel": 35,
+    "evoLevel": 34,
     "evoType": "useItem",
     "evoItem": "Water Gem",
     "eggGroups": [
@@ -7192,9 +7202,9 @@
     },
     "baseStats": {
       "hp": 40,
-      "atk": 33,
+      "atk": 35,
       "def": 40,
-      "spe": 77,
+      "spe": 75,
       "spa": 55,
       "spd": 55
     },
@@ -7224,9 +7234,9 @@
     },
     "baseStats": {
       "hp": 55,
-      "atk": 48,
+      "atk": 45,
       "def": 65,
-      "spe": 92,
+      "spe": 95,
       "spa": 75,
       "spd": 75
     },
@@ -7319,10 +7329,10 @@
     "baseStats": {
       "hp": 40,
       "atk": 30,
-      "def": 65,
+      "def": 70,
       "spe": 30,
       "spa": 80,
-      "spd": 65
+      "spd": 80
     },
     "abilities": {
       "0": "Simple",
@@ -7340,7 +7350,8 @@
     "num": 192,
     "name": "Sunflora",
     "types": [
-      "Grass"
+      "Grass",
+      "Fire"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -7348,15 +7359,16 @@
     },
     "baseStats": {
       "hp": 75,
-      "atk": 75,
-      "def": 75,
+      "atk": 45,
+      "def": 85,
       "spe": 45,
-      "spa": 115,
-      "spd": 95
+      "spa": 120,
+      "spd": 110
     },
     "abilities": {
-      "0": "Simple",
-      "1": "Solar Rush"
+      "0": "Intimidate",
+      "1": "Drought",
+      "H": "Sweltering Sun"
     },
     "weightkg": 8.5,
     "prevo": "Sunkern",
@@ -7386,7 +7398,7 @@
     },
     "abilities": {
       "0": "Aerilate",
-      "1": "Tinted Lens"
+      "1": "Amplifier"
     },
     "weightkg": 38.0,
     "evos": [
@@ -7721,7 +7733,7 @@
     },
     "abilities": {
       "0": "Sturdy",
-      "1": "Battle Armor"
+      "1": "Rough Skin"
     },
     "weightkg": 7.2,
     "evos": [
@@ -8108,7 +8120,7 @@
       "spd": 80
     },
     "abilities": {
-      "0": "Sap Sipper",
+      "0": "Skill Link",
       "1": "Ruthless",
       "H": "Guts"
     },
@@ -8330,7 +8342,7 @@
       "spd": 50
     },
     "abilities": {
-      "0": "Thick Fat",
+      "0": "Refrigerate",
       "1": "Resilient"
     },
     "weightkg": 6.5,
@@ -8353,15 +8365,15 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 100,
+      "hp": 105,
       "atk": 105,
-      "def": 80,
+      "def": 90,
       "spe": 50,
       "spa": 60,
-      "spd": 60
+      "spd": 70
     },
     "abilities": {
-      "0": "Thick Fat",
+      "0": "Refrigerate",
       "1": "Resilient"
     },
     "weightkg": 55.8,
@@ -8762,12 +8774,12 @@
       "spd": 150
     },
     "abilities": {
-      "0": "Debug",
+      "0": "Energy Shield",
       "1": "Levitate"
     },
     "weightkg": 32.5,
     "prevo": "Porygon",
-    "evoLevel": 40,
+    "evoLevel": 35,
     "evos": [
       "Porygon-Z"
     ],
@@ -8896,10 +8908,10 @@
     "baseStats": {
       "hp": 45,
       "atk": 30,
-      "def": 40,
-      "spe": 65,
-      "spa": 85,
-      "spd": 85
+      "def": 45,
+      "spe": 75,
+      "spa": 90,
+      "spd": 90
     },
     "abilities": {
       "0": "Serene Grace",
@@ -9020,7 +9032,7 @@
     },
     "weightkg": 46.8,
     "prevo": "Chansey",
-    "evoLevel": 35,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Normal Gem",
     "eggGroups": [
@@ -9728,7 +9740,8 @@
     "num": 261,
     "name": "Poochyena",
     "types": [
-      "Dark"
+      "Dark",
+      "Rock"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9736,15 +9749,15 @@
     },
     "baseStats": {
       "hp": 45,
-      "atk": 75,
-      "def": 45,
-      "spe": 80,
+      "atk": 90,
+      "def": 70,
+      "spe": 90,
       "spa": 30,
       "spd": 45
     },
     "abilities": {
-      "0": "Intimidate",
-      "1": "Moxie",
+      "0": "Moxie",
+      "1": "Defiant",
       "H": "Stakeout"
     },
     "weightkg": 13.6,
@@ -9759,7 +9772,8 @@
     "num": 262,
     "name": "Mightyena",
     "types": [
-      "Dark"
+      "Dark",
+      "Rock"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9767,20 +9781,20 @@
     },
     "baseStats": {
       "hp": 70,
-      "atk": 115,
-      "def": 70,
-      "spe": 105,
+      "atk": 125,
+      "def": 90,
+      "spe": 110,
       "spa": 60,
       "spd": 60
     },
     "abilities": {
-      "0": "Intimidate",
+      "0": "Moxie",
       "1": "Strong Jaw",
       "H": "Stakeout"
     },
     "weightkg": 37.0,
     "prevo": "Poochyena",
-    "evoLevel": 20,
+    "evoLevel": 22,
     "eggGroups": [
       "Field"
     ]
@@ -10090,7 +10104,7 @@
     },
     "weightkg": 55.0,
     "prevo": "Lombre",
-    "evoLevel": 35,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Water Gem",
     "eggGroups": [
@@ -10117,7 +10131,7 @@
       "spd": 60
     },
     "abilities": {
-      "0": "Solar Rush",
+      "0": "Harvest",
       "1": "Grassy Guard"
     },
     "weightkg": 4.0,
@@ -10188,7 +10202,7 @@
     },
     "weightkg": 59.6,
     "prevo": "Nuzleaf",
-    "evoLevel": 35,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Dark Gem",
     "eggGroups": [
@@ -10411,7 +10425,7 @@
     },
     "weightkg": 48.4,
     "prevo": "Kirlia",
-    "evoLevel": 36,
+    "evoLevel": 33,
     "evoType": "useItem",
     "evoItem": "Psychic Gem",
     "eggGroups": [
@@ -10591,19 +10605,20 @@
     "num": 287,
     "name": "Slakoth",
     "types": [
-      "Normal"
+      "Normal",
+      "Ice"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
     "baseStats": {
-      "hp": 60,
-      "atk": 80,
-      "def": 65,
+      "hp": 65,
+      "atk": 70,
+      "def": 70,
       "spe": 30,
-      "spa": 35,
-      "spd": 65
+      "spa": 30,
+      "spd": 70
     },
     "abilities": {
       "0": "Unaware",
@@ -10621,7 +10636,8 @@
     "num": 288,
     "name": "Vigoroth",
     "types": [
-      "Normal"
+      "Normal",
+      "Ice"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10629,15 +10645,15 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 95,
+      "atk": 110,
       "def": 70,
-      "spe": 100,
+      "spe": 110,
       "spa": 40,
       "spd": 70
     },
     "abilities": {
-      "0": "Moxie",
-      "1": "Defiant"
+      "0": "Hustle",
+      "1": "Unburden"
     },
     "weightkg": 46.5,
     "prevo": "Slakoth",
@@ -10653,7 +10669,8 @@
     "num": 289,
     "name": "Slaking",
     "types": [
-      "Normal"
+      "Normal",
+      "Ice"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10668,14 +10685,14 @@
       "spd": 80
     },
     "abilities": {
-      "0": "Unaware",
-      "1": "Gluttony"
+      "0": "Hustle",
+      "1": "Slush Rush"
     },
     "weightkg": 130.5,
     "prevo": "Vigoroth",
     "evoLevel": 40,
     "evoType": "useItem",
-    "evoItem": "Normal Gem",
+    "evoItem": "Ice Gem",
     "eggGroups": [
       "Field"
     ]
@@ -10785,7 +10802,7 @@
       "spd": 63
     },
     "abilities": {
-      "0": "Scrappy",
+      "0": "Wimp Out",
       "1": "Amplifier"
     },
     "weightkg": 16.3,
@@ -10926,7 +10943,7 @@
     "num": 298,
     "name": "Azurill",
     "types": [
-      "Water",
+      "Fire",
       "Fairy"
     ],
     "genderRatio": {
@@ -10936,13 +10953,13 @@
     "baseStats": {
       "hp": 50,
       "atk": 20,
-      "def": 40,
-      "spe": 40,
-      "spa": 40,
-      "spd": 60
+      "def": 50,
+      "spe": 50,
+      "spa": 65,
+      "spd": 65
     },
     "abilities": {
-      "0": "Liquid Veil",
+      "0": "Prankster",
       "1": "Huge Power"
     },
     "weightkg": 2.0,
@@ -11432,19 +11449,20 @@
     "num": 309,
     "name": "Electrike",
     "types": [
-      "Electric"
+      "Electric",
+      "Fire"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
     "baseStats": {
-      "hp": 40,
-      "atk": 65,
-      "def": 40,
-      "spe": 100,
-      "spa": 85,
-      "spd": 40
+      "hp": 45,
+      "atk": 45,
+      "def": 50,
+      "spe": 90,
+      "spa": 90,
+      "spd": 50
     },
     "abilities": {
       "0": "Intimidate",
@@ -11462,7 +11480,8 @@
     "num": 310,
     "name": "Manectric",
     "types": [
-      "Electric"
+      "Electric",
+      "Fire"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -11471,10 +11490,10 @@
     "baseStats": {
       "hp": 70,
       "atk": 95,
-      "def": 65,
+      "def": 70,
       "spe": 115,
       "spa": 115,
-      "spd": 65
+      "spd": 70
     },
     "abilities": {
       "0": "Intimidate",
@@ -11482,7 +11501,7 @@
     },
     "weightkg": 40.2,
     "prevo": "Electrike",
-    "evoLevel": 26,
+    "evoLevel": 23,
     "eggGroups": [
       "Field"
     ],
@@ -11495,7 +11514,8 @@
     "num": 310,
     "name": "Manectric-Mega",
     "types": [
-      "Electric"
+      "Electric",
+      "Fire"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -11503,15 +11523,15 @@
     },
     "baseStats": {
       "hp": 70,
-      "atk": 115,
+      "atk": 120,
       "def": 80,
-      "spe": 135,
+      "spe": 140,
       "spa": 145,
       "spd": 80
     },
     "abilities": {
-      "0": "Stamina",
-      "1": "No Guard"
+      "0": "Electric Surge",
+      "1": "Instinct"
     },
     "weightkg": 44.0,
     "eggGroups": [
@@ -11540,14 +11560,14 @@
     },
     "baseStats": {
       "hp": 65,
-      "atk": 65,
-      "def": 60,
+      "atk": 55,
+      "def": 55,
       "spe": 110,
       "spa": 115,
       "spd": 100
     },
     "abilities": {
-      "0": "Competitive",
+      "0": "Serene Grace",
       "1": "Speed Boost",
       "H": "Battery"
     },
@@ -11569,15 +11589,15 @@
     },
     "baseStats": {
       "hp": 65,
-      "atk": 55,
-      "def": 70,
+      "atk": 45,
+      "def": 65,
       "spe": 110,
       "spa": 100,
       "spd": 115
     },
     "abilities": {
-      "0": "Competitive",
-      "1": "Stamina",
+      "0": "Dazzling",
+      "1": "Fur Coat",
       "H": "Friend Guard"
     },
     "weightkg": 4.2,
@@ -11683,15 +11703,15 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 73,
-      "atk": 43,
+      "hp": 74,
+      "atk": 42,
       "def": 68,
       "spe": 20,
       "spa": 68,
       "spd": 98
     },
     "abilities": {
-      "0": "Corrosion",
+      "0": "Gastro Acid",
       "1": "Metabolism"
     },
     "weightkg": 10.3,
@@ -11713,15 +11733,15 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 133,
-      "atk": 53,
+      "hp": 148,
+      "atk": 48,
       "def": 88,
       "spe": 25,
       "spa": 108,
       "spd": 118
     },
     "abilities": {
-      "0": "Corrosion",
+      "0": "Gastro Acid",
       "1": "Metabolism"
     },
     "weightkg": 80.0,
@@ -11787,7 +11807,7 @@
     },
     "weightkg": 88.8,
     "prevo": "Carvanha",
-    "evoLevel": 30,
+    "evoLevel": 29,
     "eggGroups": [
       "Water 2"
     ],
@@ -11909,12 +11929,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 65,
       "atk": 70,
-      "def": 70,
-      "spe": 25,
+      "def": 95,
+      "spe": 20,
       "spa": 80,
-      "spd": 65
+      "spd": 70
     },
     "abilities": {
       "0": "Simple",
@@ -12004,7 +12024,8 @@
     "num": 324,
     "name": "Torkoal",
     "types": [
-      "Fire"
+      "Fire",
+      "Poison"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12360,8 +12381,8 @@
       "atk": 110,
       "def": 95,
       "spe": 90,
-      "spa": 115,
-      "spd": 150
+      "spa": 120,
+      "spd": 145
     },
     "abilities": {
       "0": "Pixilate",
@@ -12535,7 +12556,7 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 110,
+      "hp": 120,
       "atk": 101,
       "def": 93,
       "spe": 39,
@@ -12626,10 +12647,10 @@
     "baseStats": {
       "hp": 50,
       "atk": 40,
-      "def": 65,
+      "def": 95,
       "spe": 65,
-      "spa": 90,
-      "spd": 90
+      "spa": 95,
+      "spd": 95
     },
     "abilities": {
       "0": "Levitate",
@@ -12665,7 +12686,7 @@
     },
     "weightkg": 108.0,
     "prevo": "Baltoy",
-    "evoLevel": 32,
+    "evoLevel": 33,
     "eggGroups": [
       "Mineral"
     ]
@@ -13611,7 +13632,7 @@
     },
     "weightkg": 27.0,
     "prevo": "Clamperl",
-    "evoLevel": 33,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Dark Gem",
     "eggGroups": [
@@ -13643,7 +13664,7 @@
     },
     "weightkg": 22.6,
     "prevo": "Clamperl",
-    "evoLevel": 33,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Psychic Gem",
     "eggGroups": [
@@ -14198,7 +14219,8 @@
     "formes": [
       "Kyogre",
       "Kyogre-Primal"
-    ]
+    ],
+    "unusable": true
   },
   "kyogreprimal": {
     "num": 382,
@@ -14227,7 +14249,8 @@
     "formes": [
       "Kyogre",
       "Kyogre-Primal"
-    ]
+    ],
+    "unusable": true
   },
   "groudon": {
     "num": 383,
@@ -14254,7 +14277,8 @@
     "formes": [
       "Groudon",
       "Groudon-Primal"
-    ]
+    ],
+    "unusable": true
   },
   "groudonprimal": {
     "num": 383,
@@ -14284,7 +14308,8 @@
     "formes": [
       "Groudon",
       "Groudon-Primal"
-    ]
+    ],
+    "unusable": true
   },
   "rayquaza": {
     "num": 384,
@@ -14312,7 +14337,8 @@
     "formes": [
       "Rayquaza",
       "Rayquaza-Mega"
-    ]
+    ],
+    "unusable": true
   },
   "rayquazamega": {
     "num": 384,
@@ -14342,7 +14368,8 @@
     "formes": [
       "Rayquaza",
       "Rayquaza-Mega"
-    ]
+    ],
+    "unusable": true
   },
   "jirachi": {
     "num": 385,
@@ -14519,7 +14546,7 @@
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Grassy Guard"
+      "1": "Harvest"
     },
     "weightkg": 10.2,
     "evos": [
@@ -14542,17 +14569,17 @@
     },
     "baseStats": {
       "hp": 75,
-      "atk": 99,
-      "def": 110,
+      "atk": 94,
+      "def": 115,
       "spe": 36,
       "spa": 35,
       "spd": 80
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Grassy Guard"
+      "1": "Harvest"
     },
-    "weightkg": 97.0,
+    "weightkg": 10.2,
     "prevo": "Turtwig",
     "evoLevel": 17,
     "evos": [
@@ -14584,7 +14611,7 @@
     },
     "abilities": {
       "0": "Headstrong",
-      "1": "Grassy Guard"
+      "1": "Harvest"
     },
     "weightkg": 310.0,
     "prevo": "Grotle",
@@ -14837,7 +14864,7 @@
     },
     "abilities": {
       "0": "Bird's Eye View",
-      "1": "Scrappy"
+      "1": "Intimidate"
     },
     "weightkg": 15.5,
     "prevo": "Starly",
@@ -14870,7 +14897,7 @@
     },
     "abilities": {
       "0": "Reckless",
-      "1": "Scrappy"
+      "1": "Intimidate"
     },
     "weightkg": 24.9,
     "prevo": "Staravia",
@@ -15093,7 +15120,7 @@
     },
     "weightkg": 42.0,
     "prevo": "Luxio",
-    "evoLevel": 36,
+    "evoLevel": 32,
     "eggGroups": [
       "Field"
     ]
@@ -15154,7 +15181,7 @@
     },
     "weightkg": 14.5,
     "prevo": "Roselia",
-    "evoLevel": 33,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Grass Gem",
     "eggGroups": [
@@ -15218,7 +15245,7 @@
     },
     "weightkg": 102.5,
     "prevo": "Cranidos",
-    "evoLevel": 35,
+    "evoLevel": 34,
     "eggGroups": [
       "Monster"
     ]
@@ -15279,7 +15306,7 @@
     },
     "weightkg": 149.5,
     "prevo": "Shieldon",
-    "evoLevel": 35,
+    "evoLevel": 34,
     "eggGroups": [
       "Monster"
     ]
@@ -15667,7 +15694,7 @@
       "hp": 70,
       "atk": 70,
       "def": 65,
-      "spe": 110,
+      "spe": 135,
       "spa": 112,
       "spd": 98
     },
@@ -15854,7 +15881,7 @@
     },
     "weightkg": 20.3,
     "prevo": "Aipom",
-    "evoLevel": 30,
+    "evoLevel": 26,
     "eggGroups": [
       "Field"
     ]
@@ -16079,7 +16106,7 @@
     },
     "abilities": {
       "0": "Moxie",
-      "1": "Ruthless"
+      "1": "Super Luck"
     },
     "weightkg": 27.3,
     "prevo": "Murkrow",
@@ -16671,7 +16698,7 @@
     },
     "weightkg": 54.0,
     "prevo": "Riolu",
-    "evoLevel": 27,
+    "evoLevel": 25,
     "eggGroups": [
       "Field",
       "Human-Like"
@@ -16799,7 +16826,7 @@
       "spd": 55
     },
     "abilities": {
-      "0": "Poison Touch",
+      "0": "Merciless",
       "1": "Sand Rush"
     },
     "weightkg": 12.0,
@@ -16886,10 +16913,10 @@
     },
     "baseStats": {
       "hp": 70,
-      "atk": 121,
+      "atk": 126,
       "def": 65,
-      "spe": 118,
-      "spa": 96,
+      "spe": 123,
+      "spa": 86,
       "spd": 65
     },
     "abilities": {
@@ -17036,11 +17063,11 @@
     },
     "baseStats": {
       "hp": 62,
-      "atk": 67,
-      "def": 72,
+      "atk": 72,
+      "def": 87,
       "spe": 30,
-      "spa": 67,
-      "spd": 72
+      "spa": 82,
+      "spd": 87
     },
     "abilities": {
       "0": "Snow Warning",
@@ -17376,7 +17403,7 @@
     },
     "weightkg": 38.0,
     "prevo": "Togetic",
-    "evoLevel": 36,
+    "evoLevel": 32,
     "evoType": "useItem",
     "evoItem": "Flying Gem",
     "eggGroups": [
@@ -17524,15 +17551,15 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 120,
+      "hp": 130,
       "atk": 145,
-      "def": 100,
+      "def": 90,
       "spe": 80,
       "spa": 60,
       "spd": 70
     },
     "abilities": {
-      "0": "Thick Fat",
+      "0": "Refrigerate",
       "1": "Slush Rush"
     },
     "weightkg": 291.0,
@@ -17569,9 +17596,7 @@
     "evoLevel": 40,
     "evoType": "useItem",
     "evoItem": "Dubious Disc",
-    "evos": [
-      "Porygon2"
-    ],
+    "evos": [],
     "eggGroups": [
       "Mineral"
     ]
@@ -17601,7 +17626,7 @@
     },
     "weightkg": 52.0,
     "prevo": "Kirlia",
-    "evoLevel": 36,
+    "evoLevel": 33,
     "evoType": "useItem",
     "evoItem": "Fighting Gem",
     "eggGroups": [
@@ -18049,7 +18074,8 @@
     "weightkg": 683.0,
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "unusable": true
   },
   "palkia": {
     "num": 484,
@@ -18073,7 +18099,8 @@
     "weightkg": 336.0,
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "unusable": true
   },
   "heatran": {
     "num": 485,
@@ -18137,11 +18164,11 @@
     "gender": "N",
     "baseStats": {
       "hp": 120,
-      "atk": 120,
-      "def": 120,
+      "atk": 100,
+      "def": 140,
       "spe": 66,
-      "spa": 120,
-      "spd": 120
+      "spa": 100,
+      "spd": 140
     },
     "abilities": {
       "0": "Sinister",
@@ -18378,7 +18405,8 @@
     "weightkg": 320.0,
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "unusable": true
   },
   "victini": {
     "num": 494,
@@ -18448,8 +18476,8 @@
     },
     "baseStats": {
       "hp": 62,
-      "atk": 60,
-      "def": 60,
+      "atk": 55,
+      "def": 65,
       "spe": 93,
       "spa": 80,
       "spd": 80
@@ -18482,9 +18510,9 @@
     },
     "baseStats": {
       "hp": 102,
-      "atk": 70,
+      "atk": 60,
       "def": 80,
-      "spe": 113,
+      "spe": 123,
       "spa": 90,
       "spd": 95
     },
@@ -19133,7 +19161,7 @@
     },
     "weightkg": 60.5,
     "prevo": "Munna",
-    "evoLevel": 28,
+    "evoLevel": 26,
     "eggGroups": [
       "Field"
     ]
@@ -19313,8 +19341,8 @@
       "spd": 55
     },
     "abilities": {
-      "0": "Solid Rock",
-      "1": "Sturdy"
+      "0": "Rough Skin",
+      "1": "Energy Shield"
     },
     "weightkg": 18.0,
     "evos": [
@@ -19343,8 +19371,8 @@
       "spd": 70
     },
     "abilities": {
-      "0": "Energy Shield",
-      "1": "Solar Power"
+      "0": "Versatility",
+      "1": "Energy Shield"
     },
     "weightkg": 102.0,
     "prevo": "Roggenrola",
@@ -19375,7 +19403,7 @@
       "spd": 80
     },
     "abilities": {
-      "0": "Energy Shield",
+      "0": "Versatility",
       "1": "Sand Stream"
     },
     "weightkg": 260.0,
@@ -20085,7 +20113,7 @@
       "spd": 70
     },
     "abilities": {
-      "0": "Serene Grace",
+      "0": "Harvest",
       "1": "Solar Rush"
     },
     "weightkg": 6.6,
@@ -20871,7 +20899,7 @@
     },
     "weightkg": 81.1,
     "prevo": "Zorua",
-    "evoLevel": 30,
+    "evoLevel": 25,
     "eggGroups": [
       "Field"
     ]
@@ -21027,7 +21055,7 @@
     },
     "weightkg": 44.0,
     "prevo": "Gothorita",
-    "evoLevel": 36,
+    "evoLevel": 32,
     "eggGroups": [
       "Human-Like"
     ]
@@ -21121,7 +21149,7 @@
     },
     "weightkg": 20.1,
     "prevo": "Duosion",
-    "evoLevel": 36,
+    "evoLevel": 33,
     "eggGroups": [
       "Amorphous"
     ]
@@ -21230,8 +21258,8 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 56,
-      "atk": 45,
+      "hp": 61,
+      "atk": 40,
       "def": 75,
       "spe": 84,
       "spa": 95,
@@ -21243,7 +21271,7 @@
     },
     "weightkg": 41.0,
     "prevo": "Vanillite",
-    "evoLevel": 17,
+    "evoLevel": 19,
     "evos": [
       "Vanilluxe"
     ],
@@ -21262,20 +21290,21 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 76,
-      "atk": 60,
+      "hp": 81,
+      "atk": 50,
       "def": 90,
       "spe": 94,
-      "spa": 120,
+      "spa": 125,
       "spd": 110
     },
     "abilities": {
-      "0": "Snow Warning",
-      "1": "Water Absorb"
+      "0": "Weak Armor",
+      "1": "Water Absorb",
+      "H": "Snow Warning"
     },
     "weightkg": 57.5,
     "prevo": "Vanillish",
-    "evoLevel": 36,
+    "evoLevel": 31,
     "eggGroups": [
       "Mineral"
     ]
@@ -21336,7 +21365,7 @@
     },
     "weightkg": 92.5,
     "prevo": "Deerling",
-    "evoLevel": 32,
+    "evoLevel": 29,
     "eggGroups": [
       "Field"
     ]
@@ -21581,7 +21610,7 @@
     },
     "weightkg": 31.6,
     "prevo": "Luvdisc",
-    "evoLevel": 34,
+    "evoLevel": 35,
     "evoType": "useItem",
     "evoItem": "Water Gem",
     "eggGroups": [
@@ -21610,7 +21639,7 @@
     },
     "abilities": {
       "0": "Lightning Rod",
-      "1": "Wimp Out",
+      "1": "Unnerve",
       "H": "Tinted Lens"
     },
     "weightkg": 0.6,
@@ -21641,8 +21670,8 @@
       "spd": 60
     },
     "abilities": {
-      "0": "Lightning Rod",
-      "1": "Electric Surge",
+      "0": "Electric Surge",
+      "1": "Intimidate",
       "H": "Tinted Lens"
     },
     "weightkg": 14.3,
@@ -22196,11 +22225,11 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 97,
+      "hp": 102,
       "atk": 135,
       "def": 80,
       "spe": 83,
-      "spa": 60,
+      "spa": 55,
       "spd": 80
     },
     "abilities": {
@@ -22550,10 +22579,10 @@
     },
     "baseStats": {
       "hp": 95,
-      "atk": 135,
+      "atk": 150,
       "def": 95,
-      "spe": 75,
-      "spa": 40,
+      "spe": 80,
+      "spa": 35,
       "spd": 95
     },
     "abilities": {
@@ -23103,7 +23132,8 @@
     "weightkg": 330.0,
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "unusable": true
   },
   "zekrom": {
     "num": 644,
@@ -23127,7 +23157,8 @@
     "weightkg": 345.0,
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "unusable": true
   },
   "landorus": {
     "num": 645,
@@ -23518,7 +23549,7 @@
     },
     "abilities": {
       "0": "Bulletproof",
-      "1": "Grassy Guard"
+      "1": "Battle Armor"
     },
     "weightkg": 130.0,
     "prevo": "Quilladin",
@@ -24072,8 +24103,8 @@
       "spd": 94
     },
     "abilities": {
-      "0": "Harvest",
-      "1": "Grassy Guard"
+      "0": "Grassy Guard",
+      "1": "Harvest"
     },
     "weightkg": 0.1,
     "evos": [
@@ -24099,8 +24130,8 @@
       "spd": 113
     },
     "abilities": {
-      "0": "Harvest",
-      "1": "Grassy Guard"
+      "0": "Grassy Guard",
+      "1": "Harvest"
     },
     "weightkg": 0.9,
     "prevo": "Flabebe",
@@ -24164,7 +24195,7 @@
     },
     "abilities": {
       "0": "Serene Grace",
-      "1": "Grassy Guard"
+      "1": "Harvest"
     },
     "weightkg": 10.0,
     "prevo": "Floette",
@@ -24178,23 +24209,23 @@
     "name": "Skiddo",
     "types": [
       "Grass",
-      "Ground"
+      "Rock"
     ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
     },
     "baseStats": {
-      "hp": 56,
-      "atk": 75,
-      "def": 67,
+      "hp": 63,
+      "atk": 80,
+      "def": 83,
       "spe": 93,
-      "spa": 42,
-      "spd": 67
+      "spa": 40,
+      "spd": 61
     },
     "abilities": {
-      "0": "Sap Sipper",
-      "1": "Stamina"
+      "0": "Grassy Guard",
+      "1": "Sap Sipper"
     },
     "weightkg": 31.0,
     "evos": [
@@ -24209,7 +24240,7 @@
     "name": "Gogoat",
     "types": [
       "Grass",
-      "Ground"
+      "Rock"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -24218,18 +24249,18 @@
     "baseStats": {
       "hp": 103,
       "atk": 110,
-      "def": 81,
+      "def": 103,
       "spe": 103,
-      "spa": 57,
+      "spa": 50,
       "spd": 81
     },
     "abilities": {
       "0": "Grassy Surge",
-      "1": "Stamina"
+      "1": "Sap Sipper"
     },
     "weightkg": 91.0,
     "prevo": "Skiddo",
-    "evoLevel": 31,
+    "evoLevel": 29,
     "eggGroups": [
       "Field"
     ]
@@ -25448,14 +25479,14 @@
     },
     "baseStats": {
       "hp": 77,
-      "atk": 49,
-      "def": 72,
+      "atk": 39,
+      "def": 77,
       "spe": 46,
       "spa": 93,
-      "spd": 88
+      "spd": 93
     },
     "abilities": {
-      "0": "Snow Warning",
+      "0": "Refrigerate",
       "1": "Energy Shield"
     },
     "weightkg": 25.2,
@@ -25479,14 +25510,14 @@
     },
     "baseStats": {
       "hp": 123,
-      "atk": 67,
+      "atk": 57,
       "def": 92,
       "spe": 58,
-      "spa": 123,
+      "spa": 133,
       "spd": 112
     },
     "abilities": {
-      "0": "Snow Warning",
+      "0": "Refrigerate",
       "1": "Energy Shield"
     },
     "weightkg": 225.0,
@@ -25826,7 +25857,8 @@
     },
     "weightkg": 5.0,
     "evos": [
-      "Gourgeist-Super"
+      "Gourgeist-Super",
+      "Gourgeist-Small"
     ],
     "eggGroups": [
       "Amorphous"
@@ -25835,9 +25867,9 @@
       "Pumpkaboo"
     ]
   },
-  "gourgeist": {
+  "gourgeistsmall": {
     "num": 711,
-    "name": "Gourgeist",
+    "name": "Gourgeist-Small",
     "types": [
       "Ghost",
       "Grass"
@@ -25847,24 +25879,30 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 70,
-      "atk": 90,
-      "def": 125,
-      "spe": 85,
-      "spa": 90,
-      "spd": 75
+      "hp": 56,
+      "atk": 40,
+      "def": 122,
+      "spe": 99,
+      "spa": 109,
+      "spd": 109
     },
     "abilities": {
-      "0": "Sinister",
+      "0": "Unburden",
       "1": "Flash Fire",
       "H": "Flare Boost"
     },
-    "weightkg": 12.5,
+    "weightkg": 9.5,
+    "prevo": "Pumpkaboo",
+    "evoLevel": 30,
+    "evoType": "useItem",
+    "evoItem": "Ghost Gem",
     "eggGroups": [
       "Amorphous"
     ],
+    "baseSpecies": "Gourgeist",
+    "forme": "Small",
     "formes": [
-      "Gourgeist",
+      "Gourgeist-Small",
       "Gourgeist-Super"
     ]
   },
@@ -25888,7 +25926,7 @@
       "spd": 109
     },
     "abilities": {
-      "0": "Grassy Guard",
+      "0": "Harvest",
       "1": "Flash Fire",
       "H": "Flare Boost"
     },
@@ -25903,7 +25941,7 @@
     "baseSpecies": "Gourgeist",
     "forme": "Super",
     "formes": [
-      "Gourgeist",
+      "Gourgeist-Small",
       "Gourgeist-Super"
     ]
   },
@@ -25918,12 +25956,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 55,
-      "atk": 69,
-      "def": 121,
+      "hp": 61,
+      "atk": 72,
+      "def": 134,
       "spe": 28,
-      "spa": 32,
-      "spd": 65
+      "spa": 34,
+      "spd": 71
     },
     "abilities": {
       "0": "Resilient",
@@ -26022,7 +26060,7 @@
     },
     "weightkg": 85.0,
     "prevo": "Noibat",
-    "evoLevel": 30,
+    "evoLevel": 25,
     "eggGroups": [
       "Flying"
     ]
@@ -26048,7 +26086,8 @@
     "weightkg": 215.0,
     "eggGroups": [
       "Undiscovered"
-    ]
+    ],
+    "unusable": true
   },
   "yveltal": {
     "num": 717,
@@ -26072,38 +26111,8 @@
     "weightkg": 203.0,
     "eggGroups": [
       "Undiscovered"
-    ]
-  },
-  "zygarde": {
-    "num": 718,
-    "name": "Zygarde",
-    "types": [
-      "Dragon",
-      "Ground"
     ],
-    "gender": "N",
-    "baseStats": {
-      "hp": 128,
-      "atk": 121,
-      "def": 121,
-      "spe": 74,
-      "spa": 121,
-      "spd": 95
-    },
-    "abilities": {
-      "0": "Intimidate",
-      "1": "Regenerator",
-      "H": "Power Construct"
-    },
-    "weightkg": 305.0,
-    "eggGroups": [
-      "Undiscovered"
-    ],
-    "formes": [
-      "Zygarde",
-      "Zygarde-10%",
-      "Zygarde-Complete"
-    ]
+    "unusable": true
   },
   "zygarde10": {
     "num": 718,
@@ -26133,8 +26142,41 @@
     "baseSpecies": "Zygarde",
     "forme": "10%",
     "formes": [
-      "Zygarde",
       "Zygarde-10%",
+      "Zygarde-50%",
+      "Zygarde-Complete"
+    ]
+  },
+  "zygarde50": {
+    "num": 718,
+    "name": "Zygarde-50%",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "gender": "N",
+    "baseStats": {
+      "hp": 128,
+      "atk": 121,
+      "def": 121,
+      "spe": 74,
+      "spa": 121,
+      "spd": 95
+    },
+    "abilities": {
+      "0": "Adaptability",
+      "1": "Regenerator",
+      "H": "Power Construct"
+    },
+    "weightkg": 305.0,
+    "eggGroups": [
+      "Undiscovered"
+    ],
+    "baseSpecies": "Zygarde",
+    "forme": "50%",
+    "formes": [
+      "Zygarde-10%",
+      "Zygarde-50%",
       "Zygarde-Complete"
     ]
   },
@@ -26164,13 +26206,14 @@
     "baseSpecies": "Zygarde",
     "forme": "Complete",
     "formes": [
-      "Zygarde",
       "Zygarde-10%",
+      "Zygarde-50%",
       "Zygarde-Complete"
     ],
     "requiredItems": [
       "Zygardite"
-    ]
+    ],
+    "unusable": true
   },
   "diancie": {
     "num": 719,
@@ -26318,7 +26361,7 @@
     },
     "abilities": {
       "0": "Sheer Force",
-      "1": "Water Absorb"
+      "1": "Storm Drain"
     },
     "weightkg": 195.0,
     "eggGroups": [
@@ -26684,11 +26727,11 @@
     },
     "baseStats": {
       "hp": 80,
-      "atk": 120,
-      "def": 85,
-      "spe": 70,
-      "spa": 110,
-      "spd": 85
+      "atk": 125,
+      "def": 80,
+      "spe": 60,
+      "spa": 125,
+      "spd": 80
     },
     "abilities": {
       "0": "Intimidate",
@@ -27279,7 +27322,7 @@
       "0": "Intimidate",
       "1": "Hustle"
     },
-    "weightkg": 9.2,
+    "weightkg": 0.5,
     "evos": [
       "Lycanroc",
       "Lycanroc-Midnight",
@@ -27418,11 +27461,11 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 30,
-      "atk": 20,
+      "hp": 25,
+      "atk": 25,
       "def": 25,
-      "spe": 90,
-      "spa": 20,
+      "spe": 100,
+      "spa": 25,
       "spd": 25
     },
     "abilities": {
@@ -27449,14 +27492,14 @@
     },
     "baseStats": {
       "hp": 150,
-      "atk": 140,
-      "def": 100,
-      "spe": 30,
-      "spa": 140,
-      "spd": 100
+      "atk": 125,
+      "def": 150,
+      "spe": 25,
+      "spa": 125,
+      "spd": 150
     },
     "abilities": {
-      "0": "Multiscale"
+      "0": "Schooling"
     },
     "weightkg": 78.6,
     "eggGroups": [
@@ -27610,7 +27653,7 @@
     },
     "abilities": {
       "0": "Liquid Veil",
-      "1": "Energy Shield"
+      "1": "Drizzle"
     },
     "weightkg": 4.0,
     "evos": [
@@ -27643,7 +27686,7 @@
     },
     "abilities": {
       "0": "Liquid Veil",
-      "1": "Energy Shield"
+      "1": "Drizzle"
     },
     "weightkg": 82.0,
     "prevo": "Dewpider",
@@ -27747,7 +27790,8 @@
     },
     "abilities": {
       "0": "Super Luck",
-      "1": "Contrary"
+      "1": "Contrary",
+      "H": "Tinted Lens"
     },
     "weightkg": 18.5,
     "prevo": "Fomantis",
@@ -27780,7 +27824,8 @@
     },
     "abilities": {
       "0": "Adaptability",
-      "1": "Contrary"
+      "1": "Contrary",
+      "H": "Tinted Lens"
     },
     "weightkg": 58.0,
     "prevo": "Fomantis",
@@ -28143,8 +28188,8 @@
       "hp": 90,
       "atk": 60,
       "def": 85,
-      "spe": 50,
-      "spa": 125,
+      "spe": 40,
+      "spa": 135,
       "spd": 125
     },
     "abilities": {
@@ -28409,8 +28454,7 @@
       "spd": 150
     },
     "abilities": {
-      "0": "Shields Down",
-      "1": "Guarding Gale"
+      "0": "Shields Down"
     },
     "weightkg": 40.0,
     "eggGroups": [

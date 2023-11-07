@@ -144,6 +144,7 @@
     "oricoriosensu": 1162,
     "lycanrocmidnight": 1163,
     "wishiwashischool": 1164,
+    "minior": 1165,
     "miniormeteor": 1165,
     "miniororange": 1166,
     "minioryellow": 1167,
@@ -354,6 +355,8 @@
     "urshifurapidstrikegmax": 1355
   },
   "items": {
+    "megastonei": 618,
+    "megastoneii": 619,
     "abilityshield": 746,
     "abomasite": 575,
     "absolite": 576,

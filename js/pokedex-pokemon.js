@@ -191,8 +191,8 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 		if (pokemon.num > 0) buf += ` <code>#${pokemon.num}</code>`;
 		buf += '</h1>';
 
-		if (pokemon.isNonstandard) {
-			buf += '<div class="warning"><strong>Note:</strong> This Pok&eacute;mon is unreleased.</div>';
+		if (pokemon.unusable) {
+			buf += '<div class="warning"><strong>Note:</strong> This Pok&eacute;mon not available.</div>';
 		}
 
 		let imageName = id;
@@ -315,8 +315,11 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 					buf += `<a href="${Config.baseurl}pokemon/${template.id}" data-target="replace">${name}</a>`;
 				}
 			}
-			if (pokemon.requiredItem) {
-				buf += `<div><small>Must hold <a href="${Config.baseurl}items/${toID(template.requiredItem)}" data-target="push">${template.requiredItem}</a></small></div>`;
+			if (pokemon.requiredItems && pokemon.requiredItems.length > 0) {
+				buf += `<div><small>Must hold one of</small></div>`
+				for (let item of pokemon.requiredItems) {
+					 buf += `<div><small><a href="${Config.baseurl}items/${toID(item)}" data-target="push">${item}</a></small></div>`;
+				}
 			}
 		}
 		if (pokemon.cosmeticFormes) {

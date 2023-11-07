@@ -1,4 +1,16 @@
 {
+  "megastonei": {
+    "name": "Mega Stone I",
+    "num": 40001,
+    "desc": "Use this to Mega Evolve ANY Pokemon BESIDES:\nGyarados, Tyranitar, Aggron, Steelix, Salamence, the Lati\n Twins, Metagross, Garchomp, Diancie, Charizard, & Kyurem.",
+    "shortDesc": ""
+  },
+  "megastoneii": {
+    "name": "Mega Stone II",
+    "num": 40002,
+    "desc": "Use this to Mega Evolve Gyarados, Tyranitar,\nSteelix, Salamence, Metagross, Garchomp & Diancie.\nUse Megastone I for other Pokemon.",
+    "shortDesc": ""
+  },
   "abilityshield": {
     "name": "Ability Shield",
     "num": 1881,

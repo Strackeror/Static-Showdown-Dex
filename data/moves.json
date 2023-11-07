@@ -1154,6 +1154,7 @@
     "desc": "The user bites the foe with jagged, hard fangs.\nThis has a 30% chance to drop the foe's Defense by 1.\nContact.",
     "shortDesc": "The user bites the foe with jagged, hard fangs.\nThis has a 30% chance to drop the foe's Defense by 1.\nContact.",
     "flags": {
+      "bite": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -2047,8 +2048,8 @@
     "critRatio": 1,
     "type": "Bug",
     "target": "allAdjacentFoes",
-    "desc": "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 1.\nZ-Effect +3 Accuracy.",
-    "shortDesc": "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 1.\nZ-Effect +3 Accuracy.",
+    "desc": "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 2.\nZ-Effect +3 Speed.",
+    "shortDesc": "The opposing Pokemon are bound with silk. This\nlowers their Speed by 2, & Sp. Atk by 2.\nZ-Effect +3 Speed.",
     "flags": {
       "mirror": 1,
       "protect": 1,
@@ -2064,7 +2065,7 @@
       {
         "chance": 100,
         "boosts": {
-          "spa": -1
+          "spa": -2
         }
       }
     ]
@@ -2976,7 +2977,7 @@
   },
   "eggcannon": {
     "num": 121,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 25,
     "category": "Physical",
     "name": "Egg Cannon",
@@ -2988,6 +2989,7 @@
     "desc": "The user fires a barrage of three exploding eggs.\nThis hits 3 times and ALWAYS lands a critical hit.",
     "shortDesc": "The user fires a barrage of three exploding eggs.\nThis hits 3 times and ALWAYS lands a critical hit.",
     "flags": {
+      "heal": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -3082,27 +3084,31 @@
   "boneclub": {
     "num": 125,
     "accuracy": 100,
-    "basePower": 85,
+    "basePower": 90,
     "category": "Physical",
     "name": "Bone Club",
-    "pp": 10,
-    "priority": 0,
+    "pp": 1,
+    "priority": 4,
     "critRatio": 1,
     "type": "Ground",
     "target": "normal",
-    "desc": "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1.",
-    "shortDesc": "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1.",
+    "desc": "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1,\nand ALWAYS flinches the foe. +4 Priority.",
+    "shortDesc": "The user clubs the target with a hard bone.\nThis ALWAYS lowers the foe's Defense by 1,\nand ALWAYS flinches the foe. +4 Priority.",
     "flags": {
       "mirror": 1,
       "protect": 1
     },
     "zMove": {
-      "basePower": 170
+      "basePower": 175
     },
     "secondaries": [
       {
         "chance": 100,
         "volatileStatus": "25"
+      },
+      {
+        "chance": 100,
+        "volatileStatus": "flinch"
       },
       {
         "chance": 100,
@@ -3493,11 +3499,11 @@
   },
   "triplecannonade": {
     "num": 140,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 25,
     "category": "Physical",
     "name": "Triple Cannonade",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
     "critRatio": 7,
     "type": "Steel",
@@ -3505,6 +3511,7 @@
     "desc": "Three rounds of heavy artillery are fired at the foe.\nThis ALWAYS results in a critical hit, hits 3 times,\nand bypasses Protect.",
     "shortDesc": "Three rounds of heavy artillery are fired at the foe.\nThis ALWAYS results in a critical hit, hits 3 times,\nand bypasses Protect.",
     "flags": {
+      "bullet": 1,
       "heal": 1,
       "mirror": 1
     },
@@ -4366,11 +4373,11 @@
   },
   "aeroblast": {
     "num": 177,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 65,
     "category": "Special",
     "name": "Aeroblast",
-    "pp": 10,
+    "pp": 5,
     "priority": 0,
     "critRatio": 7,
     "type": "Flying",
@@ -4399,8 +4406,8 @@
     "critRatio": 1,
     "type": "Grass",
     "target": "allAdjacentFoes",
-    "desc": "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 1.\nZ-Effect gives the user +3 Defense.",
-    "shortDesc": "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 1.\nZ-Effect gives the user +3 Defense.",
+    "desc": "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 2.\nZ-Effect gives the user +3 Defense.",
+    "shortDesc": "The user releases cotton-like spores that cling to\nthe foes, lowering Speed by 2, and Sp. Atk by 2.\nZ-Effect gives the user +3 Defense.",
     "flags": {
       "mirror": 1,
       "protect": 1,
@@ -4416,7 +4423,7 @@
       {
         "chance": 100,
         "boosts": {
-          "spa": -1
+          "spa": -2
         }
       }
     ]
@@ -4449,13 +4456,13 @@
     "basePower": 0,
     "category": "Status",
     "name": "Spiteful Spell",
-    "pp": 10,
-    "priority": 0,
+    "pp": 5,
+    "priority": 4,
     "critRatio": 1,
     "type": "Ghost",
     "target": "normal",
-    "desc": "The user casts a spiteful spell on the foe, preventing\nthe foe from using Fairy moves for 5 turns, as well\nas removing 4 PP from their last used move.",
-    "shortDesc": "The user casts a spiteful spell on the foe, preventing\nthe foe from using Fairy moves for 5 turns, as well\nas removing 4 PP from their last used move.",
+    "desc": "The user casts a spiteful spell on the foe, disabling\nfairy moves for 15 turns and removing 4 PP.\nThis has +4 Priority. Z-Effect heals user.",
+    "shortDesc": "The user casts a spiteful spell on the foe, disabling\nfairy moves for 15 turns and removing 4 PP.\nThis has +4 Priority. Z-Effect heals user.",
     "flags": {
       "bypasssub": 1,
       "mirror": 1,
@@ -4566,11 +4573,11 @@
   },
   "wickedblow": {
     "num": 185,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
     "name": "Wicked Blow",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
     "critRatio": 7,
     "type": "Dark",
@@ -4646,6 +4653,7 @@
     "desc": "Unsanitary sludge explodes all over the target.\nThis attack poisons 30% of the time.",
     "shortDesc": "Unsanitary sludge explodes all over the target.\nThis attack poisons 30% of the time.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -4654,7 +4662,7 @@
     },
     "secondaries": [
       {
-        "chance": 25,
+        "chance": 30,
         "status": "psn"
       }
     ]
@@ -4702,6 +4710,7 @@
     "desc": "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as BADLY poison the foe.",
     "shortDesc": "The user rapidly shoots a dark, foul muck at the foe,\nstartling them. This has +4 Priority, and will ALWAYS\nflinch as well as BADLY poison the foe.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -4750,6 +4759,7 @@
     "desc": "The user fires an intensely powerful blast of\nelectricity at the foe. This lowers the user's Sp. Atk\nstat by 2 after use.",
     "shortDesc": "The user fires an intensely powerful blast of\nelectricity at the foe. This lowers the user's Sp. Atk\nstat by 2 after use.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -5883,6 +5893,7 @@
     "desc": "The user crunches up the target with sharp fangs.\nThis lowers Defense 30% of the time. Contact.",
     "shortDesc": "The user crunches up the target with sharp fangs.\nThis lowers Defense 30% of the time. Contact.",
     "flags": {
+      "bite": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -6007,6 +6018,7 @@
     "desc": "The user hurls a shadowy blob at the target.\nThis lowers the target's Sp. Def 20% of the time.",
     "shortDesc": "The user hurls a shadowy blob at the target.\nThis lowers the target's Sp. Def 20% of the time.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -6192,14 +6204,15 @@
     "name": "Spew Out",
     "pp": 15,
     "priority": 0,
-    "critRatio": 1,
+    "critRatio": 7,
     "type": "Poison",
     "target": "normal",
-    "desc": "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. This ALWAYS lowers the foe's Sp. Def by 4.",
-    "shortDesc": "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. This ALWAYS lowers the foe's Sp. Def by 4.",
+    "desc": "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. ALWAYS crits & drops Sp. Def by 4.",
+    "shortDesc": "The user upchucks its caustic stomach contents.\nFor every Stockpile use, this gains 100 BP, maxing at\n300 BP. ALWAYS crits & drops Sp. Def by 4.",
     "flags": {
       "protect": 1
     },
+    "willCrit": true,
     "zMove": {
       "basePower": 230
     },
@@ -6231,11 +6244,11 @@
   },
   "heatwave": {
     "num": 257,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 65,
     "category": "Special",
     "name": "Heat Wave",
-    "pp": 10,
+    "pp": 5,
     "priority": 0,
     "critRatio": 7,
     "type": "Fire",
@@ -6598,13 +6611,13 @@
     "basePower": 0,
     "category": "Status",
     "name": "Ingrain",
-    "pp": 3,
+    "pp": 1,
     "priority": 0,
     "critRatio": 1,
     "type": "Grass",
     "target": "self",
-    "desc": "The user digs roots in the ground, locking itself on\nthe field & lowering Speed by 5. In exchange, the user\ngains +1 Sp. Atk & Sp. Def & heals 6% HP each turn.",
-    "shortDesc": "The user digs roots in the ground, locking itself on\nthe field & lowering Speed by 5. In exchange, the user\ngains +1 Sp. Atk & Sp. Def & heals 6% HP each turn.",
+    "desc": "The user digs roots in the ground, locking itself on\nthe field, but heals 1/16 per turn. Gives -3 Speed\nfor +3 SP. ATK/SPDEF. Z-Effect gives +3 DEFENSE.",
+    "shortDesc": "The user digs roots in the ground, locking itself on\nthe field, but heals 1/16 per turn. Gives -3 Speed\nfor +3 SP. ATK/SPDEF. Z-Effect gives +3 DEFENSE.",
     "flags": {
       "dance": 1,
       "snatch": 1
@@ -6617,19 +6630,19 @@
       {
         "chance": 0,
         "boosts": {
-          "spd": 1
+          "spd": 3
         }
       },
       {
         "chance": 0,
         "boosts": {
-          "spa": 1
+          "spa": 3
         }
       },
       {
         "chance": 0,
         "boosts": {
-          "spe": -5
+          "spe": -3
         }
       }
     ]
@@ -7084,6 +7097,7 @@
     "desc": "The user fires a concentrated ball of feathers & wind.\nThis ALWAYS drops the foe's attacking stats by 1.",
     "shortDesc": "The user fires a concentrated ball of feathers & wind.\nThis ALWAYS drops the foe's attacking stats by 1.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -7214,6 +7228,7 @@
     "desc": "The user attacks the target for five turns.\nThe move’s power increases each time it hits. Contact.",
     "shortDesc": "The user attacks the target for five turns.\nThe move’s power increases each time it hits. Contact.",
     "flags": {
+      "bullet": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -7304,6 +7319,7 @@
     "desc": "The user bites the target with toxic fangs. This has a\n50% chance to badly poison the foe. Contact.",
     "shortDesc": "The user bites the target with toxic fangs. This has a\n50% chance to badly poison the foe. Contact.",
     "flags": {
+      "bite": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -7462,6 +7478,7 @@
     "desc": "The user fires off a ball of energy that doubles in\npower and changes type depending on the weather.\nThis drops Sp. Def by one 50% of the time.",
     "shortDesc": "The user fires off a ball of energy that doubles in\npower and changes type depending on the weather.\nThis drops Sp. Def by one 50% of the time.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -8006,6 +8023,7 @@
     "desc": "The user forcefully shoots seeds at the target two\nto five times in a row.",
     "shortDesc": "The user forcefully shoots seeds at the target two\nto five times in a row.",
     "flags": {
+      "bullet": 1,
       "heal": 1,
       "mirror": 1,
       "protect": 1
@@ -8505,6 +8523,7 @@
     "desc": "The user hurls hard rocks at the target. Two to five\nrocks are launched in a row.",
     "shortDesc": "The user hurls hard rocks at the target. Two to five\nrocks are launched in a row.",
     "flags": {
+      "bullet": 1,
       "heal": 1,
       "mirror": 1,
       "protect": 1
@@ -8553,7 +8572,8 @@
     "shortDesc": "The user attacks the foe with a beautiful pulse of\nwater. This ALWAYS drops BOTH of the foe's offensive\nstats by 1 after use.",
     "flags": {
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "pulse": 1
     },
     "zMove": {
       "basePower": 120
@@ -8750,6 +8770,7 @@
     "desc": "The user tackles the target while spinning.\nThis gains power the faster the foe is than the user.\nAfter use, the user's Speed drops by 2. Contact.",
     "shortDesc": "The user tackles the target while spinning.\nThis gains power the faster the foe is than the user.\nAfter use, the user's Speed drops by 2. Contact.",
     "flags": {
+      "bullet": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -8784,7 +8805,7 @@
   "brine": {
     "num": 362,
     "accuracy": 100,
-    "basePower": 70,
+    "basePower": 75,
     "category": "Special",
     "name": "Brine",
     "pp": 10,
@@ -8799,7 +8820,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 140
+      "basePower": 150
     }
   },
   "naturalgift": {
@@ -9129,8 +9150,8 @@
     "critRatio": 7,
     "type": "Psychic",
     "target": "normal",
-    "desc": "Mew mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. SIGNATURE Z-MOVE.",
-    "shortDesc": "Mew mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. SIGNATURE Z-MOVE.",
+    "desc": "The user mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. MEW HAS SIGNATURE Z-MOVE.",
+    "shortDesc": "The user mangles the opponent's DNA. This deals more\ndamage depending how much HP the target has left.\nMax of 120 BP. ALWAYS crits. MEW HAS SIGNATURE Z-MOVE.",
     "flags": {
       "mirror": 1,
       "protect": 1
@@ -9372,8 +9393,8 @@
     "critRatio": 1,
     "type": "Poison",
     "target": "normal",
-    "desc": "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +2 Defense.",
-    "shortDesc": "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +2 Defense.",
+    "desc": "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +3 Defense.",
+    "shortDesc": "The user lays a trap of toxic spikes on the opponent's\nside. One layer poisons, two layers badly poison.\nZ-Effect +3 Defense.",
     "flags": {
       "reflectable": 1
     }
@@ -9507,8 +9528,10 @@
     "desc": "The user lets loose a blast of aura power from deep\nwithin itself. This has a 20% chance to drop\nSp. Def by 1, and can't miss.",
     "shortDesc": "The user lets loose a blast of aura power from deep\nwithin itself. This has a 20% chance to drop\nSp. Def by 1, and can't miss.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "pulse": 1
     },
     "zMove": {
       "basePower": 175
@@ -9597,7 +9620,8 @@
     "shortDesc": "The user releases a horrible aura imbued with dark\nenergy. This flinches 20% of the time, and afflicts\na sleeping target with a horrible nightmare.",
     "flags": {
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "pulse": 1
     },
     "zMove": {
       "basePower": 170
@@ -9679,6 +9703,7 @@
     "desc": "The user slams a barrage of hard-shelled seeds\ndown on the target from above. This flinches the\ntarget 20% of the time.",
     "shortDesc": "The user slams a barrage of hard-shelled seeds\ndown on the target from above. This flinches the\ntarget 20% of the time.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -9785,7 +9810,8 @@
     "shortDesc": "The target is attacked with a shock wave generated\nby the user’s gaping mouth. This leaves the target\nwith paralysis 30% of the time.",
     "flags": {
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "pulse": 1
     },
     "zMove": {
       "basePower": 175
@@ -9923,6 +9949,7 @@
     "desc": "The user heightens its mental focus and unleashes\nmassive power. This lowers Sp. Def 30% of the time.",
     "shortDesc": "The user heightens its mental focus and unleashes\nmassive power. This lowers Sp. Def 30% of the time.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -9952,6 +9979,7 @@
     "desc": "The user draws power from nature and fires it at the\ntarget. This lowers Sp. Def 25% of the time.",
     "shortDesc": "The user draws power from nature and fires it at the\ntarget. This lowers Sp. Def 25% of the time.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -10207,6 +10235,7 @@
     "desc": "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 10% chance to paralyze.\nContact.",
     "shortDesc": "The user bites with electrified fangs. This has a 20%\nchance to flinch, and a 10% chance to paralyze.\nContact.",
     "flags": {
+      "bite": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -10239,6 +10268,7 @@
     "desc": "The user bites with ice-infused fangs. This has a 20%\nchance to flinch, and a 10% chance to freeze.\nContact.",
     "shortDesc": "The user bites with ice-infused fangs. This has a 20%\nchance to flinch, and a 10% chance to freeze.\nContact.",
     "flags": {
+      "bite": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -10271,6 +10301,7 @@
     "desc": "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 10% chance to burn.\nContact.",
     "shortDesc": "The user bites with flame-cloaked fangs. This has a\n20% chance to flinch, and a 10% chance to burn.\nContact.",
     "flags": {
+      "bite": 1,
       "contact": 1,
       "defrost": 1,
       "mirror": 1,
@@ -10327,6 +10358,7 @@
     "desc": "The user launches a mud ball that explodes on impact.\nThis drops the foe's Speed by one 100% of the time.",
     "shortDesc": "The user launches a mud ball that explodes on impact.\nThis drops the foe's Speed by one 100% of the time.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -10673,6 +10705,7 @@
     "desc": "The user hurls a massive boulder with full force.\nThis lowers the user's Attack by 2 after use.",
     "shortDesc": "The user hurls a massive boulder with full force.\nThis lowers the user's Attack by 2 after use.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -10782,6 +10815,7 @@
     "desc": "The user rapidly releases a burst of magnetic bombs.\nThis has +1 priority, and can't miss.",
     "shortDesc": "The user rapidly releases a burst of magnetic bombs.\nThis has +1 priority, and can't miss.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -11225,11 +11259,11 @@
   },
   "subspacetear": {
     "num": 460,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 80,
     "category": "Special",
     "name": "Subspace Tear",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
     "critRatio": 7,
     "type": "Psychic",
@@ -11702,11 +11736,11 @@
   },
   "stormthrow": {
     "num": 480,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
     "name": "Storm Throw",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
     "critRatio": 7,
     "type": "Fighting",
@@ -11882,6 +11916,7 @@
     "desc": "The user hurls an electric orb at the target. The\nfaster the user is than the foe, the higher the power.\nThis ALWAYS boosts the user's Speed by 1 after use.",
     "shortDesc": "The user hurls an electric orb at the target. The\nfaster the user is than the foe, the higher the power.\nThis ALWAYS boosts the user's Speed by 1 after use.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -12021,6 +12056,7 @@
     "desc": "The user shoots sludge at astonishing speed.\nThis has +1 priority, and can't miss.",
     "shortDesc": "The user shoots sludge at astonishing speed.\nThis has +1 priority, and can't miss.",
     "flags": {
+      "bullet": 1,
       "mirror": 1,
       "protect": 1
     },
@@ -12288,27 +12324,27 @@
   "scald": {
     "num": 503,
     "accuracy": 100,
-    "basePower": 75,
+    "basePower": 60,
     "category": "Special",
     "name": "Scald",
-    "pp": 15,
+    "pp": 10,
     "priority": 0,
     "critRatio": 1,
     "type": "Water",
     "target": "normal",
-    "desc": "The user shoots boiling hot water at its target.\nThis burns the target 30% of the time.\n(More like 100%, am I right?)",
-    "shortDesc": "The user shoots boiling hot water at its target.\nThis burns the target 30% of the time.\n(More like 100%, am I right?)",
+    "desc": "The user shoots boiling hot water at its target.\nThis ALWAYS burns the target.",
+    "shortDesc": "The user shoots boiling hot water at its target.\nThis ALWAYS burns the target.",
     "flags": {
       "defrost": 1,
       "mirror": 1,
       "protect": 1
     },
     "zMove": {
-      "basePower": 150
+      "basePower": 120
     },
     "secondaries": [
       {
-        "chance": 30,
+        "chance": 100,
         "status": "brn"
       }
     ]
@@ -12346,6 +12382,7 @@
     "shortDesc": "The user emits a healing pulse that restores the\ntarget’s HP by 2/3 of its max HP.\nZ-Effect heals user fully.",
     "flags": {
       "protect": 1,
+      "pulse": 1,
       "reflectable": 1
     }
   },
@@ -12801,11 +12838,11 @@
   },
   "frostbreath": {
     "num": 524,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 65,
     "category": "Special",
     "name": "Frost Breath",
-    "pp": 10,
+    "pp": 5,
     "priority": 0,
     "critRatio": 7,
     "type": "Ice",
@@ -13373,6 +13410,7 @@
     "desc": "The user torches everything around it in an shower\nof immense flames. This burns 25% of the time.",
     "shortDesc": "The user torches everything around it in an shower\nof immense flames. This burns 25% of the time.",
     "flags": {
+      "bullet": 1,
       "defrost": 1,
       "mirror": 1,
       "protect": 1
@@ -13508,8 +13546,8 @@
     "critRatio": 1,
     "type": "Electric",
     "target": "normal",
-    "desc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use. Contact.",
-    "shortDesc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use. Contact.",
+    "desc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
+    "shortDesc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
     "flags": {
       "contact": 1,
       "mirror": 1,
@@ -13887,7 +13925,7 @@
     "pp": 1,
     "priority": 0,
     "critRatio": 1,
-    "type": "Ground",
+    "type": "Grass",
     "target": "normal",
     "desc": "Plowing the soil, the user boosts the Attack & Sp. Atk\nof any Grass-type on the field, including itself, by 2.\nZ-Effect gives +1 all stats.",
     "shortDesc": "Plowing the soil, the user boosts the Attack & Sp. Atk\nof any Grass-type on the field, including itself, by 2.\nZ-Effect gives +1 all stats.",
@@ -14083,8 +14121,8 @@
     "critRatio": 1,
     "type": "Grass",
     "target": "normal",
-    "desc": "The user puts a curse on the foe that not only adds\nthe Grass type to the foe, but causes them to lose\n25% HP at the end of each turn. Z-Effect +1 all stats.",
-    "shortDesc": "The user puts a curse on the foe that not only adds\nthe Grass type to the foe, but causes them to lose\n25% HP at the end of each turn. Z-Effect +1 all stats.",
+    "desc": "The user puts a curse on the foe that causes them\nto lose 25% HP at the end of each turn, at no\ncost to the user. Z-Effect +1 all stats.",
+    "shortDesc": "The user puts a curse on the foe that causes them\nto lose 25% HP at the end of each turn, at no\ncost to the user. Z-Effect +1 all stats.",
     "flags": {
       "mirror": 1,
       "protect": 1,
@@ -14658,11 +14696,11 @@
   },
   "surgingstrikes": {
     "num": 594,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 25,
     "category": "Physical",
     "name": "Surging Strikes",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
     "critRatio": 7,
     "type": "Water",
@@ -15337,7 +15375,8 @@
     "shortDesc": "The user attacks opponents with a brilliant cascade of\nwater. This has a 50% chance to drop Sp. Def.",
     "flags": {
       "mirror": 1,
-      "protect": 1
+      "protect": 1,
+      "pulse": 1
     },
     "zMove": {
       "basePower": 180
@@ -16084,8 +16123,8 @@
     "critRatio": 1,
     "type": "Normal",
     "target": "self",
-    "desc": "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 crit rate.",
-    "shortDesc": "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 crit rate.",
+    "desc": "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 Speed.",
+    "shortDesc": "The user concentrates intensely. The attack on the\nnext turn always results in a critical hit.\nZ-Effect +2 Speed.",
     "flags": {
       "snatch": 1
     }
@@ -16138,11 +16177,11 @@
   },
   "bugbomber": {
     "num": 676,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 25,
     "category": "Special",
     "name": "Bug Bomber",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
     "critRatio": 7,
     "type": "Bug",
@@ -16150,6 +16189,7 @@
     "desc": "The user fires 3 balls made from varying components.\nThis hits 3 times, ALWAYS results in a critical hit,\nand bypasses Protect. Heals an ally by 50% when used.",
     "shortDesc": "The user fires 3 balls made from varying components.\nThis hits 3 times, ALWAYS results in a critical hit,\nand bypasses Protect. Heals an ally by 50% when used.",
     "flags": {
+      "bullet": 1,
       "heal": 1,
       "mirror": 1
     },
@@ -16900,6 +16940,7 @@
     "desc": "The user bites the target with fangs imbued with\npsychic energy. This breaks the effects of Reflect\nand Light Screen. Contact.",
     "shortDesc": "The user bites the target with fangs imbued with\npsychic energy. This breaks the effects of Reflect\nand Light Screen. Contact.",
     "flags": {
+      "bite": 1,
       "contact": 1,
       "mirror": 1,
       "protect": 1
@@ -16932,24 +16973,28 @@
   "shadowbone": {
     "num": 708,
     "accuracy": 100,
-    "basePower": 85,
+    "basePower": 90,
     "category": "Physical",
     "name": "Shadow Bone",
-    "pp": 10,
+    "pp": 1,
     "priority": 0,
     "critRatio": 1,
     "type": "Ghost",
     "target": "normal",
-    "desc": "The user attacks by beating the target with a bone\nimbued with spirits. This lowers their Defense\n100% of the time.",
-    "shortDesc": "The user attacks by beating the target with a bone\nimbued with spirits. This lowers their Defense\n100% of the time.",
+    "desc": "The user attacks by beating the target with a bone\nimbued with spirits. This ALWAYS drops\ndefense, ALWAYS flinches and has +4 Priority.",
+    "shortDesc": "The user attacks by beating the target with a bone\nimbued with spirits. This ALWAYS drops\ndefense, ALWAYS flinches and has +4 Priority.",
     "flags": {
       "mirror": 1,
       "protect": 1
     },
     "zMove": {
-      "basePower": 170
+      "basePower": 175
     },
     "secondaries": [
+      {
+        "chance": 100,
+        "volatileStatus": "flinch"
+      },
       {
         "chance": 100,
         "boosts": {
@@ -17065,42 +17110,31 @@
     "basePower": 120,
     "category": "Physical",
     "name": "Solar Strike",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
-    "critRatio": 1,
+    "critRatio": 7,
     "type": "Fire",
     "target": "normal",
-    "desc": "The user flies up and descends onto the target with\na column of flames. This lowers the user's Defensive\nstats by one after use. 30% flinch rate. Contact.",
-    "shortDesc": "The user flies up and descends onto the target with\na column of flames. This lowers the user's Defensive\nstats by one after use. 30% flinch rate. Contact.",
+    "desc": "The user flies up and descends onto the target with\na column of flames. ALWAYS crits, ALWAYS burns, and\ndeals 30% recoil to the user. Contact.",
+    "shortDesc": "The user flies up and descends onto the target with\na column of flames. ALWAYS crits, ALWAYS burns, and\ndeals 30% recoil to the user. Contact.",
     "flags": {
       "contact": 1,
       "defrost": 1,
       "mirror": 1,
       "protect": 1
     },
+    "willCrit": true,
+    "recoil": [
+      30,
+      100
+    ],
     "zMove": {
-      "basePower": 195
+      "basePower": 250
     },
     "secondaries": [
       {
-        "chance": 30,
-        "volatileStatus": "flinch"
-      },
-      {
-        "chance": 0,
-        "self": {
-          "boosts": {
-            "def": -1
-          }
-        }
-      },
-      {
-        "chance": 0,
-        "self": {
-          "boosts": {
-            "spd": -1
-          }
-        }
+        "chance": 100,
+        "status": "brn"
       }
     ]
   },
