@@ -1,9 +1,0 @@
-{
-  "include": [
-    "*"
-  ],
-  "compilerOptions": {
-    "target": "ES2022",
-    "outDir": "../js"
-  }
-}

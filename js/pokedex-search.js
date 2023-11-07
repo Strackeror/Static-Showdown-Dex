@@ -1,4 +1,4 @@
-var PokedexSearchPanel = Panels.Panel.extend({
+window.PokedexSearchPanel = Panels.Panel.extend({
 	minWidth: 639,
 	maxWidth: 639,
 	sidebarWidth: 280,

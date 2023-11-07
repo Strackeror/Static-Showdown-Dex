@@ -1213,4 +1213,11 @@ class BattleTypeSearch extends BattleTypedSearch<"type"> {
   }
 }
 
-exports.DexSearch = DexSearch;
+
+export {}
+declare global {
+  interface Window {
+    DexSearch: typeof DexSearch;
+  }
+}
+window.DexSearch = DexSearch;

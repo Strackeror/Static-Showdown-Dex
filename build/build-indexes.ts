@@ -50,13 +50,6 @@ function toID(text: any): string {
   return ("" + text).toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
 
-const INDENT = 2;
-function es3stringify(obj) {
-  const buf = JSON.stringify(obj, undefined, INDENT);
-  return buf.replace(/\"([A-Za-z][A-Za-z0-9]*)\"\:/g, (fullMatch, key) =>
-    ["return", "new", "delete"].includes(key) ? fullMatch : `${key}:`
-  );
-}
 
 const allSpecies = Object.fromEntries(
   [...generation.species]
@@ -119,10 +112,7 @@ for (let species in allSpecies) {
   if (dexEntry.baseSpecies == dexEntry.name) delete dexEntry.baseSpecies;
   dexjs[species] = dexEntry
 }
-
-const buf = "exports.BattlePokedex = " + es3stringify(dexjs) + ";";
-fs.writeFileSync("data/pokedex.js", buf);
-console.log("pokedex DONE");
+fs.writeFileSync("data/pokedex.json", JSON.stringify(dexjs, undefined, 2));
 
 async function buildLearnsets() {
   let learnsets = {};
@@ -164,10 +154,7 @@ async function buildLearnsets() {
     }
     learnsets[species] = learnset;
   }
-  fs.writeFileSync(
-    "data/learnsets.js",
-    `exports.Learnsets = ${es3stringify(learnsets)};`
-  );
+  fs.writeFileSync("data/learnsets.json", JSON.stringify(learnsets, undefined, 2));
 }
 buildLearnsets();
 
@@ -198,8 +185,7 @@ process.stdout.write(
       target: move.target,
     };
   }
-  const buf = "exports.BattleMovedex = " + es3stringify(moves) + ";";
-  fs.writeFileSync("data/moves.js", buf);
+  fs.writeFileSync("data/moves.json", JSON.stringify(moves, undefined, 2));
 }
 
 /*********************************************************
@@ -218,8 +204,7 @@ process.stdout.write(
       shortDesc: item.shortDesc,
     };
   }
-  const buf = "exports.BattleItems = " + es3stringify(items) + ";";
-  fs.writeFileSync("data/items.js", buf);
+  fs.writeFileSync("data/items.json", JSON.stringify(items, undefined, 2));
 }
 
 /*********************************************************
@@ -237,8 +222,7 @@ process.stdout.write(
       shortDesc: ability.shortDesc,
     };
   }
-  const buf = "exports.BattleAbilities = " + es3stringify(abilities) + ";";
-  fs.writeFileSync("data/abilities.js", buf);
+  fs.writeFileSync("data/abilities.json", JSON.stringify(abilities, undefined, 2));
 }
 
 /*********************************************************
@@ -255,6 +239,5 @@ process.stdout.write(
       effectiveness: type.effectiveness,
     };
   }
-  const buf = "exports.BattleTypeChart = " + es3stringify(types) + ";";
-  fs.writeFileSync("data/typechart.js", buf);
+  fs.writeFileSync("data/typechart.json", JSON.stringify(types, undefined, 2));
 }
