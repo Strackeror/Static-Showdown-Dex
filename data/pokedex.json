@@ -1190,7 +1190,7 @@
     "weightkg": 30.0,
     "prevo": "Pikachu",
     "evoLevel": 33,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Electric Gem",
     "eggGroups": [
       "Field",
@@ -1227,7 +1227,7 @@
     "weightkg": 21.0,
     "prevo": "Pikachu",
     "evoLevel": 33,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Field",
@@ -1462,7 +1462,7 @@
     "weightkg": 60.0,
     "prevo": "Nidorina",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ground Gem",
     "eggGroups": [
       "Undiscovered"
@@ -1551,7 +1551,7 @@
     "weightkg": 62.0,
     "prevo": "Nidorino",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ground Gem",
     "eggGroups": [
       "Monster",
@@ -1983,7 +1983,7 @@
     "weightkg": 18.6,
     "prevo": "Gloom",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Poison Gem",
     "eggGroups": [
       "Grass"
@@ -2669,7 +2669,7 @@
     "weightkg": 54.0,
     "prevo": "Poliwhirl",
     "evoLevel": 34,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fighting Gem",
     "eggGroups": [
       "Water 1"
@@ -2893,7 +2893,7 @@
     "weightkg": 130.0,
     "prevo": "Machoke",
     "evoLevel": 36,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fighting Gem",
     "eggGroups": [
       "Human-Like"
@@ -3230,7 +3230,7 @@
     "weightkg": 300.0,
     "prevo": "Graveler",
     "evoLevel": 36,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Rock Gem",
     "eggGroups": [
       "Mineral"
@@ -3267,7 +3267,7 @@
     "weightkg": 316.0,
     "prevo": "Graveler-Alola",
     "evoLevel": 36,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Rock Gem",
     "eggGroups": [
       "Mineral"
@@ -3399,7 +3399,7 @@
     "weightkg": 78.5,
     "prevo": "Slowpoke",
     "evoLevel": 29,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Water Gem",
     "eggGroups": [
       "Monster",
@@ -3951,7 +3951,7 @@
     "weightkg": 40.5,
     "prevo": "Haunter",
     "evoLevel": 36,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ghost Gem",
     "eggGroups": [
       "Amorphous"
@@ -4261,7 +4261,7 @@
     "weightkg": 120.0,
     "prevo": "Exeggcute",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Grass"
@@ -4297,7 +4297,7 @@
     "weightkg": 415.6,
     "prevo": "Exeggcute",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Grass"
@@ -4367,7 +4367,7 @@
     "weightkg": 45.0,
     "prevo": "Cubone",
     "evoLevel": 28,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fighting Gem",
     "eggGroups": [
       "Monster"
@@ -4404,7 +4404,7 @@
     "weightkg": 34.0,
     "prevo": "Cubone",
     "evoLevel": 28,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ghost Gem",
     "eggGroups": [
       "Monster"
@@ -4443,7 +4443,7 @@
     "weightkg": 98.0,
     "prevo": "Cubone",
     "evoLevel": 28,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Monster"
@@ -4658,7 +4658,7 @@
     "weightkg": 120.0,
     "prevo": "Rhyhorn",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Rock Gem",
     "evos": [
       "Rhyperior"
@@ -5440,8 +5440,9 @@
     "weightkg": 29.0,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Water Gem",
+    "evoCondition": "in the day",
     "eggGroups": [
       "Field"
     ]
@@ -5472,8 +5473,9 @@
     "weightkg": 24.5,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Electric Gem",
+    "evoCondition": "in the day",
     "eggGroups": [
       "Field"
     ]
@@ -5504,8 +5506,9 @@
     "weightkg": 25.0,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fire Gem",
+    "evoCondition": "in the day",
     "eggGroups": [
       "Field"
     ]
@@ -5928,7 +5931,7 @@
     "weightkg": 210.0,
     "prevo": "Dragonair",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Flying Gem",
     "eggGroups": [
       "Water 1",
@@ -6610,7 +6613,7 @@
     "weightkg": 75.0,
     "prevo": "Golbat",
     "evoLevel": 33,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Flying Gem",
     "eggGroups": [
       "Flying"
@@ -7057,7 +7060,7 @@
     "weightkg": 5.8,
     "prevo": "Gloom",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fairy Gem",
     "eggGroups": [
       "Grass"
@@ -7183,7 +7186,7 @@
     "weightkg": 33.9,
     "prevo": "Poliwhirl",
     "evoLevel": 34,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Water Gem",
     "eggGroups": [
       "Water 1"
@@ -7497,8 +7500,9 @@
     "weightkg": 26.5,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
+    "evoCondition": "in the day",
     "eggGroups": [
       "Field"
     ]
@@ -7529,8 +7533,9 @@
     "weightkg": 27.0,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
+    "evoCondition": "in the night",
     "eggGroups": [
       "Field"
     ]
@@ -7592,7 +7597,7 @@
     "weightkg": 79.5,
     "prevo": "Slowpoke",
     "evoLevel": 29,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Monster",
@@ -7679,7 +7684,7 @@
     "weightkg": 28.5,
     "prevo": "Wynaut",
     "evoLevel": 30,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Amorphous"
@@ -7859,7 +7864,7 @@
     "weightkg": 400.0,
     "prevo": "Onix",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Mineral"
@@ -8024,7 +8029,7 @@
     "weightkg": 118.0,
     "prevo": "Scyther",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Bug"
@@ -8691,7 +8696,7 @@
     "weightkg": 152.0,
     "prevo": "Seadra",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Water 1",
@@ -8778,8 +8783,10 @@
       "1": "Levitate"
     },
     "weightkg": 32.5,
-    "prevo": "Porygon",
-    "evoLevel": 35,
+    "prevo": "Porygon-Z",
+    "evoLevel": 40,
+    "evoType": "levelHold",
+    "evoItem": "Hotfix",
     "evos": [
       "Porygon-Z"
     ],
@@ -9033,7 +9040,7 @@
     "weightkg": 46.8,
     "prevo": "Chansey",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Normal Gem",
     "eggGroups": [
       "Fairy"
@@ -9204,7 +9211,7 @@
     "weightkg": 202.0,
     "prevo": "Pupitar",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Monster"
@@ -10105,7 +10112,7 @@
     "weightkg": 55.0,
     "prevo": "Lombre",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Water Gem",
     "eggGroups": [
       "Water 1",
@@ -10203,7 +10210,7 @@
     "weightkg": 59.6,
     "prevo": "Nuzleaf",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Field",
@@ -10426,7 +10433,7 @@
     "weightkg": 48.4,
     "prevo": "Kirlia",
     "evoLevel": 33,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Amorphous"
@@ -10691,7 +10698,7 @@
     "weightkg": 130.5,
     "prevo": "Vigoroth",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ice Gem",
     "eggGroups": [
       "Field"
@@ -10873,7 +10880,7 @@
     "weightkg": 84.0,
     "prevo": "Loudred",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Monster",
@@ -11294,7 +11301,7 @@
     "weightkg": 360.0,
     "prevo": "Lairon",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Monster"
@@ -11910,7 +11917,7 @@
     "weightkg": 999.0,
     "prevo": "Wailmer",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Water Gem",
     "eggGroups": [
       "Field",
@@ -12228,7 +12235,7 @@
     "weightkg": 15.3,
     "prevo": "Vibrava",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Bug"
@@ -13428,7 +13435,7 @@
     "weightkg": 256.5,
     "prevo": "Snorunt",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ice Gem",
     "eggGroups": [
       "Fairy",
@@ -13569,7 +13576,7 @@
     "weightkg": 150.6,
     "prevo": "Sealeo",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ice Gem",
     "eggGroups": [
       "Water 1",
@@ -13633,7 +13640,7 @@
     "weightkg": 27.0,
     "prevo": "Clamperl",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Water 1"
@@ -13665,7 +13672,7 @@
     "weightkg": 22.6,
     "prevo": "Clamperl",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Water 1"
@@ -13820,7 +13827,7 @@
     "weightkg": 102.6,
     "prevo": "Shelgon",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Flying Gem",
     "eggGroups": [
       "Dragon"
@@ -13951,7 +13958,7 @@
     "weightkg": 550.0,
     "prevo": "Metang",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Mineral"
@@ -15182,7 +15189,7 @@
     "weightkg": 14.5,
     "prevo": "Roselia",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Grass Gem",
     "eggGroups": [
       "Fairy",
@@ -15811,7 +15818,7 @@
       "1": "Storm Drain"
     },
     "weightkg": 29.9,
-    "prevo": "Shellos",
+    "prevo": "Shellos-East",
     "evoLevel": 29,
     "eggGroups": [
       "Water 1",
@@ -16079,7 +16086,7 @@
     "weightkg": 4.4,
     "prevo": "Misdreavus",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Amorphous"
@@ -16111,7 +16118,7 @@
     "weightkg": 27.3,
     "prevo": "Murkrow",
     "evoLevel": 31,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Flying"
@@ -16563,7 +16570,7 @@
     "weightkg": 95.0,
     "prevo": "Gabite",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Monster",
@@ -17182,7 +17189,7 @@
     "weightkg": 34.0,
     "prevo": "Sneasel",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Field"
@@ -17212,7 +17219,7 @@
     "weightkg": 180.0,
     "prevo": "Magneton",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Electric Gem",
     "eggGroups": [
       "Mineral"
@@ -17244,7 +17251,7 @@
     "weightkg": 140.0,
     "prevo": "Lickitung",
     "evoLevel": 33,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Normal Gem",
     "eggGroups": [
       "Monster"
@@ -17276,7 +17283,7 @@
     "weightkg": 282.8,
     "prevo": "Rhydon",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Rock Gem",
     "eggGroups": [
       "Monster",
@@ -17308,7 +17315,7 @@
     "weightkg": 128.6,
     "prevo": "Tangela",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Grass Gem",
     "eggGroups": [
       "Grass"
@@ -17340,7 +17347,7 @@
     "weightkg": 138.6,
     "prevo": "Electabuzz",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fighting Gem",
     "eggGroups": [
       "Human-Like"
@@ -17372,7 +17379,7 @@
     "weightkg": 68.0,
     "prevo": "Magmar",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Human-Like"
@@ -17404,7 +17411,7 @@
     "weightkg": 38.0,
     "prevo": "Togetic",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Flying Gem",
     "eggGroups": [
       "Flying",
@@ -17437,7 +17444,7 @@
     "weightkg": 51.5,
     "prevo": "Yanma",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Bug"
@@ -17469,8 +17476,9 @@
     "weightkg": 25.5,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Grass Gem",
+    "evoCondition": "in the day",
     "eggGroups": [
       "Field"
     ]
@@ -17501,8 +17509,9 @@
     "weightkg": 25.9,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ice Gem",
+    "evoCondition": "in the night",
     "eggGroups": [
       "Field"
     ]
@@ -17533,7 +17542,7 @@
     "weightkg": 42.5,
     "prevo": "Gligar",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Bug"
@@ -17565,7 +17574,7 @@
     "weightkg": 291.0,
     "prevo": "Piloswine",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ice Gem",
     "eggGroups": [
       "Field"
@@ -17594,7 +17603,7 @@
     "weightkg": 34.0,
     "prevo": "Porygon2",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dubious Disc",
     "evos": [],
     "eggGroups": [
@@ -17627,7 +17636,7 @@
     "weightkg": 52.0,
     "prevo": "Kirlia",
     "evoLevel": 33,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fighting Gem",
     "eggGroups": [
       "Amorphous"
@@ -17701,7 +17710,7 @@
     "weightkg": 340.0,
     "prevo": "Nosepass",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Mineral"
@@ -17733,7 +17742,7 @@
     "weightkg": 106.6,
     "prevo": "Dusclops",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fighting Gem",
     "eggGroups": [
       "Amorphous"
@@ -17762,7 +17771,7 @@
     "weightkg": 26.6,
     "prevo": "Snorunt",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ghost Gem",
     "eggGroups": [
       "Fairy",
@@ -18290,7 +18299,7 @@
     "weightkg": 1.4,
     "prevo": "Phione",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
       "Water 1",
@@ -19409,7 +19418,7 @@
     "weightkg": 260.0,
     "prevo": "Boldore",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Rock Gem",
     "eggGroups": [
       "Mineral"
@@ -19696,7 +19705,7 @@
     "weightkg": 87.0,
     "prevo": "Gurdurr",
     "evoLevel": 36,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Rock Gem",
     "eggGroups": [
       "Human-Like"
@@ -20307,7 +20316,7 @@
     "weightkg": 96.3,
     "prevo": "Krokorok",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Field"
@@ -21454,7 +21463,7 @@
     "weightkg": 33.0,
     "prevo": "Karrablast",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Bug"
@@ -21611,7 +21620,7 @@
     "weightkg": 31.6,
     "prevo": "Luvdisc",
     "evoLevel": 35,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Water Gem",
     "eggGroups": [
       "Water 1",
@@ -21822,7 +21831,7 @@
     "weightkg": 81.0,
     "prevo": "Klang",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Steel Gem",
     "eggGroups": [
       "Mineral"
@@ -21917,7 +21926,7 @@
     "weightkg": 80.5,
     "prevo": "Eelektrik",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Electric Gem",
     "eggGroups": [
       "Amorphous"
@@ -22077,7 +22086,7 @@
     "weightkg": 34.3,
     "prevo": "Lampent",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ghost Gem",
     "eggGroups": [
       "Amorphous"
@@ -22175,7 +22184,7 @@
     "weightkg": 105.5,
     "prevo": "Fraxure",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Monster",
@@ -22325,7 +22334,7 @@
     "weightkg": 25.3,
     "prevo": "Shelmet",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Bug"
@@ -22850,7 +22859,7 @@
     "weightkg": 160.0,
     "prevo": "Zweilous",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Dragon"
@@ -24930,7 +24939,7 @@
     "weightkg": 53.0,
     "prevo": "Doublade",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ghost Gem",
     "eggGroups": [
       "Mineral"
@@ -25553,8 +25562,9 @@
     "weightkg": 23.5,
     "prevo": "Eevee",
     "evoLevel": 25,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fairy Gem",
+    "evoCondition": "in the day",
     "eggGroups": [
       "Field"
     ]
@@ -25735,7 +25745,7 @@
     "weightkg": 150.5,
     "prevo": "Sliggoo",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Dragon"
@@ -25894,7 +25904,7 @@
     "weightkg": 9.5,
     "prevo": "Pumpkaboo",
     "evoLevel": 30,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ghost Gem",
     "eggGroups": [
       "Amorphous"
@@ -25933,7 +25943,7 @@
     "weightkg": 39.0,
     "prevo": "Pumpkaboo",
     "evoLevel": 30,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Grass Gem",
     "eggGroups": [
       "Amorphous"
@@ -26238,7 +26248,7 @@
     "weightkg": 8.8,
     "prevo": "Carbink",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Rock Gem",
     "eggGroups": [
       "Undiscovered"
@@ -26939,7 +26949,7 @@
     "weightkg": 45.0,
     "prevo": "Charjabug",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Electric Gem",
     "eggGroups": [
       "Bug"
@@ -26975,7 +26985,7 @@
     "weightkg": 147.5,
     "prevo": "Charjabug",
     "evoLevel": 40,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Bug"
@@ -27044,7 +27054,7 @@
     "weightkg": 180.0,
     "prevo": "Crabrawler",
     "evoLevel": 32,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Ice Gem",
     "eggGroups": [
       "Water 3"
@@ -27361,7 +27371,7 @@
     "weightkg": 25.0,
     "prevo": "Rockruff",
     "evoLevel": 28,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Normal Gem",
     "eggGroups": [
       "Field"
@@ -27398,7 +27408,7 @@
     "weightkg": 25.0,
     "prevo": "Rockruff",
     "evoLevel": 28,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dark Gem",
     "eggGroups": [
       "Field"
@@ -27437,7 +27447,7 @@
     "weightkg": 25.0,
     "prevo": "Rockruff",
     "evoLevel": 28,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Fighting Gem",
     "eggGroups": [
       "Field"
@@ -27990,6 +28000,7 @@
     "evoLevel": 31,
     "evoType": "useItem",
     "evoItem": "Strange Souvenir",
+    "evoCondition": "on female",
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -28431,7 +28442,7 @@
     "weightkg": 100.5,
     "prevo": "Type: Null",
     "evoLevel": 50,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Normal Gem",
     "eggGroups": [
       "Undiscovered"
@@ -29169,7 +29180,7 @@
     "weightkg": 78.2,
     "prevo": "Hakamo-o",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Dragon Gem",
     "eggGroups": [
       "Dragon"
@@ -29205,7 +29216,7 @@
     "weightkg": 207.5,
     "prevo": "Hakamo-o",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Strange Souvenir",
     "eggGroups": [
       "Dragon"
@@ -29841,7 +29852,7 @@
     "weightkg": 150.0,
     "prevo": "Poipole",
     "evoLevel": 45,
-    "evoType": "useItem",
+    "evoType": "levelHold",
     "evoItem": "Poison Gem",
     "eggGroups": [
       "Undiscovered"

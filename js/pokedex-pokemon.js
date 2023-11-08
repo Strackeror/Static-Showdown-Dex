@@ -407,7 +407,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
         evoType = "level-up holding " + evo.evoItem + condition;
         break;
       case "useItem":
-        evoType = evo.evoItem;
+        evoType = "use " + evo.evoItem + condition;
         break;
       case "levelMove":
         evoType = "level-up with " + evo.evoMove + condition;
@@ -420,7 +420,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
         break;
     }
     if (evo.evoLevel) {
-			if (evoType != "") evoType += ' '
+			if (evoType != "") evoType += ' at '
       evoType += "level " + evo.evoLevel;
     }
     return evoType;
