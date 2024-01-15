@@ -5073,15 +5073,15 @@
     },
     "baseStats": {
       "hp": 70,
-      "atk": 108,
+      "atk": 99,
       "def": 65,
-      "spe": 112,
-      "spa": 95,
+      "spe": 117,
+      "spa": 99,
       "spd": 75
     },
     "abilities": {
       "0": "Volt Rush",
-      "1": "Teravolt"
+      "1": "Electric Surge"
     },
     "weightkg": 30.0,
     "prevo": "Elekid",
@@ -5107,12 +5107,12 @@
       "hp": 70,
       "atk": 95,
       "def": 70,
-      "spe": 93,
-      "spa": 112,
+      "spe": 97,
+      "spa": 108,
       "spd": 85
     },
     "abilities": {
-      "0": "Turboblaze",
+      "0": "Drought",
       "1": "Solar Rush"
     },
     "weightkg": 44.5,
@@ -5616,16 +5616,16 @@
       "F": 0.125
     },
     "baseStats": {
-      "hp": 45,
-      "atk": 77,
+      "hp": 50,
+      "atk": 80,
       "def": 110,
-      "spe": 53,
-      "spa": 40,
+      "spe": 55,
+      "spa": 30,
       "spd": 75
     },
     "abilities": {
       "0": "Swift Swim",
-      "1": "Battle Armor"
+      "1": "Sturdy"
     },
     "weightkg": 11.5,
     "evos": [
@@ -5649,10 +5649,10 @@
     },
     "baseStats": {
       "hp": 70,
-      "atk": 132,
+      "atk": 135,
       "def": 115,
-      "spe": 108,
-      "spa": 45,
+      "spe": 110,
+      "spa": 40,
       "spd": 80
     },
     "abilities": {
@@ -6011,11 +6011,11 @@
     "gender": "N",
     "baseStats": {
       "hp": 100,
-      "atk": 80,
+      "atk": 60,
       "def": 60,
       "spe": 180,
       "spa": 250,
-      "spd": 180
+      "spd": 200
     },
     "abilities": {
       "0": "Hubris"
@@ -6175,7 +6175,7 @@
     },
     "abilities": {
       "0": "Blaze",
-      "1": "Flash Fire"
+      "1": "Instinct"
     },
     "weightkg": 7.9,
     "evos": [
@@ -6205,7 +6205,7 @@
     },
     "abilities": {
       "0": "Blaze",
-      "1": "Flash Fire"
+      "1": "Instinct"
     },
     "weightkg": 19.0,
     "prevo": "Cyndaquil",
@@ -6221,7 +6221,8 @@
     "num": 157,
     "name": "Typhlosion",
     "types": [
-      "Fire"
+      "Fire",
+      "Ground"
     ],
     "genderRatio": {
       "M": 0.5,
@@ -6229,15 +6230,15 @@
     },
     "baseStats": {
       "hp": 78,
-      "atk": 94,
-      "def": 73,
+      "atk": 97,
+      "def": 78,
       "spe": 103,
-      "spa": 129,
-      "spd": 73
+      "spa": 116,
+      "spd": 78
     },
     "abilities": {
-      "0": "Hubris",
-      "1": "Berserk"
+      "0": "Proficiency",
+      "1": "Instinct"
     },
     "weightkg": 79.5,
     "prevo": "Quilava",
@@ -7616,12 +7617,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 50,
-      "atk": 35,
-      "def": 50,
-      "spe": 100,
-      "spa": 100,
-      "spd": 100
+      "hp": 45,
+      "atk": 30,
+      "def": 45,
+      "spe": 110,
+      "spa": 110,
+      "spd": 110
     },
     "abilities": {
       "0": "Levitate",
@@ -8783,7 +8784,7 @@
       "1": "Levitate"
     },
     "weightkg": 32.5,
-    "prevo": "Porygon-Z",
+    "prevo": "Porygon",
     "evoLevel": 40,
     "evoType": "levelHold",
     "evoItem": "Hotfix",
@@ -10628,7 +10629,7 @@
       "spd": 70
     },
     "abilities": {
-      "0": "Unaware",
+      "0": "Metabolism",
       "1": "Truant"
     },
     "weightkg": 24.0,
@@ -12098,15 +12099,15 @@
     },
     "baseStats": {
       "hp": 95,
-      "atk": 85,
-      "def": 85,
-      "spe": 50,
-      "spa": 100,
-      "spd": 120
+      "atk": 55,
+      "def": 70,
+      "spe": 80,
+      "spa": 125,
+      "spd": 110
     },
     "abilities": {
       "0": "Psychic Surge",
-      "1": "Dark Aura"
+      "1": "Pure Power"
     },
     "weightkg": 71.5,
     "prevo": "Spoink",
@@ -12532,12 +12533,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 50,
-      "atk": 51,
-      "def": 68,
-      "spe": 59,
-      "spa": 51,
-      "spd": 71
+      "hp": 55,
+      "atk": 61,
+      "def": 81,
+      "spe": 61,
+      "spa": 61,
+      "spd": 81
     },
     "abilities": {
       "0": "Dry Skin",
@@ -16072,12 +16073,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 65,
-      "atk": 45,
-      "def": 65,
-      "spe": 125,
-      "spa": 125,
-      "spd": 125
+      "hp": 60,
+      "atk": 50,
+      "def": 60,
+      "spe": 135,
+      "spa": 135,
+      "spd": 135
     },
     "abilities": {
       "0": "Levitate",
@@ -16085,7 +16086,7 @@
     },
     "weightkg": 4.4,
     "prevo": "Misdreavus",
-    "evoLevel": 32,
+    "evoLevel": 35,
     "evoType": "levelHold",
     "evoItem": "Psychic Gem",
     "eggGroups": [
@@ -17250,7 +17251,7 @@
     },
     "weightkg": 140.0,
     "prevo": "Lickitung",
-    "evoLevel": 33,
+    "evoLevel": 35,
     "evoType": "levelHold",
     "evoItem": "Normal Gem",
     "eggGroups": [
@@ -17271,9 +17272,9 @@
     "baseStats": {
       "hp": 115,
       "atk": 143,
-      "def": 145,
+      "def": 150,
       "spe": 32,
-      "spa": 45,
+      "spa": 40,
       "spd": 95
     },
     "abilities": {
@@ -17342,7 +17343,7 @@
     },
     "abilities": {
       "0": "Volt Rush",
-      "1": "Proficiency"
+      "1": "Electric Surge"
     },
     "weightkg": 138.6,
     "prevo": "Electabuzz",
@@ -17374,7 +17375,7 @@
     },
     "abilities": {
       "0": "Rapid Fire",
-      "1": "Solar Rush"
+      "1": "Drought"
     },
     "weightkg": 68.0,
     "prevo": "Magmar",
@@ -17998,8 +17999,8 @@
       "hp": 65,
       "atk": 40,
       "def": 130,
-      "spe": 95,
-      "spa": 90,
+      "spe": 100,
+      "spa": 105,
       "spd": 160
     },
     "abilities": {
@@ -18023,8 +18024,8 @@
       "hp": 65,
       "atk": 60,
       "def": 105,
-      "spe": 105,
-      "spa": 115,
+      "spe": 115,
+      "spa": 125,
       "spd": 130
     },
     "abilities": {
@@ -18048,8 +18049,8 @@
       "hp": 65,
       "atk": 80,
       "def": 80,
-      "spe": 115,
-      "spa": 140,
+      "spe": 130,
+      "spa": 145,
       "spd": 100
     },
     "abilities": {
@@ -20173,10 +20174,10 @@
     },
     "baseStats": {
       "hp": 65,
-      "atk": 102,
+      "atk": 107,
       "def": 65,
-      "spe": 113,
-      "spa": 90,
+      "spe": 118,
+      "spa": 95,
       "spd": 65
     },
     "abilities": {
@@ -20205,10 +20206,10 @@
     },
     "baseStats": {
       "hp": 65,
-      "atk": 102,
+      "atk": 107,
       "def": 65,
-      "spe": 113,
-      "spa": 90,
+      "spe": 118,
+      "spa": 95,
       "spd": 65
     },
     "abilities": {
@@ -20303,10 +20304,10 @@
     },
     "baseStats": {
       "hp": 105,
-      "atk": 128,
+      "atk": 138,
       "def": 95,
       "spe": 97,
-      "spa": 65,
+      "spa": 55,
       "spd": 85
     },
     "abilities": {
@@ -28378,14 +28379,14 @@
     "baseStats": {
       "hp": 65,
       "atk": 65,
-      "def": 150,
+      "def": 180,
       "spe": 5,
-      "spa": 65,
-      "spd": 150
+      "spa": 40,
+      "spd": 180
     },
     "abilities": {
       "0": "Oblivious",
-      "1": "Unaware"
+      "1": "Simple"
     },
     "weightkg": 1.2,
     "eggGroups": [
@@ -28410,7 +28411,8 @@
     },
     "abilities": {
       "0": "Filter",
-      "1": "Battle Armor"
+      "1": "Battle Armor",
+      "H": "Sturdy"
     },
     "weightkg": 120.5,
     "evos": [

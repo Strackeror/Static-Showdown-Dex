@@ -711,25 +711,29 @@
       }
     ]
   },
-  "sandattack": {
+  "sandsling": {
     "num": 28,
     "accuracy": 100,
-    "basePower": 10,
-    "category": "Special",
-    "name": "Sand Attack",
-    "pp": 15,
+    "basePower": 0,
+    "category": "Status",
+    "name": "Sand Sling",
+    "pp": 1,
     "priority": 4,
     "critRatio": 1,
     "type": "Ground",
     "target": "normal",
-    "desc": "Doesn't exist,",
-    "shortDesc": "Doesn't exist,",
+    "desc": "The user quickly slings sand into the target's eyes.\nThis ALWAYS flinches & inflicts Taunt on the opponent,\nblocking status moves for 3 turns. Z-Move +1 All.",
+    "shortDesc": "The user quickly slings sand into the target's eyes.\nThis ALWAYS flinches & inflicts Taunt on the opponent,\nblocking status moves for 3 turns. Z-Move +1 All.",
     "flags": {
       "mirror": 1,
       "protect": 1,
       "reflectable": 1
     },
     "secondaries": [
+      {
+        "chance": 100,
+        "volatileStatus": "11"
+      },
       {
         "chance": 100,
         "volatileStatus": "flinch"
@@ -2605,8 +2609,8 @@
     "critRatio": 1,
     "type": "Normal",
     "target": "self",
-    "desc": "The user moves so rapidly that it becomes nearly\ninvisible to the human eye, boosting the user's Speed\nstat by 3 stages. Z-Effect gives +2 crit rate.",
-    "shortDesc": "The user moves so rapidly that it becomes nearly\ninvisible to the human eye, boosting the user's Speed\nstat by 3 stages. Z-Effect gives +2 crit rate.",
+    "desc": "The user moves so rapidly that it becomes nearly\ninvisible to the human eye, boosting the user's Speed\nstat by 3 stages. Z-Effect gives +1 Attack.",
+    "shortDesc": "The user moves so rapidly that it becomes nearly\ninvisible to the human eye, boosting the user's Speed\nstat by 3 stages. Z-Effect gives +1 Attack.",
     "flags": {
       "dance": 1,
       "snatch": 1
@@ -4027,21 +4031,27 @@
     "basePower": 1,
     "category": "Physical",
     "name": "Super Fang",
-    "pp": 10,
-    "priority": 0,
+    "pp": 5,
+    "priority": 4,
     "critRatio": 1,
     "type": "Normal",
     "target": "normal",
-    "desc": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half. Contact.",
-    "shortDesc": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half. Contact.",
+    "desc": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half. Contact.\nThis has +4 Priority and ALWAYS flinches the foe.",
+    "shortDesc": "The user chomps hard on the target with its sharp\nfront fangs. This cuts the target’s HP in half. Contact.\nThis has +4 Priority and ALWAYS flinches the foe.",
     "flags": {
       "contact": 1,
       "mirror": 1,
       "protect": 1
     },
     "zMove": {
-      "basePower": 200
-    }
+      "basePower": 180
+    },
+    "secondaries": [
+      {
+        "chance": 100,
+        "volatileStatus": "flinch"
+      }
+    ]
   },
   "slash": {
     "num": 163,
@@ -5387,7 +5397,7 @@
   },
   "infernalparade": {
     "num": 221,
-    "accuracy": 70,
+    "accuracy": 80,
     "basePower": 130,
     "category": "Special",
     "name": "Infernal Parade",
@@ -7166,7 +7176,7 @@
   },
   "blazekick": {
     "num": 299,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 95,
     "category": "Physical",
     "name": "Blaze Kick",
@@ -7239,7 +7249,7 @@
   },
   "needlebash": {
     "num": 302,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 95,
     "category": "Physical",
     "name": "Needle Bash",
@@ -7411,7 +7421,7 @@
   },
   "meteormash": {
     "num": 309,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 95,
     "category": "Physical",
     "name": "Meteor Mash",
@@ -7467,7 +7477,7 @@
   "weatherball": {
     "num": 311,
     "accuracy": 100,
-    "basePower": 45,
+    "basePower": 50,
     "category": "Special",
     "name": "Weather Ball",
     "pp": 10,
@@ -7483,7 +7493,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 150
+      "basePower": 175
     },
     "secondaries": [
       {
@@ -7904,7 +7914,7 @@
   },
   "skyuppercut": {
     "num": 327,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Physical",
     "name": "Sky Uppercut",
@@ -8292,7 +8302,7 @@
   },
   "poisontail": {
     "num": 342,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 95,
     "category": "Physical",
     "name": "Poison Tail",
@@ -8721,7 +8731,7 @@
   },
   "hammerarm": {
     "num": 359,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 120,
     "category": "Physical",
     "name": "Hammer Arm",
@@ -9661,7 +9671,7 @@
   },
   "aquatail": {
     "num": 401,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Physical",
     "name": "Aqua Tail",
@@ -10397,7 +10407,7 @@
   },
   "zenheadbutt": {
     "num": 428,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Physical",
     "name": "Zen Headbutt",
@@ -12631,7 +12641,7 @@
   },
   "inferno": {
     "num": 517,
-    "accuracy": 70,
+    "accuracy": 80,
     "basePower": 130,
     "category": "Special",
     "name": "Inferno",
@@ -13231,7 +13241,7 @@
   },
   "nightdaze": {
     "num": 539,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Special",
     "name": "Night Daze",
@@ -13398,7 +13408,7 @@
   },
   "searingshot": {
     "num": 545,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Special",
     "name": "Searing Shot",
@@ -13420,7 +13430,7 @@
     },
     "secondaries": [
       {
-        "chance": 25,
+        "chance": 50,
         "status": "brn"
       }
     ]
@@ -13569,7 +13579,7 @@
   },
   "dragonfury": {
     "num": 551,
-    "accuracy": 70,
+    "accuracy": 80,
     "basePower": 130,
     "category": "Special",
     "name": "Dragon Fury",
@@ -13870,7 +13880,7 @@
     "category": "Status",
     "name": "Mat Block",
     "pp": 10,
-    "priority": 0,
+    "priority": 6,
     "critRatio": 1,
     "type": "Fighting",
     "target": "normal",
@@ -14137,7 +14147,7 @@
   },
   "petalblizzard": {
     "num": 572,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Special",
     "name": "Petal Blizzard",
@@ -14369,8 +14379,8 @@
     "critRatio": 1,
     "type": "Grass",
     "target": "normal",
-    "desc": "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
-    "shortDesc": "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    "desc": "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    "shortDesc": "The user changes the terrain to Grassy Terrain for\n5 turns. Z-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
     "flags": {}
   },
   "mistyterrain": {
@@ -14467,7 +14477,7 @@
   },
   "moonblast": {
     "num": 585,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Special",
     "name": "Moonblast",
@@ -14985,8 +14995,8 @@
     "critRatio": 1,
     "type": "Electric",
     "target": "normal",
-    "desc": "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
-    "shortDesc": "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Sp. Def.\nTHIS HAS +4 PRIORITY.",
+    "desc": "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
+    "shortDesc": "The user changes the terrain to Electric Terrain for\n5 turns. Z-Effect +2 Defense.\nTHIS HAS +4 PRIORITY.",
     "flags": {}
   },
   "dazzlinggleam": {
@@ -15362,7 +15372,7 @@
   },
   "torrentialpulse": {
     "num": 618,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Special",
     "name": "Torrential Pulse",
@@ -15877,7 +15887,7 @@
   },
   "bubbleburst": {
     "num": 664,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Special",
     "name": "Bubble Burst",
@@ -16149,7 +16159,7 @@
   },
   "hellthrust": {
     "num": 675,
-    "accuracy": 95,
+    "accuracy": 100,
     "basePower": 100,
     "category": "Physical",
     "name": "Hell Thrust",
@@ -17345,7 +17355,7 @@
   },
   "plasmashot": {
     "num": 721,
-    "accuracy": 70,
+    "accuracy": 80,
     "basePower": 130,
     "category": "Special",
     "name": "Plasma Shot",
