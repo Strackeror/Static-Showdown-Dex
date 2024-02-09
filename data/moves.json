@@ -511,7 +511,7 @@
   "whiplash": {
     "num": 21,
     "accuracy": 100,
-    "basePower": 85,
+    "basePower": 90,
     "category": "Physical",
     "name": "Whiplash",
     "pp": 10,
@@ -527,7 +527,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 170
+      "basePower": 180
     },
     "secondaries": [
       {
@@ -541,7 +541,7 @@
   "vinelashes": {
     "num": 22,
     "accuracy": 100,
-    "basePower": 35,
+    "basePower": 40,
     "category": "Physical",
     "name": "Vine Lashes",
     "pp": 10,
@@ -558,7 +558,7 @@
     },
     "multihit": 2,
     "zMove": {
-      "basePower": 120
+      "basePower": 160
     },
     "secondaries": [
       {
@@ -659,7 +659,7 @@
   "highjumpkick": {
     "num": 26,
     "accuracy": 90,
-    "basePower": 130,
+    "basePower": 140,
     "category": "Physical",
     "name": "High Jump Kick",
     "pp": 10,
@@ -954,7 +954,7 @@
   },
   "kerfuffle": {
     "num": 37,
-    "accuracy": 100,
+    "accuracy": true,
     "basePower": 120,
     "category": "Physical",
     "name": "Kerfuffle",
@@ -1633,25 +1633,22 @@
     "basePower": 25,
     "category": "Physical",
     "name": "Fury Pecks",
-    "pp": 15,
+    "pp": 3,
     "priority": 0,
-    "critRatio": 1,
+    "critRatio": 7,
     "type": "Flying",
     "target": "normal",
-    "desc": "The target is jabbed rapidly with a pointed beak,\nhorn, or the like. This hits 2-5 times in succession.\nContact.",
-    "shortDesc": "The target is jabbed rapidly with a pointed beak,\nhorn, or the like. This hits 2-5 times in succession.\nContact.",
+    "desc": "The foe is violently pecked at with great force.\nThis hits 3 times and ALWAYS crits. Contact.\nBypasses protect.",
+    "shortDesc": "The foe is violently pecked at with great force.\nThis hits 3 times and ALWAYS crits. Contact.\nBypasses protect.",
     "flags": {
       "contact": 1,
       "heal": 1,
-      "mirror": 1,
-      "protect": 1
+      "mirror": 1
     },
-    "multihit": [
-      2,
-      5
-    ],
+    "willCrit": true,
+    "multihit": 3,
     "zMove": {
-      "basePower": 140
+      "basePower": 190
     }
   },
   "drillpeck": {
@@ -2421,8 +2418,8 @@
     "critRatio": 1,
     "type": "Psychic",
     "target": "self",
-    "desc": "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect heals the user fully.",
-    "shortDesc": "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect heals the user fully.",
+    "desc": "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect gives +3 Speed.",
+    "shortDesc": "The user meditates to awaken the power deep\nwithin its body and raise its Attack and Sp. Def by 1.\nZ-Effect gives +3 Speed.",
     "flags": {
       "dance": 1,
       "snatch": 1
@@ -3398,7 +3395,7 @@
   "divebomb": {
     "num": 136,
     "accuracy": 90,
-    "basePower": 130,
+    "basePower": 140,
     "category": "Physical",
     "name": "Divebomb",
     "pp": 5,
@@ -4031,7 +4028,7 @@
     "basePower": 1,
     "category": "Physical",
     "name": "Super Fang",
-    "pp": 5,
+    "pp": 1,
     "priority": 4,
     "critRatio": 1,
     "type": "Normal",
@@ -4609,7 +4606,7 @@
     "basePower": 0,
     "category": "Status",
     "name": "Charming Kiss",
-    "pp": 1,
+    "pp": 2,
     "priority": 0,
     "critRatio": 1,
     "type": "Fairy",
@@ -4923,7 +4920,7 @@
   },
   "outrage": {
     "num": 200,
-    "accuracy": 100,
+    "accuracy": true,
     "basePower": 130,
     "category": "Physical",
     "name": "Outrage",
@@ -5318,8 +5315,8 @@
     "critRatio": 1,
     "type": "Normal",
     "target": "normal",
-    "desc": "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
-    "shortDesc": "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 200 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
+    "desc": "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 250 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
+    "shortDesc": "Delibird gives the foe a gift that can deal damage, or\nheal them. With NORMALIUM-Z, this becomes 250 BP, and\ngives you +2 to ALL stats BEFORE using TWINKLE TACKLE.",
     "flags": {
       "mirror": 1,
       "protect": 1
@@ -5567,7 +5564,7 @@
   },
   "pursuit": {
     "num": 228,
-    "accuracy": 100,
+    "accuracy": true,
     "basePower": 50,
     "category": "Physical",
     "name": "Pursuit",
@@ -5576,8 +5573,8 @@
     "critRatio": 7,
     "type": "Dark",
     "target": "normal",
-    "desc": "The user strikes the target violently. The power of\nthe move doubles if target attempts to switch out.\nThis ALWAYS results in a critical hit. Contact.",
-    "shortDesc": "The user strikes the target violently. The power of\nthe move doubles if target attempts to switch out.\nThis ALWAYS results in a critical hit. Contact.",
+    "desc": "The user strikes the target violently. The power of\nthe move doubles if target attempts to switch out.\nALWAYS results in a critical hit, can't miss, contact.",
+    "shortDesc": "The user strikes the target violently. The power of\nthe move doubles if target attempts to switch out.\nALWAYS results in a critical hit, can't miss, contact.",
     "flags": {
       "contact": 1,
       "mirror": 1,
@@ -6067,10 +6064,10 @@
   "boulderbash": {
     "num": 249,
     "accuracy": 100,
-    "basePower": 85,
+    "basePower": 90,
     "category": "Physical",
     "name": "Boulder Bash",
-    "pp": 15,
+    "pp": 10,
     "priority": 0,
     "critRatio": 1,
     "type": "Rock",
@@ -6083,7 +6080,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 170
+      "basePower": 180
     },
     "secondaries": [
       {
@@ -7914,7 +7911,7 @@
   },
   "skyuppercut": {
     "num": 327,
-    "accuracy": 100,
+    "accuracy": 95,
     "basePower": 100,
     "category": "Physical",
     "name": "Sky Uppercut",
@@ -8068,30 +8065,27 @@
       "basePower": 110
     }
   },
-  "iciclespear": {
+  "glacialbarrage": {
     "num": 333,
     "accuracy": 100,
     "basePower": 25,
     "category": "Physical",
-    "name": "Icicle Spear",
-    "pp": 15,
+    "name": "Glacial Barrage",
+    "pp": 3,
     "priority": 0,
-    "critRatio": 1,
+    "critRatio": 7,
     "type": "Ice",
     "target": "normal",
-    "desc": "The user launches sharp icicles at the target two to\nfive times in a row.",
-    "shortDesc": "The user launches sharp icicles at the target two to\nfive times in a row.",
+    "desc": "The user fires 3 icicles at the target's critical\nweak points with great force. This hits 3 times, and\nALWAYS results in a critical hit, ignores protect.",
+    "shortDesc": "The user fires 3 icicles at the target's critical\nweak points with great force. This hits 3 times, and\nALWAYS results in a critical hit, ignores protect.",
     "flags": {
       "heal": 1,
-      "mirror": 1,
-      "protect": 1
+      "mirror": 1
     },
-    "multihit": [
-      2,
-      5
-    ],
+    "willCrit": true,
+    "multihit": 3,
     "zMove": {
-      "basePower": 140
+      "basePower": 190
     }
   },
   "irondefense": {
@@ -10436,7 +10430,7 @@
   "mirrorshot": {
     "num": 429,
     "accuracy": 100,
-    "basePower": 80,
+    "basePower": 95,
     "category": "Special",
     "name": "Mirror Shot",
     "pp": 15,
@@ -10451,7 +10445,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 160
+      "basePower": 175
     },
     "secondaries": [
       {
@@ -10466,23 +10460,27 @@
   },
   "flashcannon": {
     "num": 430,
-    "accuracy": 90,
-    "basePower": 110,
+    "accuracy": 100,
+    "basePower": 125,
     "category": "Special",
     "name": "Flash Cannon",
-    "pp": 5,
+    "pp": 10,
     "priority": 0,
     "critRatio": 1,
     "type": "Steel",
     "target": "normal",
-    "desc": "The user gathers all its light energy and releases it\nall at once. This drops Sp. Def 50% of the time.",
-    "shortDesc": "The user gathers all its light energy and releases it\nall at once. This drops Sp. Def 50% of the time.",
+    "desc": "The user gathers all its light energy and releases it\nall at once. This drops Sp. Def 50% of the time.\nThis deals 25% recoil damage to user.",
+    "shortDesc": "The user gathers all its light energy and releases it\nall at once. This drops Sp. Def 50% of the time.\nThis deals 25% recoil damage to user.",
     "flags": {
       "mirror": 1,
       "protect": 1
     },
+    "recoil": [
+      1,
+      4
+    ],
     "zMove": {
-      "basePower": 185
+      "basePower": 195
     },
     "secondaries": [
       {
@@ -10759,7 +10757,7 @@
   "gunkshot": {
     "num": 441,
     "accuracy": 90,
-    "basePower": 110,
+    "basePower": 120,
     "category": "Physical",
     "name": "Gunk Shot",
     "pp": 5,
@@ -10774,7 +10772,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 185
+      "basePower": 190
     },
     "secondaries": [
       {
@@ -10835,11 +10833,11 @@
   },
   "stoneedge": {
     "num": 444,
-    "accuracy": 90,
+    "accuracy": 100,
     "basePower": 80,
     "category": "Physical",
     "name": "Stone Edge",
-    "pp": 5,
+    "pp": 3,
     "priority": 0,
     "critRatio": 7,
     "type": "Rock",
@@ -12428,8 +12426,8 @@
     "critRatio": 1,
     "type": "Flying",
     "target": "normal",
-    "desc": "The user takes the target into the sky, then drops it\nnext turn. The foe can't attack while in the sky.\nFails if the foe is too heavy. Can't miss. Contact.",
-    "shortDesc": "The user takes the target into the sky, then drops it\nnext turn. The foe can't attack while in the sky.\nFails if the foe is too heavy. Can't miss. Contact.",
+    "desc": "The user takes the target into the sky, then drops it\nnext turn. The foe can't attack while in the sky.\nFails if too heavy. Can't miss. Contact. 30% Flinch.",
+    "shortDesc": "The user takes the target into the sky, then drops it\nnext turn. The foe can't attack while in the sky.\nFails if too heavy. Can't miss. Contact. 30% Flinch.",
     "flags": {
       "charge": 1,
       "contact": 1,
@@ -12439,7 +12437,13 @@
     },
     "zMove": {
       "basePower": 175
-    }
+    },
+    "secondaries": [
+      {
+        "chance": 30,
+        "volatileStatus": "flinch"
+      }
+    ]
   },
   "shiftgear": {
     "num": 508,
@@ -13180,7 +13184,7 @@
   "steamroller": {
     "num": 537,
     "accuracy": 100,
-    "basePower": 100,
+    "basePower": 130,
     "category": "Physical",
     "name": "Steamroller",
     "pp": 5,
@@ -13188,15 +13192,15 @@
     "critRatio": 1,
     "type": "Bug",
     "target": "normal",
-    "desc": "The user crushes its target by rolling over the target\nwith its rolled-up body. This flinches 30% of the\ntime and boosts Speed by one 100% of the time.",
-    "shortDesc": "The user crushes its target by rolling over the target\nwith its rolled-up body. This flinches 30% of the\ntime and boosts Speed by one 100% of the time.",
+    "desc": "The user crushes its target by rolling over the target\nwith its rolled-up body. This flinches 30% of the\ntime and boosts Speed by TWO 100% of the time.",
+    "shortDesc": "The user crushes its target by rolling over the target\nwith its rolled-up body. This flinches 30% of the\ntime and boosts Speed by TWO 100% of the time.",
     "flags": {
       "contact": 1,
       "mirror": 1,
       "protect": 1
     },
     "zMove": {
-      "basePower": 180
+      "basePower": 200
     },
     "secondaries": [
       {
@@ -13207,7 +13211,7 @@
         "chance": 100,
         "self": {
           "boosts": {
-            "spe": 1
+            "spe": 2
           }
         }
       }
@@ -15038,7 +15042,7 @@
     "category": "Status",
     "name": "Celebrate",
     "pp": 40,
-    "priority": 0,
+    "priority": 4,
     "critRatio": 1,
     "type": "Normal",
     "target": "self",
@@ -15347,8 +15351,8 @@
     "critRatio": 1,
     "type": "Fairy",
     "target": "normal",
-    "desc": "The user unleashes a perilous beam fueled by its own\nlife force. This deals 25% recoil, and has a 30%\nchance to drop the foe's Sp. Def stat after use.",
-    "shortDesc": "The user unleashes a perilous beam fueled by its own\nlife force. This deals 25% recoil, and has a 30%\nchance to drop the foe's Sp. Def stat after use.",
+    "desc": "The user unleashes a perilous beam fueled by its own\nlife force. This deals 25% recoil, and has a 50%\nchance to drop the foe's Sp. Def stat after use.",
+    "shortDesc": "The user unleashes a perilous beam fueled by its own\nlife force. This deals 25% recoil, and has a 50%\nchance to drop the foe's Sp. Def stat after use.",
     "flags": {
       "mirror": 1,
       "protect": 1,
@@ -15363,7 +15367,7 @@
     },
     "secondaries": [
       {
-        "chance": 30,
+        "chance": 50,
         "boosts": {
           "spd": -1
         }
@@ -16263,7 +16267,7 @@
   "lunge": {
     "num": 679,
     "accuracy": 100,
-    "basePower": 85,
+    "basePower": 90,
     "category": "Physical",
     "name": "Lunge",
     "pp": 10,
@@ -16279,7 +16283,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 170
+      "basePower": 180
     },
     "secondaries": [
       {
@@ -16293,7 +16297,7 @@
   "firelash": {
     "num": 680,
     "accuracy": 100,
-    "basePower": 85,
+    "basePower": 90,
     "category": "Physical",
     "name": "Fire Lash",
     "pp": 10,
@@ -16310,7 +16314,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 170
+      "basePower": 180
     },
     "secondaries": [
       {
@@ -16516,7 +16520,7 @@
   "tropkick": {
     "num": 688,
     "accuracy": 100,
-    "basePower": 70,
+    "basePower": 90,
     "category": "Physical",
     "name": "Trop Kick",
     "pp": 10,
@@ -16532,7 +16536,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 140
+      "basePower": 175
     },
     "secondaries": [
       {
@@ -16575,15 +16579,16 @@
     "name": "Beak Blast",
     "pp": 10,
     "priority": -4,
-    "critRatio": 1,
+    "critRatio": 7,
     "type": "Flying",
     "target": "normal",
-    "desc": "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it.\nThis leaves the target with a burn 100% of the time.",
-    "shortDesc": "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it.\nThis leaves the target with a burn 100% of the time.",
+    "desc": "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it,\nas well as the target. This ALWAYS crits as well.",
+    "shortDesc": "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it,\nas well as the target. This ALWAYS crits as well.",
     "flags": {
       "defrost": 1,
       "protect": 1
     },
+    "willCrit": true,
     "zMove": {
       "basePower": 250
     },
@@ -16885,7 +16890,7 @@
   "shelltrap": {
     "num": 704,
     "accuracy": 100,
-    "basePower": 200,
+    "basePower": 250,
     "category": "Special",
     "name": "Shell Trap",
     "pp": 5,
@@ -16987,7 +16992,7 @@
     "category": "Physical",
     "name": "Shadow Bone",
     "pp": 1,
-    "priority": 0,
+    "priority": 4,
     "critRatio": 1,
     "type": "Ghost",
     "target": "normal",
@@ -17328,7 +17333,7 @@
   "mindblown": {
     "num": 720,
     "accuracy": 100,
-    "basePower": 150,
+    "basePower": 200,
     "category": "Special",
     "name": "Mind Blown",
     "pp": 2,
@@ -17344,7 +17349,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 210
+      "basePower": 250
     },
     "secondaries": [
       {

@@ -338,14 +338,14 @@
   "interstellar": {
     "name": "Interstellar",
     "num": 57,
-    "desc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the Plus or Minus Ability is also in battle.",
-    "shortDesc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the Plus or Minus Ability is also in battle."
+    "desc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the same ability is also in battle.",
+    "shortDesc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the same ability is also in battle."
   },
   "evoboost": {
     "name": "Evoboost",
     "num": 58,
-    "desc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the Plus or Minus Ability is also in battle.",
-    "shortDesc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the Plus or Minus Ability is also in battle."
+    "desc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the same ability is also in battle.",
+    "shortDesc": "Boosts the Sp. Atk stat of the Pokemon if an ally\nwith the same ability is also in battle."
   },
   "forecast": {
     "name": "Forecast",
@@ -884,8 +884,8 @@
   "analytic": {
     "name": "Analytic",
     "num": 148,
-    "desc": "Boosts move power when the Pokemon moves last.",
-    "shortDesc": "Boosts move power when the Pokemon moves last."
+    "desc": "Boosts move power by 30% when the Pokemon moves last.",
+    "shortDesc": "Boosts move power by 30% when the Pokemon moves last."
   },
   "illusion": {
     "name": "Illusion",
@@ -908,8 +908,8 @@
   "gastroacid": {
     "name": "Gastro Acid",
     "num": 152,
-    "desc": "Contact with the Pokemon changes the attacker’s\nAbility to Debug.",
-    "shortDesc": "Contact with the Pokemon changes the attacker’s\nAbility to Debug."
+    "desc": "Contact with the Pokemon changes the attacker’s\nAbility to Gastro Acid.",
+    "shortDesc": "Contact with the Pokemon changes the attacker’s\nAbility to Gastro Acid."
   },
   "moxie": {
     "name": "Moxie",
@@ -944,14 +944,14 @@
   "prankster": {
     "name": "Prankster",
     "num": 158,
-    "desc": "Gives priority to a status move.",
-    "shortDesc": "Gives priority to a status move."
+    "desc": "Gives +1 priority to a status move.",
+    "shortDesc": "Gives +1 priority to a status move."
   },
   "sandforce": {
     "name": "Sand Force",
     "num": 159,
-    "desc": "Boosts the power of Rock-, Ground-, and Steel-type\nmoves in a sandstorm.",
-    "shortDesc": "Boosts the power of Rock-, Ground-, and Steel-type\nmoves in a sandstorm."
+    "desc": "Boosts the power of Rock-, Ground-, and Steel-type\nmoves in a sandstorm by 30%.",
+    "shortDesc": "Boosts the power of Rock-, Ground-, and Steel-type\nmoves in a sandstorm by 30%."
   },
   "ironbarbs": {
     "name": "Iron Barbs",
@@ -1022,8 +1022,8 @@
   "bulletproof": {
     "name": "Bulletproof",
     "num": 171,
-    "desc": "Protects the Pokemon from some ball and\nbomb moves.",
-    "shortDesc": "Protects the Pokemon from some ball and\nbomb moves."
+    "desc": "Protects the Pokemon from some ball and\nbomb moves. Full list on DoozDex.",
+    "shortDesc": "Protects the Pokemon from some ball and\nbomb moves. Full list on DoozDex."
   },
   "competitive": {
     "name": "Competitive",
@@ -1034,14 +1034,14 @@
   "strongjaw": {
     "name": "Strong Jaw",
     "num": 173,
-    "desc": "The Pokemon’s strong jaw boosts the power of its\nbiting moves.",
-    "shortDesc": "The Pokemon’s strong jaw boosts the power of its\nbiting moves."
+    "desc": "The Pokemon’s strong jaw boosts the power of its\nbiting moves by 50%.",
+    "shortDesc": "The Pokemon’s strong jaw boosts the power of its\nbiting moves by 50%."
   },
   "refrigerate": {
     "name": "Refrigerate",
     "num": 174,
-    "desc": "Normal-type moves become Ice-type moves.\nThe power of those moves is boosted a little.",
-    "shortDesc": "Normal-type moves become Ice-type moves.\nThe power of those moves is boosted a little."
+    "desc": "Normal-type moves become Ice-type moves.\nThe power of those moves is boosted by 20%.",
+    "shortDesc": "Normal-type moves become Ice-type moves.\nThe power of those moves is boosted by 20%."
   },
   "sweetveil": {
     "name": "Sweet Veil",
@@ -1064,8 +1064,8 @@
   "megalauncher": {
     "name": "Mega Launcher",
     "num": 178,
-    "desc": "Powers up aura and pulse moves.",
-    "shortDesc": "Powers up aura and pulse moves."
+    "desc": "Powers up aura and pulse moves by 50%.",
+    "shortDesc": "Powers up aura and pulse moves by 50%."
   },
   "grassyguard": {
     "name": "Grassy Guard",

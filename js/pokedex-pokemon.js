@@ -274,6 +274,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 			if (template.evos) {
 				buf += '<table class="evos"><tr><td>';
 				var evos = [template];
+				let evoCount = 0;
 				while (evos.length > 0) {
 					var nextEvos = [];
 					for (var i=0; i<evos.length; i++) {
@@ -288,6 +289,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 						nextEvos = nextEvos.concat(template.evos ?? [])
 					}
 					evos = nextEvos.map((id) => getID(BattlePokedex, id));
+					if (evoCount++ > 100) break;
 					if (evos.length > 0)
 						buf += '</td><td class="arrow"><span>&rarr;</span></td><td>';
 				}

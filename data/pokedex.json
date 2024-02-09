@@ -497,10 +497,10 @@
     "baseStats": {
       "hp": 50,
       "atk": 40,
-      "def": 85,
+      "def": 95,
       "spe": 30,
       "spa": 55,
-      "spd": 70
+      "spd": 80
     },
     "abilities": {
       "0": "Sturdy",
@@ -536,7 +536,7 @@
       "spd": 100
     },
     "abilities": {
-      "0": "Tinted Lens",
+      "0": "Unburden",
       "1": "Prankster"
     },
     "weightkg": 32.0,
@@ -623,9 +623,9 @@
     },
     "baseStats": {
       "hp": 65,
-      "atk": 119,
+      "atk": 120,
       "def": 65,
-      "spe": 121,
+      "spe": 120,
       "spa": 45,
       "spd": 65
     },
@@ -1457,7 +1457,8 @@
     },
     "abilities": {
       "0": "Multiscale",
-      "1": "Intimidate"
+      "1": "Intimidate",
+      "H": "Queenly Majesty"
     },
     "weightkg": 60.0,
     "prevo": "Nidorina",
@@ -1714,7 +1715,8 @@
     },
     "abilities": {
       "0": "Drought",
-      "1": "Serene Grace"
+      "1": "Serene Grace",
+      "H": "Magic Guard"
     },
     "weightkg": 19.9,
     "prevo": "Vulpix",
@@ -1748,7 +1750,8 @@
     },
     "abilities": {
       "0": "Snow Warning",
-      "1": "Serene Grace"
+      "1": "Serene Grace",
+      "H": "Magic Guard"
     },
     "weightkg": 19.9,
     "prevo": "Vulpix-Alola",
@@ -2066,14 +2069,15 @@
     "baseStats": {
       "hp": 60,
       "atk": 40,
-      "def": 50,
+      "def": 60,
       "spe": 66,
       "spa": 82,
-      "spd": 72
+      "spd": 92
     },
     "abilities": {
       "0": "Fluffy",
-      "1": "Tinted Lens"
+      "1": "Wimp Out",
+      "H": "Tinted Lens"
     },
     "weightkg": 30.0,
     "evos": [
@@ -2100,15 +2104,18 @@
       "def": 65,
       "spe": 111,
       "spa": 117,
-      "spd": 87
+      "spd": 97
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Tinted Lens"
+      "1": "Multiscale",
+      "H": "Tinted Lens"
     },
     "weightkg": 12.5,
     "prevo": "Venonat",
     "evoLevel": 25,
+    "evoType": "levelHold",
+    "evoItem": "Bug Gem",
     "eggGroups": [
       "Bug"
     ]
@@ -2540,7 +2547,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Refrigerate"
+      "1": "Refrigerate",
+      "H": "Flash Fire"
     },
     "weightkg": 19.0,
     "evos": [
@@ -2571,7 +2579,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Refrigerate"
+      "1": "Refrigerate",
+      "H": "Flash Fire"
     },
     "weightkg": 155.0,
     "prevo": "Growlithe",
@@ -3331,7 +3340,8 @@
     },
     "abilities": {
       "0": "Reckless",
-      "1": "Speed Boost"
+      "1": "Speed Boost",
+      "H": "Guts"
     },
     "weightkg": 95.0,
     "prevo": "Ponyta",
@@ -3589,7 +3599,7 @@
     },
     "abilities": {
       "0": "Reckless",
-      "1": "Defiant"
+      "1": "Moxie"
     },
     "weightkg": 85.2,
     "prevo": "Doduo",
@@ -3681,7 +3691,8 @@
     },
     "abilities": {
       "0": "Water Absorb",
-      "1": "Regenerator"
+      "1": "Regenerator",
+      "H": "Corrosion"
     },
     "weightkg": 30.0,
     "evos": [
@@ -3752,7 +3763,8 @@
     },
     "abilities": {
       "0": "Water Absorb",
-      "1": "Regenerator"
+      "1": "Regenerator",
+      "H": "Corrosion"
     },
     "weightkg": 30.0,
     "prevo": "Grimer",
@@ -3812,12 +3824,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 50,
+      "hp": 55,
       "atk": 60,
-      "def": 110,
+      "def": 120,
       "spe": 50,
       "spa": 30,
-      "spd": 50
+      "spd": 55
     },
     "abilities": {
       "0": "Sturdy",
@@ -4256,7 +4268,8 @@
     },
     "abilities": {
       "0": "Solar Rush",
-      "1": "Harvest"
+      "1": "Harvest",
+      "H": "Grassy Guard"
     },
     "weightkg": 120.0,
     "prevo": "Exeggcute",
@@ -4292,7 +4305,8 @@
     },
     "abilities": {
       "0": "Solar Rush",
-      "1": "Headstrong"
+      "1": "Headstrong",
+      "H": "Grassy Guard"
     },
     "weightkg": 415.6,
     "prevo": "Exeggcute",
@@ -4328,8 +4342,8 @@
       "spd": 60
     },
     "abilities": {
-      "0": "Wimp Out",
-      "1": "Technician"
+      "0": "Technician",
+      "1": "Wimp Out"
     },
     "weightkg": 6.5,
     "evos": [
@@ -4652,7 +4666,7 @@
       "spd": 70
     },
     "abilities": {
-      "0": "Hustle",
+      "0": "Sheer Force",
       "1": "Battle Armor"
     },
     "weightkg": 120.0,
@@ -5052,7 +5066,8 @@
     },
     "abilities": {
       "0": "Serene Grace",
-      "1": "Dry Skin"
+      "1": "Dry Skin",
+      "H": "Magic Guard"
     },
     "weightkg": 40.6,
     "prevo": "Smoochum",
@@ -5146,7 +5161,8 @@
     },
     "abilities": {
       "0": "Moxie",
-      "1": "Hustle"
+      "1": "Hustle",
+      "H": "Mold Breaker"
     },
     "weightkg": 55.0,
     "eggGroups": [
@@ -5337,10 +5353,10 @@
     },
     "baseStats": {
       "hp": 130,
-      "atk": 85,
-      "def": 100,
+      "atk": 60,
+      "def": 115,
       "spe": 50,
-      "spa": 95,
+      "spa": 105,
       "spd": 115
     },
     "abilities": {
@@ -5757,7 +5773,7 @@
     "abilities": {
       "0": "Metabolism",
       "1": "Comatose",
-      "H": "Poison Heal"
+      "H": "Unaware"
     },
     "weightkg": 460.0,
     "prevo": "Munchlax",
@@ -5784,7 +5800,8 @@
     },
     "abilities": {
       "0": "Guarding Gale",
-      "1": "Snow Warning"
+      "1": "Snow Warning",
+      "H": "Dazzling"
     },
     "weightkg": 55.4,
     "eggGroups": [
@@ -5809,7 +5826,8 @@
     },
     "abilities": {
       "0": "Guarding Gale",
-      "1": "Volt Absorb"
+      "1": "Volt Absorb",
+      "H": "Dazzling"
     },
     "weightkg": 52.6,
     "eggGroups": [
@@ -5834,7 +5852,8 @@
     },
     "abilities": {
       "0": "Guarding Gale",
-      "1": "Solar Power"
+      "1": "Solar Power",
+      "H": "Dazzling"
     },
     "weightkg": 60.0,
     "eggGroups": [
@@ -5892,7 +5911,8 @@
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Drizzle"
+      "1": "Drizzle",
+      "H": "Marvel Scale"
     },
     "weightkg": 16.5,
     "prevo": "Dratini",
@@ -5926,7 +5946,8 @@
     },
     "abilities": {
       "0": "Aerilate",
-      "1": "Drizzle"
+      "1": "Drizzle",
+      "H": "Multiscale"
     },
     "weightkg": 210.0,
     "prevo": "Dragonair",
@@ -6103,8 +6124,8 @@
     },
     "baseStats": {
       "hp": 67,
-      "atk": 67,
-      "def": 80,
+      "atk": 62,
+      "def": 85,
       "spe": 53,
       "spa": 78,
       "spd": 90
@@ -6136,16 +6157,17 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 112,
-      "atk": 82,
+      "hp": 117,
+      "atk": 67,
       "def": 100,
       "spe": 48,
       "spa": 93,
-      "spd": 115
+      "spd": 125
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Harvest"
+      "1": "Harvest",
+      "H": "Grassy Guard"
     },
     "weightkg": 100.5,
     "prevo": "Bayleef",
@@ -6547,7 +6569,8 @@
     },
     "abilities": {
       "0": "Unnerve",
-      "1": "Merciless"
+      "1": "Merciless",
+      "H": "Toxic Boost"
     },
     "weightkg": 8.5,
     "evos": [
@@ -6578,7 +6601,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Ruthless"
+      "1": "Ruthless",
+      "H": "Toxic Boost"
     },
     "weightkg": 33.5,
     "prevo": "Spinarak",
@@ -6632,15 +6656,15 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 55,
+      "hp": 65,
       "atk": 38,
-      "def": 55,
+      "def": 65,
       "spe": 42,
-      "spa": 85,
-      "spd": 95
+      "spa": 95,
+      "spd": 115
     },
     "abilities": {
-      "0": "Swift Swim",
+      "0": "Dazzling",
       "1": "Lightning Rod"
     },
     "weightkg": 12.0,
@@ -6663,8 +6687,8 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 80,
-      "atk": 58,
+      "hp": 100,
+      "atk": 48,
       "def": 80,
       "spe": 67,
       "spa": 115,
@@ -6672,11 +6696,14 @@
     },
     "abilities": {
       "0": "Swift Swim",
-      "1": "Lightning Rod"
+      "1": "Lightning Rod",
+      "H": "Dazzling"
     },
     "weightkg": 22.5,
     "prevo": "Chinchou",
-    "evoLevel": 30,
+    "evoLevel": 29,
+    "evoType": "levelHold",
+    "evoItem": "Electric Gem",
     "eggGroups": [
       "Water 2"
     ]
@@ -6982,7 +7009,8 @@
     },
     "abilities": {
       "0": "Dazzling",
-      "1": "Lightning Rod"
+      "1": "Lightning Rod",
+      "H": "Unaware"
     },
     "weightkg": 61.5,
     "prevo": "Flaaffy",
@@ -7394,10 +7422,10 @@
     },
     "baseStats": {
       "hp": 49,
-      "atk": 65,
+      "atk": 66,
       "def": 49,
-      "spe": 129,
-      "spa": 99,
+      "spe": 126,
+      "spa": 96,
       "spd": 49
     },
     "abilities": {
@@ -7644,12 +7672,12 @@
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 1,
-      "atk": 54,
-      "def": 1,
+      "hp": 2,
+      "atk": 51,
+      "def": 2,
       "spe": 72,
       "spa": 72,
-      "spd": 1
+      "spd": 2
     },
     "abilities": {
       "0": "Wonder Guard"
@@ -7762,10 +7790,10 @@
     },
     "baseStats": {
       "hp": 75,
-      "atk": 90,
+      "atk": 100,
       "def": 140,
-      "spe": 40,
-      "spa": 90,
+      "spe": 20,
+      "spa": 100,
       "spd": 100
     },
     "abilities": {
@@ -7888,11 +7916,11 @@
     },
     "baseStats": {
       "hp": 130,
-      "atk": 150,
+      "atk": 160,
       "def": 200,
-      "spe": 30,
-      "spa": 40,
-      "spd": 150
+      "spe": 20,
+      "spa": 30,
+      "spd": 160
     },
     "abilities": {
       "0": "Sand Force",
@@ -7923,12 +7951,12 @@
       "F": 0.75
     },
     "baseStats": {
-      "hp": 60,
+      "hp": 65,
       "atk": 80,
-      "def": 60,
-      "spe": 50,
+      "def": 65,
+      "spe": 55,
       "spa": 40,
-      "spd": 60
+      "spd": 65
     },
     "abilities": {
       "0": "Strong Jaw",
@@ -7964,7 +7992,7 @@
       "spd": 80
     },
     "abilities": {
-      "0": "Strong Jaw",
+      "0": "Sheer Force",
       "1": "Intimidate",
       "H": "Quick Feet"
     },
@@ -8099,7 +8127,8 @@
     },
     "abilities": {
       "0": "Simple",
-      "1": "Shell Armor"
+      "1": "Shell Armor",
+      "H": "Oblivious"
     },
     "weightkg": 20.5,
     "eggGroups": [
@@ -8314,8 +8343,8 @@
       "atk": 50,
       "def": 120,
       "spe": 30,
-      "spa": 115,
-      "spd": 115
+      "spa": 135,
+      "spd": 120
     },
     "abilities": {
       "0": "Sweltering Sun",
@@ -8380,7 +8409,8 @@
     },
     "abilities": {
       "0": "Refrigerate",
-      "1": "Resilient"
+      "1": "Resilient",
+      "H": "Unaware"
     },
     "weightkg": 55.8,
     "prevo": "Swinub",
@@ -8502,7 +8532,7 @@
       "spd": 85
     },
     "abilities": {
-      "0": "Hustle",
+      "0": "Pixilate",
       "1": "Technician"
     },
     "weightkg": 16.0,
@@ -8532,7 +8562,8 @@
     },
     "abilities": {
       "0": "Swift Swim",
-      "1": "Guarding Gale"
+      "1": "Guarding Gale",
+      "H": "Water Absorb"
     },
     "weightkg": 220.0,
     "prevo": "Mantyke",
@@ -8785,9 +8816,9 @@
     },
     "weightkg": 32.5,
     "prevo": "Porygon",
-    "evoLevel": 40,
-    "evoType": "levelHold",
+    "evoType": "other",
     "evoItem": "Hotfix",
+    "evoCondition": "level 35) or Porygon-Z (level-up holding Hotfix at level 40",
     "evos": [
       "Porygon-Z"
     ],
@@ -9065,7 +9096,8 @@
     },
     "abilities": {
       "0": "Drizzle",
-      "1": "Strong Jaw"
+      "1": "Strong Jaw",
+      "H": "Dazzling"
     },
     "weightkg": 178.0,
     "eggGroups": [
@@ -9327,7 +9359,8 @@
     },
     "abilities": {
       "0": "Grassy Surge",
-      "1": "Psychic Surge"
+      "1": "Psychic Surge",
+      "H": "Magic Guard"
     },
     "weightkg": 5.0,
     "eggGroups": [
@@ -9418,8 +9451,8 @@
       "spd": 65
     },
     "abilities": {
-      "0": "Grassy Surge",
-      "1": "Ruthless"
+      "0": "Proficiency",
+      "1": "Super Luck"
     },
     "weightkg": 52.2,
     "prevo": "Grovyle",
@@ -9910,10 +9943,10 @@
     "baseStats": {
       "hp": 50,
       "atk": 40,
-      "def": 85,
+      "def": 95,
       "spe": 15,
       "spa": 55,
-      "spd": 85
+      "spd": 95
     },
     "abilities": {
       "0": "Tangling Hair",
@@ -9950,7 +9983,8 @@
     },
     "abilities": {
       "0": "Serene Grace",
-      "1": "Ruthless"
+      "1": "Ruthless",
+      "H": "Dazzling"
     },
     "weightkg": 28.4,
     "prevo": "Silcoon",
@@ -9972,10 +10006,10 @@
     "baseStats": {
       "hp": 50,
       "atk": 40,
-      "def": 85,
+      "def": 95,
       "spe": 15,
       "spa": 55,
-      "spd": 85
+      "spd": 95
     },
     "abilities": {
       "0": "Poison Point",
@@ -10171,7 +10205,7 @@
       "spd": 60
     },
     "abilities": {
-      "0": "Solar Rush",
+      "0": "Proficiency",
       "1": "Prankster"
     },
     "weightkg": 28.0,
@@ -10200,9 +10234,9 @@
       "hp": 75,
       "atk": 105,
       "def": 95,
-      "spe": 105,
+      "spe": 110,
       "spa": 105,
-      "spd": 65
+      "spd": 60
     },
     "abilities": {
       "0": "Versatility",
@@ -10661,7 +10695,8 @@
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Unburden"
+      "1": "Unburden",
+      "H": "Quick Feet"
     },
     "weightkg": 46.5,
     "prevo": "Slakoth",
@@ -10811,7 +10846,8 @@
     },
     "abilities": {
       "0": "Wimp Out",
-      "1": "Amplifier"
+      "1": "Amplifier",
+      "H": "Scrappy"
     },
     "weightkg": 16.3,
     "evos": [
@@ -10842,7 +10878,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Amplifier"
+      "1": "Amplifier",
+      "H": "Scrappy"
     },
     "weightkg": 40.5,
     "prevo": "Whismur",
@@ -10876,7 +10913,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Amplifier"
+      "1": "Amplifier",
+      "H": "Scrappy"
     },
     "weightkg": 84.0,
     "prevo": "Loudred",
@@ -11297,7 +11335,8 @@
     },
     "abilities": {
       "0": "Headstrong",
-      "1": "Hustle"
+      "1": "Hustle",
+      "H": "Ruthless"
     },
     "weightkg": 360.0,
     "prevo": "Lairon",
@@ -11332,8 +11371,9 @@
       "spd": 115
     },
     "abilities": {
-      "0": "Iron Barbs",
-      "1": "Bulletproof"
+      "0": "Sheer Force",
+      "1": "Bulletproof",
+      "H": "Iron Barbs"
     },
     "weightkg": 395.0,
     "eggGroups": [
@@ -11630,8 +11670,9 @@
       "spd": 106
     },
     "abilities": {
-      "0": "Prankster",
-      "1": "Volt Rush"
+      "0": "Dazzling",
+      "1": "Technician",
+      "H": "Volt Rush"
     },
     "weightkg": 17.7,
     "eggGroups": [
@@ -11720,7 +11761,8 @@
     },
     "abilities": {
       "0": "Gastro Acid",
-      "1": "Metabolism"
+      "1": "Metabolism",
+      "H": "Corrosion"
     },
     "weightkg": 10.3,
     "evos": [
@@ -11750,7 +11792,8 @@
     },
     "abilities": {
       "0": "Gastro Acid",
-      "1": "Metabolism"
+      "1": "Metabolism",
+      "H": "Corrosion"
     },
     "weightkg": 80.0,
     "prevo": "Gulpin",
@@ -12461,7 +12504,8 @@
     },
     "abilities": {
       "0": "Ruthless",
-      "1": "Strong Jaw"
+      "1": "Strong Jaw",
+      "H": "Stakeout"
     },
     "weightkg": 52.5,
     "eggGroups": [
@@ -12690,7 +12734,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Energy Shield"
+      "1": "Energy Shield",
+      "H": "Psychic Surge"
     },
     "weightkg": 108.0,
     "prevo": "Baltoy",
@@ -12720,7 +12765,8 @@
     },
     "abilities": {
       "0": "Sand Stream",
-      "1": "Storm Drain"
+      "1": "Storm Drain",
+      "H": "Corrosion"
     },
     "weightkg": 23.8,
     "evos": [
@@ -12751,7 +12797,8 @@
     },
     "abilities": {
       "0": "Sand Stream",
-      "1": "Storm Drain"
+      "1": "Storm Drain",
+      "H": "Corrosion"
     },
     "weightkg": 60.4,
     "prevo": "Lileep",
@@ -13232,16 +13279,17 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 119,
-      "atk": 108,
-      "def": 98,
-      "spe": 51,
+      "hp": 129,
+      "atk": 103,
+      "def": 103,
+      "spe": 36,
       "spa": 102,
-      "spd": 97
+      "spd": 102
     },
     "abilities": {
-      "0": "Grassy Guard",
-      "1": "Regenerator"
+      "0": "Grassy Surge",
+      "1": "Regenerator",
+      "H": "Harvest"
     },
     "weightkg": 100.0,
     "eggGroups": [
@@ -13636,7 +13684,8 @@
     },
     "abilities": {
       "0": "Multiscale",
-      "1": "Sinister"
+      "1": "Sinister",
+      "H": "Dazzling"
     },
     "weightkg": 27.0,
     "prevo": "Clamperl",
@@ -13668,7 +13717,8 @@
     },
     "abilities": {
       "0": "Multiscale",
-      "1": "Sap Sipper"
+      "1": "Sap Sipper",
+      "H": "Dazzling"
     },
     "weightkg": 22.6,
     "prevo": "Clamperl",
@@ -14397,7 +14447,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Serene Grace"
+      "1": "Serene Grace",
+      "H": "Magic Guard"
     },
     "weightkg": 1.1,
     "eggGroups": [
@@ -14554,7 +14605,8 @@
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Harvest"
+      "1": "Harvest",
+      "H": "Grassy Guard"
     },
     "weightkg": 10.2,
     "evos": [
@@ -14585,7 +14637,8 @@
     },
     "abilities": {
       "0": "Overgrow",
-      "1": "Harvest"
+      "1": "Harvest",
+      "H": "Grassy Guard"
     },
     "weightkg": 10.2,
     "prevo": "Turtwig",
@@ -14610,16 +14663,17 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 125,
-      "atk": 129,
-      "def": 125,
-      "spe": 41,
+      "hp": 120,
+      "atk": 124,
+      "def": 120,
+      "spe": 56,
       "spa": 40,
       "spd": 90
     },
     "abilities": {
       "0": "Headstrong",
-      "1": "Harvest"
+      "1": "Grassy Surge",
+      "H": "Grassy Guard"
     },
     "weightkg": 310.0,
     "prevo": "Grotle",
@@ -14768,11 +14822,11 @@
     },
     "baseStats": {
       "hp": 69,
-      "atk": 91,
+      "atk": 96,
       "def": 73,
       "spe": 50,
-      "spa": 71,
-      "spd": 81
+      "spa": 61,
+      "spd": 86
     },
     "abilities": {
       "0": "Swift Swim",
@@ -14802,10 +14856,10 @@
     },
     "baseStats": {
       "hp": 84,
-      "atk": 116,
-      "def": 118,
+      "atk": 122,
+      "def": 122,
       "spe": 60,
-      "spa": 71,
+      "spa": 61,
       "spd": 101
     },
     "abilities": {
@@ -14840,8 +14894,9 @@
       "spd": 40
     },
     "abilities": {
-      "0": "Bird's Eye View",
-      "1": "Scrappy"
+      "0": "Defiant",
+      "1": "Emergency Exit",
+      "H": "Stakeout"
     },
     "weightkg": 2.0,
     "evos": [
@@ -14871,8 +14926,9 @@
       "spd": 55
     },
     "abilities": {
-      "0": "Bird's Eye View",
-      "1": "Intimidate"
+      "0": "Defiant",
+      "1": "Intimidate",
+      "H": "Stakeout"
     },
     "weightkg": 15.5,
     "prevo": "Starly",
@@ -14905,7 +14961,8 @@
     },
     "abilities": {
       "0": "Reckless",
-      "1": "Intimidate"
+      "1": "Intimidate",
+      "H": "Stakeout"
     },
     "weightkg": 24.9,
     "prevo": "Staravia",
@@ -15519,7 +15576,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Guarding Gale"
+      "1": "Guarding Gale",
+      "H": "Queenly Majesty"
     },
     "weightkg": 38.5,
     "prevo": "Combee",
@@ -16114,7 +16172,7 @@
     },
     "abilities": {
       "0": "Moxie",
-      "1": "Super Luck"
+      "1": "Ruthless"
     },
     "weightkg": 27.3,
     "prevo": "Murkrow",
@@ -16472,7 +16530,8 @@
     },
     "abilities": {
       "0": "Dark Aura",
-      "1": "Sinister"
+      "1": "Sinister",
+      "H": "Magic Guard"
     },
     "weightkg": 108.0,
     "eggGroups": [
@@ -16701,7 +16760,7 @@
       "spd": 70
     },
     "abilities": {
-      "0": "Sixth Sense",
+      "0": "Super Luck",
       "1": "Mega Launcher"
     },
     "weightkg": 54.0,
@@ -16898,7 +16957,8 @@
     },
     "abilities": {
       "0": "Prankster",
-      "1": "Dry Skin"
+      "1": "Dry Skin",
+      "H": "Corrosion"
     },
     "weightkg": 23.0,
     "evos": [
@@ -16929,7 +16989,8 @@
     },
     "abilities": {
       "0": "Ruthless",
-      "1": "Dry Skin"
+      "1": "Dry Skin",
+      "H": "Corrosion"
     },
     "weightkg": 44.4,
     "prevo": "Croagunk",
@@ -17018,7 +17079,8 @@
     },
     "abilities": {
       "0": "Swift Swim",
-      "1": "Drizzle"
+      "1": "Drizzle",
+      "H": "Dazzling"
     },
     "weightkg": 24.0,
     "prevo": "Finneon",
@@ -17431,16 +17493,17 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 89,
-      "atk": 90,
+      "hp": 99,
+      "atk": 96,
       "def": 59,
-      "spe": 149,
-      "spa": 129,
+      "spe": 146,
+      "spa": 116,
       "spd": 59
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Tinted Lens"
+      "1": "Instinct",
+      "H": "Tinted Lens"
     },
     "weightkg": 51.5,
     "prevo": "Yanma",
@@ -17606,7 +17669,9 @@
     "evoLevel": 40,
     "evoType": "levelHold",
     "evoItem": "Dubious Disc",
-    "evos": [],
+    "evos": [
+      "Porygon2"
+    ],
     "eggGroups": [
       "Mineral"
     ]
@@ -17759,15 +17824,15 @@
     "gender": "F",
     "baseStats": {
       "hp": 70,
-      "atk": 50,
+      "atk": 40,
       "def": 70,
-      "spe": 125,
-      "spa": 125,
+      "spe": 130,
+      "spa": 130,
       "spd": 95
     },
     "abilities": {
       "0": "Snow Warning",
-      "1": "Levitate"
+      "1": "Magic Guard"
     },
     "weightkg": 26.6,
     "prevo": "Snorunt",
@@ -18005,7 +18070,8 @@
     },
     "abilities": {
       "0": "Magic Bounce",
-      "1": "Levitate"
+      "1": "Levitate",
+      "H": "Magic Guard"
     },
     "weightkg": 0.3,
     "eggGroups": [
@@ -18030,7 +18096,8 @@
     },
     "abilities": {
       "0": "Sixth Sense",
-      "1": "Levitate"
+      "1": "Levitate",
+      "H": "Magic Guard"
     },
     "weightkg": 0.3,
     "eggGroups": [
@@ -18055,7 +18122,8 @@
     },
     "abilities": {
       "0": "Competitive",
-      "1": "Levitate"
+      "1": "Levitate",
+      "H": "Magic Guard"
     },
     "weightkg": 0.3,
     "eggGroups": [
@@ -19323,7 +19391,8 @@
     },
     "abilities": {
       "0": "Reckless",
-      "1": "Speed Boost"
+      "1": "Speed Boost",
+      "H": "Guts"
     },
     "weightkg": 79.5,
     "prevo": "Blitzle",
@@ -19637,7 +19706,8 @@
     },
     "abilities": {
       "0": "Technician",
-      "1": "Sap Sipper"
+      "1": "Sap Sipper",
+      "H": "Guts"
     },
     "weightkg": 12.5,
     "evos": [
@@ -19668,7 +19738,8 @@
     },
     "abilities": {
       "0": "Technician",
-      "1": "Filter"
+      "1": "Filter",
+      "H": "Guts"
     },
     "weightkg": 40.0,
     "prevo": "Timburr",
@@ -19701,7 +19772,8 @@
     },
     "abilities": {
       "0": "Technician",
-      "1": "Solid Rock"
+      "1": "Solid Rock",
+      "H": "Guts"
     },
     "weightkg": 87.0,
     "prevo": "Gurdurr",
@@ -19970,7 +20042,8 @@
     },
     "abilities": {
       "0": "Speed Boost",
-      "1": "Merciless"
+      "1": "Merciless",
+      "H": "Battle Armor"
     },
     "weightkg": 5.3,
     "evos": [
@@ -19992,16 +20065,17 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 61,
+      "hp": 66,
       "atk": 70,
       "def": 101,
-      "spe": 87,
+      "spe": 82,
       "spa": 40,
       "spd": 81
     },
     "abilities": {
       "0": "Speed Boost",
-      "1": "Merciless"
+      "1": "Merciless",
+      "H": "Battle Armor"
     },
     "weightkg": 58.5,
     "prevo": "Venipede",
@@ -20659,7 +20733,8 @@
     },
     "abilities": {
       "0": "Sand Stream",
-      "1": "Sinister"
+      "1": "Sinister",
+      "H": "Magic Guard"
     },
     "weightkg": 76.5,
     "prevo": "Yamask",
@@ -20721,7 +20796,7 @@
       "spd": 120
     },
     "abilities": {
-      "0": "Strong Jaw",
+      "0": "Sheer Force",
       "1": "Bulletproof"
     },
     "weightkg": 81.0,
@@ -20846,7 +20921,8 @@
     },
     "abilities": {
       "0": "Heatproof",
-      "1": "Weak Armor"
+      "1": "Weak Armor",
+      "H": "Flare Boost"
     },
     "weightkg": 107.3,
     "prevo": "Trubbish",
@@ -20996,7 +21072,8 @@
     },
     "abilities": {
       "0": "Psychic Surge",
-      "1": "Magic Bounce"
+      "1": "Magic Bounce",
+      "H": "Magic Guard"
     },
     "weightkg": 5.8,
     "evos": [
@@ -21027,7 +21104,8 @@
     },
     "abilities": {
       "0": "Psychic Surge",
-      "1": "Magic Bounce"
+      "1": "Magic Bounce",
+      "H": "Magic Guard"
     },
     "weightkg": 18.0,
     "prevo": "Gothita",
@@ -21061,7 +21139,7 @@
     "abilities": {
       "0": "Psychic Surge",
       "1": "Magic Bounce",
-      "H": "Shadow Tag"
+      "H": "Magic Guard"
     },
     "weightkg": 44.0,
     "prevo": "Gothorita",
@@ -21091,7 +21169,8 @@
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Liquid Veil"
+      "1": "Liquid Veil",
+      "H": "Water Absorb"
     },
     "weightkg": 1.0,
     "evos": [
@@ -21122,7 +21201,8 @@
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Liquid Veil"
+      "1": "Liquid Veil",
+      "H": "Water Absorb"
     },
     "weightkg": 8.0,
     "prevo": "Solosis",
@@ -21155,7 +21235,8 @@
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Liquid Veil"
+      "1": "Liquid Veil",
+      "H": "Water Absorb"
     },
     "weightkg": 20.1,
     "prevo": "Duosion",
@@ -21858,7 +21939,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Liquid Veil"
+      "1": "Liquid Veil",
+      "H": "Volt Rush"
     },
     "weightkg": 0.3,
     "evos": [
@@ -21889,7 +21971,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Liquid Veil"
+      "1": "Liquid Veil",
+      "H": "Volt Rush"
     },
     "weightkg": 22.0,
     "prevo": "Tynamo",
@@ -21922,7 +22005,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Liquid Veil"
+      "1": "Liquid Veil",
+      "H": "Volt Rush"
     },
     "weightkg": 80.5,
     "prevo": "Eelektrik",
@@ -22016,7 +22100,7 @@
     "abilities": {
       "0": "Cursed Body",
       "1": "Flash Fire",
-      "H": "Shadow Tag"
+      "H": "Dazzling"
     },
     "weightkg": 3.1,
     "evos": [
@@ -22048,7 +22132,7 @@
     "abilities": {
       "0": "Levitate",
       "1": "Flash Fire",
-      "H": "Shadow Tag"
+      "H": "Dazzling"
     },
     "weightkg": 13.0,
     "prevo": "Litwick",
@@ -22082,7 +22166,7 @@
     "abilities": {
       "0": "Levitate",
       "1": "Weak Armor",
-      "H": "Shadow Tag"
+      "H": "Dazzling"
     },
     "weightkg": 34.3,
     "prevo": "Lampent",
@@ -22114,7 +22198,8 @@
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Defiant"
+      "1": "Defiant",
+      "H": "Scrappy"
     },
     "weightkg": 18.0,
     "evos": [
@@ -22146,7 +22231,8 @@
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Intimidate"
+      "1": "Intimidate",
+      "H": "Scrappy"
     },
     "weightkg": 36.0,
     "prevo": "Axew",
@@ -22180,7 +22266,8 @@
     },
     "abilities": {
       "0": "Ruthless",
-      "1": "Intimidate"
+      "1": "Intimidate",
+      "H": "Scrappy"
     },
     "weightkg": 105.5,
     "prevo": "Fraxure",
@@ -22391,7 +22478,8 @@
     },
     "abilities": {
       "0": "Proficiency",
-      "1": "Technician"
+      "1": "Technician",
+      "H": "Regenerator"
     },
     "weightkg": 20.0,
     "evos": [
@@ -22423,7 +22511,8 @@
     },
     "abilities": {
       "0": "Proficiency",
-      "1": "Technician"
+      "1": "Technician",
+      "H": "Regenerator"
     },
     "weightkg": 35.5,
     "prevo": "Mienfoo",
@@ -22622,7 +22711,8 @@
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Scrappy"
+      "1": "Defiant",
+      "H": "Scrappy"
     },
     "weightkg": 10.5,
     "evos": [
@@ -22650,7 +22740,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Sheer Force"
+      "1": "Sheer Force",
+      "H": "Scrappy"
     },
     "weightkg": 41.0,
     "prevo": "Rufflet",
@@ -23559,7 +23650,8 @@
     },
     "abilities": {
       "0": "Bulletproof",
-      "1": "Battle Armor"
+      "1": "Battle Armor",
+      "H": "Grassy Guard"
     },
     "weightkg": 130.0,
     "prevo": "Quilladin",
@@ -23742,7 +23834,7 @@
       "spd": 71
     },
     "abilities": {
-      "0": "Technician",
+      "0": "Expertise",
       "1": "Versatility"
     },
     "weightkg": 40.0,
@@ -23767,14 +23859,14 @@
     "baseStats": {
       "hp": 72,
       "atk": 145,
-      "def": 71,
+      "def": 67,
       "spe": 142,
       "spa": 153,
-      "spd": 67
+      "spd": 71
     },
     "abilities": {
       "0": "Proficiency",
-      "1": "No Guard"
+      "1": "Technician"
     },
     "weightkg": 40.0,
     "eggGroups": [
@@ -23987,10 +24079,10 @@
     "baseStats": {
       "hp": 50,
       "atk": 22,
-      "def": 88,
+      "def": 98,
       "spe": 29,
       "spa": 53,
-      "spd": 88
+      "spd": 98
     },
     "abilities": {
       "0": "Shield Dust",
@@ -24057,7 +24149,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Instinct"
+      "1": "Instinct",
+      "H": "Quick Feet"
     },
     "weightkg": 13.5,
     "evos": [
@@ -24088,7 +24181,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Instinct"
+      "1": "Instinct",
+      "H": "Quick Feet"
     },
     "weightkg": 81.5,
     "prevo": "Litleo",
@@ -24205,7 +24299,8 @@
     },
     "abilities": {
       "0": "Serene Grace",
-      "1": "Harvest"
+      "1": "Harvest",
+      "H": "Grassy Guard"
     },
     "weightkg": 10.0,
     "prevo": "Floette",
@@ -25247,7 +25342,8 @@
     },
     "abilities": {
       "0": "Adaptability",
-      "1": "Sap Sipper"
+      "1": "Sap Sipper",
+      "H": "Corrosion"
     },
     "weightkg": 7.3,
     "evos": [
@@ -25279,7 +25375,8 @@
     },
     "abilities": {
       "0": "Adaptability",
-      "1": "Drizzle"
+      "1": "Drizzle",
+      "H": "Corrosion"
     },
     "weightkg": 81.5,
     "prevo": "Skrelp",
@@ -25497,7 +25594,8 @@
     },
     "abilities": {
       "0": "Refrigerate",
-      "1": "Energy Shield"
+      "1": "Energy Shield",
+      "H": "Dazzling"
     },
     "weightkg": 25.2,
     "evos": [
@@ -25528,7 +25626,8 @@
     },
     "abilities": {
       "0": "Refrigerate",
-      "1": "Energy Shield"
+      "1": "Energy Shield",
+      "H": "Dazzling"
     },
     "weightkg": 225.0,
     "prevo": "Amaura",
@@ -25939,7 +26038,7 @@
     "abilities": {
       "0": "Harvest",
       "1": "Flash Fire",
-      "H": "Flare Boost"
+      "H": "Grassy Guard"
     },
     "weightkg": 39.0,
     "prevo": "Pumpkaboo",
@@ -25967,12 +26066,12 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 61,
-      "atk": 72,
+      "hp": 66,
+      "atk": 73,
       "def": 134,
-      "spe": 28,
-      "spa": 34,
-      "spd": 71
+      "spe": 23,
+      "spa": 28,
+      "spd": 76
     },
     "abilities": {
       "0": "Resilient",
@@ -25997,11 +26096,11 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 116,
-      "atk": 132,
+      "hp": 121,
+      "atk": 138,
       "def": 184,
-      "spe": 28,
-      "spa": 34,
+      "spe": 23,
+      "spa": 28,
       "spd": 81
     },
     "abilities": {
@@ -26244,7 +26343,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Magic Bounce"
+      "1": "Magic Bounce",
+      "H": "Magic Guard"
     },
     "weightkg": 8.8,
     "prevo": "Carbink",
@@ -26277,7 +26377,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Serene Grace"
+      "1": "Serene Grace",
+      "H": "Dazzling"
     },
     "weightkg": 27.8,
     "eggGroups": [
@@ -26312,7 +26413,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Prankster"
+      "1": "Psychic Surge",
+      "H": "Prankster"
     },
     "weightkg": 9.0,
     "eggGroups": [
@@ -26341,7 +26443,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Expertise"
+      "1": "Expertise",
+      "H": "Magic Guard"
     },
     "weightkg": 490.0,
     "eggGroups": [
@@ -27019,7 +27122,8 @@
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Regenerator"
+      "1": "Regenerator",
+      "H": "Scrappy"
     },
     "weightkg": 7.0,
     "evos": [
@@ -27050,7 +27154,8 @@
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Slush Rush"
+      "1": "Slush Rush",
+      "H": "Scrappy"
     },
     "weightkg": 180.0,
     "prevo": "Crabrawler",
@@ -27367,7 +27472,8 @@
     },
     "abilities": {
       "0": "Intimidate",
-      "1": "Hustle"
+      "1": "Hustle",
+      "H": "Guts"
     },
     "weightkg": 25.0,
     "prevo": "Rockruff",
@@ -27874,7 +27980,8 @@
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Storm Drain"
+      "1": "Storm Drain",
+      "H": "Dazzling"
     },
     "weightkg": 1.5,
     "evos": [
@@ -27905,7 +28012,8 @@
     },
     "abilities": {
       "0": "Regenerator",
-      "1": "Storm Drain"
+      "1": "Storm Drain",
+      "H": "Dazzling"
     },
     "weightkg": 11.5,
     "prevo": "Morelull",
@@ -27932,7 +28040,8 @@
     },
     "abilities": {
       "0": "Dry Skin",
-      "1": "Prankster"
+      "1": "Prankster",
+      "H": "Corrosion"
     },
     "weightkg": 4.8,
     "evos": [
@@ -27962,7 +28071,8 @@
     },
     "abilities": {
       "0": "Dry Skin",
-      "1": "Merciless"
+      "1": "Merciless",
+      "H": "Corrosion"
     },
     "weightkg": 22.2,
     "prevo": "Salandit",
@@ -28234,7 +28344,8 @@
     },
     "abilities": {
       "0": "Unburden",
-      "1": "Headstrong"
+      "1": "Headstrong",
+      "H": "Quick Feet"
     },
     "weightkg": 82.8,
     "eggGroups": [
@@ -28386,7 +28497,8 @@
     },
     "abilities": {
       "0": "Oblivious",
-      "1": "Simple"
+      "1": "Simple",
+      "H": "Unaware"
     },
     "weightkg": 1.2,
     "eggGroups": [
@@ -28821,7 +28933,8 @@
     },
     "abilities": {
       "0": "Hustle",
-      "1": "Volt Rush"
+      "1": "Electric Surge",
+      "H": "Volt Rush"
     },
     "weightkg": 3.3,
     "eggGroups": [
@@ -29350,7 +29463,8 @@
     },
     "abilities": {
       "0": "Wimp Out",
-      "1": "Unaware"
+      "1": "Unaware",
+      "H": "Magic Guard"
     },
     "weightkg": 0.1,
     "evos": [
@@ -29377,7 +29491,8 @@
     },
     "abilities": {
       "0": "Shell Armor",
-      "1": "Unaware"
+      "1": "Unaware",
+      "H": "Magic Guard"
     },
     "weightkg": 999.9,
     "prevo": "Cosmog",
@@ -29408,11 +29523,14 @@
     },
     "abilities": {
       "0": "Sweltering Sun",
-      "1": "Sixth Sense"
+      "1": "Sixth Sense",
+      "H": "Magic Guard"
     },
     "weightkg": 230.0,
     "prevo": "Cosmoem",
     "evoLevel": 100,
+    "evoType": "other",
+    "evoCondition": "level-up with Wonder Room",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -29435,11 +29553,14 @@
     },
     "abilities": {
       "0": "Energy Shield",
-      "1": "Sixth Sense"
+      "1": "Sixth Sense",
+      "H": "Magic Guard"
     },
     "weightkg": 120.0,
     "prevo": "Cosmoem",
     "evoLevel": 100,
+    "evoType": "other",
+    "evoCondition": "level-up with Magic Room",
     "eggGroups": [
       "Undiscovered"
     ]
@@ -29462,7 +29583,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Merciless"
+      "1": "Merciless",
+      "H": "Magic Guard"
     },
     "weightkg": 55.5,
     "eggGroups": [
@@ -29587,7 +29709,7 @@
       "spd": 47
     },
     "abilities": {
-      "0": "Levitate",
+      "0": "Ruthless",
       "1": "Proficiency"
     },
     "weightkg": 0.1,
@@ -29613,7 +29735,8 @@
     },
     "abilities": {
       "0": "Huge Power",
-      "1": "Sinister"
+      "1": "Sinister",
+      "H": "Intimidate"
     },
     "weightkg": 888.0,
     "eggGroups": [
@@ -29813,15 +29936,16 @@
     "gender": "N",
     "baseStats": {
       "hp": 67,
-      "atk": 51,
+      "atk": 31,
       "def": 73,
-      "spe": 103,
-      "spa": 113,
-      "spd": 73
+      "spe": 101,
+      "spa": 101,
+      "spd": 127
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Prankster"
+      "1": "Prankster",
+      "H": "Corrosion"
     },
     "weightkg": 1.8,
     "evos": [
@@ -29849,7 +29973,8 @@
     },
     "abilities": {
       "0": "Levitate",
-      "1": "Ruthless"
+      "1": "Ruthless",
+      "H": "Tinted Lens"
     },
     "weightkg": 150.0,
     "prevo": "Poipole",
@@ -29895,15 +30020,16 @@
     "gender": "N",
     "baseStats": {
       "hp": 73,
-      "atk": 73,
+      "atk": 53,
       "def": 53,
       "spe": 127,
       "spa": 167,
-      "spd": 107
+      "spd": 127
     },
     "abilities": {
       "0": "Dazzling",
-      "1": "Magician"
+      "1": "Magician",
+      "H": "Magic Guard"
     },
     "weightkg": 13.0,
     "eggGroups": [
