@@ -1684,16 +1684,16 @@
     "critRatio": 1,
     "type": "Fighting",
     "target": "normal",
-    "desc": "The user beats the target into hopeless submission.\nThis deals 25% recoil to the user, and drops the\nuser's Defensive stats by 1 after use. Contact.",
-    "shortDesc": "The user beats the target into hopeless submission.\nThis deals 25% recoil to the user, and drops the\nuser's Defensive stats by 1 after use. Contact.",
+    "desc": "The user beats the target into hopeless submission.\nThis deals 50% recoil to the user, and drops the\nuser's Defensive stats by 1 after use. Contact.",
+    "shortDesc": "The user beats the target into hopeless submission.\nThis deals 50% recoil to the user, and drops the\nuser's Defensive stats by 1 after use. Contact.",
     "flags": {
       "contact": 1,
       "mirror": 1,
       "protect": 1
     },
     "recoil": [
-      30,
-      100
+      1,
+      2
     ],
     "self": {
       "boosts": {
@@ -5310,7 +5310,7 @@
     "basePower": 1,
     "category": "Physical",
     "name": "Present",
-    "pp": 1,
+    "pp": 20,
     "priority": 0,
     "critRatio": 1,
     "type": "Normal",
@@ -5321,6 +5321,10 @@
       "mirror": 1,
       "protect": 1
     },
+    "multihit": [
+      2,
+      5
+    ],
     "zMove": {
       "basePower": 250
     }
@@ -6014,7 +6018,7 @@
   "shadowball": {
     "num": 247,
     "accuracy": 100,
-    "basePower": 85,
+    "basePower": 90,
     "category": "Special",
     "name": "Shadow Ball",
     "pp": 15,
@@ -6030,7 +6034,7 @@
       "protect": 1
     },
     "zMove": {
-      "basePower": 170
+      "basePower": 175
     },
     "secondaries": [
       {
@@ -11182,16 +11186,16 @@
     "critRatio": 1,
     "type": "Rock",
     "target": "normal",
-    "desc": "The user attacks the target with a hazardous,\nfull-power headbutt. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
-    "shortDesc": "The user attacks the target with a hazardous,\nfull-power headbutt. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    "desc": "The user attacks the target with a hazardous,\nfull-power headbutt. This has 50% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    "shortDesc": "The user attacks the target with a hazardous,\nfull-power headbutt. This has 50% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
     "flags": {
       "contact": 1,
       "mirror": 1,
       "protect": 1
     },
     "recoil": [
-      30,
-      100
+      1,
+      2
     ],
     "self": {
       "boosts": {
@@ -13360,16 +13364,16 @@
     "critRatio": 1,
     "type": "Ground",
     "target": "normal",
-    "desc": "The user charges into the target with insane force.\nThis has 25% recoil, and lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
-    "shortDesc": "The user charges into the target with insane force.\nThis has 25% recoil, and lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
+    "desc": "The user charges into the target with insane force.\nThis has 50% recoil, and lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
+    "shortDesc": "The user charges into the target with insane force.\nThis has 50% recoil, and lowers the user's\nDefense and Sp. Def by 1 after use. Contact.",
     "flags": {
       "contact": 1,
       "mirror": 1,
       "protect": 1
     },
     "recoil": [
-      30,
-      100
+      1,
+      2
     ],
     "self": {
       "boosts": {
@@ -13560,16 +13564,16 @@
     "critRatio": 1,
     "type": "Electric",
     "target": "normal",
-    "desc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
-    "shortDesc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 30% recoil. Contact.",
+    "desc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 50% recoil. Contact.",
+    "shortDesc": "The user surrounds itself with a great amount of\nelectricity and charges the foe. This drops the user's\nDefenses by 1 after use, & deals 50% recoil. Contact.",
     "flags": {
       "contact": 1,
       "mirror": 1,
       "protect": 1
     },
     "recoil": [
-      30,
-      100
+      1,
+      2
     ],
     "self": {
       "boosts": {
@@ -13773,8 +13777,8 @@
     "critRatio": 1,
     "type": "Fire",
     "target": "normal",
-    "desc": "Cloaked in flames, the user delivers a physical\nonslaught on the foe. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
-    "shortDesc": "Cloaked in flames, the user delivers a physical\nonslaught on the foe. This has 25% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    "desc": "Cloaked in flames, the user delivers a physical\nonslaught on the foe. This has 50% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
+    "shortDesc": "Cloaked in flames, the user delivers a physical\nonslaught on the foe. This has 50% recoil, and drops\nthe user's Defense and Sp. Def by 1. Contact.",
     "flags": {
       "contact": 1,
       "defrost": 1,
@@ -13782,8 +13786,8 @@
       "protect": 1
     },
     "recoil": [
-      30,
-      100
+      1,
+      2
     ],
     "self": {
       "boosts": {
@@ -16397,8 +16401,8 @@
     "critRatio": 1,
     "type": "Psychic",
     "target": "normal",
-    "desc": "The user exchanges Speed stats with the target.\nZ-Effect +3 Speed. +4 Priority.",
-    "shortDesc": "The user exchanges Speed stats with the target.\nZ-Effect +3 Speed. +4 Priority.",
+    "desc": "The user exchanges Speed stats with the target.\nZ-Effect +1 all stats. +4 Priority.",
+    "shortDesc": "The user exchanges Speed stats with the target.\nZ-Effect +1 all stats. +4 Priority.",
     "flags": {
       "bypasssub": 1,
       "mirror": 1,
@@ -16574,21 +16578,20 @@
   "beakblast": {
     "num": 690,
     "accuracy": true,
-    "basePower": 150,
-    "category": "Physical",
+    "basePower": 100,
+    "category": "Special",
     "name": "Beak Blast",
-    "pp": 10,
-    "priority": -4,
-    "critRatio": 7,
+    "pp": 2,
+    "priority": 3,
+    "critRatio": 1,
     "type": "Flying",
     "target": "normal",
-    "desc": "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it,\nas well as the target. This ALWAYS crits as well.",
-    "shortDesc": "The user heats up its beak and at the end of the turn,\nunleashes a burning blast, burning those who touch it,\nas well as the target. This ALWAYS crits as well.",
+    "desc": "Toucannon sends a massive, rapid blast from\nits own beak. This has +3 Priority, and ALWAYS burns.",
+    "shortDesc": "Toucannon sends a massive, rapid blast from\nits own beak. This has +3 Priority, and ALWAYS burns.",
     "flags": {
       "defrost": 1,
       "protect": 1
     },
-    "willCrit": true,
     "zMove": {
       "basePower": 250
     },

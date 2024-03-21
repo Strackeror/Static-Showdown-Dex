@@ -3404,7 +3404,8 @@
     },
     "abilities": {
       "0": "Unaware",
-      "1": "Regenerator"
+      "1": "Regenerator",
+      "H": "Simple"
     },
     "weightkg": 78.5,
     "prevo": "Slowpoke",
@@ -3433,11 +3434,11 @@
     },
     "baseStats": {
       "hp": 95,
-      "atk": 95,
+      "atk": 85,
       "def": 180,
       "spe": 25,
       "spa": 100,
-      "spd": 120
+      "spd": 130
     },
     "abilities": {
       "0": "Bulletproof",
@@ -5154,9 +5155,9 @@
     "baseStats": {
       "hp": 80,
       "atk": 135,
-      "def": 113,
+      "def": 123,
       "spe": 87,
-      "spa": 40,
+      "spa": 30,
       "spd": 80
     },
     "abilities": {
@@ -5187,10 +5188,10 @@
     "baseStats": {
       "hp": 80,
       "atk": 165,
-      "def": 123,
+      "def": 128,
       "spe": 117,
       "spa": 60,
-      "spd": 90
+      "spd": 95
     },
     "abilities": {
       "0": "Aerilate",
@@ -6570,7 +6571,7 @@
     "abilities": {
       "0": "Unnerve",
       "1": "Merciless",
-      "H": "Toxic Boost"
+      "H": "Quick Feet"
     },
     "weightkg": 8.5,
     "evos": [
@@ -6602,7 +6603,7 @@
     "abilities": {
       "0": "Intimidate",
       "1": "Ruthless",
-      "H": "Toxic Boost"
+      "H": "Quick Feet"
     },
     "weightkg": 33.5,
     "prevo": "Spinarak",
@@ -13611,10 +13612,10 @@
       "F": 0.5
     },
     "baseStats": {
-      "hp": 125,
+      "hp": 130,
       "atk": 130,
       "def": 95,
-      "spe": 35,
+      "spe": 30,
       "spa": 95,
       "spd": 95
     },
@@ -23109,7 +23110,7 @@
       "spd": 75
     },
     "abilities": {
-      "0": "Defiant",
+      "0": "Proficiency",
       "1": "Aerilate"
     },
     "weightkg": 63.0,
@@ -23168,7 +23169,7 @@
       "spd": 75
     },
     "abilities": {
-      "0": "Defiant",
+      "0": "Proficiency",
       "1": "Aerilate"
     },
     "weightkg": 61.0,
@@ -25899,7 +25900,7 @@
       "spd": 87
     },
     "abilities": {
-      "0": "Levitate",
+      "0": "Wimp Out",
       "1": "Grassy Guard"
     },
     "weightkg": 7.0,
@@ -26233,12 +26234,12 @@
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 64,
-      "atk": 110,
-      "def": 71,
-      "spe": 134,
-      "spa": 110,
-      "spd": 71
+      "hp": 62,
+      "atk": 106,
+      "def": 74,
+      "spe": 138,
+      "spa": 106,
+      "spd": 74
     },
     "abilities": {
       "0": "Adaptability",
@@ -26266,11 +26267,11 @@
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 128,
-      "atk": 121,
-      "def": 121,
-      "spe": 74,
-      "spa": 121,
+      "hp": 124,
+      "atk": 124,
+      "def": 124,
+      "spe": 69,
+      "spa": 124,
       "spd": 95
     },
     "abilities": {
@@ -26299,12 +26300,12 @@
     ],
     "gender": "N",
     "baseStats": {
-      "hp": 228,
-      "atk": 121,
-      "def": 121,
-      "spe": 74,
-      "spa": 121,
-      "spd": 95
+      "hp": 248,
+      "atk": 124,
+      "def": 124,
+      "spe": 69,
+      "spa": 124,
+      "spd": 111
     },
     "abilities": {
       "0": "Huge Power"
