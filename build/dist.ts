@@ -1,15 +1,16 @@
 import { execSync } from "child_process";
-import { argv, exitCode } from "process";
+import { argv } from "process";
 import config from "../data/config.json"
+import { cpSync, mkdirSync, rmSync } from "fs";
 
 let dest = argv[2];
 
-execSync(`mkdir -p ./${dest}`);
-execSync(`rm -rf ./${dest}/*`);
+rmSync(`./${dest}`, {recursive: true, force: true})
+mkdirSync(`./${dest}`)
 
 for (let folder of ["images"]) {
-  execSync(`cp -rf ${folder} ./${dest}/`);
+  cpSync(`${folder}`, `./${dest}/`, {recursive: true})
 }
-execSync(`echo $PWD`)
+
 execSync(`npx parcel build --public-url ${config.baseurl} ./index.html`)
-execSync(`cp ./${dest}/index.html ./${dest}/404.html`);
+cpSync(`./${dest}/index.html`, `./${dest}/404.html`)
