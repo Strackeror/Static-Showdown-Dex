@@ -21,11 +21,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 			buf += '<div class="warning"><strong>Note:</strong> This Pok&eacute;mon is unreleased.</div>';
 		}
 
-		let imageName = id;
-		if (pokemon.forme) {
-			imageName = toID(pokemon.baseSpecies) +'-' + toID(pokemon.forme)
-		}
-		buf += `<img src="${ResourcePrefix}sprites/gen5/${imageName}.png" alt="" width="96" height="96" class="sprite" />`
+		buf += `<img src="${ResourcePrefix}sprites/gen5/${id}.png" alt="" width="96" height="96" class="sprite" />`
 
 		buf += '<dl class="typeentry">';
 		buf += '<dt>Types:</dt> <dd>';
@@ -111,16 +107,33 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 						} else {
 							buf += `<div><a href="${Config.baseurl}pokemon/${template.id}" data-target="replace">${name}</a></div>`;
 						}
-						nextEvos = nextEvos.concat(template.evos ?? [])
+						for (let evo of template.evos ?? []) {
+							if (!nextEvos.find((e) => e.target == evo.target)) {
+								nextEvos.push(evo);
+							}
+						}
 					}
-					evos = nextEvos.map((id) => getID(BattlePokedex, id));
+					evos = nextEvos.map((evo) => getID(BattlePokedex, evo.target));
 					if (evos.length > 0)
 						buf += '</td><td class="arrow"><span>&rarr;</span></td><td>';
 				}
 				buf += '</td></tr></table>';
+
 				if (pokemon.prevo) {
-					buf += `<div><small>Evolves from ${  getID(BattlePokedex, pokemon.prevo).name  } (${  this.getEvoMethod(pokemon)  })</small></div>`;
+					let prevo = getID(BattlePokedex, pokemon.prevo)
+					let evos_from_prevo = prevo.evos.filter(evo => toID(evo.target) == pokemon.id);
+					for (let evo of evos_from_prevo) {
+						buf += `<div><small>Evolves from ${  getID(BattlePokedex, pokemon.prevo).name  } (${  this.getEvoMethod(evo)  })</small></div>`;
+					}
 				}
+
+				let a = []
+				if (pokemon.evos) {
+					for (let evo of pokemon.evos) {
+						buf += `<div><small>Evolves into ${  getID(BattlePokedex, evo.target).name  } (${  this.getEvoMethod(evo)  })</small></div>`;
+					}
+				}
+
 			} else {
 				buf += '<em>Does not evolve</em>';
 			}
@@ -217,24 +230,21 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 		}
 	},
 	getEvoMethod: function(evo) {
-		let condition = evo.evoCondition ? ` ${evo.evoCondition}` : ``;
-		switch (evo.evoType) {
-		case 'levelExtra':
-			return 'level-up' + condition;
-		case 'levelFriendship':
-			return 'level-up with high Friendship' + condition;
-		case 'levelHold':
-			return 'level-up holding ' + evo.evoItem + condition;
-		case 'useItem':
-			return evo.evoItem;
-		case 'levelMove':
-			return 'level-up with ' + evo.evoMove + condition;
+		switch (evo.condition) {
+		case undefined:
+			if (evo.level) {
+				return 'level ' + evo.level;
+			}
+			if (evo.item) {
+				return 'use ' + evo.item;
+			}
+			return 'unknown'
 		case 'trade':
-			return 'trade';
-		case 'other':
-			return evo.evoCondition;
+			return 'When traded';
+		case 'friendship':
+			return 'High Friendship';
 		default:
-			return 'level ' + evo.evoLevel;
+			return evo.condition;
 		}
 	},
 	selectTab: function(e) {
@@ -276,7 +286,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 					break;
 				case 'tm': // tm/hm
 					if (newCategory) buf += '<li class="resultheader"><h3>TM/HM</h3></li>';
-					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon(721)}"></span>`;
+					desc = `<span class="itemicon" style="margin-top:-3px;${getItemIcon("tr01")}"></span>`;
 					break;
 				case 'tutor': // tutor
 					if (newCategory) buf += '<li class="resultheader"><h3>Tutor</h3></li>';

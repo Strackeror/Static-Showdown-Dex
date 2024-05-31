@@ -15,7 +15,10 @@
       "Grass"
     ],
     "evos": [
-      "Ivysaur"
+      {
+        "target": "Ivysaur",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -47,10 +50,11 @@
       "Grass"
     ],
     "evos": [
-      "Venusaur"
+      {
+        "target": "Venusaur",
+        "level": 32
+      }
     ],
-    "prevo": "Bulbasaur",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -80,8 +84,6 @@
       "Monster",
       "Grass"
     ],
-    "prevo": "Ivysaur",
-    "evoLevel": 32,
     "formes": [
       "Venusaur",
       "Venusaur-Mega"
@@ -185,7 +187,10 @@
       "Dragon"
     ],
     "evos": [
-      "Charmeleon"
+      {
+        "target": "Charmeleon",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -216,10 +221,11 @@
       "Dragon"
     ],
     "evos": [
-      "Charizard"
+      {
+        "target": "Charizard",
+        "level": 36
+      }
     ],
-    "prevo": "Charmander",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -249,8 +255,6 @@
       "Monster",
       "Dragon"
     ],
-    "prevo": "Charmeleon",
-    "evoLevel": 36,
     "formes": [
       "Charizard",
       "Charizard-Mega-X",
@@ -393,7 +397,10 @@
       "Water 1"
     ],
     "evos": [
-      "Wartortle"
+      {
+        "target": "Wartortle",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -424,10 +431,11 @@
       "Water 1"
     ],
     "evos": [
-      "Blastoise"
+      {
+        "target": "Blastoise",
+        "level": 36
+      }
     ],
-    "prevo": "Squirtle",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -456,8 +464,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Wartortle",
-    "evoLevel": 36,
     "formes": [
       "Blastoise",
       "Blastoise-Mega"
@@ -558,7 +564,10 @@
       "Bug"
     ],
     "evos": [
-      "Metapod"
+      {
+        "target": "Metapod",
+        "level": 7
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -587,10 +596,11 @@
       "Bug"
     ],
     "evos": [
-      "Butterfree"
+      {
+        "target": "Butterfree",
+        "level": 10
+      }
     ],
-    "prevo": "Caterpie",
-    "evoLevel": 7,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -619,8 +629,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Metapod",
-    "evoLevel": 10,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -680,7 +688,10 @@
       "Bug"
     ],
     "evos": [
-      "Kakuna"
+      {
+        "target": "Kakuna",
+        "level": 7
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -710,10 +721,11 @@
       "Bug"
     ],
     "evos": [
-      "Beedrill"
+      {
+        "target": "Beedrill",
+        "level": 10
+      }
     ],
-    "prevo": "Weedle",
-    "evoLevel": 7,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -742,8 +754,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Kakuna",
-    "evoLevel": 10,
     "formes": [
       "Beedrill",
       "Beedrill-Mega"
@@ -812,7 +822,10 @@
       "Flying"
     ],
     "evos": [
-      "Pidgeotto"
+      {
+        "target": "Pidgeotto",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -844,10 +857,11 @@
       "Flying"
     ],
     "evos": [
-      "Pidgeot"
+      {
+        "target": "Pidgeot",
+        "level": 36
+      }
     ],
-    "prevo": "Pidgey",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -877,8 +891,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Pidgeotto",
-    "evoLevel": 36,
     "formes": [
       "Pidgeot",
       "Pidgeot-Mega"
@@ -946,7 +958,10 @@
       "Field"
     ],
     "evos": [
-      "Raticate"
+      {
+        "target": "Raticate",
+        "level": 20
+      }
     ],
     "formes": [
       "Rattata",
@@ -982,7 +997,11 @@
       "Field"
     ],
     "evos": [
-      "Raticate-Alola"
+      {
+        "target": "Raticate-Alola",
+        "condition": "at night",
+        "level": 20
+      }
     ],
     "baseSpecies": "Rattata",
     "forme": "Alola",
@@ -1018,8 +1037,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Rattata",
-    "evoLevel": 20,
     "formes": [
       "Raticate",
       "Raticate-Alola",
@@ -1054,9 +1071,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Rattata-Alola",
-    "evoLevel": 20,
-    "evoCondition": "at night",
     "baseSpecies": "Raticate",
     "forme": "Alola",
     "formes": [
@@ -1127,7 +1141,10 @@
       "Flying"
     ],
     "evos": [
-      "Fearow"
+      {
+        "target": "Fearow",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -1157,8 +1174,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Spearow",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1189,7 +1204,10 @@
       "Dragon"
     ],
     "evos": [
-      "Arbok"
+      {
+        "target": "Arbok",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -1220,8 +1238,6 @@
       "Field",
       "Dragon"
     ],
-    "prevo": "Ekans",
-    "evoLevel": 22,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1251,11 +1267,15 @@
       "Fairy"
     ],
     "evos": [
-      "Raichu",
-      "Raichu-Alola"
+      {
+        "target": "Raichu",
+        "item": "Thunder Stone"
+      },
+      {
+        "target": "Raichu-Alola",
+        "item": "Thunder Stone"
+      }
     ],
-    "prevo": "Pichu",
-    "evoType": "levelFriendship",
     "formes": [
       "Pikachu",
       "Pikachu-Original",
@@ -1986,9 +2006,6 @@
       "Field",
       "Fairy"
     ],
-    "prevo": "Pikachu",
-    "evoItem": "Thunder Stone",
-    "evoType": "useItem",
     "formes": [
       "Raichu",
       "Raichu-Alola"
@@ -2021,9 +2038,6 @@
       "Field",
       "Fairy"
     ],
-    "prevo": "Pikachu",
-    "evoItem": "Thunder Stone",
-    "evoType": "useItem",
     "baseSpecies": "Raichu",
     "forme": "Alola",
     "formes": [
@@ -2058,7 +2072,10 @@
       "Field"
     ],
     "evos": [
-      "Sandslash"
+      {
+        "target": "Sandslash",
+        "level": 22
+      }
     ],
     "formes": [
       "Sandshrew",
@@ -2093,7 +2110,10 @@
       "Field"
     ],
     "evos": [
-      "Sandslash-Alola"
+      {
+        "target": "Sandslash-Alola",
+        "item": "Ice Stone"
+      }
     ],
     "baseSpecies": "Sandshrew",
     "forme": "Alola",
@@ -2128,8 +2148,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Sandshrew",
-    "evoLevel": 22,
     "formes": [
       "Sandslash",
       "Sandslash-Alola"
@@ -2162,9 +2180,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Sandshrew-Alola",
-    "evoItem": "Ice Stone",
-    "evoType": "useItem",
     "baseSpecies": "Sandslash",
     "forme": "Alola",
     "formes": [
@@ -2201,7 +2216,10 @@
       "Field"
     ],
     "evos": [
-      "Nidorina"
+      {
+        "target": "Nidorina",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -2232,10 +2250,11 @@
       "Undiscovered"
     ],
     "evos": [
-      "Nidoqueen"
+      {
+        "target": "Nidoqueen",
+        "item": "Moon Stone"
+      }
     ],
-    "prevo": "Nidoran-F",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -2265,9 +2284,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Nidorina",
-    "evoItem": "Moon Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -2298,7 +2314,10 @@
       "Field"
     ],
     "evos": [
-      "Nidorino"
+      {
+        "target": "Nidorino",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 1,
@@ -2330,10 +2349,11 @@
       "Field"
     ],
     "evos": [
-      "Nidoking"
+      {
+        "target": "Nidoking",
+        "item": "Moon Stone"
+      }
     ],
-    "prevo": "Nidoran-M",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -2364,9 +2384,6 @@
       "Monster",
       "Field"
     ],
-    "prevo": "Nidorino",
-    "evoItem": "Moon Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -2396,10 +2413,11 @@
       "Fairy"
     ],
     "evos": [
-      "Clefable"
+      {
+        "target": "Clefable",
+        "item": "Moon Stone"
+      }
     ],
-    "prevo": "Cleffa",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2428,9 +2446,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Clefairy",
-    "evoItem": "Moon Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2459,7 +2474,10 @@
       "Field"
     ],
     "evos": [
-      "Ninetales"
+      {
+        "target": "Ninetales",
+        "item": "Fire Stone"
+      }
     ],
     "formes": [
       "Vulpix",
@@ -2493,7 +2511,10 @@
       "Field"
     ],
     "evos": [
-      "Ninetales-Alola"
+      {
+        "target": "Ninetales-Alola",
+        "item": "Ice Stone"
+      }
     ],
     "baseSpecies": "Vulpix",
     "forme": "Alola",
@@ -2528,9 +2549,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Vulpix",
-    "evoItem": "Fire Stone",
-    "evoType": "useItem",
     "formes": [
       "Ninetales",
       "Ninetales-Alola"
@@ -2563,9 +2581,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Vulpix-Alola",
-    "evoItem": "Ice Stone",
-    "evoType": "useItem",
     "baseSpecies": "Ninetales",
     "forme": "Alola",
     "formes": [
@@ -2602,10 +2617,11 @@
       "Fairy"
     ],
     "evos": [
-      "Wigglytuff"
+      {
+        "target": "Wigglytuff",
+        "item": "Moon Stone"
+      }
     ],
-    "prevo": "Igglybuff",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2635,9 +2651,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Jigglypuff",
-    "evoItem": "Moon Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2667,7 +2680,10 @@
       "Flying"
     ],
     "evos": [
-      "Golbat"
+      {
+        "target": "Golbat",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -2698,10 +2714,10 @@
       "Flying"
     ],
     "evos": [
-      "Crobat"
+      {
+        "target": "Crobat"
+      }
     ],
-    "prevo": "Zubat",
-    "evoLevel": 22,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2731,7 +2747,10 @@
       "Grass"
     ],
     "evos": [
-      "Gloom"
+      {
+        "target": "Gloom",
+        "level": 21
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -2762,11 +2781,15 @@
       "Grass"
     ],
     "evos": [
-      "Vileplume",
-      "Bellossom"
+      {
+        "target": "Vileplume",
+        "item": "Leaf Stone"
+      },
+      {
+        "target": "Bellossom",
+        "item": "Sun Stone"
+      }
     ],
-    "prevo": "Oddish",
-    "evoLevel": 21,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2795,9 +2818,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Gloom",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2829,7 +2849,10 @@
       "Grass"
     ],
     "evos": [
-      "Parasect"
+      {
+        "target": "Parasect",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -2861,8 +2884,6 @@
       "Bug",
       "Grass"
     ],
-    "prevo": "Paras",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2893,7 +2914,10 @@
       "Bug"
     ],
     "evos": [
-      "Venomoth"
+      {
+        "target": "Venomoth",
+        "level": 31
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -2924,8 +2948,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Venonat",
-    "evoLevel": 31,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2955,7 +2977,10 @@
       "Field"
     ],
     "evos": [
-      "Dugtrio"
+      {
+        "target": "Dugtrio",
+        "level": 26
+      }
     ],
     "formes": [
       "Diglett",
@@ -2991,7 +3016,10 @@
       "Field"
     ],
     "evos": [
-      "Dugtrio-Alola"
+      {
+        "target": "Dugtrio-Alola",
+        "level": 26
+      }
     ],
     "baseSpecies": "Diglett",
     "forme": "Alola",
@@ -3027,8 +3055,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Diglett",
-    "evoLevel": 26,
     "formes": [
       "Dugtrio",
       "Dugtrio-Alola"
@@ -3062,8 +3088,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Diglett-Alola",
-    "evoLevel": 26,
     "baseSpecies": "Dugtrio",
     "forme": "Alola",
     "formes": [
@@ -3099,7 +3123,10 @@
       "Field"
     ],
     "evos": [
-      "Persian"
+      {
+        "target": "Persian",
+        "level": 28
+      }
     ],
     "formes": [
       "Meowth",
@@ -3135,7 +3162,9 @@
       "Field"
     ],
     "evos": [
-      "Persian-Alola"
+      {
+        "target": "Persian-Alola"
+      }
     ],
     "baseSpecies": "Meowth",
     "forme": "Alola",
@@ -3173,7 +3202,10 @@
       "Field"
     ],
     "evos": [
-      "Perrserker"
+      {
+        "target": "Perrserker",
+        "level": 28
+      }
     ],
     "baseSpecies": "Meowth",
     "forme": "Galar",
@@ -3245,8 +3277,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Meowth",
-    "evoLevel": 28,
     "formes": [
       "Persian",
       "Persian-Alola"
@@ -3279,8 +3309,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Meowth-Alola",
-    "evoType": "levelFriendship",
     "baseSpecies": "Persian",
     "forme": "Alola",
     "formes": [
@@ -3317,7 +3345,10 @@
       "Field"
     ],
     "evos": [
-      "Golduck"
+      {
+        "target": "Golduck",
+        "level": 33
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -3348,8 +3379,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Psyduck",
-    "evoLevel": 33,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3379,7 +3408,10 @@
       "Field"
     ],
     "evos": [
-      "Primeape"
+      {
+        "target": "Primeape",
+        "level": 28
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -3410,10 +3442,11 @@
       "Field"
     ],
     "evos": [
-      "Annihilape"
+      {
+        "target": "Annihilape",
+        "condition": "Use Rage Fist 20 times and level-up"
+      }
     ],
-    "prevo": "Mankey",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3443,7 +3476,10 @@
       "Field"
     ],
     "evos": [
-      "Arcanine"
+      {
+        "target": "Arcanine",
+        "item": "Fire Stone"
+      }
     ],
     "formes": [
       "Growlithe",
@@ -3479,7 +3515,10 @@
       "Field"
     ],
     "evos": [
-      "Arcanine-Hisui"
+      {
+        "target": "Arcanine-Hisui",
+        "item": "Fire Stone"
+      }
     ],
     "baseSpecies": "Growlithe",
     "forme": "Hisui",
@@ -3515,9 +3554,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Growlithe",
-    "evoItem": "Fire Stone",
-    "evoType": "useItem",
     "formes": [
       "Arcanine",
       "Arcanine-Hisui"
@@ -3551,9 +3587,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Growlithe-Hisui",
-    "evoItem": "Fire Stone",
-    "evoType": "useItem",
     "baseSpecies": "Arcanine",
     "forme": "Hisui",
     "formes": [
@@ -3589,7 +3622,10 @@
       "Water 1"
     ],
     "evos": [
-      "Poliwhirl"
+      {
+        "target": "Poliwhirl",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -3620,11 +3656,15 @@
       "Water 1"
     ],
     "evos": [
-      "Poliwrath",
-      "Politoed"
+      {
+        "target": "Poliwrath",
+        "item": "Water Stone"
+      },
+      {
+        "target": "Politoed",
+        "item": "King's Rock"
+      }
     ],
-    "prevo": "Poliwag",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3654,9 +3694,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Poliwhirl",
-    "evoItem": "Water Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3686,7 +3723,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Kadabra"
+      {
+        "target": "Kadabra",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.75,
@@ -3717,10 +3757,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Alakazam"
+      {
+        "target": "Alakazam"
+      }
     ],
-    "prevo": "Abra",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -3749,8 +3789,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Kadabra",
-    "evoType": "trade",
     "formes": [
       "Alakazam",
       "Alakazam-Mega"
@@ -3817,7 +3855,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Machoke"
+      {
+        "target": "Machoke",
+        "level": 28
+      }
     ],
     "genderRatio": {
       "M": 0.75,
@@ -3848,10 +3889,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Machamp"
+      {
+        "target": "Machamp"
+      }
     ],
-    "prevo": "Machop",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -3880,8 +3921,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Machoke",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -3941,7 +3980,10 @@
       "Grass"
     ],
     "evos": [
-      "Weepinbell"
+      {
+        "target": "Weepinbell",
+        "level": 21
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -3972,10 +4014,11 @@
       "Grass"
     ],
     "evos": [
-      "Victreebel"
+      {
+        "target": "Victreebel",
+        "item": "Leaf Stone"
+      }
     ],
-    "prevo": "Bellsprout",
-    "evoLevel": 21,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4004,9 +4047,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Weepinbell",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4037,7 +4077,10 @@
       "Water 3"
     ],
     "evos": [
-      "Tentacruel"
+      {
+        "target": "Tentacruel",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -4068,8 +4111,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Tentacool",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4100,7 +4141,10 @@
       "Mineral"
     ],
     "evos": [
-      "Graveler"
+      {
+        "target": "Graveler",
+        "level": 25
+      }
     ],
     "formes": [
       "Geodude",
@@ -4136,7 +4180,10 @@
       "Mineral"
     ],
     "evos": [
-      "Graveler-Alola"
+      {
+        "target": "Graveler-Alola",
+        "level": 25
+      }
     ],
     "baseSpecies": "Geodude",
     "forme": "Alola",
@@ -4174,10 +4221,10 @@
       "Mineral"
     ],
     "evos": [
-      "Golem"
+      {
+        "target": "Golem"
+      }
     ],
-    "prevo": "Geodude",
-    "evoLevel": 25,
     "formes": [
       "Graveler",
       "Graveler-Alola"
@@ -4212,10 +4259,10 @@
       "Mineral"
     ],
     "evos": [
-      "Golem-Alola"
+      {
+        "target": "Golem-Alola"
+      }
     ],
-    "prevo": "Geodude-Alola",
-    "evoLevel": 25,
     "baseSpecies": "Graveler",
     "forme": "Alola",
     "formes": [
@@ -4251,8 +4298,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Graveler",
-    "evoType": "trade",
     "formes": [
       "Golem",
       "Golem-Alola"
@@ -4286,8 +4331,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Graveler-Alola",
-    "evoType": "trade",
     "baseSpecies": "Golem",
     "forme": "Alola",
     "formes": [
@@ -4323,7 +4366,10 @@
       "Field"
     ],
     "evos": [
-      "Rapidash"
+      {
+        "target": "Rapidash",
+        "level": 40
+      }
     ],
     "formes": [
       "Ponyta",
@@ -4358,7 +4404,10 @@
       "Field"
     ],
     "evos": [
-      "Rapidash-Galar"
+      {
+        "target": "Rapidash-Galar",
+        "level": 40
+      }
     ],
     "baseSpecies": "Ponyta",
     "forme": "Galar",
@@ -4394,8 +4443,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Ponyta",
-    "evoLevel": 40,
     "formes": [
       "Rapidash",
       "Rapidash-Galar"
@@ -4429,8 +4476,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Ponyta-Galar",
-    "evoLevel": 40,
     "baseSpecies": "Rapidash",
     "forme": "Galar",
     "formes": [
@@ -4468,8 +4513,14 @@
       "Water 1"
     ],
     "evos": [
-      "Slowbro",
-      "Slowking"
+      {
+        "target": "Slowbro",
+        "level": 37
+      },
+      {
+        "target": "Slowking",
+        "item": "King's Rock"
+      }
     ],
     "formes": [
       "Slowpoke",
@@ -4505,8 +4556,14 @@
       "Water 1"
     ],
     "evos": [
-      "Slowbro-Galar",
-      "Slowking-Galar"
+      {
+        "target": "Slowbro-Galar",
+        "item": "Galarica Cuff"
+      },
+      {
+        "target": "Slowking-Galar",
+        "item": "Galarica Wreath"
+      }
     ],
     "baseSpecies": "Slowpoke",
     "forme": "Galar",
@@ -4544,8 +4601,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Slowpoke",
-    "evoLevel": 37,
     "formes": [
       "Slowbro",
       "Slowbro-Mega",
@@ -4581,9 +4636,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Slowpoke-Galar",
-    "evoItem": "Galarica Cuff",
-    "evoType": "useItem",
     "baseSpecies": "Slowbro",
     "forme": "Galar",
     "formes": [
@@ -4657,7 +4709,10 @@
       "Mineral"
     ],
     "evos": [
-      "Magneton"
+      {
+        "target": "Magneton",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -4689,10 +4744,11 @@
       "Mineral"
     ],
     "evos": [
-      "Magnezone"
+      {
+        "target": "Magnezone",
+        "item": "Thunder Stone"
+      }
     ],
-    "prevo": "Magnemite",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -4756,7 +4812,10 @@
       "Field"
     ],
     "evos": [
-      "Sirfetch’d"
+      {
+        "target": "Sirfetch’d",
+        "condition": "Land 3 critical hits in 1 battle"
+      }
     ],
     "baseSpecies": "Farfetch’d",
     "forme": "Galar",
@@ -4794,7 +4853,10 @@
       "Flying"
     ],
     "evos": [
-      "Dodrio"
+      {
+        "target": "Dodrio",
+        "level": 31
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -4825,8 +4887,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Doduo",
-    "evoLevel": 31,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4857,7 +4917,10 @@
       "Field"
     ],
     "evos": [
-      "Dewgong"
+      {
+        "target": "Dewgong",
+        "level": 34
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -4889,8 +4952,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Seel",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4920,7 +4981,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Muk"
+      {
+        "target": "Muk",
+        "level": 38
+      }
     ],
     "formes": [
       "Grimer",
@@ -4956,7 +5020,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Muk-Alola"
+      {
+        "target": "Muk-Alola",
+        "level": 38
+      }
     ],
     "baseSpecies": "Grimer",
     "forme": "Alola",
@@ -4992,8 +5059,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Grimer",
-    "evoLevel": 38,
     "formes": [
       "Muk",
       "Muk-Alola"
@@ -5027,8 +5092,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Grimer-Alola",
-    "evoLevel": 38,
     "baseSpecies": "Muk",
     "forme": "Alola",
     "formes": [
@@ -5064,7 +5127,10 @@
       "Water 3"
     ],
     "evos": [
-      "Cloyster"
+      {
+        "target": "Cloyster",
+        "item": "Water Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5095,9 +5161,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Shellder",
-    "evoItem": "Water Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5126,7 +5189,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Haunter"
+      {
+        "target": "Haunter",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5156,10 +5222,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Gengar"
+      {
+        "target": "Gengar"
+      }
     ],
-    "prevo": "Gastly",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5187,8 +5253,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Haunter",
-    "evoType": "trade",
     "formes": [
       "Gengar",
       "Gengar-Mega"
@@ -5290,7 +5354,10 @@
       "Mineral"
     ],
     "evos": [
-      "Steelix"
+      {
+        "target": "Steelix",
+        "item": "Metal Coat"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5321,7 +5388,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Hypno"
+      {
+        "target": "Hypno",
+        "level": 26
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5351,8 +5421,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Drowzee",
-    "evoLevel": 26,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5382,7 +5450,10 @@
       "Water 3"
     ],
     "evos": [
-      "Kingler"
+      {
+        "target": "Kingler",
+        "level": 28
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5412,8 +5483,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Krabby",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5473,7 +5542,10 @@
       "Mineral"
     ],
     "evos": [
-      "Electrode"
+      {
+        "target": "Electrode",
+        "level": 30
+      }
     ],
     "formes": [
       "Voltorb",
@@ -5509,7 +5581,10 @@
       "Mineral"
     ],
     "evos": [
-      "Electrode-Hisui"
+      {
+        "target": "Electrode-Hisui",
+        "item": "Leaf Stone"
+      }
     ],
     "baseSpecies": "Voltorb",
     "forme": "Hisui",
@@ -5545,8 +5620,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Voltorb",
-    "evoLevel": 30,
     "formes": [
       "Electrode",
       "Electrode-Hisui"
@@ -5580,9 +5653,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Voltorb-Hisui",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "baseSpecies": "Electrode",
     "forme": "Hisui",
     "formes": [
@@ -5618,8 +5688,14 @@
       "Grass"
     ],
     "evos": [
-      "Exeggutor",
-      "Exeggutor-Alola"
+      {
+        "target": "Exeggutor",
+        "item": "Leaf Stone"
+      },
+      {
+        "target": "Exeggutor-Alola",
+        "item": "Leaf Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5649,9 +5725,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Exeggcute",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "formes": [
       "Exeggutor",
       "Exeggutor-Alola"
@@ -5684,9 +5757,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Exeggcute",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "baseSpecies": "Exeggutor",
     "forme": "Alola",
     "formes": [
@@ -5722,8 +5792,15 @@
       "Monster"
     ],
     "evos": [
-      "Marowak",
-      "Marowak-Alola"
+      {
+        "target": "Marowak",
+        "level": 28
+      },
+      {
+        "target": "Marowak-Alola",
+        "condition": "at night",
+        "level": 28
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5753,8 +5830,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Cubone",
-    "evoLevel": 28,
     "formes": [
       "Marowak",
       "Marowak-Alola",
@@ -5789,9 +5864,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Cubone",
-    "evoLevel": 28,
-    "evoCondition": "at night",
     "baseSpecies": "Marowak",
     "forme": "Alola",
     "formes": [
@@ -5861,9 +5933,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Tyrogue",
-    "evoLevel": 20,
-    "evoCondition": "with an Atk stat > its Def stat",
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -5892,9 +5961,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Tyrogue",
-    "evoLevel": 20,
-    "evoCondition": "with an Atk stat < its Def stat",
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -5924,7 +5990,9 @@
       "Monster"
     ],
     "evos": [
-      "Lickilicky"
+      {
+        "target": "Lickilicky"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5955,8 +6023,14 @@
       "Amorphous"
     ],
     "evos": [
-      "Weezing",
-      "Weezing-Galar"
+      {
+        "target": "Weezing",
+        "level": 35
+      },
+      {
+        "target": "Weezing-Galar",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -5986,8 +6060,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Koffing",
-    "evoLevel": 35,
     "formes": [
       "Weezing",
       "Weezing-Galar"
@@ -6021,8 +6093,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Koffing",
-    "evoLevel": 35,
     "baseSpecies": "Weezing",
     "forme": "Galar",
     "formes": [
@@ -6060,7 +6130,10 @@
       "Field"
     ],
     "evos": [
-      "Rhydon"
+      {
+        "target": "Rhydon",
+        "level": 42
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -6093,10 +6166,11 @@
       "Field"
     ],
     "evos": [
-      "Rhyperior"
+      {
+        "target": "Rhyperior",
+        "item": "Protector"
+      }
     ],
-    "prevo": "Rhyhorn",
-    "evoLevel": 42,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6126,12 +6200,10 @@
       "Fairy"
     ],
     "evos": [
-      "Blissey"
+      {
+        "target": "Blissey"
+      }
     ],
-    "prevo": "Happiny",
-    "evoItem": "Oval Stone",
-    "evoType": "levelHold",
-    "evoCondition": "during the day",
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -6161,7 +6233,9 @@
       "Grass"
     ],
     "evos": [
-      "Tangrowth"
+      {
+        "target": "Tangrowth"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -6258,7 +6332,10 @@
       "Dragon"
     ],
     "evos": [
-      "Seadra"
+      {
+        "target": "Seadra",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -6290,10 +6367,11 @@
       "Dragon"
     ],
     "evos": [
-      "Kingdra"
+      {
+        "target": "Kingdra",
+        "item": "Dragon Scale"
+      }
     ],
-    "prevo": "Horsea",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6323,7 +6401,10 @@
       "Water 2"
     ],
     "evos": [
-      "Seaking"
+      {
+        "target": "Seaking",
+        "level": 33
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -6353,8 +6434,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Goldeen",
-    "evoLevel": 33,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6384,7 +6463,10 @@
       "Water 3"
     ],
     "evos": [
-      "Starmie"
+      {
+        "target": "Starmie",
+        "item": "Water Stone"
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -6415,9 +6497,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Staryu",
-    "evoItem": "Water Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -6447,9 +6526,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Mime Jr.",
-    "evoType": "levelMove",
-    "evoMove": "Mimic",
     "formes": [
       "Mr. Mime",
       "Mr. Mime-Galar"
@@ -6484,11 +6560,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Mr. Rime"
+      {
+        "target": "Mr. Rime",
+        "level": 42
+      }
     ],
-    "prevo": "Mime Jr.",
-    "evoType": "levelMove",
-    "evoMove": "Mimic",
     "baseSpecies": "Mr. Mime",
     "forme": "Galar",
     "formes": [
@@ -6525,8 +6601,14 @@
       "Bug"
     ],
     "evos": [
-      "Scizor",
-      "Kleavor"
+      {
+        "target": "Scizor",
+        "item": "Metal Coat"
+      },
+      {
+        "target": "Kleavor",
+        "condition": "Black Augurite"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -6557,8 +6639,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Smoochum",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -6587,10 +6667,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Electivire"
+      {
+        "target": "Electivire",
+        "item": "Electirizer"
+      }
     ],
-    "prevo": "Elekid",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -6619,10 +6700,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Magmortar"
+      {
+        "target": "Magmortar",
+        "item": "Magmarizer"
+      }
     ],
-    "prevo": "Magby",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -6862,7 +6944,10 @@
       "Dragon"
     ],
     "evos": [
-      "Gyarados"
+      {
+        "target": "Gyarados",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -6893,8 +6978,6 @@
       "Water 2",
       "Dragon"
     ],
-    "prevo": "Magikarp",
-    "evoLevel": 20,
     "formes": [
       "Gyarados",
       "Gyarados-Mega"
@@ -7052,14 +7135,38 @@
       "Field"
     ],
     "evos": [
-      "Vaporeon",
-      "Jolteon",
-      "Flareon",
-      "Espeon",
-      "Umbreon",
-      "Leafeon",
-      "Glaceon",
-      "Sylveon"
+      {
+        "target": "Vaporeon",
+        "item": "Water Stone"
+      },
+      {
+        "target": "Jolteon",
+        "item": "Thunder Stone"
+      },
+      {
+        "target": "Flareon",
+        "item": "Fire Stone"
+      },
+      {
+        "target": "Espeon",
+        "condition": "during the day"
+      },
+      {
+        "target": "Umbreon",
+        "condition": "at night"
+      },
+      {
+        "target": "Leafeon",
+        "item": "Leaf Stone"
+      },
+      {
+        "target": "Glaceon",
+        "item": "Ice Stone"
+      },
+      {
+        "target": "Sylveon",
+        "condition": "with a Fairy-type move and two levels of Affection"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -7118,9 +7225,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoItem": "Water Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -7148,9 +7252,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoItem": "Thunder Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -7178,9 +7279,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoItem": "Fire Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -7210,7 +7308,10 @@
       "Mineral"
     ],
     "evos": [
-      "Porygon2"
+      {
+        "target": "Porygon2",
+        "item": "Up-Grade"
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -7243,7 +7344,10 @@
       "Water 3"
     ],
     "evos": [
-      "Omastar"
+      {
+        "target": "Omastar",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -7275,8 +7379,6 @@
       "Water 1",
       "Water 3"
     ],
-    "prevo": "Omanyte",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -7308,7 +7410,10 @@
       "Water 3"
     ],
     "evos": [
-      "Kabutops"
+      {
+        "target": "Kabutops",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -7340,8 +7445,6 @@
       "Water 1",
       "Water 3"
     ],
-    "prevo": "Kabuto",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -7437,8 +7540,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Munchlax",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -7693,7 +7794,10 @@
       "Dragon"
     ],
     "evos": [
-      "Dragonair"
+      {
+        "target": "Dragonair",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -7724,10 +7828,11 @@
       "Dragon"
     ],
     "evos": [
-      "Dragonite"
+      {
+        "target": "Dragonite",
+        "level": 55
+      }
     ],
-    "prevo": "Dratini",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -7757,8 +7862,6 @@
       "Water 1",
       "Dragon"
     ],
-    "prevo": "Dragonair",
-    "evoLevel": 55,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -7915,7 +8018,10 @@
       "Grass"
     ],
     "evos": [
-      "Bayleef"
+      {
+        "target": "Bayleef",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -7946,10 +8052,11 @@
       "Grass"
     ],
     "evos": [
-      "Meganium"
+      {
+        "target": "Meganium",
+        "level": 32
+      }
     ],
-    "prevo": "Chikorita",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -7978,8 +8085,6 @@
       "Monster",
       "Grass"
     ],
-    "prevo": "Bayleef",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -8008,7 +8113,10 @@
       "Field"
     ],
     "evos": [
-      "Quilava"
+      {
+        "target": "Quilava",
+        "level": 14
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -8038,11 +8146,15 @@
       "Field"
     ],
     "evos": [
-      "Typhlosion",
-      "Typhlosion-Hisui"
+      {
+        "target": "Typhlosion",
+        "level": 36
+      },
+      {
+        "target": "Typhlosion-Hisui",
+        "level": 36
+      }
     ],
-    "prevo": "Cyndaquil",
-    "evoLevel": 14,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -8070,8 +8182,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Quilava",
-    "evoLevel": 36,
     "formes": [
       "Typhlosion",
       "Typhlosion-Hisui"
@@ -8104,8 +8214,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Quilava",
-    "evoLevel": 36,
     "baseSpecies": "Typhlosion",
     "forme": "Hisui",
     "formes": [
@@ -8141,7 +8249,10 @@
       "Water 1"
     ],
     "evos": [
-      "Croconaw"
+      {
+        "target": "Croconaw",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -8172,10 +8283,11 @@
       "Water 1"
     ],
     "evos": [
-      "Feraligatr"
+      {
+        "target": "Feraligatr",
+        "level": 30
+      }
     ],
-    "prevo": "Totodile",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -8204,8 +8316,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Croconaw",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -8235,7 +8345,10 @@
       "Field"
     ],
     "evos": [
-      "Furret"
+      {
+        "target": "Furret",
+        "level": 15
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -8265,8 +8378,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Sentret",
-    "evoLevel": 15,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8297,7 +8408,10 @@
       "Flying"
     ],
     "evos": [
-      "Noctowl"
+      {
+        "target": "Noctowl",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -8328,8 +8442,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Hoothoot",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8360,7 +8472,10 @@
       "Bug"
     ],
     "evos": [
-      "Ledian"
+      {
+        "target": "Ledian",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -8391,8 +8506,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Ledyba",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8423,7 +8536,10 @@
       "Bug"
     ],
     "evos": [
-      "Ariados"
+      {
+        "target": "Ariados",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -8454,8 +8570,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Spinarak",
-    "evoLevel": 22,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8484,8 +8598,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Golbat",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8516,7 +8628,10 @@
       "Water 2"
     ],
     "evos": [
-      "Lanturn"
+      {
+        "target": "Lanturn",
+        "level": 27
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -8547,8 +8662,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Chinchou",
-    "evoLevel": 27,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8577,7 +8690,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Pikachu"
+      {
+        "target": "Pikachu"
+      }
     ],
     "formes": [
       "Pichu",
@@ -8644,7 +8759,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Clefairy"
+      {
+        "target": "Clefairy"
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -8676,7 +8793,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Jigglypuff"
+      {
+        "target": "Jigglypuff"
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -8707,7 +8826,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Togetic"
+      {
+        "target": "Togetic"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -8740,10 +8861,11 @@
       "Fairy"
     ],
     "evos": [
-      "Togekiss"
+      {
+        "target": "Togekiss",
+        "item": "Shiny Stone"
+      }
     ],
-    "prevo": "Togepi",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -8774,7 +8896,10 @@
       "Flying"
     ],
     "evos": [
-      "Xatu"
+      {
+        "target": "Xatu",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -8805,8 +8930,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Natu",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8836,7 +8959,10 @@
       "Field"
     ],
     "evos": [
-      "Flaaffy"
+      {
+        "target": "Flaaffy",
+        "level": 15
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -8867,10 +8993,11 @@
       "Field"
     ],
     "evos": [
-      "Ampharos"
+      {
+        "target": "Ampharos",
+        "level": 30
+      }
     ],
-    "prevo": "Mareep",
-    "evoLevel": 15,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -8899,8 +9026,6 @@
       "Monster",
       "Field"
     ],
-    "prevo": "Flaaffy",
-    "evoLevel": 30,
     "formes": [
       "Ampharos",
       "Ampharos-Mega"
@@ -8967,9 +9092,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Gloom",
-    "evoItem": "Sun Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9001,10 +9123,11 @@
       "Fairy"
     ],
     "evos": [
-      "Azumarill"
+      {
+        "target": "Azumarill",
+        "level": 18
+      }
     ],
-    "prevo": "Azurill",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9035,8 +9158,6 @@
       "Water 1",
       "Fairy"
     ],
-    "prevo": "Marill",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9065,9 +9186,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Bonsly",
-    "evoType": "levelMove",
-    "evoMove": "Mimic",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9096,9 +9214,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Poliwhirl",
-    "evoItem": "King's Rock",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9130,7 +9245,10 @@
       "Grass"
     ],
     "evos": [
-      "Skiploom"
+      {
+        "target": "Skiploom",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9163,10 +9281,11 @@
       "Grass"
     ],
     "evos": [
-      "Jumpluff"
+      {
+        "target": "Jumpluff",
+        "level": 27
+      }
     ],
-    "prevo": "Hoppip",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9197,8 +9316,6 @@
       "Fairy",
       "Grass"
     ],
-    "prevo": "Skiploom",
-    "evoLevel": 27,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9228,7 +9345,9 @@
       "Field"
     ],
     "evos": [
-      "Ambipom"
+      {
+        "target": "Ambipom"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9259,7 +9378,10 @@
       "Grass"
     ],
     "evos": [
-      "Sunflora"
+      {
+        "target": "Sunflora",
+        "item": "Sun Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9289,9 +9411,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Sunkern",
-    "evoItem": "Sun Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9322,7 +9441,9 @@
       "Bug"
     ],
     "evos": [
-      "Yanmega"
+      {
+        "target": "Yanmega"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9355,7 +9476,10 @@
       "Field"
     ],
     "evos": [
-      "Quagsire"
+      {
+        "target": "Quagsire",
+        "level": 20
+      }
     ],
     "formes": [
       "Wooper",
@@ -9392,7 +9516,10 @@
       "Field"
     ],
     "evos": [
-      "Clodsire"
+      {
+        "target": "Clodsire",
+        "level": 20
+      }
     ],
     "baseSpecies": "Wooper",
     "forme": "Paldea",
@@ -9430,8 +9557,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Wooper",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9459,9 +9584,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoType": "levelFriendship",
-    "evoCondition": "during the day",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -9489,9 +9611,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoType": "levelFriendship",
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -9522,7 +9641,10 @@
       "Flying"
     ],
     "evos": [
-      "Honchkrow"
+      {
+        "target": "Honchkrow",
+        "item": "Dusk Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9554,9 +9676,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Slowpoke",
-    "evoItem": "King's Rock",
-    "evoType": "trade",
     "formes": [
       "Slowking",
       "Slowking-Galar"
@@ -9591,9 +9710,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Slowpoke-Galar",
-    "evoItem": "Galarica Wreath",
-    "evoType": "useItem",
     "baseSpecies": "Slowking",
     "forme": "Galar",
     "formes": [
@@ -9627,7 +9743,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Mismagius"
+      {
+        "target": "Mismagius",
+        "item": "Dusk Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9711,8 +9830,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Wynaut",
-    "evoLevel": 15,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9743,7 +9860,9 @@
       "Field"
     ],
     "evos": [
-      "Farigiraf"
+      {
+        "target": "Farigiraf"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9773,7 +9892,10 @@
       "Bug"
     ],
     "evos": [
-      "Forretress"
+      {
+        "target": "Forretress",
+        "level": 31
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9803,8 +9925,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Pineco",
-    "evoLevel": 31,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -9834,8 +9954,12 @@
       "Field"
     ],
     "evos": [
-      "Dudunsparce",
-      "Dudunsparce-Three-Segment"
+      {
+        "target": "Dudunsparce"
+      },
+      {
+        "target": "Dudunsparce-Three-Segment"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9867,7 +9991,11 @@
       "Bug"
     ],
     "evos": [
-      "Gliscor"
+      {
+        "target": "Gliscor",
+        "condition": "at night",
+        "item": "Razor Fang"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -9898,9 +10026,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Onix",
-    "evoItem": "Metal Coat",
-    "evoType": "trade",
     "formes": [
       "Steelix",
       "Steelix-Mega"
@@ -9969,7 +10094,10 @@
       "Fairy"
     ],
     "evos": [
-      "Granbull"
+      {
+        "target": "Granbull",
+        "level": 23
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -10000,8 +10128,6 @@
       "Field",
       "Fairy"
     ],
-    "prevo": "Snubbull",
-    "evoLevel": 23,
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -10065,7 +10191,10 @@
       "Water 2"
     ],
     "evos": [
-      "Overqwil"
+      {
+        "target": "Overqwil",
+        "condition": "Use Strong style Barb Barrage 20 times"
+      }
     ],
     "baseSpecies": "Qwilfish",
     "forme": "Hisui",
@@ -10102,9 +10231,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Scyther",
-    "evoItem": "Metal Coat",
-    "evoType": "trade",
     "formes": [
       "Scizor",
       "Scizor-Mega"
@@ -10269,7 +10395,11 @@
       "Field"
     ],
     "evos": [
-      "Weavile"
+      {
+        "target": "Weavile",
+        "condition": "at night",
+        "item": "Razor Claw"
+      }
     ],
     "formes": [
       "Sneasel",
@@ -10305,7 +10435,11 @@
       "Field"
     ],
     "evos": [
-      "Sneasler"
+      {
+        "target": "Sneasler",
+        "condition": "during the day",
+        "item": "Razor Claw"
+      }
     ],
     "baseSpecies": "Sneasel",
     "forme": "Hisui",
@@ -10342,7 +10476,10 @@
       "Field"
     ],
     "evos": [
-      "Ursaring"
+      {
+        "target": "Ursaring",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10373,10 +10510,11 @@
       "Field"
     ],
     "evos": [
-      "Ursaluna"
+      {
+        "target": "Ursaluna",
+        "condition": "Peat Block when there's a full moon"
+      }
     ],
-    "prevo": "Teddiursa",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -10406,7 +10544,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Magcargo"
+      {
+        "target": "Magcargo",
+        "level": 38
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10437,8 +10578,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Slugma",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -10469,7 +10608,10 @@
       "Field"
     ],
     "evos": [
-      "Piloswine"
+      {
+        "target": "Piloswine",
+        "level": 33
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10501,10 +10643,10 @@
       "Field"
     ],
     "evos": [
-      "Mamoswine"
+      {
+        "target": "Mamoswine"
+      }
     ],
-    "prevo": "Swinub",
-    "evoLevel": 33,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -10568,7 +10710,10 @@
       "Water 3"
     ],
     "evos": [
-      "Cursola"
+      {
+        "target": "Cursola",
+        "level": 38
+      }
     ],
     "baseSpecies": "Corsola",
     "forme": "Galar",
@@ -10606,7 +10751,10 @@
       "Water 2"
     ],
     "evos": [
-      "Octillery"
+      {
+        "target": "Octillery",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10637,8 +10785,6 @@
       "Water 1",
       "Water 2"
     ],
-    "prevo": "Remoraid",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -10698,9 +10844,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Mantyke",
-    "evoType": "levelExtra",
-    "evoCondition": "with a Remoraid in party",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -10760,7 +10903,10 @@
       "Field"
     ],
     "evos": [
-      "Houndoom"
+      {
+        "target": "Houndoom",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10791,8 +10937,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Houndour",
-    "evoLevel": 24,
     "formes": [
       "Houndoom",
       "Houndoom-Mega"
@@ -10861,9 +11005,6 @@
       "Water 1",
       "Dragon"
     ],
-    "prevo": "Seadra",
-    "evoItem": "Dragon Scale",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -10892,7 +11033,10 @@
       "Field"
     ],
     "evos": [
-      "Donphan"
+      {
+        "target": "Donphan",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -10921,8 +11065,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Phanpy",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -10952,11 +11094,11 @@
       "Mineral"
     ],
     "evos": [
-      "Porygon-Z"
+      {
+        "target": "Porygon-Z",
+        "item": "Dubious Disc"
+      }
     ],
-    "prevo": "Porygon",
-    "evoItem": "Up-Grade",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -10986,7 +11128,10 @@
       "Field"
     ],
     "evos": [
-      "Wyrdeer"
+      {
+        "target": "Wyrdeer",
+        "condition": "Use Agile style Psyshield Bash 20 times"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -11045,9 +11190,21 @@
       "Undiscovered"
     ],
     "evos": [
-      "Hitmonlee",
-      "Hitmonchan",
-      "Hitmontop"
+      {
+        "target": "Hitmonlee",
+        "condition": "with an Atk stat > its Def stat",
+        "level": 20
+      },
+      {
+        "target": "Hitmonchan",
+        "condition": "with an Atk stat < its Def stat",
+        "level": 20
+      },
+      {
+        "target": "Hitmontop",
+        "condition": "with an Atk stat equal to its Def stat",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 1,
@@ -11077,9 +11234,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Tyrogue",
-    "evoLevel": 20,
-    "evoCondition": "with an Atk stat equal to its Def stat",
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -11110,7 +11264,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Jynx"
+      {
+        "target": "Jynx",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -11140,7 +11297,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Electabuzz"
+      {
+        "target": "Electabuzz",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.75,
@@ -11170,7 +11330,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Magmar"
+      {
+        "target": "Magmar",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.75,
@@ -11228,8 +11391,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Chansey",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -11340,7 +11501,10 @@
       "Monster"
     ],
     "evos": [
-      "Pupitar"
+      {
+        "target": "Pupitar",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -11370,10 +11534,11 @@
       "Monster"
     ],
     "evos": [
-      "Tyranitar"
+      {
+        "target": "Tyranitar",
+        "level": 55
+      }
     ],
-    "prevo": "Larvitar",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -11402,8 +11567,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Pupitar",
-    "evoLevel": 55,
     "formes": [
       "Tyranitar",
       "Tyranitar-Mega"
@@ -11554,7 +11717,10 @@
       "Dragon"
     ],
     "evos": [
-      "Grovyle"
+      {
+        "target": "Grovyle",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -11585,10 +11751,11 @@
       "Dragon"
     ],
     "evos": [
-      "Sceptile"
+      {
+        "target": "Sceptile",
+        "level": 36
+      }
     ],
-    "prevo": "Treecko",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -11617,8 +11784,6 @@
       "Monster",
       "Dragon"
     ],
-    "prevo": "Grovyle",
-    "evoLevel": 36,
     "formes": [
       "Sceptile",
       "Sceptile-Mega"
@@ -11686,7 +11851,10 @@
       "Field"
     ],
     "evos": [
-      "Combusken"
+      {
+        "target": "Combusken",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -11717,10 +11885,11 @@
       "Field"
     ],
     "evos": [
-      "Blaziken"
+      {
+        "target": "Blaziken",
+        "level": 36
+      }
     ],
-    "prevo": "Torchic",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -11749,8 +11918,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Combusken",
-    "evoLevel": 36,
     "formes": [
       "Blaziken",
       "Blaziken-Mega"
@@ -11818,7 +11985,10 @@
       "Water 1"
     ],
     "evos": [
-      "Marshtomp"
+      {
+        "target": "Marshtomp",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -11850,10 +12020,11 @@
       "Water 1"
     ],
     "evos": [
-      "Swampert"
+      {
+        "target": "Swampert",
+        "level": 36
+      }
     ],
-    "prevo": "Mudkip",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -11883,8 +12054,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Marshtomp",
-    "evoLevel": 36,
     "formes": [
       "Swampert",
       "Swampert-Mega"
@@ -11953,7 +12122,10 @@
       "Field"
     ],
     "evos": [
-      "Mightyena"
+      {
+        "target": "Mightyena",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -11983,8 +12155,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Poochyena",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12014,7 +12184,10 @@
       "Field"
     ],
     "evos": [
-      "Linoone"
+      {
+        "target": "Linoone",
+        "level": 20
+      }
     ],
     "formes": [
       "Zigzagoon",
@@ -12050,7 +12223,10 @@
       "Field"
     ],
     "evos": [
-      "Linoone-Galar"
+      {
+        "target": "Linoone-Galar",
+        "level": 20
+      }
     ],
     "baseSpecies": "Zigzagoon",
     "forme": "Galar",
@@ -12086,8 +12262,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Zigzagoon",
-    "evoLevel": 20,
     "formes": [
       "Linoone",
       "Linoone-Galar"
@@ -12122,10 +12296,12 @@
       "Field"
     ],
     "evos": [
-      "Obstagoon"
+      {
+        "target": "Obstagoon",
+        "condition": "at night",
+        "level": 35
+      }
     ],
-    "prevo": "Zigzagoon-Galar",
-    "evoLevel": 20,
     "baseSpecies": "Linoone",
     "forme": "Galar",
     "formes": [
@@ -12160,8 +12336,14 @@
       "Bug"
     ],
     "evos": [
-      "Silcoon",
-      "Cascoon"
+      {
+        "target": "Silcoon",
+        "level": 7
+      },
+      {
+        "target": "Cascoon",
+        "level": 7
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12190,10 +12372,11 @@
       "Bug"
     ],
     "evos": [
-      "Beautifly"
+      {
+        "target": "Beautifly",
+        "level": 10
+      }
     ],
-    "prevo": "Wurmple",
-    "evoLevel": 7,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12222,8 +12405,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Silcoon",
-    "evoLevel": 10,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12251,10 +12432,11 @@
       "Bug"
     ],
     "evos": [
-      "Dustox"
+      {
+        "target": "Dustox",
+        "level": 10
+      }
     ],
-    "prevo": "Wurmple",
-    "evoLevel": 7,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12283,8 +12465,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Cascoon",
-    "evoLevel": 10,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12316,7 +12496,10 @@
       "Grass"
     ],
     "evos": [
-      "Lombre"
+      {
+        "target": "Lombre",
+        "level": 14
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12349,10 +12532,11 @@
       "Grass"
     ],
     "evos": [
-      "Ludicolo"
+      {
+        "target": "Ludicolo",
+        "item": "Water Stone"
+      }
     ],
-    "prevo": "Lotad",
-    "evoLevel": 14,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12383,9 +12567,6 @@
       "Water 1",
       "Grass"
     ],
-    "prevo": "Lombre",
-    "evoItem": "Water Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12416,7 +12597,10 @@
       "Grass"
     ],
     "evos": [
-      "Nuzleaf"
+      {
+        "target": "Nuzleaf",
+        "level": 14
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12449,10 +12633,11 @@
       "Grass"
     ],
     "evos": [
-      "Shiftry"
+      {
+        "target": "Shiftry",
+        "item": "Leaf Stone"
+      }
     ],
-    "prevo": "Seedot",
-    "evoLevel": 14,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12483,9 +12668,6 @@
       "Field",
       "Grass"
     ],
-    "prevo": "Nuzleaf",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12515,7 +12697,10 @@
       "Flying"
     ],
     "evos": [
-      "Swellow"
+      {
+        "target": "Swellow",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12545,8 +12730,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Taillow",
-    "evoLevel": 22,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12578,7 +12761,10 @@
       "Flying"
     ],
     "evos": [
-      "Pelipper"
+      {
+        "target": "Pelipper",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12610,8 +12796,6 @@
       "Water 1",
       "Flying"
     ],
-    "prevo": "Wingull",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12643,7 +12827,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Kirlia"
+      {
+        "target": "Kirlia",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12676,11 +12863,15 @@
       "Amorphous"
     ],
     "evos": [
-      "Gardevoir",
-      "Gallade"
+      {
+        "target": "Gardevoir",
+        "level": 30
+      },
+      {
+        "target": "Gallade",
+        "item": "Dawn Stone"
+      }
     ],
-    "prevo": "Ralts",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12711,8 +12902,6 @@
       "Human-Like",
       "Amorphous"
     ],
-    "prevo": "Kirlia",
-    "evoLevel": 30,
     "formes": [
       "Gardevoir",
       "Gardevoir-Mega"
@@ -12781,7 +12970,10 @@
       "Bug"
     ],
     "evos": [
-      "Masquerain"
+      {
+        "target": "Masquerain",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12812,8 +13004,6 @@
       "Water 1",
       "Bug"
     ],
-    "prevo": "Surskit",
-    "evoLevel": 22,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12844,7 +13034,10 @@
       "Grass"
     ],
     "evos": [
-      "Breloom"
+      {
+        "target": "Breloom",
+        "level": 23
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12876,8 +13069,6 @@
       "Fairy",
       "Grass"
     ],
-    "prevo": "Shroomish",
-    "evoLevel": 23,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12905,7 +13096,10 @@
       "Field"
     ],
     "evos": [
-      "Vigoroth"
+      {
+        "target": "Vigoroth",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -12934,10 +13128,11 @@
       "Field"
     ],
     "evos": [
-      "Slaking"
+      {
+        "target": "Slaking",
+        "level": 36
+      }
     ],
-    "prevo": "Slakoth",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12964,8 +13159,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Vigoroth",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -12995,8 +13188,14 @@
       "Bug"
     ],
     "evos": [
-      "Ninjask",
-      "Shedinja"
+      {
+        "target": "Ninjask",
+        "level": 20
+      },
+      {
+        "target": "Shedinja",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -13026,8 +13225,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Nincada",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -13055,8 +13252,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Nincada",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -13086,7 +13281,10 @@
       "Field"
     ],
     "evos": [
-      "Loudred"
+      {
+        "target": "Loudred",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -13117,10 +13315,11 @@
       "Field"
     ],
     "evos": [
-      "Exploud"
+      {
+        "target": "Exploud",
+        "level": 40
+      }
     ],
-    "prevo": "Whismur",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -13149,8 +13348,6 @@
       "Monster",
       "Field"
     ],
-    "prevo": "Loudred",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -13180,7 +13377,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Hariyama"
+      {
+        "target": "Hariyama",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.75,
@@ -13210,8 +13410,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Makuhita",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -13242,7 +13440,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Marill"
+      {
+        "target": "Marill"
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -13273,7 +13473,10 @@
       "Mineral"
     ],
     "evos": [
-      "Probopass"
+      {
+        "target": "Probopass",
+        "condition": "near a special magnetic field"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -13305,7 +13508,10 @@
       "Fairy"
     ],
     "evos": [
-      "Delcatty"
+      {
+        "target": "Delcatty",
+        "item": "Moon Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -13336,9 +13542,6 @@
       "Field",
       "Fairy"
     ],
-    "prevo": "Skitty",
-    "evoItem": "Moon Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -13505,7 +13708,10 @@
       "Monster"
     ],
     "evos": [
-      "Lairon"
+      {
+        "target": "Lairon",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -13537,10 +13743,11 @@
       "Monster"
     ],
     "evos": [
-      "Aggron"
+      {
+        "target": "Aggron",
+        "level": 42
+      }
     ],
-    "prevo": "Aron",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -13570,8 +13777,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Lairon",
-    "evoLevel": 42,
     "formes": [
       "Aggron",
       "Aggron-Mega"
@@ -13638,7 +13843,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Medicham"
+      {
+        "target": "Medicham",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -13668,8 +13876,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Meditite",
-    "evoLevel": 37,
     "formes": [
       "Medicham",
       "Medicham-Mega"
@@ -13737,7 +13943,10 @@
       "Field"
     ],
     "evos": [
-      "Manectric"
+      {
+        "target": "Manectric",
+        "level": 26
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -13767,8 +13976,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Electrike",
-    "evoLevel": 26,
     "formes": [
       "Manectric",
       "Manectric-Mega"
@@ -13949,11 +14156,11 @@
       "Grass"
     ],
     "evos": [
-      "Roserade"
+      {
+        "target": "Roserade",
+        "item": "Shiny Stone"
+      }
     ],
-    "prevo": "Budew",
-    "evoType": "levelFriendship",
-    "evoCondition": "during the day",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -13983,7 +14190,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Swalot"
+      {
+        "target": "Swalot",
+        "level": 26
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14013,8 +14223,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Gulpin",
-    "evoLevel": 26,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14044,7 +14252,10 @@
       "Water 2"
     ],
     "evos": [
-      "Sharpedo"
+      {
+        "target": "Sharpedo",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14074,8 +14285,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Carvanha",
-    "evoLevel": 30,
     "formes": [
       "Sharpedo",
       "Sharpedo-Mega"
@@ -14144,7 +14353,10 @@
       "Water 2"
     ],
     "evos": [
-      "Wailord"
+      {
+        "target": "Wailord",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14175,8 +14387,6 @@
       "Field",
       "Water 2"
     ],
-    "prevo": "Wailmer",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14207,7 +14417,10 @@
       "Field"
     ],
     "evos": [
-      "Camerupt"
+      {
+        "target": "Camerupt",
+        "level": 33
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14238,8 +14451,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Numel",
-    "evoLevel": 33,
     "formes": [
       "Camerupt",
       "Camerupt-Mega"
@@ -14335,7 +14546,10 @@
       "Field"
     ],
     "evos": [
-      "Grumpig"
+      {
+        "target": "Grumpig",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14365,8 +14579,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Spoink",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14426,7 +14638,10 @@
       "Dragon"
     ],
     "evos": [
-      "Vibrava"
+      {
+        "target": "Vibrava",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14457,10 +14672,11 @@
       "Dragon"
     ],
     "evos": [
-      "Flygon"
+      {
+        "target": "Flygon",
+        "level": 45
+      }
     ],
-    "prevo": "Trapinch",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14489,8 +14705,6 @@
       "Bug",
       "Dragon"
     ],
-    "prevo": "Vibrava",
-    "evoLevel": 45,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14520,7 +14734,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Cacturne"
+      {
+        "target": "Cacturne",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14551,8 +14768,6 @@
       "Grass",
       "Human-Like"
     ],
-    "prevo": "Cacnea",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14583,7 +14798,10 @@
       "Dragon"
     ],
     "evos": [
-      "Altaria"
+      {
+        "target": "Altaria",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14614,8 +14832,6 @@
       "Flying",
       "Dragon"
     ],
-    "prevo": "Swablu",
-    "evoLevel": 35,
     "formes": [
       "Altaria",
       "Altaria-Mega"
@@ -14794,7 +15010,10 @@
       "Water 2"
     ],
     "evos": [
-      "Whiscash"
+      {
+        "target": "Whiscash",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14825,8 +15044,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Barboach",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14857,7 +15074,10 @@
       "Water 3"
     ],
     "evos": [
-      "Crawdaunt"
+      {
+        "target": "Crawdaunt",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -14889,8 +15109,6 @@
       "Water 1",
       "Water 3"
     ],
-    "prevo": "Corphish",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -14919,7 +15137,10 @@
       "Mineral"
     ],
     "evos": [
-      "Claydol"
+      {
+        "target": "Claydol",
+        "level": 36
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -14948,8 +15169,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Baltoy",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -14979,7 +15198,10 @@
       "Water 3"
     ],
     "evos": [
-      "Cradily"
+      {
+        "target": "Cradily",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -15009,8 +15231,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Lileep",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -15040,7 +15260,10 @@
       "Water 3"
     ],
     "evos": [
-      "Armaldo"
+      {
+        "target": "Armaldo",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -15070,8 +15293,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Anorith",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -15102,7 +15323,10 @@
       "Dragon"
     ],
     "evos": [
-      "Milotic"
+      {
+        "target": "Milotic",
+        "item": "Prism Scale"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -15133,9 +15357,6 @@
       "Water 1",
       "Dragon"
     ],
-    "prevo": "Feebas",
-    "evoItem": "Prism Scale",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -15330,7 +15551,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Banette"
+      {
+        "target": "Banette",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -15360,8 +15584,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Shuppet",
-    "evoLevel": 37,
     "formes": [
       "Banette",
       "Banette-Mega"
@@ -15427,7 +15649,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Dusclops"
+      {
+        "target": "Dusclops",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -15457,10 +15682,11 @@
       "Amorphous"
     ],
     "evos": [
-      "Dusknoir"
+      {
+        "target": "Dusknoir",
+        "item": "Reaper Cloth"
+      }
     ],
-    "prevo": "Duskull",
-    "evoLevel": 37,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -15517,9 +15743,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Chingling",
-    "evoType": "levelFriendship",
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -15613,7 +15836,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Wobbuffet"
+      {
+        "target": "Wobbuffet",
+        "level": 15
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -15645,8 +15871,14 @@
       "Mineral"
     ],
     "evos": [
-      "Glalie",
-      "Froslass"
+      {
+        "target": "Glalie",
+        "level": 42
+      },
+      {
+        "target": "Froslass",
+        "item": "Dawn Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -15677,8 +15909,6 @@
       "Fairy",
       "Mineral"
     ],
-    "prevo": "Snorunt",
-    "evoLevel": 42,
     "formes": [
       "Glalie",
       "Glalie-Mega"
@@ -15748,7 +15978,10 @@
       "Field"
     ],
     "evos": [
-      "Sealeo"
+      {
+        "target": "Sealeo",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -15781,10 +16014,11 @@
       "Field"
     ],
     "evos": [
-      "Walrein"
+      {
+        "target": "Walrein",
+        "level": 44
+      }
     ],
-    "prevo": "Spheal",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -15815,8 +16049,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Sealeo",
-    "evoLevel": 44,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -15845,8 +16077,14 @@
       "Water 1"
     ],
     "evos": [
-      "Huntail",
-      "Gorebyss"
+      {
+        "target": "Huntail",
+        "item": "Deep Sea Tooth"
+      },
+      {
+        "target": "Gorebyss",
+        "item": "Deep Sea Scale"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -15875,9 +16113,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Clamperl",
-    "evoItem": "Deep Sea Tooth",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -15905,9 +16140,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Clamperl",
-    "evoItem": "Deep Sea Scale",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -15993,7 +16225,10 @@
       "Dragon"
     ],
     "evos": [
-      "Shelgon"
+      {
+        "target": "Shelgon",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -16023,10 +16258,11 @@
       "Dragon"
     ],
     "evos": [
-      "Salamence"
+      {
+        "target": "Salamence",
+        "level": 50
+      }
     ],
-    "prevo": "Bagon",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -16055,8 +16291,6 @@
     "eggGroups": [
       "Dragon"
     ],
-    "prevo": "Shelgon",
-    "evoLevel": 50,
     "formes": [
       "Salamence",
       "Salamence-Mega"
@@ -16124,7 +16358,10 @@
       "Mineral"
     ],
     "evos": [
-      "Metang"
+      {
+        "target": "Metang",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -16155,10 +16392,11 @@
       "Mineral"
     ],
     "evos": [
-      "Metagross"
+      {
+        "target": "Metagross",
+        "level": 45
+      }
     ],
-    "prevo": "Beldum",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -16187,8 +16425,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Metang",
-    "evoLevel": 45,
     "formes": [
       "Metagross",
       "Metagross-Mega"
@@ -16819,7 +17055,10 @@
       "Grass"
     ],
     "evos": [
-      "Grotle"
+      {
+        "target": "Grotle",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -16850,10 +17089,11 @@
       "Grass"
     ],
     "evos": [
-      "Torterra"
+      {
+        "target": "Torterra",
+        "level": 32
+      }
     ],
-    "prevo": "Turtwig",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -16883,8 +17123,6 @@
       "Monster",
       "Grass"
     ],
-    "prevo": "Grotle",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -16914,7 +17152,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Monferno"
+      {
+        "target": "Monferno",
+        "level": 14
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -16946,10 +17187,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Infernape"
+      {
+        "target": "Infernape",
+        "level": 36
+      }
     ],
-    "prevo": "Chimchar",
-    "evoLevel": 14,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -16979,8 +17221,6 @@
       "Field",
       "Human-Like"
     ],
-    "prevo": "Monferno",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -17010,7 +17250,10 @@
       "Field"
     ],
     "evos": [
-      "Prinplup"
+      {
+        "target": "Prinplup",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -17041,10 +17284,11 @@
       "Field"
     ],
     "evos": [
-      "Empoleon"
+      {
+        "target": "Empoleon",
+        "level": 36
+      }
     ],
-    "prevo": "Piplup",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -17074,8 +17318,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Prinplup",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -17105,7 +17347,10 @@
       "Flying"
     ],
     "evos": [
-      "Staravia"
+      {
+        "target": "Staravia",
+        "level": 14
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -17136,10 +17381,11 @@
       "Flying"
     ],
     "evos": [
-      "Staraptor"
+      {
+        "target": "Staraptor",
+        "level": 34
+      }
     ],
-    "prevo": "Starly",
-    "evoLevel": 14,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17168,8 +17414,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Staravia",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17200,7 +17444,10 @@
       "Field"
     ],
     "evos": [
-      "Bibarel"
+      {
+        "target": "Bibarel",
+        "level": 15
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -17232,8 +17479,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Bidoof",
-    "evoLevel": 15,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17262,7 +17507,10 @@
       "Bug"
     ],
     "evos": [
-      "Kricketune"
+      {
+        "target": "Kricketune",
+        "level": 10
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -17291,8 +17539,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Kricketot",
-    "evoLevel": 10,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17322,7 +17568,10 @@
       "Field"
     ],
     "evos": [
-      "Luxio"
+      {
+        "target": "Luxio",
+        "level": 15
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -17353,10 +17602,11 @@
       "Field"
     ],
     "evos": [
-      "Luxray"
+      {
+        "target": "Luxray",
+        "level": 30
+      }
     ],
-    "prevo": "Shinx",
-    "evoLevel": 15,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17385,8 +17635,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Luxio",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17417,7 +17665,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Roselia"
+      {
+        "target": "Roselia",
+        "condition": "during the day"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -17449,9 +17700,6 @@
       "Fairy",
       "Grass"
     ],
-    "prevo": "Roselia",
-    "evoItem": "Shiny Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17480,7 +17728,10 @@
       "Monster"
     ],
     "evos": [
-      "Rampardos"
+      {
+        "target": "Rampardos",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -17509,8 +17760,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Cranidos",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -17540,7 +17789,10 @@
       "Monster"
     ],
     "evos": [
-      "Bastiodon"
+      {
+        "target": "Bastiodon",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -17570,8 +17822,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Shieldon",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -17600,10 +17850,22 @@
       "Bug"
     ],
     "evos": [
-      "Wormadam",
-      "Wormadam-Sandy",
-      "Wormadam-Trash",
-      "Mothim"
+      {
+        "target": "Wormadam",
+        "level": 20
+      },
+      {
+        "target": "Wormadam-Sandy",
+        "level": 20
+      },
+      {
+        "target": "Wormadam-Trash",
+        "level": 20
+      },
+      {
+        "target": "Mothim",
+        "level": 20
+      }
     ],
     "cosmeticFormes": [
       "Sandy",
@@ -17637,8 +17899,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Burmy",
-    "evoLevel": 20,
     "formes": [
       "Wormadam",
       "Wormadam-Sandy",
@@ -17672,8 +17932,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Burmy",
-    "evoLevel": 20,
     "baseSpecies": "Wormadam",
     "forme": "Sandy",
     "formes": [
@@ -17709,8 +17967,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Burmy",
-    "evoLevel": 20,
     "baseSpecies": "Wormadam",
     "forme": "Trash",
     "formes": [
@@ -17746,8 +18002,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Burmy",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -17777,7 +18031,10 @@
       "Bug"
     ],
     "evos": [
-      "Vespiquen"
+      {
+        "target": "Vespiquen",
+        "level": 21
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -17807,8 +18064,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Combee",
-    "evoLevel": 21,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -17867,7 +18122,10 @@
       "Field"
     ],
     "evos": [
-      "Floatzel"
+      {
+        "target": "Floatzel",
+        "level": 26
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -17897,8 +18155,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Buizel",
-    "evoLevel": 26,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -17927,7 +18183,10 @@
       "Grass"
     ],
     "evos": [
-      "Cherrim"
+      {
+        "target": "Cherrim",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -17956,8 +18215,6 @@
       "Fairy",
       "Grass"
     ],
-    "prevo": "Cherubi",
-    "evoLevel": 25,
     "formes": [
       "Cherrim",
       "Cherrim-Sunshine"
@@ -18025,7 +18282,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Gastrodon"
+      {
+        "target": "Gastrodon",
+        "level": 30
+      }
     ],
     "cosmeticFormes": [
       "East"
@@ -18060,8 +18320,6 @@
       "Water 1",
       "Amorphous"
     ],
-    "prevo": "Shellos",
-    "evoLevel": 30,
     "cosmeticFormes": [
       "East"
     ],
@@ -18093,9 +18351,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Aipom",
-    "evoType": "levelMove",
-    "evoMove": "Double Hit",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -18126,7 +18381,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Drifblim"
+      {
+        "target": "Drifblim",
+        "level": 28
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -18157,8 +18415,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Drifloon",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -18189,7 +18445,9 @@
       "Human-Like"
     ],
     "evos": [
-      "Lopunny"
+      {
+        "target": "Lopunny"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -18220,8 +18478,6 @@
       "Field",
       "Human-Like"
     ],
-    "prevo": "Buneary",
-    "evoType": "levelFriendship",
     "formes": [
       "Lopunny",
       "Lopunny-Mega"
@@ -18287,9 +18543,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Misdreavus",
-    "evoItem": "Dusk Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -18319,9 +18572,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Murkrow",
-    "evoItem": "Dusk Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -18351,7 +18601,10 @@
       "Field"
     ],
     "evos": [
-      "Purugly"
+      {
+        "target": "Purugly",
+        "level": 38
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -18381,8 +18634,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Glameow",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -18410,7 +18661,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Chimecho"
+      {
+        "target": "Chimecho",
+        "condition": "at night"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -18442,7 +18696,10 @@
       "Field"
     ],
     "evos": [
-      "Skuntank"
+      {
+        "target": "Skuntank",
+        "level": 34
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -18473,8 +18730,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Stunky",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -18505,7 +18760,10 @@
       "Mineral"
     ],
     "evos": [
-      "Bronzong"
+      {
+        "target": "Bronzong",
+        "level": 33
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -18536,8 +18794,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Bronzor",
-    "evoLevel": 33,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -18567,7 +18823,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Sudowoodo"
+      {
+        "target": "Sudowoodo"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -18599,8 +18857,12 @@
       "Undiscovered"
     ],
     "evos": [
-      "Mr. Mime",
-      "Mr. Mime-Galar"
+      {
+        "target": "Mr. Mime"
+      },
+      {
+        "target": "Mr. Mime-Galar"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -18631,7 +18893,11 @@
       "Undiscovered"
     ],
     "evos": [
-      "Chansey"
+      {
+        "target": "Chansey",
+        "condition": "during the day",
+        "item": "Oval Stone"
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -18720,7 +18986,10 @@
       "Dragon"
     ],
     "evos": [
-      "Gabite"
+      {
+        "target": "Gabite",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -18752,10 +19021,11 @@
       "Dragon"
     ],
     "evos": [
-      "Garchomp"
+      {
+        "target": "Garchomp",
+        "level": 48
+      }
     ],
-    "prevo": "Gible",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -18785,8 +19055,6 @@
       "Monster",
       "Dragon"
     ],
-    "prevo": "Gabite",
-    "evoLevel": 48,
     "formes": [
       "Garchomp",
       "Garchomp-Mega"
@@ -18855,7 +19123,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Snorlax"
+      {
+        "target": "Snorlax"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -18886,7 +19156,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Lucario"
+      {
+        "target": "Lucario",
+        "condition": "during the day"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -18918,9 +19191,6 @@
       "Field",
       "Human-Like"
     ],
-    "prevo": "Riolu",
-    "evoType": "levelFriendship",
-    "evoCondition": "during the day",
     "formes": [
       "Lucario",
       "Lucario-Mega"
@@ -18988,7 +19258,10 @@
       "Field"
     ],
     "evos": [
-      "Hippowdon"
+      {
+        "target": "Hippowdon",
+        "level": 34
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -19017,8 +19290,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Hippopotas",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19050,7 +19321,10 @@
       "Water 3"
     ],
     "evos": [
-      "Drapion"
+      {
+        "target": "Drapion",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -19082,8 +19356,6 @@
       "Bug",
       "Water 3"
     ],
-    "prevo": "Skorupi",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19114,7 +19386,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Toxicroak"
+      {
+        "target": "Toxicroak",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -19145,8 +19420,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Croagunk",
-    "evoLevel": 37,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19202,7 +19475,10 @@
       "Water 2"
     ],
     "evos": [
-      "Lumineon"
+      {
+        "target": "Lumineon",
+        "level": 31
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -19232,8 +19508,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Finneon",
-    "evoLevel": 31,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19264,7 +19538,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Mantine"
+      {
+        "target": "Mantine",
+        "condition": "with a Remoraid in party"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -19296,7 +19573,10 @@
       "Grass"
     ],
     "evos": [
-      "Abomasnow"
+      {
+        "target": "Abomasnow",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -19327,8 +19607,6 @@
       "Monster",
       "Grass"
     ],
-    "prevo": "Snover",
-    "evoLevel": 40,
     "formes": [
       "Abomasnow",
       "Abomasnow-Mega"
@@ -19396,10 +19674,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Sneasel",
-    "evoItem": "Razor Claw",
-    "evoType": "levelHold",
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19429,9 +19703,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Magneton",
-    "evoItem": "Thunder Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -19460,9 +19731,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Lickitung",
-    "evoType": "levelMove",
-    "evoMove": "Rollout",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19493,9 +19761,6 @@
       "Monster",
       "Field"
     ],
-    "prevo": "Rhydon",
-    "evoItem": "Protector",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19524,9 +19789,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Tangela",
-    "evoType": "levelMove",
-    "evoMove": "Ancient Power",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19554,9 +19816,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Electabuzz",
-    "evoItem": "Electirizer",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -19584,9 +19843,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Magmar",
-    "evoItem": "Magmarizer",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -19617,9 +19873,6 @@
       "Flying",
       "Fairy"
     ],
-    "prevo": "Togetic",
-    "evoItem": "Shiny Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -19649,9 +19902,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Yanma",
-    "evoType": "levelMove",
-    "evoMove": "Ancient Power",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19679,9 +19929,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -19709,9 +19956,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoItem": "Ice Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -19741,10 +19985,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Gligar",
-    "evoItem": "Razor Fang",
-    "evoType": "levelHold",
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19774,9 +20014,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Piloswine",
-    "evoType": "levelMove",
-    "evoMove": "Ancient Power",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19805,9 +20042,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Porygon2",
-    "evoItem": "Dubious Disc",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -19838,9 +20072,6 @@
       "Human-Like",
       "Amorphous"
     ],
-    "prevo": "Kirlia",
-    "evoItem": "Dawn Stone",
-    "evoType": "useItem",
     "formes": [
       "Gallade",
       "Gallade-Mega"
@@ -19908,9 +20139,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Nosepass",
-    "evoType": "levelExtra",
-    "evoCondition": "near a special magnetic field",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19938,9 +20166,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Dusclops",
-    "evoItem": "Reaper Cloth",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -19970,9 +20195,6 @@
       "Fairy",
       "Mineral"
     ],
-    "prevo": "Snorunt",
-    "evoItem": "Dawn Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -21612,7 +21834,10 @@
       "Grass"
     ],
     "evos": [
-      "Servine"
+      {
+        "target": "Servine",
+        "level": 17
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -21643,10 +21868,11 @@
       "Grass"
     ],
     "evos": [
-      "Serperior"
+      {
+        "target": "Serperior",
+        "level": 36
+      }
     ],
-    "prevo": "Snivy",
-    "evoLevel": 17,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -21675,8 +21901,6 @@
       "Field",
       "Grass"
     ],
-    "prevo": "Servine",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -21705,7 +21929,10 @@
       "Field"
     ],
     "evos": [
-      "Pignite"
+      {
+        "target": "Pignite",
+        "level": 17
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -21736,10 +21963,11 @@
       "Field"
     ],
     "evos": [
-      "Emboar"
+      {
+        "target": "Emboar",
+        "level": 36
+      }
     ],
-    "prevo": "Tepig",
-    "evoLevel": 17,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -21768,8 +21996,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Pignite",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -21798,7 +22024,10 @@
       "Field"
     ],
     "evos": [
-      "Dewott"
+      {
+        "target": "Dewott",
+        "level": 17
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -21828,11 +22057,15 @@
       "Field"
     ],
     "evos": [
-      "Samurott",
-      "Samurott-Hisui"
+      {
+        "target": "Samurott",
+        "level": 36
+      },
+      {
+        "target": "Samurott-Hisui",
+        "level": 36
+      }
     ],
-    "prevo": "Oshawott",
-    "evoLevel": 17,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -21860,8 +22093,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Dewott",
-    "evoLevel": 36,
     "formes": [
       "Samurott",
       "Samurott-Hisui"
@@ -21894,8 +22125,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Dewott",
-    "evoLevel": 36,
     "baseSpecies": "Samurott",
     "forme": "Hisui",
     "formes": [
@@ -21931,7 +22160,10 @@
       "Field"
     ],
     "evos": [
-      "Watchog"
+      {
+        "target": "Watchog",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -21961,8 +22193,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Patrat",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -21992,7 +22222,10 @@
       "Field"
     ],
     "evos": [
-      "Herdier"
+      {
+        "target": "Herdier",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22023,10 +22256,11 @@
       "Field"
     ],
     "evos": [
-      "Stoutland"
+      {
+        "target": "Stoutland",
+        "level": 32
+      }
     ],
-    "prevo": "Lillipup",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22055,8 +22289,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Herdier",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22086,7 +22318,10 @@
       "Field"
     ],
     "evos": [
-      "Liepard"
+      {
+        "target": "Liepard",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22116,8 +22351,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Purrloin",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22146,7 +22379,10 @@
       "Field"
     ],
     "evos": [
-      "Simisage"
+      {
+        "target": "Simisage",
+        "item": "Leaf Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -22175,9 +22411,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Pansage",
-    "evoItem": "Leaf Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -22206,7 +22439,10 @@
       "Field"
     ],
     "evos": [
-      "Simisear"
+      {
+        "target": "Simisear",
+        "item": "Fire Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -22235,9 +22471,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Pansear",
-    "evoItem": "Fire Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -22266,7 +22499,10 @@
       "Field"
     ],
     "evos": [
-      "Simipour"
+      {
+        "target": "Simipour",
+        "item": "Water Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -22295,9 +22531,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Panpour",
-    "evoItem": "Water Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -22327,7 +22560,10 @@
       "Field"
     ],
     "evos": [
-      "Musharna"
+      {
+        "target": "Musharna",
+        "item": "Moon Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22357,9 +22593,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Munna",
-    "evoItem": "Moon Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22390,7 +22623,10 @@
       "Flying"
     ],
     "evos": [
-      "Tranquill"
+      {
+        "target": "Tranquill",
+        "level": 21
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22422,10 +22658,11 @@
       "Flying"
     ],
     "evos": [
-      "Unfezant"
+      {
+        "target": "Unfezant",
+        "level": 32
+      }
     ],
-    "prevo": "Pidove",
-    "evoLevel": 21,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22455,8 +22692,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Tranquill",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22486,7 +22721,10 @@
       "Field"
     ],
     "evos": [
-      "Zebstrika"
+      {
+        "target": "Zebstrika",
+        "level": 27
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22516,8 +22754,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Blitzle",
-    "evoLevel": 27,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22547,7 +22783,10 @@
       "Mineral"
     ],
     "evos": [
-      "Boldore"
+      {
+        "target": "Boldore",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22578,10 +22817,10 @@
       "Mineral"
     ],
     "evos": [
-      "Gigalith"
+      {
+        "target": "Gigalith"
+      }
     ],
-    "prevo": "Roggenrola",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22610,8 +22849,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Boldore",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22643,7 +22880,9 @@
       "Field"
     ],
     "evos": [
-      "Swoobat"
+      {
+        "target": "Swoobat"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22675,8 +22914,6 @@
       "Flying",
       "Field"
     ],
-    "prevo": "Woobat",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22706,7 +22943,10 @@
       "Field"
     ],
     "evos": [
-      "Excadrill"
+      {
+        "target": "Excadrill",
+        "level": 31
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22737,8 +22977,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Drilbur",
-    "evoLevel": 31,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22834,7 +23072,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Gurdurr"
+      {
+        "target": "Gurdurr",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.75,
@@ -22865,10 +23106,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Conkeldurr"
+      {
+        "target": "Conkeldurr"
+      }
     ],
-    "prevo": "Timburr",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -22897,8 +23138,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Gurdurr",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -22928,7 +23167,10 @@
       "Water 1"
     ],
     "evos": [
-      "Palpitoad"
+      {
+        "target": "Palpitoad",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -22960,10 +23202,11 @@
       "Water 1"
     ],
     "evos": [
-      "Seismitoad"
+      {
+        "target": "Seismitoad",
+        "level": 36
+      }
     ],
-    "prevo": "Tympole",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -22993,8 +23236,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Palpitoad",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23081,7 +23322,10 @@
       "Bug"
     ],
     "evos": [
-      "Swadloon"
+      {
+        "target": "Swadloon",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -23113,10 +23357,10 @@
       "Bug"
     ],
     "evos": [
-      "Leavanny"
+      {
+        "target": "Leavanny"
+      }
     ],
-    "prevo": "Sewaddle",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23146,8 +23390,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Swadloon",
-    "evoType": "levelFriendship",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23178,7 +23420,10 @@
       "Bug"
     ],
     "evos": [
-      "Whirlipede"
+      {
+        "target": "Whirlipede",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -23210,10 +23455,11 @@
       "Bug"
     ],
     "evos": [
-      "Scolipede"
+      {
+        "target": "Scolipede",
+        "level": 30
+      }
     ],
-    "prevo": "Venipede",
-    "evoLevel": 22,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23243,8 +23489,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Whirlipede",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23276,7 +23520,10 @@
       "Grass"
     ],
     "evos": [
-      "Whimsicott"
+      {
+        "target": "Whimsicott",
+        "item": "Sun Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -23308,9 +23555,6 @@
       "Fairy",
       "Grass"
     ],
-    "prevo": "Cottonee",
-    "evoItem": "Sun Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23340,8 +23584,14 @@
       "Grass"
     ],
     "evos": [
-      "Lilligant",
-      "Lilligant-Hisui"
+      {
+        "target": "Lilligant",
+        "item": "Sun Stone"
+      },
+      {
+        "target": "Lilligant-Hisui",
+        "item": "Sun Stone"
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -23371,9 +23621,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Petilil",
-    "evoItem": "Sun Stone",
-    "evoType": "useItem",
     "formes": [
       "Lilligant",
       "Lilligant-Hisui"
@@ -23407,9 +23654,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Petilil",
-    "evoItem": "Sun Stone",
-    "evoType": "useItem",
     "baseSpecies": "Lilligant",
     "forme": "Hisui",
     "formes": [
@@ -23513,8 +23757,14 @@
       "Water 2"
     ],
     "evos": [
-      "Basculegion",
-      "Basculegion-F"
+      {
+        "target": "Basculegion",
+        "condition": "Receive 294+ recoil without fainting"
+      },
+      {
+        "target": "Basculegion-F",
+        "condition": "Receive 294+ recoil without fainting"
+      }
     ],
     "baseSpecies": "Basculin",
     "forme": "White-Striped",
@@ -23553,7 +23803,10 @@
       "Field"
     ],
     "evos": [
-      "Krokorok"
+      {
+        "target": "Krokorok",
+        "level": 29
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -23585,10 +23838,11 @@
       "Field"
     ],
     "evos": [
-      "Krookodile"
+      {
+        "target": "Krookodile",
+        "level": 40
+      }
     ],
-    "prevo": "Sandile",
-    "evoLevel": 29,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23618,8 +23872,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Krokorok",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23648,7 +23900,10 @@
       "Field"
     ],
     "evos": [
-      "Darmanitan"
+      {
+        "target": "Darmanitan",
+        "level": 35
+      }
     ],
     "formes": [
       "Darumaka",
@@ -23682,7 +23937,10 @@
       "Field"
     ],
     "evos": [
-      "Darmanitan-Galar"
+      {
+        "target": "Darmanitan-Galar",
+        "item": "Ice Stone"
+      }
     ],
     "baseSpecies": "Darumaka",
     "forme": "Galar",
@@ -23717,8 +23975,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Darumaka",
-    "evoLevel": 35,
     "formes": [
       "Darmanitan",
       "Darmanitan-Zen",
@@ -23752,9 +24008,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Darumaka-Galar",
-    "evoItem": "Ice Stone",
-    "evoType": "useItem",
     "baseSpecies": "Darmanitan",
     "forme": "Galar",
     "formes": [
@@ -23892,7 +24145,10 @@
       "Mineral"
     ],
     "evos": [
-      "Crustle"
+      {
+        "target": "Crustle",
+        "level": 34
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -23924,8 +24180,6 @@
       "Bug",
       "Mineral"
     ],
-    "prevo": "Dwebble",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -23957,7 +24211,10 @@
       "Dragon"
     ],
     "evos": [
-      "Scrafty"
+      {
+        "target": "Scrafty",
+        "level": 39
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -23989,8 +24246,6 @@
       "Field",
       "Dragon"
     ],
-    "prevo": "Scraggy",
-    "evoLevel": 39,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24048,7 +24303,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Cofagrigus"
+      {
+        "target": "Cofagrigus",
+        "level": 34
+      }
     ],
     "formes": [
       "Yamask",
@@ -24083,7 +24341,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Runerigus"
+      {
+        "target": "Runerigus",
+        "condition": "Have 49+ HP lost and walk under stone sculpture in Dusty Bowl"
+      }
     ],
     "baseSpecies": "Yamask",
     "forme": "Galar",
@@ -24118,8 +24379,6 @@
       "Mineral",
       "Amorphous"
     ],
-    "prevo": "Yamask",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24151,7 +24410,10 @@
       "Water 3"
     ],
     "evos": [
-      "Carracosta"
+      {
+        "target": "Carracosta",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -24183,8 +24445,6 @@
       "Water 1",
       "Water 3"
     ],
-    "prevo": "Tirtouga",
-    "evoLevel": 37,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -24214,7 +24474,10 @@
       "Water 3"
     ],
     "evos": [
-      "Archeops"
+      {
+        "target": "Archeops",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -24244,8 +24507,6 @@
       "Flying",
       "Water 3"
     ],
-    "prevo": "Archen",
-    "evoLevel": 37,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -24275,7 +24536,10 @@
       "Mineral"
     ],
     "evos": [
-      "Garbodor"
+      {
+        "target": "Garbodor",
+        "level": 36
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -24305,8 +24569,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Trubbish",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24364,7 +24626,10 @@
       "Field"
     ],
     "evos": [
-      "Zoroark"
+      {
+        "target": "Zoroark",
+        "level": 30
+      }
     ],
     "formes": [
       "Zorua",
@@ -24398,7 +24663,10 @@
       "Field"
     ],
     "evos": [
-      "Zoroark-Hisui"
+      {
+        "target": "Zoroark-Hisui",
+        "level": 30
+      }
     ],
     "baseSpecies": "Zorua",
     "forme": "Hisui",
@@ -24432,8 +24700,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Zorua",
-    "evoLevel": 30,
     "formes": [
       "Zoroark",
       "Zoroark-Hisui"
@@ -24465,8 +24731,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Zorua-Hisui",
-    "evoLevel": 30,
     "baseSpecies": "Zoroark",
     "forme": "Hisui",
     "formes": [
@@ -24502,7 +24766,10 @@
       "Field"
     ],
     "evos": [
-      "Cinccino"
+      {
+        "target": "Cinccino",
+        "item": "Shiny Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -24532,9 +24799,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Minccino",
-    "evoItem": "Shiny Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -24564,7 +24828,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Gothorita"
+      {
+        "target": "Gothorita",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.25,
@@ -24595,10 +24862,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Gothitelle"
+      {
+        "target": "Gothitelle",
+        "level": 41
+      }
     ],
-    "prevo": "Gothita",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -24627,8 +24895,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Gothorita",
-    "evoLevel": 41,
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -24658,7 +24924,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Duosion"
+      {
+        "target": "Duosion",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -24689,10 +24958,11 @@
       "Amorphous"
     ],
     "evos": [
-      "Reuniclus"
+      {
+        "target": "Reuniclus",
+        "level": 41
+      }
     ],
-    "prevo": "Solosis",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24721,8 +24991,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Duosion",
-    "evoLevel": 41,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24754,7 +25022,10 @@
       "Flying"
     ],
     "evos": [
-      "Swanna"
+      {
+        "target": "Swanna",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -24786,8 +25057,6 @@
       "Water 1",
       "Flying"
     ],
-    "prevo": "Ducklett",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24817,7 +25086,10 @@
       "Mineral"
     ],
     "evos": [
-      "Vanillish"
+      {
+        "target": "Vanillish",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -24848,10 +25120,11 @@
       "Mineral"
     ],
     "evos": [
-      "Vanilluxe"
+      {
+        "target": "Vanilluxe",
+        "level": 47
+      }
     ],
-    "prevo": "Vanillite",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24880,8 +25153,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Vanillish",
-    "evoLevel": 47,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -24912,7 +25183,10 @@
       "Field"
     ],
     "evos": [
-      "Sawsbuck"
+      {
+        "target": "Sawsbuck",
+        "level": 34
+      }
     ],
     "cosmeticFormes": [
       "Summer",
@@ -24948,8 +25222,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Deerling",
-    "evoLevel": 34,
     "cosmeticFormes": [
       "Summer",
       "Autumn",
@@ -25012,7 +25284,10 @@
       "Bug"
     ],
     "evos": [
-      "Escavalier"
+      {
+        "target": "Escavalier",
+        "condition": "with a Shelmet"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25043,9 +25318,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Karrablast",
-    "evoType": "trade",
-    "evoCondition": "with a Shelmet",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25075,7 +25347,10 @@
       "Grass"
     ],
     "evos": [
-      "Amoonguss"
+      {
+        "target": "Amoonguss",
+        "level": 39
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25105,8 +25380,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Foongus",
-    "evoLevel": 39,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25137,7 +25410,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Jellicent"
+      {
+        "target": "Jellicent",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25168,8 +25444,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Frillish",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25229,7 +25503,10 @@
       "Bug"
     ],
     "evos": [
-      "Galvantula"
+      {
+        "target": "Galvantula",
+        "level": 36
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25260,8 +25537,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Joltik",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25291,7 +25566,10 @@
       "Mineral"
     ],
     "evos": [
-      "Ferrothorn"
+      {
+        "target": "Ferrothorn",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25322,8 +25600,6 @@
       "Grass",
       "Mineral"
     ],
-    "prevo": "Ferroseed",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25353,7 +25629,10 @@
       "Mineral"
     ],
     "evos": [
-      "Klang"
+      {
+        "target": "Klang",
+        "level": 38
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -25384,10 +25663,11 @@
       "Mineral"
     ],
     "evos": [
-      "Klinklang"
+      {
+        "target": "Klinklang",
+        "level": 49
+      }
     ],
-    "prevo": "Klink",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -25416,8 +25696,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Klang",
-    "evoLevel": 49,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -25445,7 +25723,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Eelektrik"
+      {
+        "target": "Eelektrik",
+        "level": 39
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25474,10 +25755,11 @@
       "Amorphous"
     ],
     "evos": [
-      "Eelektross"
+      {
+        "target": "Eelektross",
+        "item": "Thunder Stone"
+      }
     ],
-    "prevo": "Tynamo",
-    "evoLevel": 39,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25504,9 +25786,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Eelektrik",
-    "evoItem": "Thunder Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25536,7 +25815,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Beheeyem"
+      {
+        "target": "Beheeyem",
+        "level": 42
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25566,8 +25848,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Elgyem",
-    "evoLevel": 42,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25598,7 +25878,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Lampent"
+      {
+        "target": "Lampent",
+        "level": 41
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25630,10 +25913,11 @@
       "Amorphous"
     ],
     "evos": [
-      "Chandelure"
+      {
+        "target": "Chandelure",
+        "item": "Dusk Stone"
+      }
     ],
-    "prevo": "Litwick",
-    "evoLevel": 41,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25663,9 +25947,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Lampent",
-    "evoItem": "Dusk Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25696,7 +25977,10 @@
       "Dragon"
     ],
     "evos": [
-      "Fraxure"
+      {
+        "target": "Fraxure",
+        "level": 38
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25728,10 +26012,11 @@
       "Dragon"
     ],
     "evos": [
-      "Haxorus"
+      {
+        "target": "Haxorus",
+        "level": 48
+      }
     ],
-    "prevo": "Axew",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25761,8 +26046,6 @@
       "Monster",
       "Dragon"
     ],
-    "prevo": "Fraxure",
-    "evoLevel": 48,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25792,7 +26075,10 @@
       "Field"
     ],
     "evos": [
-      "Beartic"
+      {
+        "target": "Beartic",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25822,8 +26108,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Cubchoo",
-    "evoLevel": 37,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -25879,7 +26163,10 @@
       "Bug"
     ],
     "evos": [
-      "Accelgor"
+      {
+        "target": "Accelgor",
+        "condition": "with a Karrablast"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -25909,9 +26196,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Shelmet",
-    "evoType": "trade",
-    "evoCondition": "with a Karrablast",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -26010,7 +26294,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Mienshao"
+      {
+        "target": "Mienshao",
+        "level": 50
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -26041,8 +26328,6 @@
       "Field",
       "Human-Like"
     ],
-    "prevo": "Mienfoo",
-    "evoLevel": 50,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -26102,7 +26387,10 @@
       "Mineral"
     ],
     "evos": [
-      "Golurk"
+      {
+        "target": "Golurk",
+        "level": 43
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -26133,8 +26421,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Golett",
-    "evoLevel": 43,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -26165,7 +26451,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Bisharp"
+      {
+        "target": "Bisharp",
+        "level": 52
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -26197,10 +26486,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Kingambit"
+      {
+        "target": "Kingambit",
+        "condition": "Defeat 3 Bisharp leading Pawniard and level-up"
+      }
     ],
-    "prevo": "Pawniard",
-    "evoLevel": 52,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -26259,8 +26549,14 @@
       "Flying"
     ],
     "evos": [
-      "Braviary",
-      "Braviary-Hisui"
+      {
+        "target": "Braviary",
+        "level": 54
+      },
+      {
+        "target": "Braviary-Hisui",
+        "level": 54
+      }
     ],
     "genderRatio": {
       "M": 1,
@@ -26291,8 +26587,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Rufflet",
-    "evoLevel": 54,
     "formes": [
       "Braviary",
       "Braviary-Hisui"
@@ -26326,8 +26620,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Rufflet",
-    "evoLevel": 54,
     "baseSpecies": "Braviary",
     "forme": "Hisui",
     "formes": [
@@ -26364,7 +26656,10 @@
       "Flying"
     ],
     "evos": [
-      "Mandibuzz"
+      {
+        "target": "Mandibuzz",
+        "level": 54
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -26395,8 +26690,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Vullaby",
-    "evoLevel": 54,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -26482,7 +26775,10 @@
       "Dragon"
     ],
     "evos": [
-      "Zweilous"
+      {
+        "target": "Zweilous",
+        "level": 50
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -26512,10 +26808,11 @@
       "Dragon"
     ],
     "evos": [
-      "Hydreigon"
+      {
+        "target": "Hydreigon",
+        "level": 64
+      }
     ],
-    "prevo": "Deino",
-    "evoLevel": 50,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -26543,8 +26840,6 @@
     "eggGroups": [
       "Dragon"
     ],
-    "prevo": "Zweilous",
-    "evoLevel": 64,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -26574,7 +26869,10 @@
       "Bug"
     ],
     "evos": [
-      "Volcarona"
+      {
+        "target": "Volcarona",
+        "level": 59
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -26604,8 +26902,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Larvesta",
-    "evoLevel": 59,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -27372,7 +27668,10 @@
       "Field"
     ],
     "evos": [
-      "Quilladin"
+      {
+        "target": "Quilladin",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -27402,10 +27701,11 @@
       "Field"
     ],
     "evos": [
-      "Chesnaught"
+      {
+        "target": "Chesnaught",
+        "level": 36
+      }
     ],
-    "prevo": "Chespin",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -27434,8 +27734,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Quilladin",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -27464,7 +27762,10 @@
       "Field"
     ],
     "evos": [
-      "Braixen"
+      {
+        "target": "Braixen",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -27494,10 +27795,11 @@
       "Field"
     ],
     "evos": [
-      "Delphox"
+      {
+        "target": "Delphox",
+        "level": 36
+      }
     ],
-    "prevo": "Fennekin",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -27526,8 +27828,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Braixen",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -27556,7 +27856,10 @@
       "Water 1"
     ],
     "evos": [
-      "Frogadier"
+      {
+        "target": "Frogadier",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -27586,10 +27889,11 @@
       "Water 1"
     ],
     "evos": [
-      "Greninja"
+      {
+        "target": "Greninja",
+        "level": 36
+      }
     ],
-    "prevo": "Froakie",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -27619,8 +27923,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Frogadier",
-    "evoLevel": 36,
     "formes": [
       "Greninja",
       "Greninja-Bond",
@@ -27723,7 +28025,10 @@
       "Field"
     ],
     "evos": [
-      "Diggersby"
+      {
+        "target": "Diggersby",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -27754,8 +28059,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Bunnelby",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -27785,7 +28088,10 @@
       "Flying"
     ],
     "evos": [
-      "Fletchinder"
+      {
+        "target": "Fletchinder",
+        "level": 17
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -27816,10 +28122,11 @@
       "Flying"
     ],
     "evos": [
-      "Talonflame"
+      {
+        "target": "Talonflame",
+        "level": 35
+      }
     ],
-    "prevo": "Fletchling",
-    "evoLevel": 17,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -27848,8 +28155,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Fletchinder",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -27879,7 +28184,10 @@
       "Bug"
     ],
     "evos": [
-      "Spewpa"
+      {
+        "target": "Spewpa",
+        "level": 9
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -27909,11 +28217,15 @@
       "Bug"
     ],
     "evos": [
-      "Vivillon",
-      "Vivillon-Fancy"
+      {
+        "target": "Vivillon",
+        "level": 12
+      },
+      {
+        "target": "Vivillon-Fancy",
+        "level": 12
+      }
     ],
-    "prevo": "Scatterbug",
-    "evoLevel": 9,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -27943,8 +28255,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Spewpa",
-    "evoLevel": 12,
     "formes": [
       "Vivillon",
       "Vivillon-Fancy",
@@ -27998,8 +28308,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Spewpa",
-    "evoLevel": 12,
     "baseSpecies": "Vivillon",
     "forme": "Fancy",
     "formes": [
@@ -28073,7 +28381,10 @@
       "Field"
     ],
     "evos": [
-      "Pyroar"
+      {
+        "target": "Pyroar",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.125,
@@ -28104,8 +28415,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Litleo",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.125,
       "F": 0.875
@@ -28134,7 +28443,10 @@
       "Fairy"
     ],
     "evos": [
-      "Floette"
+      {
+        "target": "Floette",
+        "level": 19
+      }
     ],
     "cosmeticFormes": [
       "Blue",
@@ -28170,10 +28482,11 @@
       "Fairy"
     ],
     "evos": [
-      "Florges"
+      {
+        "target": "Florges",
+        "item": "Shiny Stone"
+      }
     ],
-    "prevo": "Flabébé",
-    "evoLevel": 19,
     "formes": [
       "Floette",
       "Floette-Eternal"
@@ -28243,9 +28556,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Floette",
-    "evoItem": "Shiny Stone",
-    "evoType": "useItem",
     "cosmeticFormes": [
       "Blue",
       "Orange",
@@ -28280,7 +28590,10 @@
       "Field"
     ],
     "evos": [
-      "Gogoat"
+      {
+        "target": "Gogoat",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28309,8 +28622,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Skiddo",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28341,7 +28652,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Pangoro"
+      {
+        "target": "Pangoro",
+        "condition": "with a Dark-type in the party",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28373,9 +28688,6 @@
       "Field",
       "Human-Like"
     ],
-    "prevo": "Pancham",
-    "evoLevel": 32,
-    "evoCondition": "with a Dark-type in the party",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28442,8 +28754,14 @@
       "Field"
     ],
     "evos": [
-      "Meowstic",
-      "Meowstic-F"
+      {
+        "target": "Meowstic",
+        "level": 25
+      },
+      {
+        "target": "Meowstic-F",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28473,8 +28791,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Espurr",
-    "evoLevel": 25,
     "formes": [
       "Meowstic",
       "Meowstic-F"
@@ -28507,8 +28823,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Espurr",
-    "evoLevel": 25,
     "baseSpecies": "Meowstic",
     "forme": "F",
     "formes": [
@@ -28543,7 +28857,10 @@
       "Mineral"
     ],
     "evos": [
-      "Doublade"
+      {
+        "target": "Doublade",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28573,10 +28890,11 @@
       "Mineral"
     ],
     "evos": [
-      "Aegislash"
+      {
+        "target": "Aegislash",
+        "item": "Dusk Stone"
+      }
     ],
-    "prevo": "Honedge",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28604,9 +28922,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Doublade",
-    "evoItem": "Dusk Stone",
-    "evoType": "useItem",
     "formes": [
       "Aegislash",
       "Aegislash-Blade"
@@ -28672,7 +28987,10 @@
       "Fairy"
     ],
     "evos": [
-      "Aromatisse"
+      {
+        "target": "Aromatisse",
+        "item": "Sachet"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28701,9 +29019,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Spritzee",
-    "evoItem": "Sachet",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28732,7 +29047,10 @@
       "Fairy"
     ],
     "evos": [
-      "Slurpuff"
+      {
+        "target": "Slurpuff",
+        "item": "Whipped Dream"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28761,9 +29079,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Swirlix",
-    "evoItem": "Whipped Dream",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28795,7 +29110,11 @@
       "Water 2"
     ],
     "evos": [
-      "Malamar"
+      {
+        "target": "Malamar",
+        "condition": "with the console turned upside-down",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28827,9 +29146,6 @@
       "Water 1",
       "Water 2"
     ],
-    "prevo": "Inkay",
-    "evoLevel": 30,
-    "evoCondition": "with the console turned upside-down",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28860,7 +29176,10 @@
       "Water 3"
     ],
     "evos": [
-      "Barbaracle"
+      {
+        "target": "Barbaracle",
+        "level": 39
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28891,8 +29210,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Binacle",
-    "evoLevel": 39,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28924,7 +29241,10 @@
       "Dragon"
     ],
     "evos": [
-      "Dragalge"
+      {
+        "target": "Dragalge",
+        "level": 48
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -28956,8 +29276,6 @@
       "Water 1",
       "Dragon"
     ],
-    "prevo": "Skrelp",
-    "evoLevel": 48,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -28986,7 +29304,10 @@
       "Water 3"
     ],
     "evos": [
-      "Clawitzer"
+      {
+        "target": "Clawitzer",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -29015,8 +29336,6 @@
       "Water 1",
       "Water 3"
     ],
-    "prevo": "Clauncher",
-    "evoLevel": 37,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -29048,7 +29367,10 @@
       "Dragon"
     ],
     "evos": [
-      "Heliolisk"
+      {
+        "target": "Heliolisk",
+        "item": "Sun Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -29080,9 +29402,6 @@
       "Monster",
       "Dragon"
     ],
-    "prevo": "Helioptile",
-    "evoItem": "Sun Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -29113,7 +29432,11 @@
       "Dragon"
     ],
     "evos": [
-      "Tyrantrum"
+      {
+        "target": "Tyrantrum",
+        "condition": "during the day",
+        "level": 39
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -29144,9 +29467,6 @@
       "Monster",
       "Dragon"
     ],
-    "prevo": "Tyrunt",
-    "evoLevel": 39,
-    "evoCondition": "during the day",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -29176,7 +29496,11 @@
       "Monster"
     ],
     "evos": [
-      "Aurorus"
+      {
+        "target": "Aurorus",
+        "condition": "at night",
+        "level": 39
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -29206,9 +29530,6 @@
     "eggGroups": [
       "Monster"
     ],
-    "prevo": "Amaura",
-    "evoLevel": 39,
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -29236,9 +29557,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Eevee",
-    "evoType": "levelExtra",
-    "evoCondition": "with a Fairy-type move and two levels of Affection",
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -29357,8 +29675,14 @@
       "Dragon"
     ],
     "evos": [
-      "Sliggoo",
-      "Sliggoo-Hisui"
+      {
+        "target": "Sliggoo",
+        "level": 40
+      },
+      {
+        "target": "Sliggoo-Hisui",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -29389,10 +29713,11 @@
       "Dragon"
     ],
     "evos": [
-      "Goodra"
+      {
+        "target": "Goodra",
+        "level": 50
+      }
     ],
-    "prevo": "Goomy",
-    "evoLevel": 40,
     "formes": [
       "Sliggoo",
       "Sliggoo-Hisui"
@@ -29427,10 +29752,11 @@
       "Dragon"
     ],
     "evos": [
-      "Goodra-Hisui"
+      {
+        "target": "Goodra-Hisui",
+        "level": 50
+      }
     ],
-    "prevo": "Goomy",
-    "evoLevel": 40,
     "baseSpecies": "Sliggoo",
     "forme": "Hisui",
     "formes": [
@@ -29465,8 +29791,6 @@
     "eggGroups": [
       "Dragon"
     ],
-    "prevo": "Sliggoo",
-    "evoLevel": 50,
     "formes": [
       "Goodra",
       "Goodra-Hisui"
@@ -29500,8 +29824,6 @@
     "eggGroups": [
       "Dragon"
     ],
-    "prevo": "Sliggoo-Hisui",
-    "evoLevel": 50,
     "baseSpecies": "Goodra",
     "forme": "Hisui",
     "formes": [
@@ -29567,7 +29889,9 @@
       "Amorphous"
     ],
     "evos": [
-      "Trevenant"
+      {
+        "target": "Trevenant"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -29599,8 +29923,6 @@
       "Grass",
       "Amorphous"
     ],
-    "prevo": "Phantump",
-    "evoType": "trade",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -29631,7 +29953,9 @@
       "Amorphous"
     ],
     "evos": [
-      "Gourgeist"
+      {
+        "target": "Gourgeist"
+      }
     ],
     "formes": [
       "Pumpkaboo",
@@ -29669,7 +29993,9 @@
       "Amorphous"
     ],
     "evos": [
-      "Gourgeist-Large"
+      {
+        "target": "Gourgeist-Large"
+      }
     ],
     "baseSpecies": "Pumpkaboo",
     "forme": "Large",
@@ -29709,7 +30035,9 @@
       "Amorphous"
     ],
     "evos": [
-      "Gourgeist-Small"
+      {
+        "target": "Gourgeist-Small"
+      }
     ],
     "baseSpecies": "Pumpkaboo",
     "forme": "Small",
@@ -29749,7 +30077,9 @@
       "Amorphous"
     ],
     "evos": [
-      "Gourgeist-Super"
+      {
+        "target": "Gourgeist-Super"
+      }
     ],
     "baseSpecies": "Pumpkaboo",
     "forme": "Super",
@@ -29788,8 +30118,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Pumpkaboo",
-    "evoType": "trade",
     "formes": [
       "Gourgeist",
       "Gourgeist-Small",
@@ -29825,8 +30153,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Pumpkaboo-Large",
-    "evoType": "trade",
     "baseSpecies": "Gourgeist",
     "forme": "Large",
     "formes": [
@@ -29864,8 +30190,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Pumpkaboo-Small",
-    "evoType": "trade",
     "baseSpecies": "Gourgeist",
     "forme": "Small",
     "formes": [
@@ -29903,8 +30227,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Pumpkaboo-Super",
-    "evoType": "trade",
     "baseSpecies": "Gourgeist",
     "forme": "Super",
     "formes": [
@@ -29943,8 +30265,14 @@
       "Mineral"
     ],
     "evos": [
-      "Avalugg",
-      "Avalugg-Hisui"
+      {
+        "target": "Avalugg",
+        "level": 37
+      },
+      {
+        "target": "Avalugg-Hisui",
+        "level": 37
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -29975,8 +30303,6 @@
       "Monster",
       "Mineral"
     ],
-    "prevo": "Bergmite",
-    "evoLevel": 37,
     "formes": [
       "Avalugg",
       "Avalugg-Hisui"
@@ -30011,8 +30337,6 @@
       "Monster",
       "Mineral"
     ],
-    "prevo": "Bergmite",
-    "evoLevel": 37,
     "baseSpecies": "Avalugg",
     "forme": "Hisui",
     "formes": [
@@ -30050,7 +30374,10 @@
       "Dragon"
     ],
     "evos": [
-      "Noivern"
+      {
+        "target": "Noivern",
+        "level": 48
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -30082,8 +30409,6 @@
       "Flying",
       "Dragon"
     ],
-    "prevo": "Noibat",
-    "evoLevel": 48,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -30430,7 +30755,10 @@
       "Flying"
     ],
     "evos": [
-      "Dartrix"
+      {
+        "target": "Dartrix",
+        "level": 17
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -30461,11 +30789,15 @@
       "Flying"
     ],
     "evos": [
-      "Decidueye",
-      "Decidueye-Hisui"
+      {
+        "target": "Decidueye",
+        "level": 34
+      },
+      {
+        "target": "Decidueye-Hisui",
+        "level": 36
+      }
     ],
-    "prevo": "Rowlet",
-    "evoLevel": 17,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -30494,8 +30826,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Dartrix",
-    "evoLevel": 34,
     "formes": [
       "Decidueye",
       "Decidueye-Hisui"
@@ -30528,8 +30858,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Dartrix",
-    "evoLevel": 36,
     "baseSpecies": "Decidueye",
     "forme": "Hisui",
     "formes": [
@@ -30564,7 +30892,10 @@
       "Field"
     ],
     "evos": [
-      "Torracat"
+      {
+        "target": "Torracat",
+        "level": 17
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -30594,10 +30925,11 @@
       "Field"
     ],
     "evos": [
-      "Incineroar"
+      {
+        "target": "Incineroar",
+        "level": 34
+      }
     ],
-    "prevo": "Litten",
-    "evoLevel": 17,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -30626,8 +30958,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Torracat",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -30657,7 +30987,10 @@
       "Field"
     ],
     "evos": [
-      "Brionne"
+      {
+        "target": "Brionne",
+        "level": 17
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -30688,10 +31021,11 @@
       "Field"
     ],
     "evos": [
-      "Primarina"
+      {
+        "target": "Primarina",
+        "level": 34
+      }
     ],
-    "prevo": "Popplio",
-    "evoLevel": 17,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -30721,8 +31055,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Brionne",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -30753,7 +31085,10 @@
       "Flying"
     ],
     "evos": [
-      "Trumbeak"
+      {
+        "target": "Trumbeak",
+        "level": 14
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -30785,10 +31120,11 @@
       "Flying"
     ],
     "evos": [
-      "Toucannon"
+      {
+        "target": "Toucannon",
+        "level": 28
+      }
     ],
-    "prevo": "Pikipek",
-    "evoLevel": 14,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -30818,8 +31154,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Trumbeak",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -30849,7 +31183,11 @@
       "Field"
     ],
     "evos": [
-      "Gumshoos"
+      {
+        "target": "Gumshoos",
+        "condition": "during the day",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -30879,9 +31217,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Yungoos",
-    "evoLevel": 20,
-    "evoCondition": "during the day",
     "formes": [
       "Gumshoos",
       "Gumshoos-Totem"
@@ -30945,7 +31280,10 @@
       "Bug"
     ],
     "evos": [
-      "Charjabug"
+      {
+        "target": "Charjabug",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -30975,10 +31313,11 @@
       "Bug"
     ],
     "evos": [
-      "Vikavolt"
+      {
+        "target": "Vikavolt",
+        "item": "Thunder Stone"
+      }
     ],
-    "prevo": "Grubbin",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -31006,9 +31345,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Charjabug",
-    "evoItem": "Thunder Stone",
-    "evoType": "useItem",
     "formes": [
       "Vikavolt",
       "Vikavolt-Totem"
@@ -31075,7 +31411,10 @@
       "Water 3"
     ],
     "evos": [
-      "Crabominable"
+      {
+        "target": "Crabominable",
+        "item": "Ice Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -31106,9 +31445,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Crabrawler",
-    "evoItem": "Ice Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -31278,7 +31614,10 @@
       "Fairy"
     ],
     "evos": [
-      "Ribombee"
+      {
+        "target": "Ribombee",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -31310,8 +31649,6 @@
       "Bug",
       "Fairy"
     ],
-    "prevo": "Cutiefly",
-    "evoLevel": 25,
     "formes": [
       "Ribombee",
       "Ribombee-Totem"
@@ -31380,9 +31717,21 @@
       "Field"
     ],
     "evos": [
-      "Lycanroc",
-      "Lycanroc-Midnight",
-      "Lycanroc-Dusk"
+      {
+        "target": "Lycanroc",
+        "condition": "during the day",
+        "level": 25
+      },
+      {
+        "target": "Lycanroc-Midnight",
+        "condition": "at night",
+        "level": 25
+      },
+      {
+        "target": "Lycanroc-Dusk",
+        "condition": "from a special Rockruff",
+        "level": 25
+      }
     ],
     "formes": [
       "Rockruff",
@@ -31416,9 +31765,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Rockruff",
-    "evoLevel": 25,
-    "evoCondition": "during the day",
     "formes": [
       "Lycanroc",
       "Lycanroc-Midnight",
@@ -31450,9 +31796,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Rockruff",
-    "evoLevel": 25,
-    "evoCondition": "from a special Rockruff",
     "baseSpecies": "Lycanroc",
     "forme": "Dusk",
     "formes": [
@@ -31488,9 +31831,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Rockruff",
-    "evoLevel": 25,
-    "evoCondition": "at night",
     "baseSpecies": "Lycanroc",
     "forme": "Midnight",
     "formes": [
@@ -31590,7 +31930,10 @@
       "Water 1"
     ],
     "evos": [
-      "Toxapex"
+      {
+        "target": "Toxapex",
+        "level": 38
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -31621,8 +31964,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Mareanie",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -31652,7 +31993,10 @@
       "Field"
     ],
     "evos": [
-      "Mudsdale"
+      {
+        "target": "Mudsdale",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -31682,8 +32026,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Mudbray",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -31714,7 +32056,10 @@
       "Bug"
     ],
     "evos": [
-      "Araquanid"
+      {
+        "target": "Araquanid",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -31745,8 +32090,6 @@
       "Water 1",
       "Bug"
     ],
-    "prevo": "Dewpider",
-    "evoLevel": 22,
     "formes": [
       "Araquanid",
       "Araquanid-Totem"
@@ -31813,7 +32156,11 @@
       "Grass"
     ],
     "evos": [
-      "Lurantis"
+      {
+        "target": "Lurantis",
+        "condition": "during the day",
+        "level": 34
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -31842,9 +32189,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Fomantis",
-    "evoLevel": 34,
-    "evoCondition": "during the day",
     "formes": [
       "Lurantis",
       "Lurantis-Totem"
@@ -31911,7 +32255,10 @@
       "Grass"
     ],
     "evos": [
-      "Shiinotic"
+      {
+        "target": "Shiinotic",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -31942,8 +32289,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Morelull",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -31974,7 +32319,10 @@
       "Dragon"
     ],
     "evos": [
-      "Salazzle"
+      {
+        "target": "Salazzle",
+        "level": 33
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -32005,8 +32353,6 @@
       "Monster",
       "Dragon"
     ],
-    "prevo": "Salandit",
-    "evoLevel": 33,
     "formes": [
       "Salazzle",
       "Salazzle-Totem"
@@ -32075,7 +32421,10 @@
       "Field"
     ],
     "evos": [
-      "Bewear"
+      {
+        "target": "Bewear",
+        "level": 27
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -32106,8 +32455,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Stufful",
-    "evoLevel": 27,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -32137,7 +32484,10 @@
       "Grass"
     ],
     "evos": [
-      "Steenee"
+      {
+        "target": "Steenee",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -32168,10 +32518,10 @@
       "Grass"
     ],
     "evos": [
-      "Tsareena"
+      {
+        "target": "Tsareena"
+      }
     ],
-    "prevo": "Bounsweet",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -32200,9 +32550,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Steenee",
-    "evoType": "levelMove",
-    "evoMove": "Stomp",
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -32316,7 +32663,10 @@
       "Water 3"
     ],
     "evos": [
-      "Golisopod"
+      {
+        "target": "Golisopod",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -32346,8 +32696,6 @@
       "Bug",
       "Water 3"
     ],
-    "prevo": "Wimpod",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -32377,7 +32725,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Palossand"
+      {
+        "target": "Palossand",
+        "level": 42
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -32407,8 +32758,6 @@
     "eggGroups": [
       "Amorphous"
     ],
-    "prevo": "Sandygast",
-    "evoLevel": 42,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -32463,7 +32812,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Silvally"
+      {
+        "target": "Silvally"
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -32491,8 +32842,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Type: Null",
-    "evoType": "levelFriendship",
     "formes": [
       "Silvally",
       "Silvally-Fighting",
@@ -33805,7 +34154,10 @@
       "Dragon"
     ],
     "evos": [
-      "Hakamo-o"
+      {
+        "target": "Hakamo-o",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -33837,10 +34189,11 @@
       "Dragon"
     ],
     "evos": [
-      "Kommo-o"
+      {
+        "target": "Kommo-o",
+        "level": 45
+      }
     ],
-    "prevo": "Jangmo-o",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -33870,8 +34223,6 @@
     "eggGroups": [
       "Dragon"
     ],
-    "prevo": "Hakamo-o",
-    "evoLevel": 45,
     "formes": [
       "Kommo-o",
       "Kommo-o-Totem"
@@ -34048,7 +34399,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Cosmoem"
+      {
+        "target": "Cosmoem",
+        "level": 43
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -34077,11 +34431,15 @@
       "Undiscovered"
     ],
     "evos": [
-      "Solgaleo",
-      "Lunala"
+      {
+        "target": "Solgaleo",
+        "level": 53
+      },
+      {
+        "target": "Lunala",
+        "level": 53
+      }
     ],
-    "prevo": "Cosmog",
-    "evoLevel": 43,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -34109,8 +34467,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Cosmoem",
-    "evoLevel": 53,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -34138,8 +34494,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Cosmoem",
-    "evoLevel": 53,
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -34584,7 +34938,9 @@
       "Undiscovered"
     ],
     "evos": [
-      "Naganadel"
+      {
+        "target": "Naganadel"
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -34613,9 +34969,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Poipole",
-    "evoType": "levelMove",
-    "evoMove": "Dragon Pulse",
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -34805,7 +35158,10 @@
       "Grass"
     ],
     "evos": [
-      "Thwackey"
+      {
+        "target": "Thwackey",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -34836,10 +35192,11 @@
       "Grass"
     ],
     "evos": [
-      "Rillaboom"
+      {
+        "target": "Rillaboom",
+        "level": 35
+      }
     ],
-    "prevo": "Grookey",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -34868,8 +35225,6 @@
       "Field",
       "Grass"
     ],
-    "prevo": "Thwackey",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -34929,7 +35284,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Raboot"
+      {
+        "target": "Raboot",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -34960,10 +35318,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Cinderace"
+      {
+        "target": "Cinderace",
+        "level": 35
+      }
     ],
-    "prevo": "Scorbunny",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -34992,8 +35351,6 @@
       "Field",
       "Human-Like"
     ],
-    "prevo": "Raboot",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -35053,7 +35410,10 @@
       "Field"
     ],
     "evos": [
-      "Drizzile"
+      {
+        "target": "Drizzile",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -35084,10 +35444,11 @@
       "Field"
     ],
     "evos": [
-      "Inteleon"
+      {
+        "target": "Inteleon",
+        "level": 35
+      }
     ],
-    "prevo": "Sobble",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -35116,8 +35477,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Drizzile",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -35176,7 +35535,10 @@
       "Field"
     ],
     "evos": [
-      "Greedent"
+      {
+        "target": "Greedent",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35205,8 +35567,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Skwovet",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35236,7 +35596,10 @@
       "Flying"
     ],
     "evos": [
-      "Corvisquire"
+      {
+        "target": "Corvisquire",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35267,10 +35630,11 @@
       "Flying"
     ],
     "evos": [
-      "Corviknight"
+      {
+        "target": "Corviknight",
+        "level": 38
+      }
     ],
-    "prevo": "Rookidee",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35300,8 +35664,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Corvisquire",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35362,7 +35724,10 @@
       "Bug"
     ],
     "evos": [
-      "Dottler"
+      {
+        "target": "Dottler",
+        "level": 10
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35394,10 +35759,11 @@
       "Bug"
     ],
     "evos": [
-      "Orbeetle"
+      {
+        "target": "Orbeetle",
+        "level": 30
+      }
     ],
-    "prevo": "Blipbug",
-    "evoLevel": 10,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35427,8 +35793,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Dottler",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35489,7 +35853,10 @@
       "Field"
     ],
     "evos": [
-      "Thievul"
+      {
+        "target": "Thievul",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35519,8 +35886,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Nickit",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35550,7 +35915,10 @@
       "Grass"
     ],
     "evos": [
-      "Eldegoss"
+      {
+        "target": "Eldegoss",
+        "level": 20
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35580,8 +35948,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Gossifleur",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35611,7 +35977,10 @@
       "Field"
     ],
     "evos": [
-      "Dubwool"
+      {
+        "target": "Dubwool",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35641,8 +36010,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Wooloo",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35673,7 +36040,10 @@
       "Water 1"
     ],
     "evos": [
-      "Drednaw"
+      {
+        "target": "Drednaw",
+        "level": 22
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35705,8 +36075,6 @@
       "Monster",
       "Water 1"
     ],
-    "prevo": "Chewtle",
-    "evoLevel": 22,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35767,7 +36135,10 @@
       "Field"
     ],
     "evos": [
-      "Boltund"
+      {
+        "target": "Boltund",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35796,8 +36167,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Yamper",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35827,7 +36196,10 @@
       "Mineral"
     ],
     "evos": [
-      "Carkol"
+      {
+        "target": "Carkol",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35859,10 +36231,11 @@
       "Mineral"
     ],
     "evos": [
-      "Coalossal"
+      {
+        "target": "Coalossal",
+        "level": 34
+      }
     ],
-    "prevo": "Rolycoly",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35892,8 +36265,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Carkol",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -35956,9 +36327,18 @@
       "Dragon"
     ],
     "evos": [
-      "Flapple",
-      "Appletun",
-      "Dipplin"
+      {
+        "target": "Flapple",
+        "item": "Tart Apple"
+      },
+      {
+        "target": "Appletun",
+        "item": "Sweet Apple"
+      },
+      {
+        "target": "Dipplin",
+        "item": "Syrupy Apple"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -35990,9 +36370,6 @@
       "Grass",
       "Dragon"
     ],
-    "prevo": "Applin",
-    "evoItem": "Tart Apple",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -36055,9 +36432,6 @@
       "Grass",
       "Dragon"
     ],
-    "prevo": "Applin",
-    "evoItem": "Sweet Apple",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -36120,7 +36494,10 @@
       "Dragon"
     ],
     "evos": [
-      "Sandaconda"
+      {
+        "target": "Sandaconda",
+        "level": 36
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -36151,8 +36528,6 @@
       "Field",
       "Dragon"
     ],
-    "prevo": "Silicobra",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -36315,7 +36690,10 @@
       "Water 2"
     ],
     "evos": [
-      "Barraskewda"
+      {
+        "target": "Barraskewda",
+        "level": 26
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -36344,8 +36722,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Arrokuda",
-    "evoLevel": 26,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -36376,8 +36752,14 @@
       "Undiscovered"
     ],
     "evos": [
-      "Toxtricity",
-      "Toxtricity-Low-Key"
+      {
+        "target": "Toxtricity",
+        "level": 30
+      },
+      {
+        "target": "Toxtricity-Low-Key",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -36408,8 +36790,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Toxel",
-    "evoLevel": 30,
     "formes": [
       "Toxtricity",
       "Toxtricity-Low-Key"
@@ -36478,8 +36858,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Toxel",
-    "evoLevel": 30,
     "baseSpecies": "Toxtricity",
     "forme": "Low-Key",
     "formes": [
@@ -36551,7 +36929,10 @@
       "Bug"
     ],
     "evos": [
-      "Centiskorch"
+      {
+        "target": "Centiskorch",
+        "level": 28
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -36582,8 +36963,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Sizzlipede",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -36644,7 +37023,9 @@
       "Human-Like"
     ],
     "evos": [
-      "Grapploct"
+      {
+        "target": "Grapploct"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -36674,9 +37055,6 @@
       "Water 1",
       "Human-Like"
     ],
-    "prevo": "Clobbopus",
-    "evoType": "levelMove",
-    "evoMove": "Taunt",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -36706,7 +37084,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Polteageist"
+      {
+        "target": "Polteageist",
+        "item": "Cracked Pot"
+      }
     ],
     "formes": [
       "Sinistea",
@@ -36740,7 +37121,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Polteageist-Antique"
+      {
+        "target": "Polteageist-Antique",
+        "item": "Chipped Pot"
+      }
     ],
     "baseSpecies": "Sinistea",
     "forme": "Antique",
@@ -36776,9 +37160,6 @@
       "Mineral",
       "Amorphous"
     ],
-    "prevo": "Sinistea",
-    "evoItem": "Cracked Pot",
-    "evoType": "useItem",
     "formes": [
       "Polteageist",
       "Polteageist-Antique"
@@ -36810,9 +37191,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Sinistea-Antique",
-    "evoItem": "Chipped Pot",
-    "evoType": "useItem",
     "baseSpecies": "Polteageist",
     "forme": "Antique",
     "formes": [
@@ -36848,7 +37226,10 @@
       "Fairy"
     ],
     "evos": [
-      "Hattrem"
+      {
+        "target": "Hattrem",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -36879,10 +37260,11 @@
       "Fairy"
     ],
     "evos": [
-      "Hatterene"
+      {
+        "target": "Hatterene",
+        "level": 42
+      }
     ],
-    "prevo": "Hatenna",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -36912,8 +37294,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Hattrem",
-    "evoLevel": 42,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -36976,7 +37356,10 @@
       "Human-Like"
     ],
     "evos": [
-      "Morgrem"
+      {
+        "target": "Morgrem",
+        "level": 32
+      }
     ],
     "genderRatio": {
       "M": 1,
@@ -37009,10 +37392,11 @@
       "Human-Like"
     ],
     "evos": [
-      "Grimmsnarl"
+      {
+        "target": "Grimmsnarl",
+        "level": 42
+      }
     ],
-    "prevo": "Impidimp",
-    "evoLevel": 32,
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -37043,8 +37427,6 @@
       "Fairy",
       "Human-Like"
     ],
-    "prevo": "Morgrem",
-    "evoLevel": 42,
     "genderRatio": {
       "M": 1,
       "F": 0
@@ -37106,9 +37488,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Linoone-Galar",
-    "evoLevel": 35,
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -37137,8 +37516,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Meowth-Galar",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -37167,8 +37544,6 @@
       "Water 1",
       "Water 3"
     ],
-    "prevo": "Corsola-Galar",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -37197,9 +37572,6 @@
       "Flying",
       "Field"
     ],
-    "prevo": "Farfetch’d-Galar",
-    "evoType": "other",
-    "evoCondition": "Land 3 critical hits in 1 battle",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -37229,8 +37601,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Mr. Mime-Galar",
-    "evoLevel": 42,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -37259,9 +37629,6 @@
       "Mineral",
       "Amorphous"
     ],
-    "prevo": "Yamask-Galar",
-    "evoType": "other",
-    "evoCondition": "Have 49+ HP lost and walk under stone sculpture in Dusty Bowl",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -37291,7 +37658,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Alcremie"
+      {
+        "target": "Alcremie",
+        "condition": "spin while holding a Sweet"
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -37321,9 +37691,6 @@
       "Fairy",
       "Amorphous"
     ],
-    "prevo": "Milcery",
-    "evoType": "other",
-    "evoCondition": "spin while holding a Sweet",
     "cosmeticFormes": [
       "Ruby-Cream",
       "Matcha-Cream",
@@ -37449,7 +37816,10 @@
       "Bug"
     ],
     "evos": [
-      "Frosmoth"
+      {
+        "target": "Frosmoth",
+        "condition": "at night"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -37479,9 +37849,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Snom",
-    "evoType": "levelFriendship",
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -37735,7 +38102,10 @@
       "Mineral"
     ],
     "evos": [
-      "Copperajah"
+      {
+        "target": "Copperajah",
+        "level": 34
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -37765,8 +38135,6 @@
       "Field",
       "Mineral"
     ],
-    "prevo": "Cufant",
-    "evoLevel": 34,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -38006,7 +38374,10 @@
       "Dragon"
     ],
     "evos": [
-      "Drakloak"
+      {
+        "target": "Drakloak",
+        "level": 50
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -38039,10 +38410,11 @@
       "Dragon"
     ],
     "evos": [
-      "Dragapult"
+      {
+        "target": "Dragapult",
+        "level": 60
+      }
     ],
-    "prevo": "Dreepy",
-    "evoLevel": 50,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -38073,8 +38445,6 @@
       "Amorphous",
       "Dragon"
     ],
-    "prevo": "Drakloak",
-    "evoLevel": 60,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -38294,8 +38664,14 @@
       "Undiscovered"
     ],
     "evos": [
-      "Urshifu",
-      "Urshifu-Rapid-Strike"
+      {
+        "target": "Urshifu",
+        "condition": "Defeat the Single Strike Tower"
+      },
+      {
+        "target": "Urshifu-Rapid-Strike",
+        "condition": "Defeat the Rapid Strike Tower"
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -38324,9 +38700,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Kubfu",
-    "evoType": "other",
-    "evoCondition": "Defeat the Single Strike Tower",
     "formes": [
       "Urshifu",
       "Urshifu-Rapid-Strike"
@@ -38391,9 +38764,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Kubfu",
-    "evoType": "other",
-    "evoCondition": "Defeat the Rapid Strike Tower",
     "baseSpecies": "Urshifu",
     "forme": "Rapid-Strike",
     "formes": [
@@ -38437,7 +38807,7 @@
       "M": 0.875,
       "F": 0.125
     },
-    "weightkg": 105,
+    "weightkg": 0,
     "baseStats": {
       "hp": 100,
       "atk": 130,
@@ -38730,9 +39100,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Stantler",
-    "evoType": "other",
-    "evoCondition": "Use Agile style Psyshield Bash 20 times",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -38762,9 +39129,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Scyther",
-    "evoType": "other",
-    "evoCondition": "Black Augurite",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -38794,9 +39158,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Ursaring",
-    "evoType": "other",
-    "evoCondition": "Peat Block when there's a full moon",
     "formes": [
       "Ursaluna",
       "Ursaluna-Bloodmoon"
@@ -38863,9 +39224,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Basculin-White-Striped",
-    "evoType": "other",
-    "evoCondition": "Receive 294+ recoil without fainting",
     "formes": [
       "Basculegion",
       "Basculegion-F"
@@ -38899,9 +39257,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Basculin-White-Striped",
-    "evoType": "other",
-    "evoCondition": "Receive 294+ recoil without fainting",
     "baseSpecies": "Basculegion",
     "forme": "F",
     "formes": [
@@ -38937,10 +39292,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Sneasel-Hisui",
-    "evoItem": "Razor Claw",
-    "evoType": "levelHold",
-    "evoCondition": "during the day",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -38970,9 +39321,6 @@
     "eggGroups": [
       "Water 2"
     ],
-    "prevo": "Qwilfish-Hisui",
-    "evoType": "other",
-    "evoCondition": "Use Strong style Barb Barrage 20 times",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -39067,7 +39415,10 @@
       "Grass"
     ],
     "evos": [
-      "Floragato"
+      {
+        "target": "Floragato",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -39098,10 +39449,11 @@
       "Grass"
     ],
     "evos": [
-      "Meowscarada"
+      {
+        "target": "Meowscarada",
+        "level": 36
+      }
     ],
-    "prevo": "Sprigatito",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -39131,8 +39483,6 @@
       "Field",
       "Grass"
     ],
-    "prevo": "Floragato",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -39161,7 +39511,10 @@
       "Field"
     ],
     "evos": [
-      "Crocalor"
+      {
+        "target": "Crocalor",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -39191,10 +39544,11 @@
       "Field"
     ],
     "evos": [
-      "Skeledirge"
+      {
+        "target": "Skeledirge",
+        "level": 36
+      }
     ],
-    "prevo": "Fuecoco",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -39223,8 +39577,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Crocalor",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -39254,7 +39606,10 @@
       "Water 1"
     ],
     "evos": [
-      "Quaxwell"
+      {
+        "target": "Quaxwell",
+        "level": 16
+      }
     ],
     "genderRatio": {
       "M": 0.875,
@@ -39285,10 +39640,11 @@
       "Water 1"
     ],
     "evos": [
-      "Quaquaval"
+      {
+        "target": "Quaquaval",
+        "level": 36
+      }
     ],
-    "prevo": "Quaxly",
-    "evoLevel": 16,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -39318,8 +39674,6 @@
       "Flying",
       "Water 1"
     ],
-    "prevo": "Quaxwell",
-    "evoLevel": 36,
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -39349,8 +39703,14 @@
       "Field"
     ],
     "evos": [
-      "Oinkologne",
-      "Oinkologne-F"
+      {
+        "target": "Oinkologne",
+        "level": 18
+      },
+      {
+        "target": "Oinkologne-F",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -39380,8 +39740,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Lechonk",
-    "evoLevel": 18,
     "formes": [
       "Oinkologne",
       "Oinkologne-F"
@@ -39414,8 +39772,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Lechonk",
-    "evoLevel": 18,
     "baseSpecies": "Oinkologne",
     "forme": "F",
     "formes": [
@@ -39450,7 +39806,10 @@
       "Bug"
     ],
     "evos": [
-      "Spidops"
+      {
+        "target": "Spidops",
+        "level": 15
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -39479,8 +39838,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Tarountula",
-    "evoLevel": 15,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -39509,7 +39866,10 @@
       "Bug"
     ],
     "evos": [
-      "Lokix"
+      {
+        "target": "Lokix",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -39539,8 +39899,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Nymble",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -39570,7 +39928,10 @@
       "Field"
     ],
     "evos": [
-      "Pawmo"
+      {
+        "target": "Pawmo",
+        "level": 18
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -39602,10 +39963,11 @@
       "Field"
     ],
     "evos": [
-      "Pawmot"
+      {
+        "target": "Pawmot",
+        "condition": "walk 1000 steps in Let's Go"
+      }
     ],
-    "prevo": "Pawmi",
-    "evoLevel": 18,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -39635,9 +39997,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Pawmo",
-    "evoType": "other",
-    "evoCondition": "walk 1000 steps in Let's Go",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -39668,8 +40027,14 @@
       "Fairy"
     ],
     "evos": [
-      "Maushold",
-      "Maushold-Four"
+      {
+        "target": "Maushold",
+        "level": 25
+      },
+      {
+        "target": "Maushold-Four",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -39700,8 +40065,6 @@
       "Field",
       "Fairy"
     ],
-    "prevo": "Tandemaus",
-    "evoLevel": 25,
     "formes": [
       "Maushold",
       "Maushold-Four"
@@ -39735,8 +40098,6 @@
       "Field",
       "Fairy"
     ],
-    "prevo": "Tandemaus",
-    "evoLevel": 25,
     "baseSpecies": "Maushold",
     "forme": "Four",
     "formes": [
@@ -39772,7 +40133,10 @@
       "Mineral"
     ],
     "evos": [
-      "Dachsbun"
+      {
+        "target": "Dachsbun",
+        "level": 26
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -39802,8 +40166,6 @@
       "Field",
       "Mineral"
     ],
-    "prevo": "Fidough",
-    "evoLevel": 26,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -39833,7 +40195,10 @@
       "Grass"
     ],
     "evos": [
-      "Dolliv"
+      {
+        "target": "Dolliv",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -39864,10 +40229,11 @@
       "Grass"
     ],
     "evos": [
-      "Arboliva"
+      {
+        "target": "Arboliva",
+        "level": 35
+      }
     ],
-    "prevo": "Smoliv",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -39896,8 +40262,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Dolliv",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40073,7 +40437,10 @@
       "Mineral"
     ],
     "evos": [
-      "Naclstack"
+      {
+        "target": "Naclstack",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40104,10 +40471,11 @@
       "Mineral"
     ],
     "evos": [
-      "Garganacl"
+      {
+        "target": "Garganacl",
+        "level": 38
+      }
     ],
-    "prevo": "Nacli",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40136,8 +40504,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Naclstack",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40166,8 +40532,14 @@
       "Human-Like"
     ],
     "evos": [
-      "Armarouge",
-      "Ceruledge"
+      {
+        "target": "Armarouge",
+        "item": "Auspicious Armor"
+      },
+      {
+        "target": "Ceruledge",
+        "item": "Malicious Armor"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40197,9 +40569,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Charcadet",
-    "evoItem": "Auspicious Armor",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40228,9 +40597,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Charcadet",
-    "evoItem": "Malicious Armor",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40260,7 +40626,10 @@
       "Water 1"
     ],
     "evos": [
-      "Bellibolt"
+      {
+        "target": "Bellibolt",
+        "item": "Thunder Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40290,9 +40659,6 @@
     "eggGroups": [
       "Water 1"
     ],
-    "prevo": "Tadbulb",
-    "evoItem": "Thunder Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40324,7 +40690,10 @@
       "Flying"
     ],
     "evos": [
-      "Kilowattrel"
+      {
+        "target": "Kilowattrel",
+        "level": 25
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40356,8 +40725,6 @@
       "Water 1",
       "Flying"
     ],
-    "prevo": "Wattrel",
-    "evoLevel": 25,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40387,7 +40754,10 @@
       "Field"
     ],
     "evos": [
-      "Mabosstiff"
+      {
+        "target": "Mabosstiff",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40417,8 +40787,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Maschiff",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40449,7 +40817,10 @@
       "Field"
     ],
     "evos": [
-      "Grafaiai"
+      {
+        "target": "Grafaiai",
+        "level": 28
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40480,8 +40851,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Shroodle",
-    "evoLevel": 28,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40511,7 +40880,10 @@
       "Grass"
     ],
     "evos": [
-      "Brambleghast"
+      {
+        "target": "Brambleghast",
+        "condition": "Walk 1000 steps in Let's Go"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40541,9 +40913,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Bramblin",
-    "evoType": "other",
-    "evoCondition": "Walk 1000 steps in Let's Go",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40572,7 +40941,10 @@
       "Field"
     ],
     "evos": [
-      "Toedscruel"
+      {
+        "target": "Toedscruel",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40601,8 +40973,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Toedscool",
-    "evoLevel": 30,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40660,7 +41030,10 @@
       "Grass"
     ],
     "evos": [
-      "Scovillain"
+      {
+        "target": "Scovillain",
+        "item": "Fire Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40691,9 +41064,6 @@
     "eggGroups": [
       "Grass"
     ],
-    "prevo": "Capsakid",
-    "evoItem": "Fire Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40722,7 +41092,10 @@
       "Bug"
     ],
     "evos": [
-      "Rabsca"
+      {
+        "target": "Rabsca",
+        "condition": "walk 1000 steps in Let's Go"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40752,9 +41125,6 @@
     "eggGroups": [
       "Bug"
     ],
-    "prevo": "Rellor",
-    "evoType": "other",
-    "evoCondition": "walk 1000 steps in Let's Go",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40784,7 +41154,10 @@
       "Flying"
     ],
     "evos": [
-      "Espathra"
+      {
+        "target": "Espathra",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40814,8 +41187,6 @@
     "eggGroups": [
       "Flying"
     ],
-    "prevo": "Flittle",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -40846,7 +41217,10 @@
       "Fairy"
     ],
     "evos": [
-      "Tinkatuff"
+      {
+        "target": "Tinkatuff",
+        "level": 24
+      }
     ],
     "genderRatio": {
       "M": 0,
@@ -40878,10 +41252,11 @@
       "Fairy"
     ],
     "evos": [
-      "Tinkaton"
+      {
+        "target": "Tinkaton",
+        "level": 38
+      }
     ],
-    "prevo": "Tinkatink",
-    "evoLevel": 24,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -40911,8 +41286,6 @@
     "eggGroups": [
       "Fairy"
     ],
-    "prevo": "Tinkatuff",
-    "evoLevel": 38,
     "genderRatio": {
       "M": 0,
       "F": 1
@@ -40942,7 +41315,10 @@
       "Water 3"
     ],
     "evos": [
-      "Wugtrio"
+      {
+        "target": "Wugtrio",
+        "level": 26
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -40972,8 +41348,6 @@
     "eggGroups": [
       "Water 3"
     ],
-    "prevo": "Wiglett",
-    "evoLevel": 26,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41031,7 +41405,10 @@
       "Water 2"
     ],
     "evos": [
-      "Palafin"
+      {
+        "target": "Palafin",
+        "level": 38
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -41060,8 +41437,6 @@
       "Field",
       "Water 2"
     ],
-    "prevo": "Finizen",
-    "evoLevel": 38,
     "formes": [
       "Palafin",
       "Palafin-Hero"
@@ -41128,7 +41503,10 @@
       "Mineral"
     ],
     "evos": [
-      "Revavroom"
+      {
+        "target": "Revavroom",
+        "level": 40
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -41158,8 +41536,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Varoom",
-    "evoLevel": 40,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41244,7 +41620,10 @@
       "Mineral"
     ],
     "evos": [
-      "Glimmora"
+      {
+        "target": "Glimmora",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -41274,8 +41653,6 @@
     "eggGroups": [
       "Mineral"
     ],
-    "prevo": "Glimmet",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41304,7 +41681,11 @@
       "Field"
     ],
     "evos": [
-      "Houndstone"
+      {
+        "target": "Houndstone",
+        "condition": "at night",
+        "level": 30
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -41333,9 +41714,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Greavard",
-    "evoLevel": 30,
-    "evoCondition": "at night",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41394,7 +41772,10 @@
       "Field"
     ],
     "evos": [
-      "Cetitan"
+      {
+        "target": "Cetitan",
+        "item": "Ice Stone"
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -41424,9 +41805,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Cetoddle",
-    "evoItem": "Ice Stone",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41544,9 +41922,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Primeape",
-    "evoType": "other",
-    "evoCondition": "Use Rage Fist 20 times and level-up",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41577,8 +41952,6 @@
       "Water 1",
       "Field"
     ],
-    "prevo": "Wooper-Paldea",
-    "evoLevel": 20,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41608,9 +41981,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Girafarig",
-    "evoType": "levelMove",
-    "evoMove": "Twin Beam",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -41639,9 +42009,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Dunsparce",
-    "evoType": "levelMove",
-    "evoMove": "Hyper Drill",
     "formes": [
       "Dudunsparce",
       "Dudunsparce-Three-Segment"
@@ -41674,9 +42041,6 @@
     "eggGroups": [
       "Field"
     ],
-    "prevo": "Dunsparce",
-    "evoType": "levelMove",
-    "evoMove": "Hyper Drill",
     "baseSpecies": "Dudunsparce",
     "forme": "Three-Segment",
     "formes": [
@@ -41712,9 +42076,6 @@
     "eggGroups": [
       "Human-Like"
     ],
-    "prevo": "Bisharp",
-    "evoType": "other",
-    "evoCondition": "Defeat 3 Bisharp leading Pawniard and level-up",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -42069,7 +42430,10 @@
       "Mineral"
     ],
     "evos": [
-      "Arctibax"
+      {
+        "target": "Arctibax",
+        "level": 35
+      }
     ],
     "genderRatio": {
       "M": 0.5,
@@ -42101,10 +42465,11 @@
       "Mineral"
     ],
     "evos": [
-      "Baxcalibur"
+      {
+        "target": "Baxcalibur",
+        "level": 54
+      }
     ],
-    "prevo": "Frigibax",
-    "evoLevel": 35,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -42134,8 +42499,6 @@
       "Dragon",
       "Mineral"
     ],
-    "prevo": "Arctibax",
-    "evoLevel": 54,
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -42163,7 +42526,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Gholdengo"
+      {
+        "target": "Gholdengo",
+        "condition": "Level up with 999 Coins in the bag"
+      }
     ],
     "formes": [
       "Gimmighoul",
@@ -42196,7 +42562,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Gholdengo"
+      {
+        "target": "Gholdengo",
+        "condition": "Level up with 999 Coins in the bag"
+      }
     ],
     "baseSpecies": "Gimmighoul",
     "forme": "Roaming",
@@ -42231,9 +42600,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Gimmighoul",
-    "evoType": "other",
-    "evoCondition": "Level up with 999 Coins in the bag",
     "genderRatio": {
       "M": 0,
       "F": 0
@@ -42534,9 +42900,6 @@
       "Grass",
       "Dragon"
     ],
-    "prevo": "Applin",
-    "evoItem": "Syrupy Apple",
-    "evoType": "useItem",
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -42567,7 +42930,10 @@
       "Amorphous"
     ],
     "evos": [
-      "Sinistcha"
+      {
+        "target": "Sinistcha",
+        "item": "Unremarkable Teacup"
+      }
     ],
     "formes": [
       "Poltchageist",
@@ -42602,7 +42968,10 @@
       "Undiscovered"
     ],
     "evos": [
-      "Sinistcha-Masterpiece"
+      {
+        "target": "Sinistcha-Masterpiece",
+        "item": "Masterpiece Teacup"
+      }
     ],
     "baseSpecies": "Poltchageist",
     "forme": "Artisan",
@@ -42639,9 +43008,6 @@
       "Mineral",
       "Amorphous"
     ],
-    "prevo": "Poltchageist",
-    "evoItem": "Unremarkable Teacup",
-    "evoType": "useItem",
     "formes": [
       "Sinistcha",
       "Sinistcha-Masterpiece"
@@ -42674,9 +43040,6 @@
     "eggGroups": [
       "Undiscovered"
     ],
-    "prevo": "Poltchageist-Artisan",
-    "evoItem": "Masterpiece Teacup",
-    "evoType": "useItem",
     "baseSpecies": "Sinistcha",
     "forme": "Masterpiece",
     "formes": [

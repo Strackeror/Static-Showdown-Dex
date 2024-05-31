@@ -1933,7 +1933,7 @@
     "basePower": 150,
     "accuracy": 95,
     "category": "Special",
-    "desc": "Whether or not this move is successful and even if it would cause fainting, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
+    "desc": "If this move is successful, the user loses 1/2 of its maximum HP, rounded up, unless the user has the Magic Guard Ability.",
     "shortDesc": "User loses 50% max HP.",
     "pp": 5,
     "priority": 0,
@@ -11367,7 +11367,8 @@
     "type": "Fighting",
     "flags": {
       "protect": 1,
-      "mirror": 1
+      "mirror": 1,
+      "slicing": 1
     },
     "basePower": 85,
     "accuracy": 100,
