@@ -100,10 +100,10 @@ window.PokedexTypePanel = PokedexResultPanel.extend({
   buildCountIndex: function () {
     for (const type in BattleTypeChart) {
       this.BattleSearchCountIndex[type + " move"] = Object.values(BattleMovedex).filter(
-        (move) => move.type === type.name,
+        (move) => move.type === type.name
       ).length;
       this.BattleSearchCountIndex[type + "pokemon"] = Object.values(BattlePokedex).filter(
-        (p) => p.types.indexOf(type.name) >= 0,
+        (p) => p.types.indexOf(type.name) >= 0
       ).length;
     }
   },
@@ -806,7 +806,7 @@ window.PokedexEggGroupPanel = PokedexResultPanel.extend({
     } else {
       return BattleSearch.renderTaggedPokemonRowInner(
         template,
-        '<span class="picon" style="margin-top:-12px;' + getPokemonIcon("egg") + '"></span>',
+        '<span class="picon" style="margin-top:-12px;' + getPokemonIcon("egg") + '"></span>'
       );
     }
   },
@@ -1012,11 +1012,47 @@ window.PokedexArticlePanel = PokedexResultPanel.extend({
               id +
               '" class="subtle" data-target="push">' +
               innerMatch +
-              "</a>",
+              "</a>"
           );
         return "";
       });
       self.$(".article-content").html(html);
     });
+  },
+});
+
+window.PokedexAreaPanel = PokedexResultPanel.extend({
+  initialize: function (id) {
+    id = toID(id);
+    this.shortTitle = id;
+    this.area = getID(Areas, id);
+
+    var buf = `
+		<div class="pfx-body dexentry">
+			<a href="${Config.baseurl}" class="pfx-backbutton" data-target="back"><i class="fa fa-chevron-left"></i> Pokédex</a>
+			<h1><a href="${Config.baseurl}areas/${id}" data-target="push" class="subtle">${this.area.name}</a></h1>
+			<h3>Pokémons in this area</h3>
+			<div class="pokemonlist"></div>
+		</div>
+		`;
+
+    this.html(buf);
+    setTimeout(() => this.renderPokemonList());
+  },
+
+  renderPokemonList: function () {
+    let buf = "";
+    for (let location of this.area.locations) {
+      buf += `<div>`;
+      buf += `<h3>${location.location}</h3>`;
+      buf += `<ul class="utilichart nokbd">`;
+      for (let encounter of location.encounters) {
+        let pokemon = getID(BattlePokedex, encounter.species);
+        buf += BattleSearch.renderPokemonRow(pokemon);
+      }
+      buf += `</ul>`;
+      buf += `</div>`;
+    }
+    this.$(".pokemonlist").html(buf);
   },
 });

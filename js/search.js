@@ -177,7 +177,7 @@
         buf +
           (forceAdd && !this.renderingDone
             ? '<li class="result more"><p><button class="button big">More</button></p></li>'
-            : ""),
+            : "")
       );
     }
     this.renderedIndex = i;
@@ -241,28 +241,8 @@
         }
         var egggroup = { name: egName };
         return this.renderEggGroupRow(egggroup, matchStart, matchLength, errorMessage);
-      case "tier":
-        // very hardcode
-        var tierTable = {
-          uber: "Uber",
-          ou: "OU",
-          uu: "UU",
-          ru: "RU",
-          nu: "NU",
-          pu: "PU",
-          zu: "(PU)",
-          nfe: "NFE",
-          lc: "LC",
-          cap: "CAP",
-          caplc: "CAP LC",
-          capnfe: "CAP NFE",
-          uubl: "UUBL",
-          rubl: "RUBL",
-          nubl: "NUBL",
-          publ: "PUBL",
-        };
-        var tier = { name: tierTable[id] };
-        return this.renderTierRow(tier, matchStart, matchLength, errorMessage);
+      case "area":
+        return this.renderAreaRow({name: getID(Areas, id).name}, matchStart, matchLength, errorMessage);
       case "category":
         var category = { name: id[0].toUpperCase() + id.substr(1), id: id };
         return this.renderCategoryRow(category, matchStart, matchLength, errorMessage);
@@ -875,6 +855,21 @@
 
     buf += "</a></li>";
 
+    return buf;
+  };
+
+  Search.prototype.renderAreaRow = function (area, matchStart, matchLength, errorMessage) {
+    let attrs = ""
+    if (Search.urlRoot) attrs = `href="${Search.urlRoot}areas/${toID(area.name)}" data-target="push"`
+    let buf = `<li class="result"><a ${attrs}>`;
+
+    // error
+    if (errorMessage) {
+      buf += errorMessage + "</a></li>";
+      return buf;
+    }
+    buf += `<span class="col namecol">${area.name}</span> `;
+    buf += "</a></li>";
     return buf;
   };
 

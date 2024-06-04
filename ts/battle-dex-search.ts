@@ -11,7 +11,7 @@
 type ID = string;
 type TypeName = string;
 
-type SearchType = "pokemon" | "type" | "tier" | "move" | "item" | "ability" | "egggroup" | "category";
+type SearchType = "pokemon" | "type" | "tier" | "move" | "item" | "ability" | "egggroup" | "category" | "area";
 type SearchRow = [SearchType, ID, number?, number?] | ["sortpokemon" | "sortmove", ""] | ["header" | "html", string];
 type SearchFilter = [string, string];
 
@@ -32,7 +32,7 @@ declare const BattleAbilities: any;
 declare const BattleTypeChart: any;
 declare const BattlePokedex: any;
 declare const BattleItems: any;
-declare const Learnsets: any;
+declare const Areas: any;
 
 declare function toID(id: string): ID;
 declare function getID(set: any, text: string): any;
@@ -55,6 +55,7 @@ function generateSearchIndex() {
   index = index.concat(Object.keys(BattleItems).map((x) => x + " item"));
   index = index.concat(Object.keys(BattleAbilities).map((x) => x + " ability"));
   index = index.concat(Object.keys(BattleTypeChart).map((x) => toID(x) + " type"));
+  index = index.concat(Object.keys(Areas).map((x) => `${x} area` ));
   index = index.concat(["physical", "special", "status"].map((x) => toID(x) + " category"));
   index = index.concat(
     [
@@ -163,7 +164,7 @@ class DexSearch {
     ability: 6,
     egggroup: 7,
     category: 8,
-    article: 9,
+    area: 9,
   };
   static typeName = {
     pokemon: "Pok&eacute;mon",
@@ -174,7 +175,7 @@ class DexSearch {
     ability: "Abilities",
     egggroup: "Egg group",
     category: "Category",
-    article: "Article",
+    area: "Area",
   };
   firstPokemonColumn: "Tier" | "Number" = "Number";
 
@@ -212,6 +213,8 @@ class DexSearch {
         return new BattleTypeSearch("type", format, speciesOrSet);
       case "category":
         return new BattleCategorySearch("category", format, speciesOrSet);
+      case "area":
+        return new BattleAreaSearch("area", format, speciesOrSet);
     }
     return null;
   }
@@ -399,7 +402,7 @@ class DexSearch {
 
     // Notes:
     // - if we have a searchType, that searchType's buffer will be on top
-    let bufs: SearchRow[][] = [[], [], [], [], [], [], [], [], [], []];
+    let bufs: SearchRow[][] = [[], [], [], [], [], [], [], [], [], [], []];
     let topbufIndex = -1;
 
     let count = 0;
@@ -465,7 +468,7 @@ class DexSearch {
       // For move queries in the teambuilder, don't accept pokemon as filters
       if (searchType === "move" && illegal && typeIndex === 1) continue;
       // For ability/item queries, don't accept anything else as a filter
-      if ((searchType === "ability" || searchType === "item") && typeIndex !== searchTypeIndex) continue;
+      if ((searchType === "ability" || searchType === "item" || searchType == "area") && typeIndex !== searchTypeIndex) continue;
       // Query was a type name followed 'type'; only show types
       if (qFilterType === "type" && typeIndex !== 2) continue;
       // hardcode cases of duplicate non-consecutive aliases
@@ -1042,6 +1045,29 @@ class BattleTypeSearch extends BattleTypedSearch<"type"> {
     const results: SearchRow[] = [];
     for (let id in BattleTypeChart) {
       results.push(["type", id as ID]);
+    }
+    return results;
+  }
+  getBaseResults() {
+    return this.getDefaultResults();
+  }
+  filter(row: SearchRow, filters: string[][]): boolean {
+    throw new Error("invalid filter");
+  }
+  sort(results: SearchRow[], sortCol: string | null, reverseSort?: boolean): SearchRow[] {
+    throw new Error("invalid sortcol");
+  }
+}
+
+
+class BattleAreaSearch extends BattleTypedSearch<"area"> {
+  getTable() {
+    return Areas;
+  }
+  getDefaultResults(): SearchRow[] {
+    const results: SearchRow[] = [];
+    for (let id in Areas) {
+      results.push(["area", id as ID]);
     }
     return results;
   }

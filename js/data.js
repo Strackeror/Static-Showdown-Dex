@@ -3,6 +3,7 @@ import BattleMovedex from "../data/moves.json";
 import BattleItems from "../data/items.json";
 import BattleAbilities from "../data/abilities.json";
 import BattleTypeChart from "../data/typechart.json";
+import Areas from "../data/areas.json";
 import Learnsets from "../data/learnsets.json";
 import Icons from "../data/icons.json";
 import Config from "../data/config.json";
@@ -15,6 +16,7 @@ window.BattleMovedex = BattleMovedex;
 window.BattleItems = BattleItems;
 window.BattleAbilities = BattleAbilities;
 window.BattleTypeChart = BattleTypeChart;
+window.Areas = Areas;
 window.Learnsets = Learnsets;
 
 window.toID = (text) => {
