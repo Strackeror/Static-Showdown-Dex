@@ -65,7 +65,6 @@ window.getTypeIcon = (type) => {
   return `<img src="${ResourcePrefix}sprites/types/${sanitizedType}.png" alt="${type}" height="14" width="32" class="pixelated" />`;
 };
 
-
 window.getPokemonIcon = (pokemon) => {
   let [left, top] = Icons.pokemon[toID(pokemon)] ?? [0, 0];
   return `background:transparent url(${ResourcePrefix}sprites/pokemonicons-sheet.png?v14) no-repeat scroll ${left}px ${top}px`;

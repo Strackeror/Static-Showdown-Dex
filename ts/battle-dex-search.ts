@@ -11,21 +11,8 @@
 type ID = string;
 type TypeName = string;
 
-type SearchType =
-  | "pokemon"
-  | "type"
-  | "tier"
-  | "move"
-  | "item"
-  | "ability"
-  | "egggroup"
-  | "category";
-
-type SearchRow =
-  | [SearchType, ID, number?, number?]
-  | ["sortpokemon" | "sortmove", ""]
-  | ["header" | "html", string];
-
+type SearchType = "pokemon" | "type" | "tier" | "move" | "item" | "ability" | "egggroup" | "category";
+type SearchRow = [SearchType, ID, number?, number?] | ["sortpokemon" | "sortmove", ""] | ["header" | "html", string];
 type SearchFilter = [string, string];
 
 /**
@@ -67,12 +54,8 @@ function generateSearchIndex() {
   index = index.concat(Object.keys(BattleMovedex).map((x) => x + " move"));
   index = index.concat(Object.keys(BattleItems).map((x) => x + " item"));
   index = index.concat(Object.keys(BattleAbilities).map((x) => x + " ability"));
-  index = index.concat(
-    Object.keys(BattleTypeChart).map((x) => toID(x) + " type")
-  );
-  index = index.concat(
-    ["physical", "special", "status"].map((x) => toID(x) + " category")
-  );
+  index = index.concat(Object.keys(BattleTypeChart).map((x) => toID(x) + " type"));
+  index = index.concat(["physical", "special", "status"].map((x) => toID(x) + " category"));
   index = index.concat(
     [
       "monster",
@@ -209,20 +192,12 @@ class DexSearch {
    */
   filters: SearchFilter[] | null = null;
 
-  constructor(
-    searchType: SearchType | "" = "",
-    formatid = "" as ID,
-    species = "" as ID
-  ) {
-		generateSearchIndex();
+  constructor(searchType: SearchType | "" = "", formatid = "" as ID, species = "" as ID) {
+    generateSearchIndex();
     this.setType(searchType, formatid, species);
   }
 
-  getTypedSearch(
-    searchType: SearchType | "",
-    format = "" as ID,
-    speciesOrSet: ID
-  ) {
+  getTypedSearch(searchType: SearchType | "", format = "" as ID, speciesOrSet: ID) {
     if (!searchType) return null;
     switch (searchType) {
       case "pokemon":
@@ -248,12 +223,7 @@ class DexSearch {
     }
     this.query = query;
     if (!query) {
-      this.results =
-        this.typedSearch?.getResults(
-          this.filters,
-          this.sortCol,
-          this.reverseSort
-        ) || [];
+      this.results = this.typedSearch?.getResults(this.filters, this.sortCol, this.reverseSort) || [];
     } else {
       this.results = this.textSearch(query);
     }
@@ -276,8 +246,7 @@ class DexSearch {
     let [type] = entry;
     if (this.typedSearch.searchType === "pokemon") {
       if (type === this.sortCol) this.sortCol = null;
-      if (!["type", "move", "ability", "egggroup", "tier"].includes(type))
-        return false;
+      if (!["type", "move", "ability", "egggroup", "tier"].includes(type)) return false;
       if (type === "move") entry[1] = toID(entry[1]);
       if (!this.filters) this.filters = [];
       this.results = null;
@@ -404,28 +373,19 @@ class DexSearch {
 
     // If there are no matches starting with query: Do a fuzzy match pass
     // Fuzzy matches will still be shown after alias matches
-    if (
-      !this.exactMatch &&
-      BattleSearchIndex[i][0].substr(0, query.length) !== query
-    ) {
+    if (!this.exactMatch && BattleSearchIndex[i][0].substr(0, query.length) !== query) {
       // No results start with this. Do a fuzzy match pass.
       let matchLength = query.length - 1;
       if (!i) i++;
       while (
         matchLength &&
-        BattleSearchIndex[i][0].substr(0, matchLength) !==
-          query.substr(0, matchLength) &&
-        BattleSearchIndex[i - 1][0].substr(0, matchLength) !==
-          query.substr(0, matchLength)
+        BattleSearchIndex[i][0].substr(0, matchLength) !== query.substr(0, matchLength) &&
+        BattleSearchIndex[i - 1][0].substr(0, matchLength) !== query.substr(0, matchLength)
       ) {
         matchLength--;
       }
       let matchQuery = query.substr(0, matchLength);
-      while (
-        i >= 1 &&
-        BattleSearchIndex[i - 1][0].substr(0, matchLength) === matchQuery
-      )
-        i--;
+      while (i >= 1 && BattleSearchIndex[i - 1][0].substr(0, matchLength) === matchQuery) i--;
       searchPasses.push(["fuzzy", i, ""]);
     }
 
@@ -496,34 +456,20 @@ class DexSearch {
       let typeIndex = DexSearch.typeTable[type];
 
       // For performance, with a query length of 1, we only fill the first bucket
-      if (
-        query.length === 1 &&
-        typeIndex !== (searchType ? searchTypeIndex : 1)
-      )
-        continue;
+      if (query.length === 1 && typeIndex !== (searchType ? searchTypeIndex : 1)) continue;
 
       // For pokemon queries, accept types/tier/abilities/moves/eggroups as filters
-      if (searchType === "pokemon" && (typeIndex === 5 || typeIndex > 7))
-        continue;
+      if (searchType === "pokemon" && (typeIndex === 5 || typeIndex > 7)) continue;
       // For move queries, accept types/categories as filters
-      if (
-        searchType === "move" &&
-        ((typeIndex !== 8 && typeIndex > 4) || typeIndex === 3)
-      )
-        continue;
+      if (searchType === "move" && ((typeIndex !== 8 && typeIndex > 4) || typeIndex === 3)) continue;
       // For move queries in the teambuilder, don't accept pokemon as filters
       if (searchType === "move" && illegal && typeIndex === 1) continue;
       // For ability/item queries, don't accept anything else as a filter
-      if (
-        (searchType === "ability" || searchType === "item") &&
-        typeIndex !== searchTypeIndex
-      )
-        continue;
+      if ((searchType === "ability" || searchType === "item") && typeIndex !== searchTypeIndex) continue;
       // Query was a type name followed 'type'; only show types
       if (qFilterType === "type" && typeIndex !== 2) continue;
       // hardcode cases of duplicate non-consecutive aliases
-      if ((id === "megax" || id === "megay") && "mega".startsWith(query))
-        continue;
+      if ((id === "megax" || id === "megay") && "mega".startsWith(query)) continue;
 
       let matchStart = 0;
       let matchEnd = 0;
@@ -534,42 +480,24 @@ class DexSearch {
         let originalIndex = entry[2]!;
         if (matchStart) {
           matchEnd = matchStart + query.length;
-          matchStart +=
-            (
-              BattleSearchIndexOffset[originalIndex][matchStart] || "0"
-            ).charCodeAt(0) - 48;
-          matchEnd +=
-            (
-              BattleSearchIndexOffset[originalIndex][matchEnd - 1] || "0"
-            ).charCodeAt(0) - 48;
+          matchStart += (BattleSearchIndexOffset[originalIndex][matchStart] || "0").charCodeAt(0) - 48;
+          matchEnd += (BattleSearchIndexOffset[originalIndex][matchEnd - 1] || "0").charCodeAt(0) - 48;
         }
         id = BattleSearchIndex[originalIndex][0];
       } else {
         matchEnd = query.length;
-        if (matchEnd)
-          matchEnd +=
-            (BattleSearchIndexOffset[i][matchEnd - 1] || "0").charCodeAt(0) -
-            48;
+        if (matchEnd) matchEnd += (BattleSearchIndexOffset[i][matchEnd - 1] || "0").charCodeAt(0) - 48;
       }
 
       if (searchType && searchTypeIndex !== typeIndex) {
         // This is a filter, set it as an instafilter candidate
-        if (
-          !instafilter ||
-          instafilterSort[typeIndex] < instafilterSort[instafilter[2]]
-        ) {
+        if (!instafilter || instafilterSort[typeIndex] < instafilterSort[instafilter[2]]) {
           instafilter = [type, id, typeIndex];
         }
       }
 
       // show types above Arceus formes
-      if (
-        topbufIndex < 0 &&
-        searchTypeIndex < 2 &&
-        passType === "alias" &&
-        !bufs[1].length &&
-        bufs[2].length
-      ) {
+      if (topbufIndex < 0 && searchTypeIndex < 2 && passType === "alias" && !bufs[1].length && bufs[2].length) {
         topbufIndex = 2;
       }
 
@@ -600,12 +528,7 @@ class DexSearch {
 
     let topbuf: SearchRow[] = [];
     if (nearMatch) {
-      topbuf = [
-        [
-          "html",
-          `<em>No exact match found. The closest matches alphabetically are:</em>`,
-        ],
-      ];
+      topbuf = [["html", `<em>No exact match found. The closest matches alphabetically are:</em>`]];
     }
     if (topbufIndex >= 0) {
       topbuf = topbuf.concat(bufs[topbufIndex]);
@@ -626,11 +549,7 @@ class DexSearch {
     this.results = Array.prototype.concat.apply(topbuf, bufs);
     return this.results ?? [];
   }
-  private instafilter(
-    searchType: SearchType | "",
-    fType: SearchType,
-    fId: ID
-  ): SearchRow[] {
+  private instafilter(searchType: SearchType | "", fType: SearchType, fId: ID): SearchRow[] {
     let buf: SearchRow[] = [];
     let illegalBuf: SearchRow[] = [];
     let illegal = this.typedSearch?.illegalReasons;
@@ -642,10 +561,7 @@ class DexSearch {
           for (let id in BattlePokedex) {
             if (!BattlePokedex[id].types) continue;
             if (BattlePokedex[id].types.includes(type)) {
-              (illegal && id in illegal ? illegalBuf : buf).push([
-                "pokemon",
-                id as ID,
-              ]);
+              (illegal && id in illegal ? illegalBuf : buf).push(["pokemon", id as ID]);
             }
           }
           break;
@@ -655,10 +571,7 @@ class DexSearch {
           for (let id in BattlePokedex) {
             if (!BattlePokedex[id].abilities) continue;
             if (hasAbility(BattlePokedex[id], ability)) {
-              (illegal && id in illegal ? illegalBuf : buf).push([
-                "pokemon",
-                id as ID,
-              ]);
+              (illegal && id in illegal ? illegalBuf : buf).push(["pokemon", id as ID]);
             }
           }
           break;
@@ -670,10 +583,7 @@ class DexSearch {
           buf.push(["header", `${type}-type moves`]);
           for (let id in BattleMovedex) {
             if (BattleMovedex[id].type === type) {
-              (illegal && id in illegal ? illegalBuf : buf).push([
-                "move",
-                id as ID,
-              ]);
+              (illegal && id in illegal ? illegalBuf : buf).push(["move", id as ID]);
             }
           }
           break;
@@ -682,10 +592,7 @@ class DexSearch {
           buf.push(["header", `${category} moves`]);
           for (let id in BattleMovedex) {
             if (BattleMovedex[id].category === category) {
-              (illegal && id in illegal ? illegalBuf : buf).push([
-                "move",
-                id as ID,
-              ]);
+              (illegal && id in illegal ? illegalBuf : buf).push(["move", id as ID]);
             }
           }
           break;
@@ -700,10 +607,7 @@ class DexSearch {
     let right = BattleSearchIndex.length - 1;
     while (right > left) {
       let mid = Math.floor((right - left) / 2 + left);
-      if (
-        BattleSearchIndex[mid][0] === query &&
-        (mid === 0 || BattleSearchIndex[mid - 1][0] !== query)
-      ) {
+      if (BattleSearchIndex[mid][0] === query && (mid === 0 || BattleSearchIndex[mid - 1][0] !== query)) {
         // that's us
         return mid;
       } else if (BattleSearchIndex[mid][0] < query) {
@@ -712,13 +616,8 @@ class DexSearch {
         right = mid - 1;
       }
     }
-    if (left >= BattleSearchIndex.length - 1)
-      left = BattleSearchIndex.length - 1;
-    else if (
-      BattleSearchIndex[left + 1][0] &&
-      BattleSearchIndex[left][0] < query
-    )
-      left++;
+    if (left >= BattleSearchIndex.length - 1) left = BattleSearchIndex.length - 1;
+    else if (BattleSearchIndex[left + 1][0] && BattleSearchIndex[left][0] < query) left++;
     if (left && BattleSearchIndex[left - 1][0] === query) left--;
     return left;
   }
@@ -752,11 +651,7 @@ abstract class BattleTypedSearch<T extends SearchType> {
 
   protected readonly sortRow: SearchRow | null = null;
 
-  constructor(
-    searchType: T,
-    format = "" as ID,
-    speciesOrSet: ID | PokemonSet = "" as ID
-  ) {
+  constructor(searchType: T, format = "" as ID, speciesOrSet: ID | PokemonSet = "" as ID) {
     this.searchType = searchType;
 
     this.baseResults = null;
@@ -772,26 +667,13 @@ abstract class BattleTypedSearch<T extends SearchType> {
     }
     if (!searchType || !this.set) return;
   }
-  getResults(
-    filters?: SearchFilter[] | null,
-    sortCol?: string | null,
-    reverseSort?: boolean
-  ): SearchRow[] {
+  getResults(filters?: SearchFilter[] | null, sortCol?: string | null, reverseSort?: boolean): SearchRow[] {
     if (sortCol === "type") {
-      return [
-        this.sortRow!,
-        ...BattleTypeSearch.prototype.getDefaultResults.call(this),
-      ];
+      return [this.sortRow!, ...BattleTypeSearch.prototype.getDefaultResults.call(this)];
     } else if (sortCol === "category") {
-      return [
-        this.sortRow!,
-        ...BattleCategorySearch.prototype.getDefaultResults.call(this),
-      ];
+      return [this.sortRow!, ...BattleCategorySearch.prototype.getDefaultResults.call(this)];
     } else if (sortCol === "ability") {
-      return [
-        this.sortRow!,
-        ...BattleAbilitySearch.prototype.getDefaultResults.call(this),
-      ];
+      return [this.sortRow!, ...BattleAbilitySearch.prototype.getDefaultResults.call(this)];
     }
 
     if (!this.baseResults) {
@@ -822,11 +704,7 @@ abstract class BattleTypedSearch<T extends SearchType> {
       illegalResults = [];
       for (const result of this.baseResults) {
         if (this.filter(result, filters)) {
-          if (
-            results.length &&
-            result[0] === "header" &&
-            results[results.length - 1][0] === "header"
-          ) {
+          if (results.length && result[0] === "header" && results[results.length - 1][0] === "header") {
             results[results.length - 1] = result;
           } else {
             results.push(result);
@@ -850,9 +728,7 @@ abstract class BattleTypedSearch<T extends SearchType> {
       results = results.filter(([rowType]) => rowType === this.searchType);
       results = this.sort(results, sortCol, reverseSort);
       if (illegalResults) {
-        illegalResults = illegalResults.filter(
-          ([rowType]) => rowType === this.searchType
-        );
+        illegalResults = illegalResults.filter(([rowType]) => rowType === this.searchType);
         illegalResults = this.sort(illegalResults, sortCol, reverseSort);
       }
     }
@@ -870,11 +746,7 @@ abstract class BattleTypedSearch<T extends SearchType> {
   abstract getDefaultResults(): SearchRow[];
   abstract getBaseResults(): SearchRow[];
   abstract filter(input: SearchRow, filters: string[][]): boolean;
-  abstract sort(
-    input: SearchRow[],
-    sortCol: string,
-    reverseSort?: boolean
-  ): SearchRow[];
+  abstract sort(input: SearchRow[], sortCol: string, reverseSort?: boolean): SearchRow[];
 }
 
 class BattlePokemonSearch extends BattleTypedSearch<"pokemon"> {
@@ -963,10 +835,8 @@ class BattlePokemonSearch extends BattleTypedSearch<"pokemon"> {
       return results.sort(([rowType1, id1], [rowType2, id2]) => {
         const base1 = getID(BattlePokedex, id1).baseStats;
         const base2 = getID(BattlePokedex, id2).baseStats;
-        const bst1 =
-          base1.hp + base1.atk + base1.def + base1.spa + base1.spd + base1.spe;
-        const bst2 =
-          base2.hp + base2.atk + base2.def + base2.spa + base2.spd + base2.spe;
+        const bst1 = base1.hp + base1.atk + base1.def + base1.spa + base1.spd + base1.spe;
+        const bst2 = base2.hp + base2.atk + base2.def + base2.spa + base2.spd + base2.spe;
         return (bst2 - bst1) * sortOrder;
       });
     } else if (sortCol === "name") {
@@ -1001,18 +871,13 @@ class BattleAbilitySearch extends BattleTypedSearch<"ability"> {
     for (const [filterType, value] of filters) {
       switch (filterType) {
         case "pokemon":
-          if (!hasAbility(getID(BattlePokedex, value), ability.name))
-            return false;
+          if (!hasAbility(getID(BattlePokedex, value), ability.name)) return false;
           break;
       }
     }
     return true;
   }
-  sort(
-    results: SearchRow[],
-    sortCol: string | null,
-    reverseSort?: boolean
-  ): SearchRow[] {
+  sort(results: SearchRow[], sortCol: string | null, reverseSort?: boolean): SearchRow[] {
     throw new Error("invalid sortcol");
   }
 }
@@ -1036,11 +901,7 @@ class BattleItemSearch extends BattleTypedSearch<"item"> {
   filter(row: SearchRow, filters: string[][]): boolean {
     throw new Error("invalid filter");
   }
-  sort(
-    results: SearchRow[],
-    sortCol: string | null,
-    reverseSort?: boolean
-  ): SearchRow[] {
+  sort(results: SearchRow[], sortCol: string | null, reverseSort?: boolean): SearchRow[] {
     throw new Error("invalid sortcol");
   }
 }
@@ -1082,11 +943,7 @@ class BattleMoveSearch extends BattleTypedSearch<"move"> {
     }
     return true;
   }
-  sort(
-    results: SearchRow[],
-    sortCol: string,
-    reverseSort?: boolean
-  ): SearchRow[] {
+  sort(results: SearchRow[], sortCol: string, reverseSort?: boolean): SearchRow[] {
     const sortOrder = reverseSort ? -1 : 1;
     switch (sortCol) {
       case "power":
@@ -1126,14 +983,8 @@ class BattleMoveSearch extends BattleTypedSearch<"move"> {
         return results.sort(([rowType1, id1], [rowType2, id2]) => {
           let move1 = getID(BattleMovedex, id1);
           let move2 = getID(BattleMovedex, id2);
-          let pow1 =
-            move1.basePower ||
-            powerTable[id1] ||
-            (move1.category === "Status" ? -1 : 1400);
-          let pow2 =
-            move2.basePower ||
-            powerTable[id2] ||
-            (move2.category === "Status" ? -1 : 1400);
+          let pow1 = move1.basePower || powerTable[id1] || (move1.category === "Status" ? -1 : 1400);
+          let pow2 = move2.basePower || powerTable[id2] || (move2.category === "Status" ? -1 : 1400);
           return (pow2 - pow1) * sortOrder;
         });
       case "accuracy":
@@ -1178,11 +1029,7 @@ class BattleCategorySearch extends BattleTypedSearch<"category"> {
   filter(row: SearchRow, filters: string[][]): boolean {
     throw new Error("invalid filter");
   }
-  sort(
-    results: SearchRow[],
-    sortCol: string | null,
-    reverseSort?: boolean
-  ): SearchRow[] {
+  sort(results: SearchRow[], sortCol: string | null, reverseSort?: boolean): SearchRow[] {
     throw new Error("invalid sortcol");
   }
 }
@@ -1204,17 +1051,12 @@ class BattleTypeSearch extends BattleTypedSearch<"type"> {
   filter(row: SearchRow, filters: string[][]): boolean {
     throw new Error("invalid filter");
   }
-  sort(
-    results: SearchRow[],
-    sortCol: string | null,
-    reverseSort?: boolean
-  ): SearchRow[] {
+  sort(results: SearchRow[], sortCol: string | null, reverseSort?: boolean): SearchRow[] {
     throw new Error("invalid sortcol");
   }
 }
 
-
-export {}
+export {};
 declare global {
   interface Window {
     DexSearch: typeof DexSearch;
