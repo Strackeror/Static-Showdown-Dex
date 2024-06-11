@@ -17,8 +17,8 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
     if (pokemon.num > 0) buf += ` <code>#${pokemon.num}</code>`;
     buf += "</h1>";
 
-    if (pokemon.isNonstandard) {
-      buf += '<div class="warning"><strong>Note:</strong> This Pok&eacute;mon is unreleased.</div>';
+    if (pokemon.unusable) {
+      buf += '<div class="warning"><strong>Note:</strong> This Pok&eacute;mon is not available.</div>';
     }
 
     buf += `<img src="${ResourcePrefix}sprites/gen5/${id}.png" alt="" width="96" height="96" class="sprite" />`;
@@ -169,7 +169,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
     }
     if (pokemon.cosmeticFormes) {
       buf += "</dd><dt>Cosmetic formes:</dt> <dd>";
-      name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>` + pokemon.name;
+      name = `<span class="picon" style="${getPokemonIcon(pokemon)}"></span>` + (pokemon.forme ?? "Base");
       buf += "" + name;
 
       for (var i = 0; i < pokemon.cosmeticFormes.length; i++) {
@@ -301,7 +301,9 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
         case "lvl": // level-up move
           if (newCategory) buf += '<li class="resultheader"><h3>Level-up</h3></li>';
           let level = learn.level;
-          desc = level <= 1 ? "&ndash;" : "<small>L</small>" + level;
+          if (level == 0) desc = "<small>Evo</small>";
+          if (level == 1) desc = "-";
+          if (level > 1) desc = `<small>L</small>${level}`
           break;
         case "prevo": // prevo
           if (newCategory) buf += '<li class="resultheader"><h3>From preevo</h3></li>';

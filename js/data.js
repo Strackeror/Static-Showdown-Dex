@@ -41,7 +41,7 @@ for (let data of [BattlePokedex, BattleMovedex, BattleItems, BattleAbilities, Ba
 
 for (let key in BattlePokedex) {
   for (let evo of BattlePokedex[key].evos ?? []) {
-    target = getID(BattlePokedex, evo.target);
+    let target = getID(BattlePokedex, evo.target);
     target.prevo = toID(key);
   }
 }
