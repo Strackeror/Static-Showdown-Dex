@@ -149,7 +149,7 @@ window.PokedexMovePanel = PokedexResultPanel.extend({
         Config.baseurl +
         'tags/defrost" data-target="push">The user thaws out</a> if it is frozen.</p>';
     }
-    if (!("protect" in move.flags) && move.target !== "self") {
+    if (("bypassprotect" in move.flags) && move.target !== "self") {
       buf +=
         '<p class="movetag"><a href="' +
         Config.baseurl +
@@ -171,7 +171,7 @@ window.PokedexMovePanel = PokedexResultPanel.extend({
         Config.baseurl +
         'moves/substitute" data-target="push">Substitute</a>)</small></p>';
     }
-    if (!("reflectable" in move.flags) && move.target !== "self" && move.category === "Status") {
+    if (("nonnreflectable" in move.flags) && move.target !== "self" && move.category === "Status") {
       buf +=
         '<p class="movetag"><a href="' +
         Config.baseurl +
@@ -181,7 +181,7 @@ window.PokedexMovePanel = PokedexResultPanel.extend({
         Config.baseurl +
         'abilities/magicbounce" data-target="push">Magic Bounce</a>)</small></p>';
     }
-    if (!("mirror" in move.flags) && move.target !== "self") {
+    if (("nonmirror" in move.flags) && move.target !== "self") {
       buf +=
         '<p class="movetag"><a href="' +
         Config.baseurl +
@@ -190,7 +190,7 @@ window.PokedexMovePanel = PokedexResultPanel.extend({
         'moves/mirrormove" data-target="push">Mirror Move</a>)</small></p>';
     }
     if (
-      !("snatch" in move.flags) &&
+      ("nonsnatchable" in move.flags) &&
       (move.target === "self" || move.target === "allyTeam" || move.target === "adjacentAllyOrSelf")
     ) {
       buf +=
