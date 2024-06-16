@@ -12,7 +12,7 @@
       -120,
       0
     ],
-    "venusaurgmax": [
+    "venusaurgigantamax": [
       -200,
       -3480
     ],
@@ -32,7 +32,7 @@
       -240,
       0
     ],
-    "charizardgmax": [
+    "charizardgigantamax": [
       -80,
       -3420
     ],
@@ -56,7 +56,7 @@
       -360,
       0
     ],
-    "blastoisegmax": [
+    "blastoisegigantamax": [
       -240,
       -3480
     ],
@@ -76,7 +76,7 @@
       0,
       -30
     ],
-    "butterfreegmax": [
+    "butterfreegigantamax": [
       -120,
       -3420
     ],
@@ -116,7 +116,7 @@
       -280,
       -30
     ],
-    "rattataalola": [
+    "rattataalolan": [
       -440,
       -2850
     ],
@@ -124,11 +124,11 @@
       -320,
       -30
     ],
-    "raticatealola": [
+    "raticatealolan": [
       0,
       -2880
     ],
-    "raticatealolatotem": [
+    "raticatealolantotem": [
       0,
       -2880
     ],
@@ -152,7 +152,7 @@
       -40,
       -60
     ],
-    "pikachualola": [
+    "pikachualolan": [
       -80,
       -2970
     ],
@@ -164,7 +164,7 @@
       -280,
       -2580
     ],
-    "pikachugmax": [
+    "pikachugigantamax": [
       -160,
       -3420
     ],
@@ -216,7 +216,7 @@
       -80,
       -60
     ],
-    "raichualola": [
+    "raichualolan": [
       -40,
       -2880
     ],
@@ -224,7 +224,7 @@
       -120,
       -60
     ],
-    "sandshrewalola": [
+    "sandshrewalolan": [
       -80,
       -2880
     ],
@@ -232,7 +232,7 @@
       -160,
       -60
     ],
-    "sandslashalola": [
+    "sandslashalolan": [
       -120,
       -2880
     ],
@@ -272,7 +272,7 @@
       -40,
       -90
     ],
-    "vulpixalola": [
+    "vulpixalolan": [
       -160,
       -2880
     ],
@@ -280,7 +280,7 @@
       -80,
       -90
     ],
-    "ninetalesalola": [
+    "ninetalesalolan": [
       -200,
       -2880
     ],
@@ -332,7 +332,7 @@
       -80,
       -120
     ],
-    "diglettalola": [
+    "diglettalolan": [
       -240,
       -2880
     ],
@@ -340,7 +340,7 @@
       -120,
       -120
     ],
-    "dugtrioalola": [
+    "dugtrioalolan": [
       -240,
       -3510
     ],
@@ -348,15 +348,15 @@
       -160,
       -120
     ],
-    "meowthalola": [
+    "meowthalolan": [
       -320,
       -2880
     ],
-    "meowthgalar": [
+    "meowthgalarian": [
       -400,
       -2970
     ],
-    "meowthgmax": [
+    "meowthgigantamax": [
       -200,
       -3420
     ],
@@ -364,7 +364,7 @@
       -200,
       -120
     ],
-    "persianalola": [
+    "persianalolan": [
       -360,
       -2880
     ],
@@ -388,7 +388,7 @@
       -400,
       -120
     ],
-    "growlithehisui": [
+    "growlithehisuian": [
       -80,
       -3090
     ],
@@ -396,7 +396,7 @@
       -440,
       -120
     ],
-    "arcaninehisui": [
+    "arcaninehisuian": [
       -120,
       -3090
     ],
@@ -440,7 +440,7 @@
       -320,
       -150
     ],
-    "machampgmax": [
+    "machampgigantamax": [
       -240,
       -3420
     ],
@@ -468,7 +468,7 @@
       -80,
       -180
     ],
-    "geodudealola": [
+    "geodudealolan": [
       -400,
       -2880
     ],
@@ -476,7 +476,7 @@
       -120,
       -180
     ],
-    "graveleralola": [
+    "graveleralolan": [
       -440,
       -2880
     ],
@@ -484,7 +484,7 @@
       -160,
       -180
     ],
-    "golemalola": [
+    "golemalolan": [
       0,
       -2910
     ],
@@ -492,7 +492,7 @@
       -200,
       -180
     ],
-    "ponytagalar": [
+    "ponytagalarian": [
       -440,
       -2970
     ],
@@ -500,7 +500,7 @@
       -240,
       -180
     ],
-    "rapidashgalar": [
+    "rapidashgalarian": [
       0,
       -3000
     ],
@@ -508,7 +508,7 @@
       -280,
       -180
     ],
-    "slowpokegalar": [
+    "slowpokegalarian": [
       -160,
       -3060
     ],
@@ -516,7 +516,7 @@
       -320,
       -180
     ],
-    "slowbrogalar": [
+    "slowbrogalarian": [
       -200,
       -3060
     ],
@@ -536,7 +536,7 @@
       -440,
       -180
     ],
-    "farfetchdgalar": [
+    "farfetchdgalarian": [
       -40,
       -3000
     ],
@@ -560,7 +560,7 @@
       -160,
       -210
     ],
-    "grimeralola": [
+    "grimeralolan": [
       -40,
       -2910
     ],
@@ -568,7 +568,7 @@
       -200,
       -210
     ],
-    "mukalola": [
+    "mukalolan": [
       -360,
       -3510
     ],
@@ -592,7 +592,7 @@
       -400,
       -210
     ],
-    "gengargmax": [
+    "gengargigantamax": [
       -280,
       -3420
     ],
@@ -620,7 +620,7 @@
       -400,
       -3510
     ],
-    "kinglergmax": [
+    "kinglergigantamax": [
       -320,
       -3420
     ],
@@ -628,7 +628,7 @@
       -160,
       -240
     ],
-    "voltorbhisui": [
+    "voltorbhisuian": [
       -160,
       -3090
     ],
@@ -636,7 +636,7 @@
       -200,
       -240
     ],
-    "electrodehisui": [
+    "electrodehisuian": [
       -200,
       -3090
     ],
@@ -648,7 +648,7 @@
       -280,
       -240
     ],
-    "exeggutoralola": [
+    "exeggutoralolan": [
       -120,
       -2910
     ],
@@ -660,11 +660,11 @@
       -360,
       -240
     ],
-    "marowakalola": [
+    "marowakalolan": [
       -160,
       -2910
     ],
-    "marowakalolatotem": [
+    "marowakalolantotem": [
       -160,
       -2910
     ],
@@ -688,7 +688,7 @@
       -80,
       -270
     ],
-    "weezinggalar": [
+    "weezinggalarian": [
       -80,
       -3000
     ],
@@ -744,7 +744,7 @@
       -80,
       -300
     ],
-    "mrmimegalar": [
+    "mrmimegalarian": [
       -120,
       -3000
     ],
@@ -776,15 +776,15 @@
       -320,
       -300
     ],
-    "taurospaldeaaqua": [
+    "taurospaldeanaquabreed": [
       -400,
       -3120
     ],
-    "taurospaldeablaze": [
+    "taurospaldeanblazebreed": [
       -360,
       -3120
     ],
-    "taurospaldeacombat": [
+    "taurospaldeancombatbreed": [
       -320,
       -3120
     ],
@@ -804,7 +804,7 @@
       -440,
       -300
     ],
-    "laprasgmax": [
+    "laprasgigantamax": [
       -360,
       -3420
     ],
@@ -816,7 +816,7 @@
       -40,
       -330
     ],
-    "eeveegmax": [
+    "eeveegigantamax": [
       -400,
       -3420
     ],
@@ -864,7 +864,7 @@
       -440,
       -330
     ],
-    "snorlaxgmax": [
+    "snorlaxgigantamax": [
       -440,
       -3420
     ],
@@ -872,7 +872,7 @@
       0,
       -360
     ],
-    "articunogalar": [
+    "articunogalarian": [
       -320,
       -3060
     ],
@@ -880,7 +880,7 @@
       -40,
       -360
     ],
-    "zapdosgalar": [
+    "zapdosgalarian": [
       -360,
       -3060
     ],
@@ -888,7 +888,7 @@
       -80,
       -360
     ],
-    "moltresgalar": [
+    "moltresgalarian": [
       -400,
       -3060
     ],
@@ -944,7 +944,7 @@
       -40,
       -390
     ],
-    "typhlosionhisui": [
+    "typhlosionhisuian": [
       -240,
       -3090
     ],
@@ -1104,7 +1104,7 @@
       -80,
       -480
     ],
-    "wooperpaldea": [
+    "wooperpaldean": [
       -440,
       -3120
     ],
@@ -1128,7 +1128,7 @@
       -280,
       -480
     ],
-    "slowkinggalar": [
+    "slowkinggalarian": [
       -440,
       -3060
     ],
@@ -1292,7 +1292,7 @@
       -280,
       -510
     ],
-    "qwilfishhisui": [
+    "qwilfishhisuian": [
       -280,
       -3090
     ],
@@ -1320,7 +1320,7 @@
       -440,
       -3570
     ],
-    "sneaselhisui": [
+    "sneaselhisuian": [
       -320,
       -3090
     ],
@@ -1352,7 +1352,7 @@
       -240,
       -540
     ],
-    "corsolagalar": [
+    "corsolagalarian": [
       -160,
       -3000
     ],
@@ -1540,7 +1540,7 @@
       -440,
       -630
     ],
-    "zigzagoongalar": [
+    "zigzagoongalarian": [
       -200,
       -3000
     ],
@@ -1548,7 +1548,7 @@
       0,
       -660
     ],
-    "linoonegalar": [
+    "linoonegalarian": [
       -240,
       -3000
     ],
@@ -1932,7 +1932,7 @@
       -80,
       -870
     ],
-    "castform": [
+    "castformnormal": [
       -120,
       -870
     ],
@@ -2124,7 +2124,7 @@
       -40,
       -960
     ],
-    "deoxys": [
+    "deoxysnormal": [
       -80,
       -960
     ],
@@ -2240,31 +2240,31 @@
       -120,
       -1020
     ],
-    "burmy": [
+    "burmyplantcloak": [
       -160,
       -1020
     ],
-    "burmysandy": [
+    "burmysandycloak": [
       -200,
       -2670
     ],
-    "burmytrash": [
+    "burmytrashcloak": [
       -240,
       -2670
     ],
-    "wormadam": [
+    "wormadamplantcloak": [
       -200,
       -1020
     ],
-    "wormadamsandy": [
+    "wormadamsandycloak": [
       -280,
       -2670
     ],
-    "wormadamtrash": [
+    "wormadamtrashcloak": [
       -320,
       -2670
     ],
-    "mothim": [
+    "mothimplantcloak": [
       -240,
       -1020
     ],
@@ -2292,7 +2292,7 @@
       0,
       -1050
     ],
-    "cherrim": [
+    "cherrimovercast": [
       -40,
       -1050
     ],
@@ -2300,19 +2300,19 @@
       -360,
       -2670
     ],
-    "shellos": [
+    "shelloswestsea": [
       -80,
       -1050
     ],
-    "shelloseast": [
+    "shelloseastsea": [
       -400,
       -2670
     ],
-    "gastrodon": [
+    "gastrodonwestsea": [
       -120,
       -1050
     ],
-    "gastrodoneast": [
+    "gastrodoneastsea": [
       -440,
       -2670
     ],
@@ -2616,7 +2616,7 @@
       -240,
       -1200
     ],
-    "giratina": [
+    "giratinaaltered": [
       -280,
       -1200
     ],
@@ -2640,7 +2640,7 @@
       -440,
       -1200
     ],
-    "shaymin": [
+    "shayminland": [
       0,
       -1230
     ],
@@ -2648,7 +2648,7 @@
       -80,
       -3630
     ],
-    "arceus": [
+    "arceusnormal": [
       -40,
       -1230
     ],
@@ -2760,7 +2760,7 @@
       -440,
       -1230
     ],
-    "samurotthisui": [
+    "samurotthisuian": [
       -360,
       -3090
     ],
@@ -2952,11 +2952,11 @@
       -360,
       -3630
     ],
-    "lilliganthisui": [
+    "lilliganthisuian": [
       -400,
       -3090
     ],
-    "basculin": [
+    "basculinredstriped": [
       -400,
       -1350
     ],
@@ -2984,23 +2984,23 @@
       -80,
       -1380
     ],
-    "darumakagalar": [
+    "darumakagalarian": [
       -280,
       -3000
     ],
-    "darmanitan": [
+    "darmanitanstandardmode": [
       -120,
       -1380
     ],
-    "darmanitangalar": [
+    "darmanitangalarianstandardmode": [
       -320,
       -3000
     ],
-    "darmanitangalarzen": [
+    "darmanitangalarianzenmode": [
       -360,
       -3000
     ],
-    "darmanitanzen": [
+    "darmanitanzenmode": [
       -360,
       -2700
     ],
@@ -3032,7 +3032,7 @@
       -400,
       -1380
     ],
-    "yamaskgalar": [
+    "yamaskgalarian": [
       -400,
       -3000
     ],
@@ -3064,7 +3064,7 @@
       -400,
       -3630
     ],
-    "garbodorgmax": [
+    "garbodorgigantamax": [
       0,
       -3450
     ],
@@ -3072,7 +3072,7 @@
       -240,
       -1410
     ],
-    "zoruahisui": [
+    "zoruahisuian": [
       -440,
       -3090
     ],
@@ -3080,7 +3080,7 @@
       -280,
       -1410
     ],
-    "zoroarkhisui": [
+    "zoroarkhisuian": [
       0,
       -3120
     ],
@@ -3136,7 +3136,7 @@
       0,
       -3660
     ],
-    "deerling": [
+    "deerlingspring": [
       -360,
       -1440
     ],
@@ -3152,7 +3152,7 @@
       0,
       -2730
     ],
-    "sawsbuck": [
+    "sawsbuckspring": [
       -400,
       -1440
     ],
@@ -3296,7 +3296,7 @@
       -240,
       -1530
     ],
-    "stunfiskgalar": [
+    "stunfiskgalarian": [
       -440,
       -3000
     ],
@@ -3340,7 +3340,7 @@
       -160,
       -1560
     ],
-    "braviaryhisui": [
+    "braviaryhisuian": [
       -40,
       -3120
     ],
@@ -3392,7 +3392,7 @@
       -160,
       -1590
     ],
-    "tornadus": [
+    "tornadusincarnate": [
       -200,
       -1590
     ],
@@ -3400,7 +3400,7 @@
       -240,
       -2730
     ],
-    "thundurus": [
+    "thundurusincarnate": [
       -240,
       -1590
     ],
@@ -3416,7 +3416,7 @@
       -320,
       -1590
     ],
-    "landorus": [
+    "landorusincarnate": [
       -360,
       -1590
     ],
@@ -3436,7 +3436,7 @@
       -360,
       -3660
     ],
-    "keldeo": [
+    "keldeoordinary": [
       -440,
       -1590
     ],
@@ -3444,7 +3444,7 @@
       -440,
       -3660
     ],
-    "meloetta": [
+    "meloettaaria": [
       0,
       -3690
     ],
@@ -3512,7 +3512,7 @@
       -80,
       -3690
     ],
-    "greninjabond": [
+    "greninjabattlebond": [
       -40,
       -3690
     ],
@@ -3536,11 +3536,11 @@
       -120,
       -1650
     ],
-    "scatterbug": [
+    "scatterbugicysnow": [
       -160,
       -1650
     ],
-    "spewpa": [
+    "spewpaicysnow": [
       -200,
       -1650
     ],
@@ -3632,67 +3632,67 @@
       -320,
       -1650
     ],
-    "flabebe": [
+    "flabeberedflower": [
       -360,
       -1650
     ],
-    "flabebeblue": [
+    "flabebeblueflower": [
       -360,
       -2790
     ],
-    "flabebeorange": [
+    "flabebeorangeflower": [
       -400,
       -2790
     ],
-    "flabebewhite": [
+    "flabebewhiteflower": [
       -440,
       -2790
     ],
-    "flabebeyellow": [
+    "flabebeyellowflower": [
       0,
       -2820
     ],
-    "floette": [
+    "floetteredflower": [
       -400,
       -1650
     ],
-    "floetteblue": [
+    "floetteblueflower": [
       -40,
       -2820
     ],
-    "floetteorange": [
+    "floetteorangeflower": [
       -120,
       -2820
     ],
-    "floettewhite": [
+    "floettewhiteflower": [
       -160,
       -2820
     ],
-    "floetteyellow": [
+    "floetteyellowflower": [
       -200,
       -2820
     ],
-    "floetteeternal": [
+    "floetteeternalflower": [
       -80,
       -2820
     ],
-    "florges": [
+    "florgesredflower": [
       -440,
       -1650
     ],
-    "florgesblue": [
+    "florgesblueflower": [
       -240,
       -2820
     ],
-    "florgesorange": [
+    "florgesorangeflower": [
       -280,
       -2820
     ],
-    "florgeswhite": [
+    "florgeswhiteflower": [
       -320,
       -2820
     ],
-    "florgesyellow": [
+    "florgesyellowflower": [
       -360,
       -2820
     ],
@@ -3712,7 +3712,7 @@
       -120,
       -1680
     ],
-    "furfrou": [
+    "furfrounatural": [
       -160,
       -1680
     ],
@@ -3756,11 +3756,11 @@
       -200,
       -1680
     ],
-    "meowstic": [
+    "meowsticmale": [
       -240,
       -1680
     ],
-    "meowsticf": [
+    "meowsticfemale": [
       -280,
       -2850
     ],
@@ -3772,7 +3772,7 @@
       -320,
       -1680
     ],
-    "aegislash": [
+    "aegislashshield": [
       -360,
       -1680
     ],
@@ -3876,7 +3876,7 @@
       -360,
       -1740
     ],
-    "sliggoohisui": [
+    "sliggoohisuian": [
       -80,
       -3120
     ],
@@ -3884,7 +3884,7 @@
       -400,
       -1740
     ],
-    "goodrahisui": [
+    "goodrahisuian": [
       -120,
       -3120
     ],
@@ -3900,7 +3900,7 @@
       -40,
       -1770
     ],
-    "pumpkaboo": [
+    "pumpkabooaverage": [
       -80,
       -1770
     ],
@@ -3916,7 +3916,7 @@
       -80,
       -1770
     ],
-    "gourgeist": [
+    "gourgeistaverage": [
       -120,
       -1770
     ],
@@ -3940,7 +3940,7 @@
       -200,
       -1770
     ],
-    "avalugghisui": [
+    "avalugghisuian": [
       -160,
       -3120
     ],
@@ -3952,7 +3952,11 @@
       -280,
       -1770
     ],
-    "xerneas": [
+    "xerneasneutral": [
+      -320,
+      -1770
+    ],
+    "xerneasactive": [
       -320,
       -1770
     ],
@@ -3960,11 +3964,19 @@
       -360,
       -1770
     ],
-    "zygarde": [
+    "zygarde50aurabreak": [
       -360,
       -3690
     ],
-    "zygarde10": [
+    "zygarde10aurabreak": [
+      -400,
+      -3690
+    ],
+    "zygarde50powerconstruct": [
+      -360,
+      -3690
+    ],
+    "zygarde10powerconstruct": [
       -400,
       -3690
     ],
@@ -3980,7 +3992,7 @@
       -40,
       -3420
     ],
-    "hoopa": [
+    "hoopaconfined": [
       0,
       -1800
     ],
@@ -4004,7 +4016,7 @@
       -160,
       -1800
     ],
-    "decidueyehisui": [
+    "decidueyehisuian": [
       -200,
       -3120
     ],
@@ -4080,7 +4092,7 @@
       -320,
       -1830
     ],
-    "oricorio": [
+    "oricoriobaile": [
       -360,
       -1830
     ],
@@ -4112,7 +4124,7 @@
       0,
       -1860
     ],
-    "lycanroc": [
+    "lycanrocmidday": [
       -40,
       -1860
     ],
@@ -4124,7 +4136,7 @@
       -440,
       -2910
     ],
-    "wishiwashi": [
+    "wishiwashisolo": [
       -80,
       -1860
     ],
@@ -4248,7 +4260,7 @@
       -160,
       -1920
     ],
-    "silvally": [
+    "silvallynormal": [
       -200,
       -1920
     ],
@@ -4320,35 +4332,35 @@
       -280,
       -3270
     ],
-    "minior": [
+    "miniorcorered": [
       -200,
       -3720
     ],
-    "miniororange": [
+    "miniorcoreorange": [
       -240,
       -3720
     ],
-    "minioryellow": [
+    "miniorcoreyellow": [
       -280,
       -3720
     ],
-    "miniorgreen": [
+    "miniorcoregreen": [
       -320,
       -3720
     ],
-    "miniorblue": [
+    "miniorcoreblue": [
       -360,
       -3720
     ],
-    "miniorindigo": [
+    "miniorcoreindigo": [
       -440,
       -3720
     ],
-    "miniorviolet": [
+    "miniorcoreviolet": [
       -400,
       -3720
     ],
-    "miniormeteor": [
+    "miniormeteorred": [
       -160,
       -3720
     ],
@@ -4368,7 +4380,7 @@
       -360,
       -1920
     ],
-    "mimikyu": [
+    "mimikyudisguised": [
       -400,
       -1920
     ],
@@ -4380,7 +4392,7 @@
       -400,
       -1920
     ],
-    "mimikyutotem": [
+    "mimikyudisguisedtotem": [
       -400,
       -1920
     ],
@@ -4528,7 +4540,7 @@
       -200,
       -2010
     ],
-    "melmetalgmax": [
+    "melmetalgigantamax": [
       -40,
       -3450
     ],
@@ -4544,7 +4556,7 @@
       -320,
       -2010
     ],
-    "rillaboomgmax": [
+    "rillaboomgigantamax": [
       -280,
       -3480
     ],
@@ -4560,7 +4572,7 @@
       -440,
       -2010
     ],
-    "cinderacegmax": [
+    "cinderacegigantamax": [
       -320,
       -3480
     ],
@@ -4576,7 +4588,7 @@
       -80,
       -2040
     ],
-    "inteleongmax": [
+    "inteleongigantamax": [
       -360,
       -3480
     ],
@@ -4600,7 +4612,7 @@
       -280,
       -2040
     ],
-    "corviknightgmax": [
+    "corviknightgigantamax": [
       -80,
       -3450
     ],
@@ -4616,7 +4628,7 @@
       -400,
       -2040
     ],
-    "orbeetlegmax": [
+    "orbeetlegigantamax": [
       -120,
       -3450
     ],
@@ -4652,7 +4664,7 @@
       -240,
       -2070
     ],
-    "drednawgmax": [
+    "drednawgigantamax": [
       -160,
       -3450
     ],
@@ -4676,7 +4688,7 @@
       -440,
       -2070
     ],
-    "coalossalgmax": [
+    "coalossalgigantamax": [
       -200,
       -3450
     ],
@@ -4688,7 +4700,7 @@
       -40,
       -2100
     ],
-    "flapplegmax": [
+    "flapplegigantamax": [
       -240,
       -3450
     ],
@@ -4696,7 +4708,7 @@
       -80,
       -2100
     ],
-    "appletungmax": [
+    "appletungigantamax": [
       -280,
       -3450
     ],
@@ -4708,7 +4720,7 @@
       -160,
       -2100
     ],
-    "sandacondagmax": [
+    "sandacondagigantamax": [
       -320,
       -3450
     ],
@@ -4736,11 +4748,11 @@
       -320,
       -2100
     ],
-    "toxtricity": [
+    "toxtricityamped": [
       -360,
       -2100
     ],
-    "toxtricitygmax": [
+    "toxtricityampedgigantamax": [
       -360,
       -3450
     ],
@@ -4748,7 +4760,7 @@
       -80,
       -3030
     ],
-    "toxtricitylowkeygmax": [
+    "toxtricitylowkeygigantamax": [
       -360,
       -3450
     ],
@@ -4760,7 +4772,7 @@
       -440,
       -2100
     ],
-    "centiskorchgmax": [
+    "centiskorchgigantamax": [
       -400,
       -3450
     ],
@@ -4772,7 +4784,7 @@
       -40,
       -2130
     ],
-    "sinistea": [
+    "sinisteaphony": [
       -80,
       -2130
     ],
@@ -4780,7 +4792,7 @@
       -80,
       -2130
     ],
-    "polteageist": [
+    "polteageistphony": [
       -120,
       -2130
     ],
@@ -4800,7 +4812,7 @@
       -240,
       -2130
     ],
-    "hatterenegmax": [
+    "hatterenegigantamax": [
       -440,
       -3450
     ],
@@ -4816,7 +4828,7 @@
       -360,
       -2130
     ],
-    "grimmsnarlgmax": [
+    "grimmsnarlgigantamax": [
       0,
       -3480
     ],
@@ -4848,7 +4860,7 @@
       -160,
       -2160
     ],
-    "alcremie": [
+    "alcremiestrawberryvanillacream": [
       -200,
       -2160
     ],
@@ -4884,7 +4896,7 @@
       -400,
       -3030
     ],
-    "alcremiegmax": [
+    "alcremiegigantamax": [
       -40,
       -3480
     ],
@@ -4908,23 +4920,23 @@
       -400,
       -2160
     ],
-    "eiscue": [
+    "eiscueiceface": [
       -440,
       -2160
     ],
-    "eiscuenoice": [
+    "eiscuenoiceface": [
       -440,
       -3030
     ],
-    "indeedee": [
+    "indeedeemale": [
       0,
       -2190
     ],
-    "indeedeef": [
+    "indeedeefemale": [
       0,
       -3060
     ],
-    "morpeko": [
+    "morpekofullbelly": [
       -40,
       -2190
     ],
@@ -4940,7 +4952,7 @@
       -120,
       -2190
     ],
-    "copperajahgmax": [
+    "copperajahgigantamax": [
       -80,
       -3480
     ],
@@ -4964,7 +4976,7 @@
       -320,
       -2190
     ],
-    "duraludongmax": [
+    "duraludongigantamax": [
       -120,
       -3480
     ],
@@ -4980,19 +4992,19 @@
       -440,
       -2190
     ],
-    "zacian": [
+    "zacianheroofmanybattles": [
       0,
       -2220
     ],
-    "zaciancrowned": [
+    "zaciancrownedsword": [
       -80,
       -3060
     ],
-    "zamazenta": [
+    "zamazentaheroofmanybattles": [
       -40,
       -2220
     ],
-    "zamazentacrowned": [
+    "zamazentacrownedshield": [
       -120,
       -3060
     ],
@@ -5008,19 +5020,19 @@
       -120,
       -2220
     ],
-    "urshifu": [
+    "urshifusinglestrikestyle": [
       -160,
       -2220
     ],
-    "urshifugmax": [
+    "urshifusinglestrikestylegigantamax": [
       -400,
       -3480
     ],
-    "urshifurapidstrike": [
+    "urshifurapidstrikestyle": [
       -160,
       -2220
     ],
-    "urshifurapidstrikegmax": [
+    "urshifurapidstrikestylegigantamax": [
       -440,
       -3480
     ],
@@ -5052,11 +5064,11 @@
       -400,
       -2220
     ],
-    "calyrexice": [
+    "calyrexicerider": [
       0,
       -3090
     ],
-    "calyrexshadow": [
+    "calyrexshadowrider": [
       -40,
       -3090
     ],
@@ -5076,11 +5088,11 @@
       0,
       -3180
     ],
-    "basculegion": [
+    "basculegionmale": [
       -80,
       -2250
     ],
-    "basculegionf": [
+    "basculegionfemale": [
       -240,
       -3120
     ],
@@ -5092,7 +5104,7 @@
       -160,
       -2250
     ],
-    "enamorus": [
+    "enamorusincarnate": [
       -200,
       -2250
     ],
@@ -5140,11 +5152,11 @@
       -120,
       -2280
     ],
-    "oinkologne": [
+    "oinkolognemale": [
       -160,
       -2280
     ],
-    "oinkolognef": [
+    "oinkolognefemale": [
       0,
       -3150
     ],
@@ -5180,11 +5192,11 @@
       0,
       -2310
     ],
-    "maushold": [
+    "mausholdfamilyofthree": [
       -40,
       -2310
     ],
-    "mausholdfour": [
+    "mausholdfamilyoffour": [
       -80,
       -3150
     ],
@@ -5208,19 +5220,19 @@
       -240,
       -2310
     ],
-    "squawkabilly": [
+    "squawkabillygreenplumage": [
       -280,
       -2310
     ],
-    "squawkabillyblue": [
+    "squawkabillyblueplumage": [
       -200,
       -3150
     ],
-    "squawkabillywhite": [
+    "squawkabillywhiteplumage": [
       -280,
       -3150
     ],
-    "squawkabillyyellow": [
+    "squawkabillyyellowplumage": [
       -240,
       -3150
     ],
@@ -5352,7 +5364,7 @@
       -120,
       -2400
     ],
-    "palafin": [
+    "palafinzero": [
       -160,
       -2400
     ],
@@ -5412,7 +5424,7 @@
       -200,
       -2430
     ],
-    "tatsugiri": [
+    "tatsugiricurly": [
       -240,
       -2430
     ],
@@ -5436,7 +5448,7 @@
       -360,
       -2430
     ],
-    "dudunsparce": [
+    "dudunsparcetwosegment": [
       -400,
       -2430
     ],
@@ -5508,7 +5520,7 @@
       -80,
       -2490
     ],
-    "gimmighoul": [
+    "gimmighoulchest": [
       -120,
       -2490
     ],
