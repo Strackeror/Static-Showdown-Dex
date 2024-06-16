@@ -18,6 +18,7 @@ window.BattleAbilities = BattleAbilities;
 window.BattleTypeChart = BattleTypeChart;
 window.Areas = Areas;
 window.Learnsets = Learnsets;
+window.Icons = Icons;
 
 window.toID = (text) => {
   if (text?.id) {

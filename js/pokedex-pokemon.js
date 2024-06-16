@@ -174,7 +174,7 @@ window.PokedexPokemonPanel = PokedexResultPanel.extend({
 
       for (var i = 0; i < pokemon.cosmeticFormes.length; i++) {
         name =
-          `<span class="picon" style="${getPokemonIcon(pokemon.name + "-" + pokemon.cosmeticFormes[i])}"></span>` +
+          `<span class="picon" style="${getPokemonIcon(pokemon.baseSpecies + "-" + pokemon.cosmeticFormes[i])}"></span>` +
           pokemon.cosmeticFormes[i];
         buf += "," + name;
       }
