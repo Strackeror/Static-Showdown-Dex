@@ -190,8 +190,8 @@
     "critRatio": 1,
     "type": "Normal",
     "target": "",
-    "desc": "A 2-turn move that strikes\nthe foe on the 2nd turn.",
-    "shortDesc": "A 2-turn move that strikes\nthe foe on the 2nd turn.",
+    "desc": "Slashes foes from afar. Has\na high critical-hit ratio.",
+    "shortDesc": "Slashes foes from afar. Has\na high critical-hit ratio.",
     "flags": {}
   },
   "swordsdance": {
@@ -218,7 +218,7 @@
     "pp": 30,
     "priority": 0,
     "critRatio": 0,
-    "type": "Normal",
+    "type": "Steel",
     "target": "",
     "desc": "Cuts the foe with sharp\nscythes, claws, etc.",
     "shortDesc": "Cuts the foe with sharp\nscythes, claws, etc.",
@@ -587,7 +587,7 @@
   "poisonsting": {
     "num": 40,
     "accuracy": 100,
-    "basePower": 15,
+    "basePower": 30,
     "category": "Physical",
     "name": "Poison Sting",
     "pp": 35,
@@ -962,12 +962,12 @@
   "drillpeck": {
     "num": 65,
     "accuracy": 100,
-    "basePower": 80,
+    "basePower": 70,
     "category": "Physical",
     "name": "Drill Peck",
     "pp": 20,
     "priority": 0,
-    "critRatio": 0,
+    "critRatio": 1,
     "type": "Flying",
     "target": "",
     "desc": "A corkscrewing attack with\nthe beak acting as a drill.",
@@ -2492,7 +2492,7 @@
   "triplekick": {
     "num": 167,
     "accuracy": 90,
-    "basePower": 10,
+    "basePower": 20,
     "category": "Physical",
     "name": "Triple Kick",
     "pp": 10,
@@ -3451,7 +3451,7 @@
   },
   "irontail": {
     "num": 231,
-    "accuracy": 75,
+    "accuracy": 85,
     "basePower": 100,
     "category": "Physical",
     "name": "Iron Tail",
@@ -3572,7 +3572,7 @@
   "twister": {
     "num": 239,
     "accuracy": 100,
-    "basePower": 40,
+    "basePower": 60,
     "category": "Special",
     "name": "Twister",
     "pp": 20,
@@ -4472,16 +4472,16 @@
   "blazekick": {
     "num": 299,
     "accuracy": 90,
-    "basePower": 85,
+    "basePower": 130,
     "category": "Physical",
     "name": "Blaze Kick",
     "pp": 10,
     "priority": 0,
-    "critRatio": 1,
+    "critRatio": 0,
     "type": "Fire",
     "target": "",
-    "desc": "A kick with a high critical-\nhit ratio. May cause a burn.",
-    "shortDesc": "A kick with a high critical-\nhit ratio. May cause a burn.",
+    "desc": "A blazing knee kick. If it\nmisses, the user is hurt.",
+    "shortDesc": "A blazing knee kick. If it\nmisses, the user is hurt.",
     "flags": {}
   },
   "mudsport": {
@@ -4808,7 +4808,7 @@
     "pp": 20,
     "priority": 0,
     "critRatio": 0,
-    "type": "Normal",
+    "type": "Fairy",
     "target": "",
     "desc": "Makes the foe laugh to\nlower Attack and Defense.",
     "shortDesc": "Makes the foe laugh to\nlower Attack and Defense.",
@@ -6052,7 +6052,7 @@
     "name": "X-Scissor",
     "pp": 15,
     "priority": 0,
-    "critRatio": 0,
+    "critRatio": 1,
     "type": "Bug",
     "target": "",
     "desc": "Slashes the foe with crossed\nscythes, claws, etc.",
@@ -6151,7 +6151,7 @@
   },
   "focusblast": {
     "num": 411,
-    "accuracy": 70,
+    "accuracy": 80,
     "basePower": 120,
     "category": "Special",
     "name": "Focus Blast",
@@ -8146,7 +8146,7 @@
   },
   "geargrind": {
     "num": 544,
-    "accuracy": 85,
+    "accuracy": 95,
     "basePower": 50,
     "category": "Physical",
     "name": "Gear Grind",
@@ -8549,12 +8549,12 @@
     "shortDesc": "Damages adjacent Pokémon and\nheals up by half of it.",
     "flags": {}
   },
-  "forestscurs": {
+  "forestscurse": {
     "num": 571,
     "accuracy": 100,
     "basePower": 0,
     "category": "Status",
-    "name": "Forest'sCurs",
+    "name": "ForestsCurse",
     "pp": 20,
     "priority": 0,
     "critRatio": 0,
@@ -10127,7 +10127,7 @@
   "zippyzap": {
     "num": 676,
     "accuracy": 100,
-    "basePower": 80,
+    "basePower": 50,
     "category": "Physical",
     "name": "Zippy Zap",
     "pp": 10,
@@ -11905,8 +11905,8 @@
     "critRatio": 0,
     "type": "Poison",
     "target": "",
-    "desc": "Erases trap moves and Leech\nSeed. Poisons adjacent foes.",
-    "shortDesc": "Erases trap moves and Leech\nSeed. Poisons adjacent foes.",
+    "desc": "Erases trap moves and Leech\nSeed. Poisons adjecent foes.",
+    "shortDesc": "Erases trap moves and Leech\nSeed. Poisons adjecent foes.",
     "flags": {}
   },
   "doodle": {

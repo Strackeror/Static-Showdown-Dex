@@ -1,9 +1,9 @@
 {
   "": {
-    "name": "-------",
-    "num": 0,
-    "desc": "No special ability.",
-    "shortDesc": "No special ability."
+    "name": "",
+    "num": 313,
+    "desc": "",
+    "shortDesc": ""
   },
   "stench": {
     "name": "Stench",
@@ -212,8 +212,8 @@
   "illuminate": {
     "name": "Illuminate",
     "num": 35,
-    "desc": "Encounter rate increases.",
-    "shortDesc": "Encounter rate increases."
+    "desc": "Draws Bug moves.",
+    "shortDesc": "Draws Bug moves."
   },
   "trace": {
     "name": "Trace",
@@ -1840,5 +1840,47 @@
     "num": 310,
     "desc": "Confuses poisoned foes.",
     "shortDesc": "Confuses poisoned foes."
+  },
+  "blazingsoul": {
+    "name": "Blazing Soul",
+    "num": 311,
+    "desc": "Fire moves go first.",
+    "shortDesc": "Fire moves go first."
+  },
+  "binoculars": {
+    "name": "Binoculars",
+    "num": 312,
+    "desc": "Raises accuracy.",
+    "shortDesc": "Raises accuracy."
+  },
+  "stickysilk": {
+    "name": "Sticky Silk",
+    "num": 314,
+    "desc": "Sprays webs when hit.",
+    "shortDesc": "Sprays webs when hit."
+  },
+  "psionic": {
+    "name": "Psionic",
+    "num": 315,
+    "desc": "Powers up Psychic moves.",
+    "shortDesc": "Powers up Psychic moves."
+  },
+  "sharpshooter": {
+    "name": "Sharpshooter",
+    "num": 316,
+    "desc": "Boosts ballistic moves.",
+    "shortDesc": "Boosts ballistic moves."
+  },
+  "sagepact": {
+    "name": "Sage Pact",
+    "num": 317,
+    "desc": "Powers up with other Sages.",
+    "shortDesc": "Powers up with other Sages."
+  },
+  "volcanize": {
+    "name": "Volcanize",
+    "num": 318,
+    "desc": "Normal moves become Fire.",
+    "shortDesc": "Normal moves become Fire."
   }
 }

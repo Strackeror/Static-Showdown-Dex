@@ -6,8 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gendata": "tsx build/build-indexes.ts",
     "dist": "tsx build/dist.ts dist",
-    "serve": "parcel serve index.html images/**/*.png --public-url /Static-Showdown-Dex/",
-    "deploy": "npm run dist && ts-node build/gh-pages.ts"
+    "serve": "parcel serve index.html images/**/*.png --public-url /Obsidian-Emerald-Dex/",
+    "deploy": "npm run dist && tsx build/gh-pages.ts"
   },
   "author": "",
   "license": "MIT",
